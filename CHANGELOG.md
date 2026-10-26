@@ -2,6 +2,24 @@
 
 All notable changes per checkpoint. Newest first.
 
+## Checkpoint 2 — Script schema + both Frankenstein scripts (2026-10-27)
+
+- `schema/script.schema.json` (JSON Schema 2020-12): meta / chapters / scenes;
+  per-template `on_screen` validation; first scene must be `hook`; quotes blocked in
+  `copyright` texts; `quote-card` requires `notes` + `source`. Approved before scripts.
+- `tools/validate_script.py` + `schema/example.json` (one scene per template). Proven:
+  valid example passes; first-scene-not-hook rejected; copyright-with-quote rejected.
+- `sources/frankenstein.txt`: Project Gutenberg #41445, the **1818** first edition
+  (verified publisher imprint). 1818 chapter numbering used throughout.
+- `scripts/CL-11A.json` — revision, 24 scenes, 1,285 words (~8.6 min). In range.
+- `scripts/CL-11B.json` — full retelling, 55 scenes, 5,434 words (~36.2 min). In
+  range; single part (under 45 min, no split).
+- Fact-check pass: all 12 distinct verbatim quotes verified character-for-character
+  against the source (line refs in the review files); key plot claims read directly
+  (eight-feet stature, the drowning-girl rescue, Felix's beating, William's miniature,
+  Safie "the Arabian"). Notes + judgment calls in `scripts/CL-11A.review.md` and
+  `scripts/CL-11B.review.md`.
+
 ## Checkpoint 1 — Skeleton + backlog queue (2026-10-26)
 
 - Repo layout created (ARCHITECTURE §3). Renamed `assests/` → `assets/`; moved the

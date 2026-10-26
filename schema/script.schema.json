@@ -1,0 +1,240 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://readlark.tv/schema/script.schema.json",
+  "title": "ReadLark video script",
+  "description": "One JSON script drives one video. A script may only request things the fixed Remotion templates can draw. Durations come from narration audio, not from here (duration_hint is an advisory floor only). Time-based rules (title-card within 20s, no still >20s without motion, word/minute budgets) are enforced by tools/lint.py because they need the rendered audio; this schema enforces everything checkable from the script text alone.",
+  "type": "object",
+  "required": ["meta", "chapters", "scenes"],
+  "additionalProperties": false,
+
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["code", "book", "author", "year", "text_status", "format",
+                   "target_minutes", "target_words", "voice", "title", "search_phrase"],
+      "additionalProperties": false,
+      "properties": {
+        "code": {"type": "string", "pattern": "^(CL|FI|KE)-[0-9]{2}[AB]?$"},
+        "book": {"type": "string"},
+        "author": {"type": "string"},
+        "year": {"type": ["integer", "string"]},
+        "text_status": {"enum": ["public_domain", "copyright"]},
+        "format": {"type": "string"},
+        "target_minutes": {"$ref": "#/$defs/range"},
+        "target_words": {"$ref": "#/$defs/range"},
+        "voice": {"type": "string", "description": "edge-tts voice id, e.g. en-GB-RyanNeural"},
+        "title": {"type": "string", "description": "working title"},
+        "search_phrase": {"type": "string", "description": "the exact query the title targets, e.g. 'Frankenstein summary'"},
+        "part": {"type": "integer", "minimum": 1, "description": "set only when a long retelling is split into Part 1/2"},
+        "part_of": {"type": "integer", "minimum": 1, "description": "total number of parts, when split"}
+      }
+    },
+
+    "chapters": {
+      "type": "array",
+      "minItems": 1,
+      "description": "YouTube chapter markers; each names the first scene of the chapter.",
+      "items": {
+        "type": "object",
+        "required": ["title", "first_scene"],
+        "additionalProperties": false,
+        "properties": {
+          "title": {"type": "string"},
+          "first_scene": {"type": "string", "description": "id of the scene this chapter opens on"}
+        }
+      }
+    },
+
+    "scenes": {
+      "type": "array",
+      "minItems": 2,
+      "description": "Ordered. The first scene must be a hook (enforced below).",
+      "prefixItems": [
+        {"properties": {"template": {"const": "hook"}}}
+      ],
+      "items": {"$ref": "#/$defs/scene"}
+    }
+  },
+
+  "allOf": [
+    {
+      "description": "Verbatim quotes are allowed only for public-domain texts. For copyright texts, no quote-card scenes and no quote-reveal annotations.",
+      "if": {"properties": {"meta": {"properties": {"text_status": {"const": "copyright"}}}}},
+      "then": {
+        "properties": {
+          "scenes": {
+            "not": {"contains": {"properties": {"template": {"const": "quote-card"}}}}
+          }
+        }
+      }
+    }
+  ],
+
+  "$defs": {
+    "range": {
+      "type": "array",
+      "items": {"type": "number"},
+      "minItems": 2,
+      "maxItems": 2,
+      "description": "[lo, hi]"
+    },
+
+    "scene": {
+      "type": "object",
+      "required": ["id", "template", "narration"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "template": {"enum": ["hook", "title-card", "chapter-card",
+                               "parallax-still", "whiteboard", "quote-card", "end-screen"]},
+        "narration": {"type": "string", "description": "the exact words spoken; may be empty for a silent card"},
+        "duration_hint": {"type": "number", "minimum": 0, "description": "advisory seconds; real duration derives from audio"},
+        "on_screen": {"type": "object"},
+        "assets": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "image ids from licences.json or named SVG assets"
+        },
+        "notes": {"type": "string", "description": "for the human reviewer: source volume/chapter for a quote, why this image"}
+      },
+
+      "allOf": [
+        {"if": {"properties": {"template": {"const": "hook"}}},
+         "then": {"properties": {"on_screen": {"$ref": "#/$defs/on_hook"}}}},
+        {"if": {"properties": {"template": {"const": "title-card"}}},
+         "then": {"properties": {"on_screen": {"$ref": "#/$defs/on_title"}}}},
+        {"if": {"properties": {"template": {"const": "chapter-card"}}},
+         "then": {"properties": {"on_screen": {"$ref": "#/$defs/on_chapter"}}}},
+        {"if": {"properties": {"template": {"const": "parallax-still"}}},
+         "then": {"properties": {"on_screen": {"$ref": "#/$defs/on_parallax"}}}},
+        {"if": {"properties": {"template": {"const": "whiteboard"}}},
+         "then": {"properties": {"on_screen": {"$ref": "#/$defs/on_whiteboard"}}}},
+        {"if": {"properties": {"template": {"const": "quote-card"}}},
+         "then": {
+           "required": ["on_screen", "notes"],
+           "properties": {"on_screen": {"$ref": "#/$defs/on_quote"}}}},
+        {"if": {"properties": {"template": {"const": "end-screen"}}},
+         "then": {"properties": {"on_screen": {"$ref": "#/$defs/on_endscreen"}}}}
+      ]
+    },
+
+    "on_hook": {
+      "type": "object",
+      "required": ["question"],
+      "additionalProperties": false,
+      "properties": {
+        "question": {"type": "string"},
+        "plate": {"type": "string", "description": "asset id that fades in behind"}
+      }
+    },
+    "on_title": {
+      "type": "object",
+      "required": ["title", "author", "year"],
+      "additionalProperties": false,
+      "properties": {
+        "title": {"type": "string"},
+        "author": {"type": "string"},
+        "year": {"type": ["integer", "string"]},
+        "brand": {"type": "string", "default": "ReadLark"},
+        "subtitle": {"type": "string"}
+      }
+    },
+    "on_chapter": {
+      "type": "object",
+      "required": ["chapter_title"],
+      "additionalProperties": false,
+      "properties": {
+        "chapter_title": {"type": "string"},
+        "timeline": {"$ref": "#/$defs/timeline_strip"}
+      }
+    },
+    "on_parallax": {
+      "type": "object",
+      "required": ["plate"],
+      "additionalProperties": false,
+      "properties": {
+        "plate": {"type": "string", "description": "asset id of the plate to show"},
+        "camera": {"enum": ["auto", "push-in", "drift", "pan", "reveal"], "default": "auto",
+                   "description": "'auto' picks deterministically from the scene id"},
+        "caption": {"type": "string", "description": "small ink caption under the pinned plate"},
+        "annotations": {"type": "array", "items": {"$ref": "#/$defs/annotation"}}
+      }
+    },
+    "on_whiteboard": {
+      "type": "object",
+      "required": ["annotations"],
+      "additionalProperties": false,
+      "properties": {
+        "heading": {"type": "string"},
+        "annotations": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/annotation"}}
+      }
+    },
+    "on_quote": {
+      "type": "object",
+      "required": ["quote", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "quote": {"type": "string"},
+        "source": {"type": "string", "description": "volume/chapter citation, e.g. 'Vol. III, Ch. VII'"}
+      }
+    },
+    "on_endscreen": {
+      "type": "object",
+      "required": ["points_to"],
+      "additionalProperties": false,
+      "properties": {
+        "message": {"type": "string"},
+        "points_to": {"type": "string", "pattern": "^(CL|FI|KE)-[0-9]{2}[AB]?$",
+                      "description": "the video code this end screen sends the viewer to"}
+      }
+    },
+
+    "annotation": {
+      "description": "The annotation vocabulary the hand can draw. One of:",
+      "oneOf": [
+        {"type": "object", "required": ["kind", "text"], "additionalProperties": false,
+         "properties": {"kind": {"const": "label"}, "text": {"type": "string"},
+                        "at": {"$ref": "#/$defs/point"}}},
+        {"type": "object", "required": ["kind"], "additionalProperties": false,
+         "properties": {"kind": {"const": "underline"}, "target": {"type": "string"},
+                        "at": {"$ref": "#/$defs/point"}}},
+        {"type": "object", "required": ["kind"], "additionalProperties": false,
+         "properties": {"kind": {"const": "circle"}, "target": {"type": "string"},
+                        "at": {"$ref": "#/$defs/point"}}},
+        {"type": "object", "required": ["kind"], "additionalProperties": false,
+         "properties": {"kind": {"const": "arrow"},
+                        "from": {"$ref": "#/$defs/point"}, "to": {"$ref": "#/$defs/point"},
+                        "label": {"type": "string"}}},
+        {"type": "object", "required": ["kind", "nodes"], "additionalProperties": false,
+         "properties": {"kind": {"const": "character-map"},
+                        "nodes": {"type": "array", "minItems": 1, "items": {
+                          "type": "object", "required": ["id", "label"], "additionalProperties": false,
+                          "properties": {"id": {"type": "string"}, "label": {"type": "string"},
+                                         "at": {"$ref": "#/$defs/point"}}}},
+                        "edges": {"type": "array", "items": {
+                          "type": "object", "required": ["from", "to"], "additionalProperties": false,
+                          "properties": {"from": {"type": "string"}, "to": {"type": "string"},
+                                         "label": {"type": "string"}}}}}},
+        {"type": "object", "required": ["kind", "items"], "additionalProperties": false,
+         "properties": {"kind": {"const": "theme-list"},
+                        "items": {"type": "array", "minItems": 1, "items": {"type": "string"}}}},
+        {"type": "object", "required": ["kind", "lines", "source"], "additionalProperties": false,
+         "properties": {"kind": {"const": "quote-reveal"},
+                        "lines": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+                        "source": {"type": "string"}}},
+        {"$ref": "#/$defs/timeline_strip"}
+      ]
+    },
+    "timeline_strip": {
+      "type": "object", "required": ["kind", "segments"], "additionalProperties": false,
+      "properties": {"kind": {"const": "timeline-strip"},
+                     "segments": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+                     "marker": {"type": "integer", "minimum": 0,
+                                "description": "index of the segment the marker sits on"}}
+    },
+    "point": {
+      "type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2,
+      "description": "[x, y] in 0..1 fractions of the frame"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "code": "CL-99A",
+    "book": "Example Book",
+    "author": "A. Writer",
+    "year": 1818,
+    "text_status": "public_domain",
+    "format": "Revision video",
+    "target_minutes": [8, 12],
+    "target_words": [1200, 1800],
+    "voice": "en-GB-RyanNeural",
+    "title": "Example — one scene per template",
+    "search_phrase": "example summary"
+  },
+  "chapters": [
+    {"title": "Opening", "first_scene": "hook"},
+    {"title": "The book", "first_scene": "ch-vol1"}
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "What if the monster was never the real villain?",
+      "on_screen": {"question": "Who is the real monster?", "plate": "plate-arctic"},
+      "assets": ["plate-arctic"],
+      "notes": "Opens on the hook before any title, per rule 5."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "",
+      "on_screen": {"title": "Example Book", "author": "A. Writer", "year": 1818},
+      "duration_hint": 5
+    },
+    {
+      "id": "ch-vol1",
+      "template": "chapter-card",
+      "narration": "Volume One.",
+      "on_screen": {"chapter_title": "Volume I",
+        "timeline": {"kind": "timeline-strip", "segments": ["Vol I", "Vol II", "Vol III"], "marker": 0}}
+    },
+    {
+      "id": "plate-1",
+      "template": "parallax-still",
+      "narration": "A ship is trapped in the northern ice.",
+      "on_screen": {"plate": "plate-arctic", "camera": "push-in",
+        "caption": "The Arctic, where the story begins and ends",
+        "annotations": [{"kind": "label", "text": "the frame story", "at": [0.2, 0.3]}]},
+      "assets": ["plate-arctic"],
+      "notes": "Caspar David Friedrich, The Sea of Ice (PD)."
+    },
+    {
+      "id": "characters",
+      "template": "whiteboard",
+      "narration": "Three lives bind the story together.",
+      "on_screen": {"heading": "Who's who",
+        "annotations": [
+          {"kind": "character-map",
+           "nodes": [{"id": "v", "label": "Victor"}, {"id": "c", "label": "Creature"}],
+           "edges": [{"from": "v", "to": "c", "label": "creates, then abandons"}]},
+          {"kind": "theme-list", "items": ["Ambition", "Responsibility", "Isolation"]}
+        ]}
+    },
+    {
+      "id": "quote-1",
+      "template": "quote-card",
+      "narration": "He asks the question the whole book turns on.",
+      "on_screen": {"quote": "Did I request thee, Maker, from my clay to mould me man?",
+        "source": "Epigraph (Paradise Lost, X)"},
+      "notes": "Title-page epigraph; public domain."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "Want the whole story? The full retelling is linked here.",
+      "on_screen": {"message": "Watch the full retelling", "points_to": "CL-99B"}
+    }
+  ]
+}
