@@ -58,7 +58,13 @@ def parse_phase(value: str | None) -> int | None:
 
 def load_rows() -> list[dict]:
     if not WORKBOOK.exists():
-        sys.exit(f"ERROR: workbook not found: {WORKBOOK}")
+        # The strategy workbook is kept local-only (not in the public repo). If it
+        # is absent but a previously-generated videos.json exists, treat ingest as a
+        # no-op so CI can run on the committed queue.
+        if OUT.exists():
+            print(f"workbook absent ({WORKBOOK.name}); using committed {OUT.name}")
+            raise SystemExit(0)
+        sys.exit(f"ERROR: workbook not found and no {OUT.name}: {WORKBOOK}")
     wb = openpyxl.load_workbook(WORKBOOK, data_only=True)
     ws = wb["Backlog"]
     header = [ws.cell(1, c).value for c in range(1, ws.max_column + 1)]

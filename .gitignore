@@ -30,5 +30,10 @@ assets/art/*/*.tiff
 !assets/art/*/licences.json
 !assets/art/*/queries.json
 
+# Strategy workbooks — kept local only, never pushed (repo is public).
+# CI uses the committed backlog/videos.json instead.
+backlog/book_videos_backlog.xlsx
+backlog/book_explainer_channel_scan.xlsx
+
 # OS
 .DS_Store
