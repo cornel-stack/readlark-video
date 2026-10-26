@@ -2,6 +2,26 @@
 
 All notable changes per checkpoint. Newest first.
 
+## Checkpoint 3 — Art pipeline (in progress) (2026-10-27)
+
+- `assets/art/CL-11/queries.json`: art-query manifest (data, like the script) mapping
+  each plate id to an artist-specific Wikimedia Commons query; supports `count`,
+  `exact_title`, `creator_override`.
+- `tools/art_fetch.py`: searches Wikimedia Commons (no key), filters strictly to
+  PD/CC0 via licence metadata, keeps the highest-res candidate, converts TIFF→JPG,
+  writes full provenance to `licences.json`, builds a contact sheet. `--ids` merge
+  mode for gap-fills. Rijksmuseum omitted (API needs a key — rule 1).
+- **27 plates fetched**, all PD/CC0, all 19 script-referenced ids covered, every
+  record has complete provenance. High-res Romantic works (Friedrich *Eismeer*,
+  *Wanderer*, *Abbey in the Oakwood*, *Monk by the Sea*, *Moonrise*; Fuseli
+  *Nightmare*; Wright alchemist + *Iron Forge*; Turner storm; Church *Aurora*;
+  Biard *Magdalena Bay*; Van Gogh *Potato Eaters*; Rembrandt *Anatomy Lesson*).
+- `tools/depth_layers.py` written (Depth Anything V2 small → feathered 3-layer
+  parallax + inpaint + `layers.json`; "flat" fallback). **Approach pending approval
+  before the heavy install/run** (the ask-first depth/parallax decision).
+- `.gitignore`: plate binaries ignored (regenerable from `licences.json`); provenance
+  JSON tracked.
+
 ## Checkpoint 2 — Script schema + both Frankenstein scripts (2026-10-27)
 
 - `schema/script.schema.json` (JSON Schema 2020-12): meta / chapters / scenes;

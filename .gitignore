@@ -13,12 +13,22 @@ assets/audio/
 assets/art/*/layers/
 .cache/
 
+# Fetched plate binaries are heavy and regenerable from the source URLs in
+# licences.json — keep them out of git; version only the provenance + queries.
+assets/art/*/*.jpg
+assets/art/*/*.jpeg
+assets/art/*/*.png
+assets/art/*/*.tif
+assets/art/*/*.tiff
+
 # Keep these tracked:
 # - backlog/videos.json (generated but small, useful to diff)
 # - assets/art/*/licences.json (provenance — must be versioned)
+# - assets/art/*/queries.json (the art-query manifest — an input, like the script)
 # - scripts/*.json, schema/*.json, sources/*.txt
 !backlog/videos.json
 !assets/art/*/licences.json
+!assets/art/*/queries.json
 
 # OS
 .DS_Store

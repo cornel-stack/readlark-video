@@ -1,0 +1,147 @@
+{
+  "book_code": "CL-11",
+  "book": "Frankenstein",
+  "note": "Art queries for Frankenstein plates. Primary source is Wikimedia Commons (no key, PD/CC0 only). Each entry maps a script plate id to an artist-specific query targeting a known public-domain Romantic-era artwork that fits the scene. The fetcher adds 'filetype:bitmap' and keeps the highest-resolution PD candidate. 'count' > 1 fetches alternates to choose from. Rijksmuseum is intentionally omitted (its API needs a key — conflicts with hard rule 1).",
+  "plates": [
+    {
+      "id": "plate-sea-of-ice",
+      "count": 2,
+      "query": "Caspar David Friedrich Das Eismeer",
+      "want": "Friedrich, 'The Sea of Ice' (1823-24)"
+    },
+    {
+      "id": "plate-wanderer",
+      "count": 2,
+      "query": "Caspar David Friedrich Wanderer above the Sea of Fog",
+      "want": "Friedrich, 'Wanderer above the Sea of Fog' (1818)"
+    },
+    {
+      "id": "plate-nightmare-fuseli",
+      "count": 2,
+      "query": "Henry Fuseli The Nightmare",
+      "want": "Fuseli, 'The Nightmare' (1781)"
+    },
+    {
+      "id": "plate-holst-frontispiece",
+      "count": 2,
+      "query": "Frankenstein Theodor von Holst frontispiece 1831",
+      "want": "Holst frontispiece to the 1831 Frankenstein"
+    },
+    {
+      "id": "plate-lab-wright",
+      "count": 2,
+      "query": "Joseph Wright Derby Alchemist in Search of the Philosopher's Stone",
+      "want": "Wright of Derby, 'The Alchemist…' (candlelit experiment)"
+    },
+    {
+      "id": "plate-mer-de-glace",
+      "count": 2,
+      "query": "Mer de Glace glacier Chamonix",
+      "want": "The Mer de Glace glacier"
+    },
+    {
+      "id": "plate-geneva-lake",
+      "count": 1,
+      "query": "Ferdinand Hodler Lake Geneva Leman",
+      "want": "Hodler, Lake Geneva (PD, d.1918)"
+    },
+    {
+      "id": "plate-geneva-storm",
+      "count": 1,
+      "query": "Alexandre Calame Alpine",
+      "want": "Calame, dramatic Alpine storm (PD, d.1864)"
+    },
+    {
+      "id": "plate-alpine-sublime",
+      "count": 1,
+      "query": "Caspar David Friedrich Riesengebirge mountains",
+      "want": "Friedrich, sublime mountain range"
+    },
+    {
+      "id": "plate-cottage",
+      "count": 1,
+      "query": "Vincent van Gogh The Potato Eaters",
+      "want": "Humble cottage interior, warm light",
+      "exact_title": "File:The Potato Eaters - Vincent Van Gogh.jpg",
+      "creator_override": "Vincent van Gogh (1885; PD-Art reproduction via Wikimedia Commons)"
+    },
+    {
+      "id": "plate-reading",
+      "count": 1,
+      "query": "man reading by candlelight painting",
+      "want": "Reading by candlelight"
+    },
+    {
+      "id": "plate-fire",
+      "count": 1,
+      "query": "Joseph Wright Derby An Iron Forge",
+      "want": "Wright of Derby, firelight at night"
+    },
+    {
+      "id": "plate-graveyard",
+      "count": 1,
+      "query": "The Abbey in the Oakwood Caspar David Friedrich",
+      "want": "Friedrich, 'Abbey in the Oakwood' (moonlit ruin/graves)"
+    },
+    {
+      "id": "plate-orkney",
+      "count": 1,
+      "query": "Caspar David Friedrich Monk by the Sea",
+      "want": "Friedrich, \"The Monk by the Sea\" (bleak empty shore)"
+    },
+    {
+      "id": "plate-storm-sea",
+      "count": 1,
+      "query": "Turner Snow Storm Steam-Boat off a Harbour's Mouth",
+      "want": "Turner, storm at sea"
+    },
+    {
+      "id": "plate-ireland-beach",
+      "count": 1,
+      "query": "Caspar David Friedrich Moonrise over the Sea",
+      "want": "Friedrich, moonlit shore"
+    },
+    {
+      "id": "plate-wedding-evian",
+      "count": 1,
+      "query": "Caspar David Friedrich Two Men Contemplating the Moon",
+      "want": "Friedrich, moonlit night"
+    },
+    {
+      "id": "plate-arctic-ship",
+      "count": 1,
+      "query": "Francois-Auguste Biard Magdalena Bay",
+      "want": "Ship beset in polar ice"
+    },
+    {
+      "id": "plate-funeral-pile",
+      "count": 1,
+      "query": "Frederic Edwin Church Aurora Borealis",
+      "want": "Church, 'Aurora Borealis' over the Arctic"
+    },
+    {
+      "id": "plate-x-geneva-city",
+      "count": 1,
+      "query": "Geneva Switzerland old city view painting 19th century",
+      "want": "Establishing: Geneva (spare)"
+    },
+    {
+      "id": "plate-x-ingolstadt",
+      "count": 1,
+      "query": "Rembrandt anatomy lesson",
+      "want": "Establishing: anatomy theatre (spare)"
+    },
+    {
+      "id": "plate-x-rhine",
+      "count": 1,
+      "query": "Rhine river castle painting Romantic",
+      "want": "Establishing: the Rhine journey (spare)"
+    },
+    {
+      "id": "plate-x-ice-floe",
+      "count": 1,
+      "query": "Arctic polar ice floes painting 19th century",
+      "want": "Establishing: polar ice (spare)"
+    }
+  ]
+}
