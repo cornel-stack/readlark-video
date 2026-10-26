@@ -67,9 +67,15 @@ def process_plate(img_path: Path, out_dir: Path, pid: str, n_layers: int, depth_
     from PIL import Image  # noqa
 
     image = Image.open(img_path).convert("RGB")
+    # Downscale to a working resolution: 2560px long side is ample for a 1080p
+    # frame with push-in headroom, and keeps depth/inpaint memory sane on CI runners
+    # (some plates are 70+ megapixels).
+    MAX_SIDE = 2560
+    if max(image.size) > MAX_SIDE:
+        image.thumbnail((MAX_SIDE, MAX_SIDE), Image.LANCZOS)
     depth_out = depth_pipe(image)
     depth = np.array(depth_out["depth"], dtype=np.float32)
-    depth = (depth - depth.min()) / (depth.ptp() + 1e-6)  # 0=far, 1=near
+    depth = (depth - depth.min()) / (np.ptp(depth) + 1e-6)  # 0=far, 1=near
     rgb = np.array(image)
     H, W = depth.shape
 
