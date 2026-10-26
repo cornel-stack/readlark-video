@@ -1,0 +1,22 @@
+{
+  "name": "readlark-remotion",
+  "version": "0.1.0",
+  "description": "ReadLark video factory — Remotion compositions (fixed templates, data-driven).",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render",
+    "still": "remotion still",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.0",
+    "typescript": "5.9.2"
+  }
+}

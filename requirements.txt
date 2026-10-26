@@ -1,0 +1,7 @@
+# Core tooling — pinned. Install into the project venv:
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+# Heavy ML deps (edge-tts, faster-whisper, Depth Anything) live in
+# requirements-ml.txt and are installed at their checkpoints (3 and 5).
+openpyxl==3.1.5
+requests==2.34.2
+Pillow==13.0.0

@@ -1,0 +1,12 @@
+# Heavier ML / media dependencies, installed at their checkpoints to keep the
+# core build light. Versions are confirmed and re-pinned when first installed.
+#   .venv/bin/pip install -r requirements-ml.txt
+#
+# Checkpoint 5 (narration + captions):
+edge-tts==6.1.12
+faster-whisper==1.1.0
+#
+# Checkpoint 3 (depth / parallax layers) — CPU PyTorch:
+# torch (CPU wheel), transformers, opencv-python, numpy, scipy are added here
+# once validated on real plates, so the exact wheel for this machine is pinned
+# rather than guessed.

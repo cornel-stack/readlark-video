@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Remotion
+remotion/node_modules/
+remotion/.remotion/
+
+# Generated media & caches (regenerate from data — keep the repo clean)
+out/
+assets/audio/
+assets/art/*/layers/
+.cache/
+
+# Keep these tracked:
+# - backlog/videos.json (generated but small, useful to diff)
+# - assets/art/*/licences.json (provenance — must be versioned)
+# - scripts/*.json, schema/*.json, sources/*.txt
+!backlog/videos.json
+!assets/art/*/licences.json
+
+# OS
+.DS_Store

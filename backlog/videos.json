@@ -1,0 +1,3452 @@
+[
+  {
+    "code": "CL-11A",
+    "book_code": "CL-11",
+    "upload": "A",
+    "book": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "lane": "Curriculum classics",
+    "series": "Gothic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 1,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-11B",
+    "book_code": "CL-11",
+    "upload": "B",
+    "book": "Frankenstein",
+    "author": "Mary Shelley",
+    "year": 1818,
+    "lane": "Curriculum classics",
+    "series": "Gothic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 1,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-28A",
+    "book_code": "CL-28",
+    "upload": "A",
+    "book": "The Iliad",
+    "author": "Homer",
+    "year": -750,
+    "lane": "Curriculum classics",
+    "series": "Epic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 1,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-28B",
+    "book_code": "CL-28",
+    "upload": "B",
+    "book": "The Iliad",
+    "author": "Homer",
+    "year": -750,
+    "lane": "Curriculum classics",
+    "series": "Epic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 2,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-25A",
+    "book_code": "CL-25",
+    "upload": "A",
+    "book": "Antigone",
+    "author": "Sophocles",
+    "year": -441,
+    "lane": "Curriculum classics",
+    "series": "Greek drama",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 2,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-25B",
+    "book_code": "CL-25",
+    "upload": "B",
+    "book": "Antigone",
+    "author": "Sophocles",
+    "year": -441,
+    "lane": "Curriculum classics",
+    "series": "Greek drama",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 2,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-01A",
+    "book_code": "CL-01",
+    "upload": "A",
+    "book": "Macbeth",
+    "author": "William Shakespeare",
+    "year": 1606,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 3,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-01B",
+    "book_code": "CL-01",
+    "upload": "B",
+    "book": "Macbeth",
+    "author": "William Shakespeare",
+    "year": 1606,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 3,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-49A",
+    "book_code": "CL-49",
+    "upload": "A",
+    "book": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "year": 1915,
+    "lane": "Curriculum classics",
+    "series": "Modern",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 3,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-49B",
+    "book_code": "CL-49",
+    "upload": "B",
+    "book": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "year": 1915,
+    "lane": "Curriculum classics",
+    "series": "Modern",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 4,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-13A",
+    "book_code": "CL-13",
+    "upload": "A",
+    "book": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "lane": "Curriculum classics",
+    "series": "Victorian",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 4,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-13B",
+    "book_code": "CL-13",
+    "upload": "B",
+    "book": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": 1847,
+    "lane": "Curriculum classics",
+    "series": "Victorian",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 4,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-50A",
+    "book_code": "CL-50",
+    "upload": "A",
+    "book": "Siddhartha",
+    "author": "Hermann Hesse",
+    "year": 1922,
+    "lane": "Curriculum classics",
+    "series": "Modern",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 5,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-50B",
+    "book_code": "CL-50",
+    "upload": "B",
+    "book": "Siddhartha",
+    "author": "Hermann Hesse",
+    "year": 1922,
+    "lane": "Curriculum classics",
+    "series": "Modern",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 5,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-12A",
+    "book_code": "CL-12",
+    "upload": "A",
+    "book": "Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "lane": "Curriculum classics",
+    "series": "Gothic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 5,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-12B",
+    "book_code": "CL-12",
+    "upload": "B",
+    "book": "Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "lane": "Curriculum classics",
+    "series": "Gothic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 6,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-07A",
+    "book_code": "CL-07",
+    "upload": "A",
+    "book": "A Midsummer Night's Dream",
+    "author": "William Shakespeare",
+    "year": 1595,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 6,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-07B",
+    "book_code": "CL-07",
+    "upload": "B",
+    "book": "A Midsummer Night's Dream",
+    "author": "William Shakespeare",
+    "year": 1595,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 6,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-14A",
+    "book_code": "CL-14",
+    "upload": "A",
+    "book": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "lane": "Curriculum classics",
+    "series": "Victorian",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 7,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-14B",
+    "book_code": "CL-14",
+    "upload": "B",
+    "book": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": 1847,
+    "lane": "Curriculum classics",
+    "series": "Victorian",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 7,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-30A",
+    "book_code": "CL-30",
+    "upload": "A",
+    "book": "The Canterbury Tales",
+    "author": "Geoffrey Chaucer",
+    "year": 1400,
+    "lane": "Curriculum classics",
+    "series": "Medieval",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 7,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-30B",
+    "book_code": "CL-30",
+    "upload": "B",
+    "book": "The Canterbury Tales",
+    "author": "Geoffrey Chaucer",
+    "year": 1400,
+    "lane": "Curriculum classics",
+    "series": "Medieval",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 8,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-29A",
+    "book_code": "CL-29",
+    "upload": "A",
+    "book": "Beowulf",
+    "author": "Anonymous",
+    "year": 1000,
+    "lane": "Curriculum classics",
+    "series": "Epic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 8,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-29B",
+    "book_code": "CL-29",
+    "upload": "B",
+    "book": "Beowulf",
+    "author": "Anonymous",
+    "year": 1000,
+    "lane": "Curriculum classics",
+    "series": "Epic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 8,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-02A",
+    "book_code": "CL-02",
+    "upload": "A",
+    "book": "Romeo and Juliet",
+    "author": "William Shakespeare",
+    "year": 1597,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 9,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-02B",
+    "book_code": "CL-02",
+    "upload": "B",
+    "book": "Romeo and Juliet",
+    "author": "William Shakespeare",
+    "year": 1597,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 9,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-10A",
+    "book_code": "CL-10",
+    "upload": "A",
+    "book": "The Tempest",
+    "author": "William Shakespeare",
+    "year": 1611,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 9,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-10B",
+    "book_code": "CL-10",
+    "upload": "B",
+    "book": "The Tempest",
+    "author": "William Shakespeare",
+    "year": 1611,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 10,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-05A",
+    "book_code": "CL-05",
+    "upload": "A",
+    "book": "The Merchant of Venice",
+    "author": "William Shakespeare",
+    "year": 1596,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 10,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-05B",
+    "book_code": "CL-05",
+    "upload": "B",
+    "book": "The Merchant of Venice",
+    "author": "William Shakespeare",
+    "year": 1596,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 10,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-03A",
+    "book_code": "CL-03",
+    "upload": "A",
+    "book": "Hamlet",
+    "author": "William Shakespeare",
+    "year": 1603,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 11,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-03B",
+    "book_code": "CL-03",
+    "upload": "B",
+    "book": "Hamlet",
+    "author": "William Shakespeare",
+    "year": 1603,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 11,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-19A",
+    "book_code": "CL-19",
+    "upload": "A",
+    "book": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "lane": "Curriculum classics",
+    "series": "Gothic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 11,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-19B",
+    "book_code": "CL-19",
+    "upload": "B",
+    "book": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": 1890,
+    "lane": "Curriculum classics",
+    "series": "Gothic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 12,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-48A",
+    "book_code": "CL-48",
+    "upload": "A",
+    "book": "A Doll's House",
+    "author": "Henrik Ibsen",
+    "year": 1879,
+    "lane": "Curriculum classics",
+    "series": "Drama",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 12,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-48B",
+    "book_code": "CL-48",
+    "upload": "B",
+    "book": "A Doll's House",
+    "author": "Henrik Ibsen",
+    "year": 1879,
+    "lane": "Curriculum classics",
+    "series": "Drama",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 12,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-04A",
+    "book_code": "CL-04",
+    "upload": "A",
+    "book": "Othello",
+    "author": "William Shakespeare",
+    "year": 1603,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 13,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-04B",
+    "book_code": "CL-04",
+    "upload": "B",
+    "book": "Othello",
+    "author": "William Shakespeare",
+    "year": 1603,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 13,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-23A",
+    "book_code": "CL-23",
+    "upload": "A",
+    "book": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "lane": "Curriculum classics",
+    "series": "Modern",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 13,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-23B",
+    "book_code": "CL-23",
+    "upload": "B",
+    "book": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "year": 1899,
+    "lane": "Curriculum classics",
+    "series": "Modern",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 14,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-15A",
+    "book_code": "CL-15",
+    "upload": "A",
+    "book": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "lane": "Curriculum classics",
+    "series": "Victorian",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 14,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-15B",
+    "book_code": "CL-15",
+    "upload": "B",
+    "book": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "lane": "Curriculum classics",
+    "series": "Victorian",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 14,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-16A",
+    "book_code": "CL-16",
+    "upload": "A",
+    "book": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "lane": "Curriculum classics",
+    "series": "Dickens",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 15,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-16B",
+    "book_code": "CL-16",
+    "upload": "B",
+    "book": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": 1843,
+    "lane": "Curriculum classics",
+    "series": "Dickens",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 15,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-24A",
+    "book_code": "CL-24",
+    "upload": "A",
+    "book": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 15,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-24B",
+    "book_code": "CL-24",
+    "upload": "B",
+    "book": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 16,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-18A",
+    "book_code": "CL-18",
+    "upload": "A",
+    "book": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "lane": "Curriculum classics",
+    "series": "Dickens",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 1,
+    "week": 16,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-18B",
+    "book_code": "CL-18",
+    "upload": "B",
+    "book": "Oliver Twist",
+    "author": "Charles Dickens",
+    "year": 1838,
+    "lane": "Curriculum classics",
+    "series": "Dickens",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 1,
+    "week": 16,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-32A",
+    "book_code": "CL-32",
+    "upload": "A",
+    "book": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "lane": "Curriculum classics",
+    "series": "Orwell",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 17,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-32B",
+    "book_code": "CL-32",
+    "upload": "B",
+    "book": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "lane": "Curriculum classics",
+    "series": "Orwell",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 17,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-19",
+    "book_code": "FI-19",
+    "upload": "-",
+    "book": "Dune",
+    "author": "Frank Herbert",
+    "year": 1965,
+    "lane": "Modern fiction",
+    "series": "Dune (6 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 17,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-39A",
+    "book_code": "CL-39",
+    "upload": "A",
+    "book": "Things Fall Apart",
+    "author": "Chinua Achebe",
+    "year": 1958,
+    "lane": "Curriculum classics",
+    "series": "African literature",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 18,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-39B",
+    "book_code": "CL-39",
+    "upload": "B",
+    "book": "Things Fall Apart",
+    "author": "Chinua Achebe",
+    "year": 1958,
+    "lane": "Curriculum classics",
+    "series": "African literature",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 18,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-20",
+    "book_code": "FI-20",
+    "upload": "-",
+    "book": "Dune Messiah",
+    "author": "Frank Herbert",
+    "year": 1969,
+    "lane": "Modern fiction",
+    "series": "Dune (6 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 18,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-31A",
+    "book_code": "CL-31",
+    "upload": "A",
+    "book": "Animal Farm",
+    "author": "George Orwell",
+    "year": 1945,
+    "lane": "Curriculum classics",
+    "series": "Orwell",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 19,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-31B",
+    "book_code": "CL-31",
+    "upload": "B",
+    "book": "Animal Farm",
+    "author": "George Orwell",
+    "year": 1945,
+    "lane": "Curriculum classics",
+    "series": "Orwell",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 19,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-08",
+    "book_code": "FI-08",
+    "upload": "-",
+    "book": "The Love Hypothesis",
+    "author": "Ali Hazelwood",
+    "year": 2021,
+    "lane": "Modern fiction",
+    "series": "Romance",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 19,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-46A",
+    "book_code": "CL-46",
+    "upload": "A",
+    "book": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": 2003,
+    "lane": "Curriculum classics",
+    "series": "Contemporary",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 20,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-46B",
+    "book_code": "CL-46",
+    "upload": "B",
+    "book": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": 2003,
+    "lane": "Curriculum classics",
+    "series": "Contemporary",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 20,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-01",
+    "book_code": "FI-01",
+    "upload": "-",
+    "book": "A Court of Thorns and Roses",
+    "author": "Sarah J. Maas",
+    "year": 2015,
+    "lane": "Modern fiction",
+    "series": "ACOTAR (5 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 20,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-45A",
+    "book_code": "CL-45",
+    "upload": "A",
+    "book": "Night",
+    "author": "Elie Wiesel",
+    "year": 1956,
+    "lane": "Curriculum classics",
+    "series": "Memoir",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 21,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-45B",
+    "book_code": "CL-45",
+    "upload": "B",
+    "book": "Night",
+    "author": "Elie Wiesel",
+    "year": 1956,
+    "lane": "Curriculum classics",
+    "series": "Memoir",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 21,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-02",
+    "book_code": "FI-02",
+    "upload": "-",
+    "book": "A Court of Mist and Fury",
+    "author": "Sarah J. Maas",
+    "year": 2016,
+    "lane": "Modern fiction",
+    "series": "ACOTAR (5 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 21,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-44A",
+    "book_code": "CL-44",
+    "upload": "A",
+    "book": "The Outsiders",
+    "author": "S. E. Hinton",
+    "year": 1967,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 22,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-44B",
+    "book_code": "CL-44",
+    "upload": "B",
+    "book": "The Outsiders",
+    "author": "S. E. Hinton",
+    "year": 1967,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 22,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-03",
+    "book_code": "FI-03",
+    "upload": "-",
+    "book": "A Court of Wings and Ruin",
+    "author": "Sarah J. Maas",
+    "year": 2017,
+    "lane": "Modern fiction",
+    "series": "ACOTAR (5 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 22,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-43A",
+    "book_code": "CL-43",
+    "upload": "A",
+    "book": "An Inspector Calls",
+    "author": "J. B. Priestley",
+    "year": 1945,
+    "lane": "Curriculum classics",
+    "series": "British drama",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 23,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-43B",
+    "book_code": "CL-43",
+    "upload": "B",
+    "book": "An Inspector Calls",
+    "author": "J. B. Priestley",
+    "year": 1945,
+    "lane": "Curriculum classics",
+    "series": "British drama",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 23,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-04",
+    "book_code": "FI-04",
+    "upload": "-",
+    "book": "A Court of Silver Flames",
+    "author": "Sarah J. Maas",
+    "year": 2021,
+    "lane": "Modern fiction",
+    "series": "ACOTAR (5 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 23,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-36A",
+    "book_code": "CL-36",
+    "upload": "A",
+    "book": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": 1953,
+    "lane": "Curriculum classics",
+    "series": "Mid-century",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 24,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-36B",
+    "book_code": "CL-36",
+    "upload": "B",
+    "book": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": 1953,
+    "lane": "Curriculum classics",
+    "series": "Mid-century",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 24,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-09",
+    "book_code": "FI-09",
+    "upload": "-",
+    "book": "Twisted Love",
+    "author": "Ana Huang",
+    "year": 2021,
+    "lane": "Modern fiction",
+    "series": "Twisted (4 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 24,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-40A",
+    "book_code": "CL-40",
+    "upload": "A",
+    "book": "The Crucible",
+    "author": "Arthur Miller",
+    "year": 1953,
+    "lane": "Curriculum classics",
+    "series": "American drama",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 25,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-40B",
+    "book_code": "CL-40",
+    "upload": "B",
+    "book": "The Crucible",
+    "author": "Arthur Miller",
+    "year": 1953,
+    "lane": "Curriculum classics",
+    "series": "American drama",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 25,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-21",
+    "book_code": "FI-21",
+    "upload": "-",
+    "book": "Mistborn: The Final Empire",
+    "author": "Brandon Sanderson",
+    "year": 2006,
+    "lane": "Modern fiction",
+    "series": "Mistborn (3 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 25,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-38A",
+    "book_code": "CL-38",
+    "upload": "A",
+    "book": "The Catcher in the Rye",
+    "author": "J. D. Salinger",
+    "year": 1951,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 26,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-38B",
+    "book_code": "CL-38",
+    "upload": "B",
+    "book": "The Catcher in the Rye",
+    "author": "J. D. Salinger",
+    "year": 1951,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 26,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-05",
+    "book_code": "FI-05",
+    "upload": "-",
+    "book": "Fourth Wing",
+    "author": "Rebecca Yarros",
+    "year": 2023,
+    "lane": "Modern fiction",
+    "series": "Empyrean (3 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 26,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-35A",
+    "book_code": "CL-35",
+    "upload": "A",
+    "book": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 27,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-35B",
+    "book_code": "CL-35",
+    "upload": "B",
+    "book": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 27,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-06",
+    "book_code": "FI-06",
+    "upload": "-",
+    "book": "Iron Flame",
+    "author": "Rebecca Yarros",
+    "year": 2023,
+    "lane": "Modern fiction",
+    "series": "Empyrean (3 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 27,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-33A",
+    "book_code": "CL-33",
+    "upload": "A",
+    "book": "Lord of the Flies",
+    "author": "William Golding",
+    "year": 1954,
+    "lane": "Curriculum classics",
+    "series": "Mid-century",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 2,
+    "week": 28,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-33B",
+    "book_code": "CL-33",
+    "upload": "B",
+    "book": "Lord of the Flies",
+    "author": "William Golding",
+    "year": 1954,
+    "lane": "Curriculum classics",
+    "series": "Mid-century",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 2,
+    "week": 28,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-07",
+    "book_code": "FI-07",
+    "upload": "-",
+    "book": "Onyx Storm",
+    "author": "Rebecca Yarros",
+    "year": 2025,
+    "lane": "Modern fiction",
+    "series": "Empyrean (3 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 2,
+    "week": 28,
+    "status": "Planned"
+  },
+  {
+    "code": "KE-01",
+    "book_code": "KE-01",
+    "upload": "-",
+    "book": "Blossoms of the Savannah",
+    "author": "Henry Ole Kulet",
+    "year": 2008,
+    "lane": "KCSE set texts (Kenya)",
+    "series": "KCSE",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Set-text revision video",
+    "target_minutes": [
+      12,
+      15
+    ],
+    "target_words": [
+      1800,
+      2250
+    ],
+    "structure": "Hook → plot → characters → themes with essay-question framing → stylistic devices → end screen",
+    "phase": 3,
+    "week": 29,
+    "status": "Planned"
+  },
+  {
+    "code": "KE-02",
+    "book_code": "KE-02",
+    "upload": "-",
+    "book": "The River and the Source",
+    "author": "Margaret Ogola",
+    "year": 1994,
+    "lane": "KCSE set texts (Kenya)",
+    "series": "KCSE",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Set-text revision video",
+    "target_minutes": [
+      12,
+      15
+    ],
+    "target_words": [
+      1800,
+      2250
+    ],
+    "structure": "Hook → plot → characters → themes with essay-question framing → stylistic devices → end screen",
+    "phase": 3,
+    "week": 29,
+    "status": "Planned"
+  },
+  {
+    "code": "KE-03",
+    "book_code": "KE-03",
+    "upload": "-",
+    "book": "Fathers of Nations",
+    "author": "Paul B. Vitta",
+    "year": 2013,
+    "lane": "KCSE set texts (Kenya)",
+    "series": "KCSE",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Set-text revision video",
+    "target_minutes": [
+      12,
+      15
+    ],
+    "target_words": [
+      1800,
+      2250
+    ],
+    "structure": "Hook → plot → characters → themes with essay-question framing → stylistic devices → end screen",
+    "phase": 3,
+    "week": 29,
+    "status": "Planned"
+  },
+  {
+    "code": "KE-04",
+    "book_code": "KE-04",
+    "upload": "-",
+    "book": "The Samaritan",
+    "author": "John Lara",
+    "year": 2020,
+    "lane": "KCSE set texts (Kenya)",
+    "series": "KCSE",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Set-text revision video",
+    "target_minutes": [
+      12,
+      15
+    ],
+    "target_words": [
+      1800,
+      2250
+    ],
+    "structure": "Hook → plot → characters → themes with essay-question framing → stylistic devices → end screen",
+    "phase": 3,
+    "week": 30,
+    "status": "Planned"
+  },
+  {
+    "code": "KE-05",
+    "book_code": "KE-05",
+    "upload": "-",
+    "book": "An Artist of the Floating World",
+    "author": "Kazuo Ishiguro",
+    "year": 1986,
+    "lane": "KCSE set texts (Kenya)",
+    "series": "KCSE",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Set-text revision video",
+    "target_minutes": [
+      12,
+      15
+    ],
+    "target_words": [
+      1800,
+      2250
+    ],
+    "structure": "Hook → plot → characters → themes with essay-question framing → stylistic devices → end screen",
+    "phase": 3,
+    "week": 30,
+    "status": "Planned"
+  },
+  {
+    "code": "KE-06",
+    "book_code": "KE-06",
+    "upload": "-",
+    "book": "A Parliament of Owls",
+    "author": "Adipo Sidang",
+    "year": 2016,
+    "lane": "KCSE set texts (Kenya)",
+    "series": "KCSE",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Set-text revision video",
+    "target_minutes": [
+      12,
+      15
+    ],
+    "target_words": [
+      1800,
+      2250
+    ],
+    "structure": "Hook → plot → characters → themes with essay-question framing → stylistic devices → end screen",
+    "phase": 3,
+    "week": 30,
+    "status": "Planned"
+  },
+  {
+    "code": "KE-07",
+    "book_code": "KE-07",
+    "upload": "-",
+    "book": "Inheritance",
+    "author": "David Mulwa",
+    "year": 2004,
+    "lane": "KCSE set texts (Kenya)",
+    "series": "KCSE",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Set-text revision video",
+    "target_minutes": [
+      12,
+      15
+    ],
+    "target_words": [
+      1800,
+      2250
+    ],
+    "structure": "Hook → plot → characters → themes with essay-question framing → stylistic devices → end screen",
+    "phase": 3,
+    "week": 31,
+    "status": "Planned"
+  },
+  {
+    "code": "KE-08",
+    "book_code": "KE-08",
+    "upload": "-",
+    "book": "Betrayal in the City",
+    "author": "Francis Imbuga",
+    "year": 1976,
+    "lane": "KCSE set texts (Kenya)",
+    "series": "KCSE",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Set-text revision video",
+    "target_minutes": [
+      12,
+      15
+    ],
+    "target_words": [
+      1800,
+      2250
+    ],
+    "structure": "Hook → plot → characters → themes with essay-question framing → stylistic devices → end screen",
+    "phase": 3,
+    "week": 31,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-22A",
+    "book_code": "CL-22",
+    "upload": "A",
+    "book": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "lane": "Curriculum classics",
+    "series": "Gothic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 3,
+    "week": 31,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-22B",
+    "book_code": "CL-22",
+    "upload": "B",
+    "book": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "lane": "Curriculum classics",
+    "series": "Gothic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 3,
+    "week": 32,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-14",
+    "book_code": "FI-14",
+    "upload": "-",
+    "book": "The Cruel Prince",
+    "author": "Holly Black",
+    "year": 2018,
+    "lane": "Modern fiction",
+    "series": "Folk of the Air (3 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 32,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-17A",
+    "book_code": "CL-17",
+    "upload": "A",
+    "book": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "lane": "Curriculum classics",
+    "series": "Dickens",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 32,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-17B",
+    "book_code": "CL-17",
+    "upload": "B",
+    "book": "Great Expectations",
+    "author": "Charles Dickens",
+    "year": 1861,
+    "lane": "Curriculum classics",
+    "series": "Dickens",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 33,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-22",
+    "book_code": "FI-22",
+    "upload": "-",
+    "book": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "year": 2010,
+    "lane": "Modern fiction",
+    "series": "Stormlight (5 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 33,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-27A",
+    "book_code": "CL-27",
+    "upload": "A",
+    "book": "The Odyssey",
+    "author": "Homer",
+    "year": -700,
+    "lane": "Curriculum classics",
+    "series": "Epic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 33,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-27B",
+    "book_code": "CL-27",
+    "upload": "B",
+    "book": "The Odyssey",
+    "author": "Homer",
+    "year": -700,
+    "lane": "Curriculum classics",
+    "series": "Epic",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 34,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-12",
+    "book_code": "FI-12",
+    "upload": "-",
+    "book": "Powerless",
+    "author": "Lauren Roberts",
+    "year": 2023,
+    "lane": "Modern fiction",
+    "series": "Romantasy",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 34,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-34A",
+    "book_code": "CL-34",
+    "upload": "A",
+    "book": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "year": 1937,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 34,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-34B",
+    "book_code": "CL-34",
+    "upload": "B",
+    "book": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "year": 1937,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 4,
+    "week": 35,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-13",
+    "book_code": "FI-13",
+    "upload": "-",
+    "book": "Divine Rivals",
+    "author": "Rebecca Ross",
+    "year": 2023,
+    "lane": "Modern fiction",
+    "series": "Romantasy",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 35,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-37A",
+    "book_code": "CL-37",
+    "upload": "A",
+    "book": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "lane": "Curriculum classics",
+    "series": "Dystopia",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 35,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-37B",
+    "book_code": "CL-37",
+    "upload": "B",
+    "book": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "lane": "Curriculum classics",
+    "series": "Dystopia",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 4,
+    "week": 36,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-10",
+    "book_code": "FI-10",
+    "upload": "-",
+    "book": "It Ends with Us",
+    "author": "Colleen Hoover",
+    "year": 2016,
+    "lane": "Modern fiction",
+    "series": "Hoover",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 36,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-08A",
+    "book_code": "CL-08",
+    "upload": "A",
+    "book": "Twelfth Night",
+    "author": "William Shakespeare",
+    "year": 1602,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 36,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-08B",
+    "book_code": "CL-08",
+    "upload": "B",
+    "book": "Twelfth Night",
+    "author": "William Shakespeare",
+    "year": 1602,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 37,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-11",
+    "book_code": "FI-11",
+    "upload": "-",
+    "book": "Verity",
+    "author": "Colleen Hoover",
+    "year": 2018,
+    "lane": "Modern fiction",
+    "series": "Hoover",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 37,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-09A",
+    "book_code": "CL-09",
+    "upload": "A",
+    "book": "King Lear",
+    "author": "William Shakespeare",
+    "year": 1606,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 37,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-09B",
+    "book_code": "CL-09",
+    "upload": "B",
+    "book": "King Lear",
+    "author": "William Shakespeare",
+    "year": 1606,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 38,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-15",
+    "book_code": "FI-15",
+    "upload": "-",
+    "book": "Throne of Glass",
+    "author": "Sarah J. Maas",
+    "year": 2012,
+    "lane": "Modern fiction",
+    "series": "Throne of Glass (8 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 38,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-21A",
+    "book_code": "CL-21",
+    "upload": "A",
+    "book": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 38,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-21B",
+    "book_code": "CL-21",
+    "upload": "B",
+    "book": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "year": 1884,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 39,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-25",
+    "book_code": "FI-25",
+    "upload": "-",
+    "book": "Project Hail Mary",
+    "author": "Andy Weir",
+    "year": 2021,
+    "lane": "Modern fiction",
+    "series": "Sci-fi",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 39,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-06A",
+    "book_code": "CL-06",
+    "upload": "A",
+    "book": "Julius Caesar",
+    "author": "William Shakespeare",
+    "year": 1599,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 39,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-06B",
+    "book_code": "CL-06",
+    "upload": "B",
+    "book": "Julius Caesar",
+    "author": "William Shakespeare",
+    "year": 1599,
+    "lane": "Curriculum classics",
+    "series": "Shakespeare",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 40,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-26",
+    "book_code": "FI-26",
+    "upload": "-",
+    "book": "The Three-Body Problem",
+    "author": "Liu Cixin",
+    "year": 2008,
+    "lane": "Modern fiction",
+    "series": "Sci-fi",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 40,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-20A",
+    "book_code": "CL-20",
+    "upload": "A",
+    "book": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 40,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-20B",
+    "book_code": "CL-20",
+    "upload": "B",
+    "book": "The Scarlet Letter",
+    "author": "Nathaniel Hawthorne",
+    "year": 1850,
+    "lane": "Curriculum classics",
+    "series": "American",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 41,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-27",
+    "book_code": "FI-27",
+    "upload": "-",
+    "book": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "year": 2011,
+    "lane": "Modern fiction",
+    "series": "Myth retelling",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 41,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-42A",
+    "book_code": "CL-42",
+    "upload": "A",
+    "book": "A Streetcar Named Desire",
+    "author": "Tennessee Williams",
+    "year": 1947,
+    "lane": "Curriculum classics",
+    "series": "American drama",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 41,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-42B",
+    "book_code": "CL-42",
+    "upload": "B",
+    "book": "A Streetcar Named Desire",
+    "author": "Tennessee Williams",
+    "year": 1947,
+    "lane": "Curriculum classics",
+    "series": "American drama",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 4,
+    "week": 42,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-28",
+    "book_code": "FI-28",
+    "upload": "-",
+    "book": "Circe",
+    "author": "Madeline Miller",
+    "year": 2018,
+    "lane": "Modern fiction",
+    "series": "Myth retelling",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 42,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-47A",
+    "book_code": "CL-47",
+    "upload": "A",
+    "book": "Purple Hibiscus",
+    "author": "Chimamanda Ngozi Adichie",
+    "year": 2003,
+    "lane": "Curriculum classics",
+    "series": "African literature",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 42,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-47B",
+    "book_code": "CL-47",
+    "upload": "B",
+    "book": "Purple Hibiscus",
+    "author": "Chimamanda Ngozi Adichie",
+    "year": 2003,
+    "lane": "Curriculum classics",
+    "series": "African literature",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 4,
+    "week": 43,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-17",
+    "book_code": "FI-17",
+    "upload": "-",
+    "book": "Six of Crows",
+    "author": "Leigh Bardugo",
+    "year": 2015,
+    "lane": "Modern fiction",
+    "series": "Grishaverse",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 43,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-41A",
+    "book_code": "CL-41",
+    "upload": "A",
+    "book": "Death of a Salesman",
+    "author": "Arthur Miller",
+    "year": 1949,
+    "lane": "Curriculum classics",
+    "series": "American drama",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 43,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-41B",
+    "book_code": "CL-41",
+    "upload": "B",
+    "book": "Death of a Salesman",
+    "author": "Arthur Miller",
+    "year": 1949,
+    "lane": "Curriculum classics",
+    "series": "American drama",
+    "text_status": "copyright",
+    "visual_system": "Style 1: AI-generated painterly stills (consistent palette) + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      30,
+      40
+    ],
+    "target_words": [
+      4500,
+      6000
+    ],
+    "structure": "Hook → the whole book in order, chaptered; paraphrase only (in copyright) → themes and why it is set → end screen",
+    "phase": 4,
+    "week": 44,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-18",
+    "book_code": "FI-18",
+    "upload": "-",
+    "book": "Shadow and Bone",
+    "author": "Leigh Bardugo",
+    "year": 2012,
+    "lane": "Modern fiction",
+    "series": "Grishaverse",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 44,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-26A",
+    "book_code": "CL-26",
+    "upload": "A",
+    "book": "Oedipus Rex",
+    "author": "Sophocles",
+    "year": -429,
+    "lane": "Curriculum classics",
+    "series": "Greek drama",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "structure": "Hook question (0:00-0:15) → plot in acts (4-6 min) → characters, themes, 5 quotes to memorise, what the examiner asks (4-6 min) → end screen to full retelling",
+    "phase": 4,
+    "week": 44,
+    "status": "Planned"
+  },
+  {
+    "code": "CL-26B",
+    "book_code": "CL-26",
+    "upload": "B",
+    "book": "Oedipus Rex",
+    "author": "Sophocles",
+    "year": -429,
+    "lane": "Curriculum classics",
+    "series": "Greek drama",
+    "text_status": "public_domain",
+    "visual_system": "Style 1: public-domain paintings/illustrations + 2.5D parallax + hand annotations",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → the whole book in order, chaptered by act/part, quoting the text (PD) → closing: what it means → end screen to revision video. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 45,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-16",
+    "book_code": "FI-16",
+    "upload": "-",
+    "book": "Crescent City",
+    "author": "Sarah J. Maas",
+    "year": 2020,
+    "lane": "Modern fiction",
+    "series": "Crescent City (3 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 45,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-29",
+    "book_code": "FI-29",
+    "upload": "-",
+    "book": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "year": 2008,
+    "lane": "Modern fiction",
+    "series": "Hunger Games (5 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 45,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-30",
+    "book_code": "FI-30",
+    "upload": "-",
+    "book": "Percy Jackson: The Lightning Thief",
+    "author": "Rick Riordan",
+    "year": 2005,
+    "lane": "Modern fiction",
+    "series": "Percy Jackson",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 46,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-23",
+    "book_code": "FI-23",
+    "upload": "-",
+    "book": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "year": 2007,
+    "lane": "Modern fiction",
+    "series": "Kingkiller",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 46,
+    "status": "Planned"
+  },
+  {
+    "code": "FI-24",
+    "book_code": "FI-24",
+    "upload": "-",
+    "book": "Red Rising",
+    "author": "Pierce Brown",
+    "year": 2014,
+    "lane": "Modern fiction",
+    "series": "Red Rising (7 books)",
+    "text_status": "copyright",
+    "visual_system": "Style 2: modular puppet cast + flat backgrounds",
+    "format": "Fiction retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "structure": "Hook → scene-by-scene retelling with the puppet cast, chaptered by book part → ending + sequel tease. Split into Part 1/2 if over 45 min",
+    "phase": 4,
+    "week": 46,
+    "status": "Planned"
+  }
+]
