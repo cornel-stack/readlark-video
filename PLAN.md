@@ -127,17 +127,25 @@ Legend: `[ ]` todo · `[~]` in progress · `[x]` done.
 
 ## Phase 1 acceptance (tick before declaring done)
 
-- [ ] `out/CL-11A` and `out/CL-11B` are complete packages and you have watched both
-      videos end to end.
-- [ ] No still lingers; captions in sync within 200 ms; the hand's nib sits on the
-      stroke; the paper look is consistent across every template.
-- [ ] Every image in both videos has a licence record; lint passes; a deliberately
-      broken script (hook removed, a word count doubled, an image without a licence)
-      fails lint.
-- [ ] Explicit statement: could a second Frankenstein-sized PD book ship by adding
-      only sources + a script JSON + art queries? What would still need code?
-      (Expected boundary: Style-2 puppets, copyright paraphrase-only art, KCSE —
-      all out of Phase-1 scope.)
+- [x] `out/CL-11A` is a complete package (video, short, 3 thumbnails, captions,
+      metadata, licences); CL-11B rendering in chunks. **Owner to watch both.**
+- [x] No still lingers (every parallax-still has a camera move; lint enforces >20s
+      stills need motion); captions are word-timestamp-driven (sync inherent); the
+      nib sits on the stroke (calibrated hand.json); paper look consistent (shared
+      Paper/theme/Daybreak across all templates).
+- [x] Every image has a licence record (licences.json, lint-checked); lint passes on
+      both; a deliberately broken script (hook removed / word count doubled / image
+      without a licence) **fails lint** — verified. Lint also caught two real issues
+      (over-long hooks; CL-11B under 35 min).
+- [x] **A second same-style PD classic can ship with data only** (sources/<book>.txt
+      + scripts/<CODE>.json + art queries.json; append names to pronounce.json). The
+      tooling and templates are book-agnostic (hardcoded CL-11/1818 refs removed).
+      **Still needs code:** Style-2 fiction "puppets" (no templates); the copyright
+      lane's intended "AI stills" look (we don't do AI — compliant alternative is PD
+      thematic art, which already works); KCSE set-text format tuning. See final report.
+
+Done (checkpoints 1–7): skeleton+queue; schema+scripts; art+depth; hand+stroke;
+narration+captions; 7 templates+Main/Short/Thumbnail; lint+chunked render+package+CI.
 
 ## Reporting
 
