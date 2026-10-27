@@ -1,0 +1,75 @@
+name: render
+
+# Full pipeline for one video, on GitHub's free runners:
+#   art fetch -> depth layers -> narration+captions -> build props -> Remotion render.
+# Uploads the 1080p30 MP4 (+ captions). Chunked rendering for long videos is added
+# at Checkpoint 7; this renders the Main composition in one pass.
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "Video code (e.g. CL-11A)"
+        required: true
+        default: "CL-11A"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: System libs for headless Chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
+            libpango-1.0-0 libasound2t64 libgtk-3-0 || \
+          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
+            libpango-1.0-0 libasound2
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt -r requirements-ml.txt
+
+      - name: Art — fetch plates + depth layers
+        run: |
+          python tools/art_fetch.py --code "${{ inputs.code }}"
+          python tools/depth_layers.py --code "${{ inputs.code }}" --layers 3
+
+      - name: Narration + captions
+        run: python tools/audio.py --code "${{ inputs.code }}"
+
+      - name: Build render props
+        run: python tools/build_props.py --code "${{ inputs.code }}"
+
+      - name: Install Remotion deps
+        working-directory: remotion
+        run: npm ci --no-audit --no-fund
+
+      - name: Render Main (1080p30 H.264)
+        working-directory: remotion
+        run: |
+          mkdir -p ../out/${{ inputs.code }}
+          npx remotion render src/index.ts Main ../out/${{ inputs.code }}/video.mp4 \
+            --props=../out/${{ inputs.code }}.props.json --concurrency=2 --log=info
+          cp ../assets/audio/${{ inputs.code }}/captions.srt ../out/${{ inputs.code }}/captions.srt
+
+      - name: Upload video
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ inputs.code }}
+          path: |
+            out/${{ inputs.code }}/video.mp4
+            out/${{ inputs.code }}/captions.srt
+          retention-days: 14

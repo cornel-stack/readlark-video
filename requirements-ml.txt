@@ -8,6 +8,7 @@ torch==2.5.1
 transformers==4.46.3
 opencv-python-headless==4.10.0.84
 numpy==2.1.3
+scipy==1.18.1
 #
 # Narration + captions (Checkpoint 5):
 # edge-tts must be >= 7.x — older versions 403 against Microsoft's endpoint (the

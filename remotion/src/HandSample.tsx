@@ -85,7 +85,7 @@ export const HandSample: React.FC = () => {
   return (
     <Paper>
       <AbsoluteFill style={{opacity: inkIn}}>
-        <ParallaxPlate layers={LAYERS} t={camT} pan={80} />
+        <ParallaxPlate layers={LAYERS} camera="drift" progress={camT} />
       </AbsoluteFill>
 
       {/* ink annotations drawn on the plate */}
