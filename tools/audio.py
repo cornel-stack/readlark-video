@@ -34,6 +34,10 @@ VOICE_TEST = [
     ("en-US-AndrewNeural", "neutral-male"),
 ]
 BREATH_S = 0.35  # silence appended after each scene
+# edge-tts neural voices run ~167 wpm at default; the project assumes 150 wpm
+# ("edge-tts at a natural pace"). Slow slightly to restore that pace so durations
+# land inside target_minutes and the delivery is calm enough for revision.
+NARRATION_RATE = "-12%"
 
 
 def load_pronounce() -> list[tuple[re.Pattern, str]]:
@@ -148,7 +152,7 @@ def full_build(code: str, rules) -> int:
         wav = parts_dir / f"{sc['id']}.wav"
         if narr:
             mp3 = parts_dir / f"{sc['id']}.mp3"
-            asyncio.run(synth(say_it(narr, rules), voice, mp3))
+            asyncio.run(synth(say_it(narr, rules), voice, mp3, rate=NARRATION_RATE))
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3),
                             "-ar", "48000", "-ac", "1", str(wav)], check=True)
         else:
@@ -171,9 +175,20 @@ def full_build(code: str, rules) -> int:
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
                     "-i", str(listfile), "-c", "copy", str(narration)], check=True)
 
+    # Decode to a 16kHz mono float32 array ourselves (avoids faster-whisper's PyAV
+    # path, which breaks across av versions) and feed the array to the model.
+    import numpy as np
+    from scipy.io import wavfile
+
+    wav16 = out_dir / "narration16k.wav"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(narration),
+                    "-ar", "16000", "-ac", "1", "-f", "wav", str(wav16)], check=True)
+    sr, samples = wavfile.read(wav16)
+    audio = samples.astype(np.float32) / 32768.0
+
     # word timestamps via faster-whisper (alignment of known text)
     model = WhisperModel("small.en", device="cpu", compute_type="int8")
-    segments, _ = model.transcribe(str(narration), word_timestamps=True)
+    segments, _ = model.transcribe(audio, word_timestamps=True)
     words = [{"word": w.word, "start": round(w.start, 3), "end": round(w.end, 3)}
              for seg in segments for w in (seg.words or [])]
     (out_dir / "timestamps.json").write_text(json.dumps({"words": words}, indent=2), encoding="utf-8")

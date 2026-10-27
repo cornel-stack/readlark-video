@@ -6,238 +6,451 @@
     "year": 1818,
     "text_status": "public_domain",
     "format": "Revision video",
-    "target_minutes": [8, 12],
-    "target_words": [1200, 1800],
-    "voice": "en-GB-RyanNeural",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "voice": "en-GB-SoniaNeural",
     "title": "Frankenstein, Explained in 10 Minutes (Plot, Characters, Themes & Quotes)",
     "search_phrase": "Frankenstein summary"
   },
   "chapters": [
-    {"title": "Who is the real monster?", "first_scene": "hook"},
-    {"title": "The story in three volumes", "first_scene": "ch-plot"},
-    {"title": "Characters", "first_scene": "ch-characters"},
-    {"title": "Themes", "first_scene": "ch-themes"},
-    {"title": "Five quotes to memorise", "first_scene": "ch-quotes"},
-    {"title": "What the examiner is really asking", "first_scene": "ch-exam"},
-    {"title": "Watch the full story", "first_scene": "end"}
+    {
+      "title": "Who is the real monster?",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The story in three volumes",
+      "first_scene": "ch-plot"
+    },
+    {
+      "title": "Characters",
+      "first_scene": "ch-characters"
+    },
+    {
+      "title": "Themes",
+      "first_scene": "ch-themes"
+    },
+    {
+      "title": "Five quotes to memorise",
+      "first_scene": "ch-quotes"
+    },
+    {
+      "title": "What the examiner is really asking",
+      "first_scene": "ch-exam"
+    },
+    {
+      "title": "Watch the full story",
+      "first_scene": "end"
+    }
   ],
   "scenes": [
     {
       "id": "hook",
       "template": "hook",
       "narration": "Here is a question examiners love. Who is the real monster in Frankenstein — the creature, stitched together from the dead, or the brilliant young man who made him, looked at him once, and ran? Hold on to that question. For two hundred years this book has refused to answer it simply.",
-      "on_screen": {"question": "Who is the real monster?", "plate": "plate-sea-of-ice"},
-      "assets": ["plate-sea-of-ice"],
+      "on_screen": {
+        "question": "Who is the real monster?",
+        "plate": "plate-sea-of-ice"
+      },
+      "assets": [
+        "plate-sea-of-ice"
+      ],
       "notes": "Hook before any title, per rule 5. Plate: Friedrich, 'The Sea of Ice' (PD) — the Arctic the story opens and closes on."
     },
     {
       "id": "title",
       "template": "title-card",
       "narration": "Frankenstein, by Mary Shelley, published in eighteen eighteen.",
-      "on_screen": {"title": "Frankenstein", "author": "Mary Shelley", "year": 1818, "subtitle": "or, The Modern Prometheus"},
+      "on_screen": {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "year": 1818,
+        "subtitle": "or, The Modern Prometheus"
+      },
       "duration_hint": 5
     },
     {
       "id": "context",
       "template": "parallax-still",
       "narration": "First, three facts that win marks. Mary Shelley was only eighteen when she began it, during a wet summer by a Swiss lake where a group of friends dared each other to write a ghost story. The subtitle matters: Prometheus was the Titan who stole fire from the gods to give to humankind, and was punished forever for it. And the science felt real — this was the age of experiments that twitched dead muscles with electricity, so the first readers could half believe it. Shelley is asking what happens when a person takes a god's power into merely human hands, and she lets the answer unfold slowly, because the real horror is never the monster's body. It is the maker's choices.",
-      "on_screen": {"plate": "plate-geneva-lake", "camera": "drift"},
-      "assets": ["plate-geneva-lake"],
+      "on_screen": {
+        "plate": "plate-geneva-lake",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-geneva-lake"
+      ],
       "notes": "Context: 1816 'year without a summer', Villa Diodati ghost-story contest; Promethean myth; galvanism. All standard, non-plot framing."
     },
     {
       "id": "ch-plot",
       "template": "chapter-card",
       "narration": "Now the plot. The whole book fits into three volumes. Keep them in your head, and it never tangles.",
-      "on_screen": {"chapter_title": "The story in three volumes",
-        "timeline": {"kind": "timeline-strip", "segments": ["Vol I", "Vol II", "Vol III"], "marker": 0}}
+      "on_screen": {
+        "chapter_title": "The story in three volumes",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Vol I",
+            "Vol II",
+            "Vol III"
+          ],
+          "marker": 0
+        }
+      }
     },
     {
       "id": "frame",
       "template": "parallax-still",
       "narration": "It opens at the end of the world. An explorer, Robert Walton, is pushing his ship toward the North Pole when his crew finds a man dying on the ice — Victor Frankenstein, chasing something across the frozen sea. Everything you are about to hear is the story Victor tells him. So the book is a confession, told to a stranger who, remember, is chasing glory of his own.",
-      "on_screen": {"plate": "plate-sea-of-ice", "camera": "push-in",
-        "caption": "Walton's ship, trapped in the northern ice"},
-      "assets": ["plate-sea-of-ice"],
+      "on_screen": {
+        "plate": "plate-sea-of-ice",
+        "camera": "push-in",
+        "caption": "Walton's ship, trapped in the northern ice"
+      },
+      "assets": [
+        "plate-sea-of-ice"
+      ],
       "notes": "Frame narrative, Walton's Letters I–IV. Victor rescued pursuing 'one who fled from me' (Letter IV)."
     },
     {
       "id": "vol1-create",
       "template": "parallax-still",
       "narration": "Volume One. Victor grows up in Geneva, gifted and adored, and goes to university at Ingolstadt hungry to cross the line between life and death. For two years he works alone, robbing graveyards for parts, cut off from everyone who loves him. Then, on a dreary night of November, the thing he has built opens its dull yellow eye. And the moment it lives, the dream curdles. He had imagined something beautiful; what sits up is horrifying to him. So the very first thing Victor does as a father is run away.",
-      "on_screen": {"plate": "plate-lab-wright", "camera": "reveal"},
-      "assets": ["plate-lab-wright"],
+      "on_screen": {
+        "plate": "plate-lab-wright",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-lab-wright"
+      ],
       "notes": "Vol I, Ch III–IV. Creation scene Vol I, Ch IV: 'It was on a dreary night of November...'"
     },
     {
       "id": "vol1-william",
       "template": "parallax-still",
       "narration": "The creature vanishes into the mountains. Then Victor's little brother William is found strangled. A gentle family servant, Justine, is accused on planted evidence, and she is hanged for a murder she did not commit. Victor knows who truly did it — but who on earth would believe him? His silence is the first death he causes without lifting a hand, and it will not be the last.",
-      "on_screen": {"plate": "plate-geneva-storm", "camera": "drift"},
-      "assets": ["plate-geneva-storm"],
+      "on_screen": {
+        "plate": "plate-geneva-storm",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-geneva-storm"
+      ],
       "notes": "Vol I, Ch V–VII. William murdered; Justine wrongly executed — the creature planted William's miniature portrait of Caroline (Victor's mother) on her (Vol II, Ch VIII)."
     },
     {
       "id": "vol2-tale",
       "template": "parallax-still",
       "narration": "Volume Two. High in the Alps, the creature finally corners his maker and demands to be heard — and for a long stretch, the book hands him the microphone. Cast out everywhere for his face, he had hidden beside a poor family's cottage and, just by watching them, taught himself to speak, to read, even to weep over books. He loved them from the shadows for months. When at last he showed himself, they beat him and fled. In his own words: I was benevolent and good; misery made me a fiend.",
-      "on_screen": {"plate": "plate-mer-de-glace", "camera": "push-in",
-        "annotations": [{"kind": "label", "text": "the creature's side", "at": [0.18, 0.72]}]},
-      "assets": ["plate-mer-de-glace"],
+      "on_screen": {
+        "plate": "plate-mer-de-glace",
+        "camera": "push-in",
+        "annotations": [
+          {
+            "kind": "label",
+            "text": "the creature's side",
+            "at": [
+              0.18,
+              0.72
+            ]
+          }
+        ]
+      },
+      "assets": [
+        "plate-mer-de-glace"
+      ],
       "notes": "Vol II. The De Lacey cottagers; self-education; reading. Quote 'I was benevolent and good; misery made me a fiend' — Vol II, Ch II."
     },
     {
       "id": "vol2-demand",
       "template": "parallax-still",
       "narration": "The creature asks for one thing only: a companion as wretched as himself, a mate, and he swears that if Victor makes her, the two of them will vanish into the wilds and never trouble mankind again. Moved, guilty, and afraid, Victor agrees to build a bride.",
-      "on_screen": {"plate": "plate-alpine-sublime", "camera": "pan"},
-      "assets": ["plate-alpine-sublime"],
+      "on_screen": {
+        "plate": "plate-alpine-sublime",
+        "camera": "pan"
+      },
+      "assets": [
+        "plate-alpine-sublime"
+      ],
       "notes": "Vol II, Ch VIII–IX. The demand for a female creature and Victor's reluctant promise."
     },
     {
       "id": "vol3-break",
       "template": "parallax-still",
       "narration": "Volume Three. On a bleak island in the Orkneys, with the half-finished woman lying in front of him, Victor panics. What if the two of them breed a whole race? What if she is crueller than he is? He tears her to pieces — while the creature watches through the window. The creature's reply is a promise, quiet and exact: I shall be with you on your wedding-night.",
-      "on_screen": {"plate": "plate-storm-sea", "camera": "drift"},
-      "assets": ["plate-storm-sea"],
+      "on_screen": {
+        "plate": "plate-storm-sea",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-storm-sea"
+      ],
       "notes": "Vol III, Ch III. Destruction of the female creature; threat 'I shall be with you on your wedding-night.'"
     },
     {
       "id": "vol3-revenge",
       "template": "parallax-still",
       "narration": "The promise comes true in blood. First the creature strangles Victor's dearest friend, Henry Clerval. Then, on the very night Victor marries his beloved Elizabeth, he kills her too. Victor's father dies of the grief. Everyone Victor loved is gone, and all that is left to him is the chase — north, out onto the ice, where Walton found him at the very start. The creature was never only hunting Victor. He was trying to force the man to feel exactly as alone as he does.",
-      "on_screen": {"plate": "plate-arctic-ship", "camera": "push-in"},
-      "assets": ["plate-arctic-ship"],
+      "on_screen": {
+        "plate": "plate-arctic-ship",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-arctic-ship"
+      ],
       "notes": "Vol III, Ch IV–VII. Clerval and Elizabeth murdered; Alphonse dies; the Arctic pursuit closes the frame."
     },
     {
       "id": "ch-characters",
       "template": "chapter-card",
       "narration": "Now the people — because every essay needs you to show how they connect.",
-      "on_screen": {"chapter_title": "Who's who",
-        "timeline": {"kind": "timeline-strip", "segments": ["Plot", "Characters", "Themes", "Quotes", "Exam"], "marker": 1}}
+      "on_screen": {
+        "chapter_title": "Who's who",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Plot",
+            "Characters",
+            "Themes",
+            "Quotes",
+            "Exam"
+          ],
+          "marker": 1
+        }
+      }
     },
     {
       "id": "characters",
       "template": "whiteboard",
       "narration": "Keep it simple. Everything radiates out from two figures: Victor, the creator, and the creature he abandoned. Around Victor stand the people he fails to protect — Elizabeth, his bride; Henry Clerval, his loyal friend; his little brother William and the servant Justine. And framing the whole book is Walton, the explorer, who hears the confession and is meant to learn from it. Notice the pattern the examiner wants you to notice: Victor, Walton, and the creature are all brilliant, all driven, and all desperately alone.",
-      "on_screen": {"heading": "The cast",
+      "on_screen": {
+        "heading": "The cast",
         "annotations": [
-          {"kind": "character-map",
+          {
+            "kind": "character-map",
             "nodes": [
-              {"id": "victor", "label": "Victor Frankenstein"},
-              {"id": "creature", "label": "The Creature"},
-              {"id": "elizabeth", "label": "Elizabeth"},
-              {"id": "clerval", "label": "Henry Clerval"},
-              {"id": "walton", "label": "Robert Walton"},
-              {"id": "william", "label": "William & Justine"}
+              {
+                "id": "victor",
+                "label": "Victor Frankenstein"
+              },
+              {
+                "id": "creature",
+                "label": "The Creature"
+              },
+              {
+                "id": "elizabeth",
+                "label": "Elizabeth"
+              },
+              {
+                "id": "clerval",
+                "label": "Henry Clerval"
+              },
+              {
+                "id": "walton",
+                "label": "Robert Walton"
+              },
+              {
+                "id": "william",
+                "label": "William & Justine"
+              }
             ],
             "edges": [
-              {"from": "victor", "to": "creature", "label": "creates, then abandons"},
-              {"from": "creature", "to": "victor", "label": "revenge"},
-              {"from": "victor", "to": "elizabeth", "label": "loves / fails to protect"},
-              {"from": "victor", "to": "clerval", "label": "best friend"},
-              {"from": "creature", "to": "william", "label": "kills"},
-              {"from": "walton", "to": "victor", "label": "hears the confession"}
-            ]}
-        ]}
+              {
+                "from": "victor",
+                "to": "creature",
+                "label": "creates, then abandons"
+              },
+              {
+                "from": "creature",
+                "to": "victor",
+                "label": "revenge"
+              },
+              {
+                "from": "victor",
+                "to": "elizabeth",
+                "label": "loves / fails to protect"
+              },
+              {
+                "from": "victor",
+                "to": "clerval",
+                "label": "best friend"
+              },
+              {
+                "from": "creature",
+                "to": "william",
+                "label": "kills"
+              },
+              {
+                "from": "walton",
+                "to": "victor",
+                "label": "hears the confession"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "ch-themes",
       "template": "chapter-card",
       "narration": "Five themes carry nearly every question they can ask you.",
-      "on_screen": {"chapter_title": "Themes",
-        "timeline": {"kind": "timeline-strip", "segments": ["Plot", "Characters", "Themes", "Quotes", "Exam"], "marker": 2}}
+      "on_screen": {
+        "chapter_title": "Themes",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Plot",
+            "Characters",
+            "Themes",
+            "Quotes",
+            "Exam"
+          ],
+          "marker": 2
+        }
+      }
     },
     {
       "id": "themes",
       "template": "whiteboard",
       "narration": "Ambition — the danger of wanting to know too much, too fast. Creation and responsibility — Victor makes a life and then refuses to care for it, and that refusal, more than the stitching of body parts, is the true horror of the book. Isolation — everyone here is lonely, but the creature is the loneliest being ever written. Nature — the vast Alps and the Arctic that shrink every human scheme to nothing. And knowledge — a fire that warms and burns in the very same hand.",
-      "on_screen": {"heading": "Five themes",
+      "on_screen": {
+        "heading": "Five themes",
         "annotations": [
-          {"kind": "theme-list", "items": [
-            "Ambition & overreaching",
-            "Creation & responsibility",
-            "Isolation & loneliness",
-            "Nature & the sublime",
-            "Knowledge — a fire that burns"
-          ]}
-        ]}
+          {
+            "kind": "theme-list",
+            "items": [
+              "Ambition & overreaching",
+              "Creation & responsibility",
+              "Isolation & loneliness",
+              "Nature & the sublime",
+              "Knowledge — a fire that burns"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "ch-quotes",
       "template": "chapter-card",
       "narration": "Now five quotes. Learn these, with their volume, and you can prove almost any point they throw at you.",
-      "on_screen": {"chapter_title": "Five quotes to memorise",
-        "timeline": {"kind": "timeline-strip", "segments": ["Plot", "Characters", "Themes", "Quotes", "Exam"], "marker": 3}}
+      "on_screen": {
+        "chapter_title": "Five quotes to memorise",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Plot",
+            "Characters",
+            "Themes",
+            "Quotes",
+            "Exam"
+          ],
+          "marker": 3
+        }
+      }
     },
     {
       "id": "quote-ambition",
       "template": "quote-card",
       "narration": "One — for ambition and knowledge. Early in his confession, Victor stops and warns Walton not to repeat his mistake. Learn from me, how dangerous is the acquirement of knowledge, and how much happier that man is who believes his native town to be the world, than he who aspires to become greater than his nature will allow.",
-      "on_screen": {"quote": "Learn from me… how dangerous is the acquirement of knowledge… than he who aspires to become greater than his nature will allow.",
-        "source": "Vol. I, Ch. III"},
+      "on_screen": {
+        "quote": "Learn from me… how dangerous is the acquirement of knowledge… than he who aspires to become greater than his nature will allow.",
+        "source": "Vol. I, Ch. III"
+      },
       "notes": "Spoken fuller; on-screen trimmed with ellipses to the memorable core. Verbatim source 1818, Vol. I, Ch. III. Theme: ambition / dangerous knowledge."
     },
     {
       "id": "quote-epigraph",
       "template": "quote-card",
       "narration": "Two — the line Shelley put on the very first page, borrowed from Milton, in the creature's voice before he even exists. Did I request thee, Maker, from my clay to mould me man? Did I solicit thee from darkness to promote me?",
-      "on_screen": {"quote": "Did I request thee, Maker, from my clay / To mould me man? Did I solicit thee / From darkness to promote me?",
-        "source": "Title-page epigraph (Milton, Paradise Lost)"},
+      "on_screen": {
+        "quote": "Did I request thee, Maker, from my clay / To mould me man? Did I solicit thee / From darkness to promote me?",
+        "source": "Title-page epigraph (Milton, Paradise Lost)"
+      },
       "notes": "Verbatim epigraph, 1818 title page; Milton, Paradise Lost, Book X. Theme: creation without consent — the creature's grievance."
     },
     {
       "id": "quote-adam",
       "template": "quote-card",
       "narration": "Three — for creation and responsibility. The creature tells Victor exactly what he was supposed to be. I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
-      "on_screen": {"quote": "I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
-        "source": "Vol. II, Ch. II"},
+      "on_screen": {
+        "quote": "I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
+        "source": "Vol. II, Ch. II"
+      },
       "notes": "Verbatim, 1818, Vol. II, Ch. II. Theme: creation & responsibility; Paradise Lost parallel."
     },
     {
       "id": "quote-benevolent",
       "template": "quote-card",
       "narration": "Four — the single best line for nature versus nurture. He was not born evil; the world made him so. I was benevolent and good; misery made me a fiend.",
-      "on_screen": {"quote": "I was benevolent and good; misery made me a fiend.",
-        "source": "Vol. II, Ch. II"},
+      "on_screen": {
+        "quote": "I was benevolent and good; misery made me a fiend.",
+        "source": "Vol. II, Ch. II"
+      },
       "notes": "Verbatim, 1818, Vol. II, Ch. II. Theme: nature vs nurture; sympathy for the creature."
     },
     {
       "id": "quote-fearless",
       "template": "quote-card",
       "narration": "Five — for power and revenge. Rejected one time too many, the creature turns on his maker. Beware; for I am fearless, and therefore powerful.",
-      "on_screen": {"quote": "Beware; for I am fearless, and therefore powerful.",
-        "source": "Vol. III, Ch. III"},
+      "on_screen": {
+        "quote": "Beware; for I am fearless, and therefore powerful.",
+        "source": "Vol. III, Ch. III"
+      },
       "notes": "Verbatim, 1818, Vol. III, Ch. III. Theme: the creature's power; revenge."
     },
     {
       "id": "ch-exam",
       "template": "chapter-card",
       "narration": "Last thing — what the examiner is really asking underneath the question.",
-      "on_screen": {"chapter_title": "What the examiner is really asking",
-        "timeline": {"kind": "timeline-strip", "segments": ["Plot", "Characters", "Themes", "Quotes", "Exam"], "marker": 4}}
+      "on_screen": {
+        "chapter_title": "What the examiner is really asking",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Plot",
+            "Characters",
+            "Themes",
+            "Quotes",
+            "Exam"
+          ],
+          "marker": 4
+        }
+      }
     },
     {
       "id": "exam",
       "template": "whiteboard",
       "narration": "Whatever the wording, most questions are really one of these. Is Victor a victim, or the cause of everything? How does Shelley make us pity a murderer? Is the creature born a monster, or turned into one? Why does all that wild landscape matter? And that subtitle — the modern Prometheus — who steals fire from the gods, and what does Shelley think it costs? Here is the trick to top marks: always answer with a theme and a quote together, and show you can see both sides. Do that, and you are already writing a strong essay.",
-      "on_screen": {"heading": "Underneath every question",
+      "on_screen": {
+        "heading": "Underneath every question",
         "annotations": [
-          {"kind": "theme-list", "items": [
-            "Responsibility: victim or cause?",
-            "Sympathy: pitying a murderer",
-            "Nature vs nurture",
-            "The sublime & Romanticism",
-            "'The Modern Prometheus' — stealing fire"
-          ]}
-        ]}
+          {
+            "kind": "theme-list",
+            "items": [
+              "Responsibility: victim or cause?",
+              "Sympathy: pitying a murderer",
+              "Nature vs nurture",
+              "The sublime & Romanticism",
+              "'The Modern Prometheus' — stealing fire"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "end",
       "template": "end-screen",
       "narration": "So, back to where we started: who is the real monster? The strongest answer is that Shelley never lets you settle it — and that refusal is the whole point. If you want the full story, every scene, in Shelley's own words, the complete retelling is right here. Learn your five quotes, remember the three volumes, and good luck in the exam.",
-      "on_screen": {"message": "Watch the full retelling", "points_to": "CL-11B"},
+      "on_screen": {
+        "message": "Watch the full retelling",
+        "points_to": "CL-11B"
+      },
       "notes": "End screen cross-links to CL-11B per rule 5."
     }
   ]

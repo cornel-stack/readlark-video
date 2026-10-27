@@ -6,453 +6,767 @@
     "year": 1818,
     "text_status": "public_domain",
     "format": "Full retelling",
-    "target_minutes": [35, 45],
-    "target_words": [5250, 6750],
-    "voice": "en-GB-RyanNeural",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-SoniaNeural",
     "title": "Frankenstein: The Full Story Explained (Mary Shelley, 1818)",
     "search_phrase": "Frankenstein full story explained"
   },
   "chapters": [
-    {"title": "A voice from the ice", "first_scene": "hook"},
-    {"title": "Walton's letters", "first_scene": "ch-frame"},
-    {"title": "Volume I — The spark of being", "first_scene": "ch-vol1"},
-    {"title": "Volume II — The creature's tale", "first_scene": "ch-vol2"},
-    {"title": "Volume III — The wedding-night", "first_scene": "ch-vol3"},
-    {"title": "The end of the world", "first_scene": "ch-close"}
+    {
+      "title": "A voice from the ice",
+      "first_scene": "hook"
+    },
+    {
+      "title": "Walton's letters",
+      "first_scene": "ch-frame"
+    },
+    {
+      "title": "Volume I — The spark of being",
+      "first_scene": "ch-vol1"
+    },
+    {
+      "title": "Volume II — The creature's tale",
+      "first_scene": "ch-vol2"
+    },
+    {
+      "title": "Volume III — The wedding-night",
+      "first_scene": "ch-vol3"
+    },
+    {
+      "title": "The end of the world",
+      "first_scene": "ch-close"
+    }
   ],
   "scenes": [
     {
       "id": "hook",
       "template": "hook",
       "narration": "A ship is frozen into the Arctic ice, going nowhere. Out of the white waste, the crew sees a sledge, and on it something enormous, shaped like a man but not a man. And then, a day later, they pull a second traveller from the ice — half dead, chasing the first. That dying man is Victor Frankenstein, and the thing he is chasing is the life he made with his own hands. Before this is over, you will have to decide which of the two of them is really the monster. This is his confession.",
-      "on_screen": {"question": "What would you owe a life you created?", "plate": "plate-sea-of-ice"},
-      "assets": ["plate-sea-of-ice"],
+      "on_screen": {
+        "question": "What would you owe a life you created?",
+        "plate": "plate-sea-of-ice"
+      },
+      "assets": [
+        "plate-sea-of-ice"
+      ],
       "notes": "Hook before any title, per rule 5. Plate: Friedrich, 'The Sea of Ice' (PD)."
     },
     {
       "id": "title",
       "template": "title-card",
       "narration": "Frankenstein; or, The Modern Prometheus. By Mary Shelley. Eighteen eighteen.",
-      "on_screen": {"title": "Frankenstein", "author": "Mary Shelley", "year": 1818, "subtitle": "or, The Modern Prometheus"},
+      "on_screen": {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "year": 1818,
+        "subtitle": "or, The Modern Prometheus"
+      },
       "duration_hint": 5
     },
     {
       "id": "ch-frame",
       "template": "chapter-card",
       "narration": "The book begins not with Victor at all, but with a stranger writing letters home.",
-      "on_screen": {"chapter_title": "Walton's letters",
-        "timeline": {"kind": "timeline-strip", "segments": ["Letters", "Vol I", "Vol II", "Vol III", "End"], "marker": 0}}
+      "on_screen": {
+        "chapter_title": "Walton's letters",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Letters",
+            "Vol I",
+            "Vol II",
+            "Vol III",
+            "End"
+          ],
+          "marker": 0
+        }
+      }
     },
     {
       "id": "frame-walton",
       "template": "parallax-still",
       "narration": "Robert Walton is an English explorer, sailing north from Russia to find a passage across the top of the world and, he hopes, to make his name forever. He writes long letters to his sister, Margaret, back in England, and they are full of ambition — he imagines the Pole as a country of eternal light, and himself as the man who will reach it. But between the boasts, something lonelier keeps leaking out. He has no equal on the ship, no one who shares his mind, no one to tell him when he is being a fool. As he puts it himself: I greatly need a friend who would have sense enough not to despise me as romantic, and affection enough for me to endeavour to regulate my mind. Hold on to that word — friend. The whole book is full of people starving for one.",
-      "on_screen": {"plate": "plate-wanderer", "camera": "push-in"},
-      "assets": ["plate-wanderer"],
+      "on_screen": {
+        "plate": "plate-wanderer",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-wanderer"
+      ],
       "notes": "Walton's Letters I–II. Quote 'I greatly need a friend…' — Letter II, verbatim 1818. Plate: Friedrich, 'Wanderer above the Sea of Fog' (PD)."
     },
     {
       "id": "frame-sighting",
       "template": "parallax-still",
       "narration": "By late July the ambition meets reality. His ship is locked in ice, hemmed in on every side, fog pressing down, the crew uneasy. And it is here, in the most lifeless place on earth, that they see something impossible: a sledge drawn by dogs, far out on the ice, driven by a figure of gigantic size. By morning that one is gone. But the ice has thawed just enough to float a second sledge up against the hull — and on it, one surviving dog and one survivor, a European, frostbitten and wasted almost to nothing. He will not climb aboard until he has asked, strangely, which way the ship is heading. North, they tell him. Only then does he let them save his life.",
-      "on_screen": {"plate": "plate-sea-of-ice", "camera": "drift"},
-      "assets": ["plate-sea-of-ice"],
+      "on_screen": {
+        "plate": "plate-sea-of-ice",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-sea-of-ice"
+      ],
       "notes": "Letter IV. The giant on the first sledge; Victor rescued on the second, asking the ship's direction first."
     },
     {
       "id": "frame-victor",
       "template": "parallax-still",
       "narration": "Walton nurses the stranger for days before he can even speak. When he can, he turns out to be gentle, generous, and more broken than any man Walton has ever met. There are moments when a small kindness lights up his whole face; then the weight of some private grief drops over him again and he gnashes his teeth. When the lieutenant asks why he has driven himself so far across the ice, he answers with just six words: to seek one who fled from me. And slowly Walton realises something that chills him. This dying man recognises him. He sees in Walton the exact same hunger for glory that once destroyed his own life — and so he decides to tell Walton everything, as a warning. Listen to the whole of it, he says, and then choose your road. From here on, these are Victor's words.",
-      "on_screen": {"plate": "plate-arctic-ship", "camera": "push-in"},
-      "assets": ["plate-arctic-ship"],
+      "on_screen": {
+        "plate": "plate-arctic-ship",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-arctic-ship"
+      ],
       "notes": "Letter IV. Quote 'To seek one who fled from me' — verbatim 1818. The frame hands over to Victor's first-person tale."
     },
     {
       "id": "ch-vol1",
       "template": "chapter-card",
       "narration": "Volume One. A happy childhood, a brilliant mind, and one terrible night in November.",
-      "on_screen": {"chapter_title": "Volume I — The spark of being",
-        "timeline": {"kind": "timeline-strip", "segments": ["Letters", "Vol I", "Vol II", "Vol III", "End"], "marker": 1}}
+      "on_screen": {
+        "chapter_title": "Volume I — The spark of being",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Letters",
+            "Vol I",
+            "Vol II",
+            "Vol III",
+            "End"
+          ],
+          "marker": 1
+        }
+      }
     },
     {
       "id": "v1-childhood",
       "template": "parallax-still",
       "narration": "Victor grows up in Geneva, in Switzerland, in a loving and wealthy family. His parents are kind almost to a fault. When he is small they take in an orphan girl, Elizabeth Lavenza — gentle, patient, beautiful — and raise her at Victor's side as his playmate and, everyone quietly assumes, his future wife. He has a devoted best friend as well, Henry Clerval, a warm, imaginative boy who loves old stories of knights and heroes. Victor describes this childhood as almost perfect: protected, adored, free to follow his curiosity wherever it led. Keep that picture in your mind — the lake, the mountains, the close and happy family — because Victor is about to spend the rest of his life dismantling it, person by person.",
-      "on_screen": {"plate": "plate-geneva-lake", "camera": "pan"},
-      "assets": ["plate-geneva-lake"],
+      "on_screen": {
+        "plate": "plate-geneva-lake",
+        "camera": "pan"
+      },
+      "assets": [
+        "plate-geneva-lake"
+      ],
       "notes": "Vol I, Ch I. Family, Elizabeth, Clerval; the idyllic childhood. Plate: Lake Geneva / Alps (PD landscape)."
     },
     {
       "id": "v1-obsession",
       "template": "parallax-still",
       "narration": "But even as a child, one hunger sets Victor apart from the others. Clerval is drawn to people and stories; Victor is drawn to the hidden machinery of the world. He wants to know what life actually is — where it comes from, what the soul is made of, whether death has to be the end. He discovers the old alchemists, centuries out of date, and falls in love with their wild promises: the elixir that cures every illness, the secret that raises the dead. His father waves it away as nonsense and never explains why, and that carelessness matters — nobody ever teaches Victor the difference between a grand dream and a dangerous one. So the dream grows in the dark, unchecked.",
-      "on_screen": {"plate": "plate-lab-wright", "camera": "drift"},
-      "assets": ["plate-lab-wright"],
+      "on_screen": {
+        "plate": "plate-lab-wright",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-lab-wright"
+      ],
       "notes": "Vol I, Ch I–II. Victor's early fascination with alchemy; his father's dismissal. Plate: Wright of Derby candlelit science (PD)."
     },
     {
       "id": "v1-death",
       "template": "parallax-still",
       "narration": "Then, for the first time, death comes close. Elizabeth catches scarlet fever, and Victor's mother, Caroline, nurses her through it devotedly — and catches it herself. Caroline dies. On her deathbed she takes the hands of Victor and Elizabeth, joins them together, and asks them to marry one day. It is the moment a thoughtful person learns that love and loss are tied together, that you cannot keep the people you love forever. Victor takes the opposite lesson. Instead of accepting that human beings die, he decides, somewhere deep down, that he will find a way to defeat death itself. His grief hardens into ambition, and the ambition has no brakes.",
-      "on_screen": {"plate": "plate-geneva-storm", "camera": "push-in"},
-      "assets": ["plate-geneva-storm"],
+      "on_screen": {
+        "plate": "plate-geneva-storm",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-geneva-storm"
+      ],
       "notes": "Vol I, Ch II. Caroline's death nursing Elizabeth; the deathbed wish; grief turning to ambition."
     },
     {
       "id": "v1-ingolstadt",
       "template": "parallax-still",
       "narration": "At seventeen, Victor leaves home for the university at Ingolstadt, in Germany. One professor, Krempe, laughs at his boyhood reading and wounds his pride. But another, the gentle Waldman, does something more dangerous — he tells Victor that modern chemists really can perform something close to miracles, that they have discovered how nature works and begun to command it. That is all Victor needs to hear. He shuts himself away and works with a fury that unsettles even his teachers, racing through everything the university can teach him and then past it. His cheeks grow pale, his body wastes, and he does not care. He has caught the scent of the one secret no one has ever found.",
-      "on_screen": {"plate": "plate-lab-wright", "camera": "reveal"},
-      "assets": ["plate-lab-wright"],
+      "on_screen": {
+        "plate": "plate-lab-wright",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-lab-wright"
+      ],
       "notes": "Vol I, Ch II–III. Professors Krempe and Waldman; Victor's obsessive study."
     },
     {
       "id": "v1-discovery",
       "template": "parallax-still",
       "narration": "And he finds it. By studying how living bodies decay, Victor works backward to the opposite process — and discovers the principle of life itself: how to make dead matter live. He is, he says, dizzy with the power of it. He imagines a whole new species that would bless him as its creator and father; he imagines, in time, bringing the dead themselves back to life. No scientist before him has stood where he is standing. But notice what he never does. He never once stops to ask whether he should. The question is only ever how.",
-      "on_screen": {"plate": "plate-lab-wright", "camera": "push-in"},
-      "assets": ["plate-lab-wright"],
+      "on_screen": {
+        "plate": "plate-lab-wright",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-lab-wright"
+      ],
       "notes": "Vol I, Ch III. The discovery of the principle of life; Victor's godlike ambition."
     },
     {
       "id": "v1-warning",
       "template": "quote-card",
       "narration": "Here, telling the story years later on Walton's ship, Victor stops himself. He refuses to reveal the secret — he will not hand anyone else the weapon that ruined him. Instead he says this, and he is really saying it to you.",
-      "on_screen": {"quote": "Learn from me… how dangerous is the acquirement of knowledge, and how much happier that man is who believes his native town to be the world, than he who aspires to become greater than his nature will allow.",
-        "source": "Vol. I, Ch. III"},
+      "on_screen": {
+        "quote": "Learn from me… how dangerous is the acquirement of knowledge, and how much happier that man is who believes his native town to be the world, than he who aspires to become greater than his nature will allow.",
+        "source": "Vol. I, Ch. III"
+      },
       "notes": "Verbatim 1818, Vol. I, Ch. III (one clause elided with an ellipsis for pace)."
     },
     {
       "id": "v1-workshop",
       "template": "parallax-still",
       "narration": "Possessed, Victor sets out to build a body. He decides to make it giant — about eight feet tall — simply because working on a larger scale is easier and faster. He gathers his raw materials from the places most people cannot bear to think about: dissecting rooms, slaughterhouses, and graveyards, robbing the dead by candlelight in a lonely attic he calls his workshop of filthy creation. For almost two years he barely eats or sleeps or sees the sun. He stops answering his family's letters entirely. The summer passes without him noticing it. Without realising, he is making himself into exactly what he is about to create: a thing cut off from every other living soul.",
-      "on_screen": {"plate": "plate-graveyard", "camera": "drift"},
-      "assets": ["plate-graveyard"],
+      "on_screen": {
+        "plate": "plate-graveyard",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-graveyard"
+      ],
       "notes": "Vol I, Ch III–IV. Construction of the creature; grave-robbing; self-isolation. 'Workshop of filthy creation' is Shelley's phrase."
     },
     {
       "id": "v1-creation",
       "template": "quote-card",
       "narration": "And then, at last, it is finished. It is one o'clock in the morning, rain ticking against the glass, the candle almost burned out.",
-      "on_screen": {"quote": "It was on a dreary night of November, that I beheld the accomplishment of my toils.",
-        "source": "Vol. I, Ch. IV"},
+      "on_screen": {
+        "quote": "It was on a dreary night of November, that I beheld the accomplishment of my toils.",
+        "source": "Vol. I, Ch. IV"
+      },
       "notes": "Verbatim 1818, Vol. I, Ch. IV — the creation. Plate carried by the next scene."
     },
     {
       "id": "v1-awaken",
       "template": "parallax-still",
       "narration": "The dull yellow eye opens. The creature breathes; a convulsion runs through its limbs. And in that single instant, two years of dreaming collapse. Victor had chosen the features to be beautiful — but stretched over working muscle, with watery eyes set in a shrivelled face, the result is a horror. The beauty of the dream vanished, he says, and breathless horror and disgust filled my heart. He wanted to make something magnificent that would love him. He has made something he cannot even bring himself to look at. And so, at the very first second of his creature's life, Victor does the one thing a creator must never do. He turns, and runs out of the room.",
-      "on_screen": {"plate": "plate-holst-frontispiece", "camera": "reveal",
-        "annotations": [{"kind": "label", "text": "the first abandonment", "at": [0.16, 0.8]}]},
-      "assets": ["plate-holst-frontispiece"],
+      "on_screen": {
+        "plate": "plate-holst-frontispiece",
+        "camera": "reveal",
+        "annotations": [
+          {
+            "kind": "label",
+            "text": "the first abandonment",
+            "at": [
+              0.16,
+              0.8
+            ]
+          }
+        ]
+      },
+      "assets": [
+        "plate-holst-frontispiece"
+      ],
       "notes": "Vol I, Ch IV. Quote 'the beauty of the dream vanished… horror and disgust' — verbatim 1818. Plate: Holst 1831 frontispiece (PD period image of the awakening)."
     },
     {
       "id": "v1-nightmare",
       "template": "parallax-still",
       "narration": "Victor throws himself on his bed and falls into a nightmare: he embraces Elizabeth, and as he kisses her she turns grey and becomes the corpse of his dead mother, grave-worms in the folds of her shroud. He jerks awake — and the creature is there, standing over him in the moonlight. One hand is stretched out toward him. Its jaws move, and it makes a sound; a kind of grin creases its face. It might be trying to speak. It might be reaching out for its maker, the way any newborn reaches for the first face it sees. Victor will never know, because he does not wait to find out. He bolts into the night, and when he dares to return in daylight, the creature is gone.",
-      "on_screen": {"plate": "plate-nightmare-fuseli", "camera": "push-in"},
-      "assets": ["plate-nightmare-fuseli"],
+      "on_screen": {
+        "plate": "plate-nightmare-fuseli",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-nightmare-fuseli"
+      ],
       "notes": "Vol I, Ch IV. The dream of Elizabeth/Caroline; the creature at the bedside, reaching out. Plate: Fuseli, 'The Nightmare' (PD)."
     },
     {
       "id": "v1-illness",
       "template": "parallax-still",
       "narration": "The shock of it breaks him completely. Victor collapses into a fever that lasts for months, raving and helpless — and it is Clerval, who has just arrived in Ingolstadt to study, who finds him and nurses him patiently back to health, never once learning what his friend has really done. When Victor finally recovers his senses, he makes a choice that damns him more than the creation ever did. The creature has vanished; perhaps, he tells himself, it will wander off and simply die. He decides not to search for it. He decides not to warn anyone. He simply looks away and tries to forget. That is Victor's second abandonment, and it is far worse than the first.",
-      "on_screen": {"plate": "plate-geneva-lake", "camera": "drift"},
-      "assets": ["plate-geneva-lake"],
+      "on_screen": {
+        "plate": "plate-geneva-lake",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-geneva-lake"
+      ],
       "notes": "Vol I, Ch IV–V. Victor's long illness; Clerval's care; Victor's decision to ignore the creature."
     },
     {
       "id": "v1-william",
       "template": "parallax-still",
       "narration": "Months later, a letter arrives from his father, and the forgetting ends. Victor's youngest brother, William — a bright, sweet little boy — has been found strangled in the woods outside Geneva. Victor races home. Arriving late at night, locked out of the city by a thunderstorm, he climbs toward the murder scene by the light of the lightning — and there, in a sudden white flash against the black mountainside, he sees it: the vast, misshapen outline of his own creature, scrambling away among the rocks. In that instant he knows, beyond any doubt, who killed his brother. And in the very same instant he understands something unbearable: he can never tell a living soul. Who on earth would believe that he built the murderer with his own hands?",
-      "on_screen": {"plate": "plate-geneva-storm", "camera": "push-in"},
-      "assets": ["plate-geneva-storm"],
+      "on_screen": {
+        "plate": "plate-geneva-storm",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-geneva-storm"
+      ],
       "notes": "Vol I, Ch V–VI. William murdered; Victor sees the creature by lightning and understands."
     },
     {
       "id": "v1-justine",
       "template": "parallax-still",
       "narration": "And then the horror doubles. A gentle young servant named Justine, who had helped raise William and loved him like her own, is accused of the murder — because the creature, passing her as she slept, slipped a little portrait from the dead boy's body into the fold of her dress. The evidence is false, but it is damning. Frightened and exhausted and half-convinced she must somehow be guilty, Justine even confesses to a crime she never committed. Victor sits through the whole trial knowing the truth and says nothing — he tells himself no one would believe him, and perhaps that is true, but the result is the same. Justine is hanged. His silence has now killed two innocent people, and his creature has not yet said a single word to him.",
-      "on_screen": {"plate": "plate-graveyard", "camera": "drift"},
-      "assets": ["plate-graveyard"],
+      "on_screen": {
+        "plate": "plate-graveyard",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-graveyard"
+      ],
       "notes": "Vol I, Ch VI–VII. Justine framed with the planted portrait/locket; false confession; execution; Victor's guilty silence."
     },
     {
       "id": "v1-despair",
       "template": "parallax-still",
       "narration": "Crushed by a guilt he cannot confess, Victor can hardly bear to be near his grieving family. He goes up alone into the mountains above Chamounix, into the one thing that has ever calmed him — the enormous, indifferent beauty of the Alps, the kind of landscape the Romantics called sublime, so vast it makes human troubles feel small. He climbs out onto the great glacier, the Mer de Glace, the sea of ice. He has come here precisely because there are no people in it. And it is here, in the emptiest place he could find, that he is about to meet the one person in the world he most dreads.",
-      "on_screen": {"plate": "plate-mer-de-glace", "camera": "push-in"},
-      "assets": ["plate-mer-de-glace"],
+      "on_screen": {
+        "plate": "plate-mer-de-glace",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-mer-de-glace"
+      ],
       "notes": "Vol I, Ch VII into Vol II. Victor seeks relief in the sublime; the Mer de Glace."
     },
     {
       "id": "ch-vol2",
       "template": "chapter-card",
       "narration": "Volume Two. For the heart of the book, the monster takes over the story and speaks for himself.",
-      "on_screen": {"chapter_title": "Volume II — The creature's tale",
-        "timeline": {"kind": "timeline-strip", "segments": ["Letters", "Vol I", "Vol II", "Vol III", "End"], "marker": 2}}
+      "on_screen": {
+        "chapter_title": "Volume II — The creature's tale",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Letters",
+            "Vol I",
+            "Vol II",
+            "Vol III",
+            "End"
+          ],
+          "marker": 2
+        }
+      }
     },
     {
       "id": "v2-meet",
       "template": "parallax-still",
       "narration": "Across the ice, bounding over crevasses with inhuman speed and strength, the creature comes to him. Victor is seized with rage and curses it, threatens to kill it where it stands. But the creature does not fight. It does something far more disarming: it reasons. You made me, it says; I am your creature, and I was born good — remember that before you condemn me. It reminds Victor that it is bigger and stronger than he is, and that it has chosen, so far, not to use that. All it wants is to be heard. And then it tells Victor exactly how it understands its own place in the world.",
-      "on_screen": {"plate": "plate-mer-de-glace", "camera": "drift"},
-      "assets": ["plate-mer-de-glace"],
+      "on_screen": {
+        "plate": "plate-mer-de-glace",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-mer-de-glace"
+      ],
       "notes": "Vol II, Ch II. The confrontation on the Mer de Glace; the creature's restraint and eloquence."
     },
     {
       "id": "v2-adam",
       "template": "quote-card",
       "narration": "The creature has read Milton's Paradise Lost, and it uses it to explain itself. It should have been a beloved first child, an Adam, made in joy and cared for. Instead it has been thrown out of every garden for a crime it never committed.",
-      "on_screen": {"quote": "I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
-        "source": "Vol. II, Ch. II"},
+      "on_screen": {
+        "quote": "I ought to be thy Adam; but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
+        "source": "Vol. II, Ch. II"
+      },
       "notes": "Verbatim 1818, Vol. II, Ch. II."
     },
     {
       "id": "v2-listen",
       "template": "parallax-still",
       "narration": "Hear my story, the creature says, and then decide whether I deserve your hatred. So Victor sits down with him in a mountain hut on the ice, and for the entire middle third of the novel, the monster narrates his own life. And as he does, the whole book turns over. The thing we were taught to fear turns out not to be a monster at all, not at the start. It is a newborn mind waking up, alone, inside a body that the entire human race is terrified of.",
-      "on_screen": {"plate": "plate-alpine-sublime", "camera": "pan"},
-      "assets": ["plate-alpine-sublime"],
+      "on_screen": {
+        "plate": "plate-alpine-sublime",
+        "camera": "pan"
+      },
+      "assets": [
+        "plate-alpine-sublime"
+      ],
       "notes": "Vol II, Ch II. The creature begins his embedded narrative; the book's point of view shifts."
     },
     {
       "id": "v2-firstdays",
       "template": "parallax-still",
       "narration": "He remembers his first days the way we might imagine being born: a blur of light and dark, cold and hunger, slowly learning what his own eyes and ears and hands are for. He wanders out of the city into the forest. He discovers a fire some travellers have left behind and is overjoyed by its warmth — until he reaches into it and is burned, and learns his first hard rule: the same thing can give you warmth and agony at once. He finds food, he finds the moon, he learns the songs of birds. And everywhere he meets people, it ends the same way. They take one look at his face, and they scream, and they run, or they throw stones. So he learns to move only at night, and to keep away from the creatures he most wants to be near.",
-      "on_screen": {"plate": "plate-fire", "camera": "push-in"},
-      "assets": ["plate-fire"],
+      "on_screen": {
+        "plate": "plate-fire",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-fire"
+      ],
       "notes": "Vol II, Ch III. The creature's earliest sensations; fire; human terror and violence; nocturnal life."
     },
     {
       "id": "v2-cottage",
       "template": "parallax-still",
       "narration": "At last he finds somewhere he can stay. Against the back wall of a small, poor cottage in the countryside there is a low lean-to, a kind of kennel, just big enough for him. Through a crack in the boards he can see into the family's single room, and he settles there in secret to watch them. There are three of them: a blind old man, and his grown son and daughter, Felix and Agatha. They have almost nothing — they are often cold, and sometimes the young ones go without food so the old man can eat. But they are endlessly tender with one another, and the creature, who has known nothing but screams and stones, is spellbound by it. In his own mind he begins, secretly, to call them his protectors.",
-      "on_screen": {"plate": "plate-cottage", "camera": "drift"},
-      "assets": ["plate-cottage"],
+      "on_screen": {
+        "plate": "plate-cottage",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-cottage"
+      ],
       "notes": "Vol II, Ch III–IV. The De Lacey cottage; the creature observes Felix, Agatha and the blind father. Plate: humble candlelit cottage interior (PD genre painting)."
     },
     {
       "id": "v2-seasons",
       "template": "parallax-still",
       "narration": "He watches them through a whole turning of the seasons, from the dead of winter into spring. And invisibly, he begins to love them back. He realises he has been stealing a little of their food, and the thought of hurting them is unbearable, so he stops, and goes hungry instead. He sees Felix exhausting himself gathering firewood, so each night, while they sleep, the creature piles fresh wood at their door — and watches their astonished delight in the morning, a gift from nowhere. And all the while, by listening, he is teaching himself their language, word by word, until he can follow everything they say. A being the whole world calls a demon spends the hardest winter of his life performing small, invisible kindnesses for a family who will never know he exists.",
-      "on_screen": {"plate": "plate-cottage", "camera": "push-in"},
-      "assets": ["plate-cottage"],
+      "on_screen": {
+        "plate": "plate-cottage",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-cottage"
+      ],
       "notes": "Vol II, Ch IV. The creature's secret kindnesses; self-taught language; the changing seasons."
     },
     {
       "id": "v2-safie",
       "template": "parallax-still",
       "narration": "Then a stranger changes everything. A beautiful young woman named Safie arrives at the cottage — she is Arabian, the lost love of Felix, and the reason the family is poor and in exile in the first place. Safie speaks no French, so Felix sets about teaching her, patiently, reading aloud to her from books of history. And hidden in his shed, the creature is taught right alongside her. He learns about the rise and fall of empires, about the strange mixture of nobility and cruelty in human beings, about wealth and poverty and who gets to belong. And crucially, he learns to read. For the first time he has words large enough to frame the questions that will haunt the rest of his life. What am I? Where did I come from? And why, in all the world, is there no other creature like me?",
-      "on_screen": {"plate": "plate-reading", "camera": "reveal"},
-      "assets": ["plate-reading"],
+      "on_screen": {
+        "plate": "plate-reading",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-reading"
+      ],
       "notes": "Vol II, Ch V–VI. Safie's arrival and backstory; the creature learns language, history and reading through Felix's lessons."
     },
     {
       "id": "v2-books",
       "template": "parallax-still",
       "narration": "Soon after, he finds a leather bag dropped in the woods with three books inside, and he reads them as though they were true accounts of the world. Plutarch's lives of great men teach him what virtue and honour look like. A sorrowful novel about a heartbroken young man teaches him about feeling and despair. And Milton's Paradise Lost — the story of God creating Adam, and of the angel Lucifer cast down out of heaven — seems to him to be written about his own situation exactly. At first he sees himself in Adam, the first and only one of his kind. But Adam came into the world beloved, cared for by a maker who walked with him. The creature came into the world and was fled from in horror. So, slowly, bitterly, he stops seeing himself as Adam, and starts seeing himself as Satan.",
-      "on_screen": {"plate": "plate-reading", "camera": "drift"},
-      "assets": ["plate-reading"],
+      "on_screen": {
+        "plate": "plate-reading",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-reading"
+      ],
       "notes": "Vol II, Ch VII. The creature reads Paradise Lost, Plutarch's Lives and Goethe's Sorrows of Werter; the Adam/Satan identification."
     },
     {
       "id": "v2-journal",
       "template": "parallax-still",
       "narration": "Then he finds something crueller than any story. In the pocket of the clothes he took from Victor's workshop on the night he was made, there is a journal — Victor's own laboratory notebook. Now, at last, he can read it. And in his creator's handwriting he finds the record of his own making: page after page of scientific care, and page after page of disgust. He reads, in black and white, that the man who made him found him loathsome from the very first moment his eye opened. Even my creator, he realises, could not bear the sight of me. It is almost the end of his hope. Almost — because there is one person in that cottage who has never seen his face. The old man is blind.",
-      "on_screen": {"plate": "plate-cottage", "camera": "push-in"},
-      "assets": ["plate-cottage"],
+      "on_screen": {
+        "plate": "plate-cottage",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-cottage"
+      ],
       "notes": "Vol II, Ch VII. The creature reads Victor's journal and learns of his maker's revulsion; forms the plan to approach the blind De Lacey."
     },
     {
       "id": "v2-rejection",
       "template": "parallax-still",
       "narration": "So he makes a careful, hopeful plan. He will wait until the young people are out, and speak to the blind father alone — because this one time he will be judged by his words and his gentleness, and not by his face. It works, at first. He knocks; he is invited in; he and the old man talk, and the creature, trembling, almost weeps with the simple joy of being spoken to kindly. And then the others come home early. They see the monstrous shape kneeling at their father's feet. Agatha faints, Safie flees, and Felix seizes a stick and beats the creature down and drives him out of the house. The very next day the terrified family abandons the cottage forever. The one single time the creature reaches out for love, the answer is a beating and an empty house.",
-      "on_screen": {"plate": "plate-cottage", "camera": "drift"},
-      "assets": ["plate-cottage"],
+      "on_screen": {
+        "plate": "plate-cottage",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-cottage"
+      ],
       "notes": "Vol II, Ch VII. The creature reveals himself to blind De Lacey; Felix drives him out; the family flees."
     },
     {
       "id": "v2-fiend",
       "template": "quote-card",
       "narration": "Something in him dies that day. He burns the empty cottage to the ground in despair and turns, for the first time, toward Geneva — toward the man who made him and left him to this. And this is the line that holds the whole novel together; it is the creature's own explanation of how an innocent is turned into a killer.",
-      "on_screen": {"quote": "I was benevolent and good; misery made me a fiend. Make me happy, and I shall again be virtuous.",
-        "source": "Vol. II, Ch. II"},
+      "on_screen": {
+        "quote": "I was benevolent and good; misery made me a fiend. Make me happy, and I shall again be virtuous.",
+        "source": "Vol. II, Ch. II"
+      },
       "notes": "Verbatim 1818, Vol. II, Ch. II (spoken in the frame confrontation; placed here as the thematic hinge). Theme: nature vs nurture."
     },
     {
       "id": "v2-william",
       "template": "parallax-still",
       "narration": "On the long road south, two things happen that finish the transformation. First, he sees a little girl slip into a fast river and drown — so he plunges in and drags her out and saves her life. For that, a man who sees only a monster mauling a child shoots him, and leaves him to crawl away in agony. That is the reward for his one pure act of goodness. Then, near Geneva, he comes upon a beautiful young boy, and thinks: here is someone too young to have learned to hate a face. But the child shrieks at the sight of him, and calls him an ogre, and cries that his father is Monsieur Frankenstein. Frankenstein. At that name, every injury the creature has ever suffered rises up at once. He closes his hand on the boy's throat to silence him — and the boy goes still. He has murdered William. And finding a little portrait on the body, he slides it, deliberately, into the dress of a sleeping girl nearby, so that she will be blamed. The gentle creature is gone, and he knows it.",
-      "on_screen": {"plate": "plate-geneva-storm", "camera": "push-in"},
-      "assets": ["plate-geneva-storm"],
+      "on_screen": {
+        "plate": "plate-geneva-storm",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-geneva-storm"
+      ],
       "notes": "Vol II, Ch VIII. The creature saves a drowning girl and is shot; kills William on hearing the name Frankenstein; deliberately frames Justine."
     },
     {
       "id": "v2-demand",
       "template": "parallax-still",
       "narration": "And now, on the glacier, the creature comes to his demand — the reason he has hunted Victor down. He does not ask for revenge, or wealth, or freedom. He asks for one companion. Make me a mate, he says, a female as hideous and alone as I am, one creature in all the world who cannot help but accept me. Do that, and I swear the two of us will vanish into the wild forests of South America and never cross the path of a human being again. Every cruelty I have done, he insists, grew out of being utterly alone; give me someone to love, and I will be good again. Victor is sickened by the idea — but, looking at the creature's suffering, he also finally understands that he owes it something. Against every instinct, he agrees to build the bride.",
-      "on_screen": {"plate": "plate-mer-de-glace", "camera": "drift"},
-      "assets": ["plate-mer-de-glace"],
+      "on_screen": {
+        "plate": "plate-mer-de-glace",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-mer-de-glace"
+      ],
       "notes": "Vol II, Ch VIII–IX. The demand for a female companion; the promise of exile; Victor's reluctant agreement."
     },
     {
       "id": "ch-vol3",
       "template": "chapter-card",
       "narration": "Volume Three. A promise half-kept, a promise broken, and the terrible price of both.",
-      "on_screen": {"chapter_title": "Volume III — The wedding-night",
-        "timeline": {"kind": "timeline-strip", "segments": ["Letters", "Vol I", "Vol II", "Vol III", "End"], "marker": 3}}
+      "on_screen": {
+        "chapter_title": "Volume III — The wedding-night",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Letters",
+            "Vol I",
+            "Vol II",
+            "Vol III",
+            "End"
+          ],
+          "marker": 3
+        }
+      }
     },
     {
       "id": "v3-delay",
       "template": "parallax-still",
       "narration": "Back home, Victor cannot make himself begin. He is to marry Elizabeth, but he puts it off; he needs, he says, to travel first — to England, to learn from scientists there what he needs to finish the task. Really, he is running from it. His father, hoping the trip will heal him, sends the faithful Clerval along as his companion, and the two of them journey together down the river Rhine and across to England and up into Scotland. For Clerval it is the happiest of adventures — he delights in every ruin and mountain and town. For Victor, every beautiful day is poisoned by the thing he has promised to do, and by the sense of the creature following him, somewhere out of sight, waiting to collect. At last he can delay no longer. He leaves Clerval with friends and takes himself to the loneliest place he can find.",
-      "on_screen": {"plate": "plate-alpine-sublime", "camera": "pan"},
-      "assets": ["plate-alpine-sublime"],
+      "on_screen": {
+        "plate": "plate-alpine-sublime",
+        "camera": "pan"
+      },
+      "assets": [
+        "plate-alpine-sublime"
+      ],
       "notes": "Vol III, Ch I–II. The journey down the Rhine and through Britain with Clerval; Victor's dread and delay."
     },
     {
       "id": "v3-orkney",
       "template": "parallax-still",
       "narration": "He chooses a bare, wind-scoured island in the Orkneys, off the northern tip of Scotland — a handful of huts, a few poor fishermen, and nothing else for miles. There he sets up a second laboratory and begins, with loathing in every movement, to build a woman out of the dead. But as the second creature slowly takes shape under his hands, a new terror grows in him. What if she refuses the bargain her mate made for her? What if she is crueller, or stronger? And worst of all: what if the two of them have children — and he becomes the father of a whole new race of beings that could one day overrun and replace humankind? He is a single man, alone on a rock in the sea, holding a decision that belongs to no one person on earth.",
-      "on_screen": {"plate": "plate-orkney", "camera": "drift"},
-      "assets": ["plate-orkney"],
+      "on_screen": {
+        "plate": "plate-orkney",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-orkney"
+      ],
       "notes": "Vol III, Ch III. The remote Orkney laboratory; Victor's mounting fears about the female creature."
     },
     {
       "id": "v3-destroy",
       "template": "parallax-still",
       "narration": "Then, one night, he looks up from his work — and there, pressed against the window in the moonlight, is the creature, watching him with a ghastly, expectant grin. He has followed Victor across a continent, and he has come to collect his bride. And the sight of that grin decides it. In a fit of fear and revulsion, Victor seizes the half-finished body of the woman and tears her apart, there and then, while her intended mate watches every stroke through the glass. The sound the creature makes is a howl of pure betrayal — everything he had been promised, his one chance at not being alone, destroyed in front of his eyes. He vanishes into the dark. But not before he leaves Victor with a promise of his own.",
-      "on_screen": {"plate": "plate-orkney", "camera": "push-in"},
-      "assets": ["plate-orkney"],
+      "on_screen": {
+        "plate": "plate-orkney",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-orkney"
+      ],
       "notes": "Vol III, Ch III. Victor destroys the female creature as the creature watches through the window."
     },
     {
       "id": "v3-threat",
       "template": "quote-card",
       "narration": "The creature is past all pleading now. He has nothing left to hope for and nothing left to lose, and he tells Victor exactly what that has made him.",
-      "on_screen": {"quote": "Beware; for I am fearless, and therefore powerful.",
-        "source": "Vol. III, Ch. III"},
+      "on_screen": {
+        "quote": "Beware; for I am fearless, and therefore powerful.",
+        "source": "Vol. III, Ch. III"
+      },
       "notes": "Verbatim 1818, Vol. III, Ch. III."
     },
     {
       "id": "v3-wedding-threat",
       "template": "quote-card",
       "narration": "And then, before he disappears into the night, he names the precise hour of his revenge. Victor hears it as a death-threat aimed at himself — and spends the rest of the book defending the wrong person. He could not have misunderstood more completely.",
-      "on_screen": {"quote": "I shall be with you on your wedding-night.",
-        "source": "Vol. III, Ch. III"},
+      "on_screen": {
+        "quote": "I shall be with you on your wedding-night.",
+        "source": "Vol. III, Ch. III"
+      },
       "notes": "Verbatim 1818, Vol. III, Ch. III. Dramatic irony: Victor assumes the threat is to his own life."
     },
     {
       "id": "v3-clerval",
       "template": "parallax-still",
       "narration": "Victor rows far out to sea to dump the torn remains of his work, and the wind catches him and drives him off course until he washes up, exhausted, on the coast of Ireland. He has barely landed before he is seized and arrested — because a body was found strangled on that very beach in the night, the marks of two enormous hands on its throat. The townsfolk are certain he is the killer. And when they lead him in to see the corpse, Victor looks down into the dead face of Henry Clerval — his oldest, kindest friend, murdered to punish him for breaking his promise. He collapses into months of fever and raving, accused of the murder of the one man who ever truly loved him, and is only cleared and freed at the very last. The creature keeps every promise he makes.",
-      "on_screen": {"plate": "plate-ireland-beach", "camera": "drift"},
-      "assets": ["plate-ireland-beach"],
+      "on_screen": {
+        "plate": "plate-ireland-beach",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-ireland-beach"
+      ],
       "notes": "Vol III, Ch IV. Clerval found strangled; Victor accused and imprisoned in Ireland; fever; eventual acquittal."
     },
     {
       "id": "v3-wedding",
       "template": "parallax-still",
       "narration": "Home at last, hollow and haunted, Victor clings to the one piece of happiness still within reach: he finally marries Elizabeth. But he has read the creature's threat exactly backward. Convinced that the attack will come for him, he sends his bride ahead to their room alone on their wedding night, and paces the inn with a loaded pistol, listening for the monster to come for his own life. And then, from the room where he sent Elizabeth for safety, he hears her scream. In that single sound, everything he has misunderstood becomes clear. The creature never meant to take Victor's life. He meant to take everyone Victor loved, and to leave him alive and alone to feel it — exactly as the creature himself has felt, every day of his existence.",
-      "on_screen": {"plate": "plate-wedding-evian", "camera": "push-in"},
-      "assets": ["plate-wedding-evian"],
+      "on_screen": {
+        "plate": "plate-wedding-evian",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-wedding-evian"
+      ],
       "notes": "Vol III, Ch V–VI. The wedding; Victor misreads the threat and sends Elizabeth away; her scream."
     },
     {
       "id": "v3-elizabeth",
       "template": "parallax-still",
       "narration": "He runs to her and finds Elizabeth flung across the bed, lifeless, the dark print of the creature's fingers on her throat. He rushes to the open window — and there, out over the moonlit lake, is the creature, pointing down at the body he has made, with a grin of hideous triumph, before he plunges into the water and is gone. Everything the creature suffered — the abandonment, the loneliness, the love torn to pieces before his eyes — he has now inflicted on Victor, precisely, in kind. And it is not finished. When Victor's old father hears how Elizabeth died, the grief is more than the old man's heart can hold, and within a few days he too is dead. Victor Frankenstein has now lost every single person he ever loved. He is, at last, as alone as his creature.",
-      "on_screen": {"plate": "plate-wedding-evian", "camera": "drift"},
-      "assets": ["plate-wedding-evian"],
+      "on_screen": {
+        "plate": "plate-wedding-evian",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-wedding-evian"
+      ],
       "notes": "Vol III, Ch VI. Elizabeth strangled on the wedding night; the creature at the window; Alphonse dies of grief."
     },
     {
       "id": "v3-pursuit",
       "template": "parallax-still",
       "narration": "Now there is nothing left of Victor but hatred, and he gives the last of his life to a single purpose: to hunt his creature to the ends of the earth and destroy it. But the creature wants the chase to go on. He leads his maker across Europe and into the frozen wastes of Russia, always staying just ahead, leaving mocking messages scratched on rocks and trees, even leaving food so that Victor will not die and end the game too soon. The two of them are bound together now more tightly than any lovers or friends — hunter and hunted, maker and made, each one the only thing the other has left in the world. And the chase draws them north, out onto the breaking sea-ice, which is exactly where this whole story began, with a stranger pulled half-dead onto Walton's ship.",
-      "on_screen": {"plate": "plate-sea-of-ice", "camera": "push-in"},
-      "assets": ["plate-sea-of-ice"],
+      "on_screen": {
+        "plate": "plate-sea-of-ice",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-sea-of-ice"
+      ],
       "notes": "Vol III, Ch VII. The Arctic pursuit; the creature baits Victor onward; the frame narrative catches up to the present."
     },
     {
       "id": "ch-close",
       "template": "chapter-card",
       "narration": "The end of the world. And, fittingly, the last word of all goes to the monster.",
-      "on_screen": {"chapter_title": "The end of the world",
-        "timeline": {"kind": "timeline-strip", "segments": ["Letters", "Vol I", "Vol II", "Vol III", "End"], "marker": 4}}
+      "on_screen": {
+        "chapter_title": "The end of the world",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Letters",
+            "Vol I",
+            "Vol II",
+            "Vol III",
+            "End"
+          ],
+          "marker": 4
+        }
+      }
     },
     {
       "id": "close-death",
       "template": "parallax-still",
       "narration": "Victor finishes his confession, and we are back in the present, on the trapped ship. The ice is breaking up around them, men have already died, and the terrified crew come to Walton and demand that he turn the ship around and sail home the moment they are free. Victor — dying, wasted, barely able to lift his head — rouses himself to shame them, begging them to sail on and be heroes, to not retreat from glory. It is astonishing: even now, even after everything, part of him has learned nothing. But his body is finished. With his last clear breath, he gives Walton the warning his whole story was meant to deliver — and then, in the very same breath, he cannot quite bring himself to mean it.",
-      "on_screen": {"plate": "plate-arctic-ship", "camera": "drift"},
-      "assets": ["plate-arctic-ship"],
+      "on_screen": {
+        "plate": "plate-arctic-ship",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-arctic-ship"
+      ],
       "notes": "Vol III, Ch VII (Walton's continuation). The crew demands to turn back; Victor's last exhortation; his death approaching."
     },
     {
       "id": "close-victor-quote",
       "template": "quote-card",
       "narration": "Listen to how divided this man is, right to the end — warning against ambition in one clause, and reaching for it again in the next.",
-      "on_screen": {"quote": "Seek happiness in tranquillity, and avoid ambition… Yet why do I say this? … another may succeed.",
-        "source": "Vol. III, Ch. VII"},
+      "on_screen": {
+        "quote": "Seek happiness in tranquillity, and avoid ambition… Yet why do I say this? … another may succeed.",
+        "source": "Vol. III, Ch. VII"
+      },
       "notes": "Verbatim 1818, Vol. III, Ch. VII (Victor's dying words to Walton, condensed with ellipses)."
     },
     {
       "id": "close-creature",
       "template": "parallax-still",
       "narration": "Victor dies, and a gentle smile passes from his lips. That night, writing to his sister, Walton hears a sound in the cabin where the body lies — a rough, broken voice. He goes in, and there, hanging over his dead friend, is the creature: vast, ragged, unbearable to look at — and weeping. This is the monster that killed a child and a bride and a best friend, and he is grieving over the man who made and hated him. He did not truly hate Victor, he tells Walton; he hated what their shared loneliness turned them both into. He looks back on the catalogue of his own crimes with a horror and a self-disgust far deeper than anything Walton can feel toward him.",
-      "on_screen": {"plate": "plate-arctic-ship", "camera": "push-in"},
-      "assets": ["plate-arctic-ship"],
+      "on_screen": {
+        "plate": "plate-arctic-ship",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-arctic-ship"
+      ],
       "notes": "Vol III, Ch VII. Victor dies; Walton discovers the creature mourning over the corpse."
     },
     {
       "id": "close-fallen",
       "template": "quote-card",
       "narration": "He knows exactly what he has become. And he knows he is more alone than even the devil he read about as a newborn — because Milton's Satan, at least, had companions in his fall.",
-      "on_screen": {"quote": "the fallen angel becomes a malignant devil… Yet even that enemy of God and man had friends… I am quite alone.",
-        "source": "Vol. III, Ch. VII"},
+      "on_screen": {
+        "quote": "the fallen angel becomes a malignant devil… Yet even that enemy of God and man had friends… I am quite alone.",
+        "source": "Vol. III, Ch. VII"
+      },
       "notes": "Verbatim 1818, Vol. III, Ch. VII (condensed with ellipses). Closes the Paradise Lost thread."
     },
     {
       "id": "close-farewell",
       "template": "parallax-still",
       "narration": "His revenge is complete, and it has left him with absolutely nothing. There is only one thing left in the world for him to want, and it is an ending. He tells Walton that he will travel on, to the very northernmost point of the earth, and there build himself a funeral pyre and burn upon it — so that no curious soul can ever find his body and be tempted to make another creature like him, and so that his own unendurable loneliness can finally, finally go out. And then he says goodbye.",
-      "on_screen": {"plate": "plate-funeral-pile", "camera": "reveal"},
-      "assets": ["plate-funeral-pile"],
+      "on_screen": {
+        "plate": "plate-funeral-pile",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-funeral-pile"
+      ],
       "notes": "Vol III, Ch VII. The creature resolves to destroy himself at the Pole."
     },
     {
       "id": "close-spirit",
       "template": "quote-card",
       "narration": "And with that, the most hated creature in all of English literature says perhaps the gentlest, saddest thing in the whole book.",
-      "on_screen": {"quote": "My spirit will sleep in peace; or if it thinks, it will not surely think thus. Farewell.",
-        "source": "Vol. III, Ch. VII"},
+      "on_screen": {
+        "quote": "My spirit will sleep in peace; or if it thinks, it will not surely think thus. Farewell.",
+        "source": "Vol. III, Ch. VII"
+      },
       "notes": "Verbatim 1818, Vol. III, Ch. VII — the creature's last words."
     },
     {
       "id": "close-end-image",
       "template": "parallax-still",
       "narration": "He springs from the cabin window down onto an ice-raft floating by the ship, and the current takes him. Shelley never lets us watch him die. We only watch him drift away over the dark water and, in the book's final words, he is borne away by the waves, and lost in darkness and distance — still, to the very last line, completely alone.",
-      "on_screen": {"plate": "plate-funeral-pile", "camera": "drift"},
-      "assets": ["plate-funeral-pile"],
+      "on_screen": {
+        "plate": "plate-funeral-pile",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-funeral-pile"
+      ],
       "notes": "Vol III, Ch VII — the final image. 'borne away by the waves, and lost in darkness and distance.'"
     },
     {
       "id": "close-meaning",
       "template": "parallax-still",
       "narration": "So why, two hundred years on, is this strange, sad book still everywhere — on every syllabus, behind a thousand films? Because Shelley refuses to tell you who to blame, and makes you do the work yourself. Victor commits no murder with his own hands; his single sin is that he makes a life and then will not take responsibility for it, and every horror in the novel pours out of that one refusal. The creature strangles innocents — and yet we ache for him, because we were there, watching the world teach him how to hate, blow by blow. Shelley hands the final word not to the brilliant scientist but to the thing he threw in the bin, and quietly dares you to say which of them was the real monster. And every single time human beings invent a new power we are not sure we can control, the question she asked at eighteen comes straight back. That is why Frankenstein is still set, still read, and still frightening.",
-      "on_screen": {"plate": "plate-wanderer", "camera": "push-in"},
-      "assets": ["plate-wanderer"],
+      "on_screen": {
+        "plate": "plate-wanderer",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-wanderer"
+      ],
       "notes": "Closing reflection: the creator's responsibility, sympathy for the outcast, the cost of ambition; why the novel endures."
     },
     {
       "id": "end",
       "template": "end-screen",
       "narration": "That is Frankenstein, in full. If you need it tightened for an exam — the plot in three volumes, the characters, the five big themes, and five quotes worth memorising — the revision version is right here. Thanks for listening, and go easy on the monster.",
-      "on_screen": {"message": "Watch the 10-minute revision video", "points_to": "CL-11A"},
+      "on_screen": {
+        "message": "Watch the 10-minute revision video",
+        "points_to": "CL-11A"
+      },
       "notes": "End screen cross-links to CL-11A per rule 5."
     }
   ]
