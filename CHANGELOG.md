@@ -2,6 +2,30 @@
 
 All notable changes per checkpoint. Newest first.
 
+## Checkpoint 6 — Templates + compositions (2026-10-27)
+
+- Seven data-driven templates: hook, title-card, chapter-card, parallax-still
+  (4 seeded camera moves), whiteboard (character-map + theme-list drawn in order),
+  quote-card, end-screen. Components: Handwriting, Captions (word-timed, ≤2 lines/
+  ≤42 chars), DrawnStroke, TimelineStrip, ParallaxPlate, Hand.
+- Main composition: assembles scenes from props, narration.wav as the clock
+  (calculateMetadata), soft scene fades, captions overlay. Short (9:16 teaser) and
+  Thumbnail (1280×720, 3 variants from build_props) added.
+- `build_props.py` merges script + audio timing + depth layers + thumbnail configs.
+- `.github/workflows/render.yml` renders the full pipeline on CI; `preview.yml`
+  makes a small 480p review bundle so the 312 MB master needn't be pulled.
+- **CL-11A fully rendered on CI** (run 40486315259, 22m): 1080p30 H.264, 8.69 min,
+  all 7 templates + captions. Verified via sampled frames + 480p preview.
+
+## Checkpoint 5 — Narration + captions (2026-10-27)
+
+- `tools/audio.py`: edge-tts per scene → concat → faster-whisper word timestamps →
+  timestamps.json + captions.srt (≤2 lines/≤42 chars, sentence-aware) + scenes.json
+  (the per-scene clock). pronounce.json applied to TTS input only. Decodes wav→array
+  for whisper (dodges a PyAV break). NARRATION_RATE -12% ≈ 150 wpm.
+- Three hook voices offered → **en-GB-SoniaNeural (British female) chosen**; set in
+  both scripts. CL-11A narration lands 8.69 min (in [8,12]).
+
 ## Checkpoint 4 — Hand + annotations (2026-10-27)
 
 - `tools/hand_cutout.py`: border-connected background removal (saturation+light mask,
