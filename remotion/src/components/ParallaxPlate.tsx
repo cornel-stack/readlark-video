@@ -17,7 +17,8 @@ export const ParallaxPlate: React.FC<{
   pan?: number; // horizontal camera travel in px that parallax multiplies
 }> = ({layers, t, frameRect, pan = 120}) => {
   const rect = frameRect ?? {x: 300, y: 120, w: 1320, h: 840};
-  const push = interpolate(t, [0, 1], [1.0, 1.08]); // slow push-in
+  const push = interpolate(t, [0, 1], [1.04, 1.12]); // slow push-in (base always over-scanned)
+  // horizontal camera travel in px; each layer shifts by camX * its relative parallax.
   const camX = interpolate(t, [0, 1], [-pan / 2, pan / 2]);
 
   return (
@@ -47,7 +48,7 @@ export const ParallaxPlate: React.FC<{
               width: '100%',
               height: '100%',
               objectFit: 'cover',
-              transform: `scale(${push}) translateX(${camX * l.parallax * 40}px)`,
+              transform: `scale(${push}) translateX(${camX * l.parallax}px)`,
               transformOrigin: 'center',
             }}
           />

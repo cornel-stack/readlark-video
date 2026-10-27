@@ -31,12 +31,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# Parallax factor per layer, back (far) -> front (near), as a fraction of frame
-# width the layer travels at full camera push. Far ≈ still; near ≈ noticeable.
+# Relative parallax per layer, back (far) -> front (near): 0 = the static opaque
+# base, 1 = the nearest cut-out (moves most). The template scales these by a small
+# pixel strength so the move stays subtle.
 PARALLAX_BY_LAYERS = {
-    2: [0.015, 0.06],
-    3: [0.010, 0.045, 0.09],
-    4: [0.008, 0.03, 0.06, 0.10],
+    2: [0.0, 1.0],
+    3: [0.0, 0.55, 1.0],
+    4: [0.0, 0.4, 0.7, 1.0],
 }
 # Below this normalized depth standard deviation, a plate is treated as "flat".
 FLAT_STD_THRESHOLD = 0.055
@@ -84,29 +85,28 @@ def process_plate(img_path: Path, out_dir: Path, pid: str, n_layers: int, depth_
         return {"id": pid, "flat": True, "depth_std": round(std, 4),
                 "layers": [], "note": "low depth variance — template uses 2D move"}
 
-    # Quantile band edges so each layer holds a comparable slab of the scene.
-    edges = [float(np.quantile(depth, q)) for q in np.linspace(0, 1, n_layers + 1)]
-    factors = PARALLAX_BY_LAYERS[n_layers]
     out_dir.mkdir(parents=True, exist_ok=True)
+    factors = PARALLAX_BY_LAYERS[n_layers]
     layers = []
-    accum_fg = np.zeros((H, W), dtype=np.uint8)  # union of nearer layers (for inpaint)
+    feather_sigma = max(1.0, W / 350)
 
-    # Build near -> far so we can inpaint each layer behind the ones in front of it.
-    for li in range(n_layers - 1, -1, -1):
-        lo, hi = edges[li], edges[li + 1]
-        mask = ((depth >= lo) & (depth <= hi)).astype(np.uint8) * 255
-        feather = cv2.GaussianBlur(mask, (0, 0), sigmaX=max(1.0, W / 400))
+    # L0: the full, opaque base — guarantees the frame is always covered (no gaps).
+    base = np.dstack([rgb, np.full((H, W), 255, np.uint8)]).astype(np.uint8)
+    Image.fromarray(base).save(out_dir / f"{pid}.L0.png")
+    layers.append({"index": 0, "file": f"layers/{pid}.L0.png", "parallax": factors[0]})
+
+    # L1..L(n-1): cumulative nearer cut-outs. Layer i shows everything nearer than
+    # the i-th quantile threshold, feathered, drawn over the base and parallaxed.
+    for i in range(1, n_layers):
+        thr = float(np.quantile(depth, i / n_layers))
+        mask = (depth >= thr).astype(np.uint8) * 255
+        feather = cv2.GaussianBlur(mask, (0, 0), sigmaX=feather_sigma)
         rgba = np.dstack([rgb, feather]).astype(np.uint8)
-        # Inpaint colour where nearer layers sit, so reveals have no holes.
-        if accum_fg.any():
-            rgba[:, :, :3] = cv2.inpaint(rgba[:, :, :3], accum_fg, 6, cv2.INPAINT_TELEA)
-        fname = f"{pid}.L{li}.png"
+        fname = f"{pid}.L{i}.png"
         Image.fromarray(rgba).save(out_dir / fname)
-        layers.append({"index": li, "file": f"layers/{fname}",
-                       "parallax": factors[li], "depth_band": [round(lo, 3), round(hi, 3)]})
-        accum_fg = np.clip(accum_fg + (mask > 127).astype(np.uint8) * 255, 0, 255)
+        layers.append({"index": i, "file": f"layers/{fname}",
+                       "parallax": factors[i], "near_threshold": round(thr, 3)})
 
-    layers.sort(key=lambda d: d["index"])  # back -> front
     return {"id": pid, "flat": False, "depth_std": round(std, 4), "layers": layers}
 
 
