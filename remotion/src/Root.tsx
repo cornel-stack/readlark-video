@@ -1,6 +1,7 @@
 import React from 'react';
 import {Composition} from 'remotion';
 import {Placeholder} from './Placeholder';
+import {HandSample} from './HandSample';
 import {FPS, HEIGHT, WIDTH} from './theme';
 
 /**
@@ -15,6 +16,14 @@ export const RemotionRoot: React.FC = () => {
         id="Placeholder"
         component={Placeholder}
         durationInFrames={10 * FPS}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="HandSample"
+        component={HandSample}
+        durationInFrames={20 * FPS}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}

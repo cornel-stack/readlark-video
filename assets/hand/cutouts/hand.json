@@ -1,0 +1,48 @@
+{
+  "variants": {
+    "write": {
+      "file": "write.png",
+      "w": 526,
+      "h": 488,
+      "tip": [
+        0.0,
+        0.1004
+      ],
+      "tip_px": [
+        0,
+        49
+      ],
+      "source": "hand-02.png"
+    },
+    "point": {
+      "file": "point.png",
+      "w": 430,
+      "h": 866,
+      "tip": [
+        0.1791,
+        0.0
+      ],
+      "tip_px": [
+        77,
+        0
+      ],
+      "source": "hand-01.png"
+    },
+    "rest": {
+      "file": "point.png",
+      "w": 430,
+      "h": 866,
+      "tip": [
+        0.1791,
+        0.0
+      ],
+      "tip_px": [
+        77,
+        0
+      ],
+      "source": "hand-01.png",
+      "alias_of": "point"
+    }
+  },
+  "note": "tip is the pen-nib position as a fraction of the cutout size; display anchored so nib lands on the target point."
+}
