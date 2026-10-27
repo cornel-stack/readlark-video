@@ -2,6 +2,20 @@
 
 All notable changes per checkpoint. Newest first.
 
+## Checkpoint 4 — Hand + annotations (2026-10-27)
+
+- `tools/hand_cutout.py`: border-connected background removal (saturation+light mask,
+  keeps interior whites), auto-crop, nib calibration → `assets/hand/cutouts/write.png`
+  + `point.png` + `hand.json` (normalized pen-tip offsets). Clean alpha (1% partial).
+- Remotion stroke engine: `lib/stroke.ts` (deterministic path sampling / point-at-
+  length / arrowhead — no DOM), `lib/fonts.ts` (Caveat handwriting), `Hand` (nib-
+  anchored, lifts/fades between items), `ParallaxPlate` (pinned 2.5D exhibit).
+- `HandSample` 20s composition rendered on CI (`.github/workflows/sample.yml`):
+  parallax plate push-in + hand writing a label + drawing an arrow.
+- Parallax model reworked after first render showed gaps/smears: **opaque full-frame
+  base + cumulative nearer cut-outs** (no holes, no inpaint smear); fixed a ~40×
+  offset bug. Verified on CI run 40476565032.
+
 ## Checkpoint 3 — Art pipeline (2026-10-27)
 
 - **GitHub repo created (public): github.com/cornel-stack/readlark-video.** Strategy
