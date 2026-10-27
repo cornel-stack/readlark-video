@@ -1,40 +1,41 @@
 name: render
 
-# Full pipeline for one video, on GitHub's free runners:
-#   art fetch -> depth layers -> narration+captions -> build props -> Remotion render.
-# Uploads the 1080p30 MP4 (+ captions). Chunked rendering for long videos is added
-# at Checkpoint 7; this renders the Main composition in one pass.
+# Full pipeline for one video on GitHub's free runners:
+#   art -> depth -> narration+captions -> LINT (gate) -> props -> chunked render
+#   (per-chunk Actions cache, FFmpeg concat) -> short -> thumbnails -> package.
+# Uploads the upload package + a small review bundle.
 
 on:
   workflow_dispatch:
     inputs:
       code:
-        description: "Video code (e.g. CL-11A)"
+        description: "Video code (e.g. CL-11A, CL-11B)"
         required: true
         default: "CL-11A"
+      no_cache:
+        description: "Re-render every chunk (ignore cache)"
+        type: boolean
+        default: false
 
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+        with: {python-version: "3.12"}
       - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+        with: {node-version: "20"}
 
       - name: System libs (ffmpeg + headless Chromium)
         run: |
           sudo apt-get update
-          sudo apt-get install -y ffmpeg
-          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
-            libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
+          sudo apt-get install -y ffmpeg libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
             libpango-1.0-0 libasound2t64 libgtk-3-0 || \
-          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
-            libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
+          sudo apt-get install -y ffmpeg libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
             libpango-1.0-0 libasound2
 
       - name: Install Python deps
@@ -42,6 +43,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
           pip install -r requirements.txt -r requirements-ml.txt
+
+      - name: Install Remotion deps
+        working-directory: remotion
+        run: npm ci --no-audit --no-fund
 
       - name: Art — fetch plates + depth layers
         run: |
@@ -51,26 +56,64 @@ jobs:
       - name: Narration + captions
         run: python tools/audio.py --code "${{ inputs.code }}"
 
-      - name: Build render props
-        run: python tools/build_props.py --code "${{ inputs.code }}"
+      - name: Lint (gate)
+        run: python tools/lint.py --code "${{ inputs.code }}"
 
-      - name: Install Remotion deps
-        working-directory: remotion
-        run: npm ci --no-audit --no-fund
-
-      - name: Render Main (1080p30 H.264)
-        working-directory: remotion
+      - name: Build props + chunk plan
+        id: plan
         run: |
-          mkdir -p ../out/${{ inputs.code }}
-          npx remotion render src/index.ts Main ../out/${{ inputs.code }}/video.mp4 \
-            --props=../out/${{ inputs.code }}.props.json --concurrency=2 --crf=21 --log=info
-          cp ../assets/audio/${{ inputs.code }}/captions.srt ../out/${{ inputs.code }}/captions.srt
+          python tools/build_props.py --code "${{ inputs.code }}"
+          python tools/chunk_plan.py --code "${{ inputs.code }}"
 
-      - name: Upload video
+      - name: Restore rendered chunks (incremental cache)
+        if: ${{ !inputs.no_cache }}
+        uses: actions/cache@v4
+        with:
+          path: out/${{ inputs.code }}/chunks
+          key: chunks-${{ inputs.code }}-${{ steps.plan.outputs.all_hash }}
+          restore-keys: chunks-${{ inputs.code }}-
+
+      - name: Render chunks + concat
+        working-directory: .
+        run: |
+          python tools/render_chunks.py --code "${{ inputs.code }}" --concurrency 4 \
+            ${{ inputs.no_cache && '--no-cache' || '' }}
+
+      - name: Render Short (9:16)
+        working-directory: remotion
+        run: npx remotion render src/index.ts Short ../out/${{ inputs.code }}/short.mp4 \
+          --props=../out/${{ inputs.code }}.props.json --crf=23 --log=error
+
+      - name: Render thumbnails (3 variants)
+        run: |
+          for v in 0 1 2; do
+            python -c "import json,sys;p=json.load(open('out/${{ inputs.code }}.props.json'));p['variant']=$v;json.dump(p,open('/tmp/thumb-$v.json','w'))"
+            (cd remotion && npx remotion still src/index.ts Thumbnail ../out/${{ inputs.code }}/thumb-$((v+1)).png --props=/tmp/thumb-$v.json --log=error)
+          done
+
+      - name: Package
+        run: python tools/package.py --code "${{ inputs.code }}"
+
+      - name: Review bundle (480p + frames)
+        run: |
+          mkdir -p review
+          ffmpeg -y -loglevel error -i out/${{ inputs.code }}/video.mp4 -vf "scale=-2:480" \
+            -c:v libx264 -crf 30 -preset veryfast -c:a aac -b:a 96k review/preview-480p.mp4
+          for t in 5 60 200 500 900 1400 2000; do
+            ffmpeg -y -loglevel error -ss $t -i out/${{ inputs.code }}/video.mp4 -frames:v 1 review/f_$(printf %04d $t).png || true
+          done
+
+      - name: Upload package
         uses: actions/upload-artifact@v4
         with:
-          name: video-${{ inputs.code }}
+          name: package-${{ inputs.code }}
           path: |
-            out/${{ inputs.code }}/video.mp4
-            out/${{ inputs.code }}/captions.srt
+            out/${{ inputs.code }}/
+            !out/${{ inputs.code }}/chunks/**
+          retention-days: 14
+      - name: Upload review bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-${{ inputs.code }}
+          path: review/
           retention-days: 14
