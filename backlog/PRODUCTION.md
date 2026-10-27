@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 0/138 rendered**  `░░░░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  136 planned
+**Progress: 2/138 rendered**  `░░░░░░░░░░░░░░░░░░░░`  ·  0 scripted, awaiting render  ·  136 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -11,8 +11,8 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
 | Code | Book | Format | Lane | Status |
 |------|------|--------|------|--------|
-| CL-11A | Frankenstein | Revision video | Curriculum classics | 📝 scripted |
-| CL-11B | Frankenstein | Full retelling | Curriculum classics | 📝 scripted |
+| CL-11A | Frankenstein | Revision video | Curriculum classics | ✅ rendered |
+| CL-11B | Frankenstein | Full retelling | Curriculum classics | ✅ rendered |
 | CL-28A | The Iliad | Revision video | Curriculum classics | ⬜ planned |
 | CL-28B | The Iliad | Full retelling | Curriculum classics | ⬜ planned |
 | CL-25A | Antigone | Revision video | Curriculum classics | ⬜ planned |
