@@ -2,6 +2,25 @@
 
 All notable changes per checkpoint. Newest first.
 
+## Checkpoint 7 — Lint, chunked render, package, CI (2026-10-27)
+
+- `tools/lint.py`: the gate — word/minute budgets, hook ≤15s, title-card ≤20s,
+  asset-has-licence, quote-in-copyright, caption ≤2 lines/≤42 chars, still >20s
+  needs motion, chapters present. Proven to FAIL on broken scripts (hook removed,
+  word count doubled, missing-licence asset) and on real over/under-length videos.
+- **Lint caught two real issues**: CL-11A/CL-11B hooks were >15s (shortened); CL-11B
+  came in at 34.71 min, under the 35-min floor (added ~186 words → ~36 min).
+- Chunked render (approved Option A): `chunk_plan.py` (5-min frame chunks + content-
+  hash keys), `render_chunks.py` (skip unchanged chunks, FFmpeg concat). `render.yml`
+  = art→depth→audio→LINT→props→chunk-plan→cache→render→short→thumbnails→package;
+  per-chunk GitHub Actions cache; uploads package + 480p review bundle.
+- `package.py`: assembles out/<code>/ + metadata.json (3 titles around search_phrase,
+  chaptered description, A↔B cross-link, tags, playlist, pinned comment).
+- House voice switched to **en-GB-RyanNeural** (British male) per owner.
+- **CL-11A full package rendered via the chunked pipeline** (run 40500621546): video,
+  short, 3 thumbnails, captions, metadata, licences — all present; 8.78 min, lint
+  passed, chunk concat seamless.
+
 ## Checkpoint 6 — Templates + compositions (2026-10-27)
 
 - Seven data-driven templates: hook, title-card, chapter-card, parallax-still
