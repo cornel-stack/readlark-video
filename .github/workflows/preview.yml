@@ -1,0 +1,54 @@
+name: preview
+
+# Make a lightweight review bundle from a completed render: a 480p preview MP4 and
+# sampled frames. Lets the full 1080p artifact stay on GitHub (download in-browser)
+# while the small bundle is easy to pull for QA.
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "The render run id that produced video-<code>"
+        required: true
+      code:
+        description: "Video code"
+        required: true
+        default: "CL-11A"
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Download the full render
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download ${{ inputs.run_id }} -n video-${{ inputs.code }} -D full \
+            --repo ${{ github.repository }}
+          ls -la full/${{ inputs.code }}/
+
+      - name: Make 480p preview + sample frames
+        run: |
+          mkdir -p review
+          IN=full/${{ inputs.code }}/video.mp4
+          ffmpeg -y -i "$IN" -vf "scale=-2:480" -c:v libx264 -crf 30 -preset veryfast \
+            -c:a aac -b:a 96k review/preview-480p.mp4
+          DUR=$(ffprobe -v error -show_entries format=duration -of default=nk=1:nw=1 "$IN")
+          echo "duration=$DUR"
+          i=0
+          for t in 5 40 95 150 230 310 390 470 515; do
+            ffmpeg -y -loglevel error -ss $t -i "$IN" -frames:v 1 review/f_$(printf %03d $t).png || true
+            i=$((i+1))
+          done
+          cp full/${{ inputs.code }}/captions.srt review/ 2>/dev/null || true
+          ls -la review/
+
+      - name: Upload review bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: review-${{ inputs.code }}
+          path: review/
+          retention-days: 14

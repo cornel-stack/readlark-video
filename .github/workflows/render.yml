@@ -63,7 +63,7 @@ jobs:
         run: |
           mkdir -p ../out/${{ inputs.code }}
           npx remotion render src/index.ts Main ../out/${{ inputs.code }}/video.mp4 \
-            --props=../out/${{ inputs.code }}.props.json --concurrency=2 --log=info
+            --props=../out/${{ inputs.code }}.props.json --concurrency=2 --crf=21 --log=info
           cp ../assets/audio/${{ inputs.code }}/captions.srt ../out/${{ inputs.code }}/captions.srt
 
       - name: Upload video
