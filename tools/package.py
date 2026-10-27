@@ -44,11 +44,12 @@ def title_variants(meta: dict) -> list[str]:
     phrase = meta["search_phrase"].strip()
     lead = phrase.title()  # "frankenstein summary" -> "Frankenstein Summary"
     is_rev = "Revision" in meta.get("format", "")
+    # Books channel, not exam-prep: keep titles about understanding the book.
     if is_rev:
         v = [
-            f"{lead} — Plot, Characters, Themes & 5 Quotes to Memorise",
+            f"{lead} — Plot, Characters, Themes & 5 Key Quotes",
             meta["title"],
-            f"{book} Explained for the Exam | Full Analysis & Revision",
+            f"{book} Explained | Summary, Themes & the Quotes That Matter",
         ]
     else:
         v = [
@@ -103,9 +104,10 @@ def exam_timing(code: str) -> str:
 
 
 def playlists_for(code: str, book: str) -> list[str]:
-    """Quick win #4: playlist everything (book pair + board) for session time."""
-    board = {"CL": "English Literature Revision", "KE": "KCSE Set Texts", "FI": "Modern Fiction"}
-    return [book, board.get(code[:2], "Book Videos")]
+    """Quick win #4: playlist everything (book pair + lane) for session time.
+    Lane names are book-focused (this is a books channel, not exam-prep)."""
+    lane = {"CL": "Classic Books Explained", "KE": "Kenyan Literature", "FI": "Modern Fiction Explained"}
+    return [book, lane.get(code[:2], "Books Explained")]
 
 
 def upload_checklist(code: str, book: str) -> list[str]:
@@ -122,12 +124,12 @@ def upload_checklist(code: str, book: str) -> list[str]:
 
 def thumb_tags(meta: dict) -> list[str]:
     book = meta["book"].split(";")[0].strip()
-    base = [book, f"{book} summary", f"{book} analysis", meta["author"], "English literature",
-            "revision", "GCSE English", "study guide", "book summary", meta["search_phrase"]]
+    base = [book, f"{book} summary", f"{book} analysis", f"{book} explained", meta["author"],
+            "classic literature", "book summary", "books", "book review", meta["search_phrase"]]
     if "Revision" in meta.get("format", ""):
-        base += ["exam revision", "quotes", "themes"]
+        base += ["themes", "characters", "key quotes"]
     else:
-        base += ["full story", "explained", "audiobook summary"]
+        base += ["full story", "explained", "book breakdown"]
     # de-dup, keep order
     seen, out = set(), []
     for t in base:

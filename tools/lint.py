@@ -152,6 +152,18 @@ def main() -> int:
     else:
         warnings.append("captions.srt missing — skipped caption checks (run audio.py)")
 
+    # ---- positioning guard: books channel, not exam-prep ----
+    # Flag viewer-facing exam/revision framing so regenerated scripts stay book-focused.
+    EXAM_TERMS = re.compile(r"\b(exam|examiner|examiners|revision|gcse|a-level|marks|essay|syllabus|set text|memoris)\w*", re.IGNORECASE)
+    viewer_text = [("meta.title", meta.get("title", ""))]
+    viewer_text += [(f"chapter '{c.get('title')}'", c.get("title", "")) for c in script.get("chapters", [])]
+    viewer_text += [(f"scene '{s['id']}' narration", s.get("narration", "")) for s in scenes]
+    viewer_text += [(f"scene '{s['id']}' {k}", str(v)) for s in scenes for k, v in (s.get("on_screen") or {}).items() if isinstance(v, str)]
+    for where, text in viewer_text:
+        m = EXAM_TERMS.search(text or "")
+        if m:
+            warnings.append(f"exam-prep wording '{m.group(0)}' in {where} — this is a books channel, keep it about the book")
+
     # ---- growth nudges (warnings, not hard fails) ----
     book_kw = meta["book"].split(";")[0].split(":")[0].split()[0].lower()
     hook_narr = (scenes[0].get("narration", "") or "").lower()
