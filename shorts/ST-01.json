@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "ST-01",
+    "topic": "Stoicism",
+    "thinker": "Marcus Aurelius",
+    "thinker_dates": "121–180 AD",
+    "theme": "memento mori",
+    "title": "The emperor who wrote about death every morning",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism memento mori",
+    "hashtags": ["stoicism", "marcusaurelius", "mementomori", "philosophy", "stoic"]
+  },
+  "plates": [
+    {"id": "plate-marcus", "query": "Delacroix Last Words of the Emperor Marcus Aurelius", "want": "Delacroix, the dying Marcus Aurelius (PD painting)"},
+    {"id": "plate-vanitas", "query": "vanitas still life skull candle Dutch painting", "want": "Dutch vanitas — skull & guttering candle (PD)"},
+    {"id": "plate-ruins", "query": "Hubert Robert Roman ruins capriccio painting", "want": "Hubert Robert, Roman ruins (PD)"}
+  ],
+  "beats": [
+    {"text": "You could be dead by tonight.", "plate": "plate-vanitas"},
+    {"text": "The most powerful man in Rome wrote that down to himself, every morning.", "plate": "plate-marcus"},
+    {"text": "Marcus Aurelius — emperor, and Stoic — kept a private notebook we still read.", "plate": "plate-marcus"},
+    {"text": "“Death hangs over thee: whilst yet thou livest, whilst thou mayest, be good.”", "plate": "plate-marcus", "emphasis": true},
+    {"text": "Not morbid. A wake-up call.", "plate": "plate-ruins"},
+    {"text": "If this hour were your last — what pettiness would you drop? Who would you forgive?", "plate": "plate-vanitas"},
+    {"text": "Remember you will die. Then go and live.", "plate": "plate-ruins", "emphasis": true}
+  ],
+  "attribution": "Marcus Aurelius · Meditations",
+  "source_note": "Quote: Meditations IV.14, Meric Casaubon translation (1634), public domain.",
+  "cta": "Follow for more"
+}

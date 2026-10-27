@@ -39,3 +39,12 @@ backlog/book_explainer_channel_scan.xlsx
 
 # OS
 .DS_Store
+
+# Growth/strategy docs — local only (public repo)
+ReadLark-Growth-Plan.pdf
+tools/make_growth_pdf.py
+
+# Shorts generated assets (regenerated in CI)
+assets/shorts/
+ReadLark_Execution_Plan.pdf
+ReadLark*.pdf

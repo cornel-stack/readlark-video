@@ -5,6 +5,7 @@ import {HandSample} from './HandSample';
 import {Main} from './Main';
 import {Short} from './Short';
 import {Thumbnail} from './Thumbnail';
+import {ShortFilm, ShortProps} from './ShortFilm';
 import {VideoProps} from './lib/types';
 import {buildShortPlan} from './lib/short';
 import {FPS, HEIGHT, WIDTH} from './theme';
@@ -57,6 +58,15 @@ export const RemotionRoot: React.FC = () => {
         width={1280}
         height={720}
         defaultProps={{...EMPTY, variant: 0}}
+      />
+      <Composition
+        id="ShortFilm"
+        component={ShortFilm}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        defaultProps={{id: '', topic: '', thinker: '', title: '', audio: '', total: 1, beats: [], plates: {}, attribution: '', cta: 'Follow for more'} as ShortProps}
+        calculateMetadata={({props}) => ({durationInFrames: Math.max(1, Math.round((props.total ?? 1) * FPS))})}
       />
       <Composition id="Placeholder" component={Placeholder} durationInFrames={10 * FPS} fps={FPS} width={WIDTH} height={HEIGHT} />
       <Composition id="HandSample" component={HandSample} durationInFrames={20 * FPS} fps={FPS} width={WIDTH} height={HEIGHT} />

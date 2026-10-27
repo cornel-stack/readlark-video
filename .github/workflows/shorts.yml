@@ -1,0 +1,61 @@
+name: shorts
+
+# Philosophy shorts pipeline: fetch PD art -> grave narration + ducked ambient bed
+# -> render the vertical ShortFilm (1080x1920). Fast (no depth / no chunking).
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: "Short code (e.g. ST-01, KA-01)"
+        required: true
+        default: "ST-01"
+
+jobs:
+  short:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - uses: actions/setup-node@v4
+        with: {node-version: "20"}
+
+      - name: System libs (ffmpeg + headless Chromium)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
+            libpango-1.0-0 libasound2t64 libgtk-3-0 || \
+          sudo apt-get install -y ffmpeg libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+            libcups2 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
+            libpango-1.0-0 libasound2
+
+      - name: Install Python deps (light — no torch/whisper)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt edge-tts==7.3.1
+
+      - name: Install Remotion deps
+        working-directory: remotion
+        run: npm ci --no-audit --no-fund
+
+      - name: Build short (art + narration + ducked music + props)
+        run: python tools/shorts_build.py --code "${{ inputs.code }}"
+
+      - name: Render ShortFilm (1080x1920)
+        working-directory: remotion
+        run: |
+          mkdir -p ../out/shorts
+          npx remotion render src/index.ts ShortFilm ../out/shorts/${{ inputs.code }}.mp4 \
+            --props=../out/${{ inputs.code }}.short-props.json --crf=20 --log=info
+
+      - name: Upload short + licences
+        uses: actions/upload-artifact@v4
+        with:
+          name: short-${{ inputs.code }}
+          path: |
+            out/shorts/${{ inputs.code }}.mp4
+            assets/shorts/${{ inputs.code }}/licences.json
+          retention-days: 14

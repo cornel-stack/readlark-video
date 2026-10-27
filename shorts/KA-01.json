@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "KA-01",
+    "topic": "Kafka",
+    "thinker": "Franz Kafka",
+    "thinker_dates": "1883–1924",
+    "theme": "the absurd & alienation",
+    "title": "Why we call the modern world Kafkaesque",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "copyright",
+    "search_phrase": "what does kafkaesque mean",
+    "hashtags": ["kafka", "kafkaesque", "philosophy", "existentialism", "literature"]
+  },
+  "plates": [
+    {"id": "plate-figure", "query": "Egon Schiele self-portrait", "want": "Schiele, gaunt expressionist figure (PD, d.1918)"},
+    {"id": "plate-prison", "query": "Piranesi Carceri imaginary prisons etching", "want": "Piranesi, Carceri — oppressive endless architecture (PD)"},
+    {"id": "plate-city", "query": "Charles Meryon etching Paris gothic", "want": "Meryon, dark gothic city etching (PD)"}
+  ],
+  "beats": [
+    {"text": "One morning you wake up — and you no longer belong in your own life.", "plate": "plate-figure"},
+    {"text": "Welcome to the world of Franz Kafka.", "plate": "plate-city"},
+    {"text": "A man is arrested. No one will tell him the crime. The trial grinds on for years, through offices no one controls.", "plate": "plate-prison"},
+    {"text": "Another wakes transformed into an insect — and his family's only question is how to be rid of him.", "plate": "plate-figure"},
+    {"text": "Kafka isn't writing nightmares. He's writing the machine we live inside — the forms, the waiting rooms, the rules no one can explain.", "plate": "plate-prison"},
+    {"text": "Powerless. Unseen. Vaguely guilty of nothing at all.", "plate": "plate-figure", "emphasis": true},
+    {"text": "He died almost unknown. Now his name is the word for it: Kafkaesque.", "plate": "plate-city", "emphasis": true}
+  ],
+  "attribution": "Franz Kafka",
+  "source_note": "Ideas paraphrased (Kafka's English translations are in copyright) — no verbatim quotes.",
+  "cta": "Follow for more"
+}
