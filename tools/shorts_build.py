@@ -26,8 +26,8 @@ import art_fetch  # noqa: E402
 import audio as audiolib  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
-RATE = "-8%"   # slower, graver delivery for philosophy
-GAP = 0.55     # seconds of breath between beats
+RATE = "+3%"   # a touch brisk — grave but not sluggish
+GAP = 0.3      # tighter breath between beats (snappier)
 MAX_PLATE = 1920
 
 
@@ -148,17 +148,21 @@ def main() -> int:
     # 3) dark ambient bed (generated — licence-clean) + side-chain duck under voice
     print("music + mix:")
     music = aud_dir / "music.wav"
+    # Low A-minor drone (A1 + C2 minor-third + E2 fifth over an E1 sub) — the minor
+    # third is what makes it somber. Dark lowpass + long cavernous reverb.
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error",
+                    "-f", "lavfi", "-i", f"sine=frequency=41.20:duration={total}",
                     "-f", "lavfi", "-i", f"sine=frequency=55:duration={total}",
+                    "-f", "lavfi", "-i", f"sine=frequency=65.41:duration={total}",
                     "-f", "lavfi", "-i", f"sine=frequency=82.41:duration={total}",
-                    "-f", "lavfi", "-i", f"sine=frequency=164.81:duration={total}",
                     "-filter_complex",
-                    "[0][1][2]amix=inputs=3,tremolo=f=0.1:d=0.4,lowpass=f=420,aecho=0.8:0.9:1200:0.3,volume=0.6[m]",
+                    "[0][1][2][3]amix=inputs=4,tremolo=f=0.1:d=0.5,lowpass=f=330,"
+                    "aecho=0.8:0.88:1700:0.4,volume=0.8[m]",
                     "-map", "[m]", str(music)], check=True)
     mix = base / "mix.wav"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(narration), "-i", str(music),
                     "-filter_complex",
-                    "[1:a]volume=0.22[mv];[mv][0:a]sidechaincompress=threshold=0.02:ratio=8:attack=25:release=500[md];"
+                    "[1:a]volume=0.3[mv];[mv][0:a]sidechaincompress=threshold=0.025:ratio=6:attack=25:release=450[md];"
                     "[0:a][md]amix=inputs=2:normalize=0,alimiter=limit=0.95[out]",
                     "-map", "[out]", "-ar", "48000", "-ac", "2", str(mix)], check=True)
 
