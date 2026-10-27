@@ -185,7 +185,23 @@ def main() -> int:
     out = ROOT / "out" / f"{code}.short-props.json"
     out.parent.mkdir(exist_ok=True)
     out.write_text(json.dumps(props, ensure_ascii=False), encoding="utf-8")
+
+    # upload-ready folder (the render drops <code>.mp4 here too)
+    pkg = ROOT / "out" / "shorts" / code
+    pkg.mkdir(parents=True, exist_ok=True)
+    tags = " ".join("#" + h for h in meta.get("hashtags", []))
+    title2 = f"{meta['thinker']}: {meta['theme']}"
+    desc = (f"{meta['title']}\n\n{meta['thinker']} on {meta['theme']}.\n\n"
+            f"{short.get('source_note', '')}\n\nFollow ReadLark for a book or an idea, every day.\n\n{tags}")
+    (pkg / "title.txt").write_text(meta["title"] + "\n", encoding="utf-8")
+    (pkg / "titles-alternatives.txt").write_text(f"{meta['title']}\n{title2}\n", encoding="utf-8")
+    (pkg / "description.txt").write_text(desc.strip() + "\n", encoding="utf-8")
+    (pkg / "hashtags.txt").write_text(tags + "\n", encoding="utf-8")
+    if (base / "licences.json").exists():
+        (pkg / "licences.json").write_text((base / "licences.json").read_text(), encoding="utf-8")
+
     print(f"\n{len(timed)} beats · {total:.1f}s · {len(licences)} plates -> {out.relative_to(ROOT)}")
+    print(f"upload folder: out/shorts/{code}/ (title, description, hashtags)")
     if total > 62:
         print(f"!! {total:.1f}s is over 60s — trim a beat or shorten lines")
     return 0

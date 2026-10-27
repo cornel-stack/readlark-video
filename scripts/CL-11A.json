@@ -36,11 +36,11 @@
       "first_scene": "ch-themes"
     },
     {
-      "title": "Five quotes to memorise",
+      "title": "Five quotes worth knowing",
       "first_scene": "ch-quotes"
     },
     {
-      "title": "What the examiner is really asking",
+      "title": "The questions it leaves you with",
       "first_scene": "ch-exam"
     },
     {
@@ -52,7 +52,7 @@
     {
       "id": "hook",
       "template": "hook",
-      "narration": "Here's a question examiners love. In Frankenstein, who is the real monster — the creature, stitched together from the dead, or the man who made him and ran?",
+      "narration": "Here's a question Frankenstein never quite answers. Who is the real monster — the creature, stitched together from the dead, or the man who made him and ran?",
       "on_screen": {
         "question": "Who is the real monster?",
         "plate": "plate-sea-of-ice"
@@ -77,7 +77,7 @@
     {
       "id": "context",
       "template": "parallax-still",
-      "narration": "First, three facts that win marks. Mary Shelley was only eighteen when she began it, during a wet summer by a Swiss lake where a group of friends dared each other to write a ghost story. The subtitle matters: Prometheus was the Titan who stole fire from the gods to give to humankind, and was punished forever for it. And the science felt real — this was the age of experiments that twitched dead muscles with electricity, so the first readers could half believe it. Shelley is asking what happens when a person takes a god's power into merely human hands, and she lets the answer unfold slowly, because the real horror is never the monster's body. It is the maker's choices.",
+      "narration": "First, three things worth knowing. Mary Shelley was only eighteen when she began it, during a wet summer by a Swiss lake where a group of friends dared each other to write a ghost story. The subtitle matters: Prometheus was the Titan who stole fire from the gods to give to humankind, and was punished forever for it. And the science felt real — this was the age of experiments that twitched dead muscles with electricity, so the first readers could half believe it. Shelley is asking what happens when a person takes a god's power into merely human hands, and she lets the answer unfold slowly, because the real horror is never the monster's body. It is the maker's choices.",
       "on_screen": {
         "plate": "plate-geneva-lake",
         "camera": "drift"
@@ -209,7 +209,7 @@
     {
       "id": "ch-characters",
       "template": "chapter-card",
-      "narration": "Now the people — because every essay needs you to show how they connect.",
+      "narration": "Now the people — because the whole story turns on how they connect.",
       "on_screen": {
         "chapter_title": "Who's who",
         "timeline": {
@@ -219,7 +219,7 @@
             "Characters",
             "Themes",
             "Quotes",
-            "Exam"
+            "Ideas"
           ],
           "marker": 1
         }
@@ -228,7 +228,7 @@
     {
       "id": "characters",
       "template": "whiteboard",
-      "narration": "Keep it simple. Everything radiates out from two figures: Victor, the creator, and the creature he abandoned. Around Victor stand the people he fails to protect — Elizabeth, his bride; Henry Clerval, his loyal friend; his little brother William and the servant Justine. And framing the whole book is Walton, the explorer, who hears the confession and is meant to learn from it. Notice the pattern the examiner wants you to notice: Victor, Walton, and the creature are all brilliant, all driven, and all desperately alone.",
+      "narration": "Keep it simple. Everything radiates out from two figures: Victor, the creator, and the creature he abandoned. Around Victor stand the people he fails to protect — Elizabeth, his bride; Henry Clerval, his loyal friend; his little brother William and the servant Justine. And framing the whole book is Walton, the explorer, who hears the confession and is meant to learn from it. And notice the pattern: Victor, Walton, and the creature are all brilliant, all driven, and all desperately alone.",
       "on_screen": {
         "heading": "The cast",
         "annotations": [
@@ -309,7 +309,7 @@
             "Characters",
             "Themes",
             "Quotes",
-            "Exam"
+            "Ideas"
           ],
           "marker": 2
         }
@@ -338,9 +338,9 @@
     {
       "id": "ch-quotes",
       "template": "chapter-card",
-      "narration": "Now five quotes. Learn these, with their volume, and you can prove almost any point they throw at you.",
+      "narration": "Now five quotes. Learn these, with their volume, and you'll carry the whole book in your head.",
       "on_screen": {
-        "chapter_title": "Five quotes to memorise",
+        "chapter_title": "Five quotes worth knowing",
         "timeline": {
           "kind": "timeline-strip",
           "segments": [
@@ -348,7 +348,7 @@
             "Characters",
             "Themes",
             "Quotes",
-            "Exam"
+            "Ideas"
           ],
           "marker": 3
         }
@@ -407,9 +407,9 @@
     {
       "id": "ch-exam",
       "template": "chapter-card",
-      "narration": "Last thing — what the examiner is really asking underneath the question.",
+      "narration": "Last thing — the questions this book leaves you with.",
       "on_screen": {
-        "chapter_title": "What the examiner is really asking",
+        "chapter_title": "The questions it leaves you with",
         "timeline": {
           "kind": "timeline-strip",
           "segments": [
@@ -417,7 +417,7 @@
             "Characters",
             "Themes",
             "Quotes",
-            "Exam"
+            "Ideas"
           ],
           "marker": 4
         }
@@ -426,7 +426,7 @@
     {
       "id": "exam",
       "template": "whiteboard",
-      "narration": "Whatever the wording, most questions are really one of these. Is Victor a victim, or the cause of everything? How does Shelley make us pity a murderer? Is the creature born a monster, or turned into one? Why does all that wild landscape matter? And that subtitle — the modern Prometheus — who steals fire from the gods, and what does Shelley think it costs? Here is the trick to top marks: always answer with a theme and a quote together, and show you can see both sides. Do that, and you are already writing a strong essay.",
+      "narration": "These are the questions the book keeps circling. Is Victor a victim, or the cause of everything? How does Shelley make us pity a murderer? Is the creature born a monster, or turned into one? Why does all that wild landscape matter? And that subtitle — the modern Prometheus — who steals fire from the gods, and what does Shelley think it costs? The book never settles any of them. That's exactly why people keep coming back to it.",
       "on_screen": {
         "heading": "Underneath every question",
         "annotations": [
@@ -446,7 +446,7 @@
     {
       "id": "end",
       "template": "end-screen",
-      "narration": "So, back to where we started: who is the real monster? The strongest answer is that Shelley never lets you settle it — and that refusal is the whole point. If you want the full story, every scene, in Shelley's own words, the complete retelling is right here. Learn your five quotes, remember the three volumes, and good luck in the exam.",
+      "narration": "So, back to where we started: who is the real monster? The strongest answer is that Shelley never lets you settle it — and that refusal is the whole point. If you want the full story, every scene, in Shelley's own words, the complete retelling is right here. Learn your five quotes, remember the three volumes, and then go read it for yourself.",
       "on_screen": {
         "message": "Watch the full retelling",
         "points_to": "CL-11B"

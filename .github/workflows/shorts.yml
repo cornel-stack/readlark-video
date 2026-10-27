@@ -44,18 +44,15 @@ jobs:
       - name: Build short (art + narration + ducked music + props)
         run: python tools/shorts_build.py --code "${{ inputs.code }}"
 
-      - name: Render ShortFilm (1080x1920)
+      - name: Render ShortFilm (1080x1920) into the upload folder
         working-directory: remotion
         run: |
-          mkdir -p ../out/shorts
-          npx remotion render src/index.ts ShortFilm ../out/shorts/${{ inputs.code }}.mp4 \
+          npx remotion render src/index.ts ShortFilm ../out/shorts/${{ inputs.code }}/${{ inputs.code }}.mp4 \
             --props=../out/${{ inputs.code }}.short-props.json --crf=20 --log=info
 
-      - name: Upload short + licences
+      - name: Upload short package (video + title/description/hashtags)
         uses: actions/upload-artifact@v4
         with:
           name: short-${{ inputs.code }}
-          path: |
-            out/shorts/${{ inputs.code }}.mp4
-            assets/shorts/${{ inputs.code }}/licences.json
-          retention-days: 14
+          path: out/shorts/${{ inputs.code }}/
+          retention-days: 30

@@ -183,6 +183,17 @@ def main() -> int:
     }
     (out / "metadata.json").write_text(json.dumps(metadata, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
+    # Upload-ready, copy-paste text files so the downloaded zip is ready for YouTube.
+    (out / "title.txt").write_text(titles[0] + "\n", encoding="utf-8")
+    (out / "titles-alternatives.txt").write_text("\n".join(titles) + "\n", encoding="utf-8")
+    (out / "description.txt").write_text(metadata["description"] + "\n", encoding="utf-8")
+    (out / "tags.txt").write_text(", ".join(metadata["tags"]) + "\n", encoding="utf-8")
+    (out / "pinned_comment.txt").write_text(metadata["pinned_comment"] + "\n", encoding="utf-8")
+    (out / "UPLOAD.txt").write_text(
+        f"UPLOAD CHECKLIST — {code}\n\nPlaylists: {', '.join(metadata['playlists'])}\n"
+        f"Best publish window: {metadata['exam_timing']}\n\n" +
+        "\n".join(f"[ ] {c}" for c in metadata["upload_checklist"]) + "\n", encoding="utf-8")
+
     # report what's present vs expected
     expected = ["video.mp4", "short.mp4", "thumb-1.png", "thumb-2.png", "thumb-3.png", "captions.srt", "licences.json", "metadata.json"]
     print(f"package out/{code}/:")

@@ -749,7 +749,7 @@
     {
       "id": "close-meaning",
       "template": "parallax-still",
-      "narration": "So why, two hundred years on, is this strange, sad book still everywhere — on every syllabus, behind a thousand films? Because Shelley refuses to tell you who to blame, and makes you do the work yourself. Victor commits no murder with his own hands; his single sin is that he makes a life and then will not take responsibility for it, and every horror in the novel pours out of that one refusal. The creature strangles innocents — and yet we ache for him, because we were there, watching the world teach him how to hate, blow by blow. Shelley hands the final word not to the brilliant scientist but to the thing he threw in the bin, and quietly dares you to say which of them was the real monster. And every single time human beings invent a new power we are not sure we can control, the question she asked at eighteen comes straight back. That is why Frankenstein is still set, still read, and still frightening. Think of every modern story about a maker who loses control of their creation — the rogue machine, the engineered plague, the life dragged back from the dead. You are looking at Shelley's grandchildren. She wrote the template for all of them, by a rainy lake, before she was twenty-one.",
+      "narration": "So why, two hundred years on, is this strange, sad book still everywhere — on every reading list, behind a thousand films? Because Shelley refuses to tell you who to blame, and makes you do the work yourself. Victor commits no murder with his own hands; his single sin is that he makes a life and then will not take responsibility for it, and every horror in the novel pours out of that one refusal. The creature strangles innocents — and yet we ache for him, because we were there, watching the world teach him how to hate, blow by blow. Shelley hands the final word not to the brilliant scientist but to the thing he threw in the bin, and quietly dares you to say which of them was the real monster. And every single time human beings invent a new power we are not sure we can control, the question she asked at eighteen comes straight back. That is why Frankenstein is still read, still argued over, and still frightening. Think of every modern story about a maker who loses control of their creation — the rogue machine, the engineered plague, the life dragged back from the dead. You are looking at Shelley's grandchildren. She wrote the template for all of them, by a rainy lake, before she was twenty-one.",
       "on_screen": {
         "plate": "plate-wanderer",
         "camera": "push-in"
@@ -762,9 +762,9 @@
     {
       "id": "end",
       "template": "end-screen",
-      "narration": "That is Frankenstein, in full. If you need it tightened for an exam — the plot in three volumes, the characters, the five big themes, and five quotes worth memorising — the revision version is right here. Thanks for listening, and go easy on the monster.",
+      "narration": "That is Frankenstein, in full. If you want it in one tight sitting — the plot in three volumes, the characters, the big themes, and the quotes that matter — the short version is right here. Thanks for listening, and go easy on the monster.",
       "on_screen": {
-        "message": "Watch the 10-minute revision video",
+        "message": "The whole book in 10 minutes",
         "points_to": "CL-11A"
       },
       "notes": "End screen cross-links to CL-11A per rule 5."

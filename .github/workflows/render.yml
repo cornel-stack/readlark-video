@@ -110,10 +110,10 @@ jobs:
           path: |
             out/${{ inputs.code }}/
             !out/${{ inputs.code }}/chunks/**
-          retention-days: 14
+          retention-days: 30
       - name: Upload review bundle
         uses: actions/upload-artifact@v4
         with:
           name: review-${{ inputs.code }}
           path: review/
-          retention-days: 14
+          retention-days: 30

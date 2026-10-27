@@ -154,7 +154,9 @@ def main() -> int:
 
     # ---- positioning guard: books channel, not exam-prep ----
     # Flag viewer-facing exam/revision framing so regenerated scripts stay book-focused.
-    EXAM_TERMS = re.compile(r"\b(exam|examiner|examiners|revision|gcse|a-level|marks|essay|syllabus|set text|memoris)\w*", re.IGNORECASE)
+    # Unambiguous exam-prep terms only ('marks'/'essay' false-positive on strangulation
+    # marks, essayists, etc. — the obvious phrases were already removed by hand).
+    EXAM_TERMS = re.compile(r"\b(examiner|examiners|revision|gcse|a-level|syllabus|set text|memoris)\w*|\bthe exam\b|win marks|top marks", re.IGNORECASE)
     viewer_text = [("meta.title", meta.get("title", ""))]
     viewer_text += [(f"chapter '{c.get('title')}'", c.get("title", "")) for c in script.get("chapters", [])]
     viewer_text += [(f"scene '{s['id']}' narration", s.get("narration", "")) for s in scenes]
