@@ -55,8 +55,27 @@ def main() -> int:
             merged["plateLayers"] = layers_by_plate[plate]
         merged_scenes.append(merged)
 
+    # Thumbnail configs (3 variants) — derived from the book + its plates, so the
+    # Thumbnail composition stays generic (no per-video React).
+    book_short = script["meta"]["book"].split(";")[0].split(":")[0].strip()
+    distinct_plates = []
+    for sc in script["scenes"]:
+        pl = (sc.get("on_screen") or {}).get("plate") or (sc.get("assets") or [None])[0]
+        if pl and pl not in distinct_plates:
+            distinct_plates.append(pl)
+    hook_q = next((s["on_screen"]["question"] for s in script["scenes"]
+                   if s["template"] == "hook" and s.get("on_screen", {}).get("question")), book_short)
+    is_rev = "Revision" in script["meta"].get("format", "")
+    pp = [f"art/{bcode}/{p}.jpg" for p in (distinct_plates + distinct_plates + distinct_plates)[:3]]
+    thumbnails = [
+        {"plate": pp[0], "headline": hook_q, "sub": book_short},
+        {"plate": pp[1], "headline": book_short.upper(), "sub": "REVISION" if is_rev else "FULL STORY"},
+        {"plate": pp[2], "headline": "5 QUOTES TO KNOW" if is_rev else "EXPLAINED", "sub": book_short},
+    ]
+
     props = {
         "code": code,
+        "thumbnails": thumbnails,
         "meta": {
             "code": code, "book": script["meta"]["book"], "author": script["meta"]["author"],
             "year": script["meta"]["year"], "title": script["meta"]["title"], "format": script["meta"]["format"],

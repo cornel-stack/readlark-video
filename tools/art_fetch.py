@@ -53,15 +53,15 @@ def book_code(code: str) -> str:
 
 def api_get(params: dict) -> dict:
     params = {**params, "format": "json"}
-    for attempt in range(4):
+    for attempt in range(6):
         try:
-            r = requests.get(COMMONS, params=params, headers={"User-Agent": UA}, timeout=40)
+            r = requests.get(COMMONS, params=params, headers={"User-Agent": UA}, timeout=60)
             r.raise_for_status()
             return r.json()
-        except Exception as e:  # noqa: BLE001
-            if attempt == 3:
+        except Exception:  # noqa: BLE001
+            if attempt == 5:
                 raise
-            time.sleep(1.5 * (attempt + 1))
+            time.sleep(2.0 * (attempt + 1))
     return {}
 
 
@@ -188,12 +188,20 @@ def main() -> int:
         print(f"\n▶ {pid}: {query!r}")
         # exact_title pins one specific Commons file (bypasses search/largest) — used
         # when a plain query is ambiguous between several works by the same artist.
-        titles = [entry["exact_title"]] if entry.get("exact_title") else search_files(query, args.limit)
+        try:
+            titles = [entry["exact_title"]] if entry.get("exact_title") else search_files(query, args.limit)
+        except Exception as e:  # noqa: BLE001
+            print(f"   search failed ({e}); skipping")
+            titles = []
         # Collect every PD/CC0 image candidate, then take the largest `count`
         # (highest resolution). Specific artist queries keep the top results on-topic.
         candidates = []
         for title in titles:
-            meta_wrap = image_info(title)
+            try:
+                meta_wrap = image_info(title)
+            except Exception as e:  # noqa: BLE001
+                print(f"   info failed for {title} ({e}); skipping candidate")
+                continue
             if not meta_wrap or not meta_wrap.get("mime", "").startswith("image/"):
                 continue
             ext = meta_wrap.get("extmetadata", {})
