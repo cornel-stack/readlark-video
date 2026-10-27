@@ -52,7 +52,7 @@
     {
       "id": "hook",
       "template": "hook",
-      "narration": "Here is a question examiners love. Who is the real monster in Frankenstein — the creature, stitched together from the dead, or the brilliant young man who made him, looked at him once, and ran? Hold on to that question. For two hundred years this book has refused to answer it simply.",
+      "narration": "Here's a question examiners love. In Frankenstein, who is the real monster — the creature, stitched together from the dead, or the man who made him and ran?",
       "on_screen": {
         "question": "Who is the real monster?",
         "plate": "plate-sea-of-ice"

@@ -48,7 +48,7 @@
     {
       "id": "hook",
       "template": "hook",
-      "narration": "A ship is frozen into the Arctic ice, going nowhere. Out of the white waste, the crew sees a sledge, and on it something enormous, shaped like a man but not a man. And then, a day later, they pull a second traveller from the ice — half dead, chasing the first. That dying man is Victor Frankenstein, and the thing he is chasing is the life he made with his own hands. Before this is over, you will have to decide which of the two of them is really the monster. This is his confession.",
+      "narration": "A ship lies frozen in the Arctic ice. Its crew hauls a dying man off the floes — Victor Frankenstein, chasing the creature he built with his own hands. This is his confession.",
       "on_screen": {
         "question": "What would you owe a life you created?",
         "plate": "plate-sea-of-ice"
