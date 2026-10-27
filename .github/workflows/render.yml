@@ -26,9 +26,10 @@ jobs:
         with:
           node-version: "20"
 
-      - name: System libs for headless Chromium
+      - name: System libs (ffmpeg + headless Chromium)
         run: |
           sudo apt-get update
+          sudo apt-get install -y ffmpeg
           sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
             libxcomposite1 libxdamage1 libxrandr2 libgbm1 libxkbcommon0 \
             libpango-1.0-0 libasound2t64 libgtk-3-0 || \
