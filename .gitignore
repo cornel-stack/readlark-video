@@ -11,6 +11,8 @@ remotion/.remotion/
 out/
 assets/audio/
 assets/art/*/layers/
+assets/art/*/layers.json
+assets/art/*/contact-sheet.png
 .cache/
 
 # Fetched plate binaries are heavy and regenerable from the source URLs in

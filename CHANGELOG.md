@@ -2,8 +2,19 @@
 
 All notable changes per checkpoint. Newest first.
 
-## Checkpoint 3 — Art pipeline (in progress) (2026-10-27)
+## Checkpoint 3 — Art pipeline (2026-10-27)
 
+- **GitHub repo created (public): github.com/cornel-stack/readlark-video.** Strategy
+  workbooks purged from all git history and kept local-only (gitignored); CI uses the
+  committed `videos.json`. `ingest.py` falls back to `videos.json` when the workbook
+  is absent.
+- **Depth/parallax approved & working on CI** (Depth Anything V2 small, 3 layers).
+  `.github/workflows/art.yml` fetches plates + runs depth on GitHub Actions (free
+  runners), not locally. First run surfaced a NumPy 2.0 `ptp` break and a
+  memory/size issue (70MP plates) — both fixed (np.ptp; downscale to 2560px).
+  Second run: **28 plates, all got 3 layers, 0 flat**, depth_std 0.27–0.31. Verified
+  the layers recompose cleanly and parallax-shift with gap-free inpainting.
+- Heavy compute (depth, and later renders) runs on CI per the owner's instruction.
 - `assets/art/CL-11/queries.json`: art-query manifest (data, like the script) mapping
   each plate id to an artist-specific Wikimedia Commons query; supports `count`,
   `exact_title`, `creator_override`.
