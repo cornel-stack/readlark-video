@@ -28,12 +28,13 @@ jobs:
         run: |
           gh run download ${{ inputs.run_id }} -n video-${{ inputs.code }} -D full \
             --repo ${{ github.repository }}
-          ls -la full/${{ inputs.code }}/
+          find full -type f
 
       - name: Make 480p preview + sample frames
         run: |
           mkdir -p review
-          IN=full/${{ inputs.code }}/video.mp4
+          IN=$(find full -name 'video.mp4' | head -1)
+          echo "input: $IN"
           ffmpeg -y -i "$IN" -vf "scale=-2:480" -c:v libx264 -crf 30 -preset veryfast \
             -c:a aac -b:a 96k review/preview-480p.mp4
           DUR=$(ffprobe -v error -show_entries format=duration -of default=nk=1:nw=1 "$IN")
@@ -43,7 +44,7 @@ jobs:
             ffmpeg -y -loglevel error -ss $t -i "$IN" -frames:v 1 review/f_$(printf %03d $t).png || true
             i=$((i+1))
           done
-          cp full/${{ inputs.code }}/captions.srt review/ 2>/dev/null || true
+          find full -name 'captions.srt' -exec cp {} review/ \; 2>/dev/null || true
           ls -la review/
 
       - name: Upload review bundle
