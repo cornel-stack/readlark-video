@@ -38,10 +38,12 @@ def main() -> int:
     layers_by_plate = {}
     if layers_path.exists():
         for p in json.loads(layers_path.read_text())["plates"]:
-            layers_by_plate[p["id"]] = {
-                "flat": p["flat"],
-                "layers": [{"file": f"art/{bcode}/{l['file']}", "parallax": l["parallax"]} for l in p.get("layers", [])],
-            }
+            layers = [{"file": f"art/{bcode}/{l['file']}", "parallax": l["parallax"]} for l in p.get("layers", [])]
+            # Flat plates get a single opaque base layer pointing at the full jpg, so
+            # the template never needs a book-specific fallback.
+            if not layers:
+                layers = [{"file": f"art/{bcode}/{p['id']}.jpg", "parallax": 0}]
+            layers_by_plate[p["id"]] = {"flat": p["flat"], "layers": layers}
 
     timing_by_id = {s["id"]: s for s in scenes_timing["scenes"]}
     merged_scenes = []

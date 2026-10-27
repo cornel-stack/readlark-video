@@ -84,7 +84,8 @@ def build_description(code: str, script: dict, timing: dict) -> str:
         lines.append("")
     lines.append("ReadLark — classic & set-text books, drawn and explained. New videos weekly.")
     lines.append("")
-    status = "quoted from the public-domain 1818 text" if meta["text_status"] == "public_domain" else "paraphrased (in copyright)"
+    status = (f"quoted from the public-domain {meta['year']} text"
+              if meta["text_status"] == "public_domain" else "paraphrased (in copyright)")
     lines.append(f"Text: {meta['book']} — {status}. Art: public-domain / CC0 (see licences.json).")
     lines.append("")
     tags = thumb_tags(meta)

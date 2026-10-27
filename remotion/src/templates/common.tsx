@@ -5,9 +5,9 @@ import {Scene} from '../lib/types';
 
 /** Layer[] for a scene's plate, falling back to a single flat base if needed. */
 export function plateLayers(scene: Scene): Layer[] {
-  if (scene.plateLayers?.layers?.length) return scene.plateLayers.layers;
-  const plate = (scene.on_screen?.plate as string) || scene.assets?.[0];
-  return plate ? [{file: `art/CL-11/${plate}.jpg`, parallax: 0}] : [];
+  // build_props always supplies plateLayers (incl. a single base layer for flat
+  // plates), so this is just a safety net: show nothing rather than a wrong-book image.
+  return scene.plateLayers?.layers ?? [];
 }
 
 /** Gentle scene-level fade in/out so cuts read as soft dissolves. */
