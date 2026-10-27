@@ -152,6 +152,18 @@ def main() -> int:
     else:
         warnings.append("captions.srt missing — skipped caption checks (run audio.py)")
 
+    # ---- growth nudges (warnings, not hard fails) ----
+    book_kw = meta["book"].split(";")[0].split(":")[0].split()[0].lower()
+    hook_narr = (scenes[0].get("narration", "") or "").lower()
+    if book_kw not in hook_narr:
+        warnings.append(f"hook doesn't say '{book_kw}' — name the book/search term in the first line (SEO + search intent)")
+    last = scenes[-1]
+    if last["template"] == "end-screen" and meta["code"][-1:] in ("A", "B"):
+        comp = meta["code"][:-1] + ("B" if meta["code"].endswith("A") else "A")
+        pts = (last.get("on_screen") or {}).get("points_to")
+        if pts != comp:
+            warnings.append(f"end-screen points_to '{pts}', expected companion '{comp}' (A↔B cross-link)")
+
     # ---- report ----
     for w in warnings:
         print(f"  warning: {w}")

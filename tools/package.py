@@ -38,25 +38,24 @@ def companion(code: str) -> str | None:
 
 
 def title_variants(meta: dict) -> list[str]:
+    """Quick win #1: the PRIMARY title leads with the exact search phrase
+    (front-loaded keyword is the top SEO + CTR lever for a small channel)."""
     book = meta["book"].split(";")[0].split(":")[0].strip()
-    phrase = meta["search_phrase"]
+    phrase = meta["search_phrase"].strip()
+    lead = phrase.title()  # "frankenstein summary" -> "Frankenstein Summary"
     is_rev = "Revision" in meta.get("format", "")
-    base = meta["title"]
     if is_rev:
         v = [
-            base,
-            f"{book} Summary — Plot, Characters, Themes & 5 Quotes to Memorise",
-            f"{book}, Explained for the Exam | {phrase.title()} & Analysis",
+            f"{lead} — Plot, Characters, Themes & 5 Quotes to Memorise",
+            meta["title"],
+            f"{book} Explained for the Exam | Full Analysis & Revision",
         ]
     else:
         v = [
-            base,
-            f"{book}: The Whole Story, Explained | {meta['author']} ({meta['year']})",
-            f"{book} — Full Summary & Analysis | {phrase.title()}",
+            f"{lead} | The Whole Book in One Video",
+            meta["title"],
+            f"{book} — Full Summary & Analysis ({meta['author']})",
         ]
-    # ensure the exact search phrase appears somewhere
-    if not any(phrase.lower() in t.lower() for t in v):
-        v[1] = f"{v[1]} | {phrase}"
     return v
 
 
@@ -91,6 +90,34 @@ def build_description(code: str, script: dict, timing: dict) -> str:
     tags = thumb_tags(meta)
     lines.append(" ".join("#" + t.replace(" ", "") for t in tags[:6]))
     return "\n".join(lines)
+
+
+def exam_timing(code: str) -> str:
+    """Quick win #3: publish 3–6 weeks before the relevant exam window."""
+    if code.startswith("CL"):
+        return ("UK GCSE & A-level: May–June · US AP: early May. "
+                "Publish by late March / early April to index before the search rush.")
+    if code.startswith("KE"):
+        return "Kenya KCSE: Oct–Nov. Publish by mid-September."
+    return "Evergreen (not exam-bound) — time to release/adaptation news and BookTok trends."
+
+
+def playlists_for(code: str, book: str) -> list[str]:
+    """Quick win #4: playlist everything (book pair + board) for session time."""
+    board = {"CL": "English Literature Revision", "KE": "KCSE Set Texts", "FI": "Modern Fiction"}
+    return [book, board.get(code[:2], "Book Videos")]
+
+
+def upload_checklist(code: str, book: str) -> list[str]:
+    """Operationalises quick wins #2, #4, #5 as a manual-upload checklist."""
+    return [
+        "Thumbnails: upload all 3 to YouTube Studio → Test & Compare (A/B by watch-time).",
+        f"Playlists: add to {' and '.join(playlists_for(code, book))}.",
+        "Pin the comment above as the first comment.",
+        "Reply to every comment in the first 1–2 hours after publishing.",
+        "Schedule the publish date for the exam-timing window (see exam_timing).",
+        "Check the description chapters render (first marker at 00:00).",
+    ]
 
 
 def thumb_tags(meta: dict) -> list[str]:
@@ -140,8 +167,10 @@ def main() -> int:
         "search_phrase": meta["search_phrase"],
         "description": build_description(code, script, timing),
         "tags": thumb_tags(meta),
-        "playlist": meta["book"].split(";")[0].strip(),
+        "playlists": playlists_for(code, meta["book"].split(";")[0].strip()),
         "category": "Education",
+        "exam_timing": exam_timing(code),
+        "upload_checklist": upload_checklist(code, meta["book"].split(";")[0].strip()),
         "companion": companion(code),
         "pinned_comment": (
             f"{next((s['on_screen'].get('question') for s in script['scenes'] if s['template']=='hook'), '')} "
