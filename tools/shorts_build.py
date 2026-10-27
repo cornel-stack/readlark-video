@@ -166,13 +166,19 @@ def main() -> int:
                     "[0:a][md]amix=inputs=2:normalize=0,alimiter=limit=0.95[out]",
                     "-map", "[out]", "-ar", "48000", "-ac", "2", str(mix)], check=True)
 
-    # 4) render props
+    # 4) render props. NEVER drop a beat whose plate failed to fetch — keep its text
+    # and timing (synced to the audio) and null the plate so it carries the previous
+    # image. Dropping beats would desync the on-screen text from the narration.
     plates = {r["id"]: f"shorts/{code}/art/{r['file']}" for r in licences}
+    for b in timed:
+        if b["plate"] and b["plate"] not in have:
+            print(f"   (beat plate '{b['plate']}' missing — carrying previous image)")
+            b["plate"] = None
     props = {
         "id": code, "topic": meta["topic"], "thinker": meta["thinker"],
         "thinker_dates": meta.get("thinker_dates", ""), "title": meta["title"],
         "audio": f"shorts/{code}/mix.wav", "total": total,
-        "beats": [b for b in timed if (b["plate"] in have or not b["plate"])],
+        "beats": timed,
         "plates": plates, "attribution": short.get("attribution", meta["thinker"]),
         "cta": short.get("cta", "Follow for more"),
     }
