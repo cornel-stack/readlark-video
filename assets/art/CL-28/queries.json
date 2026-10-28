@@ -1,0 +1,115 @@
+{
+  "book_code": "CL-28",
+  "book": "The Iliad",
+  "note": "Art queries for Homer's Iliad. Wikimedia Commons, PD/CC0 only. Unlike a modern novel, the Iliad is depicted directly across two and a half millennia of public-domain art: John Flaxman's 1795 line engravings (which illustrate the poem scene by scene), Neoclassical history painting (Ingres, Jacques-Louis David, Gavin Hamilton, Benjamin West, Tiepolo, Rubens), and ancient Greek vase painting. The fetcher adds 'filetype:bitmap', caps each download to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-homer",
+      "count": 1,
+      "query": "Ingres Apotheosis of Homer painting",
+      "want": "Ingres, Homer enthroned — the poet (PD)"
+    },
+    {
+      "id": "plate-wrath",
+      "count": 1,
+      "query": "Giovanni Battista Tiepolo The Wrath of Achilles fresco",
+      "want": "Tiepolo, Athena stays Achilles' sword (PD)"
+    },
+    {
+      "id": "plate-quarrel",
+      "count": 2,
+      "query": "John Flaxman Iliad engraving",
+      "want": "Flaxman, the quarrel of the chiefs (PD line engraving)"
+    },
+    {
+      "id": "plate-thetis",
+      "count": 1,
+      "query": "Ingres Jupiter and Thetis painting",
+      "want": "Ingres, Thetis supplicates Zeus (PD)"
+    },
+    {
+      "id": "plate-gods",
+      "count": 1,
+      "query": "Raphael Council of the Gods Farnesina fresco",
+      "want": "Raphael, the gods of Olympus in council (PD)"
+    },
+    {
+      "id": "plate-ships",
+      "count": 1,
+      "query": "Claude Lorrain seaport ships painting",
+      "want": "The Greek ships drawn up on the shore (PD)"
+    },
+    {
+      "id": "plate-duel",
+      "count": 1,
+      "query": "Exekias amphora Achilles Ajax playing dice",
+      "want": "Exekias, two warriors (famous Greek vase, PD)"
+    },
+    {
+      "id": "plate-helen",
+      "count": 1,
+      "query": "Dante Gabriel Rossetti Helen of Troy painting",
+      "want": "Rossetti, Helen — the cause of the war (PD)"
+    },
+    {
+      "id": "plate-hector-andromache",
+      "count": 1,
+      "query": "Angelica Kauffmann Hector Andromache painting",
+      "want": "Kauffmann, Hector's farewell to Andromache (PD)"
+    },
+    {
+      "id": "plate-walls",
+      "count": 1,
+      "query": "John Martin ancient city painting",
+      "want": "The walls and towers of Troy (PD)"
+    },
+    {
+      "id": "plate-embassy",
+      "count": 1,
+      "query": "Ingres The Envoys of Agamemnon painting",
+      "want": "Ingres, the embassy to Achilles' tent (PD)"
+    },
+    {
+      "id": "plate-arms",
+      "count": 1,
+      "query": "Benjamin West Thetis Bringing the Armor to Achilles painting",
+      "want": "West, Thetis delivers the new armour (PD)"
+    },
+    {
+      "id": "plate-patroclus",
+      "count": 1,
+      "query": "Antoine Wiertz Greeks Trojans fighting body Patroclus painting",
+      "want": "The fight over the body of Patroclus (PD)"
+    },
+    {
+      "id": "plate-grief",
+      "count": 1,
+      "query": "Gavin Hamilton Achilles Lamenting the Death of Patroclus painting",
+      "want": "Hamilton, Achilles grieving Patroclus (PD)"
+    },
+    {
+      "id": "plate-shield",
+      "count": 1,
+      "query": "Shield of Achilles Flaxman engraving",
+      "want": "Flaxman, the Shield of Achilles (PD)"
+    },
+    {
+      "id": "plate-hector-death",
+      "count": 1,
+      "query": "Peter Paul Rubens Death of Hector painting",
+      "want": "Rubens, Achilles kills Hector (PD)"
+    },
+    {
+      "id": "plate-drag",
+      "count": 1,
+      "query": "Franz Matsch Triumph of Achilles Achilleion fresco",
+      "want": "Matsch, Achilles drags Hector's body (PD)"
+    },
+    {
+      "id": "plate-priam",
+      "count": 1,
+      "query": "Gavin Hamilton Priam pleading with Achilles for the body of Hector painting",
+      "want": "Hamilton, Priam ransoms Hector (PD)"
+    }
+  ]
+}

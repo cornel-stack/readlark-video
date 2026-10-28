@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "code": "CL-28A",
+    "book": "The Iliad",
+    "author": "Homer",
+    "year": "c. 750 BC",
+    "text_status": "public_domain",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "The Iliad, Explained in 12 Minutes (Homer — Plot, Characters, Themes & Quotes)",
+    "search_phrase": "The Iliad summary"
+  },
+  "chapters": [
+    {
+      "title": "Why does the greatest warrior refuse to fight?",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The story of the wrath",
+      "first_scene": "ch-plot"
+    },
+    {
+      "title": "Characters",
+      "first_scene": "ch-characters"
+    },
+    {
+      "title": "Themes",
+      "first_scene": "ch-themes"
+    },
+    {
+      "title": "Five lines worth knowing",
+      "first_scene": "ch-quotes"
+    },
+    {
+      "title": "The questions it leaves you with",
+      "first_scene": "ch-ideas"
+    },
+    {
+      "title": "Watch the full story",
+      "first_scene": "end"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "The Iliad isn't really about the fall of Troy. It's about one furious man who sulks in his tent while his friends die — and what it finally takes to bring him back.",
+      "on_screen": {
+        "question": "Why does the greatest warrior refuse to fight?",
+        "plate": "plate-wrath"
+      },
+      "assets": [
+        "plate-wrath"
+      ],
+      "notes": "Hook before any title. Names the book. Plate: the wrath of Achilles."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Iliad, by Homer, composed around seven fifty BC.",
+      "on_screen": {
+        "title": "The Iliad",
+        "author": "Homer",
+        "year": "c. 750 BC",
+        "subtitle": "The Wrath of Achilles"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. The Iliad is the oldest surviving work of Western literature — a vast poem that was sung aloud, from memory, long before it was ever written down. It does not tell the whole Trojan War: no wooden horse, no fall of the city. Instead it zooms in on about seven weeks in the tenth and final year of that war, and on a single emotion named in its very first word — the rage of Achilles. And keep one idea in mind throughout: these warriors are chasing something the Greeks called kleos — glory, the undying fame that is the only immortality a mortal can win. Almost everyone in this poem would rather die young and be remembered forever than live long and be forgotten. It helps to picture how it was first experienced: not read silently off a page, but performed aloud, probably over several evenings, by a singer who carried the whole vast poem in his memory.",
+      "on_screen": {
+        "plate": "plate-homer",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-homer"
+      ],
+      "notes": "Context: oldest Western literature, oral; covers ~7 weeks of year 10, not the whole war; kleos (glory). Non-plot framing."
+    },
+    {
+      "id": "ch-plot",
+      "template": "chapter-card",
+      "narration": "The whole poem turns on one quarrel and its terrible consequences. Hold the shape, and it never slips away from you.",
+      "on_screen": {
+        "chapter_title": "The story of the wrath",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The quarrel",
+            "War without him",
+            "Patroclus",
+            "The wrath",
+            "The ransom"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "plot1",
+      "template": "parallax-still",
+      "narration": "It begins with a quarrel between two Greeks. Agamemnon, the commander of the whole army, is forced to give up a war-prize — a captive woman — and to save face he seizes a different woman, Briseis, from his greatest fighter, Achilles. It is a public humiliation, and Achilles is incandescent. He withdraws from the war altogether, and asks his mother, the sea-goddess Thetis, to beg Zeus to let the Greeks lose — so that they will learn, in blood, how badly they need him. Zeus agrees. The stage is set: the best warrior in the world will sit by his ships and watch his own side be slaughtered.",
+      "on_screen": {
+        "plate": "plate-quarrel",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-quarrel"
+      ],
+      "notes": "Agamemnon seizes Briseis; Achilles withdraws; Thetis & Zeus; the Greeks doomed to lose."
+    },
+    {
+      "id": "plot2",
+      "template": "parallax-still",
+      "narration": "Without Achilles, the war grinds on. There are duels, truces broken by meddling gods, and days of brutal fighting in which the Trojan prince Hector — the noblest figure in the poem — drives the Greeks back to their ships. We meet Hector not just as a fighter but as a husband and father, saying a heartbreaking goodbye to his wife Andromache and their baby son, knowing he will probably die. Desperate, the Greek leaders send an embassy to Achilles, offering him Briseis back and a fortune in treasure if he will only return. He refuses. His pride is not satisfied, and his friends keep dying. Homer keeps cutting between the battlefield and the human cost — wives, parents, children left behind — so that we never once forget that each of these fighters is someone's whole world.",
+      "on_screen": {
+        "plate": "plate-hector-andromache",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-hector-andromache"
+      ],
+      "notes": "War without Achilles; Hector's success; Hector & Andromache farewell; the embassy refused."
+    },
+    {
+      "id": "plot3",
+      "template": "parallax-still",
+      "narration": "Then comes the turn that breaks everything open. Achilles' dearest companion, Patroclus, can bear the slaughter no longer. He begs Achilles to let him borrow his famous armour and lead their troops out, just to frighten the Trojans. Achilles agrees. Patroclus drives the enemy back brilliantly — and then, carried away, pushes too far, and is killed by Hector. The armour of Achilles is stripped from his friend's body. And now the rage that had been pointed at Agamemnon swings around, white-hot, toward Hector. Grief has done what no treasure could: it brings Achilles back to the war.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Patroclus borrows the armour, triumphs, is killed by Hector; Achilles' grief and new rage."
+    },
+    {
+      "id": "plot4",
+      "template": "parallax-still",
+      "narration": "His mother brings him dazzling new armour forged by a god, and Achilles returns like a force of nature, filling a river with the dead. He finds Hector at last outside the walls of Troy, chases him around the city, and kills him. But his fury does not end with the killing. In his grief he lashes Hector's body to his chariot and drags it in the dust, day after day, refusing it burial — a horror even to the watching gods. Then, one night, Hector's old father, King Priam, slips into Achilles' tent alone, kneels, and kisses the hands of the man who killed his son, to beg for the body back. And something in Achilles finally breaks — into pity. He gives Hector back. The poem ends not with victory, but with the funeral of Hector, tamer of horses. It is a deliberate, shocking choice of ending: the poem about the greatest of all wars refuses to finish on a battle at all, and gives its final word to a grieving enemy.",
+      "on_screen": {
+        "plate": "plate-priam",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-priam"
+      ],
+      "notes": "New armour; Achilles returns, kills Hector, drags the body; Priam's night visit; Hector's funeral ends the poem."
+    },
+    {
+      "id": "ch-characters",
+      "template": "chapter-card",
+      "narration": "Now the people, and how they pull on each other.",
+      "on_screen": {
+        "chapter_title": "Who's who",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Greeks",
+            "Trojans",
+            "Gods",
+            "Themes",
+            "Quotes"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "characters",
+      "template": "whiteboard",
+      "narration": "On the Greek side: Achilles, the half-divine champion whose rage drives everything; Agamemnon, the proud commander who provokes him; and Patroclus, Achilles' beloved friend, whose death changes the war. On the Trojan side: Hector, their heroic defender, a good man fighting a doomed cause; his aged father King Priam; his wife Andromache; and his brother Paris, whose theft of Helen started it all. Above them all are the gods — Zeus, Hera, Athena, Apollo — who take sides, argue, and interfere constantly, as though the whole war were their family drama played out with human lives. Achilles and Hector are set up as deliberate mirror images — one fighting for glory and rage, the other for love and duty — and Homer pointedly refuses to tell you which of them was right.",
+      "on_screen": {
+        "heading": "The cast",
+        "annotations": [
+          {
+            "kind": "character-map",
+            "nodes": [
+              {
+                "id": "achilles",
+                "label": "Achilles"
+              },
+              {
+                "id": "agamemnon",
+                "label": "Agamemnon"
+              },
+              {
+                "id": "patroclus",
+                "label": "Patroclus"
+              },
+              {
+                "id": "hector",
+                "label": "Hector"
+              },
+              {
+                "id": "priam",
+                "label": "Priam"
+              },
+              {
+                "id": "gods",
+                "label": "The Gods"
+              }
+            ],
+            "edges": [
+              {
+                "from": "agamemnon",
+                "to": "achilles",
+                "label": "humiliates"
+              },
+              {
+                "from": "achilles",
+                "to": "patroclus",
+                "label": "loves"
+              },
+              {
+                "from": "hector",
+                "to": "patroclus",
+                "label": "kills"
+              },
+              {
+                "from": "achilles",
+                "to": "hector",
+                "label": "avenges / kills"
+              },
+              {
+                "from": "priam",
+                "to": "achilles",
+                "label": "begs for the body"
+              },
+              {
+                "from": "gods",
+                "to": "achilles",
+                "label": "take sides"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch-themes",
+      "template": "chapter-card",
+      "narration": "Five themes run under almost every line.",
+      "on_screen": {
+        "chapter_title": "Themes",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Greeks",
+            "Trojans",
+            "Gods",
+            "Themes",
+            "Quotes"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "themes",
+      "template": "whiteboard",
+      "narration": "Rage — the poem's first word and its engine, a wrath that destroys even the man who feels it. Glory versus life — the warrior's bargain, fame bought with an early death. Fate and the gods — a world where even Zeus cannot save the mortals he loves from what is destined. Honour and the fragile pride of men — a whole war of slaughter set off by two chiefs squabbling over respect. And mortality — the thing that makes these fighters beautiful and tragic, because unlike the gods, they can die, and they know it. The Iliad is, in the end, the first and greatest poem about the fact that we don't last. Notice how often the poem pauses, even in the middle of a battle, to remind you that these men will die — and that this, not their strength, is finally what makes them matter.",
+      "on_screen": {
+        "heading": "Five themes",
+        "annotations": [
+          {
+            "kind": "theme-list",
+            "items": [
+              "Rage (the first word)",
+              "Glory (kleos) vs a long life",
+              "Fate & the meddling gods",
+              "Honour & wounded pride",
+              "Mortality — why it all matters"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch-quotes",
+      "template": "chapter-card",
+      "narration": "Now five lines, in a famous old translation. Learn them, and you hold the whole poem in your head.",
+      "on_screen": {
+        "chapter_title": "Five lines worth knowing",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Greeks",
+            "Trojans",
+            "Gods",
+            "Themes",
+            "Quotes"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "quote-wrath",
+      "template": "quote-card",
+      "narration": "One — the opening, which tells you the subject is not the war but an emotion. Achilles' wrath, to Greece the direful spring of woes unnumbered, heavenly goddess, sing!",
+      "on_screen": {
+        "quote": "Achilles' wrath, to Greece the direful spring / Of woes unnumber'd, heavenly goddess, sing!",
+        "source": "Book 1 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope's Iliad (Gutenberg #6130), opening invocation."
+    },
+    {
+      "id": "quote-leaves",
+      "template": "quote-card",
+      "narration": "Two — the poem's great image for human life, spoken on the battlefield. Like leaves on trees the race of man is found, now green in youth, now withering on the ground.",
+      "on_screen": {
+        "quote": "Like leaves on trees the race of man is found, / Now green in youth, now withering on the ground;",
+        "source": "Book 6 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope. Glaucus to Diomedes — mortality, the generations of men."
+    },
+    {
+      "id": "quote-hector",
+      "template": "quote-card",
+      "narration": "Three — Hector's farewell to his wife, the tenderest moment in the poem. Andromache! my soul's far better part.",
+      "on_screen": {
+        "quote": "Andromache! my soul's far better part,",
+        "source": "Book 6 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope. Hector to Andromache on the walls."
+    },
+    {
+      "id": "quote-doom",
+      "template": "quote-card",
+      "narration": "Four — Hector again, on the fate that hangs over every one of them. No hostile hand can antedate my doom, till fate condemns me to the silent tomb.",
+      "on_screen": {
+        "quote": "No hostile hand can antedate my doom, / Till fate condemns me to the silent tomb.",
+        "source": "Book 6 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope. Hector on fate and death."
+    },
+    {
+      "id": "quote-end",
+      "template": "quote-card",
+      "narration": "Five — the last lines of the whole epic, closing not on a conqueror but on a funeral. Such honours Ilion to her hero paid, and peaceful slept the mighty Hector's shade.",
+      "on_screen": {
+        "quote": "Such honours Ilion to her hero paid, / And peaceful slept the mighty Hector's shade.",
+        "source": "Book 24 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope. The final couplet of the Iliad."
+    },
+    {
+      "id": "ch-ideas",
+      "template": "chapter-card",
+      "narration": "Last — the questions the poem keeps asking long after it ends.",
+      "on_screen": {
+        "chapter_title": "The questions it leaves you with",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Greeks",
+            "Trojans",
+            "Gods",
+            "Themes",
+            "Quotes"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "ideas",
+      "template": "whiteboard",
+      "narration": "Here is what people still argue about. Is Achilles a hero at all, or a magnificent child whose pride gets his best friend killed? Is Hector — who loses — the real hero of the poem? Is a short, glorious life actually worth more than a long, quiet one? And the question that has haunted readers for nearly three thousand years: the Iliad clearly knows that war is horror — grief, waste, mutilated bodies — and yet it makes war beautiful. Can both of those things be true at once? Sit with that, and you understand why this poem never dies.",
+      "on_screen": {
+        "heading": "What it keeps asking",
+        "annotations": [
+          {
+            "kind": "theme-list",
+            "items": [
+              "Is Achilles a hero, or a child?",
+              "Is Hector the real hero?",
+              "Short glory vs a long life?",
+              "Can war be both horror and beauty?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "So, back to where we started: why does the greatest warrior refuse to fight? Because his honour was wounded — and the poem's terrible answer is that it takes the death of the person he loves most to teach him what honour was really worth. If you want the whole story, in Homer's own sweep, the full retelling is right here. Learn your five lines, remember the shape of the wrath, and then go and read it — three thousand years on, nothing has ever matched it.",
+      "on_screen": {
+        "message": "Watch the full retelling",
+        "points_to": "CL-28B"
+      },
+      "notes": "End screen cross-links to CL-28B."
+    }
+  ]
+}

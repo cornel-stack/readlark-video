@@ -1,0 +1,674 @@
+{
+  "meta": {
+    "code": "CL-28B",
+    "book": "The Iliad",
+    "author": "Homer",
+    "year": "c. 750 BC",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "The Iliad: The Full Story Explained (Homer)",
+    "search_phrase": "The Iliad full story explained"
+  },
+  "chapters": [
+    {
+      "title": "Rage",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Quarrel",
+      "first_scene": "ch-quarrel"
+    },
+    {
+      "title": "The War Without Him",
+      "first_scene": "ch-war"
+    },
+    {
+      "title": "The Embassy and Patroclus",
+      "first_scene": "ch-embassy"
+    },
+    {
+      "title": "The Death of Patroclus",
+      "first_scene": "ch-patroclus"
+    },
+    {
+      "title": "The Wrath of Achilles",
+      "first_scene": "ch-wrath"
+    },
+    {
+      "title": "The Ransom",
+      "first_scene": "ch-close"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "The greatest warrior alive is so insulted by his own commander that he refuses to fight — and sits by his ships while his friends are slaughtered. This is the story of his rage.",
+      "on_screen": {
+        "question": "Rage",
+        "plate": "plate-wrath"
+      },
+      "assets": [
+        "plate-wrath"
+      ],
+      "notes": "Hook before any title. ~33 words, ≤15s."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Iliad, by Homer, composed around seven fifty BC.",
+      "on_screen": {
+        "title": "The Iliad",
+        "author": "Homer",
+        "year": "c. 750 BC",
+        "subtitle": "The Wrath of Achilles"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Before we begin, three things worth carrying with you. First: this is the oldest surviving work of Western literature, composed to be sung aloud from memory, generations before it was written down — which is why it repeats its grand phrases like a drumbeat. Second: it is not the story of the Trojan War. By the time the poem opens, that war has been grinding on for nine years; there is no wooden horse here, and the city never falls on the page. Homer chooses instead to tell about seven weeks near the very end, and about a single feeling, named in the poem's first word: the rage of Achilles. And third: hold on to one Greek idea above all — kleos, glory, the deathless fame won in battle. To these men it is the only immortality a mortal can have, and most of them would rather die young and be sung about forever than grow old and be forgotten.",
+      "on_screen": {
+        "plate": "plate-homer",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-homer"
+      ],
+      "notes": "Context: oldest Western lit, oral/formulaic; not the whole war; the wrath; kleos."
+    },
+    {
+      "id": "ch-quarrel",
+      "template": "chapter-card",
+      "narration": "It all begins, as so much does, with two proud men and a wounded ego.",
+      "on_screen": {
+        "chapter_title": "The Quarrel",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Quarrel",
+            "War",
+            "Embassy",
+            "Patroclus",
+            "Wrath",
+            "Ransom"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "q1-plague",
+      "template": "parallax-still",
+      "narration": "A plague is raging through the Greek camp. The arrows of the god Apollo fall day after day, and the funeral fires never stop burning. The cause, it emerges, is Agamemnon, the proud commander-in-chief of the whole Greek army. He has taken as his war-prize the daughter of a priest of Apollo, and when the old priest comes humbly to ransom her, Agamemnon drives him away with insults. So the priest prays, and his god answers with nine days of death. Only when the seer explains the reason does Agamemnon, furious, agree to give the girl back — but he announces that he will take someone else's prize to replace his own. And the someone he chooses is Achilles, the deadliest fighter in the army. The detail matters: the war's great catastrophe is set in motion not by strategy or by some grand divine design, but by one powerful man too proud to return a captive and too thin-skinned to be corrected in public. Homer wants you to see, from the very first page, how much death can flow from how little.",
+      "on_screen": {
+        "plate": "plate-ships",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ships"
+      ],
+      "notes": "Book 1: Apollo's plague; Chryses insulted; Agamemnon must return Chryseis; vows to take Achilles' prize."
+    },
+    {
+      "id": "q1-quarrel",
+      "template": "parallax-still",
+      "narration": "The two men square off in front of the whole assembly. Achilles rages that he does all the fighting while Agamemnon takes the best of the spoils; Agamemnon pulls rank and insists he will have his way. Achilles' hand actually goes to his sword — he is a breath away from killing his own commander — when the goddess Athena, seen by him alone, appears at his shoulder and stops him, promising that one day he will be repaid three times over for this insult. So he keeps the sword sheathed. But he hurls down his staff and swears a terrible oath: that a day will come when the Greeks, dying in heaps before Hector, will desperately wish they had never dishonoured the best man among them. What the two of them are really fighting over is not the woman at all, but status — whose worth the army will acknowledge. In a world with no money and no medals, a prize won in battle is a man's honour made visible, and to lose it in front of everyone is to be publicly unmade. That is why Achilles reacts not like a jilted lover but like a man whose entire identity has just been stolen.",
+      "on_screen": {
+        "plate": "plate-quarrel",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-quarrel"
+      ],
+      "notes": "Book 1: the quarrel; Achilles nearly draws his sword; Athena restrains him; his oath."
+    },
+    {
+      "id": "q-wrath",
+      "template": "quote-card",
+      "narration": "This is where the poem begins — and notice its subject is not a war, but a feeling.",
+      "on_screen": {
+        "quote": "Achilles' wrath, to Greece the direful spring / Of woes unnumber'd, heavenly goddess, sing!",
+        "source": "Book 1 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope's Iliad (Gutenberg #6130), opening invocation."
+    },
+    {
+      "id": "q1-briseis",
+      "template": "parallax-still",
+      "narration": "Agamemnon makes good on his threat. He sends heralds to Achilles' tent and takes away Briseis, the woman who was Achilles' prize of honour. Achilles does not resist — but he is wounded to the core, because in this world a prize is not about desire; it is the visible proof of a man's worth, and Agamemnon has just stripped his in public. Achilles walks down alone to the grey sea, weeping, and calls on his mother. For Achilles is half divine: his mother is Thetis, a goddess of the sea. She rises from the waves to comfort him, and he asks her for something monstrous — to go to Zeus, the king of the gods, and beg him to make the Greeks lose, so that they will finally feel how much they needed Achilles. Watch, too, the terrible tenderness Homer gives the sea-nymph mother: she knows, even as she comforts him, that the path her son is choosing leads straight to his early death, and she helps him down it anyway, because she cannot refuse her grieving boy. Love, in this poem, is forever helping the people it cannot save.",
+      "on_screen": {
+        "plate": "plate-thetis",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-thetis"
+      ],
+      "notes": "Book 1: Briseis taken; the prize as proof of honour; Achilles weeps to Thetis; asks her to petition Zeus."
+    },
+    {
+      "id": "q1-olympus",
+      "template": "parallax-still",
+      "narration": "Thetis goes up to Olympus and clasps the knees of Zeus in the ancient gesture of a suppliant, and asks him to let the Trojans win until her son is honoured again. Zeus hesitates — his wife Hera hates the Trojans and will make his life miserable — but at last he bows his great head, and that nod, Homer says, shakes all of Olympus. It cannot be taken back. And here, at the very start, you see the strange machinery of the whole poem: the gods are everywhere, taking sides, scheming, squabbling like a vast and powerful family, treating the deaths of men almost as moves in their own private quarrels. The suffering below is real; to much of Olympus, it is sport. Homer's gods are the strangest thing in the poem to modern eyes — immortal, all-powerful, and almost entirely without wisdom or mercy. They are jealous, petty, easily flattered and quick to take offence. The one difference between them and us is that nothing is ever truly at stake for them: they can be wounded and heal by evening, lose a favourite and dine happily that night. It is precisely their deathlessness that makes them shallow.",
+      "on_screen": {
+        "plate": "plate-gods",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-gods"
+      ],
+      "notes": "Book 1: Thetis supplicates Zeus; his nod shakes Olympus; Hera's jealousy; the gods' involvement."
+    },
+    {
+      "id": "ch-war",
+      "template": "chapter-card",
+      "narration": "With the best of the Greeks sulking in his tent, the war goes on without him.",
+      "on_screen": {
+        "chapter_title": "The War Without Him",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Quarrel",
+            "War",
+            "Embassy",
+            "Patroclus",
+            "Wrath",
+            "Ransom"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "w-duel",
+      "template": "parallax-still",
+      "narration": "For a moment, it looks as though the whole war might end sensibly. The two men at the root of it agree to settle things in single combat: Menelaus, the Greek whose wife was stolen, against Paris, the Trojan prince who stole her. Whoever wins keeps Helen, and everyone else goes home. But Paris is a far better lover than fighter; Menelaus is about to kill him and end the war on the spot — when the goddess Aphrodite simply snatches Paris off the battlefield in a mist and sets him down, unharmed, in Helen's bedroom. The gods, it turns out, are not ready for the war to be over. The chance for peace evaporates. There is a grim comedy in it that Homer plainly intends. The two men with the most personal stake in the entire war are handed the chance to settle it man to man and spare tens of thousands of lives — and the gods, bored and partisan, simply will not allow the sensible thing to happen. The war grinds on because powerful beings, mortal and divine alike, would rather it did.",
+      "on_screen": {
+        "plate": "plate-duel",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-duel"
+      ],
+      "notes": "Books 3: Paris vs Menelaus duel to settle the war; Aphrodite rescues Paris."
+    },
+    {
+      "id": "w-helen",
+      "template": "parallax-still",
+      "narration": "It is worth pausing on Helen, the woman this entire war is nominally about. Homer handles her with extraordinary subtlety. We see her up on the walls of Troy, pointing out the Greek champions to the old men of the city — and the old men, watching her, murmur that no one could blame men for fighting over such beauty, and yet, for all that, they wish she would sail home and take her sorrow with her. Helen herself is full of self-loathing and grief; she despises Paris and longs for her old life. She is at once the most beautiful thing in the poem and the one who most wishes she had never existed. It is one of Homer's quietest masterstrokes. He could have made Helen a villain, or merely a prize; instead he makes her a grieving, clear-eyed woman who sees her own beauty as a curse, and who knows that every man dying below the wall is dying, in some sense, for her. No one in the poem blames her half as harshly as she blames herself.",
+      "on_screen": {
+        "plate": "plate-helen",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-helen"
+      ],
+      "notes": "Book 3: Helen on the walls (the teichoscopia); the old men; her self-loathing."
+    },
+    {
+      "id": "w-diomedes",
+      "template": "parallax-still",
+      "narration": "The fighting resumes, and we get day after day of it — the great battle scenes that fill the heart of the poem. For a while a Greek hero named Diomedes goes on a god-blessed rampage so furious that he actually wounds two deities, slashing the hand of Aphrodite and driving the war-god Ares himself, bellowing, off the field. In the middle of all this killing, two enemies meet, Diomedes and the Trojan ally Glaucus, and discover their grandfathers were once friends. So instead of fighting they exchange armour and part as guest-friends — and Glaucus speaks the poem's great, quiet thought about what all these men really are. These long battle sequences can feel strange to a modern reader — catalogue after catalogue of who killed whom, and exactly where the spear went in. But that unflinching, almost clinical attention is the whole point. Homer refuses to let a single death become a mere statistic: each man cut down gets his name, his home town, sometimes the wife he left behind or the father who raised him — a whole life, closed off in a line.",
+      "on_screen": {
+        "plate": "plate-duel",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-duel"
+      ],
+      "notes": "Books 5-6: Diomedes' rampage, wounds Aphrodite and Ares; Glaucus and Diomedes exchange armour."
+    },
+    {
+      "id": "q-leaves",
+      "template": "quote-card",
+      "narration": "Here it is — Homer's image for every human life, spoken in the middle of a battlefield.",
+      "on_screen": {
+        "quote": "Like leaves on trees the race of man is found, / Now green in youth, now withering on the ground;",
+        "source": "Book 6 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope. Glaucus to Diomedes; mortality, the turning of the generations."
+    },
+    {
+      "id": "w-andromache",
+      "template": "parallax-still",
+      "narration": "And then the poem does something that changes everything: it takes us inside the doomed city. The Trojan prince Hector — the greatest of their fighters, and the most human figure in the whole epic — comes back briefly from the battle and finds his wife, Andromache, with their baby son. She begs him not to go back out; she has already lost her father and brothers to this war, and he is now, she says, father and mother and brother and husband, all in one, to her. Hector answers with aching gentleness. He knows, he tells her, that Troy will fall, that she will be dragged away a slave — and that he must fight anyway, because he could not bear the shame of hanging back. Then he reaches for his baby, who screams in terror at the great horsehair crest of his helmet, and Hector laughs, and takes it off, and holds his son. Homer lets the scene breathe, and it is all the more devastating for how ordinary it is — a husband and wife and a frightened baby, a moment of laughter in the middle of a war, shared by two people who both quietly know it is very likely the last time. Nothing in three thousand years of literature has ever improved on it.",
+      "on_screen": {
+        "plate": "plate-hector-andromache",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-hector-andromache"
+      ],
+      "notes": "Book 6: Hector & Andromache farewell; her plea; his sense of shame/duty; the baby and the helmet."
+    },
+    {
+      "id": "q-hector",
+      "template": "quote-card",
+      "narration": "The way he begins — the tenderest line in the poem.",
+      "on_screen": {
+        "quote": "Andromache! my soul's far better part,",
+        "source": "Book 6 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope. Hector's address to Andromache."
+    },
+    {
+      "id": "q-doom",
+      "template": "quote-card",
+      "narration": "And his answer to her fear — the hard creed every fighter in this poem lives by.",
+      "on_screen": {
+        "quote": "No hostile hand can antedate my doom, / Till fate condemns me to the silent tomb.",
+        "source": "Book 6 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope. Hector on fate and death."
+    },
+    {
+      "id": "w-ships",
+      "template": "parallax-still",
+      "narration": "Back on the field, and with Zeus now tilting the battle the way he promised Thetis, the Trojans gain the upper hand. Hector drives the Greeks back and back — past their own defensive wall, right down among the ships drawn up on the beach. He is trying to set the fleet on fire; if the ships burn, the Greeks can never go home, and the war is lost. The Greek champions fight desperately, but their best men are being wounded one by one, and Achilles, their one irreplaceable weapon, still sits by his tent, listening to the roar of a disaster he himself prayed for, and doing nothing. This is the low point the whole poem has been driving toward since Achilles swore his oath. His prayer has come true to the letter: the Greeks are dying in heaps, exactly as he wished, and he is getting everything he asked for. The horror is that it tastes of nothing. Being proved right, it turns out, is no comfort at all while the ships that might carry him home begin to burn.",
+      "on_screen": {
+        "plate": "plate-walls",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-walls"
+      ],
+      "notes": "Books 8-15: Zeus favours Troy; Hector drives the Greeks to the ships; tries to burn the fleet."
+    },
+    {
+      "id": "ch-embassy",
+      "template": "chapter-card",
+      "narration": "Desperate, the Greeks go on their knees to the man they insulted.",
+      "on_screen": {
+        "chapter_title": "The Embassy and Patroclus",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Quarrel",
+            "War",
+            "Embassy",
+            "Patroclus",
+            "Wrath",
+            "Ransom"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "e-embassy",
+      "template": "parallax-still",
+      "narration": "That night, with the situation dire, Agamemnon finally swallows his pride — or tries to. He sends an embassy of three trusted men to Achilles' tent, carrying an almost unbelievable offer: Briseis returned untouched, a mountain of gold and bronze and horses, seven cities, and one of Agamemnon's own daughters in marriage, if only Achilles will stop sulking and fight. They find him by the fire, playing a lyre and singing, of all things, of the glorious deeds of heroes. And they lay the whole magnificent offer at his feet. Each of the three envoys tries a different key: the smooth diplomacy of Odysseus, laying out the glittering inventory of gifts; the old tutor Phoenix, who raised Achilles as a boy and now pleads with him as a father; and the blunt soldier Ajax, who simply says that a decent man accepts recompense, and that Achilles is being monstrous to the friends who need him. All three are, in their way, right. And all three fail.",
+      "on_screen": {
+        "plate": "plate-embassy",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-embassy"
+      ],
+      "notes": "Book 9: the embassy (Odysseus, Phoenix, Ajax); Agamemnon's huge offer; Achilles singing of heroes."
+    },
+    {
+      "id": "e-refuse",
+      "template": "parallax-still",
+      "narration": "And Achilles refuses. It is one of the most astonishing speeches in all of literature, because in it he seems, for a moment, to see through the entire value-system he has lived and will die by. What is the point, he asks, of all this honour, all this glory, if the reward is simply death? The coward and the hero end up equally dead. His mother, he reveals, once told him of two fates laid up for him: if he stays and fights at Troy, he will die young, but his glory will be undying; if he sails home, he will live a long, comfortable, utterly forgotten life. And right now, bitter and disillusioned, he says he would rather go home and live. The great Greek bargain — glory bought with an early death — is, in this moment, something he wants to throw away. What makes the speech so startling is that Achilles is the one man in the poem clear-sighted enough to question the very code that defines him — and still, in the end, cannot escape it. He talks of sailing home to a long and quiet life, but we sense, and he half-senses, that he never truly will. The glory he claims to scorn has already chosen him.",
+      "on_screen": {
+        "plate": "plate-embassy",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-embassy"
+      ],
+      "notes": "Book 9: Achilles' great refusal; questions the value of honour; the two fates (short glory vs long obscurity)."
+    },
+    {
+      "id": "w-doloneia",
+      "template": "parallax-still",
+      "narration": "There is a strange, dark interlude on this worst of nights. Two Greek chiefs, the cunning Odysseus and the fierce Diomedes, volunteer to slip out into the darkness and spy on the Trojan camp. On the way they catch a Trojan scout named Dolon, sent on the very same errand; they wring every secret out of him with promises, and then kill him anyway. Guided by what he told them, they steal into the camp of a newly arrived Trojan ally, murder him and twelve of his sleeping men, and make off with his magnificent horses. It is the one episode of cold, night-time killing in the poem — no glory in it, only grim necessity — and it leaves a chill that the dawn does not quite burn off.",
+      "on_screen": {
+        "plate": "plate-duel",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-duel"
+      ],
+      "notes": "Book 10 (the Doloneia): Odysseus and Diomedes' night raid; Dolon killed; the sleeping Thracians slain."
+    },
+    {
+      "id": "e-wounded",
+      "template": "parallax-still",
+      "narration": "So the embassy trails back empty-handed, and the next day is a catastrophe. One by one the Greek leaders are wounded and carried from the field; the defensive wall is smashed; Hector and the Trojans pour through, and the fighting reaches the ships at last. A Trojan torch is lifted toward the first hull. The Greeks are, quite literally, moments from total destruction — pinned against their own burning fleet with the sea at their backs. And in his tent, unmoved by the offer of a fortune, Achilles is about to be moved by something else entirely. Homer keeps the pressure building almost past endurance across several books — night raids, walls stormed, chariots overturned, Greek surgeons working on wounded kings. The poem wants you to feel the desperation thickening, so that when the dam finally breaks, it breaks with the full weight of everything that has been held back.",
+      "on_screen": {
+        "plate": "plate-walls",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-walls"
+      ],
+      "notes": "Books 11-15: Greek leaders wounded; wall breached; Trojans reach the ships; a torch at the fleet."
+    },
+    {
+      "id": "ch-patroclus",
+      "template": "chapter-card",
+      "narration": "What a fortune could not do, love and grief will.",
+      "on_screen": {
+        "chapter_title": "The Death of Patroclus",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Quarrel",
+            "War",
+            "Embassy",
+            "Patroclus",
+            "Wrath",
+            "Ransom"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "p-plead",
+      "template": "parallax-still",
+      "narration": "Achilles has one companion dearer to him than anyone alive: Patroclus, the gentle, older friend who was raised alongside him and follows him everywhere. And Patroclus cannot bear it any longer. He comes to Achilles in tears — weeping, Achilles teases him, like a little girl running to her mother — because the men he has known all his life are dying out there while the two of them stand idle. He makes a fateful request: if Achilles will not fight, let Patroclus borrow his famous armour and lead their fresh troops into battle, just long enough to push the Trojans back from the ships and give the Greeks a breathing space. The friendship between these two is the warm centre of the poem, and Homer draws it with great delicacy — the older, gentler Patroclus, always the one who thinks of others, set against the brilliant, self-absorbed Achilles. It is Patroclus's very kindness, his plain inability to watch other men suffer, that is about to get him killed.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Book 16: Patroclus weeps, begs to borrow the armour and lead the Myrmidons."
+    },
+    {
+      "id": "p-armour",
+      "template": "parallax-still",
+      "narration": "Achilles agrees — and it is the decision that will destroy him. He lends Patroclus his own armour, so that the Trojans will think the great Achilles himself has returned, and sends his men roaring out behind him. But he gives one strict, desperate instruction: drive the Trojans back from the ships, and then stop. Do not chase them toward the walls of Troy. Do not seek glory without me. It is the warning of a man who half-senses the danger — and Patroclus, once the killing starts and the battle-fury takes him, will forget every word of it. There is a dreadful irony folded into the disguise. Achilles lends his armour so the Trojans will fear him — but it means Patroclus walks into battle dressed as the one man fate has marked to kill Hector, when Patroclus is not that man. He carries Achilles' terror without Achilles' protection: borrowed glory, and borrowed doom.",
+      "on_screen": {
+        "plate": "plate-arms",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-arms"
+      ],
+      "notes": "Book 16: Achilles lends the armour; the strict warning to stop at the ships; Patroclus leads out."
+    },
+    {
+      "id": "p-rampage",
+      "template": "parallax-still",
+      "narration": "At first it works beyond hope. The Trojans, certain that Achilles has returned, panic; Patroclus and the fresh Greek troops drive them back from the ships in a great wave, and the fires are put out. Patroclus fights magnificently — he even kills Sarpedon, a son of Zeus himself, so that the king of the gods rains down tears of blood for a child he is fated to lose and cannot save. But victory goes to Patroclus's head. Forgetting the warning, he chases the fleeing Trojans all the way to the walls of Troy, cutting them down, drunk on his own success — and climbing, without knowing it, straight toward his death. The death of Sarpedon is one of the poem's great set-pieces, because it shows the limit of even divine love. Zeus watches his own son march toward death and aches to snatch him to safety — and is told by Hera that if he saves his favourite, every other god will demand the same for theirs, and the whole order of the world will come apart. So even the king of heaven must let his child die. And if Zeus cannot cheat fate for his son, what hope is there for any mortal?",
+      "on_screen": {
+        "plate": "plate-duel",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-duel"
+      ],
+      "notes": "Book 16: Patroclus drives Trojans back, kills Sarpedon (Zeus weeps); ignores the warning, chases to the walls."
+    },
+    {
+      "id": "p-death",
+      "template": "parallax-still",
+      "narration": "At the walls, the god Apollo — who has protected Troy all along — steps in. Unseen, he comes up behind Patroclus and strikes him a stunning blow that knocks the helmet from his head and the spear from his hand, leaving him dazed and defenceless. A Trojan wounds him. And then Hector steps up and drives his spear home, killing him. With his dying breath Patroclus tells Hector not to boast: he was beaten by a god and by fate, not truly by Hector — and he warns that Hector himself has not long to live. Then he dies. Over his body, the two armies collide in one of the most savage fights in the poem. It takes three to bring Patroclus down, and the order matters: first the god, who does the real work of unmaking him; then a minor Trojan's spear; and only last of all Hector's blow. Homer is careful to show that no mortal, not even Hector, could have killed this man in his borrowed glory without heaven first stripping him bare. Fate works through human hands, but the decision is always taken above.",
+      "on_screen": {
+        "plate": "plate-patroclus",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-patroclus"
+      ],
+      "notes": "Book 16: Apollo stuns Patroclus; Euphorbus wounds him; Hector kills him; the dying prophecy."
+    },
+    {
+      "id": "p-fight-body",
+      "template": "parallax-still",
+      "narration": "Hector strips the armour of Achilles from the dead Patroclus and puts it on himself — a ghastly image, the enemy now wearing the hero's own skin. But the Greeks fight like demons to stop the Trojans dragging the body away to be defiled, and at last they carry Patroclus's corpse back toward the ships. And someone has to tell Achilles. The news travels to him — that the person he loved most in the world is dead, killed wearing his armour, on an errand Achilles himself allowed. It is the hinge of the entire poem. The struggle over a fallen warrior's body runs all through the Iliad, and it is not only about honour. To lose the corpse to the enemy — to let it be mutilated and thrown to the dogs rather than burned with proper rites — is felt as a kind of second death, an erasure. So they will spend dozens of lives to drag one dead friend back. It is a value we have half-forgotten, and Homer makes us feel its whole terrible weight.",
+      "on_screen": {
+        "plate": "plate-patroclus",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-patroclus"
+      ],
+      "notes": "Books 17-18: Hector takes the armour; the Greeks save the body; the news goes to Achilles."
+    },
+    {
+      "id": "ch-wrath",
+      "template": "chapter-card",
+      "narration": "Now the rage that began the poem comes back — transformed into something far more terrible.",
+      "on_screen": {
+        "chapter_title": "The Wrath of Achilles",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Quarrel",
+            "War",
+            "Embassy",
+            "Patroclus",
+            "Wrath",
+            "Ransom"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "a-grief",
+      "template": "parallax-still",
+      "narration": "Achilles' grief is so violent it frightens even the reader. He pours ashes over his own head and tears his hair; he lets out a cry so raw that his mother hears it from the depths of the sea and comes rushing to him with her sister nymphs. And in that moment his whole quarrel with Agamemnon simply evaporates — it means nothing now. There is only one thing left in him: the need to kill Hector. His mother warns him, plainly, that his own death is fated to come soon after Hector's. Achilles does not care. He would rather die having avenged his friend than live having failed him. The sulking boy of Book One is gone; what remains is a man who has decided to die. And notice the symmetry Homer builds. The poem opened with Achilles' rage at Agamemnon over a stolen prize — a wound to his pride. It ends with a rage of an entirely different order, a grief over a stolen person, that makes the first look like the tantrum it half was. Achilles has finally been handed something truly worth being angry about, and the price of learning the difference is the life of the one he loved.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Book 18: Achilles' grief; Thetis comes; the quarrel forgotten; he accepts his own death to avenge Patroclus."
+    },
+    {
+      "id": "a-shield",
+      "template": "parallax-still",
+      "narration": "There is one problem: his armour is lost, worn now by Hector. So Thetis flies to the smith-god Hephaestus and begs him to forge her son a new set overnight. What he makes is wondrous — and at its centre is a great shield, onto which the god hammers the entire world. Not battle scenes, but life: two cities, one at peace with weddings and lawsuits and dancing, one at war; fields being ploughed; a harvest; a vineyard; young people dancing; the earth, the sea, the sun and moon and stars. It is one of the most famous passages in the poem, and a deliberate, heartbreaking contrast — the whole rich ordinary world of peace, engraved on the instrument Achilles will carry to deal out death. Scholars have written whole books on this shield, and it is easy to see why. For a few hundred lines the poem lifts its eyes from the killing and shows us everything the fighting is not: courtship and marriage, a trial argued in the marketplace, farmers and herdsmen, young people laughing at a harvest dance. It is the whole ordinary world the dead men have lost and the living are fighting over — and Achilles will carry all of it strapped to his arm as he goes out to deal death.",
+      "on_screen": {
+        "plate": "plate-shield",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-shield"
+      ],
+      "notes": "Book 18: Thetis asks Hephaestus; the Shield of Achilles depicts the whole world at peace and war."
+    },
+    {
+      "id": "a-return",
+      "template": "parallax-still",
+      "narration": "At dawn Achilles formally gives up his anger against Agamemnon; Briseis is returned, and heaps of gifts, but he barely glances at them — he will not even eat until he has killed. Then he puts on the god-made armour and goes to war, and what follows is less a battle than a natural disaster. He fills the plain with Trojan dead; he chokes a whole river with bodies, until the river-god himself rises in fury and tries to drown him, and the gods have to intervene. The Trojans flee before him in terror back toward their walls. And Hector, alone, turns to wait for him outside the gates.",
+      "on_screen": {
+        "plate": "plate-wrath",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-wrath"
+      ],
+      "notes": "Books 19-21: reconciliation, Briseis returned; Achilles' aristeia; the battle with the river Scamander."
+    },
+    {
+      "id": "a-duel",
+      "template": "parallax-still",
+      "narration": "His parents cry down from the walls, begging him to come inside — but Hector is held there by shame. It was his overconfidence that cost so many Trojan lives; he cannot now hide behind the walls. So he waits. But as Achilles bears down on him, gleaming and monstrous, Hector's nerve breaks, and he runs. Three times the two of them race around the great walls of Troy, the hunter and the hunted, while the gods watch and Zeus sadly weighs their two fates in his golden scales — and Hector's sinks. Then Athena, in disguise, tricks Hector into stopping and turning to fight, making him believe a brother has come to stand beside him. He turns. There is no brother. There is only Achilles. Homer slows everything here to an almost unbearable tension. We have come to know Hector as a husband, a father, a son, a decent man defending a doomed cause — and now we watch him run for his life, his nerve gone, round and round his own home while everyone he loves looks on from the walls. It is the most human thing in the poem: the bravest man in Troy, simply afraid to die.",
+      "on_screen": {
+        "plate": "plate-walls",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-walls"
+      ],
+      "notes": "Book 22: Hector's shame; he runs; the chase round the walls; Zeus' scales; Athena's deception."
+    },
+    {
+      "id": "a-killhector",
+      "template": "parallax-still",
+      "narration": "Hector realises he has been abandoned by the gods to his death, and chooses to meet it well — not to die without a struggle, he says, but to do some great deed that men to come will hear of. They fight, and Achilles, knowing from the stolen armour exactly where the throat is bare, drives his spear through Hector's neck. With his last breath Hector begs that his body be given back to his family for proper burial. Achilles, still blind with hatred, refuses savagely — he wishes his own fury would let him eat Hector's flesh raw. And Hector, dying, warns him that his own death, at the gates of Troy, is now very near. Then the great defender of Troy is gone. The whole epic has been pointing at this single duel, and Homer makes it almost intimate. These are the two finest men on either side: one fighting to avenge love, the other to defend his city and his family, and only one can walk away. When the spear goes home we feel it as a catastrophe — even though we have watched Hector kill, and have longed, right alongside Achilles, for this exact moment to come.",
+      "on_screen": {
+        "plate": "plate-hector-death",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-hector-death"
+      ],
+      "notes": "Book 22: Hector's choice to die well; Achilles kills him at the throat; refuses burial; Hector's dying prophecy."
+    },
+    {
+      "id": "a-drag",
+      "template": "parallax-still",
+      "narration": "And then Achilles does the thing the whole poem has been dreading. He pierces Hector's ankles, laces them to his chariot, and drags the body face-down through the dust, round and round, in full view of the walls — while Hector's father and mother shriek, and his wife Andromache, who had been warming a bath for a husband who will never come home, faints as she sees it. Achilles keeps it up for days, dragging the corpse around Patroclus's tomb each dawn, trying to work the grief out of himself through sheer cruelty. But the body does not rot or tear; the gods themselves protect it, and they begin to turn against Achilles for his savagery. Even rage, the poem insists, has a limit the world will not allow it to pass.",
+      "on_screen": {
+        "plate": "plate-drag",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-drag"
+      ],
+      "notes": "Books 22-24: Achilles drags Hector's body; the grief of Priam, Hecuba, Andromache; the gods protect the corpse."
+    },
+    {
+      "id": "a-funeral-patroclus",
+      "template": "parallax-still",
+      "narration": "Before the poem can end, Achilles must bury his friend. He builds a towering pyre, and on it he burns Patroclus's body with mourning that borders on madness — he even slaughters captives on the fire, the one truly barbaric act of grief in the poem. Then, the next day, he does something unexpectedly moving: he holds funeral games in Patroclus's honour — a chariot race, boxing, wrestling, running, archery — and presides over them with sudden grace and generosity, settling the quarrels of the other heroes, handing out prizes, soothing bruised pride. For a few hours the man who choked a river with the dead becomes a wise and gentle host. It is the first sign that the rage is beginning, at last, to loosen its grip.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Book 23: Patroclus's pyre (captives slain); the funeral games; Achilles' first return to grace."
+    },
+    {
+      "id": "ch-close",
+      "template": "chapter-card",
+      "narration": "The poem ends not with a victory, but with two enemies weeping together in the dark.",
+      "on_screen": {
+        "chapter_title": "The Ransom",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Quarrel",
+            "War",
+            "Embassy",
+            "Patroclus",
+            "Wrath",
+            "Ransom"
+          ],
+          "marker": 5
+        }
+      }
+    },
+    {
+      "id": "c-priam",
+      "template": "parallax-still",
+      "narration": "The gods decide it has gone on long enough. They send word to Achilles to accept a ransom, and they send a message to Troy too. And so, one night, old King Priam does something almost beyond imagining. Alone but for a single driver, carrying a wagon heaped with treasure, this frail old king crosses the dark plain, slips through the Greek camp with a god guiding him unseen, and enters the tent of Achilles — the man who has killed so many of his sons, and is dragging the body of his dearest, Hector, through the dirt outside. Think for a moment about the courage of it. This is a frail old man walking, unarmed and alone, into the camp of an army that has spent ten years trying to destroy his city, to put himself at the mercy of the one person on earth with the most reason to hate him. He goes because a father's love for his dead son is, in this poem, the single force strong enough to outweigh even the terror of Achilles.",
+      "on_screen": {
+        "plate": "plate-priam",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-priam"
+      ],
+      "notes": "Book 24: the gods order a ransom; Hermes guides Priam across the plain into Achilles' tent."
+    },
+    {
+      "id": "c-plea",
+      "template": "parallax-still",
+      "narration": "And Priam kneels before Achilles, and does the thing that undoes him: he takes Achilles' hands — the very hands that killed his son — and kisses them. He asks Achilles to think of his own father, far away, an old man like Priam, who at least can still hope his son will come home; whereas Priam has had to kiss the hands of the man who slaughtered his. At that, something in Achilles that the whole poem has kept locked shut finally opens. The two of them — the young killer and the old father, the Greek and the Trojan — weep together in the tent, each for his own dead: Priam for Hector, Achilles for Patroclus and for the father he will never see again. It is worth saying plainly what Homer is doing here, because it is astonishing for a war poem of its age. He brings his Greek hero and the Trojan king together not as victor and vanquished but as two men flattened by the same grief, and he grants the enemy — the losing side — the full dignity of their suffering. The Iliad never once pretends that the Trojans deserved it, or that the Greeks are the good men. There are only human beings, and the ruin they bring down on one another.",
+      "on_screen": {
+        "plate": "plate-priam",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-priam"
+      ],
+      "notes": "Book 24: Priam kisses the hands that killed his son; invokes Achilles' father; they weep together."
+    },
+    {
+      "id": "c-pity",
+      "template": "parallax-still",
+      "narration": "Then Achilles does what no treasure and no army could make him do: he gives Hector back. Gently, he has the body washed and wrapped so that Priam will not have to see it defiled, and he lifts it onto the wagon himself. He agrees to a truce so that Troy can bury its hero properly, and he and the old man share a meal and look at one another — really look — as two human beings caught in the same machine of grief and fate. It is the moral heart of the poem: not the killing, but this, the moment the greatest of the killers remembers that his enemy is a man.",
+      "on_screen": {
+        "plate": "plate-priam",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-priam"
+      ],
+      "notes": "Book 24: Achilles returns the body with care; grants a truce; shares a meal with Priam; recognition of shared humanity."
+    },
+    {
+      "id": "c-funeral",
+      "template": "parallax-still",
+      "narration": "Priam carries his son home, and Troy mourns. Andromache, his wife, cradles his head and grieves for the childhood of slavery their son will now face. His mother weeps. And Helen — the woman the whole war was fought over — weeps too, and says that Hector was the only one in Troy who was ever kind to her. They build a great pyre, and burn the body, and gather the white bones into a golden casket, and raise a mound over him. And on that image — a funeral, not a triumph — the oldest poem in the Western world comes to its close.",
+      "on_screen": {
+        "plate": "plate-walls",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-walls"
+      ],
+      "notes": "Book 24: Hector brought home; the laments of Andromache, Hecuba, Helen; the funeral and the pyre."
+    },
+    {
+      "id": "q-end",
+      "template": "quote-card",
+      "narration": "The final lines of the entire epic.",
+      "on_screen": {
+        "quote": "Such honours Ilion to her hero paid, / And peaceful slept the mighty Hector's shade.",
+        "source": "Book 24 (trans. Pope)"
+      },
+      "notes": "Verbatim, Pope. The closing couplet of the Iliad."
+    },
+    {
+      "id": "c-fate",
+      "template": "parallax-still",
+      "narration": "And there is one shadow the poem never lets us forget, even at the end. Achilles has won: he has avenged Patroclus, he has his glory, his name will outlast the stars. But we, and he, know the price is already being counted out. He has been told plainly that his own death is to follow hard on Hector's — that he will fall here at Troy, struck down near these same gates, and never see his home or his father again. The Iliad does not show us that death; the poem ends before it. But it hangs over every line of the final book, and it gives Achilles' late mercy its weight. The man learning, at last, to pity his enemy is a man who knows, now, exactly what his own glory has cost him.",
+      "on_screen": {
+        "plate": "plate-wrath",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-wrath"
+      ],
+      "notes": "Close: Achilles' own foretold death (not shown, but foreshadowed); it shadows his final mercy."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Nearly three thousand years later, nothing has ever quite surpassed it. The Iliad gives us war in its full horror — the waste, the grief, the mutilated bodies, the widows — and yet it refuses to look away from war's terrible beauty too, the courage and the glory the fighters find in it. It holds both truths at once without flinching. And underneath the battles it is really about the one thing the gods can never understand: that we die. That is why these mortals matter, why their choices are agonising, why a stolen moment with a wife and a baby, or an old man kissing the hands of his son's killer, can carry more weight than all the fighting. The gods have forever, and so nothing they do costs them anything. We have only this — and the Iliad is the first and greatest poem about making that brief, doomed life mean something before the dark.",
+      "on_screen": {
+        "plate": "plate-homer",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-homer"
+      ],
+      "notes": "Close: why it endures — war's horror and beauty held together; mortality as the source of meaning."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of the Iliad — the wrath of Achilles, from the quarrel to the funeral of Hector. If you'd like the twelve-minute version, with the characters, the themes, and five lines worth knowing, it's right here, and it's a good way to set all of this in your memory. The poem is long, but it moves — and in a good translation it still does to readers exactly what it did three thousand years ago. Thanks for watching.",
+      "on_screen": {
+        "message": "Watch the 12-minute explainer",
+        "points_to": "CL-28A"
+      },
+      "notes": "End screen cross-links to CL-28A."
+    }
+  ]
+}
