@@ -67,6 +67,7 @@ def process_plate(img_path: Path, out_dir: Path, pid: str, n_layers: int, depth_
     import cv2  # noqa
     from PIL import Image  # noqa
 
+    Image.MAX_IMAGE_PIXELS = None  # some PD museum scans are huge; we downscale next
     image = Image.open(img_path).convert("RGB")
     # Downscale to a working resolution: 2560px long side is ample for a 1080p
     # frame with push-in headroom, and keeps depth/inpaint memory sane on CI runners

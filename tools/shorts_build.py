@@ -20,6 +20,7 @@ import sys
 from pathlib import Path
 
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = None  # allow very large PD museum scans
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import art_fetch  # noqa: E402

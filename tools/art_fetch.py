@@ -32,6 +32,7 @@ from pathlib import Path
 
 import requests
 from PIL import Image
+Image.MAX_IMAGE_PIXELS = None  # allow very large PD museum scans
 
 ROOT = Path(__file__).resolve().parent.parent
 COMMONS = "https://commons.wikimedia.org/w/api.php"
