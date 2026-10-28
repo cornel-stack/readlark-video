@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 4/138 rendered**  `█░░░░░░░░░░░░░░░░░░░`  ·  0 scripted, awaiting render  ·  134 planned
+**Progress: 6/138 rendered**  `█░░░░░░░░░░░░░░░░░░░`  ·  0 scripted, awaiting render  ·  132 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -19,8 +19,8 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-25B | Antigone | Full retelling | Curriculum classics | ⬜ planned |
 | CL-01A | Macbeth | Revision video | Curriculum classics | ✅ rendered |
 | CL-01B | Macbeth | Full retelling | Curriculum classics | ✅ rendered |
-| CL-49A | The Metamorphosis | Revision video | Curriculum classics | ⬜ planned |
-| CL-49B | The Metamorphosis | Full retelling | Curriculum classics | ⬜ planned |
+| CL-49A | The Metamorphosis | Revision video | Curriculum classics | ✅ rendered |
+| CL-49B | The Metamorphosis | Full retelling | Curriculum classics | ✅ rendered |
 | CL-13A | Wuthering Heights | Revision video | Curriculum classics | ⬜ planned |
 | CL-13B | Wuthering Heights | Full retelling | Curriculum classics | ⬜ planned |
 | CL-50A | Siddhartha | Revision video | Curriculum classics | ⬜ planned |
