@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "NI-01",
+    "topic": "Nietzsche",
+    "thinker": "Friedrich Nietzsche",
+    "thinker_dates": "1844–1900",
+    "theme": "he who has a why",
+    "title": "Nietzsche's four-word answer to suffering",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "nietzsche he who has a why",
+    "hashtags": ["nietzsche", "philosophy", "meaning", "existentialism", "mindset"]
+  },
+  "plates": [
+    {"id": "plate-wanderer", "query": "Caspar David Friedrich Wanderer above the Sea of Fog", "want": "Friedrich, the wanderer over the abyss (PD)"},
+    {"id": "plate-abyss", "query": "Caspar David Friedrich rocky gorge mountains painting", "want": "Friedrich, a vertiginous mountain gorge (PD)"},
+    {"id": "plate-peak", "query": "Caspar David Friedrich Watzmann mountain peak painting", "want": "Friedrich, a high cold summit (PD)"}
+  ],
+  "beats": [
+    {"text": "Why keep going when it hurts?", "plate": "plate-wanderer"},
+    {"text": "Nietzsche gave an answer that outlived him.", "plate": "plate-peak"},
+    {"text": "A person with a strong enough 'why' can bear almost any 'how.'", "plate": "plate-wanderer", "emphasis": true},
+    {"text": "Pain, on its own, rarely breaks people. Meaningless pain does.", "plate": "plate-abyss"},
+    {"text": "Find the why — someone you love, a thing you're building, a reason — and the suffering becomes survivable.", "plate": "plate-peak"},
+    {"text": "Lose it, and even comfort starts to rot.", "plate": "plate-abyss"},
+    {"text": "So build the why first. The how takes care of itself.", "plate": "plate-wanderer", "emphasis": true}
+  ],
+  "attribution": "Friedrich Nietzsche · Twilight of the Idols",
+  "source_note": "Paraphrased from Nietzsche (Twilight of the Idols, 1888) — wording varies by translation.",
+  "cta": "Follow for more"
+}

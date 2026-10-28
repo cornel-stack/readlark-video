@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "ST-04",
+    "topic": "Stoicism",
+    "thinker": "Marcus Aurelius",
+    "thinker_dates": "121–180 AD",
+    "theme": "amor fati — love your fate",
+    "title": "Why the Stoics told you to LOVE what goes wrong",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "amor fati meaning",
+    "hashtags": ["stoicism", "amorfati", "marcusaurelius", "philosophy", "stoic"]
+  },
+  "plates": [
+    {"id": "plate-storm", "query": "Alexandre Calame Alpine storm mountain painting", "want": "Calame, violent mountain storm (PD)"},
+    {"id": "plate-marcus", "query": "Delacroix Last Words of the Emperor Marcus Aurelius", "want": "Delacroix, Marcus Aurelius (PD)"},
+    {"id": "plate-moon", "query": "Caspar David Friedrich Two Men Contemplating the Moon", "want": "Friedrich, figures under the night sky (PD)"}
+  ],
+  "beats": [
+    {"text": "Something is going wrong in your life right now.", "plate": "plate-storm"},
+    {"text": "Marcus Aurelius would tell you to love it.", "plate": "plate-marcus"},
+    {"text": "Not just endure it. Not grudgingly accept it. Love it — because it is what you were given.", "plate": "plate-marcus"},
+    {"text": "The Stoics called it amor fati: a love of one's fate.", "plate": "plate-moon"},
+    {"text": "Embracing and accepting with his whole heart whatsoever happeneth, or is allotted unto him.", "plate": "plate-marcus", "emphasis": true},
+    {"text": "The thing blocking your path isn't in the way. For a mind like that, it becomes the way.", "plate": "plate-storm"},
+    {"text": "Stop wishing it were otherwise. Use it.", "plate": "plate-moon", "emphasis": true}
+  ],
+  "attribution": "Marcus Aurelius · Meditations",
+  "source_note": "Quote: Meditations, trans. Meric Casaubon (1634, public domain).",
+  "cta": "Follow for more"
+}

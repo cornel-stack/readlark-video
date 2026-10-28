@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "ST-02",
+    "topic": "Stoicism",
+    "thinker": "Seneca",
+    "thinker_dates": "c.4 BC–65 AD",
+    "theme": "the shortness of life",
+    "title": "Seneca: life isn't short — you waste it",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "seneca on the shortness of life",
+    "hashtags": ["stoicism", "seneca", "philosophy", "time", "stoic"]
+  },
+  "plates": [
+    {"id": "plate-hourglass", "query": "vanitas still life hourglass skull Dutch painting", "want": "Dutch vanitas with hourglass (PD)"},
+    {"id": "plate-seneca", "query": "Peter Paul Rubens The Death of Seneca painting", "want": "Rubens, the death of Seneca (PD)"},
+    {"id": "plate-ruins", "query": "Hubert Robert Roman ruins capriccio painting", "want": "Hubert Robert, Roman ruins (PD)"}
+  ],
+  "beats": [
+    {"text": "You keep telling yourself life is short.", "plate": "plate-hourglass"},
+    {"text": "Seneca — Roman statesman, Stoic — said you have it backwards.", "plate": "plate-seneca"},
+    {"text": "Life is long enough. We just pour most of it away — on worry, on other people's opinions, on 'later.'", "plate": "plate-seneca"},
+    {"text": "We guard our money and our land, then hand out the one thing we can never earn back: our time.", "plate": "plate-hourglass"},
+    {"text": "You live as if you'll never die. Then a whole decade is simply gone.", "plate": "plate-ruins"},
+    {"text": "The fix isn't to rush. It's to stop giving your hours away.", "plate": "plate-ruins"},
+    {"text": "Begin, now, to live. Treat each day as a whole life.", "plate": "plate-ruins", "emphasis": true}
+  ],
+  "attribution": "Seneca · On the Shortness of Life",
+  "source_note": "Seneca's argument, paraphrased (not a verbatim translation).",
+  "cta": "Follow for more"
+}
