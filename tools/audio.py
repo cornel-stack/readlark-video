@@ -61,7 +61,20 @@ async def synth(text: str, voice: str, out: Path, rate: str = "+0%") -> None:
     import edge_tts
 
     out.parent.mkdir(parents=True, exist_ok=True)
-    await edge_tts.Communicate(text, voice, rate=rate).save(str(out))
+    # edge-tts intermittently returns NoAudioReceived (a transient service hiccup,
+    # not a bad input) — a single dropped request would otherwise fail a whole
+    # render. Retry with backoff and verify the file is non-empty before accepting.
+    last: Exception | None = None
+    for attempt in range(6):
+        try:
+            await edge_tts.Communicate(text, voice, rate=rate).save(str(out))
+            if out.exists() and out.stat().st_size > 0:
+                return
+            last = RuntimeError("edge-tts produced an empty file")
+        except Exception as e:  # noqa: BLE001 — includes edge_tts NoAudioReceived
+            last = e
+        await asyncio.sleep(2.0 * (attempt + 1))
+    raise RuntimeError(f"edge-tts failed after 6 attempts for {out.name}: {last}")
 
 
 def script(code: str) -> dict:
