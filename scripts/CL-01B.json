@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "code": "CL-01B",
+    "book": "Macbeth",
+    "author": "William Shakespeare",
+    "year": "c.1606",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Macbeth: The Full Story Explained (Shakespeare)",
+    "search_phrase": "Macbeth full story explained"
+  },
+  "chapters": [
+    {
+      "title": "A dagger of the mind",
+      "first_scene": "hook"
+    },
+    {
+      "title": "Act I — The prophecy",
+      "first_scene": "ch-a1"
+    },
+    {
+      "title": "Act II — The murder",
+      "first_scene": "ch-a2"
+    },
+    {
+      "title": "Act III — The feast",
+      "first_scene": "ch-a3"
+    },
+    {
+      "title": "Act IV — The riddles",
+      "first_scene": "ch-a4"
+    },
+    {
+      "title": "Act V — Birnam Wood",
+      "first_scene": "ch-a5"
+    },
+    {
+      "title": "Why it still cuts",
+      "first_scene": "ch-close"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "A soldier wins a battle, meets three witches, and is told he will be king. Within days he has murdered the man he was sworn to protect — and he will not stop killing until the whole country turns on him. This is the story of how a good man talks himself into becoming a monster, one reasonable-sounding step at a time. Watch closely, because nobody ever makes him do it.",
+      "on_screen": {
+        "question": "How does a good man become a monster?",
+        "plate": "plate-heath"
+      },
+      "assets": [
+        "plate-heath"
+      ],
+      "notes": "Hook before any title. Plate: storm-lit Scottish moor (PD)."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Tragedy of Macbeth. By William Shakespeare. Around sixteen oh six.",
+      "on_screen": {
+        "title": "Macbeth",
+        "author": "William Shakespeare",
+        "year": "c.1606",
+        "subtitle": "The Tragedy of Macbeth"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing before we start. Shakespeare wrote Macbeth around sixteen oh six, for a brand-new king — James the First — who was fascinated by witchcraft and traced his own bloodline back to a real Scottish lord named Banquo, so the play quietly flatters him on both counts. Actors to this day refuse to say its name inside a theatre, calling it only 'the Scottish play' for fear of the curse that is said to follow it. And it is Shakespeare's shortest, fastest tragedy — barely two hours, almost no subplot, a single straight plunge into the dark. Keep your eye on one thing above all else: not the witches, but what Macbeth decides to do about them.",
+      "on_screen": {
+        "plate": "plate-castle",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-castle"
+      ],
+      "notes": "Context: c.1606 for James I; the 'Scottish play' curse; shortest tragedy. Non-plot framing."
+    },
+    {
+      "id": "ch-a1",
+      "template": "chapter-card",
+      "narration": "Act One. A prophecy, a letter, and a long dark night of persuasion.",
+      "on_screen": {
+        "chapter_title": "Act I — The prophecy",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "a1-witches",
+      "template": "parallax-still",
+      "narration": "It opens in thunder and lightning — no hero, no court, just three witches meeting on an empty heath to agree where they will find a certain man once the fighting is done. They are strange, sexless, bearded creatures who speak in a sing-song chant, and in barely a dozen lines they set the moral weather for the entire play. Before they dissolve back into the fog, they croak the paradox that is the key to everything that follows: a world where good and evil have swapped clothes, where the trustworthy smile is the one to fear.",
+      "on_screen": {
+        "plate": "plate-witches",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-witches"
+      ],
+      "notes": "1.1. The witches set the tone; lead into the 'fair is foul' quote card."
+    },
+    {
+      "id": "q-fair",
+      "template": "quote-card",
+      "narration": "Learn this line — it is the lens for the whole play.",
+      "on_screen": {
+        "quote": "Fair is foul, and foul is fair.",
+        "source": "Act 1, Sc. 1"
+      },
+      "notes": "Verbatim (Gutenberg #1533), 1.1. Theme: appearance vs reality."
+    },
+    {
+      "id": "a1-battle",
+      "template": "parallax-still",
+      "narration": "We meet Macbeth, at first, only through other men's awe. Scotland has just survived both a rebellion and a foreign invasion, and a wounded captain, bleeding in front of the king, describes how one general turned the whole tide almost single-handed — hacking his way through the enemy ranks to the traitor at their head and splitting him open from the navel to the jaw. That general is Macbeth, a loyal kinsman of King Duncan, and the king is so moved he strips the title of the captured traitor — the Thane of Cawdor — and hands it straight to Macbeth. So the reward is already galloping across Scotland toward him before he has any idea it is coming. The whole opening act is soaked in blood and bravery. This is a warrior culture, where a man who carves his passage through the enemy with a smoking sword is the hero of the hour — and that is part of the tragedy, because the very ruthlessness that makes Macbeth a magnificent soldier is the thing that, turned the wrong way, will make him a monster.",
+      "on_screen": {
+        "plate": "plate-battle",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-battle"
+      ],
+      "notes": "1.2. The captain's report of Macbeth's valour; Duncan transfers the Cawdor title to Macbeth."
+    },
+    {
+      "id": "a1-prophecy",
+      "template": "parallax-still",
+      "narration": "Crossing the heath with his fellow general and closest friend, Banquo, Macbeth comes face to face with the three witches. They hail him three times, each greater than the last: Thane of Glamis, which he already is; Thane of Cawdor, which he does not yet know he has become; and then the one that stops his breath — king hereafter. Banquo, unafraid, asks them to read his future too, and they give him a riddle instead of an answer: he will be lesser than Macbeth, and greater; not so happy, yet much happier; he will never be king himself, but he will be the father of a whole line of them. Then they vanish into the air like bubbles bursting, leaving two hardened soldiers staring at the empty moor, wondering if they imagined it. Notice already how differently the two men take it. Banquo is curious but wary, treating the whole thing as a riddle to be tested. Macbeth goes silent and inward — because the witches have not put the thought of the crown into his head. They have simply named a thought that was already there.",
+      "on_screen": {
+        "plate": "plate-heath",
+        "camera": "pan"
+      },
+      "assets": [
+        "plate-heath"
+      ],
+      "notes": "1.3. The three prophecies to Macbeth; the riddle to Banquo (his heirs will be kings)."
+    },
+    {
+      "id": "a1-cawdor",
+      "template": "parallax-still",
+      "narration": "They have hardly stopped arguing about whether to believe it when royal messengers ride up and greet Macbeth as the new Thane of Cawdor — exactly as the witches said, within minutes. One prophecy has come true in front of his eyes, and the second, the crown, sinks into him like a splinter he cannot stop pressing. Banquo, watching his friend go pale and quiet, says something wise that Macbeth will spend the rest of the play ignoring: that the agents of darkness often win our trust with small honest truths, only to betray us in the thing that counts. But Macbeth is no longer really listening. He is frightened by his own imagination — by a 'horrid image' of murder that has leapt up in him, uninvited, at the mere thought of a throne.",
+      "on_screen": {
+        "plate": "plate-heath",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-heath"
+      ],
+      "notes": "1.3. Cawdor confirmed; Banquo's warning about the 'instruments of darkness'; Macbeth's aside on the 'horrid image'."
+    },
+    {
+      "id": "a1-heir",
+      "template": "parallax-still",
+      "narration": "At court, Duncan can't thank his two generals enough — and then, in the same warm breath, he does something that lands on Macbeth like a quietly closing door. He names his own eldest son, Malcolm, as his heir. Suddenly there is a living obstacle standing between Macbeth and the crown the witches promised. In a whispered aside, Macbeth lets the darkness speak for him for the first time. Stars, he says, hide your fires; let not light see my black and deep desires. The man who was horrified by an image a scene ago is now asking the night to look away while he does the very thing.",
+      "on_screen": {
+        "plate": "plate-castle",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-castle"
+      ],
+      "notes": "1.4. Duncan names Malcolm heir; Macbeth's aside 'Stars, hide your fires' (verbatim)."
+    },
+    {
+      "id": "a1-lady",
+      "template": "parallax-still",
+      "narration": "Now we meet the other half of this marriage — and she is, from her first scene, the more dangerous of the two. Lady Macbeth reads a letter in which her husband excitedly reports the prophecy, and she is already miles ahead of him. She loves him, but she knows him too well. He wants the crown, she thinks, but he is too full of the milk of human kindness to grab it by the shortest, bloodiest route. So when a servant brings word that the king himself will be sleeping under her roof that very night, she makes a prayer that is genuinely chilling — she calls on the spirits that tend on murderous thoughts to come and unsex her, to strip out everything soft and womanly in her and fill her, from the crown of her head to the tips of her toes, with the direst cruelty. And notice she never once names the throne as something she wants for herself. Everything is for him, and through him. Her ambition wears the mask of love, which is part of what makes her so hard to judge, and so much more than a simple villain.",
+      "on_screen": {
+        "plate": "plate-letter",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-letter"
+      ],
+      "notes": "1.5. Lady Macbeth reads the letter; 'milk of human kindness'; 'unsex me here… top-full of direst cruelty' (verbatim)."
+    },
+    {
+      "id": "a1-arrival",
+      "template": "parallax-still",
+      "narration": "Then Duncan arrives in person, trusting, generous, delighted — he admires the castle's sweet air and lovely setting, one of the cruellest ironies in all of Shakespeare, because we know the smiling hostess curtsying to welcome him has just prayed to become his killer. That night, alone, Macbeth very nearly argues himself out of it. The king is here in double trust — as his kinsman and his guest, under his protection. Duncan is a good and gentle ruler whose virtues will plead against his murder like angels. And Macbeth admits he has no honest reason at all to do this; nothing is driving him, he says, but ambition — vaulting ambition, which leaps too high and falls down the other side.",
+      "on_screen": {
+        "plate": "plate-castle",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-castle"
+      ],
+      "notes": "1.6–1.7. Duncan's arrival (dramatic irony); Macbeth's soliloquy; 'Vaulting ambition, which o'erleaps itself' (verbatim)."
+    },
+    {
+      "id": "a1-persuade",
+      "template": "parallax-still",
+      "narration": "He tells his wife, flatly, that they will go no further. And this is where Lady Macbeth shows her full and frightening strength. She calls him a coward. She asks whether he is afraid to be the same man in action that he is in his dreams. She says — and it is the most shocking thing she utters — that she would have torn her own nursing baby from her breast and dashed its brains out, rather than break a promise the way he is breaking his to her. Piece by piece she takes him apart and rebuilds him around her plan: get the king's two bodyguards helplessly drunk, kill Duncan in his sleep, smear the sleeping guards with his blood, and in the morning, howl louder than anyone. The whole method of the play lives in the instruction she gives him.",
+      "on_screen": {
+        "plate": "plate-castle",
+        "camera": "drift",
+        "annotations": [
+          {
+            "kind": "label",
+            "text": "she unmakes his conscience",
+            "at": [
+              0.15,
+              0.78
+            ]
+          }
+        ]
+      },
+      "assets": [
+        "plate-castle"
+      ],
+      "notes": "1.7. Lady Macbeth's persuasion and the plan; lead into the 'serpent' quote card (1.5)."
+    },
+    {
+      "id": "q-serpent",
+      "template": "quote-card",
+      "narration": "Her whole strategy, in one image.",
+      "on_screen": {
+        "quote": "Look like the innocent flower, / But be the serpent under't.",
+        "source": "Act 1, Sc. 5"
+      },
+      "notes": "Verbatim, 1.5 (Lady Macbeth). Theme: appearance vs reality / deception."
+    },
+    {
+      "id": "ch-a2",
+      "template": "chapter-card",
+      "narration": "Act Two. The deed itself — and the first drop of blood that will never wash off.",
+      "on_screen": {
+        "chapter_title": "Act II — The murder",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "a2-dagger",
+      "template": "parallax-still",
+      "narration": "Midnight. The castle has gone quiet; even Banquo, uneasy, has taken himself to bed fighting off dark dreams. Macbeth waits alone in the dark for the bell that is his signal — and his mind, already fraying, conjures something in the air in front of him. A dagger, floating, its handle turned toward his hand, leading him toward the king's chamber. He reaches for it and his fingers close on nothing. He cannot tell whether it is a real summons from fate or just a dagger of the mind, a hallucination squeezed out of his own guilt and fear. The bell tolls. He steadies himself and goes.",
+      "on_screen": {
+        "plate": "plate-dagger",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-dagger"
+      ],
+      "notes": "2.1. Lead into the dagger quote card."
+    },
+    {
+      "id": "q-dagger",
+      "template": "quote-card",
+      "narration": "The moment his mind begins to come apart.",
+      "on_screen": {
+        "quote": "Is this a dagger which I see before me, / The handle toward my hand?",
+        "source": "Act 2, Sc. 1"
+      },
+      "notes": "Verbatim, 2.1 (Macbeth). Theme: ambition, guilt, the unravelling mind."
+    },
+    {
+      "id": "a2-deed",
+      "template": "parallax-still",
+      "narration": "Lady Macbeth waits below, nerves screwed tight, having drugged the grooms and laid their daggers ready. She reveals, almost in passing, that she could not have done the killing herself — the sleeping king looked too much like her own father. Then Macbeth is back, and he is wrecked. His hands are drenched red. He describes how he heard the two guards stir in their sleep, one laughing, one praying, and how he could not say the single word 'Amen' when he needed it most. And he heard a voice crying through the whole house that he had murdered sleep — that Macbeth had killed the thing that knits up every human care, and that Macbeth would therefore sleep no more. In his horror he has even carried the murder weapons out of the room with him. He keeps circling back to one failed word. 'Amen' stuck in his throat, he says, when he had most need of blessing — as though heaven itself had slammed its door the instant the knife went in. In this play, the guilt arrives before the body is even cold.",
+      "on_screen": {
+        "plate": "plate-murder",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-murder"
+      ],
+      "notes": "2.2. The murder done offstage; 'Macbeth shall sleep no more' (verbatim); he brings out the daggers."
+    },
+    {
+      "id": "a2-blood",
+      "template": "parallax-still",
+      "narration": "He is too shattered to go back into that room, so she snatches the daggers from him, contemptuous of his shaking, and carries them back herself to plant on the guards. Left alone, Macbeth stares at his own red hands with a dawning, bottomless horror. He asks whether all the water in the ocean could ever make them clean — and answers himself: no, his hand would sooner turn the green seas themselves blood-red. When she returns, her own hands now stained, she brushes the whole thing aside with a brisk, practical line — one that will come back, years later, to destroy her from the inside. She warns him, almost gently, not to think about the deed so deeply — these things, she says, must not be dwelt on in this way, or they will drive them mad. It is a line that hangs over the entire rest of the play, because madness is exactly where this road is taking them both, her first of all.",
+      "on_screen": {
+        "plate": "plate-murder",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-murder"
+      ],
+      "notes": "2.2. Lead into the Neptune quote card; 'a little water clears us of this deed' noted for the callback in Act V."
+    },
+    {
+      "id": "q-neptune",
+      "template": "quote-card",
+      "narration": "The guilt is total, and it is immediate.",
+      "on_screen": {
+        "quote": "Will all great Neptune's ocean wash this blood / Clean from my hand?",
+        "source": "Act 2, Sc. 2"
+      },
+      "notes": "Verbatim, 2.2 (Macbeth). Theme: guilt that cannot be washed away."
+    },
+    {
+      "id": "a2-porter",
+      "template": "parallax-still",
+      "narration": "And then — knocking at the gate, shockingly loud in the dead silence. A drunk porter weaves his way to answer it, grumbling and joking that he is really the gatekeeper of hell, swinging the door wide for the damned — a flash of black comedy with a murdered king cooling just upstairs. He lets in two noblemen, Macduff and Lennox, come to wake the king for an early journey. Macduff goes in to rouse him, and staggers back out unable even to find the words, the horror too big for language. The castle explodes into alarm. Macbeth, playing the shattered loyal subject, rushes to the king's room and kills the two drugged guards on the spot — claiming his love for Duncan overpowered his reason, but really silencing the only two people who could have protested their own innocence. Shakespeare knew exactly what he was doing with that porter. After the almost unbearable tension of the killing, he drops in a crude, rambling joke about the doorkeeper of hell — and the laughter only makes the horror underneath land harder when the knocking turns out to be the discovery of the king's corpse.",
+      "on_screen": {
+        "plate": "plate-porter",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-porter"
+      ],
+      "notes": "2.3. The porter ('hell-gate'); Macduff discovers the body; Macbeth kills the grooms."
+    },
+    {
+      "id": "a2-flee",
+      "template": "parallax-still",
+      "narration": "In the uproar, Duncan's two sons make a cold, clear-eyed calculation: whoever murdered their father will want them dead next, and there may be a dagger hidden in every smile around them. So Malcolm flees to England and his brother Donalbain to Ireland. It saves their lives — but by fleeing they throw suspicion onto themselves, and the road to the throne falls suddenly, conveniently open. Macbeth is elected king and rides to the ancient hill of Scone to be crowned. The witches' impossible promise has come true in a matter of days. And it has already cost him the one thing no crown can buy back — an untroubled night's sleep, now and forever.",
+      "on_screen": {
+        "plate": "plate-crown",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-crown"
+      ],
+      "notes": "2.4. Malcolm and Donalbain flee; suspicion falls on them; Macbeth crowned at Scone."
+    },
+    {
+      "id": "ch-a3",
+      "template": "chapter-card",
+      "narration": "Act Three. A king who cannot rest, a friend who must die, and a guest who will not stay dead.",
+      "on_screen": {
+        "chapter_title": "Act III — The feast",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "a3-fear",
+      "template": "parallax-still",
+      "narration": "Macbeth has the crown now — and it has brought him nothing but fear. Banquo, watching the new king closely, half-suspects the truth: that his friend played most foully to win it. Worse, Banquo is a walking reminder of the part of the prophecy that cuts Macbeth deepest — that it is Banquo's children, not his own, who are promised the future. To be king, Macbeth broods, is worth nothing unless he is safely king. And so he does again the very thing he swore he would never repeat. He summons two broken, desperate men, patiently poisons them against Banquo, and sets them to murder his oldest friend and Banquo's young son, Fleance, that same night, as the two ride in to Macbeth's feast. It is worth stopping on how completely the man has changed. The Macbeth of Act One agonised for an entire scene over a single killing. The Macbeth of Act Three orders the murder of his oldest friend and a child almost briskly, as a problem to be managed. Each death has made the next one easier.",
+      "on_screen": {
+        "plate": "plate-castle",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-castle"
+      ],
+      "notes": "3.1. Banquo's suspicion; 'to be thus is nothing, but to be safely thus'; Macbeth hires the murderers."
+    },
+    {
+      "id": "a3-scorpions",
+      "template": "parallax-still",
+      "narration": "And something has quietly broken between the Macbeths. He no longer shares his plans with her; he only hints that a dreadful deed will be done before nightfall, and tells her to keep herself innocent of the knowledge until she can applaud the result. The wife who drove the first murder is being shut out of all the rest. His own mind, meanwhile, has become a torture chamber — they have only scratched the snake, he tells her, not killed it, and it will heal and threaten them again. O, he says, full of scorpions is my mind, dear wife. They have everything they schemed for, and neither of them can sleep, or sit still, or feel safe for a single hour.",
+      "on_screen": {
+        "plate": "plate-castle",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-castle"
+      ],
+      "notes": "3.2. 'We have scotch'd the snake, not kill'd it'; 'O, full of scorpions is my mind, dear wife' (verbatim); the estrangement."
+    },
+    {
+      "id": "a3-banquo",
+      "template": "parallax-still",
+      "narration": "Out on the road, in the last of the light, the hired men fall on Banquo and his son. Banquo fights just long enough to shout a warning — fly, good Fleance, fly, fly, fly — and the boy bolts into the darkness and is gone. But Banquo himself is cut down, dying with twenty gashes in his head. For Macbeth it is the worst kind of half-victory: the friend is dead, but the child who carries the whole prophecy, the living seed of all those future kings, has slipped clean through his fingers. The thing he killed for is the thing that got away. There is a bitter irony buried in his death. Banquo kept the witches' words to himself and did nothing — no scheming, no blood on his hands — and the prophecy still promised him everything that lasts: a line of kings. Macbeth seized his future by force, and it has handed him nothing but dread. The honest man is given the future; the murderer is given the nightmare.",
+      "on_screen": {
+        "plate": "plate-murder",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-murder"
+      ],
+      "notes": "3.3. Banquo murdered; Fleance escapes."
+    },
+    {
+      "id": "a3-ghost",
+      "template": "parallax-still",
+      "narration": "That night, at the state banquet, with all his lords seated around him, Macbeth is told in a whisper that Banquo is dead but Fleance has escaped. Rattled, he turns back to the table to take his place — and there, in his own chair, sits Banquo: grey, gashed, shaking his bloodied locks at him. No one else at the table can see a thing. Macbeth cries out in terror at an empty stool while his guests stare in alarm, and Lady Macbeth springs up to cover for him, muttering that he is merely subject to fits, and hissing at her husband under her breath, are you a man? The ghost comes a second time and Macbeth nearly blurts out the whole truth before she clears the hall. The King of Scotland has just lost his mind in front of his entire court. And the ghost is the perfect picture of what is happening inside him. Whether Banquo is truly there or only in his mind, the effect is identical: the thing he buried will not stay buried. The dead keep their seats at his table. His own conscience has begun to stage its revenge in public.",
+      "on_screen": {
+        "plate": "plate-ghost",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ghost"
+      ],
+      "notes": "3.4. Banquo's ghost at the banquet; 'Are you a man?'; the lords dismissed."
+    },
+    {
+      "id": "a3-blood",
+      "template": "parallax-still",
+      "narration": "Alone in the ruins of his feast, Macbeth crosses a line inside himself. It will have blood, he says; blood will have blood. He is so far into this now, he realises, that wading back would be as exhausting as pushing on — so he will push on. He has already noticed that Macduff is pointedly staying away from his court, refusing the invitations, and he marks the man as a threat. And he decides to go back to the witches and wring more certainty out of them, whatever it costs his soul. From this point on, Macbeth no longer kills out of ambition. He kills out of fear.",
+      "on_screen": {
+        "plate": "plate-ghost",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-ghost"
+      ],
+      "notes": "3.4. 'It will have blood, they say; blood will have blood' (verbatim); Macduff's absence; resolve to return to the witches."
+    },
+    {
+      "id": "ch-a4",
+      "template": "chapter-card",
+      "narration": "Act Four. Three riddles that sound like safety — and the cruellest murder in the play.",
+      "on_screen": {
+        "chapter_title": "Act IV — The riddles",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "a4-cauldron",
+      "template": "parallax-still",
+      "narration": "The witches circle a boiling cauldron in the dark, feeding it the most famous recipe in English — eye of newt and toe of frog, wool of bat and tongue of dog, finger of a strangled baby, all stirred into a hell-broth. One of them feels Macbeth approaching before he arrives — a prickling in her thumbs that tells her something wicked is on its way. And in he strides, past caring about the danger, and commands them to answer him even if they have to unleash chaos on the whole world to do it. These are not the harmless witches of a bedtime story. In Shakespeare's hands they are something colder and far stranger — half prophecy, half temptation — chanting in nursery rhymes while the rest of the play speaks in grave blank verse, as though they belong to some older, crueller order of things.",
+      "on_screen": {
+        "plate": "plate-cauldron",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-cauldron"
+      ],
+      "notes": "4.1. Lead into the 'double, double' quote card; 'something wicked this way comes' woven in."
+    },
+    {
+      "id": "q-double",
+      "template": "quote-card",
+      "narration": "The most famous spell in the language.",
+      "on_screen": {
+        "quote": "Double, double, toil and trouble; / Fire, burn; and cauldron, bubble.",
+        "source": "Act 4, Sc. 1"
+      },
+      "notes": "Verbatim, 4.1 (the witches)."
+    },
+    {
+      "id": "a4-apparitions",
+      "template": "parallax-still",
+      "narration": "They raise three apparitions out of the cauldron smoke. First, a floating armoured head, which warns him plainly: beware Macduff. Then a bloodied newborn child, which tells him something that sounds like armour wrapped around his whole life — that no one born of a woman will ever have the power to harm him. And last, a crowned child holding a tree branch, which promises he will never be defeated until the great wood of Birnam picks itself up and climbs the hill to his castle at Dunsinane. Macbeth almost laughs with relief. Every person alive was born of a woman, and no forest in the history of the world has ever gone for a walk. He decides he is, in effect, immortal — and completely misses that the last two promises are riddles, each with a secret door built into it. This is the witches' cruelty in miniature. Every word they speak is technically true, and every word is built to destroy him. They feed him the exact false confidence he is starving for, knowing it will walk him straight off a cliff — keeping the promise to his ear, and breaking it to his hope.",
+      "on_screen": {
+        "plate": "plate-apparition",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-apparition"
+      ],
+      "notes": "4.1. The three apparitions: beware Macduff; none of woman born; Birnam Wood to Dunsinane."
+    },
+    {
+      "id": "a4-kings",
+      "template": "parallax-still",
+      "narration": "Then he makes the mistake of asking the one question he should have left buried: will Banquo's descendants ever rule? In answer, the witches show him a procession of eight crowned kings, stretching off into the far distance, and behind them the blood-streaked ghost of Banquo, smiling and pointing at them all as his own. It is a vision of a whole future with no place for Macbeth in it anywhere. He has butchered his best friend and damned his own soul to found a dynasty — and the dynasty will be Banquo's, not his. The witches melt away, and almost at once he gets fresh news: Macduff has fled to England to join the king's exiled son.",
+      "on_screen": {
+        "plate": "plate-apparition",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-apparition"
+      ],
+      "notes": "4.1. The show of eight kings and Banquo; Macbeth learns Macduff has fled to England."
+    },
+    {
+      "id": "a4-macduff",
+      "template": "parallax-still",
+      "narration": "His response to that news is the thing that finally empties him of any claim on our sympathy. Unable to reach Macduff himself, he sends murderers to Macduff's castle to kill every living soul inside it. And Shakespeare forces us to watch. We sit with Lady Macduff, frightened and bitterly angry that her husband has fled and left them undefended, and with her small son — quick, funny, brave — who argues cheerfully with her about whether his father is a traitor. Then the killers arrive. The boy is stabbed and, dying, shouts at his mother to run. She runs, and we hear her screaming somewhere off-stage as they hunt her down. There is no strategy in this killing, no throne to be won. It is pure cruelty, and it is the point at which Scotland itself turns against him. Shakespeare makes the little boy so vivid — so quick and funny in his very last lines — precisely so that his murder is unbearable to watch. This is not a battlefield death or a quiet poisoning in a palace. It is a child and his mother, in their own home, and it is the exact moment the play asks us to stop finding Macbeth fascinating and start simply wanting him stopped.",
+      "on_screen": {
+        "plate": "plate-macduff-castle",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-macduff-castle"
+      ],
+      "notes": "4.2. The slaughter of Lady Macduff and her children."
+    },
+    {
+      "id": "a4-england",
+      "template": "parallax-still",
+      "narration": "Across the sea in England, Macduff is pleading with Malcolm — Duncan's exiled heir — to come home and fight for the throne. Malcolm, who has learned the hard way to trust nobody, tests him first, pretending to be even greedier and crueller than Macbeth, to see whether Macduff will flatter a monster or turn away in disgust. Macduff turns away, weeping for his ruined country, and so passes the test; Malcolm drops the act, reveals his true, decent self, and the ten-thousand-strong English army behind him. And then Ross arrives, grey-faced, with the news. Macduff's wife, his children, his servants — all of them, slaughtered. Macduff's grief is quiet and enormous. He keeps asking, stunned, about his little ones — all my pretty ones? All of them? And Malcolm leans in and tells him to take that grief and whet it into a blade. It is a long, quiet scene, and Shakespeare places it here deliberately. After an act of pure cruelty, we need to watch goodness slowly organise itself — a rightful king, a grieving honest man, an army of the willing — so that the ending feels less like simple revenge and more like a poisoned country healing itself.",
+      "on_screen": {
+        "plate": "plate-england",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-england"
+      ],
+      "notes": "4.3. Malcolm tests Macduff; Ross brings news of the massacre; grief turned to vengeance."
+    },
+    {
+      "id": "ch-a5",
+      "template": "chapter-card",
+      "narration": "Act Five. The guilt she buried claws its way back — and a wood begins to move.",
+      "on_screen": {
+        "chapter_title": "Act V — Birnam Wood",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "a5-sleepwalk",
+      "template": "parallax-still",
+      "narration": "A doctor and a lady-in-waiting keep watch through the night, because the queen has begun to walk in her sleep. She drifts in carrying a candle — she will not be without a light now, ever — her eyes wide open but seeing nothing, and she rubs and rubs at her hands, trying to scrub away a bloodstain that isn't there. Out, damned spot, she whispers; out, I say. She relives it all in fragments: the old man who had so much blood in him, the knocking at the gate, the wife of Macduff. The iron woman who once snapped that a little water would clear them of the deed now moans that all the perfumes of Arabia could never sweeten her small, stained hand. Of the two of them, it is the stronger who cracks first — undone, in the end, by the one thing she swore she was too hard to feel. There is a terrible symmetry in this. In Act Two she was the practical one, washing the blood from her hands and telling him not to dwell on it or it would drive them both mad. Now she is the one it has driven mad, scrubbing and scrubbing at hands that have been clean for years.",
+      "on_screen": {
+        "plate": "plate-sleepwalk",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-sleepwalk"
+      ],
+      "notes": "5.1. The sleepwalking scene; lead into 'out, damned spot'; 'all the perfumes of Arabia' woven in."
+    },
+    {
+      "id": "q-spot",
+      "template": "quote-card",
+      "narration": "The guilt she thought she could outrun.",
+      "on_screen": {
+        "quote": "Out, damned spot! out, I say!",
+        "source": "Act 5, Sc. 1"
+      },
+      "notes": "Verbatim, 5.1 (Lady Macbeth sleepwalking). Theme: guilt & conscience."
+    },
+    {
+      "id": "a5-sere",
+      "template": "parallax-still",
+      "narration": "The armies are closing in. Macbeth's own lords are deserting to Malcolm by the hour, and he shuts himself up in his fortress at Dunsinane, lurching between savage contempt and black despair. He clings to the witches' words like a drowning man — no man of woman born can touch me, the wood cannot move — and yet, in his clearer moments, he sees exactly what he has thrown away. His life, he says, has withered into the dry, yellow, fallen leaf of autumn; and all the things that should come with old age — honour, love, obedience, crowds of loyal friends — he knows he must not even hope to have. He has won absolutely everything, and he is completely alone.",
+      "on_screen": {
+        "plate": "plate-castle",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-castle"
+      ],
+      "notes": "5.3. Lords desert; 'My way of life / Is fall'n into the sere' (verbatim); his isolation."
+    },
+    {
+      "id": "a5-tomorrow",
+      "template": "parallax-still",
+      "narration": "Then, from somewhere inside the castle, a cry of women. A servant brings the news: the queen is dead — almost certainly by her own hand. And Macbeth, the man who once trembled at the ringing of a bell, can barely feel it land. She would have died some day anyway, he says, dully; there would have been a time for a word like that. And out of that flatness comes the bleakest, most beautiful speech in all of Shakespeare — a man looking straight into the pit of meaninglessness that his ambition has dug for him, and finding absolutely nothing at the bottom. Notice what is missing from the speech that follows. No plea, no repentance, no fear of hell — only exhaustion, and the sense that a life is a cheap performance that signifies nothing and then simply stops. This is a man who got everything he ever wanted and found it was ash in his mouth.",
+      "on_screen": {
+        "plate": "plate-castle",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-castle"
+      ],
+      "notes": "5.5. The queen's death; lead into the 'Tomorrow' quote card."
+    },
+    {
+      "id": "q-tomorrow",
+      "template": "quote-card",
+      "narration": "Hear how little is left of the man.",
+      "on_screen": {
+        "quote": "Tomorrow, and tomorrow, and tomorrow… Life's but a walking shadow… a tale / Told by an idiot, full of sound and fury, / Signifying nothing.",
+        "source": "Act 5, Sc. 5"
+      },
+      "notes": "Verbatim (condensed with ellipses), 5.5. The nihilist heart of the play."
+    },
+    {
+      "id": "a5-birnam",
+      "template": "parallax-still",
+      "narration": "He has barely finished when a messenger stumbles in, white and stammering, hardly able to get it out: he looked toward Birnam, he swears, and the wood began to move. Malcolm's soldiers, advancing on the castle, have each hacked down a leafy branch to hide their numbers — and from the walls it looks for all the world as though the forest itself has torn up its roots and started marching on Dunsinane. The first of the impossible riddles has just come true, and Macbeth feels the solid ground tilt under his feet. He begins, he says, to grow weary of the very sun. But there is nothing left to do now except buckle on his armour and die with it on his back.",
+      "on_screen": {
+        "plate": "plate-birnam",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-birnam"
+      ],
+      "notes": "5.5. Birnam Wood 'moves'; 'I 'gin to be aweary of the sun' (paraphrased)."
+    },
+    {
+      "id": "a5-macduff",
+      "template": "parallax-still",
+      "narration": "On the battlefield he fights like a cornered animal, still half-shielded by the second prophecy — that no man of woman born can kill him. He kills the young soldier Siward almost carelessly. Then Macduff finds him across the smoke, and Macbeth, strangely, tries to wave him off: I bear a charmed life, he says, which must not yield to one of woman born. And Macduff hands him the hidden door in the final riddle: let the devil you have served so long tell you the truth — that Macduff was never born in the ordinary way at all, but torn, untimely, from his mother's dying body. In a heartbeat Macbeth understands the whole thing. The witches never lied; they simply told the truth in a way designed to doom him. His courage almost fails — and then, rather than live to be paraded as a captured tyrant, he makes the one choice left that is still his own.",
+      "on_screen": {
+        "plate": "plate-battle",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-battle"
+      ],
+      "notes": "5.8. 'I bear a charmed life… to one of woman born'; 'Macduff was from his mother's womb / Untimely ripp'd'; lead into 'lay on, Macduff'."
+    },
+    {
+      "id": "q-layon",
+      "template": "quote-card",
+      "narration": "Beaten, doomed, and knowing it — and still he will not kneel.",
+      "on_screen": {
+        "quote": "Lay on, Macduff; / And damn'd be him that first cries, “Hold, enough!”",
+        "source": "Act 5, Sc. 8"
+      },
+      "notes": "Verbatim, 5.8 (Macbeth's last stand)."
+    },
+    {
+      "id": "a5-end",
+      "template": "parallax-still",
+      "narration": "Macduff kills him, and carries his severed head back onto the stage. Malcolm — Duncan's son, the rightful heir — is hailed as the new King of Scotland, and he promises at once to call home the friends the tyrant drove into exile and to heal the wounded country. He names the dead couple for exactly what they were: this dead butcher, and his fiend-like queen. In the space of a single play, a loyal hero and a brilliant, formidable woman have murdered their way to the very top — and been completely destroyed by it. The sun comes up on a free Scotland, and the land simply closes over them both and goes on, as if they were never there. And the play's final movement is about mending the natural order that a king's murder had torn apart. All through the middle of the play the world itself has been sick — horses eating each other, darkness at noon, an owl killing a hawk. With the tyrant dead and the true heir crowned, at last the sun can rise clean.",
+      "on_screen": {
+        "plate": "plate-dawn",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-dawn"
+      ],
+      "notes": "5.8–5.9. Macduff kills Macbeth; Malcolm crowned; 'this dead butcher, and his fiend-like queen' (verbatim)."
+    },
+    {
+      "id": "ch-close",
+      "template": "chapter-card",
+      "narration": "Why, four hundred years on, this short dark play still cuts.",
+      "on_screen": {
+        "chapter_title": "Why it still cuts",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "I",
+            "II",
+            "III",
+            "IV",
+            "V"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "close-meaning",
+      "template": "parallax-still",
+      "narration": "Here is the genuinely frightening thing Shakespeare is doing. The witches never once make Macbeth do anything. They tell him a possibility — and he supplies everything else himself. Every door, he opens. Every excuse, he invents. Every knife, he either holds or pays for. Macbeth is not really a play about fate or magic at all. It is a play about temptation, and about how terrifyingly fast a decent, intelligent person can reason their way into the unthinkable once they have let themselves want it. It is the clearest X-ray ever written of a single human being eaten alive, from the inside, by ambition. And think how unusual that is. Most villains are handed to us from the outside, as monsters. Macbeth we are trapped inside — we hear every hesitation, every excuse, every spasm of terror, in his own voice. Shakespeare makes us understand him, even pity him, and that understanding is far more frightening than any monster could ever be.",
+      "on_screen": {
+        "plate": "plate-heath",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-heath"
+      ],
+      "notes": "Closing reflection: free will vs fate; the witches reveal rather than compel; ambition."
+    },
+    {
+      "id": "close-marriage",
+      "template": "parallax-still",
+      "narration": "And look what the crime does to the two of them as people. At the start they are a real partnership — she the stronger nerve, he the dreamer, and they tell each other everything, even their darkest thoughts. By the end, he is killing without so much as consulting her, and she is dying alone in the dark, her mind in pieces, broken by a guilt she had sworn she was far too hard to feel. The crown they reached for hand in hand is the exact thing that tears their hands apart. Because the real punishment in this play is never the sword at the end. It is the sleepless years before it — the dawning certainty that, having done this, neither of them will ever again be clean, or calm, or truly together. It is one of the great portraits of a marriage in all of literature — not a love story, and not a simple partnership in crime, but two people who understood each other completely, and ruined each other utterly, both reaching for the very same thing.",
+      "on_screen": {
+        "plate": "plate-sleepwalk",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-sleepwalk"
+      ],
+      "notes": "Closing: the marriage; guilt as the true punishment."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "And that is why we keep staging it, keep reading it, keep unable to look away. Every one of us knows the quiet voice that whispers the rules don't quite apply to us — that just this once, the end will be worth the means. Macbeth is simply what happens when a person listens to that voice and follows it all the way down. Shakespeare lets him keep his intelligence and his astonishing poetry to the very last breath, and that is precisely what makes him so disturbing. He is not a stupid man, and he is not a cartoon villain. He is us, on our worst imaginable day, with a crown just within reach. It is also, underneath all the blood, a strangely humane play. It never pretends we are safe from Macbeth's fall. It tells us, quietly, that we are made of the very same stuff — and asks us only to watch, and to be warned.",
+      "on_screen": {
+        "plate": "plate-dawn",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-dawn"
+      ],
+      "notes": "Closing: why it endures."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That is Macbeth, in full. If you want it tightened right down — the plot in five acts, the characters, the themes, and five quotes worth knowing — the short version is right here. Thanks for listening, and go and say these lines out loud; every one of them was built for a living voice.",
+      "on_screen": {
+        "message": "Watch the 10-minute Macbeth",
+        "points_to": "CL-01A"
+      },
+      "notes": "End screen cross-links to CL-01A."
+    }
+  ]
+}

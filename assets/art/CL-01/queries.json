@@ -1,0 +1,25 @@
+{
+  "book_code": "CL-01",
+  "book": "Macbeth",
+  "note": "Art queries for Macbeth plates. Wikimedia Commons, PD/CC0 only. Leans on Henry Fuseli's Macbeth paintings (witches, dagger, Lady Macbeth sleepwalking — all PD), Horatio McCulloch's Scottish Highlands, and dark tenebrist/Romantic works. The fetcher adds 'filetype:bitmap' and keeps the highest-resolution PD candidate.",
+  "plates": [
+    {"id": "plate-witches", "count": 2, "query": "Henry Fuseli The Three Witches Macbeth painting", "want": "Fuseli, the Weird Sisters (PD)"},
+    {"id": "plate-heath", "count": 1, "query": "Horatio McCulloch Highland landscape storm painting", "want": "McCulloch, a bleak Scottish moor (PD)"},
+    {"id": "plate-battle", "count": 1, "query": "Salvator Rosa battle painting", "want": "Rosa, a dark chaotic battle (PD)"},
+    {"id": "plate-castle", "count": 1, "query": "Scottish castle moonlight Romantic painting", "want": "A brooding castle by night (PD)"},
+    {"id": "plate-letter", "count": 1, "query": "Georges de La Tour woman candlelight letter painting", "want": "Candlelit figure reading (PD tenebrist)"},
+    {"id": "plate-dagger", "count": 1, "query": "Henry Fuseli Macbeth dagger painting", "want": "Fuseli, Macbeth and the dagger (PD)"},
+    {"id": "plate-murder", "count": 1, "query": "Gerrit van Honthorst nocturnal candlelight painting", "want": "Honthorst, a dark candlelit night scene (PD)"},
+    {"id": "plate-porter", "count": 1, "query": "Gerrit van Honthorst drunk man candlelight painting", "want": "Honthorst, a torch-lit drinker at night (PD)"},
+    {"id": "plate-crown", "count": 1, "query": "royal crown regalia still life painting", "want": "A crown, richly lit (PD)"},
+    {"id": "plate-banquet", "count": 1, "query": "Daniel Maclise banquet scene Macbeth painting", "want": "A grand banquet hall (PD)"},
+    {"id": "plate-ghost", "count": 1, "query": "Theodore Chasseriau Banquo ghost Macbeth painting", "want": "The ghost of Banquo at the feast (PD)"},
+    {"id": "plate-cauldron", "count": 1, "query": "Macbeth witches cauldron painting 19th century", "want": "The witches at the cauldron (PD)"},
+    {"id": "plate-apparition", "count": 1, "query": "Henry Fuseli Macbeth apparition armed head painting", "want": "Fuseli, Macbeth and the apparitions (PD)"},
+    {"id": "plate-macduff-castle", "count": 1, "query": "Scottish castle storm dark painting", "want": "A castle under a storm sky (PD)"},
+    {"id": "plate-england", "count": 1, "query": "military encampment landscape painting 19th century", "want": "An army gathering in the countryside (PD)"},
+    {"id": "plate-sleepwalk", "count": 2, "query": "Henry Fuseli Lady Macbeth sleepwalking painting", "want": "Fuseli, Lady Macbeth sleepwalking (PD)"},
+    {"id": "plate-birnam", "count": 1, "query": "Jacob van Ruisdael dark forest painting", "want": "A dense, brooding wood (PD)"},
+    {"id": "plate-dawn", "count": 1, "query": "Horatio McCulloch sunrise highlands landscape painting", "want": "Dawn over the Highlands (PD)"}
+  ]
+}

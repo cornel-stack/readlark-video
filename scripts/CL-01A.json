@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "code": "CL-01A",
+    "book": "Macbeth",
+    "author": "William Shakespeare",
+    "year": "c.1606",
+    "text_status": "public_domain",
+    "format": "Revision video",
+    "target_minutes": [8, 12],
+    "target_words": [1200, 1800],
+    "voice": "en-GB-RyanNeural",
+    "title": "Macbeth, Explained in 10 Minutes (Plot, Characters, Themes & Quotes)",
+    "search_phrase": "Macbeth summary"
+  },
+  "chapters": [
+    {"title": "What turns a hero into a monster?", "first_scene": "hook"},
+    {"title": "The story in five acts", "first_scene": "ch-plot"},
+    {"title": "Characters", "first_scene": "ch-characters"},
+    {"title": "Themes", "first_scene": "ch-themes"},
+    {"title": "Five quotes worth knowing", "first_scene": "ch-quotes"},
+    {"title": "The questions it leaves you with", "first_scene": "ch-ideas"},
+    {"title": "Watch the full story", "first_scene": "end"}
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "What turns a loyal war hero into a murderer? In Macbeth, it takes one witch's prophecy — and a single thought he cannot put back down.",
+      "on_screen": {"question": "What turns a hero into a monster?", "plate": "plate-heath"},
+      "assets": ["plate-heath"],
+      "notes": "Hook before any title. Plate: a storm-lit Scottish moor / heath (PD Romantic landscape)."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Macbeth, by William Shakespeare, written around sixteen oh six.",
+      "on_screen": {"title": "Macbeth", "author": "William Shakespeare", "year": "c.1606", "subtitle": "The Tragedy of Macbeth"},
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. Shakespeare wrote it for a new king — James the First — who was obsessed with witchcraft and claimed descent from a real lord named Banquo, so the play flatters him on both counts. Actors still won't say its name in a theatre; they call it the Scottish play, for fear of a curse. And it is his shortest, fastest tragedy — barely two hours of a good man falling, with almost no fat on it. Keep your eye on one thing above all: not the witches, but what Macbeth chooses to do about them.",
+      "on_screen": {"plate": "plate-castle", "camera": "drift"},
+      "assets": ["plate-castle"],
+      "notes": "Context: written c.1606 for James I (witchcraft, Banquo ancestry); the 'Scottish play' superstition; shortest tragedy. Non-plot framing."
+    },
+    {
+      "id": "ch-plot",
+      "template": "chapter-card",
+      "narration": "The whole tragedy runs across five short acts. Hold the shape, and it never slips away from you.",
+      "on_screen": {"chapter_title": "The story in five acts",
+        "timeline": {"kind": "timeline-strip", "segments": ["Act I", "Act II", "Act III", "Act IV", "Act V"], "marker": 0}}
+    },
+    {
+      "id": "act1",
+      "template": "parallax-still",
+      "narration": "Act One. Returning from battle, the Scottish general Macbeth and his friend Banquo meet three witches on a blasted heath. They hail Macbeth as Thane of Cawdor, and then as king. Minutes later, messengers make him Thane of Cawdor — the first prophecy, true. The second lodges in him like a splinter. His wife, Lady Macbeth, reads his letter and is more ruthless than he is: when King Duncan announces he will spend the night under their roof, she begins, coldly, to plan a murder.",
+      "on_screen": {"plate": "plate-heath", "camera": "push-in"},
+      "assets": ["plate-heath"],
+      "notes": "Act 1. Witches' prophecy (1.3); Macbeth made Thane of Cawdor; Lady Macbeth (1.5); Duncan comes to Inverness."
+    },
+    {
+      "id": "act2",
+      "template": "parallax-still",
+      "narration": "Act Two. On the night itself, Macbeth's nerve nearly fails — he hallucinates a floating dagger leading him to the room. But he does it: he stabs the sleeping king. He comes back shaking, his hands red, having heard a voice cry that he has murdered sleep itself. Lady Macbeth has to take the daggers back and smear the guards with blood, snapping that a little water will clear them of the deed — a line that will come back to destroy her. Then comes the famous knocking at the gate, and a drunk porter joking about the door to hell, while a corpse cools upstairs. By morning the king is dead, Macbeth kills the grooms to silence them, Duncan's sons flee for their lives — and Macbeth is crowned.",
+      "on_screen": {"plate": "plate-dagger", "camera": "reveal"},
+      "assets": ["plate-dagger"],
+      "notes": "Act 2. Dagger soliloquy (2.1); murder of Duncan (2.2); 'Macbeth shall sleep no more'; sons flee; Macbeth king."
+    },
+    {
+      "id": "act3",
+      "template": "parallax-still",
+      "narration": "Act Three. Macbeth has the crown — and no peace. The witches promised that Banquo's children, not his, would be kings, and he cannot bear it. He has Banquo murdered, though Banquo's son Fleance escapes into the dark. Then, at his own royal banquet, Banquo's blood-soaked ghost walks in and sits in Macbeth's chair. Only Macbeth can see it. He raves at an empty stool in front of all his lords while his wife, desperately, tries to explain him away. Notice the quiet tragedy underneath: the couple who did this together can no longer reach each other. She is shut out of his plans now, and the man who was too tender to kill has started killing without even telling her. The king is visibly coming apart.",
+      "on_screen": {"plate": "plate-banquet", "camera": "drift"},
+      "assets": ["plate-banquet"],
+      "notes": "Act 3. Banquo murdered, Fleance escapes (3.3); Banquo's ghost at the banquet (3.4)."
+    },
+    {
+      "id": "act4",
+      "template": "parallax-still",
+      "narration": "Act Four. Desperate, Macbeth goes back to the witches, and they show him three visions. Beware Macduff. No man born of woman can harm you. And you will never be beaten until Birnam Wood itself marches on your castle. He hears the last two as a promise that he is untouchable — not noticing that both are riddles with a trapdoor in them. Then they show him one last thing he cannot stomach: a line of future kings, all descended from Banquo, stretching off into the distance. So, to prove his power and drown his fear, he does the cruellest thing in the play: he sends killers to slaughter Macduff's wife and children. Macduff, away in England, is about to learn what the tyrant has done to his family.",
+      "on_screen": {"plate": "plate-cauldron", "camera": "push-in"},
+      "assets": ["plate-cauldron"],
+      "notes": "Act 4. The apparitions (4.1): beware Macduff; none of woman born; Birnam Wood. Macduff's family murdered (4.2)."
+    },
+    {
+      "id": "act5",
+      "template": "parallax-still",
+      "narration": "Act Five. The guilt Lady Macbeth buried now surfaces in her sleep: she wanders the castle at night, scrubbing at blood only she can see, and soon she is dead — most likely by her own hand. When the news reaches Macbeth, he can barely feel it; life has become meaningless to him. Then the impossible happens. An English army cuts branches from Birnam Wood to hide its numbers — so the wood does march on the castle. And Macduff, it turns out, was not born but cut from his mother's body. The one man the prophecy couldn't cover kills Macbeth, and Scotland has its rightful king again.",
+      "on_screen": {"plate": "plate-birnam", "camera": "push-in"},
+      "assets": ["plate-birnam"],
+      "notes": "Act 5. Lady Macbeth sleepwalks (5.1) and dies; 'Tomorrow' (5.5); Birnam Wood; Macduff 'not of woman born' kills Macbeth; Malcolm king."
+    },
+    {
+      "id": "ch-characters",
+      "template": "chapter-card",
+      "narration": "Now the people, and how they pull on each other.",
+      "on_screen": {"chapter_title": "Who's who",
+        "timeline": {"kind": "timeline-strip", "segments": ["Plot", "People", "Themes", "Quotes", "Ideas"], "marker": 1}}
+    },
+    {
+      "id": "characters",
+      "template": "whiteboard",
+      "narration": "At the centre are the Macbeths — a marriage that murders its way to a throne and is destroyed by it. She is the engine early on, mocking his conscience; by the end they have swapped places, and it is her guilt that breaks first. Around them: Banquo, the loyal friend he betrays, whose line will outlast him; Duncan, the good king he kills; the three witches, who light the fuse but never once force his hand; and Macduff, the avenger the prophecy forgot to protect him from.",
+      "on_screen": {"heading": "The cast",
+        "annotations": [
+          {"kind": "character-map",
+            "nodes": [
+              {"id": "macbeth", "label": "Macbeth"},
+              {"id": "lady", "label": "Lady Macbeth"},
+              {"id": "banquo", "label": "Banquo"},
+              {"id": "duncan", "label": "King Duncan"},
+              {"id": "witches", "label": "The Witches"},
+              {"id": "macduff", "label": "Macduff"}
+            ],
+            "edges": [
+              {"from": "macbeth", "to": "lady", "label": "marriage"},
+              {"from": "lady", "to": "macbeth", "label": "pushes to kill"},
+              {"from": "macbeth", "to": "duncan", "label": "murders"},
+              {"from": "macbeth", "to": "banquo", "label": "betrays & kills"},
+              {"from": "witches", "to": "macbeth", "label": "tempt"},
+              {"from": "macduff", "to": "macbeth", "label": "avenges / kills"}
+            ]}
+        ]}
+    },
+    {
+      "id": "ch-themes",
+      "template": "chapter-card",
+      "narration": "Five themes run under almost every line.",
+      "on_screen": {"chapter_title": "Themes",
+        "timeline": {"kind": "timeline-strip", "segments": ["Plot", "People", "Themes", "Quotes", "Ideas"], "marker": 2}}
+    },
+    {
+      "id": "themes",
+      "template": "whiteboard",
+      "narration": "Ambition — the engine of the whole tragedy, a desire that eats the man who feeds it. Appearance versus reality — nothing is what it seems, from a smiling host to a prophecy that lies by telling the truth. Guilt — blood that will not wash off, a conscience that destroys them both from the inside. The supernatural and fate — do the witches cause any of this, or only name what Macbeth already wants? And order — kill a king, and the whole natural world convulses: horses eat each other, the sky goes dark at noon.",
+      "on_screen": {"heading": "Five themes",
+        "annotations": [
+          {"kind": "theme-list", "items": [
+            "Ambition that devours",
+            "Appearance vs reality",
+            "Guilt & conscience",
+            "Fate & the supernatural",
+            "Order & chaos (the murdered king)"
+          ]}
+        ]}
+    },
+    {
+      "id": "ch-quotes",
+      "template": "chapter-card",
+      "narration": "Now five lines. Learn them, with the act they come from, and you hold the whole play in your head.",
+      "on_screen": {"chapter_title": "Five quotes worth knowing",
+        "timeline": {"kind": "timeline-strip", "segments": ["Plot", "People", "Themes", "Quotes", "Ideas"], "marker": 3}}
+    },
+    {
+      "id": "quote-fair",
+      "template": "quote-card",
+      "narration": "One — the witches, in the very first scene, telling you how to read the whole play. Fair is foul, and foul is fair.",
+      "on_screen": {"quote": "Fair is foul, and foul is fair.", "source": "Act 1, Sc. 1"},
+      "notes": "Verbatim (Gutenberg #1533), 1.1. Theme: appearance vs reality."
+    },
+    {
+      "id": "quote-serpent",
+      "template": "quote-card",
+      "narration": "Two — Lady Macbeth's masterclass in deception, coaching her husband to hide the murder behind a welcome. Look like the innocent flower, but be the serpent under it.",
+      "on_screen": {"quote": "Look like the innocent flower, / But be the serpent under't.", "source": "Act 1, Sc. 5"},
+      "notes": "Verbatim, 1.5 (Lady Macbeth). Theme: appearance vs reality / deception."
+    },
+    {
+      "id": "quote-dagger",
+      "template": "quote-card",
+      "narration": "Three — the moment his mind starts to break, on the way to kill the king. Is this a dagger which I see before me, the handle toward my hand?",
+      "on_screen": {"quote": "Is this a dagger which I see before me, / The handle toward my hand?", "source": "Act 2, Sc. 1"},
+      "notes": "Verbatim, 2.1 (Macbeth). Theme: ambition, guilt, the unravelling mind."
+    },
+    {
+      "id": "quote-spot",
+      "template": "quote-card",
+      "narration": "Four — the guilt she thought she was strong enough to carry, breaking out of her in her sleep. Out, damned spot! Out, I say!",
+      "on_screen": {"quote": "Out, damned spot! out, I say!", "source": "Act 5, Sc. 1"},
+      "notes": "Verbatim, 5.1 (Lady Macbeth sleepwalking). Theme: guilt & conscience."
+    },
+    {
+      "id": "quote-tomorrow",
+      "template": "quote-card",
+      "narration": "Five — Macbeth at the end, hollowed out, told his wife is dead. Life, he says, is but a walking shadow; a tale told by an idiot, full of sound and fury, signifying nothing.",
+      "on_screen": {"quote": "Life's but a walking shadow… a tale / Told by an idiot, full of sound and fury, / Signifying nothing.", "source": "Act 5, Sc. 5"},
+      "notes": "Verbatim (condensed with an ellipsis), 5.5 (Macbeth). Theme: nihilism, despair, the emptiness of his ambition."
+    },
+    {
+      "id": "ch-ideas",
+      "template": "chapter-card",
+      "narration": "Last — the questions the play keeps asking long after it ends.",
+      "on_screen": {"chapter_title": "The questions it leaves you with",
+        "timeline": {"kind": "timeline-strip", "segments": ["Plot", "People", "Themes", "Quotes", "Ideas"], "marker": 4}}
+    },
+    {
+      "id": "ideas",
+      "template": "whiteboard",
+      "narration": "Here is what people still argue about. Is Macbeth a victim of fate, or does he choose every step himself? Is Lady Macbeth a monster, or the one who feels the horror most, in the end? Do the witches have real power, or do they just hold up a mirror to what was already in him? And the big one: how little it takes — one whisper of possibility — to turn a good man into the worst thing he can imagine. Sit with those, and you understand the play.",
+      "on_screen": {"heading": "What it keeps asking",
+        "annotations": [
+          {"kind": "theme-list", "items": [
+            "Fate, or free choice?",
+            "Is Lady Macbeth monster or victim?",
+            "Do the witches cause, or reveal?",
+            "How little it takes to fall"
+          ]}
+        ]}
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "So, back to where we started: what turns a hero into a monster? The chilling answer Shakespeare gives is — almost nothing. Just a possibility, spoken out loud, and a man who decides to reach for it. If you want the whole play, scene by scene, in Shakespeare's own words, the full retelling is right here. Learn your five quotes, remember the five acts, and then go and read it aloud — it was written to be heard.",
+      "on_screen": {"message": "Watch the full retelling", "points_to": "CL-01B"},
+      "notes": "End screen cross-links to CL-01B."
+    }
+  ]
+}
