@@ -192,75 +192,88 @@ def main() -> int:
     for entry in plates:
         pid, query, count = entry["id"], entry["query"], entry.get("count", 1)
         print(f"\n▶ {pid}: {query!r}")
-        # exact_title pins one specific Commons file (bypasses search/largest) — used
-        # when a plain query is ambiguous between several works by the same artist.
-        try:
-            titles = [entry["exact_title"]] if entry.get("exact_title") else search_files(query, args.limit)
-        except Exception as e:  # noqa: BLE001
-            print(f"   search failed ({e}); skipping")
-            titles = []
-        # Collect every PD/CC0 image candidate, then take the largest `count`
-        # (highest resolution). Specific artist queries keep the top results on-topic.
-        candidates = []
-        for title in titles:
-            try:
-                meta_wrap = image_info(title)
-            except Exception as e:  # noqa: BLE001
-                print(f"   info failed for {title} ({e}); skipping candidate")
-                continue
-            if not meta_wrap or not meta_wrap.get("mime", "").startswith("image/"):
-                continue
-            ext = meta_wrap.get("extmetadata", {})
-            ok, licence = is_public_domain(ext)
-            if not ok:
-                continue
-            area = (meta_wrap.get("width") or 0) * (meta_wrap.get("height") or 0)
-            candidates.append((area, title, meta_wrap, ext, licence))
-        candidates.sort(key=lambda c: c[0], reverse=True)
-
         got = 0
-        for area, title, meta_wrap, ext, licence in candidates:
-            if got >= count:
-                break
-            # Prefer the capped render (thumburl) over the full original to keep
-            # memory sane; Commons thumbs are always jpg/png. Fall back to the
-            # original only if no thumb was produced (already-small images).
-            dl_url = meta_wrap.get("thumburl") or meta_wrap["url"]
-            if meta_wrap.get("thumburl"):
-                suffix = "." + dl_url.rsplit(".", 1)[-1].lower().replace("jpeg", "jpg")
-                if suffix not in (".jpg", ".png"):
-                    suffix = ".jpg"
-            else:
-                mime = meta_wrap.get("mime", "")
-                suffix = "." + (mime.split("/")[-1].replace("jpeg", "jpg"))
-            stem = pid if got == 0 else f"{pid}--{got+1}"
+        # Retry the whole plate with backoff. Wikimedia occasionally throttles a
+        # burst of image_info calls (HTTP 429) during a render, which would
+        # otherwise silently drop a plate and only surface later as a lint
+        # failure on a different plate each run. Re-search and retry until we get
+        # at least one cleared image, or give up after a few polite attempts.
+        for attempt in range(4):
+            if attempt:
+                wait = 10 * attempt
+                print(f"   nothing cleared yet — backing off {wait}s (attempt {attempt + 1}/4)")
+                time.sleep(wait)
+            # exact_title pins one specific Commons file (bypasses search/largest) —
+            # used when a plain query is ambiguous between works by the same artist.
             try:
-                sz = download(dl_url, art_dir / (stem + suffix))
-                final = to_web_format(art_dir / (stem + suffix))
+                titles = [entry["exact_title"]] if entry.get("exact_title") else search_files(query, args.limit)
             except Exception as e:  # noqa: BLE001
-                print(f"   download failed: {e}")
-                continue
-            rec = {
-                "id": stem,
-                "file": final.name,
-                "source": "Wikimedia Commons",
-                "source_url": f"https://commons.wikimedia.org/wiki/{title.replace(' ', '_')}",
-                "image_url": meta_wrap["url"],
-                "title": strip_html(ext.get("ObjectName", {}).get("value")) or title.replace("File:", "").rsplit(".", 1)[0],
-                "creator": entry.get("creator_override") or strip_html(ext.get("Artist", {}).get("value")),
-                "date": strip_html(ext.get("DateTimeOriginal", {}).get("value")) or strip_html(ext.get("DateTime", {}).get("value")),
-                "licence": licence,
-                "credit": strip_html(ext.get("Credit", {}).get("value")),
-                "width": meta_wrap.get("thumbwidth") or meta_wrap.get("width"),
-                "height": meta_wrap.get("thumbheight") or meta_wrap.get("height"),
-                "bytes": sz,
-                "retrieved_at": now,
-                "want": entry.get("want"),
-            }
-            records.append(rec)
-            got += 1
-            print(f"   ✓ {final.name}  [{licence}]  {rec['width']}x{rec['height']}  {sz//1024} KB")
-            time.sleep(0.3)
+                print(f"   search failed ({e}); retrying")
+                titles = []
+            # Collect every PD/CC0 image candidate, then take the largest `count`
+            # (highest resolution). Specific artist queries keep results on-topic.
+            candidates = []
+            for title in titles:
+                try:
+                    meta_wrap = image_info(title)
+                except Exception as e:  # noqa: BLE001
+                    print(f"   info failed for {title} ({e}); skipping candidate")
+                    continue
+                time.sleep(0.2)  # be polite to the Commons API; avoids 429 bursts
+                if not meta_wrap or not meta_wrap.get("mime", "").startswith("image/"):
+                    continue
+                ext = meta_wrap.get("extmetadata", {})
+                ok, licence = is_public_domain(ext)
+                if not ok:
+                    continue
+                area = (meta_wrap.get("width") or 0) * (meta_wrap.get("height") or 0)
+                candidates.append((area, title, meta_wrap, ext, licence))
+            candidates.sort(key=lambda c: c[0], reverse=True)
+
+            for area, title, meta_wrap, ext, licence in candidates:
+                if got >= count:
+                    break
+                # Prefer the capped render (thumburl) over the full original to keep
+                # memory sane; Commons thumbs are always jpg/png. Fall back to the
+                # original only if no thumb was produced (already-small images).
+                dl_url = meta_wrap.get("thumburl") or meta_wrap["url"]
+                if meta_wrap.get("thumburl"):
+                    suffix = "." + dl_url.rsplit(".", 1)[-1].lower().replace("jpeg", "jpg")
+                    if suffix not in (".jpg", ".png"):
+                        suffix = ".jpg"
+                else:
+                    mime = meta_wrap.get("mime", "")
+                    suffix = "." + (mime.split("/")[-1].replace("jpeg", "jpg"))
+                stem = pid if got == 0 else f"{pid}--{got+1}"
+                try:
+                    sz = download(dl_url, art_dir / (stem + suffix))
+                    final = to_web_format(art_dir / (stem + suffix))
+                except Exception as e:  # noqa: BLE001
+                    print(f"   download failed: {e}")
+                    continue
+                rec = {
+                    "id": stem,
+                    "file": final.name,
+                    "source": "Wikimedia Commons",
+                    "source_url": f"https://commons.wikimedia.org/wiki/{title.replace(' ', '_')}",
+                    "image_url": meta_wrap["url"],
+                    "title": strip_html(ext.get("ObjectName", {}).get("value")) or title.replace("File:", "").rsplit(".", 1)[0],
+                    "creator": entry.get("creator_override") or strip_html(ext.get("Artist", {}).get("value")),
+                    "date": strip_html(ext.get("DateTimeOriginal", {}).get("value")) or strip_html(ext.get("DateTime", {}).get("value")),
+                    "licence": licence,
+                    "credit": strip_html(ext.get("Credit", {}).get("value")),
+                    "width": meta_wrap.get("thumbwidth") or meta_wrap.get("width"),
+                    "height": meta_wrap.get("thumbheight") or meta_wrap.get("height"),
+                    "bytes": sz,
+                    "retrieved_at": now,
+                    "want": entry.get("want"),
+                }
+                records.append(rec)
+                got += 1
+                print(f"   ✓ {final.name}  [{licence}]  {rec['width']}x{rec['height']}  {sz//1024} KB")
+                time.sleep(0.3)
+            if got > 0:
+                break
         if got == 0:
             skipped.append(pid)
             print(f"   ! no PD/CC0 image found for {pid}")
