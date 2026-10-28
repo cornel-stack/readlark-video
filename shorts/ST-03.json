@@ -9,21 +9,62 @@
     "voice": "en-GB-RyanNeural",
     "text_status": "public_domain",
     "search_phrase": "stoicism dichotomy of control",
-    "hashtags": ["stoicism", "epictetus", "philosophy", "stoic", "mindset"]
+    "hashtags": [
+      "stoicism",
+      "epictetus",
+      "philosophy",
+      "stoic",
+      "mindset"
+    ]
   },
   "plates": [
-    {"id": "plate-storm", "query": "Ivan Aivazovsky storm shipwreck sea painting", "want": "Aivazovsky, violent sea (PD) — what we can't control"},
-    {"id": "plate-sage", "query": "Jusepe de Ribera philosopher tenebrism painting", "want": "Ribera, dark beggar-philosopher (PD)"},
-    {"id": "plate-calm", "query": "Caspar David Friedrich Monk by the Sea", "want": "Friedrich, the still figure before the vast sea (PD)"}
+    {
+      "id": "plate-storm",
+      "query": "Ivan Aivazovsky storm shipwreck sea painting",
+      "want": "Aivazovsky, violent sea (PD) — what we can't control"
+    },
+    {
+      "id": "plate-sage",
+      "query": "Jusepe de Ribera Democritus philosopher painting",
+      "want": "Ribera, dark beggar-philosopher (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich Monk by the Sea",
+      "want": "Friedrich, the still figure before the vast sea (PD)"
+    }
   ],
   "beats": [
-    {"text": "Almost all of your stress comes from one mistake.", "plate": "plate-storm"},
-    {"text": "Epictetus — born a slave, who became a philosopher — named it two thousand years ago.", "plate": "plate-sage"},
-    {"text": "Of things, some are in our power, but others are not.", "plate": "plate-sage", "emphasis": true},
-    {"text": "In your power: your judgements, your choices, what you do next.", "plate": "plate-calm"},
-    {"text": "Not in your power: your body, your reputation, other people, the past.", "plate": "plate-storm"},
-    {"text": "Spend your life fighting the second list, and you will never rest.", "plate": "plate-storm"},
-    {"text": "Guard the first. Let go of the rest. That is the whole of freedom.", "plate": "plate-calm", "emphasis": true}
+    {
+      "text": "Almost all of your stress comes from one mistake.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Epictetus — born a slave, who became a philosopher — named it two thousand years ago.",
+      "plate": "plate-sage"
+    },
+    {
+      "text": "Of things, some are in our power, but others are not.",
+      "plate": "plate-sage",
+      "emphasis": true
+    },
+    {
+      "text": "In your power: your judgements, your choices, what you do next.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Not in your power: your body, your reputation, other people, the past.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Spend your life fighting the second list, and you will never rest.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Guard the first. Let go of the rest. That is the whole of freedom.",
+      "plate": "plate-calm",
+      "emphasis": true
+    }
   ],
   "attribution": "Epictetus · Discourses",
   "source_note": "Quote: Epictetus, Discourses I.1, trans. George Long (public domain).",

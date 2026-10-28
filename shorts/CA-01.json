@@ -9,21 +9,61 @@
     "voice": "en-GB-RyanNeural",
     "text_status": "copyright",
     "search_phrase": "myth of sisyphus meaning",
-    "hashtags": ["camus", "sisyphus", "philosophy", "existentialism", "absurdism"]
+    "hashtags": [
+      "camus",
+      "sisyphus",
+      "philosophy",
+      "existentialism",
+      "absurdism"
+    ]
   },
   "plates": [
-    {"id": "plate-sisyphus", "query": "Titian Sisyphus painting Prado", "want": "Titian, Sisyphus and the boulder (PD)"},
-    {"id": "plate-mountain", "query": "Caspar David Friedrich rocky mountain mist painting", "want": "A bleak stone mountain (PD)"},
-    {"id": "plate-ruins", "query": "John Martin apocalyptic landscape painting", "want": "John Martin, vast desolate landscape (PD)"}
+    {
+      "id": "plate-sisyphus",
+      "query": "Titian Sisyphus painting Prado",
+      "want": "Titian, Sisyphus and the boulder (PD)"
+    },
+    {
+      "id": "plate-mountain",
+      "query": "Caspar David Friedrich Riesengebirge mountains",
+      "want": "A bleak stone mountain (PD)"
+    },
+    {
+      "id": "plate-ruins",
+      "query": "John Martin The Great Day of His Wrath painting",
+      "want": "John Martin, vast desolate landscape (PD)"
+    }
   ],
   "beats": [
-    {"text": "A man is condemned to push a boulder up a mountain — forever.", "plate": "plate-sisyphus"},
-    {"text": "Every time he nears the top, it rolls back down. That is the entire punishment.", "plate": "plate-sisyphus"},
-    {"text": "Albert Camus said this is a picture of your life.", "plate": "plate-mountain"},
-    {"text": "The commute, the inbox, the chores — the same rock we roll up every single day.", "plate": "plate-ruins"},
-    {"text": "The gods believed endless, pointless labour was the cruellest fate of all.", "plate": "plate-mountain"},
-    {"text": "Camus disagreed. The struggle itself, he said, is enough to fill a human heart.", "plate": "plate-sisyphus"},
-    {"text": "So picture Sisyphus — at the bottom of the hill, reaching for the rock again — and imagine him happy.", "plate": "plate-mountain", "emphasis": true}
+    {
+      "text": "A man is condemned to push a boulder up a mountain — forever.",
+      "plate": "plate-sisyphus"
+    },
+    {
+      "text": "Every time he nears the top, it rolls back down. That is the entire punishment.",
+      "plate": "plate-sisyphus"
+    },
+    {
+      "text": "Albert Camus said this is a picture of your life.",
+      "plate": "plate-mountain"
+    },
+    {
+      "text": "The commute, the inbox, the chores — the same rock we roll up every single day.",
+      "plate": "plate-ruins"
+    },
+    {
+      "text": "The gods believed endless, pointless labour was the cruellest fate of all.",
+      "plate": "plate-mountain"
+    },
+    {
+      "text": "Camus disagreed. The struggle itself, he said, is enough to fill a human heart.",
+      "plate": "plate-sisyphus"
+    },
+    {
+      "text": "So picture Sisyphus — at the bottom of the hill, reaching for the rock again — and imagine him happy.",
+      "plate": "plate-mountain",
+      "emphasis": true
+    }
   ],
   "attribution": "Albert Camus · The Myth of Sisyphus",
   "source_note": "Ideas paraphrased (Camus is in copyright) — no verbatim quotes.",
