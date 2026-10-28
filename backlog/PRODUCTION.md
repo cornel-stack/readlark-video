@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 2/138 rendered**  `░░░░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  134 planned
+**Progress: 3/138 rendered**  `░░░░░░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  134 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -17,7 +17,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-28B | The Iliad | Full retelling | Curriculum classics | ⬜ planned |
 | CL-25A | Antigone | Revision video | Curriculum classics | ⬜ planned |
 | CL-25B | Antigone | Full retelling | Curriculum classics | ⬜ planned |
-| CL-01A | Macbeth | Revision video | Curriculum classics | 📝 scripted |
+| CL-01A | Macbeth | Revision video | Curriculum classics | ✅ rendered |
 | CL-01B | Macbeth | Full retelling | Curriculum classics | 📝 scripted |
 | CL-49A | The Metamorphosis | Revision video | Curriculum classics | ⬜ planned |
 | CL-49B | The Metamorphosis | Full retelling | Curriculum classics | ⬜ planned |
