@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "code": "CL-49A",
+    "book": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "year": "1915",
+    "text_status": "public_domain",
+    "format": "Revision video",
+    "target_minutes": [
+      8,
+      12
+    ],
+    "target_words": [
+      1200,
+      1800
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "The Metamorphosis, Explained in 10 Minutes (Kafka — Plot, Characters, Themes & Quotes)",
+    "search_phrase": "The Metamorphosis summary"
+  },
+  "chapters": [
+    {
+      "title": "What if your family stopped needing you?",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The story in three parts",
+      "first_scene": "ch-plot"
+    },
+    {
+      "title": "Characters",
+      "first_scene": "ch-characters"
+    },
+    {
+      "title": "Themes",
+      "first_scene": "ch-themes"
+    },
+    {
+      "title": "Five lines worth knowing",
+      "first_scene": "ch-quotes"
+    },
+    {
+      "title": "The questions it leaves you with",
+      "first_scene": "ch-ideas"
+    },
+    {
+      "title": "Watch the full story",
+      "first_scene": "end"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In The Metamorphosis, a man wakes up as a giant insect. The strangest part isn't the bug — it's how quickly his family decides they are better off without him.",
+      "on_screen": {
+        "question": "What if your family stopped needing you?",
+        "plate": "plate-room"
+      },
+      "assets": [
+        "plate-room"
+      ],
+      "notes": "Hook before any title. Names the book. Plate: a quiet grey Hammershoi interior."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Metamorphosis, by Franz Kafka, published in nineteen fifteen.",
+      "on_screen": {
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "year": "1915",
+        "subtitle": "Die Verwandlung"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Two things worth knowing first. Kafka wrote this in German, in Prague, while working a dull day job at an insurance office and living under a father he found overwhelming — and both of those things leak into every page. And notice what the book refuses to do: it never explains the transformation. There is no curse, no scientist, no reason. A man simply wakes up changed, and the only real question the story asks is how everyone around him — and he himself — will respond. Keep your eye on that, not on the insect. Kafka himself never saw the story as being about a bug. When it was going to press he gave his publisher one firm instruction: whatever else happened, the insect must never be drawn — not on the cover, not anywhere.",
+      "on_screen": {
+        "plate": "plate-clerk",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-clerk"
+      ],
+      "notes": "Context: Kafka, Prague, the insurance job, the domineering father; the deliberate refusal to explain. Non-plot framing."
+    },
+    {
+      "id": "ch-plot",
+      "template": "chapter-card",
+      "narration": "The whole novella runs across three short parts. Hold the shape, and it never slips away from you.",
+      "on_screen": {
+        "chapter_title": "The story in three parts",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Part I",
+            "Part II",
+            "Part III"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "part1",
+      "template": "parallax-still",
+      "narration": "Part One. Gregor Samsa, a travelling salesman, wakes one morning transformed into a monstrous insect. His first thought isn't horror — it's that he's late for work, and that he's the only one earning money to pay off his family's debts. The chief clerk from his office actually turns up at the flat to check why he's missing. When Gregor finally forces his door open and appears, the clerk flees, his mother faints, and his father drives him back into his room with a newspaper and a stick — slamming the door on him, hard. Notice the detail that he worries about being reported to the firm's insurance doctor — a man who treats every sick employee as a liar. Even flat on his back as an insect, Gregor's imagination belongs entirely to the office.",
+      "on_screen": {
+        "plate": "plate-bed",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-bed"
+      ],
+      "notes": "Part 1: wakes transformed; worried about work/debt; chief clerk visits; revealed; father drives him back."
+    },
+    {
+      "id": "part2",
+      "template": "parallax-still",
+      "narration": "Part Two. The family adjusts to the thing behind the door. His sister, Grete, takes charge of feeding him, learning that he now prefers rotten scraps to fresh food. Gregor stays hidden under the sofa so as not to disgust her. But when the women try to clear the furniture out of his room to give him space to crawl, Gregor panics — losing his things means losing the last of the human life he's clinging to — and he climbs the wall to save a picture. His mother sees him and collapses. His father comes home, furious, and pelts him with apples; one lodges in his back and festers there, wounding him for the rest of the book. There is a terrible tenderness in it: Gregor drags a sheet over himself so the sight of him won't upset his sister, and spends hours hidden, trying to be the least possible burden. The monster is the most considerate person in the house.",
+      "on_screen": {
+        "plate": "plate-apples",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-apples"
+      ],
+      "notes": "Part 2: Grete feeds him; hides under sofa; furniture cleared; clings to the picture; mother faints; father throws apples, one lodges in his back."
+    },
+    {
+      "id": "part3",
+      "template": "parallax-still",
+      "narration": "Part Three. Months pass. The family, exhausted and short of money, take in three fussy lodgers and start treating Gregor's room as a junk cupboard. He is neglected, filthy, forgotten. Then one evening Grete plays her violin for the lodgers, and Gregor — drawn by the music — creeps out to listen. The lodgers spot him, recoil, and threaten to leave. And now Grete, the one person who cared for him, says the thing that breaks him: this creature is not Gregor, and they have to get rid of it. Gregor crawls back to his room and, that night, quietly dies. The relief in the house is immediate. The family take the day off, ride out into the spring sunshine, and begin, lightly, to plan a future without him. The detail that guts you is that Gregor agrees with her. He drags himself back to his room and decides, out of love, that the kindest thing he can do for them now is to disappear — and then, quietly, he does.",
+      "on_screen": {
+        "plate": "plate-violin",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-violin"
+      ],
+      "notes": "Part 3: lodgers; neglect; violin scene; Grete rejects him; Gregor dies; family's relief and outing."
+    },
+    {
+      "id": "ch-characters",
+      "template": "chapter-card",
+      "narration": "Now the people, and how they pull on each other.",
+      "on_screen": {
+        "chapter_title": "Who's who",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Plot",
+            "People",
+            "Themes",
+            "Quotes",
+            "Ideas"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "characters",
+      "template": "whiteboard",
+      "narration": "At the centre is Gregor Samsa — a man who has spent his whole life being useful, and who keeps thinking about his duties even after he's lost his human body. Around him: Grete, his younger sister, who moves from tenderness to revulsion, and who in a way comes of age by shedding him. His father, who had seemed broken and dependent but revives into a hard, uniformed authority once Gregor can no longer provide. His mother, torn between love and horror, unable to look at what her son has become. And the family as a unit — the real subject of the book — slowly discovering that they can live, and even flourish, without the son they lived off. The father is especially worth watching: broken and dependent at the start, he revives into a hard, uniformed authority the moment Gregor can no longer provide — as if the family's strength is simply transferred from the son who sinks to the father who rises.",
+      "on_screen": {
+        "heading": "The cast",
+        "annotations": [
+          {
+            "kind": "character-map",
+            "nodes": [
+              {
+                "id": "gregor",
+                "label": "Gregor Samsa"
+              },
+              {
+                "id": "grete",
+                "label": "Grete (sister)"
+              },
+              {
+                "id": "father",
+                "label": "Mr Samsa"
+              },
+              {
+                "id": "mother",
+                "label": "Mrs Samsa"
+              },
+              {
+                "id": "clerk",
+                "label": "Chief Clerk"
+              },
+              {
+                "id": "lodgers",
+                "label": "The Lodgers"
+              }
+            ],
+            "edges": [
+              {
+                "from": "gregor",
+                "to": "father",
+                "label": "provides for"
+              },
+              {
+                "from": "grete",
+                "to": "gregor",
+                "label": "feeds, then rejects"
+              },
+              {
+                "from": "father",
+                "to": "gregor",
+                "label": "drives back / wounds"
+              },
+              {
+                "from": "mother",
+                "to": "gregor",
+                "label": "love & horror"
+              },
+              {
+                "from": "clerk",
+                "to": "gregor",
+                "label": "checks on"
+              },
+              {
+                "from": "lodgers",
+                "to": "gregor",
+                "label": "recoil"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch-themes",
+      "template": "chapter-card",
+      "narration": "Five themes run under almost every line.",
+      "on_screen": {
+        "chapter_title": "Themes",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Plot",
+            "People",
+            "Themes",
+            "Quotes",
+            "Ideas"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "themes",
+      "template": "whiteboard",
+      "narration": "Alienation — a man cut off from other people, unable to be understood, long before he ever turns into an insect. Identity and worth — what are you, once you can no longer be useful? The family and duty — love that turns out to be conditional on what you provide. The body — shame, disgust, and a self trapped inside a shape it can't control. And the absurd — a universe that hands you a catastrophe with no cause, no meaning, and no appeal. The horror of Kafka is not that the world is cruel. It's that the world simply doesn't explain itself. The horror of Kafka isn't a cruel universe. It's an indifferent one — a world that hands you a catastrophe with no cause, no meaning and no one to appeal to, and then simply carries on.",
+      "on_screen": {
+        "heading": "Five themes",
+        "annotations": [
+          {
+            "kind": "theme-list",
+            "items": [
+              "Alienation & isolation",
+              "Identity & usefulness",
+              "Family, duty & conditional love",
+              "The body, shame & disgust",
+              "The absurd (no cause, no meaning)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ch-quotes",
+      "template": "chapter-card",
+      "narration": "Now five lines. Learn them, and you hold the whole book in your head.",
+      "on_screen": {
+        "chapter_title": "Five lines worth knowing",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Plot",
+            "People",
+            "Themes",
+            "Quotes",
+            "Ideas"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "quote-open",
+      "template": "quote-card",
+      "narration": "One — the most famous opening in modern fiction, and notice how flatly it's told, as if it were ordinary. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.",
+      "on_screen": {
+        "quote": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.",
+        "source": "Part I, opening"
+      },
+      "notes": "Verbatim (Gutenberg #5200, Wyllie trans.), opening line."
+    },
+    {
+      "id": "quote-what",
+      "template": "quote-card",
+      "narration": "Two — his very first reaction, and the quiet joke of the whole book: he worries about his job before he worries about his body. What's happened to me? he thought. It wasn't a dream.",
+      "on_screen": {
+        "quote": "“What's happened to me?” he thought. It wasn't a dream.",
+        "source": "Part I"
+      },
+      "notes": "Verbatim, line 47."
+    },
+    {
+      "id": "quote-animal",
+      "template": "quote-card",
+      "narration": "Three — the violin scene, where the insect feels more human than the people watching. Was he an animal if music could captivate him so?",
+      "on_screen": {
+        "quote": "Was he an animal if music could captivate him so?",
+        "source": "Part III"
+      },
+      "notes": "Verbatim, line 1563. Theme: identity, the human inside."
+    },
+    {
+      "id": "quote-love",
+      "template": "quote-card",
+      "narration": "Four — his last thought before he dies, still loving the family that has given up on him. He thought back of his family with emotion and love.",
+      "on_screen": {
+        "quote": "He thought back of his family with emotion and love.",
+        "source": "Part III"
+      },
+      "notes": "Verbatim, line 1741. Gregor's death."
+    },
+    {
+      "id": "quote-end",
+      "template": "quote-card",
+      "narration": "Five — the final image, cold and beautiful: the family already blooming, the moment he's gone. As if in confirmation of their new dreams, Grete was the first to get up and stretch out her young body.",
+      "on_screen": {
+        "quote": "As if in confirmation of their new dreams… Grete was the first to get up and stretch out her young body.",
+        "source": "Part III, closing"
+      },
+      "notes": "Verbatim (condensed with ellipsis), closing lines 1896-1900."
+    },
+    {
+      "id": "ch-ideas",
+      "template": "chapter-card",
+      "narration": "Last — the questions the book keeps asking long after it ends.",
+      "on_screen": {
+        "chapter_title": "The questions it leaves you with",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Plot",
+            "People",
+            "Themes",
+            "Quotes",
+            "Ideas"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "ideas",
+      "template": "whiteboard",
+      "narration": "Here is what people still argue about. Is the insect the disaster — or did Gregor's real self die years earlier, swallowed by a job he hated? Is the family monstrous, or simply human, doing what exhausted people do? Is the ending a tragedy, or an honest, uncomfortable relief? And the big one: if your value to the people you love is really just what you provide them, what happens to you the day you can't? Sit with those, and you understand the book. Notice too how the book is shaped like a see-saw: as Gregor weakens and dies, the family grows livelier, healthier, freer. His sister literally blossoms in the final lines. One life sinks so that three others can rise.",
+      "on_screen": {
+        "heading": "What it keeps asking",
+        "annotations": [
+          {
+            "kind": "theme-list",
+            "items": [
+              "Did Gregor die before the insect?",
+              "Is the family monstrous, or human?",
+              "Tragedy, or honest relief?",
+              "What are you worth when you can't provide?"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "So, back to where we started: what if your family stopped needing you? Kafka's answer is unbearable and very quiet — they would grieve, and then they would open the windows, and then they would be fine. If you want the whole story, scene by scene, in Kafka's own words, the full retelling is right here. Learn your five lines, remember the three parts, and then go and read it — it's shorter than you think, and it will stay with you for years.",
+      "on_screen": {
+        "message": "Watch the full retelling",
+        "points_to": "CL-49B"
+      },
+      "notes": "End screen cross-links to CL-49B."
+    }
+  ]
+}

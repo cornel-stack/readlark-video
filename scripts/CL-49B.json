@@ -1,0 +1,615 @@
+{
+  "meta": {
+    "code": "CL-49B",
+    "book": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "year": "1915",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "The Metamorphosis: The Full Story Explained (Franz Kafka)",
+    "search_phrase": "The Metamorphosis full story explained"
+  },
+  "chapters": [
+    {
+      "title": "A horrible vermin",
+      "first_scene": "hook"
+    },
+    {
+      "title": "Part I — The transformation",
+      "first_scene": "ch-p1"
+    },
+    {
+      "title": "Part II — Life behind the door",
+      "first_scene": "ch-p2"
+    },
+    {
+      "title": "Part III — The lodgers and the end",
+      "first_scene": "ch-p3"
+    },
+    {
+      "title": "Why it still cuts",
+      "first_scene": "ch-close"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "A man wakes one morning to find he has turned into a giant insect. He never finds out why — and neither do we. This is the story of what his family does next.",
+      "on_screen": {
+        "question": "A horrible vermin",
+        "plate": "plate-room"
+      },
+      "assets": [
+        "plate-room"
+      ],
+      "notes": "Hook before any title. ~32 words, ≤15s. Names the premise."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Metamorphosis, by Franz Kafka, published in nineteen fifteen.",
+      "on_screen": {
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "year": "1915",
+        "subtitle": "Die Verwandlung"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Before we begin, three things worth carrying with you. First: Kafka wrote this in German, in Prague, in the autumn of nineteen twelve, over a few feverish weeks, while working a respectable, soul-deadening job at an insurance company and living in the same flat as parents he found suffocating. Second: the story will never explain the transformation. There is no curse, no experiment, no moral crime that earns it. A man is simply changed, overnight, and the book treats that impossible event with the flat calm of a weather report — which is exactly what makes it so unsettling. And third: do not watch the insect. Watch the family. Because the real transformation in this story is not the one that happens to Gregor's body on the first page. It is the slow, quiet change in everyone around him — and that one has no magic in it at all.",
+      "on_screen": {
+        "plate": "plate-clerk",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-clerk"
+      ],
+      "notes": "Context: composition 1912 Prague; the insurance job and the father; the refusal to explain; watch the family."
+    },
+    {
+      "id": "ch-p1",
+      "template": "chapter-card",
+      "narration": "Part One. A morning like any other — until it isn't.",
+      "on_screen": {
+        "chapter_title": "Part I — The transformation",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Part I",
+            "Part II",
+            "Part III"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "p1-wake",
+      "template": "parallax-still",
+      "narration": "It opens with one of the most famous sentences ever written, and it is worth noticing how undramatic it is. Gregor Samsa wakes from uneasy dreams to find himself changed, in his bed, into some kind of monstrous insect. He is lying on his hard, armoured back. When he lifts his head he can see his own brown belly, domed and divided into stiff segments, the blanket about to slide off it. His many legs, pitifully thin, wave helplessly in the air above him. And Kafka reports all of this in the same even tone he'd use to describe a man who has overslept. There is no scream, no disbelief. Gregor's reaction is not horror at all — it is mild irritation, and a wish to go back to sleep. He tries simply to get out of bed, and the attempt becomes a long, humiliating comedy. He cannot coordinate the host of thin legs waving beneath him; when he wills one to bend, it stretches; when he finally rocks his bulk toward the edge of the mattress he is terrified of the drop, and of the noise, and of the pain in a body he does not yet understand. He thinks, absurdly, that if he could just lie still a little longer and forget all this nonsense, the old reality would quietly reassemble itself. It does not. The light hardens in the window, and the trains he lives by go on leaving without him.",
+      "on_screen": {
+        "plate": "plate-anguish",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-anguish"
+      ],
+      "notes": "Opening transformation (Part I). The flat, calm tone. No explanation."
+    },
+    {
+      "id": "q-open",
+      "template": "quote-card",
+      "narration": "The line itself.",
+      "on_screen": {
+        "quote": "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.",
+        "source": "Part I, opening"
+      },
+      "notes": "Verbatim (Gutenberg #5200, Wyllie trans.), opening line."
+    },
+    {
+      "id": "p1-clock",
+      "template": "parallax-still",
+      "narration": "And here is the first shock of the book — not the body, but the mind inside it. Gregor's thoughts do not go to doctors or God or what has become of him. They go to the clock. It is already past six; his train for work left at five; the next one leaves at seven and he will have to hurry like mad to catch it, and he hasn't even packed his samples. He lies there, a giant beetle on its back, and frets about his boss, his commission, the sheer impossibility of explaining why he is late. It is grimly funny and quietly devastating at once: the man is so thoroughly owned by his job that a catastrophe of the body registers only as a scheduling problem. He runs through his grievances against the job as he lies there — the wretched early starts, the bad food snatched on the road, the casual acquaintances who never become friends. If it weren't for his parents, he thinks, he'd have marched up to the boss and resigned years ago, and told him exactly what he thought of him. And he dreads, above everything, the firm's insurance doctor, who treats every sick employee as a workshy liar, and who will surely be sent round the moment he fails to appear.",
+      "on_screen": {
+        "plate": "plate-bed",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-bed"
+      ],
+      "notes": "Part I: Gregor worried about the train and work, not his condition. The comic horror of the dutiful mind."
+    },
+    {
+      "id": "p1-job",
+      "template": "parallax-still",
+      "narration": "We learn why. Gregor is a travelling salesman, and he loathes it — the early trains, the bad food, the endless road, the human contact that never deepens into a single real friendship. He only took the job, and only keeps it, because his father's business collapsed some years ago, leaving the family in debt to Gregor's employer. So Gregor pays it off, month after month, carrying all of them on his back. He even has a private dream of one day sending his gifted sister, Grete, to the conservatory to study violin. He has made himself the family's single pillar — and he is proud of it, which is the quiet trap the whole book will spring. He does the arithmetic he has done a hundred times: perhaps five or six more years of this, and the old family debt would at last be cleared, and he could cut himself loose and begin a life of his own. That day, he has always promised himself, is coming. He has no idea, lying there on his armoured back, that it has already been cancelled — that the future he has been paying for, instalment by instalment, will now never arrive.",
+      "on_screen": {
+        "plate": "plate-clerk",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-clerk"
+      ],
+      "notes": "Part I: Gregor's job, the family debt to his employer, the plan to send Grete to the conservatory. The pillar."
+    },
+    {
+      "id": "q-travel",
+      "template": "quote-card",
+      "narration": "His own weary summary of the life.",
+      "on_screen": {
+        "quote": "Being a commercial traveller is arduous but without travelling I couldn't earn my living.",
+        "source": "Part I"
+      },
+      "notes": "Verbatim, line 486 (Gregor to the chief clerk)."
+    },
+    {
+      "id": "p1-doors",
+      "template": "parallax-still",
+      "narration": "The flat begins to stir. There are three doors into Gregor's room, one to each side of the family, and through them come anxious voices. His mother calls gently that it's a quarter to seven, shouldn't he be leaving? His father knocks, firmly. His sister whispers, worried, at the third door. To each of them Gregor answers — and is quietly horrified to hear his own voice come out mixed with an awful squeaking, a painful piping underneath the words that he cannot control. He can still understand them perfectly. But already, on the very first morning, they are beginning not to understand him. That gap — he hears them, they no longer hear him — is the real tragedy of the book in miniature, and it only widens from here. He is absurdly grateful for one small mercy: his cautious habit, picked up in cheap hotels, of locking every door at night means no one can simply walk in and see him before he is ready. Behind each door a different plea reaches him — his mother coaxing, his father's fist, his sister's soft and anxious voice — and to all three he longs to answer normally, and cannot.",
+      "on_screen": {
+        "plate": "plate-door",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-door"
+      ],
+      "notes": "Part I: the three doors; family voices; Gregor's voice distorts; the one-way comprehension gap."
+    },
+    {
+      "id": "p1-clerk",
+      "template": "parallax-still",
+      "narration": "Then comes a knock of a different weight. The chief clerk from Gregor's office has actually come to the flat, in person, because Gregor has missed the early train — that is how closely he is watched, how little he is trusted. Through the door the clerk lectures him: his recent work has been unsatisfactory, his position is not as secure as he thinks, and this absence makes a very bad impression. Gregor, still hidden, is stung into a long, desperate reply — promising to get dressed, to catch the next train, begging the man not to report badly on him. He pleads for his job while lying on the floor as an insect. But all that reaches the others through the door is that terrible, unintelligible squeaking. His parents lurch between defending him and apologising for him. His mother assures the clerk that Gregor is devoted to the firm, that he thinks of nothing but his work, that it half annoys her how he never goes out in the evenings. His father stands stiff and uncertain. And the clerk's cold official voice — the voice of the whole working world Gregor has served so faithfully — grows more impatient, and more openly threatening, with every passing minute.",
+      "on_screen": {
+        "plate": "plate-clerk",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-clerk"
+      ],
+      "notes": "Part I: the chief clerk arrives; threats about Gregor's position; Gregor's plea comes out as noise."
+    },
+    {
+      "id": "p1-fall",
+      "template": "parallax-still",
+      "narration": "Meanwhile he is still fighting simply to get off the bed. He decides the safest method is to rock himself until his whole body swings over the edge and drops — keeping his head carefully raised to spare it. He sways, and sways, and at last the great weight of him tips and crashes to the carpet with a heavy, muffled thud. To his relief the fall does not hurt as much as he'd feared; the carpet and the spring of his new body absorb it. But the noise carries. In the next room the talking stops dead. He imagines them all straining to listen — and part of him childishly hopes that this, finally, is the sound that will bring someone rushing in to help him. No one comes. They only wait, on the other side of the door, for whatever is going to happen next.",
+      "on_screen": {
+        "plate": "plate-anguish",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-anguish"
+      ],
+      "notes": "Part I (inserted): Gregor rocks himself off the bed and falls; the thud; the family freezes and waits."
+    },
+    {
+      "id": "p1-open",
+      "template": "parallax-still",
+      "narration": "With enormous effort — rocking, levering, finally turning the key with his jaws — Gregor gets the door open and shows himself. The effect is instant and total. The chief clerk, with a single loud cry, backs away and bolts down the stairs. His mother, who had been pleading on his behalf, collapses. And Gregor, pathetically, is still trying to be reasonable — still thinking he might calm the clerk, keep the job, fix this. He clings to the idea that he is the same person, the same provider, when every face in front of him has already decided he is not. This is the hinge of the whole book: the moment the family first sees what they have, and begins, without a word, to recoil. He had even rehearsed, in those last seconds behind the door, the calm and reasonable little speech he would make — something about a sudden indisposition, about catching the very next train. The speech dies unspoken. For one long, frozen instant nobody moves at all. Then the clerk begins to retreat, step by backward step toward the staircase, one hand stretched out behind him as though some invisible force were drawing him away from the thing in the doorway.",
+      "on_screen": {
+        "plate": "plate-anguish",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-anguish"
+      ],
+      "notes": "Part I: Gregor opens the door; clerk flees; mother faints; Gregor still trying to reason."
+    },
+    {
+      "id": "p1-driven",
+      "template": "parallax-still",
+      "narration": "And here, for the first time, we meet the father as he really is. Mr Samsa seizes the clerk's abandoned cane in one hand and a newspaper in the other, and drives his son backwards — hissing, stamping, herding the great helpless insect toward the bedroom door. Gregor, who cannot even move cleanly in reverse yet, gets wedged in the doorway; one side of his body lifts, he is scraped and bleeding, and his father gives a last hard shove that sends him sprawling into the room. The door is slammed shut behind him with the cane, and then, blessedly, there is silence. Part One ends with Gregor alone in the dark, wounded, locked in — his old life sealed off on the other side of a door he can no longer open. The bitterest detail is that Gregor is trying to cooperate — turning himself slowly and painfully so as to alarm no one — and is answered only with blows. His father does not pause for even a second to wonder whether his son might still be somewhere inside the creature he is beating back through the door. He sees a pest, an obstacle, a shame to be shut away; and he shuts it away.",
+      "on_screen": {
+        "plate": "plate-father",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-father"
+      ],
+      "notes": "Part I close: father drives him back with cane and newspaper; Gregor wounded in the doorway; locked in."
+    },
+    {
+      "id": "ch-p2",
+      "template": "chapter-card",
+      "narration": "Part Two. A new life, lived entirely behind one door.",
+      "on_screen": {
+        "chapter_title": "Part II — Life behind the door",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Part I",
+            "Part II",
+            "Part III"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "p2-food",
+      "template": "parallax-still",
+      "narration": "A kind of routine settles in. It is Grete, the sister, who takes him on. At first she brings him a bowl of milk and bread — once his favourite — and is baffled when he turns from it in disgust. So she experiments, laying out a whole spread of scraps on an old newspaper: cheese, vegetables, bones, a crust days old. And Gregor falls on the rotten, half-spoiled things and ignores everything fresh. His tastes have changed with his body. Grete learns to come in twice a day, quickly, holding her breath, to leave his food and sweep away what's left — and she takes to opening the window first, because the room has begun to smell. Small kindnesses. But notice they are already done at arm's length, with the face turned away. She never speaks to him now, not one word. If she comes in and finds him in view she recoils, so the two of them settle into a wordless choreography in which he hides the moment he hears her hand on the door, and she pretends, briskly, that the room is empty. Everything he is no longer permitted to be told to his face — that he disgusts her, that she does this out of grim duty — is spelled out plainly in the way she holds her breath and almost runs from the room.",
+      "on_screen": {
+        "plate": "plate-room",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-room"
+      ],
+      "notes": "Part II: Grete feeds him; milk rejected; prefers rotten scraps; the careful, averted routine."
+    },
+    {
+      "id": "p2-hiding",
+      "template": "parallax-still",
+      "narration": "Gregor, for his part, becomes achingly considerate. He understands that the sight of him is unbearable, so he drags a sheet to the sofa and spends hours hidden beneath it, arranging himself so that not even a leg shows when Grete comes in. He wants, more than anything, to spare her — to make himself as little of a burden as possible. It is one of the saddest things in the book: the monster is the most thoughtful person in the house. He spends his days crawling the walls and ceiling for something to do, and listening. Always listening, at the door, to the muffled life of the family he can no longer join. Little by little he feels his old human concerns loosening their grip. Whole days pass in which he thinks of almost nothing, dozing, tracing idle circuits across the ceiling for the strange relief it gives him. But then some scrap of his working life will surface — a town he once visited, a hotel room, a girl he once admired — or his mother's voice will carry through the wall, and the ache of being shut out of his own family comes flooding back as raw as it was on the first morning.",
+      "on_screen": {
+        "plate": "plate-spider",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-spider"
+      ],
+      "notes": "Part II: Gregor hides under a sheet to spare Grete; crawls walls/ceiling; listens at the door."
+    },
+    {
+      "id": "p2-listening",
+      "template": "parallax-still",
+      "narration": "Through the door he pieces together the family's situation, and it quietly rearranges everything. It turns out Mr Samsa was not quite as ruined as Gregor believed: a little money survived the old collapse, and some of what Gregor handed over each month was quietly put aside, so the family is not destitute. Gregor feels a flush of pleasure at this — and then something colder underneath it. All those years he thought he alone was holding them up; all that pride in being indispensable. Some of it, it seems, was a story he told himself. And now the arithmetic is simply shifting without him. The savings will last a while. After that, somebody else will have to work. He clings, through all of it, to the one plan that still gives his suffering a shape: that at Christmas he will stand up and announce that he is sending Grete to the conservatory, debt or no debt. It is a promise he now has no possible means of keeping. He keeps it anyway. Without some future to point himself toward, he understands dimly, he is nothing but a body lying in a darkening room.",
+      "on_screen": {
+        "plate": "plate-father",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-father"
+      ],
+      "notes": "Part II: Gregor overhears the real finances; the father's hidden savings; his sense of being indispensable punctured."
+    },
+    {
+      "id": "p2-window",
+      "template": "parallax-still",
+      "narration": "He takes to pressing himself against the window, dragging a chair there to prop up and look out. Once he did it to gaze at the street; now, with his eyesight failing, the view blurs more each day, the busy road softening into a grey, featureless smear. The outside world is quietly withdrawing from him, sense by sense. And inside, too, something is slipping. He finds he enjoys hanging from the ceiling, swaying, in a way no human would; the old human furniture of his mind is loosening. Gregor is caught exactly in the middle — no longer able to live in the human world, not yet content to be the thing he has become — and it is that in-between place, not the insect body, that is the real horror.",
+      "on_screen": {
+        "plate": "plate-window",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-window"
+      ],
+      "notes": "Part II: Gregor at the window; failing eyesight; the world receding; the in-between state."
+    },
+    {
+      "id": "p2-furniture",
+      "template": "parallax-still",
+      "narration": "Then Grete has an idea that she means kindly, and that wounds him more than the cane did. Since he likes to crawl, she decides, they should clear the furniture out of his room to give him floor and wall space — take out the chest, the desk, the things that only get in his way. She enlists their mother to help shift it all. But to Gregor, watching, each piece they carry out is a piece of his human self being carried away: the desk where he did his homework as a boy, the place where he kept his things. If the room is emptied, he feels, then it is admitted, finally, that he is only an animal now, with no past and no use for a human life. And there is a quieter heartbreak folded inside this scene. His mother, who has not been allowed to set eyes on him since that first morning, begs to be allowed to help — she wants, more than she can say, simply to see her son again — and the two women argue in anxious whispers about whether the sight would do her more harm than good. In the end they heave the heavy chest out between them, breathless, and Gregor, listening to his mother's labouring breath, feels each item leave as a slow, deliberate theft of his past.",
+      "on_screen": {
+        "plate": "plate-empty",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-empty"
+      ],
+      "notes": "Part II: Grete and mother clear the furniture; Gregor experiences it as the erasure of his human identity."
+    },
+    {
+      "id": "p2-picture",
+      "template": "parallax-still",
+      "narration": "So he makes his one act of rebellion in the whole book. On the wall still hangs a picture he had cut from a magazine and framed himself — a woman in furs. As the women come back for more, Gregor scrambles up the wall and presses his whole body flat over the glass, covering it, defending it. He will not let them take this last small thing. His mother, turning, sees him at last — fully, the great brown shape spread on the wallpaper — and with a cry she faints across the sofa. Grete, panicking, rushes to help her and shouts at Gregor for the first time. In trying to hold on to the last scrap of who he was, he has brought the household crashing down around him. It is worth pausing on what that picture is: a cheap illustration of a woman in furs that Gregor had cut out and framed himself, in the life before. Of all the things in the room, this trinket is what he chooses to defend with his whole body — proof that some stubborn ember of the human Gregor, with his small tastes and vanities, is still alight inside the insect.",
+      "on_screen": {
+        "plate": "plate-room",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-room"
+      ],
+      "notes": "Part II: Gregor clings to the framed picture of the woman in furs; mother sees him and faints; Grete turns on him."
+    },
+    {
+      "id": "p2-apple",
+      "template": "parallax-still",
+      "narration": "Into this chaos the father comes home — and he is a changed man. The broken old figure in the dressing gown is gone; he now wears a smart blue uniform with gold buttons, a bank messenger's uniform, because he has gone back to work, and the work has stiffened him into a hard, upright authority. He takes in the scene — his wife collapsed, his daughter shouting, the insect loose — and he attacks. He fills his pockets from a bowl of apples on the sideboard and begins hurling them at Gregor, driving him across the floor. Most miss and burst on the walls. But one, thrown hard, strikes Gregor square in the back and sinks into his flesh. The pain is blinding. He feels himself nailed to the spot.",
+      "on_screen": {
+        "plate": "plate-apples",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-apples"
+      ],
+      "notes": "Part II close: father in his new uniform; hurls apples; one lodges in Gregor's back. The father revived by work."
+    },
+    {
+      "id": "p2-wound",
+      "template": "parallax-still",
+      "narration": "No one dares to remove the apple. It stays buried in his back, rotting there, and the wound festers and stiffens him for the rest of his life, so that he can barely crawl. And yet Part Two ends on an odd, fragile note of mercy. The injury seems to remind the family that Gregor is, after all, a member of the household — a creature one has duties to, however monstrous. In the evenings now they leave the door of his room open, just a crack, so that he can lie in the dark and watch them: the lamp, the table, the three of them reading or sewing in the warm light of a family he is no longer part of, but can still, for a little while longer, look in upon. The injury costs him most of what little freedom of movement he had left. The joyful crawling across walls and ceiling is finished; now even dragging himself over the floor is slow agony, and he spends his long nights pacing the room in the dark, round and round, like a prisoner wearing a track into the stone.",
+      "on_screen": {
+        "plate": "plate-door",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-door"
+      ],
+      "notes": "Part II close: the apple festers; the door left ajar in the evenings; Gregor watching the family from the dark."
+    },
+    {
+      "id": "ch-p3",
+      "template": "chapter-card",
+      "narration": "Part Three. The patience runs out.",
+      "on_screen": {
+        "chapter_title": "Part III — The lodgers and the end",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Part I",
+            "Part II",
+            "Part III"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "p3-decline",
+      "template": "parallax-still",
+      "narration": "Weeks pass, and the whole family is now worn thin. All three of them have taken jobs — the father at the bank, the mother sewing fine underwear for a shop, Grete working as a salesgirl and studying shorthand at night to better herself. They are exhausted and resentful, and they no longer have the energy to think about Gregor. His room is cleaned less and less; a surly charwoman is hired for the heavy work, and she is the only one not afraid of him, treating him with a rough, almost cheerful contempt. Dust gathers. Scraps of food sit uneaten. Gregor, in near-constant pain from the apple still in his back, stops eating much at all, and lies for long hours in the filth, thinking. In his dimming mind, strange fantasies drift up and dissolve: that he might yet rise and take charge of the family's affairs again; that the conservatory plan might somehow still come true. The squalid reality of the filthy room and the fantasy of rescue lie side by side in his head without ever quite touching, and he no longer has the strength to tell which is which.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Part III: the whole family working; exhaustion; the charwoman; Gregor neglected, in pain, barely eating."
+    },
+    {
+      "id": "p3-lodgers",
+      "template": "parallax-still",
+      "narration": "To bring in more money, the family takes in three lodgers — three solemn, fussy gentlemen with full beards, who insist on strict order and tidiness. They effectively take over the flat. The Samsas defer to them, serve them their meals, eat humbly in the kitchen while the lodgers have the dining room. And as the household reorganises itself around these paying strangers, Gregor's room quietly becomes the place where everything unwanted is dumped — ash-bins, old newspapers, the junk there is no longer space for. He, who was once the centre and support of the home, is now literally its store cupboard, lying among the rubbish in the dark. The best food now goes to their table; the good silver is laid for them; the parents hover at the dining-room door to see that the three gentlemen are satisfied. Watching through the crack of his own door, Gregor is quietly astonished at how swiftly and completely his family has learned to bow and scrape to paying strangers — the very servility they never once had to show while he was the one silently carrying them all.",
+      "on_screen": {
+        "plate": "plate-room",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-room"
+      ],
+      "notes": "Part III: three lodgers take over; Gregor's room becomes a junk store; his total demotion."
+    },
+    {
+      "id": "p3-isolation",
+      "template": "parallax-still",
+      "narration": "And he all but vanishes. With three paying strangers in the flat and every family member out working, no one has the time or the will to think about the creature in the back room. His door, once left hospitably ajar in the evenings, now stays shut. The charwoman shoves his food in carelessly and scrapes away whatever he hasn't touched, which is more and more. A thick layer of dust settles over everything, and streaks of dirt trail along the walls where he has dragged himself. The boy who was once the pride and the engine of this household has become a thing that is tolerated when it is remembered and ignored the rest of the time — present only as a faint bad smell, and a locked door no one wants to open.",
+      "on_screen": {
+        "plate": "plate-dark",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-dark"
+      ],
+      "notes": "Part III (inserted): Gregor's total neglect; door shut again; dust and dirt; reduced to a smell behind a door."
+    },
+    {
+      "id": "p3-violin",
+      "template": "parallax-still",
+      "narration": "Then comes the scene the whole book has been building toward. One evening Grete brings out her violin and plays for the lodgers in the dining room. The lodgers, who had asked to hear her, quickly grow bored and restless — they turn away, muttering, indifferent to the music. But Gregor, drawn by the sound through his open door, creeps out further than he has dared in weeks, dragging his broken body across the floor toward her. The music moves him unbearably. It seems to point the way to some nourishment he has been starving for without knowing it. And a terrible, beautiful question rises in him as he listens — the question that holds the whole meaning of the book. There is a terrible beauty in the picture: the three bored lodgers turning away from music they had asked to hear, and the filthy, broken insect in the doorway listening with his whole being, more moved and more human in that moment than any upright person in the room.",
+      "on_screen": {
+        "plate": "plate-violin",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-violin"
+      ],
+      "notes": "Part III: Grete plays violin; lodgers bored; Gregor creeps out, moved by the music."
+    },
+    {
+      "id": "q-animal",
+      "template": "quote-card",
+      "narration": "The line that turns the whole story.",
+      "on_screen": {
+        "quote": "Was he an animal if music could captivate him so?",
+        "source": "Part III"
+      },
+      "notes": "Verbatim, line 1563. The insect feels more human than the people watching."
+    },
+    {
+      "id": "p3-discovered",
+      "template": "parallax-still",
+      "narration": "He dreams, in that moment, of drawing Grete into his room, of telling her he'd meant to send her to the conservatory, of being understood by her just once. But of course he is seen. One of the lodgers spots the insect out in the open, points, and the three of them react with outrage and disgust. They announce on the spot that they are giving notice — they will not pay a penny for a room in a flat that keeps such a thing, and they may well demand damages. The music stops. The fragile economy the family has built on their lodgers' money collapses in an instant, and everyone turns, at last, to look at the creature that has ruined them. Their spokesman draws himself up with enormous, comic dignity and announces that, given the disgusting conditions in this flat, he gives notice on the spot — and will of course pay nothing whatever for the days he has already stayed. The other two gentlemen nod gravely behind him. In the space of a few seconds, the fragile respectability the Samsas have been performing all evening lies in pieces on the dining-room floor.",
+      "on_screen": {
+        "plate": "plate-father",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-father"
+      ],
+      "notes": "Part III: lodgers discover Gregor; outrage; they give notice; the family's income threatened."
+    },
+    {
+      "id": "p3-verdict",
+      "template": "parallax-still",
+      "narration": "And now it is Grete — the sister, the one who fed him, who learned his tastes, who defended him longest — who says the unsayable thing. Standing before her parents, she declares that they must get rid of it. Not him — it. She refuses to speak his name. She insists the creature cannot be Gregor, because the real Gregor would have understood that he was making their lives impossible, and would have gone away of his own accord long ago. The thing in there is just an animal that torments them and drives off their livelihood. Her father nods. Her mother, weeping, does not disagree. In a single speech, the last person who loved him has cast him out of the family entirely. It is the sharpest irony in the whole book. The one person who understood Gregor best, who learned his tastes and tended him longest, is the one who finally rules that he is not a person at all. And she does it not out of cruelty but out of sheer exhaustion — and out of a young woman's fierce and forgivable hunger to stop carrying the dead weight of the past and get on, at last, with a life of her own.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Part III: Grete's verdict — 'we must get rid of it'; refuses his name; the family agrees. The decisive rejection."
+    },
+    {
+      "id": "p3-retreat",
+      "template": "parallax-still",
+      "narration": "Gregor hears every word, and understands it completely. And here is the quiet miracle of the ending: he agrees with her. Painfully, slowly, he turns himself around and drags his ruined body back into his room — because he does not want to be a burden, because he loves them, and because he too now feels that the kindest thing he can do is to disappear. There is no bitterness in him. In the dark of his room he thinks back over his family with tenderness and love, and feels, even more strongly than Grete does, that he ought to be gone. His conviction that he must vanish is, if anything, firmer than hers.",
+      "on_screen": {
+        "plate": "plate-dark",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-dark"
+      ],
+      "notes": "Part III: Gregor accepts the verdict; drags himself back; resolves to disappear, out of love."
+    },
+    {
+      "id": "q-love",
+      "template": "quote-card",
+      "narration": "His last feeling, in the dark.",
+      "on_screen": {
+        "quote": "He thought back of his family with emotion and love.",
+        "source": "Part III"
+      },
+      "notes": "Verbatim, line 1741. Gregor's final thoughts before death."
+    },
+    {
+      "id": "p3-death",
+      "template": "parallax-still",
+      "narration": "He lies in a state of empty, peaceful thought. The pain of the wound has faded; the decayed apple in his back, furred now with white dust, he can hardly feel. He watches the window slowly lighten. When the clock tower strikes three in the morning he is still there, calm, and as the first grey of dawn spreads outside, his head sinks down without his meaning it to, and his last weak breath leaves him through his nostrils. There is no agony, no drama. The most patient, dutiful, loving member of the family simply stops — alone, in a dirty room, at daybreak — having decided that the best gift he had left to give them was his own absence. Kafka gives the moment no ceremony whatsoever. The one truly selfless act in the whole story — a creature choosing to die so that the people he loves can be free of him — passes in a single quiet sentence, unwitnessed, while the household sleeps.",
+      "on_screen": {
+        "plate": "plate-window",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-window"
+      ],
+      "notes": "Part III: Gregor's death at dawn; peaceful, undramatic; the apple dust; his last breath."
+    },
+    {
+      "id": "p3-charwoman",
+      "template": "parallax-still",
+      "narration": "It is the charwoman who finds him in the morning. She prods the still body with her broom, works out what has happened, and flings open the bedroom door to announce it to the parents with cheerful bluntness: it's dead; the thing next door; it's completely snuffed it. And the reaction is not grief. It is relief — vast, immediate, badly hidden relief. Mr and Mrs Samsa and Grete gather briefly to look at the shrunken, flattened corpse, dried out and light now that it is empty. They cross themselves. And then the father says, simply, that they can thank God — and the air in the flat, for the first time in the entire book, feels breathable. She had, in her gruff way, been almost fond of baiting him — calling him over with cheerful insults he never answered, prodding him with her broom to watch him shuffle. Now she delivers the news of his death with the same flat good humour she might use to report that the stove had finally gone out, and cannot understand why the family does not want to hear the details.",
+      "on_screen": {
+        "plate": "plate-room",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-room"
+      ],
+      "notes": "Part III: charwoman finds the body; announces it bluntly; the family's relief, not grief."
+    },
+    {
+      "id": "p3-after",
+      "template": "parallax-still",
+      "narration": "What follows is brisk and businesslike. The father summarily throws the three lodgers out of the flat — he has got his nerve back now, and will not be dictated to in his own home. The charwoman is told she can dispose of the thing next door, and does. And then the three Samsas do something they have not done in months: they decide, together, to take the day off. They write letters excusing themselves from their three jobs, and they go out — out of the dim flat, into the open air, to ride the tram to the countryside at the edge of the city. The weight is gone. The season, they notice, has turned to spring. There is, astonishingly, no grief in any of it — no funeral, no mourning, barely a single backward glance. The shrunken body is simply swept away like so much rubbish, and the three of them step out into the daylight with the shaky lightness of people recovering from a long sickness that has at last, mercifully, broken.",
+      "on_screen": {
+        "plate": "plate-city",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-city"
+      ],
+      "notes": "Part III: father expels the lodgers; the body removed; the family takes the day off and rides out."
+    },
+    {
+      "id": "ch-close",
+      "template": "chapter-card",
+      "narration": "Why this strange little book has never let go of its readers.",
+      "on_screen": {
+        "chapter_title": "Why it still cuts",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Part I",
+            "Part II",
+            "Part III",
+            "Meaning"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "close-outing",
+      "template": "parallax-still",
+      "narration": "On the tram, in the warm sunshine, the parents settle back and take stock, and find that things are really not so bad. They have three decent jobs. They can move to a smaller, cheaper, better-situated flat now — the one Gregor had chosen for them is too big without him. And as they talk, they both notice, almost at the same moment, that for all the worry of recent months, their daughter has bloomed into a pretty, shapely young woman. Without a word passing between them, they agree it will soon be time to find her a good husband. Their whole future, which had seemed buried, is suddenly open again — and it opened the instant Gregor died. It is one of the most chilling turns in all of literature precisely because nothing about it is cruel on the surface. These are not wicked people congratulating themselves. They are tired, decent, ordinary people feeling the sun on their faces for the first time in a year, and finding, to their faint surprise, that life is good again.",
+      "on_screen": {
+        "plate": "plate-dawn",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-dawn"
+      ],
+      "notes": "Close: the tram ride; the parents' plans; Grete blooming; the future that opens with Gregor's death."
+    },
+    {
+      "id": "q-end",
+      "template": "quote-card",
+      "narration": "And then the final image — one of the coldest, most perfect endings in literature.",
+      "on_screen": {
+        "quote": "As if in confirmation of their new dreams… Grete was the first to get up and stretch out her young body.",
+        "source": "Part III, closing"
+      },
+      "notes": "Verbatim (condensed with ellipsis), closing lines 1896-1900."
+    },
+    {
+      "id": "close-meaning",
+      "template": "parallax-still",
+      "narration": "Sit with that ending, because everything the book is about is folded into it. The transformation was never really the point. Kafka's deeper subject is what a person is worth to the people around them — and his unbearable answer is that, for Gregor, it was only ever what he could provide. The moment he stopped being useful, the love that looked unconditional revealed its price. And notice the cruel symmetry: as Gregor shrinks and dries and dies, the family grows stronger, freer, healthier. His sister literally blossoms. The novella is shaped like a see-saw — one life sinking so that three others can rise — and it never once tells you how to feel about that.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Close: meaning — worth measured by usefulness; the see-saw of Gregor's decline and the family's rise."
+    },
+    {
+      "id": "close-father",
+      "template": "parallax-still",
+      "narration": "Watch the father across the three parts, because his arc is the dark mirror of Gregor's. At the start he is a spent, defeated old man in a dressing gown, dependent on the son who keeps him. But the moment Gregor can no longer provide, something hardens and revives in him. He puts on the smart blue uniform of a bank messenger and will not take it off, even sleeping in it; he stands straighter; he throws the apples; he expels the lodgers. The family's strength does not come from nowhere at the end — it is transferred, almost physically, from the son who is sinking to the father who is rising. One Samsa man has to fail for the other to stand up again.",
+      "on_screen": {
+        "plate": "plate-father",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-father"
+      ],
+      "notes": "Close (inserted): the father's arc as the mirror of Gregor's — strength transferred from son to father."
+    },
+    {
+      "id": "close-kafka",
+      "template": "parallax-still",
+      "narration": "It helps to know that Kafka wrote this out of his own life. He adored and feared his own overbearing father; he worked a respectable job he found deadening; he lived with the constant private sense of being a disappointment, an oddity, a burden under the family roof. He poured all of that into Gregor — and then refused to soften any of it. When the story was about to be printed, he gave his publisher one firm instruction: whatever happened, the insect itself must never be drawn, not on the cover, not anywhere. The horror was never meant to be a picture of a bug. It was meant to be a feeling you recognise from the inside.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Close (inserted): Kafka's biography (the father, the job); his instruction that the insect never be depicted."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "That is why the word Kafkaesque exists, and why this story still unsettles people a century on. It took the deepest modern fears — that you are alone inside yourself, that no one truly understands you, that your place in the world rests on your usefulness and could be withdrawn without warning or reason — and it dressed them in the plainest, most matter-of-fact prose imaginable. There is no villain here. No one is evil. The family are just tired, frightened, ordinary people doing what tired, frightened people do. And that is the real horror of The Metamorphosis: not that a man turned into an insect, but that the people who loved him were able, so quickly and so completely, to let him go.",
+      "on_screen": {
+        "plate": "plate-window",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-window"
+      ],
+      "notes": "Close: 'Kafkaesque'; the ordinary, non-villainous family; the real horror."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of The Metamorphosis. If you'd like the ten-minute version — the plot in three parts, the characters, the themes, and five lines worth knowing — it's right here, and it makes a good place to fix all of this in your memory. The book itself is short, barely an hour's reading, and it rewards a second visit enormously. Thanks for watching — and if the ending left you a little cold inside, that was exactly what Kafka intended.",
+      "on_screen": {
+        "message": "Watch the 10-minute explainer",
+        "points_to": "CL-49A"
+      },
+      "notes": "End screen cross-links to CL-49A."
+    }
+  ]
+}

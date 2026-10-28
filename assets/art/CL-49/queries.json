@@ -1,0 +1,109 @@
+{
+  "book_code": "CL-49",
+  "book": "The Metamorphosis",
+  "note": "Art queries for Kafka's The Metamorphosis. Wikimedia Commons, PD/CC0 only. A 1915 modernist novella has no literal illustrations in the public domain, so the look is built from mood: Vilhelm Hammershoi's grey, silent interiors (d.1916) for the Samsa apartment and its doors; Edvard Munch (pre-1929 works, PD) for the anxiety and illness; Albertus Seba's 1734 beetle engravings and Odilon Redon's uncanny creatures (d.1916) for the vermin; Van Gogh's grieving figure; Degas' office of clerks; Cezanne's apples; and a bright Impressionist spring for the final, pitiless release. The fetcher adds 'filetype:bitmap' and keeps the highest-resolution PD candidate.",
+  "plates": [
+    {
+      "id": "plate-room",
+      "count": 2,
+      "query": "Vilhelm Hammershoi interior sunlight painting",
+      "want": "Hammershoi, a quiet grey room — Gregor's bedroom (PD)"
+    },
+    {
+      "id": "plate-beetle",
+      "count": 1,
+      "query": "Albertus Seba beetles plate engraving",
+      "want": "Seba, a plate of beetles (PD entomology, 1734)"
+    },
+    {
+      "id": "plate-bed",
+      "count": 1,
+      "query": "Edvard Munch The Sick Child painting",
+      "want": "Munch, a figure confined to a sickbed (PD)"
+    },
+    {
+      "id": "plate-door",
+      "count": 1,
+      "query": "Vilhelm Hammershoi open doors interior painting",
+      "want": "Hammershoi, a line of doors — the locked door (PD)"
+    },
+    {
+      "id": "plate-anguish",
+      "count": 1,
+      "query": "Edvard Munch The Scream painting",
+      "want": "Munch, pure dread — the moment of waking changed (PD)"
+    },
+    {
+      "id": "plate-window",
+      "count": 1,
+      "query": "Caspar David Friedrich Woman at a Window painting",
+      "want": "Friedrich, a figure at a window looking out (PD)"
+    },
+    {
+      "id": "plate-family",
+      "count": 1,
+      "query": "Vilhelm Hammershoi interior with woman seen from behind painting",
+      "want": "Hammershoi, a figure alone in a room — the family (PD)"
+    },
+    {
+      "id": "plate-father",
+      "count": 1,
+      "query": "Edvard Munch Evening on Karl Johan Street painting",
+      "want": "Munch, looming figures / menace — the father (PD)"
+    },
+    {
+      "id": "plate-clerk",
+      "count": 1,
+      "query": "Edgar Degas A Cotton Office in New Orleans painting",
+      "want": "Degas, an office of clerks — Gregor's working world (PD)"
+    },
+    {
+      "id": "plate-violin",
+      "count": 1,
+      "query": "Gerrit van Honthorst musician violin candlelight painting",
+      "want": "Honthorst, a candle-lit musician — the violin scene (PD)"
+    },
+    {
+      "id": "plate-apples",
+      "count": 1,
+      "query": "Paul Cezanne apples still life painting",
+      "want": "Cezanne, red apples — the apple lodged in his back (PD)"
+    },
+    {
+      "id": "plate-spider",
+      "count": 1,
+      "query": "Odilon Redon The Smiling Spider painting",
+      "want": "Redon, an uncanny grinning creature — Gregor's otherness (PD)"
+    },
+    {
+      "id": "plate-city",
+      "count": 1,
+      "query": "Gustave Caillebotte Paris Street Rainy Day painting",
+      "want": "Caillebotte, a grey modern city — the world that moves on (PD)"
+    },
+    {
+      "id": "plate-grief",
+      "count": 1,
+      "query": "Vincent van Gogh Sorrowing Old Man At Eternity's Gate painting",
+      "want": "Van Gogh, a man bowed in grief (PD)"
+    },
+    {
+      "id": "plate-empty",
+      "count": 1,
+      "query": "Vilhelm Hammershoi empty room interior painting",
+      "want": "Hammershoi, a bare stripped room — the cleared furniture (PD)"
+    },
+    {
+      "id": "plate-dark",
+      "count": 1,
+      "query": "Odilon Redon noir charcoal drawing",
+      "want": "Redon, a dark dreamlike noir — the long nights (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "count": 1,
+      "query": "Camille Pissarro spring sunlight landscape painting",
+      "want": "Pissarro, bright spring country — the family's release (PD)"
+    }
+  ]
+}
