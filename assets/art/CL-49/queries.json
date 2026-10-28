@@ -10,12 +10,6 @@
       "want": "Hammershoi, a quiet grey room — Gregor's bedroom (PD)"
     },
     {
-      "id": "plate-beetle",
-      "count": 1,
-      "query": "Albertus Seba beetles plate engraving",
-      "want": "Seba, a plate of beetles (PD entomology, 1734)"
-    },
-    {
       "id": "plate-bed",
       "count": 1,
       "query": "Edvard Munch The Sick Child painting",
@@ -36,8 +30,8 @@
     {
       "id": "plate-window",
       "count": 1,
-      "query": "Caspar David Friedrich Woman at a Window painting",
-      "want": "Friedrich, a figure at a window looking out (PD)"
+      "query": "Gustave Caillebotte Young Man at His Window painting",
+      "want": "Caillebotte, a man at a window looking out (PD)"
     },
     {
       "id": "plate-family",
@@ -54,14 +48,14 @@
     {
       "id": "plate-clerk",
       "count": 1,
-      "query": "Edgar Degas A Cotton Office in New Orleans painting",
-      "want": "Degas, an office of clerks — Gregor's working world (PD)"
+      "query": "Honore Daumier The Third-Class Carriage painting",
+      "want": "Daumier, weary rail travellers — Gregor's commuter world (PD)"
     },
     {
       "id": "plate-violin",
       "count": 1,
-      "query": "Gerrit van Honthorst musician violin candlelight painting",
-      "want": "Honthorst, a candle-lit musician — the violin scene (PD)"
+      "query": "Orazio Gentileschi Young Woman Playing a Violin painting",
+      "want": "Gentileschi, a young woman with a violin — the music scene (PD)"
     },
     {
       "id": "plate-apples",
@@ -72,8 +66,8 @@
     {
       "id": "plate-spider",
       "count": 1,
-      "query": "Odilon Redon The Smiling Spider painting",
-      "want": "Redon, an uncanny grinning creature — Gregor's otherness (PD)"
+      "query": "Francisco Goya The Sleep of Reason Produces Monsters",
+      "want": "Goya, a man slumped amid monstrous creatures — Gregor's otherness (PD)"
     },
     {
       "id": "plate-city",

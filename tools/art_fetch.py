@@ -86,6 +86,11 @@ def image_info(title: str) -> dict | None:
     data = api_get({
         "action": "query", "titles": title, "prop": "imageinfo",
         "iiprop": "url|extmetadata|size|mime",
+        # Ask Commons for a width-capped render alongside the original. Museum
+        # scans can be 100-300 MP; decoding one blows up memory on a 7 GB CI
+        # runner during depth estimation. thumburl (~3000px) is ample for a
+        # 1080p frame with push-in headroom and is a few MB, not hundreds.
+        "iiurlwidth": 3000,
     })
     pages = data.get("query", {}).get("pages", {})
     for _, page in pages.items():
@@ -217,11 +222,20 @@ def main() -> int:
         for area, title, meta_wrap, ext, licence in candidates:
             if got >= count:
                 break
-            mime = meta_wrap.get("mime", "")
-            suffix = "." + (mime.split("/")[-1].replace("jpeg", "jpg"))
+            # Prefer the capped render (thumburl) over the full original to keep
+            # memory sane; Commons thumbs are always jpg/png. Fall back to the
+            # original only if no thumb was produced (already-small images).
+            dl_url = meta_wrap.get("thumburl") or meta_wrap["url"]
+            if meta_wrap.get("thumburl"):
+                suffix = "." + dl_url.rsplit(".", 1)[-1].lower().replace("jpeg", "jpg")
+                if suffix not in (".jpg", ".png"):
+                    suffix = ".jpg"
+            else:
+                mime = meta_wrap.get("mime", "")
+                suffix = "." + (mime.split("/")[-1].replace("jpeg", "jpg"))
             stem = pid if got == 0 else f"{pid}--{got+1}"
             try:
-                sz = download(meta_wrap["url"], art_dir / (stem + suffix))
+                sz = download(dl_url, art_dir / (stem + suffix))
                 final = to_web_format(art_dir / (stem + suffix))
             except Exception as e:  # noqa: BLE001
                 print(f"   download failed: {e}")
@@ -237,8 +251,8 @@ def main() -> int:
                 "date": strip_html(ext.get("DateTimeOriginal", {}).get("value")) or strip_html(ext.get("DateTime", {}).get("value")),
                 "licence": licence,
                 "credit": strip_html(ext.get("Credit", {}).get("value")),
-                "width": meta_wrap.get("width"),
-                "height": meta_wrap.get("height"),
+                "width": meta_wrap.get("thumbwidth") or meta_wrap.get("width"),
+                "height": meta_wrap.get("thumbheight") or meta_wrap.get("height"),
                 "bytes": sz,
                 "retrieved_at": now,
                 "want": entry.get("want"),
