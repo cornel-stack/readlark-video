@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "code": "CL-29B",
+    "book": "Beowulf",
+    "author": "Anonymous (Old English epic)",
+    "year": "c. 700–1000 AD",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Beowulf: The Full Story Explained (The Old English Epic)",
+    "search_phrase": "Beowulf full story explained"
+  },
+  "chapters": [
+    {
+      "title": "The oldest story in English",
+      "first_scene": "hook"
+    },
+    {
+      "title": "Heorot and Grendel",
+      "first_scene": "ch-heorot"
+    },
+    {
+      "title": "Beowulf and Grendel",
+      "first_scene": "ch-grendel"
+    },
+    {
+      "title": "The Mere",
+      "first_scene": "ch-mere"
+    },
+    {
+      "title": "The Dragon",
+      "first_scene": "ch-dragon"
+    },
+    {
+      "title": "The Barrow",
+      "first_scene": "ch-barrow"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "Beowulf is the oldest story in English: one hero, three monsters, and a final battle, fifty years on, that he does not walk away from.",
+      "on_screen": {
+        "question": "The oldest story in English",
+        "plate": "plate-beowulf"
+      },
+      "assets": [
+        "plate-beowulf"
+      ],
+      "notes": "Hook before any title. ~25 words, minimal pauses, ≤12s. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Beowulf, an anonymous Old English epic, composed over a thousand years ago.",
+      "on_screen": {
+        "title": "Beowulf",
+        "author": "Anonymous",
+        "year": "c. 700–1000 AD",
+        "subtitle": "An Old English Epic"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. Beowulf is the oldest surviving long poem in the English language — over three thousand lines of Old English, composed by an unknown poet more than a thousand years ago, and surviving by sheer luck in a single manuscript that was nearly lost in a fire. Second: although it is the foundation of English literature, it is not set in England at all; it takes place in Scandinavia, among the Danes and the Geats, in a pagan heroic world of warriors, mead-halls, sea-voyages, and monsters, remembered by a Christian poet looking back on his ancestors. And third: hold on to one word that rules this whole poem — wyrd, which means fate, or destiny. This is a world where a hero's death is already fixed, where fate goes as it must, and where the only thing a man controls is not whether he dies but how — whether he meets his doom with courage, and whether his name outlives him. Beowulf is, above all, a poem about facing certain death well. It helps to picture the poem's own world. Beowulf was composed to be performed aloud, probably sung or chanted to a harp in a hall exactly like the ones it describes — a poet, a 'scop', entertaining warriors over the mead by the fire, telling them stories of the heroes of old. So the poem is self-aware about storytelling; it is a tale about the kind of fame that only survives because tales are told. And its texture is unlike modern narrative: it moves in great looping digressions, pausing constantly to recall old feuds, dead kings, and future disasters, so that every bright moment is shadowed by the poet's knowledge of the doom to come. That double vision — glory now, ruin later, both held at once — is the very soul of the poem.",
+      "on_screen": {
+        "plate": "plate-ship",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-ship"
+      ],
+      "notes": "Context: oldest English poem, one manuscript; set in pagan Scandinavia, Christian poet; wyrd/fate; dying well."
+    },
+    {
+      "id": "ch-heorot",
+      "template": "chapter-card",
+      "narration": "A golden hall full of light and song — and the thing out in the dark that cannot bear the sound of joy.",
+      "on_screen": {
+        "chapter_title": "Heorot and Grendel",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Grendel",
+            "The Fight",
+            "The Mere",
+            "The Dragon",
+            "The Barrow"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "h-heorot",
+      "template": "parallax-still",
+      "narration": "The poem opens in Denmark, where the great king Hrothgar, rich in victories, builds the most magnificent mead-hall ever seen — Heorot, the Hart, its gables sheathed in gold. In that hall his warriors feast and drink and listen to the poet's harp; it is the very image of a thriving, happy kingdom, a bright island of warmth and fellowship and song in a dark and dangerous world. But the light and the music carry out into the night. And out in the cold moors and fens beyond the hall, something is listening, and it hates the sound of human joy with its whole being. The mead-hall is the beating heart of this whole civilisation, and you have to feel what it means to grasp the poem. In a cold, violent, dangerous world, the hall is everything good: warmth, light, food, safety, companionship, the bond between a generous lord and the warriors who serve him, the songs that preserve the memory of the dead. It is human community itself, built as a fragile bright thing against the surrounding dark. So when Grendel attacks the hall — not a person, but the hall, the symbol of joyful human fellowship — he is attacking the thing the poem holds most sacred, and the horror is not just the deaths but the silencing of the song. There is a wonderful irony built into the hall's very name. Heorot means 'the Hart' — the stag — and the poet notes, almost in passing, that this gleaming monument to human glory is doomed to burn one day in a war between kinsmen. He tells us this before anything bad has even happened, so that we admire the hall and mourn it in the same breath. That is the poem's characteristic move: it will not let you enjoy the gold without seeing, at the same time, the ashes it will become. The glory is real; so is the ruin; and the poet holds them together with a steady, unflinching gaze.",
+      "on_screen": {
+        "plate": "plate-heorot",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-heorot"
+      ],
+      "notes": "Hrothgar builds Heorot, the golden mead-hall; the bright world of feast and song; something in the dark hates it."
+    },
+    {
+      "id": "h-grendel",
+      "template": "parallax-still",
+      "narration": "That something is Grendel — a monstrous, man-shaped creature descended, the poet tells us, from Cain, the first murderer, and so cursed and cast out from all human and divine fellowship. Maddened by the noise of the feasting, Grendel comes to Heorot in the night, while the warriors lie sleeping off their mead, and he slaughters them — seizing thirty men in his claws and carrying them off to his lair to devour. And he comes back the next night, and the next. For twelve long years Grendel rules Heorot by darkness: the great hall stands empty and silent every night, abandoned to the monster, and no weapon and no warrior in all of Denmark can stand against him. Hrothgar, once so mighty, is helpless, grieving, and old, and his people despair. The detail that Grendel descends from Cain — the Bible's first murderer, cursed by God for killing his brother — is the Christian poet's way of placing the monster. Grendel is kin to all the outcast, God-hating things of the world; he is envy and murderous resentment given a body, a creature who cannot bear to hear others happy. And notice what makes his reign so terrible: it is not just that he kills, but that no one can fight back. Spears and swords are useless; Grendel has bewitched himself against all weapons. The proudest warrior-culture on earth, whose entire identity is built on martial courage, is rendered utterly helpless, humiliated night after night, and that helplessness is almost worse to them than the deaths. The poet lets us feel the peculiar horror of it: not a battle but a haunting, a hall that must be surrendered to the dark every single night, its doors left open to a thing that cannot be fought, so that the proudest king in the north must simply sit in the ruins of his own glory and wait for help that never comes. Twelve years of that is less a war than a slow humiliation — and it is into that long, grinding despair that the news of a young champion across the sea finally falls like the first light in a dozen winters.",
+      "on_screen": {
+        "plate": "plate-grendel",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-grendel"
+      ],
+      "notes": "Grendel (kin of Cain) attacks Heorot nightly; 12 years of terror; Hrothgar helpless; no one can stop him."
+    },
+    {
+      "id": "q-grendel",
+      "template": "quote-card",
+      "narration": "The poet's image of the monster coming — the most famous approach in the poem.",
+      "on_screen": {
+        "quote": "'Neath the cloudy cliffs came from the moor then / Grendel going, God's anger bare he.",
+        "source": "Beowulf (trans. Hall)"
+      },
+      "notes": "Verbatim, Gutenberg #16328 (Hall trans.), lines 2340-2341."
+    },
+    {
+      "id": "ch-grendel",
+      "template": "chapter-card",
+      "narration": "Across the sea, a young warrior hears of Hrothgar's trouble — and comes looking for exactly this kind of glory.",
+      "on_screen": {
+        "chapter_title": "Beowulf and Grendel",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Grendel",
+            "The Fight",
+            "The Mere",
+            "The Dragon",
+            "The Barrow"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "g-arrival",
+      "template": "parallax-still",
+      "narration": "Word of Grendel reaches the land of the Geats, in what is now southern Sweden, and there a young warrior of enormous strength and ambition decides to answer it. His name is Beowulf, and he has the strength of thirty men in his grip. He gathers fourteen companions, crosses the sea in a ship with a curved prow, and arrives in Denmark offering Hrothgar his help — freely, for the sake of honour and of the fame he will win. He is received in Heorot with a great feast, and he makes a bold vow: he will fight Grendel. And more than that — since the monster uses no weapons, Beowulf declares he will use none either, but will meet Grendel bare-handed, hand to hand, and let fate decide between them. Watch how much the poem cares about the right way to arrive, to speak, to behave — the whole code of heroic courtesy. Beowulf is challenged on the beach by a coast-guard, questioned at the door, announced, seated, and tested in words before he ever fights; and he answers every challenge with exactly the right mixture of pride and courtesy. Even a jealous Dane, Unferth, taunts him at the feast about a youthful swimming contest he supposedly lost, and Beowulf coolly sets the record straight and puts him down. All of this matters because the poem's world runs on reputation: a hero is his name, his boasts, and his ability to back them up. Beowulf's bare-handed vow is partly piety toward fate and partly the ultimate boast — a way of staking the largest possible claim to glory. It is worth pausing on why Beowulf comes at all, because it is not quite what we expect. He owes Hrothgar nothing; Denmark is not his land. He comes because Hrothgar once did a kindness to his father, and because a monstrous problem no one else can solve is precisely the arena in which a hero wins undying fame. In this world that is not vanity but something closer to duty: a great warrior is almost obliged to seek out the hardest fights, because reputation is the one form of wealth that death cannot take, and a hero who hoards his strength at home is no hero at all. Beowulf sails toward Grendel for the same reason he will, fifty years later, walk toward the dragon — because that is simply what the best of men are for.",
+      "on_screen": {
+        "plate": "plate-beowulf",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-beowulf"
+      ],
+      "notes": "Beowulf the Geat (strength of 30 men) sails to Denmark; the feast; vows to fight Grendel bare-handed."
+    },
+    {
+      "id": "q-weird",
+      "template": "quote-card",
+      "narration": "Beowulf's creed — the poem's whole philosophy in a line. Fate goes as it must.",
+      "on_screen": {
+        "quote": "Goes Weird as she must go!",
+        "source": "Beowulf (trans. Hall; 'Weird' = fate)"
+      },
+      "notes": "Verbatim, Gutenberg #16328, line 1781. 'Weird'/'wyrd' = fate. Beowulf resigning himself to destiny."
+    },
+    {
+      "id": "g-fight",
+      "template": "parallax-still",
+      "narration": "That night the Geats lie down in Heorot to wait, and Beowulf alone stays awake. In the black of night Grendel comes, bursts the iron-barred door with a touch, and in his greed snatches and devours one sleeping Geat on the spot. Then he reaches for Beowulf — and meets, for the first time in his life, a grip stronger than his own. Beowulf seizes the monster's arm and will not let go. The two of them wrestle through the hall in the dark with such violence that the great mead-hall shakes to its foundations and benches are torn from the floor; the Danes outside listen in terror to the howling. Grendel, who came to feed, now wants only to flee back to his fen — and cannot break free. At last, with a wrench of his terrible grip, Beowulf tears the monster's whole arm and shoulder from its body. Mortally wounded, Grendel escapes shrieking into the night, to die in his lair. Beowulf nails the torn-off arm up under the roof of Heorot as a trophy. The fight is the poem's most famous set-piece, and the poet tells it with tremendous skill, partly from Grendel's own terrified point of view. We feel the monster's shock as, for the first time in his life, he meets a grip he cannot break and realises, too late, that he has walked into something far stronger than himself; his one thought becomes escape. The hall almost comes apart around them. And there is a grim justice in the manner of the victory — Beowulf honours his vow exactly, using no weapon, defeating the weapon-proof monster with the one thing Grendel never expected to meet: raw human strength and raw human courage, bare hand against claw.",
+      "on_screen": {
+        "plate": "plate-fight",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-fight"
+      ],
+      "notes": "The bare-handed fight; Heorot shakes; Beowulf tears off Grendel's arm; Grendel flees to die; the arm hung as a trophy."
+    },
+    {
+      "id": "g-joy",
+      "template": "parallax-still",
+      "narration": "At dawn the warriors follow Grendel's bloody tracks to the edge of a dark lake and rejoice; the horror of twelve years is ended. Heorot is cleansed, and Hrothgar, overjoyed, treats Beowulf almost as a son, heaping him with gold, armour, horses, and treasure. There is a great feast, the poet sings the old heroic songs again, and for one golden night the hall is restored to everything it was — light, music, laughter, a king's generosity, a hero's glory. It is the high point of the poem, the triumph of the bright human world over the dark. But the poet, who knows how these things go, keeps dropping quiet hints that the joy will not last — and he is right. The monster had a mother. This is the poem's great pivot between light and dark, and the poet lingers in the light precisely so that its loss will hurt. The restored hall, the gifts, the songs, the old stories sung again by the fire — it is everything the mead-hall is supposed to be, a vision of the good life fully achieved. But even here the poet weaves in a long, ominous tale sung by the court poet about an old slaughter in another hall, a reminder that halls burn and joy ends; and he tells us flatly that some of the men feasting so happily tonight are doomed. The poem never lets triumph stand alone; it always shows you the skull beneath the gold. It is worth naming the value the whole gift-giving scene enacts, because it is central to the poem's world: the bond between a lord and his warriors. A good king is a 'ring-giver', open-handed, rewarding loyalty and courage with gold, armour, and land; and in return his men owe him absolute loyalty, to stand by him in battle and, if need be, to die beside him. This exchange — treasure for loyalty, generosity for courage — is the glue of the whole society, the thing that makes the hall possible. Keep it in mind, because at the very end of the poem it will be put to its ultimate test, and all but one man will fail it.",
+      "on_screen": {
+        "plate": "plate-heorot",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-heorot"
+      ],
+      "notes": "Grendel's tracks to the lake; Heorot cleansed; Hrothgar rewards Beowulf; the feast and songs; a hint the joy won't last."
+    },
+    {
+      "id": "ch-mere",
+      "template": "chapter-card",
+      "narration": "That very night, grief and vengeance come up out of the water.",
+      "on_screen": {
+        "chapter_title": "The Mere",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Grendel",
+            "The Fight",
+            "The Mere",
+            "The Dragon",
+            "The Barrow"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "m-mother",
+      "template": "parallax-still",
+      "narration": "While the Geats sleep off the celebration, Grendel's mother — an equally monstrous creature who dwells with her son in the depths of the haunted lake — comes to Heorot that same night to avenge him. She bursts into the hall, snatches up Hrothgar's dearest friend and counsellor, and carries him off to her lair, seizing back her son's torn-off arm as she goes. In the morning Hrothgar is plunged from joy straight back into grief, mourning the friend she has killed. The lesson of the poem's dark world asserts itself: violence breeds violence; every killing calls out for vengeance; one monster slain only wakes another. Hrothgar leads Beowulf to the edge of the creature's home — and it is a place of pure dread. Grendel's mother is one of the poem's most interesting figures, because her motive is one we understand completely: grief, and the duty of vengeance. In this feud-driven world, a killing must be answered by the dead man's kin, and she is simply doing what any human avenger would do — coming for the life of someone dear to the man who killed her son. The poem thus quietly complicates its monsters: Grendel's mother is a creature of nightmare, but she acts on a law the human warriors live by too. Her attack also delivers the poem's hard truth about violence: no victory is ever final. Kill the monster, and you wake its mother. Win the feud, and you plant the next one. The poem's structure is beautifully balanced around these two fights in Denmark. The Grendel fight is a victory of raw strength in the bright hall, among cheering companions, at the height of the feast. The fight with his mother is its dark twin: alone, underwater, in a monstrous hall of her own, with his famous strength nearly failing and his weapon betraying him. The poet is already teaching us that each victory is harder than the last, that the hero's triumphs come at steeper and steeper cost — a pattern that points, inexorably, toward the dragon and the grave fifty years ahead.",
+      "on_screen": {
+        "plate": "plate-mother",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-mother"
+      ],
+      "notes": "Grendel's mother attacks Heorot in revenge, kills Hrothgar's counsellor, takes the arm; grief returns; the feud-world."
+    },
+    {
+      "id": "m-dive",
+      "template": "parallax-still",
+      "narration": "The lair is a nightmare lake set deep in the wolf-haunted moors: a black, joyless water overhung by frost-covered trees, where at night a sinister fire burns on the surface, and the water boils with serpents and sea-beasts. Even a hunted stag, the poet says, would rather die on the bank than plunge in to save its life. And into this water Beowulf dives, fully armed, with a borrowed sword, to find the monster in her own hall at the bottom. The dive takes the better part of a day. Grendel's mother is waiting; she seizes him, drags him down, and bears him into a strange dry cavern beneath the lake where the water cannot reach — and there, in the glow of that eerie fire, the two of them fight to the death. The description of the mere is one of the most atmospheric passages in all of early literature, and its dread is the point — this is a descent into a kind of underworld, a place of death set apart from the living world of the hall. Everything about it is the inverse of Heorot: where the hall is warm, bright, high, and full of fellowship, the mere is cold, dark, deep, and utterly solitary. By diving in alone, fully armed, Beowulf is going down into death itself to drag a victory back out, and the fact that the dive takes most of a day signals that he has passed out of the ordinary human world altogether into the realm of monsters.",
+      "on_screen": {
+        "plate": "plate-mere",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-mere"
+      ],
+      "notes": "The haunted mere (fire on the water, serpents); Beowulf dives in armed; Grendel's mother drags him to the undersea cavern."
+    },
+    {
+      "id": "m-sword",
+      "template": "parallax-still",
+      "narration": "And this fight very nearly kills him. His borrowed sword, the finest in Denmark, strikes the monster's head and simply will not bite — the first time any weapon has failed Beowulf. She throws him down and draws a knife, and only his armour saves his life. But at the last moment Beowulf sees, hanging on the cavern wall, an enormous ancient sword forged by giants, too heavy for any ordinary man to wield — and with a final surge of his great strength he seizes it and strikes off her head. He finds Grendel's corpse nearby and beheads it too, as proof. The monster's hot, venomous blood is so corrosive that it melts the giant blade away to nothing in his hand, leaving only the jewelled hilt. And far above, on the bank, the watching Danes see the lake-water stained with blood, give Beowulf up for dead, and sadly go home — while his own loyal Geats keep watch, hoping. This fight matters because it is the first time we see Beowulf genuinely at his limit — nearly killed, his famous strength not quite enough, his borrowed sword failing him when he needs it most. The poet is preparing us, far in advance, for the end of the poem: the lesson that even this hero can fail, that weapons and strength are not finally reliable, that something always comes that is stronger. And the giant sword melting in the venomous blood is a haunting image — the hero wins, but the very proof and instrument of his victory dissolves in his hand, leaving only a hilt, as if to say that even triumph does not last, that the gold runs through the fingers. There is a theological undercurrent here that the Christian poet quietly presses, too. Again and again the poem suggests that Beowulf's victories are not his strength alone but come, in the end, from God — it is 'the Ruler of Men' who lets him spot the giant sword on the wall at the moment all seems lost. The pagan heroic world of fate and fame is overlaid, gently, with a Christian sense that a power beyond the hero is shaping events. The two visions sit side by side throughout the poem, never fully reconciled — wyrd and God, fame and providence — which is part of what makes Beowulf such a fascinating hinge between two whole ways of seeing the world.",
+      "on_screen": {
+        "plate": "plate-sword",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-sword"
+      ],
+      "notes": "The borrowed sword fails; the giant-forged sword on the wall; Beowulf beheads her and Grendel; blood melts the blade; the Danes give him up."
+    },
+    {
+      "id": "m-return",
+      "template": "parallax-still",
+      "narration": "But Beowulf is not dead. He swims up out of the now-cleansed water, carrying the giant hilt and Grendel's head, and his joyful Geats bear the trophies back to Heorot. There is a second great celebration, even greater than the first. The old king Hrothgar, holding the ancient hilt, gives Beowulf a long and famous speech of warning — cautioning the young hero, at the very height of his triumph, against the pride and greed that destroy great men, reminding him that strength and glory are only lent, that age or illness or the sword will take them all in the end, and that even the mightiest must one day die. Beowulf, laden with gifts, sails home to the land of the Geats a famous man, and in time becomes a wise and generous king himself. And then the poem does something extraordinary: it leaps forward fifty years. Hrothgar's long speech over the giant hilt is the moral centre of the whole first part of the poem, and it is worth taking seriously. The old king, looking at this magnificent young hero at the absolute peak of his powers, warns him about what comes next: how a man blessed with strength and success can slowly be corrupted by pride, grow greedy and hard, forget that it was all only lent to him — and how, even if he escapes that, age and illness and the blade are coming anyway; the body fails, the eye dims, and death takes the mightiest in the end. It is a warning about mortality aimed straight at a young man who feels immortal — and the poem will spend its second half proving every word of it true.",
+      "on_screen": {
+        "plate": "plate-heorot",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-heorot"
+      ],
+      "notes": "Beowulf returns victorious; Hrothgar's warning speech on pride and mortality; Beowulf sails home, later becomes king; 50-year leap."
+    },
+    {
+      "id": "ch-dragon",
+      "template": "chapter-card",
+      "narration": "Fifty years later, the hero is an old king — and the last monster is the one that has his measure.",
+      "on_screen": {
+        "chapter_title": "The Dragon",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Grendel",
+            "The Fight",
+            "The Mere",
+            "The Dragon",
+            "The Barrow"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "d-dragon",
+      "template": "parallax-still",
+      "narration": "Beowulf has ruled the Geats well for fifty winters, and is now an old man. And in his kingdom there sleeps a dragon, coiled for three hundred years upon a vast hoard of ancient gold buried in a barrow. One day a runaway slave, stumbling on the barrow, steals a single jewelled cup to buy back his freedom. It is enough. The dragon wakes, finds its treasure touched, and in its fury takes to the air by night, breathing fire, burning farms and villages and halls across the land — and it burns down Beowulf's own royal hall. This is the third and final monster, and it is different from the others. Grendel and his mother were creatures of the dark fens; the dragon is something older and more elemental — greed and destruction itself, roused by one small human theft, and it will not be beaten without a terrible price. The fifty-year leap is one of the boldest moves in the poem, and it changes everything. The young adventurer who fought for glory in another king's hall is now an old king himself, responsible for a whole people, and the carefree heroism of the first half has deepened into something heavier and sadder. And the dragon is the perfect final adversary. It is not an outcast like Grendel or an avenger like his mother; it is older, blinder, more impersonal — a force of pure destruction sleeping on a useless hoard, roused by a single act of petty human theft. There is a deep, almost unbearable irony in it: three hundred years of buried gold, a kingdom laid waste, and a hero's life, all set in motion by one frightened slave stealing one cup.",
+      "on_screen": {
+        "plate": "plate-dragon",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-dragon"
+      ],
+      "notes": "50 years on, King Beowulf old; a dragon on a hoard; a stolen cup wakes it; it burns the land and Beowulf's hall."
+    },
+    {
+      "id": "d-fight",
+      "template": "parallax-still",
+      "narration": "Old as he is, Beowulf will not send others to do what is his to do. He has an iron shield made against the fire, and goes with a small band of warriors to the dragon's barrow to face it himself — and he knows, this time, that this fight is likely to be his last; he feels his death approaching, and says so. He challenges the dragon, and it comes roaring out in a torrent of flame. But Beowulf is old now, his strength not what it was, and the fight goes badly. His sword fails him against the dragon's scales; the fire drives him back. And at the crucial moment, his hand-picked warriors — all but one — break and flee in terror into the woods, abandoning their lord to die. The great hero, who once needed no one, is left alone against the fire, failing. The contrast with the Grendel fight could not be sharper, and the poet means us to feel every bit of it. Fifty years ago Beowulf fought bare-handed, exuberant, certain of victory, in the pride of his youth. Now he goes to the barrow armed and armoured and heavy-hearted, an old man who already senses, and openly says, that this fight will likely be his death. There is no boasting now, only grim duty — the king doing what only the king can do. And the desertion of his warriors is devastating: the very bond between lord and retainers that the whole poem holds sacred, the gift-giving and the loyalty it was meant to buy, fails at the one moment it is truly tested. All but one of them run. And notice how the poem frames the whole dragon episode as the mirror-image of a fallen golden age. The hoard the dragon guards was buried, the poet tells us in a famous elegiac passage, by the last survivor of a forgotten people, a lone man who laid his vanished tribe's treasure in the earth because there was no one left to use it, and spoke a lament over it before he died. The gold is already a monument to extinction before the dragon ever coils around it. So when it destroys Beowulf and is reburied with him, the poem closes a great circle: treasure comes out of the earth with one dead people's sorrow and goes back into it with another's, and the dragon is simply the gap of fire in between.",
+      "on_screen": {
+        "plate": "plate-dragonfight",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-dragonfight"
+      ],
+      "notes": "Old Beowulf faces the dragon himself, sensing his death; his sword fails; all his warriors flee but one."
+    },
+    {
+      "id": "d-wiglaf",
+      "template": "parallax-still",
+      "narration": "All but one. A young kinsman named Wiglaf, alone of the troop, is so ashamed to see the warriors abandon the lord who gave them everything that he turns back and runs into the fire to stand beside Beowulf. Together, the dying old king and the loyal young warrior kill the dragon at last — Wiglaf striking it lower down where the scales are soft, Beowulf driving his knife into its belly. But it is too late for Beowulf. The dragon's venomous bite has pierced his neck, and the poison is spreading; the wound is mortal. The monster is dead, the hoard is won — and the hero is dying. Wiglaf is the poem's last great figure, and he carries its deepest value: loyalty that holds even unto death. He is young, he has never been tested in battle, and he is terrified — but he is more afraid of the shame of abandoning his lord than of the dragon's fire, and so he runs toward the one thing everyone else is running from. His courage lets Beowulf win his final victory; without Wiglaf, the hero would simply have been killed for nothing. And Wiglaf embodies the poem's faint, fragile hope — that the heroic code, the loyalty and courage that hold a people together, can be passed on to a new generation even as the old hero falls. Through Wiglaf the poem also delivers its harshest judgement. When the cowards who fled creep back out of the woods, Wiglaf turns on them with furious contempt, and his words carry the force of the whole heroic code: they took their lord's gifts, his gold and armour and feasting, and when the one moment came that those gifts were meant to buy — standing by him in deadly danger — they ran. He declares them and their families shamed forever, stripped of the right to the warrior's life. It is the poem insisting, even in its grief, on the value that gives the whole world meaning: that loyalty is not loyalty if it holds only when it is safe.",
+      "on_screen": {
+        "plate": "plate-dragonfight",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-dragonfight"
+      ],
+      "notes": "Wiglaf alone stands by Beowulf; together they kill the dragon; but Beowulf is mortally poisoned."
+    },
+    {
+      "id": "ch-barrow",
+      "template": "chapter-card",
+      "narration": "A hero's death, a mountain of gold, and a people who know what is coming for them.",
+      "on_screen": {
+        "chapter_title": "The Barrow",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Grendel",
+            "The Fight",
+            "The Mere",
+            "The Dragon",
+            "The Barrow"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "b-death",
+      "template": "parallax-still",
+      "narration": "As he dies, Beowulf asks Wiglaf to bring out some of the dragon's treasure so that he can see, with his own eyes, the gold he has bought with his life — and there is something both triumphant and desolate in it, an old man gazing at a heap of ancient gold as the poison takes him. He gives Wiglaf his collar and his armour, names him his heir, and asks one last thing: that his people burn his body and raise a great barrow for him on a headland high above the sea, so that sailors steering through the dark waters will see it from far off and call it Beowulf's Barrow, and remember him. He thanks God for the treasure he has won for his people. And then, with the words that his fate has gone as it must, the last and greatest of the heroes dies. Beowulf's dying wish to see the gold is one of the poem's most poignant and ambiguous moments. Is it the fitting reward of a hero who has won a treasure for his people? Or is there something hollow in an old man spending his last breath gazing at a heap of metal that, we will learn, is about to be buried uselessly in the earth with him? The poem lets both readings stand. And his request for the barrow on the headland is pure Beowulf: even in death, his thought is for his name, for being remembered, for the sailors who will see the great mound from the sea and speak of him. The barrow is his bid for the only immortality this world offers — the memory of the living.",
+      "on_screen": {
+        "plate": "plate-death",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-death"
+      ],
+      "notes": "Dying Beowulf sees the gold; makes Wiglaf heir; asks for a barrow visible from the sea; dies."
+    },
+    {
+      "id": "b-lament",
+      "template": "parallax-still",
+      "narration": "Wiglaf bitterly rebukes the cowards who fled, and warns that without Beowulf to protect them, the Geats are now doomed — their enemies, long held in check only by fear of Beowulf, will fall upon them, and the whole people face destruction and exile. This is the shadow that falls over the ending: the hero's death is not just a personal loss but the beginning of the end for his entire nation. The Geats build the funeral pyre, heap it with the dragon's treasure, and burn their king; the smoke rises into the sky while a woman sings a lament of the coming days of slaughter and captivity. Then they raise the great barrow on the headland as he asked, and bury all the hard-won dragon-gold in the earth with him — useless now, as useless as it ever was. Twelve warriors ride around the mound, mourning their king and praising him. The ending of Beowulf is one of the most sorrowful in literature, and it refuses the comfort of a clean heroic triumph. Yes, the dragon is dead and the hero is honoured — but the overwhelming note is loss and dread. Wiglaf and the mourners know that Beowulf was the shield of his whole people, and that with him gone, old enemies will close in and the Geats as a nation are likely finished. The woman's lament at the pyre, singing of the slaughter and slavery to come, turns the funeral of one man into a vision of the fall of a whole world. And the reburial of all that hard-won gold in the mound is the poem's final, bleak comment on treasure: men kill and die for it, and in the end it goes back into the ground, as useless to the dead as it was dangerous to the living. And so the poem that began with the founding of a dynasty and the building of a golden hall ends with a funeral pyre and a prophecy of a people's fall — the full arc of glory, from rise to ruin, compressed into one hero's life. That shape is the poem's final wisdom: that everything human, however bright, is on loan; that halls burn, gold returns to the earth, strength fails, and nations end; and that the only thing that can be carried across the dark is the memory of how a man and a people met their fate. The Geats raise the barrow so the story will be told — and the poet, raising his poem, does exactly the same thing on a far greater scale.",
+      "on_screen": {
+        "plate": "plate-funeral",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-funeral"
+      ],
+      "notes": "Wiglaf rebukes the cowards; the Geats doomed; the funeral pyre; the gold reburied; the barrow; the riders mourn."
+    },
+    {
+      "id": "q-epitaph",
+      "template": "quote-card",
+      "narration": "And the poem ends on the warriors' epitaph for their king — the last lines of the oldest poem in English.",
+      "on_screen": {
+        "quote": "Kindest of kings under heaven, / gentlest of men, most winning of manner, / friendliest to folk-troops and fondest of honor.",
+        "source": "Beowulf, closing lines (trans. Hall)"
+      },
+      "notes": "Verbatim, Gutenberg #16328, lines 6552-6554 (lightly set as three lines)."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why does this ancient poem, in a language we can no longer even read without translation, still grip us thirteen centuries on? Partly because it is simply a tremendous story — three monsters, a bare-handed fight, a dive into a haunted lake, a dragon, a hero's last stand — the deep root from which a thousand later fantasies, from Tolkien to every dragon-slaying tale since, have grown. But its real power is its mood: a profound, clear-eyed seriousness about mortality. Beowulf is a poem about a hero who wins every battle and still, in the end, loses — because everyone does; because fate goes as it must; because even the strongest man who ever lived grows old, and meets the one enemy he cannot beat, and dies. And it asks what, in the face of that certainty, a life can be worth. Its answer is courage, and loyalty, and above all a name that outlives the body — the fame that is the only immortality this stern old world believes in. The whole poem is a kind of barrow raised on a headland: built so that we, sailing past more than a thousand years later, would still see it, and still remember the man. And it is worth remembering how nearly we lost it. Beowulf survives in a single manuscript, scorched at the edges by a library fire in 1731 that came within inches of destroying it entirely; a few degrees hotter and the foundation stone of English literature would simply have ceased to exist, and no one would ever have known. That the poem reaches us at all is itself a kind of answer to its own deepest anxiety — the fear of being forgotten. The unknown poet built a monument in words to heroes already ancient in his own day, trusting that the telling would outlast the tellers. More than a thousand years later, in a language he would not recognise, we are still speaking Beowulf's name. The barrow held.",
+      "on_screen": {
+        "plate": "plate-funeral",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-funeral"
+      ],
+      "notes": "Close: why it endures — the root of fantasy; mortality and wyrd; courage, loyalty, and fame as the only immortality."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of Beowulf — the oldest story in English, and still one of the bravest: a hero who faced three monsters and his own certain death, and asked only to be remembered. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. Seek out a good modern translation and read it aloud if you can — it was always meant to be heard, in a hall, in the dark. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}

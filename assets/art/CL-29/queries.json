@@ -1,0 +1,79 @@
+{
+  "book_code": "CL-29",
+  "book": "Beowulf",
+  "note": "Art queries for the Old English epic Beowulf. Wikimedia Commons, PD/CC0 only. Nordic/heroic public-domain art: Theodor Kittelsen's trolls and dragons (d.1914), Peter Nicolai Arbo's Norse heroes, J.R. Skelton's 1908 Beowulf illustrations, Frank Dicksee's Funeral of a Viking, and dark Nordic landscapes. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-beowulf",
+      "count": 1,
+      "query": "Marten Eskil Winge Thor battle painting",
+      "want": "Winge, a mighty Norse hero in battle — Beowulf (PD)"
+    },
+    {
+      "id": "plate-ship",
+      "count": 1,
+      "query": "Ivan Aivazovsky ship stormy sea painting",
+      "want": "Aivazovsky, a ship on rough seas — the voyage (PD)"
+    },
+    {
+      "id": "plate-heorot",
+      "count": 1,
+      "query": "Paolo Veronese feast banquet painting",
+      "want": "A great hall feast — Heorot (PD)"
+    },
+    {
+      "id": "plate-grendel",
+      "count": 1,
+      "query": "Theodor Kittelsen troll monster painting",
+      "want": "Kittelsen, a monstrous troll — Grendel (PD)"
+    },
+    {
+      "id": "plate-fight",
+      "count": 1,
+      "query": "J.R. Skelton Beowulf Grendel illustration",
+      "want": "Skelton, Beowulf fights Grendel (PD)"
+    },
+    {
+      "id": "plate-mother",
+      "count": 1,
+      "query": "Theodor Kittelsen Nokken water spirit painting",
+      "want": "Kittelsen, a lurking water-monster — Grendel's mother (PD)"
+    },
+    {
+      "id": "plate-mere",
+      "count": 1,
+      "query": "Caspar David Friedrich The Monk by the Sea painting",
+      "want": "A black desolate water — the haunted mere (PD)"
+    },
+    {
+      "id": "plate-sword",
+      "count": 1,
+      "query": "J.R. Skelton Beowulf illustration",
+      "want": "Skelton, Beowulf in the monster's hall (PD)"
+    },
+    {
+      "id": "plate-dragon",
+      "count": 1,
+      "query": "Theodor Kittelsen dragon painting",
+      "want": "Kittelsen, a dragon on its hoard (PD)"
+    },
+    {
+      "id": "plate-dragonfight",
+      "count": 1,
+      "query": "J.R. Skelton Beowulf dragon illustration",
+      "want": "Skelton, Beowulf and Wiglaf fight the dragon (PD)"
+    },
+    {
+      "id": "plate-death",
+      "count": 1,
+      "query": "Peter Nicolai Arbo dying warrior painting",
+      "want": "A dying warrior king — Beowulf's death (PD)"
+    },
+    {
+      "id": "plate-funeral",
+      "count": 1,
+      "query": "Frank Dicksee The Funeral of a Viking painting",
+      "want": "Dicksee, a Viking funeral — the pyre/barrow (PD)"
+    }
+  ]
+}
