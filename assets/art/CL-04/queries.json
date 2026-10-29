@@ -1,0 +1,49 @@
+{
+  "book_code": "CL-04",
+  "book": "Othello",
+  "note": "Art queries for Shakespeare's Othello. Wikimedia Commons, PD/CC0 only. Théodore Chassériau's Othello/Desdemona series; Cabanel's Desdemona; Canaletto's Venice; a dark Rembrandt portrait for Iago; a Mediterranean fortress for Cyprus. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-othello",
+      "count": 1,
+      "query": "Theodore Chasseriau Othello Desdemona painting",
+      "want": "Chassériau, Othello (PD)"
+    },
+    {
+      "id": "plate-iago",
+      "count": 1,
+      "query": "Rembrandt portrait of a man dark background painting",
+      "want": "A sinister dark-eyed man — Iago (PD)"
+    },
+    {
+      "id": "plate-venice",
+      "count": 1,
+      "query": "Canaletto Grand Canal Venice painting",
+      "want": "Canaletto, Venice (PD)"
+    },
+    {
+      "id": "plate-desdemona",
+      "count": 1,
+      "query": "Alexandre Cabanel Desdemona painting",
+      "want": "Cabanel, Desdemona (PD)"
+    },
+    {
+      "id": "plate-cyprus",
+      "count": 1,
+      "query": "Ivan Aivazovsky stormy sea painting",
+      "want": "Aivazovsky, a storm at sea — the fleet wrecked off Cyprus (PD)"
+    },
+    {
+      "id": "plate-handkerchief",
+      "count": 1,
+      "query": "Johannes Vermeer The Lacemaker painting",
+      "want": "Vermeer, a woman with fine cloth — the handkerchief (PD)"
+    },
+    {
+      "id": "plate-murder",
+      "count": 1,
+      "query": "Eugene Delacroix Othello Desdemona death painting",
+      "want": "Delacroix, the death of Desdemona (PD)"
+    }
+  ]
+}

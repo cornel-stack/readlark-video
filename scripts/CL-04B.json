@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "code": "CL-04B",
+    "book": "Othello",
+    "author": "William Shakespeare",
+    "year": "c. 1603",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Othello: The Full Story Explained (Shakespeare)",
+    "search_phrase": "Othello full story explained"
+  },
+  "chapters": [
+    {
+      "title": "The honest villain",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Marriage",
+      "first_scene": "ch-marriage"
+    },
+    {
+      "title": "Iago's Grudge",
+      "first_scene": "ch-iago"
+    },
+    {
+      "title": "The Handkerchief",
+      "first_scene": "ch-handkerchief"
+    },
+    {
+      "title": "The Poison Works",
+      "first_scene": "ch-poison"
+    },
+    {
+      "title": "The Murder",
+      "first_scene": "ch-murder"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In Othello, a trusted friend quietly persuades a great general that his faithful wife is betraying him, and talks him, step by step, into murdering her.",
+      "on_screen": {
+        "question": "The honest villain",
+        "plate": "plate-othello"
+      },
+      "assets": [
+        "plate-othello"
+      ],
+      "notes": "Hook before any title. ~26 words, minimal pauses. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Othello, by William Shakespeare, written around sixteen oh three.",
+      "on_screen": {
+        "title": "Othello",
+        "author": "William Shakespeare",
+        "year": "c. 1603",
+        "subtitle": "The Moor of Venice"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. Othello is the most intimate and claustrophobic of Shakespeare's great tragedies — not a play about kingdoms and armies, but about a marriage, a bedroom, and a whispered lie, and it moves with terrifying speed once the poison starts to work. Second: its hero is an outsider — Othello is a Moor, a Black African, a brilliant general in the service of Venice, honoured for his command but never fully accepted by the white society around him; and his sense of not quite belonging is exactly the crack through which the villain will reach him. And third: hold on to that villain, Iago, because he is the real engine of the play and perhaps the most chilling creation in all of Shakespeare. Everyone calls him 'honest Iago'; everyone trusts him completely; and he spends the entire play, in plain sight, destroying them one by one — for reasons he never convincingly explains, taking a pure, motiveless delight in the ruin of good people. The horror of Othello is not a monster. It is a trusted friend. It helps to know how tight and fast the play is. Where Hamlet broods for five acts, Othello is a trap that snaps shut: once Iago begins his work in earnest, the fall from perfect love to murder happens with horrifying speed, over what feels like a matter of days. Shakespeare builds it almost like a thriller — we, the audience, are made Iago's confidants, shown every lie as he plants it, so that we spend the whole play knowing the truth and screaming inwardly at characters who cannot hear us. That dramatic irony is the engine of its dread. And the play is unusual among the tragedies for its domestic scale: the stakes are not a crown or a country but a single marriage, which makes its destruction feel less like a historical catastrophe and more like something that could happen in any house, to anyone who loves and trusts.",
+      "on_screen": {
+        "plate": "plate-iago",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-iago"
+      ],
+      "notes": "Context: intimate domestic tragedy; Othello the outsider/Moor; Iago the trusted 'honest' villain with no real motive."
+    },
+    {
+      "id": "ch-marriage",
+      "template": "chapter-card",
+      "narration": "A famous general secretly marries a senator's daughter — and the whole city reacts.",
+      "on_screen": {
+        "chapter_title": "The Marriage",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Marriage",
+            "The Grudge",
+            "The Handkerchief",
+            "The Poison",
+            "The Murder"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "m-elope",
+      "template": "parallax-still",
+      "narration": "The play opens at night in Venice with Iago already at work, waking the senator Brabantio with crude, racist shouts to tell him that his daughter Desdemona has secretly run off and married Othello, the Moorish general. Brabantio is enraged — he cannot believe his gentle daughter would choose a Black foreigner of her own free will, and accuses Othello of bewitching her with spells and drugs. He hauls Othello before the Senate to answer the charge. But it is a moment of crisis for Venice: the Turkish fleet is sailing to attack Cyprus, and Othello is the one general they need. So the Senate hears him out — and Othello, calm and magnificent, explains that he won Desdemona not by witchcraft but by telling her the stories of his extraordinary life, and that she loved him for the dangers he had passed, and he loved her that she did pity them. The opening is a masterstroke of characterisation by indirection. Before we even meet Othello, we hear him described — by Iago and Brabantio — in ugly, racist terms, as a lustful animal who must have used black magic to seduce a white woman. And then Othello himself appears, and he is the opposite of every slur: calm, courteous, commanding, magnificently eloquent. Shakespeare deliberately lets us hear the prejudice first and then watch it refuted, so that we feel both the nobility of the man and the ignorant hostility that surrounds him. That gap — between what Othello is and how Venice sees him — is the psychological ground the whole tragedy is built on, because some part of Othello has absorbed that hostility, and quietly fears he does not truly belong.",
+      "on_screen": {
+        "plate": "plate-venice",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-venice"
+      ],
+      "notes": "Venice at night; Iago rouses Brabantio with racist slurs; the secret marriage; the Senate; Othello's defence; the Turkish threat."
+    },
+    {
+      "id": "m-desdemona",
+      "template": "parallax-still",
+      "narration": "Then Desdemona herself is brought in, and she confirms it in her own voice: she freely and gladly chose Othello, she loves him, and her duty is now to her husband. It is a genuine, deep, mutual love — and, for its moment, a quietly radical one, a noble Venetian woman and a Black African general who have crossed every line of race and rank to marry for love alone. The Senate accepts it; Brabantio, defeated, gives his daughter up with a bitter, ominous warning to Othello — she deceived me, her own father, so she may deceive you. Iago files that seed away. Othello is ordered at once to Cyprus to lead the defence, and Desdemona insists on going with him. The newlyweds sail for the island — and so does Iago, with his plan already forming. Desdemona is far from a passive victim in these early scenes; she is bold, articulate, and completely sure of her own heart, defying her father in open court to claim the man she chose. Their love is presented as real and equal and mutual — which is exactly what makes its poisoning so tragic. And Brabantio's parting shot — that a daughter who deceived her father might deceive her husband too — is the first drop of poison, planted not by Iago but by a bitter old man, and Iago will spend the play watering it. Notice too that Othello and Desdemona have barely had time to be married before the war separates and reunites them on Cyprus; their love is deep but new, untested, with no long history of trust to fall back on when the doubts begin. Iago attacks a bond that has not yet had time to set. There is a quiet, radical boldness in Shakespeare putting an interracial marriage at the centre of a tragedy in 1603, and in making it, at the start, genuinely admirable — a union of two people who saw past everything their society told them to see. Part of what the play exposes, slowly and painfully, is how that society cannot leave such a union alone; the racism that greets it in the first scene never really goes away, it just goes quiet, and it lives on inside Othello himself as a buried doubt that he, the outsider, could ever truly deserve or keep a woman like Desdemona. Iago does not create that doubt; he finds it already there, and turns the key.",
+      "on_screen": {
+        "plate": "plate-desdemona",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-desdemona"
+      ],
+      "notes": "Desdemona affirms her free love; the interracial marriage; Brabantio's parting warning ('she may deceive you'); all sail to Cyprus."
+    },
+    {
+      "id": "ch-iago",
+      "template": "chapter-card",
+      "narration": "Why does Iago do it? He gives reasons — and none of them are enough.",
+      "on_screen": {
+        "chapter_title": "Iago's Grudge",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Marriage",
+            "The Grudge",
+            "The Handkerchief",
+            "The Poison",
+            "The Murder"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "i-grudge",
+      "template": "parallax-still",
+      "narration": "Iago is Othello's ensign — his flag-bearer, a trusted junior officer — and he hates him. The grievance he states first is this: Othello passed him over for promotion, choosing instead a younger, less battle-tested man, Cassio, as his lieutenant, leaving Iago stuck in the lower post. That is motive enough for resentment. But Iago keeps offering more reasons, each flimsier than the last — a rumour that Othello slept with his wife Emilia, which he does not even believe; a vague envy of Cassio's grace; a general loathing. None of them is remotely proportionate to the devastation he sets out to cause. And that, critics have argued for four hundred years, is the point: Iago's search for a motive is itself a kind of mask. He destroys because he can, because he is good at it, because the ruin of better, happier people gives him pleasure. The poet Coleridge famously called it the 'motive-hunting of a motiveless malignity'. The question of Iago's motive is one of the most famous puzzles in literature, and Shakespeare clearly makes it a puzzle on purpose. Iago offers reason after reason — the lost promotion, the suspicion about his wife, class resentment, even a hinted attraction — but he discards them as readily as he picks them up, and none would move a normal person to such patient, total evil. The effect is that his malice feels bottomless, unanchored, a will to destroy that precedes any grievance and merely collects grievances as excuses. That is far more frightening than a clear motive would be, because a clear motive could be reasoned with or satisfied. Iago cannot. He is the embodiment of a certain kind of real human evil — the person who resents goodness simply for being good, and sets out to smash it, and smiles while doing it. It is worth noticing what Iago is not. He is not driven by love, or by a wrong so great it demands redress, or by any cause larger than himself. He resents being passed over, yes — but we sense that if Othello had promoted him, Iago would simply have found another reason. His soliloquies, where he tries out motive after motive like a man trying on coats, reveal a mind that has already decided to destroy and is merely shopping for a justification. Shakespeare gives us, in Iago, a study of evil as something close to an appetite — a need to pull down what is good, whole, and happy, precisely because it is good, whole, and happy — and he makes it all the more frightening by refusing to let us explain it away.",
+      "on_screen": {
+        "plate": "plate-iago",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-iago"
+      ],
+      "notes": "Iago's stated grudge (passed over for Cassio); the flimsy extra motives; 'motiveless malignity'; he destroys for its own sake."
+    },
+    {
+      "id": "q-iam",
+      "template": "quote-card",
+      "narration": "Iago's creed — he is never what he appears, and he tells us so directly.",
+      "on_screen": {
+        "quote": "I am not what I am.",
+        "source": "Iago, Act 1"
+      },
+      "notes": "Verbatim, Gutenberg #1531, line 183."
+    },
+    {
+      "id": "i-method",
+      "template": "parallax-still",
+      "narration": "Iago's genius — and it is a horrible genius — is that he works entirely through other people's trust. He never lifts a hand himself; he lets others do everything, steered by hints, half-truths, and perfectly judged silences. His great weapon is his reputation for blunt, plain honesty: because everyone believes Iago is too rough and truthful to lie, they swallow his poison as hard-won fact. And he tells us his whole method directly, speaking to the audience in soliloquy as a co-conspirator — which is part of what makes watching the play so unbearable. We know exactly what he is doing and to whom, we watch him lay every trap, and we can only watch, helpless, as the trusting people around him walk straight into it, thanking him as they go. His first move: to destroy the lieutenant who got his job — Cassio. What makes Iago so dangerous is that he weaponises virtue — everyone else's and his own apparent one. He never tells a provable lie; he deals in insinuation, in the pregnant pause, in refusing to say what he is clearly implying, so that his victims convict the innocent out of their own imaginations while Iago keeps his hands clean. And his reputation for gruff honesty is itself a weapon: because 'honest Iago' is known to be too plain-spoken for flattery or deceit, his poison is received as reluctant truth. The bitter irony that rings through the whole play is that everyone, right up to the moment of their destruction, calls him honest. Shakespeare is showing us something permanently true and permanently chilling: that the most effective liars are the ones everyone trusts, and that evil often succeeds not by looking evil but by looking blunt, loyal, and reliable. And consider the cruelty of the relationship at the play's core: Iago is Othello's most trusted confidant, the man Othello turns to in his worst hour for comfort and counsel — and that counsellor is the very source of his agony. Othello keeps running to Iago for relief from a wound Iago is secretly twisting deeper. It is a nightmare image of betrayal, the betrayer disguised as the one safe harbour, and it is why the play feels so airless and inescapable: there is no one for Othello to turn to who is not already compromised, because the person steering him is the person he trusts above all others, including, fatally, above his own wife.",
+      "on_screen": {
+        "plate": "plate-iago",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-iago"
+      ],
+      "notes": "Iago's method: works through others' trust; his 'honest' reputation; soliloquies to the audience; targets Cassio first."
+    },
+    {
+      "id": "ch-handkerchief",
+      "template": "chapter-card",
+      "narration": "On Cyprus, with the war won before it starts, Iago goes to work in earnest.",
+      "on_screen": {
+        "chapter_title": "The Handkerchief",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Marriage",
+            "The Grudge",
+            "The Handkerchief",
+            "The Poison",
+            "The Murder"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "h-cassio",
+      "template": "parallax-still",
+      "narration": "The threat to Cyprus evaporates — a storm scatters the Turkish fleet before a blow is struck — so the play's war is over almost before it begins, and all that terrible martial energy turns inward, onto the marriage. Iago strikes first at Cassio. On the night of the victory celebration, he gets the lightweight-drinking Cassio drunk, then has his dupe Roderigo provoke him into a brawl that wakes the whole garrison. Othello, furious at the disorder on his first night of command, strips Cassio of his lieutenancy on the spot. Cassio is devastated — his reputation is everything to him. And now Iago, all sympathy, gives him some 'friendly' advice: go to Desdemona, he says; she is kind and persuasive; ask her to plead with her husband to restore you. Cassio, grateful, takes the advice — walking straight into the trap. Notice how economically Iago works — he never acts directly but always makes his victims the instruments of their own ruin. He does not slander Cassio to Othello; he gets Cassio drunk and lets Cassio disgrace himself. He does not forge a love letter; he arranges for the innocent to look guilty and lets appearances speak. Even his advice to Cassio — go to kind Desdemona for help — is, on its face, genuinely good advice, the sort a true friend would give, which is why Cassio takes it gratefully. That is the diabolical elegance of the scheme: every single step is something the victims choose to do themselves, for good and understandable reasons, so that Iago can stand back and watch good people build their own catastrophe while thanking him for his counsel. It is also worth seeing how Iago turns everyone's best qualities into the tools of their destruction. Cassio's great virtue is his courtesy and charm with women — so Iago makes that charm look like seduction. Desdemona's great virtue is her generous, persistent kindness — so Iago makes her advocacy for Cassio look like a lover's special pleading. Even Othello's virtues, his honesty and his wholehearted trust, are turned into weapons: because Othello cannot imagine such elaborate deceit, he cannot see it when it is right in front of him. Iago's scheme is diabolical precisely because it does not corrupt good people into doing bad things; it uses them, exactly as they are, at their best, to ruin each other. Poor Roderigo is worth a mention here, because he is Iago's other great dupe and a small study in the same method: a rich, foolish young man besotted with Desdemona, whom Iago keeps on a string with promises of winning her, all the while emptying his purse — 'put money in thy purse', Iago tells him again and again — and using him as a disposable tool, first to start the brawl that ruins Cassio and later to try to murder him. Roderigo is a warning in miniature of what it means to trust Iago: he gives the villain everything, believes every lie, and is discarded and killed for his pains the moment he is no longer useful.",
+      "on_screen": {
+        "plate": "plate-cyprus",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-cyprus"
+      ],
+      "notes": "Cyprus; the Turkish fleet wrecked by storm; Iago gets Cassio drunk, engineers a brawl; Othello demotes Cassio; Iago tells Cassio to beg Desdemona."
+    },
+    {
+      "id": "h-insinuate",
+      "template": "parallax-still",
+      "narration": "Here is the whole trap in one elegant, evil design. Cassio now begins meeting privately with Desdemona to beg her help; Desdemona, kind-hearted and keen to help her husband's friend, takes up Cassio's cause and nags Othello, affectionately and persistently, to reinstate him. So everywhere Othello turns, his wife is pleading for the handsome young officer, and the handsome young officer is slipping away from private conversations with his wife. And at Othello's ear, always, is honest Iago — saying almost nothing, just enough: a hesitation, a muttered 'I like not that' as Cassio leaves Desdemona, a reluctance to speak his 'fears', a show of not wanting to slander anyone. He never makes an accusation. He simply arranges the appearances and lets Othello's own imagination do the murdering. This central sequence — often called the 'temptation scene' — is a masterclass in manipulation, and worth watching closely for how little Iago actually says. He plants doubt almost entirely through what he refuses to say: he starts to speak and stops, he begs Othello not to make him repeat his 'fears', he warns Othello against the very jealousy he is kindling, he praises Desdemona's virtue in a tone that makes it sound like a question. Each reluctance makes Othello more desperate to know, so that Othello ends up demanding the poison and begging for it. By the end of a single conversation, a man who entered serenely certain of his wife's love leaves consumed with doubt — and Iago has not made one direct accusation. He has only held up a frame and let Othello paint the betrayal inside it. And watch what Iago does with Othello's own nature as an outsider. He slyly reminds Othello that he does not truly know Venetian women, that Venetian wives are famous for hiding affairs from their husbands, that Desdemona already deceived her own father to marry him — turning Othello's unfamiliarity with the society he serves into a weapon against his wife. Every insecurity the Moor has about belonging, Iago gently presses, until Othello half-believes that a young, beautiful, white Venetian noblewoman could never truly have loved a weathered Black soldier, and must inevitably tire of him and turn to someone like the smooth young Cassio. The racism of Venice, which greeted the marriage in the first scene, now does its deepest damage from inside Othello's own head.",
+      "on_screen": {
+        "plate": "plate-desdemona",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-desdemona"
+      ],
+      "notes": "The trap: Desdemona pleads Cassio's case (as Iago planned); Cassio's private meetings; Iago's hints and insinuations at Othello's ear."
+    },
+    {
+      "id": "q-jealousy",
+      "template": "quote-card",
+      "narration": "Iago, pretending to warn Othello against the very thing he is manufacturing.",
+      "on_screen": {
+        "quote": "It is the green-ey'd monster which doth mock / The meat it feeds on.",
+        "source": "Iago, Act 3 (of jealousy)"
+      },
+      "notes": "Verbatim, Gutenberg #1531, line 2842. 'green-ey'd' per the source."
+    },
+    {
+      "id": "h-napkin",
+      "template": "parallax-still",
+      "narration": "Iago needs one piece of seeming proof, and he finds it in a trifle: a handkerchief. It was Othello's very first gift to Desdemona, an heirloom embroidered with strawberries, precious to them both. Desdemona happens to drop it; Iago's wife Emilia, Desdemona's maid, finds it and — not knowing what it will be used for — gives it to her husband, who has asked for it a hundred times. Iago plants the handkerchief in Cassio's room. And now he has his 'ocular proof' to dangle: he tells Othello he has seen Cassio wipe his beard with that very handkerchief, and that Cassio, talking in his sleep, murmured Desdemona's name. For a token of their first love to become the evidence of her supposed betrayal is a particularly cruel stroke — and it is enough. The small square of cloth tips Othello over the edge. It is worth dwelling on how absurdly slight the 'proof' is, because that slightness is the whole point. The entire tragedy — a great marriage, several lives — hinges on a handkerchief, a scrap of embroidered cloth, plus a few of Iago's inventions. There is no affair, no letter, no witness, nothing real at all; Othello demands 'ocular proof' and is given, in effect, a dropped napkin and a liar's say-so, and it is enough. Shakespeare seems to be saying something frightening about jealousy: that once the poison is in, it does not actually require evidence, it manufactures its own, seizing on trifles and swelling them into certainties. A secure love could have laughed off the handkerchief in a sentence. Othello's, attacked before it had set and undermined by his own insecurity, is destroyed by it. Shakespeare gives the handkerchief a weight far beyond its size by making it the single physical token of Othello and Desdemona's love — his first gift, an heirloom he says was woven with magic and given to his mother, a thing charged with meaning for them both. So when it migrates, by pure chance and Iago's design, into the wrong hands and the wrong bed, it is not just evidence; it is their love itself, stolen and defiled and turned into the instrument of its own murder. That a marriage can be destroyed by the loss of a square of cloth is grotesque, and meant to be — Shakespeare is showing how jealousy inflates nothings into everything, how a mind poisoned by suspicion will read a whole betrayal into the smallest, most innocent accident.",
+      "on_screen": {
+        "plate": "plate-handkerchief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-handkerchief"
+      ],
+      "notes": "The handkerchief (Othello's first gift); Emilia finds it, gives it to Iago; planted on Cassio; the false 'ocular proof'."
+    },
+    {
+      "id": "ch-poison",
+      "template": "chapter-card",
+      "narration": "Watch a noble, loving man be turned, in a few scenes, into a creature of pure jealous rage.",
+      "on_screen": {
+        "chapter_title": "The Poison Works",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Marriage",
+            "The Grudge",
+            "The Handkerchief",
+            "The Poison",
+            "The Murder"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "p-transform",
+      "template": "parallax-still",
+      "narration": "The transformation of Othello is the devastating heart of the play. The man we met in Venice was calm, dignified, supremely in command of himself and others, speaking in some of the most beautiful verse Shakespeare ever wrote. As Iago's poison works, that man comes apart. He grows obsessed, suspicious, savage; his language fractures into broken, animal fragments; he demands 'ocular proof' one moment and believes the flimsiest hint the next; he collapses, at one point, into an actual fit. It is agonising to watch precisely because we can see there is nothing really there — no affair, no evidence but a dropped handkerchief and a liar's whispers — and yet it is destroying a great man from the inside. Othello's very virtues are turned against him: his honesty makes him assume honesty in others; his wholeheartedness in love becomes a wholeheartedness in jealousy; his soldier's need for certainty makes him crave a 'proof' that Iago is only too happy to forge. This collapse is, for many actors, the greatest and most harrowing arc in Shakespeare — the slow unmaking of a magnificent human being in real time. Pay attention to the language, because Shakespeare tracks the ruin through it: Othello begins the play speaking in long, calm, gorgeous music, the most eloquent man on the stage, and as the jealousy takes hold his speech literally breaks down into disjointed, obsessive, violent fragments, repeating words, hissing about blood and handkerchiefs, until the very rhythm of his mind has come apart. The disintegration of his verse is the disintegration of his soul, made audible. And the cruelty is that none of it is deserved or real — we are watching a noble mind destroy itself over a phantom, which is far more painful than watching it destroyed by a real betrayal. There is a terrible irony in Othello's demand for 'ocular proof' — the honest soldier's craving for hard evidence. He is a man who has lived by facts, by what can be seen and counted and trusted, and so he cannot rest in uncertainty; he must know. But that very need for certainty is what delivers him to Iago, who supplies a counterfeit certainty — the handkerchief, the invented confession, the staged glimpse of Cassio — that a more comfortably doubting man might have questioned. Othello would rather have a terrible certainty than live in doubt, and Iago, understanding this precisely, gives him one. It is the honest man's own honesty, his hunger for solid ground, that becomes the final handhold for the lie.",
+      "on_screen": {
+        "plate": "plate-othello",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-othello"
+      ],
+      "notes": "Othello's transformation from noble/eloquent to savage/broken; his virtues turned against him; it's built on nothing."
+    },
+    {
+      "id": "p-vow",
+      "template": "parallax-still",
+      "narration": "Iago stokes the fire expertly, feigning reluctance, pretending to defend Desdemona in ways that damn her further, until Othello is wild with grief and rage. Together, in a terrible scene, they kneel and swear a joint oath of vengeance — Othello to kill Desdemona, Iago to kill Cassio — and Othello promotes Iago to the lieutenancy he always wanted, over the ruin of the marriage. From here the great general can think of nothing but the murder of the wife he still, agonisingly, loves. He confronts Desdemona about the handkerchief; she, baffled and frightened, cannot produce it and keeps innocently pleading for Cassio, which to Othello's poisoned mind only confirms everything. He strikes her in public, in front of visiting Venetian nobles, who are horrified at how the noble Moor has changed. Desdemona, utterly bewildered, has no idea what she is supposed to have done. The scene where Othello and Iago kneel together and swear their joint vow of revenge is one of the darkest in the play — a grotesque parody of a marriage vow, as Othello binds himself to the very man destroying him and casts off the wife who loves him. From here Othello is no longer quite himself; he is Iago's creature, thinking Iago's thoughts, seeing through Iago's eyes. And the public striking of Desdemona is the point where the visiting Venetians — and we — see how far the noble Moor has fallen: the self-possessed general reduced to hitting his bewildered wife in front of ambassadors. Desdemona's response is almost unbearable: she does not understand, cannot imagine what she has done, and keeps loving and obeying him even as he turns monstrous, which only deepens the horror and her innocence. The sheer speed of Othello's fall is part of the tragedy's terror, and some critics have wrestled with how fast it happens — but that speed is the point. Shakespeare compresses the collapse so that we feel how little it takes, once the first doubt is admitted, for a whole structure of love and trust to come down. And he is careful to show that the fault is not simply Othello's gullibility: Iago is a genius, trusted by everyone, who manufactures a seamless web of circumstantial 'proof'; many a wiser man might have been fooled. But Shakespeare also, unflinchingly, holds Othello responsible — he chooses to believe the worst of the person he should trust most, chooses suspicion over faith, and that choice, however engineered, is his, and it damns him.",
+      "on_screen": {
+        "plate": "plate-othello",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-othello"
+      ],
+      "notes": "The joint vow of vengeance; Iago made lieutenant; Othello demands the handkerchief; strikes Desdemona publicly; her bewilderment."
+    },
+    {
+      "id": "ch-murder",
+      "template": "chapter-card",
+      "narration": "And so to the bedroom, the candle, and the truth that comes five minutes too late.",
+      "on_screen": {
+        "chapter_title": "The Murder",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Marriage",
+            "The Grudge",
+            "The Handkerchief",
+            "The Poison",
+            "The Murder"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "d-kill",
+      "template": "parallax-still",
+      "narration": "The final movement is unbearable. Desdemona, frightened and strangely resigned, prepares for bed, singing a sad old 'willow' song about a woman forsaken, sensing something terrible coming. Othello enters her bedroom with a candle, torn between love and the murder he believes justice demands. In a speech of dreadful, quiet tenderness, he gazes at her sleeping and tells himself he must put out the light — the candle — and then put out the light of her life, though once extinguished her flame can never be relit; he kisses her, and almost cannot do it. She wakes; he accuses her of the affair with Cassio and the handkerchief; she denies it, desperately, truthfully, begs for her life, begs for even a day, an hour. He will not hear it. And he smothers her in her marriage bed — an act of what he has convinced himself is not murder but sacrifice, justice, honour. Shakespeare slows the final scene almost to a standstill, and fills it with an unbearable tenderness that makes the murder worse. This is not a killing in hot blood; Othello comes to it almost as a priest to a sacrifice, grieving, kissing her, nearly unable to proceed, telling himself over and over that justice requires it, that she must die or she'll betray more men. Desdemona's innocence is total — her willow song, her confusion, her desperate truthful denials, her pleading for a little more life — and she dies still loving him, even, in her last breath, trying to shield him from blame. It is the cruellest thing in the play: the purest love in it murdered by the man who loves her most, in their marriage bed, for a crime that exists only in a liar's words. And the moment it is done, the truth begins, instantly, to arrive. Shakespeare also makes the murder a perversion of everything tender. Othello frames it to himself not as revenge but as justice, even as mercy — he will not shed her blood or scar her skin, he tells himself; he will smother her and send her soul to heaven; he even lets her pray first. He has so thoroughly convinced himself that this killing is a solemn, righteous duty that he can approach his beloved wife with something like reverence as he ends her life. It is one of the most psychologically disturbing scenes Shakespeare ever wrote, because Othello is neither a cold killer nor fully a madman; he is a loving man who has been argued into an atrocity and performs it as a sacred act, weeping as he does the most monstrous thing imaginable.",
+      "on_screen": {
+        "plate": "plate-murder",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-murder"
+      ],
+      "notes": "Desdemona's willow song and foreboding; Othello's 'put out the light'; he smothers her, believing it justice."
+    },
+    {
+      "id": "q-light",
+      "template": "quote-card",
+      "narration": "Othello over the sleeping Desdemona — the candle, and the life he is about to take.",
+      "on_screen": {
+        "quote": "Put out the light, and then put out the light.",
+        "source": "Othello, Act 5"
+      },
+      "notes": "Verbatim, Gutenberg #1531, line 5505."
+    },
+    {
+      "id": "d-truth",
+      "template": "parallax-still",
+      "narration": "The truth comes out immediately, and far too late. Emilia, Iago's own wife, bursts in, and when she grasps what Othello has done and why, she explodes — and reveals the one fact that unravels everything: she found the handkerchief and gave it to her husband, Iago. In an instant Othello understands that it was all a lie, that Desdemona was innocent, that he has murdered the truest love of his life on the word of a monster he trusted. Iago, exposed at last, stabs and kills Emilia to silence her, and is seized. Othello, shattered, wounds Iago but cannot kill him — and demands to know why he did it. And here Shakespeare delivers his final, chilling stroke: Iago refuses to explain. 'Demand me nothing,' he says; 'what you know, you know; from this time forth I never will speak word.' He goes to his torture and death in absolute silence, taking his reasons, if he ever had any, with him. Emilia is the play's conscience and its unlikely hero at the end — a worldly, cynical woman who, faced with what her husband has done, finds a sudden blazing courage and will not be silenced, exposing Iago though she knows he may kill her for it, which he does. Her death, defending the truth and the mistress she loved, is its own small tragedy inside the large one. And Iago's final silence is Shakespeare's masterstroke. After a whole play of a man who never stopped talking, explaining, soliloquising, scheming aloud, he simply shuts his mouth forever and refuses to give anyone — Othello, the Venetians, or us — the explanation we crave. The evil withholds its meaning. We are left, like the survivors on stage, staring at a catastrophe with no adequate cause, which is perhaps the truest and most terrible thing the play has to say about malice in the world. The swiftness of the unravelling after the murder is its own kind of agony: within minutes of Desdemona's death, every lie collapses, and Othello is forced to see, in one unbearable rush, that she was innocent, that he was deceived, that he has destroyed the one wholly good thing in his life for nothing. Shakespeare gives him no time to savour a mistaken 'justice'; the truth is right there, seconds too late, as it so often is in tragedy. And Emilia's courage shames everyone — the small, overlooked wife who finds, at the last, the one quality the great men around her lacked: the plain willingness to speak the truth and die for it. Her body is laid beside her mistress's, two women destroyed by the schemes of men.",
+      "on_screen": {
+        "plate": "plate-iago",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-iago"
+      ],
+      "notes": "Emilia reveals the handkerchief truth; Othello realises Desdemona's innocence; Iago kills Emilia, is seized, refuses to explain ('I never will speak word')."
+    },
+    {
+      "id": "d-end",
+      "template": "parallax-still",
+      "narration": "Othello has nothing left. He is stripped of his command, his wife, his honour, and the very image he had of himself as a just and noble man. In his last speech he asks only to be remembered truly — neither excused nor made a monster — as one who loved not wisely, but too well; a man not easily made jealous, but, once worked upon, driven to the extreme; who threw away a pearl richer than all his tribe with his own hand. And then, with a hidden blade, he kills himself, falling to kiss the dead Desdemona one last time. Iago is led away to be tortured; Cassio, who survived Iago's attack, is left to govern Cyprus; and the tragedy closes on a bed with two bodies on it, and the unanswerable silence of the man who caused it all. No villain in Shakespeare does more harm, and none ever tells us why. Othello's suicide is an attempt to reclaim, in his last act, the noble self Iago stole from him. His final speech is extraordinarily controlled — the eloquence returns, as if in dying he becomes himself again — and in it he judges himself more harshly and more justly than any court could: not a man who was tricked, though he was, but one who 'loved not wisely, but too well', whose love was so absolute it could be turned into a weapon against itself. He recalls once killing an enemy of Venice who had slandered the state, and then, naming himself that enemy now, he executes himself with the same stroke. He dies on a kiss, trying to return to the love he destroyed. It is a tragic end that lets Othello recover a measure of his dignity — but it cannot undo the dead, and over it all hangs the bound, silent figure of the man who will not say why. And notice the play's bleak symmetry at the close. It began with Iago rousing a sleeping household in the dark with lies, and it ends in a dark bedchamber full of the dead those lies produced. Everything flowed from one man's words, and almost nothing from any real deed of the people he destroyed. Shakespeare leaves the stage to the survivors — Cassio, the Venetian lords, and the bound, mute Iago — and to us, to carry out of the theatre the unanswerable weight of what we have seen: that it can be this easy, that love this great can be undone by malice this petty, and that the one who did it will stand there to the end and tell us nothing.",
+      "on_screen": {
+        "plate": "plate-murder",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-murder"
+      ],
+      "notes": "Othello's final speech ('loved not wisely but too well'); his suicide; Iago to torture; Cassio governs; the silent, unexplained evil."
+    },
+    {
+      "id": "q-end",
+      "template": "quote-card",
+      "narration": "Othello's last request — how he wishes to be remembered.",
+      "on_screen": {
+        "quote": "Of one that loved not wisely, but too well.",
+        "source": "Othello, Act 5"
+      },
+      "notes": "Verbatim, Gutenberg #1531, line 6266."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why does Othello hit so hard, and so personally? Because it strips tragedy down to its most domestic and recognisable form. There are no witches, no ghosts, no warring kingdoms — just a marriage, and a lie, and the terrible ease with which trust can be turned into suspicion. We all know how it feels to have a doubt planted, to have our imagination run ahead of the facts; Iago simply does that, deliberately and expertly, to a man who loves too completely to doubt his own doubt. And the play refuses us the comfort of understanding the evil. Iago has no grand cause, no satisfying reason; he is the banal, motiveless destructiveness that turns up in human life again and again, wearing the face of a friend, and the play's unbroken final silence — his refusal to explain — leaves that horror wide open. Othello also forces its audience, then and now, to sit with its treatment of race: a Black hero, genuinely noble, whose outsider's insecurity in a white society is the exact wound the villain exploits. It is a play about how the people who love most can be destroyed by the people they trust most — and about how little, in the end, that destruction needs to feed on. A dropped handkerchief. A few quiet words. And a whole world of love put out, like a candle, that can never be lit again. It is also worth sitting with what the play says, and what it unsettlingly leaves open, about race. Othello is the noble hero, genuinely great, and the play clearly condemns the racism that surrounds and corrodes him — yet it also, troublingly, lets that very outsider-status be the fault line of his fall, and gives the racists their catastrophe. Productions and readers still argue about whether the play transcends its era's prejudice or is partly trapped in it, and the argument is part of why it remains so alive and so necessary. What is beyond argument is the central, timeless horror it dramatises: how easily trust can be turned to poison, how the people who love most are the most vulnerable to doubt, and how evil, when it wears the face of an honest friend and withholds all explanation, can walk straight into the middle of a life and burn it down. Four centuries on, we still have no better name for it than the one everyone in the play used, right to the end, without ever suspecting: honest Iago.",
+      "on_screen": {
+        "plate": "plate-othello",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-othello"
+      ],
+      "notes": "Close: domestic tragedy; the planted doubt we all recognise; motiveless evil wearing a friend's face; race/the outsider; love destroyed by trust."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of Othello — a great man, a true love, and a trusted friend who destroys them both with nothing but whispers and a handkerchief. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It is Shakespeare at his most intimate and most frightening — see it performed, and watch how quietly, and how fast, the poison does its work. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}
