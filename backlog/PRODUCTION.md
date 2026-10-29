@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 26/138 rendered**  `████░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  110 planned
+**Progress: 27/138 rendered**  `████░░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  110 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -50,7 +50,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-04A | Othello | Revision video | Curriculum classics | ⬜ planned |
 | CL-04B | Othello | Full retelling | Curriculum classics | ✅ rendered |
 | CL-23A | Heart of Darkness | Revision video | Curriculum classics | ⬜ planned |
-| CL-23B | Heart of Darkness | Full retelling | Curriculum classics | 📝 scripted |
+| CL-23B | Heart of Darkness | Full retelling | Curriculum classics | ✅ rendered |
 | CL-15A | Pride and Prejudice | Revision video | Curriculum classics | ⬜ planned |
 | CL-15B | Pride and Prejudice | Full retelling | Curriculum classics | ✅ rendered |
 | CL-16A | A Christmas Carol | Revision video | Curriculum classics | ⬜ planned |
