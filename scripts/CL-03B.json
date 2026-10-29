@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "code": "CL-03B",
+    "book": "Hamlet",
+    "author": "William Shakespeare",
+    "year": "c. 1600",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Hamlet: The Full Story Explained (Shakespeare)",
+    "search_phrase": "Hamlet full story explained"
+  },
+  "chapters": [
+    {
+      "title": "Something is rotten in Denmark",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Ghost",
+      "first_scene": "ch-ghost"
+    },
+    {
+      "title": "The Mousetrap",
+      "first_scene": "ch-mousetrap"
+    },
+    {
+      "title": "The Closet",
+      "first_scene": "ch-closet"
+    },
+    {
+      "title": "Ophelia",
+      "first_scene": "ch-ophelia"
+    },
+    {
+      "title": "The Duel",
+      "first_scene": "ch-duel"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In Hamlet, a prince learns that his uncle murdered his father, seized the throne, and married his mother. The whole play is him failing to do anything about it.",
+      "on_screen": {
+        "question": "Something is rotten in Denmark",
+        "plate": "plate-ghost"
+      },
+      "assets": [
+        "plate-ghost"
+      ],
+      "notes": "Hook before any title. ~27 words, minimal pauses. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Hamlet, by William Shakespeare, written around sixteen hundred.",
+      "on_screen": {
+        "title": "Hamlet",
+        "author": "William Shakespeare",
+        "year": "c. 1600",
+        "subtitle": "The Tragedy of Hamlet, Prince of Denmark"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. Hamlet is the most famous play ever written, and probably the most analysed work in all of literature; it has given English more everyday phrases than almost any other single text, and the title role is the Everest that every great actor wants to climb. Second: on the surface it is a simple revenge story — a murdered king, a ghost, a son sworn to avenge him — but Shakespeare does something strange and revolutionary with that old plot. He gives the avenger a mind so vast, so questioning, so alive to doubt, that he cannot simply act; and the real drama moves inside Hamlet's head, in the great soliloquies where he thinks aloud to us. And third: hold on to the central puzzle that has kept audiences arguing for four hundred years — why does Hamlet delay? He has the proof, the motive, the opportunity, and still, for most of the play, he does not kill Claudius. Is it cowardice, conscience, madness, philosophy, or something in the very nature of thought itself that paralyses him? The play never fully answers, and that unanswerable question is a large part of why it never dies. It is worth knowing how deep this play sits in our culture. Phrases we use without thinking were born here — 'to be or not to be', 'the lady doth protest too much', 'to thine own self be true', 'in my mind's eye', 'method in the madness', 'the undiscovered country', 'hoist with his own petard'. Hamlet himself is the part by which great actors are measured, and the character has been read as everything from a Romantic dreamer to a Freudian case study to an existential hero. That endless interpretability is built into the text: Shakespeare gives us a hero who is forever interpreting himself, and never finishing, so that every age finds its own anxieties mirrored in his.",
+      "on_screen": {
+        "plate": "plate-elsinore",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-elsinore"
+      ],
+      "notes": "Context: most famous/analysed play; a revenge plot turned inward; the central puzzle — why does Hamlet delay?"
+    },
+    {
+      "id": "ch-ghost",
+      "template": "chapter-card",
+      "narration": "A dead king walks the battlements at midnight, with a story to tell his son.",
+      "on_screen": {
+        "chapter_title": "The Ghost",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Ghost",
+            "The Mousetrap",
+            "The Closet",
+            "Ophelia",
+            "The Duel"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "g-court",
+      "template": "parallax-still",
+      "narration": "The setting is Elsinore, the royal castle of Denmark, and something is wrong there from the first scene. Old King Hamlet, the warrior-king, has recently died. With unseemly haste, his brother Claudius has taken the throne and married the dead king's widow, Queen Gertrude — Hamlet's own mother — so that the new king is also the prince's uncle and now, grotesquely, his stepfather. Prince Hamlet, home from university, is in black, sunk in grief and disgust: disgust at his father's death, at his mother's hasty remarriage to his uncle, at the whole glittering, false, celebrating court. And out on the cold battlements at midnight, the soldiers on watch have seen something that should not be: the ghost of the dead king, in full armour, walking silently in the dark. Pay attention to the atmosphere of surveillance and rot that Shakespeare builds from the very first lines. Elsinore is a place where everyone is watching everyone, where the walls have ears, where fathers set spies on sons and friends are turned into informers. The old warrior-king is gone, and in his place sits a smooth, smiling politician who poisoned his way to the throne. The whole court is celebrating a wedding that is, to Hamlet, obscene — and he stands in it alone, in mourning black, the one person who refuses to pretend everything is fine. That image — one clear-eyed, grieving individual surrounded by a corrupt, performing society — is the emotional core of the play, and it is intensely modern. And notice the doubling Shakespeare sets up from the start: Hamlet is one of three sons in this play who lose their fathers, and the other two — Laertes, whose father Polonius Hamlet will kill, and Fortinbras, whose father old Hamlet defeated — both act swiftly and decisively to avenge or recover what was taken. Hamlet, the most gifted of the three, is the one who cannot. Shakespeare builds these parallel avengers into the structure precisely so that Hamlet's hesitation stands out in sharp relief — so that the question 'why does he wait?' is asked by the shape of the play itself, not just by the critics.",
+      "on_screen": {
+        "plate": "plate-elsinore",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-elsinore"
+      ],
+      "notes": "Elsinore; old king dead; Claudius married Gertrude and took the throne; grieving Hamlet; the ghost on the battlements."
+    },
+    {
+      "id": "q-rotten",
+      "template": "quote-card",
+      "narration": "A guard's line that hangs over the whole play.",
+      "on_screen": {
+        "quote": "Something is rotten in the state of Denmark.",
+        "source": "Marcellus, Act 1"
+      },
+      "notes": "Verbatim, Gutenberg #1524, line 1260."
+    },
+    {
+      "id": "g-ghost",
+      "template": "parallax-still",
+      "narration": "Hamlet goes to the battlements, and the ghost speaks to him alone. It tells him a terrible thing: that it is the spirit of his father, and that he did not die of a snakebite as everyone believes — he was murdered. Claudius crept up on him as he slept in his orchard and poured poison into his ear, stealing in a single stroke his life, his crown, and his queen. The ghost commands Hamlet to avenge this 'foul and most unnatural murder' — but also, strangely, to leave his mother to heaven and her own conscience. Then it vanishes, leaving Hamlet alone with an impossible burden: he now knows his uncle is a murderer, but he has only the word of a ghost, which might be a devil sent to damn him. He swears revenge — and immediately begins, instead, to think. The ghost is a genuine problem for Hamlet, not just a plot device, and this is crucial to understanding the delay. In Shakespeare's time, a spirit could be atrue soul from purgatory — or a devil in a dead man's shape, sent to tempt a man into murder and damnation. So Hamlet cannot simply take the ghost's word and kill a king; to act on a possible demon's command could doom his own soul. His demand for proof is not cowardice but a kind of conscientious rigour. Already we see the pattern of the whole play: a world that offers no certainty, and a mind too honest to pretend it has any — forced, nonetheless, to act as if it did. And this is the engine of the whole tragedy quietly starting up: a command to kill, given by an uncertain source, to a man whose deepest instinct is to question everything before he acts. A simpler hero would have drawn his sword that night. Hamlet goes away to test, to doubt, to think — and in that gap between the command and the deed, the entire four-hour play unfolds, and almost everyone in it dies. The ghost wanted a quick revenge. What it got, by choosing this particular son, was the most famous hesitation in the history of the stage.",
+      "on_screen": {
+        "plate": "plate-ghost",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-ghost"
+      ],
+      "notes": "The ghost reveals Claudius's murder (poison in the ear); commands revenge, spare Gertrude; Hamlet swears — then hesitates."
+    },
+    {
+      "id": "g-frailty",
+      "template": "parallax-still",
+      "narration": "Underneath the revenge plot runs Hamlet's deeper sickness, which began before the ghost ever appeared: a profound disgust with life itself, triggered above all by his mother. Gertrude married Claudius barely a month after the funeral — the funeral meats, Hamlet says bitterly, were barely cold before they furnished the wedding table — and that hasty, to him near-incestuous remarriage has poisoned his whole view of women, of love, of the world. His very first great speech, before he knows anything of murder, is a wish that his own flesh would simply melt away, a longing for death, a revulsion at a world grown stale and rotten. The ghost gives him a task; but the despair was already there, and it will shadow everything he does. This is important because it shows Hamlet's despair is bigger than his revenge. Even if his father had died naturally, even with no ghost and no murder, Hamlet would still be a man sickened by the world — by death, by the body, by what he sees as his mother's betrayal of his father's memory. The murder gives his anguish a target and a task, but the anguish came first. That is partly why the revenge never quite 'cures' him: his real problem is not that Claudius killed a king, but that the world is the kind of place where such things happen, where love curdles and the noble die and the rotten prosper. No act of vengeance can fix that.",
+      "on_screen": {
+        "plate": "plate-gertrude",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-gertrude"
+      ],
+      "notes": "Hamlet's prior despair (before the ghost); disgust at Gertrude's hasty remarriage; his death-wish; 'frailty, thy name is woman'."
+    },
+    {
+      "id": "q-frailty",
+      "template": "quote-card",
+      "narration": "Hamlet on his mother's hasty remarriage — his disgust spilling onto all women.",
+      "on_screen": {
+        "quote": "Frailty, thy name is woman!",
+        "source": "Hamlet, Act 1"
+      },
+      "notes": "Verbatim, Gutenberg #1524, line 635."
+    },
+    {
+      "id": "ch-mousetrap",
+      "template": "chapter-card",
+      "narration": "Unable to act, Hamlet does the next best thing: he puts on an act.",
+      "on_screen": {
+        "chapter_title": "The Mousetrap",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Ghost",
+            "The Mousetrap",
+            "The Closet",
+            "Ophelia",
+            "The Duel"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "m-madness",
+      "template": "parallax-still",
+      "narration": "Hamlet adopts a strategy, or perhaps a refuge: he puts on an 'antic disposition' — pretends to be mad — which lets him say dangerous, cutting truths under cover of lunacy while he works out what to do. The king and queen, alarmed, try to find out what ails him. They set his old friends Rosencrantz and Guildenstern to spy on him, and the pompous royal counsellor Polonius decides Hamlet is lovesick for his daughter, Ophelia — whom Hamlet had been courting, and whom Polonius has ordered to reject him. Hamlet, suspecting he is watched and spied on at every turn, grows crueller and stranger, lashing out even at Ophelia, telling her to get to a nunnery. His madness is mostly feigned — but his grief and disgust are real, and the line between the act and the genuine breakdown grows harder and harder to see. The 'antic disposition' is one of the play's great ambiguities, and Shakespeare keeps it deliberately unresolved. Hamlet announces, early and clearly, that he will pretend to be mad — so much of his wildness is strategy, a licensed-fool's freedom to speak truth and probe his enemies. And yet his grief, his disgust, his suicidal despair are entirely real, and under the pressure of them the performance and the genuine breakdown blur until neither we nor Hamlet can always tell them apart. His cruelty to Ophelia is the sharpest example: is he protecting her by driving her away, lashing out at all women through her, or genuinely coming apart? The play refuses to say, and that uncertainty is the point — a mind in this much pain cannot cleanly separate the mask from the face. There is a cost to the strategy that Hamlet does not reckon with. By playing mad, by holding everyone at arm's length with riddles and insults and cruelty, he isolates himself completely — he pushes away Ophelia, alienates his mother, alerts his enemy, and ends with only one true friend, Horatio, left in the world. The antic disposition may buy him cover, but it also seals him inside his own head, alone with his thoughts, which is the last place this particular man should be left. The performance of madness and the genuine loneliness of a superior mind in a corrupt court start to become the same thing.",
+      "on_screen": {
+        "plate": "plate-ophelia",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ophelia"
+      ],
+      "notes": "Hamlet's feigned 'antic disposition'; Rosencrantz & Guildenstern spy; Polonius & Ophelia; the nunnery scene; feigned vs real madness."
+    },
+    {
+      "id": "q-method",
+      "template": "quote-card",
+      "narration": "Polonius, half-seeing the truth behind Hamlet's 'madness'.",
+      "on_screen": {
+        "quote": "Though this be madness, yet there is method in't.",
+        "source": "Polonius, Act 2"
+      },
+      "notes": "Verbatim, Gutenberg #1524, line 2183."
+    },
+    {
+      "id": "m-tobe",
+      "template": "parallax-still",
+      "narration": "And here, at the dead centre of the play, comes the most famous speech in the English language. Alone, Hamlet weighs the deepest question of all: to be, or not to be — whether to go on living, or to end his own life and escape a world of suffering. He turns it over with terrible honesty: death would be a release, a sleep — except that no one knows what dreams may come after, what lies in the undiscovered country beyond death from which no traveller returns. And it is that dread of the unknown, he concludes, that makes us bear our troubles rather than flee them; that conscience, consciousness, thought itself makes cowards of us all, and turns bold action pale and sickly. It is the speech of a man paralysed by his own mind — and it is, quietly, the key to the whole play: Hamlet cannot act, against the world or against himself, because he thinks too clearly about everything. It is worth noticing that 'to be or not to be' is not really about the revenge at all — Claudius is not even mentioned. It is a general meditation on suicide and endurance, on whether life's suffering is worth bearing, that any human being in despair might speak. That is exactly why it has become the most famous speech ever written: it belongs to everyone. Hamlet reasons that the only thing stopping us all from ending our pain is fear of what might lie on the other side of death — and then widens that into his great diagnosis of himself, that 'conscience', thought, the habit of examining everything, drains the colour out of action and leaves us frozen. He is describing his own paralysis, and, Shakespeare suggests, a permanent human condition: that to think deeply is to find action almost impossible. The speech also crystallises the play's obsession with the unknown. Hamlet's whole crisis is epistemological — it is about the limits of what we can know. He cannot be sure the ghost is honest, cannot be sure what comes after death, cannot be sure of his mother's guilt or his own motives, and this uncertainty is exactly what paralyses him, because to act decisively you must, at some point, stop questioning and commit. Fortinbras and Laertes can act because they do not trouble themselves with doubt; Hamlet cannot, because he sees too much. The tragedy proposes something genuinely frightening: that intelligence and conscience, the very things we prize most, can be precisely what unfit us for life in a world that demands action.",
+      "on_screen": {
+        "plate": "plate-hamlet",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-hamlet"
+      ],
+      "notes": "'To be or not to be' soliloquy; suicide vs endurance; dread of the unknown; thought as paralysis — the key to the delay."
+    },
+    {
+      "id": "q-tobe",
+      "template": "quote-card",
+      "narration": "The most famous line in all of literature.",
+      "on_screen": {
+        "quote": "To be, or not to be, that is the question.",
+        "source": "Hamlet, Act 3"
+      },
+      "notes": "Verbatim, Gutenberg #1524, line 2880."
+    },
+    {
+      "id": "m-play",
+      "template": "parallax-still",
+      "narration": "Hamlet needs proof before he will kill — the ghost might be a lie — so he devises a test. A troupe of travelling players arrives, and Hamlet has them stage a drama, 'The Mousetrap', that re-enacts exactly how the ghost says the murder was done: a king poisoned in his garden by a kinsman who then takes his crown and wife. Hamlet watches Claudius's face as the poisoning is mimed on stage. And Claudius cracks — he leaps up, calls for light, and flees the hall, his guilt written all over him. Now Hamlet is certain: the ghost told the truth, his uncle is a murderer. He has his proof. And still — this is the crux of the whole tragedy — he does not strike. The Mousetrap is Hamlet at his most brilliant and most alive — a man of the theatre using theatre itself as an instrument of justice, catching the conscience of a king by holding a mirror up to his crime. And it works perfectly; Claudius's guilt is proven beyond doubt. Which makes what follows so maddening and so revealing: Hamlet now has everything a revenger needs — certain proof, a clear duty, a sworn oath — and the energy and wit to stage an elaborate trap, and yet when it comes to the single simple act of killing, he cannot or will not do it. The problem was never a lack of evidence. The problem is in Hamlet himself, in the gap between knowing and doing that the whole play lives inside.",
+      "on_screen": {
+        "plate": "plate-play",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-play"
+      ],
+      "notes": "The players; 'The Mousetrap' re-enacts the murder; Claudius's guilty reaction confirms it; still Hamlet delays."
+    },
+    {
+      "id": "ch-closet",
+      "template": "chapter-card",
+      "narration": "He gets one clean chance to kill the king — and talks himself out of it. Then kills the wrong man.",
+      "on_screen": {
+        "chapter_title": "The Closet",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Ghost",
+            "The Mousetrap",
+            "The Closet",
+            "Ophelia",
+            "The Duel"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "c-prayer",
+      "template": "parallax-still",
+      "narration": "Straight after the play, Hamlet comes upon Claudius alone, kneeling, trying to pray — defenceless, his back turned, the perfect moment. Hamlet draws his sword. And then he stops, and reasons himself out of it, with a piece of logic that is either deeply pious or a monstrous excuse: if he kills Claudius while the king is praying, Claudius's soul might go straight to heaven — too good a fate for the murderer of his father, who was killed unconfessed. So Hamlet sheathes his sword to wait for a worse moment, when Claudius is sinning, so he can damn his soul as well as his body. It is the hinge of the delay, and bitterly ironic: the instant Hamlet leaves, Claudius admits his prayer was empty, that he could not truly repent. Hamlet had his chance, and his own overthinking threw it away. This scene is the crux of the entire 'delay', and readers have argued about it for centuries. Is Hamlet's reason — don't kill Claudius at prayer, or you'll send his soul to heaven — a genuine, if monstrous, piece of revenger's theology? Or is it an unconscious excuse, a rationalisation dressed up as piety, because some deeper part of Hamlet simply cannot bring himself to commit cold-blooded murder? Shakespeare leaves it open. But the irony is savage and unmistakable: Hamlet spares Claudius to damn him later, and the moment he leaves, Claudius reveals his prayer was hollow, that he cannot repent while keeping the crown and queen he killed for. So Hamlet's one clear chance is lost to a scruple that was not even founded on the truth. It is worth sitting with how disturbing Hamlet's stated reason actually is, because it complicates any simple reading of him as a noble hero. He does not spare Claudius out of mercy or scruple; on his own account, he spares him in order to kill him later at a moment that will damn his soul to hell forever — a cruelty that goes well beyond his father's ghost, who asked only for death, not damnation. Whether we take this as Hamlet's real intent or as his mind inventing a monstrous excuse to avoid the deed, it shows us a hero whose thought has turned dark and tangled, who can reason his way into or out of almost anything. The clarity that makes him magnificent has become a kind of labyrinth he cannot act his way out of.",
+      "on_screen": {
+        "plate": "plate-claudius",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-claudius"
+      ],
+      "notes": "Hamlet finds Claudius praying, defenceless; reasons himself out of killing him (don't send his soul to heaven); the fatal delay; Claudius couldn't pray anyway."
+    },
+    {
+      "id": "c-closet",
+      "template": "parallax-still",
+      "narration": "Minutes later, Hamlet goes to his mother's private chamber — her closet — to confront her, as the ghost allowed, with her guilt in marrying Claudius. The scene turns violent and raw; he is so fierce that Gertrude cries out in fear for her life. And Polonius, who has hidden himself behind a tapestry to eavesdrop, cries out too. Hamlet — hearing a man spying behind the curtain and hoping, wildly, that it is the king — runs his sword straight through the tapestry and kills him. He twitches the curtain back to find not Claudius but old Polonius, Ophelia's father, dead. The man who could not kill the guilty king in cold blood has now, in a hot instant, murdered an innocent old fool by mistake. And with that killing, Hamlet unleashes the second half of the tragedy, and dooms himself. The closet scene is the play's turning point, where Hamlet's inaction suddenly flips into disastrous over-action. Having just spared the actual target of his revenge, he now kills a man on pure reckless impulse — stabbing blindly through a curtain at a sound. It is everything the careful, overthinking Hamlet is supposedly incapable of, done in a heartbeat, on the wrong man. And it is the mistake that destroys him: Polonius's death gives Claudius the pretext to send Hamlet away to die, turns Laertes into an avenger, and breaks Ophelia's mind. Notice the terrible symmetry the play builds — Hamlet, who cannot avenge his own murdered father, has now made Laertes and Fortinbras into sons avenging their fathers, and they will act where he could not. It is also the scene where Gertrude becomes fully human to us. Up to now she has been a cipher — the hastily remarried mother, the object of Hamlet's disgust. Here, under his furious assault, she is forced to look into her own soul and see the black spots there, and she breaks; whatever she did or didn't know about the murder, her guilt and grief are suddenly, painfully real. Shakespeare keeps her complicity deliberately ambiguous — we never learn for certain whether she knew Claudius was a killer — but from this night she is a woman divided against herself, caught between the husband she chose and the son she cannot help loving, and that division will lead her, at the very end, to drink the poison meant for him.",
+      "on_screen": {
+        "plate": "plate-gertrude",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-gertrude"
+      ],
+      "notes": "The closet scene; Hamlet confronts Gertrude; stabs Polonius through the arras thinking it's Claudius; the fatal mistake."
+    },
+    {
+      "id": "c-ghost2",
+      "template": "parallax-still",
+      "narration": "In the middle of this, as Hamlet rages at his mother, the ghost appears again — but this time only Hamlet can see it; Gertrude sees nothing, and takes it as proof that her son is truly mad. The ghost comes to whet Hamlet's 'almost blunted purpose' — to remind him he is meant to be killing Claudius, not tormenting his mother. Hamlet does, at least, reach Gertrude: he forces her to see what she has done, and she is stricken with guilt. But the practical result of the whole night is catastrophe. Claudius, now with a perfect excuse — Hamlet is a killer — ships the prince off to England, carrying sealed orders that Hamlet be executed on arrival. The hunter has become the hunted. There is real poignancy in the ghost's second visit. It comes, it says, to whet Hamlet's 'almost blunted purpose' — a father, even in death, disappointed that his son has not done the deed. And the fact that only Hamlet can see it now, where a whole company of soldiers saw it before, raises the unsettling possibility that the ghost has become, at least partly, a thing of Hamlet's own tormented mind. Meanwhile the human cost of the confrontation is real: Hamlet does force his mother to confront her guilt, and something between them is, briefly, healed. But the machinery of ruin is now running. Claudius has his excuse, and the prince is bundled off toward a foreign executioner.",
+      "on_screen": {
+        "plate": "plate-ghost",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ghost"
+      ],
+      "notes": "The ghost returns (only Hamlet sees it); Gertrude thinks him mad; Claudius sends Hamlet to England to be killed."
+    },
+    {
+      "id": "ch-ophelia",
+      "template": "chapter-card",
+      "narration": "Grief spreads outward from the prince, and the first to break is the girl who loved him.",
+      "on_screen": {
+        "chapter_title": "Ophelia",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Ghost",
+            "The Mousetrap",
+            "The Closet",
+            "Ophelia",
+            "The Duel"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "o-madness",
+      "template": "parallax-still",
+      "narration": "Ophelia cannot bear it. Her father Polonius has been murdered — by the very man she loved, who had already cruelly rejected her — and it drives her genuinely, heartbreakingly mad. Where Hamlet's madness was mostly a performance, hers is terribly real: she drifts through the court singing broken snatches of old songs, handing out flowers with sorrowful hidden meanings, her mind entirely gone. It is one of the saddest things in Shakespeare, and a pointed contrast — the real madness the play shows us is not the prince's, but the collateral damage of his revenge, the innocent young woman crushed between Hamlet and her father. And soon after, the news comes: Ophelia has drowned, fallen from a willow into a brook and let the water take her, singing, either by accident or by despair. Ophelia is the play's great victim, and her tragedy is a deliberate counterpoint to Hamlet's. He performs madness and survives it; she is driven into the real thing and does not. He agonises in soaring language about death; she simply, quietly drowns. Caught with no power of her own between a father who used her and a lover who turned on her, obedient to both and destroyed by both, she is crushed by the men's deadly game without ever being a player in it. Shakespeare gives her mad scenes a terrible broken beauty — the songs, the flowers, each with its hidden meaning — and her death, reported in some of the most gorgeous lines in the play, turns the collateral damage of Hamlet's revenge into something unbearably tender and sad. The contrast the play keeps drawing is pointed and deliberate. Hamlet talks endlessly and beautifully about death, dances around it, philosophises over the skull — and survives, for now. Ophelia says almost nothing, and simply dies, slipping under the water among her flowers. The man of words lives; the silent woman drowns. Shakespeare makes us feel the injustice of it: that in this court of scheming men, the one wholly innocent figure, who did nothing but obey her father and love the prince, is the one it destroys most completely and most quietly, her death reported almost in passing while the men get on with their revenge.",
+      "on_screen": {
+        "plate": "plate-ophelia-death",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ophelia-death"
+      ],
+      "notes": "Ophelia's real madness (vs Hamlet's feigned); flowers and songs; her drowning; the innocent collateral of the revenge."
+    },
+    {
+      "id": "o-return",
+      "template": "parallax-still",
+      "narration": "Meanwhile Hamlet, shipped toward his execution in England, escapes — through sheer luck and his own cunning, he discovers Claudius's sealed death-warrant, rewrites it to condemn the spying Rosencrantz and Guildenstern instead, and returns to Denmark. But he comes home to two things. One is Ophelia's funeral, which he stumbles upon in a graveyard — and here, in the play's strange, famous interlude, he jests with a gravedigger and holds the unearthed skull of Yorick, the court jester he loved as a child, meditating on death: that all greatness, all beauty, even Alexander and Caesar, come at last to this, a stinking skull in the dirt. The other thing waiting for him is Laertes, Ophelia's brother, back from France in a fury, who now has exactly the motive Hamlet has carried all along — a murdered father and a dead sister to avenge — and who, unlike Hamlet, does not hesitate for a second. The graveyard scene is one of the strangest and greatest in Shakespeare — a sudden shift into grim comedy and cold philosophy just before the end. Holding the skull of Yorick, the jester who carried him on his back as a child, Hamlet confronts death stripped of all grandeur: not the dread 'undiscovered country' of the great soliloquy, but plain physical rot, the leveller that turns kings and clowns and conquerors alike into the same anonymous dirt and dust. Something in him seems to settle here, to make a kind of peace with mortality. And then Ophelia's funeral procession arrives, and grief erupts again — Hamlet and Laertes grappling in her very grave over who loved her more — setting up the collision that will kill them both. There is also, in the returned Hamlet, a new and chilling detachment. He rewrote the execution order to send Rosencrantz and Guildenstern — his old schoolfellows — to their deaths in his place, and he reports it without a flicker of remorse, saying they made love to their employment, that they chose their side. The thoughtful, scrupulous prince who could not kill a praying murderer has, somewhere on that sea voyage, grown capable of dispatching two men with a stroke of the pen and not losing a night's sleep. Whether this is growth into a necessary hardness or the corrosion of his soul by the whole bloody business, the play again leaves open — but the Hamlet who comes back from the sea is a colder man than the one who left.",
+      "on_screen": {
+        "plate": "plate-skull",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-skull"
+      ],
+      "notes": "Hamlet escapes (condemns R&G), returns; the graveyard; Yorick's skull and death; Ophelia's funeral; Laertes wants revenge."
+    },
+    {
+      "id": "ch-duel",
+      "template": "chapter-card",
+      "narration": "Everyone the play has wound up now pays out at once, in a single poisoned room.",
+      "on_screen": {
+        "chapter_title": "The Duel",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Ghost",
+            "The Mousetrap",
+            "The Closet",
+            "Ophelia",
+            "The Duel"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "d-plot",
+      "template": "parallax-still",
+      "narration": "Claudius, with a second angry young man on his hands, turns Laertes into a weapon against Hamlet. Together they devise a treacherous plan dressed up as a friendly sport: a fencing match between Hamlet and Laertes. But Laertes' sword will be secretly unblunted — and its tip smeared with a deadly poison, so that the slightest scratch will kill. And as a backup, in case the blade fails, Claudius will have a cup of poisoned wine ready to offer Hamlet during the match. Hamlet, strangely calm now, almost fatalistic after the graveyard — he says that the readiness is all, that there is a providence even in the fall of a sparrow — accepts the challenge, sensing a trap and no longer caring. The whole court assembles to watch the two young men fence. Every poison is in the room. Watch how Claudius works — he is a genuinely formidable villain, not a cartoon. Rather than move against Hamlet openly, he manipulates the grieving, hot-headed Laertes into becoming his instrument, flattering and steering him, and builds a plan with layers of redundancy: a poisoned blade, and a poisoned cup as backup, so that Hamlet cannot possibly survive the afternoon. And Hamlet, for his part, has changed. The frantic, questioning energy is gone, replaced by a strange, fatalistic calm — he senses the trap, and walks into it anyway, saying that if it is to happen now it will not be later, that the readiness is all. Having spent the whole play unable to accept a world without certainty, he finally stops demanding certainty, and simply submits to whatever fate has prepared. This final movement turns the play's great theme inside out. For four acts Hamlet's problem was that he thought too much and acted too little. Now, suddenly, he stops thinking — stops demanding certainty, stops examining every angle — and simply accepts his fate, trusting to providence, saying the readiness is all. And it is only in this state of surrender, having given up the exhausting search for certainty that tormented him, that he finally becomes able to act. Shakespeare seems to suggest that the deed could only ever be done once Hamlet let go of the very questioning that defined him — that action and overthinking cannot coexist, and one of them had to die first.",
+      "on_screen": {
+        "plate": "plate-duel",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-duel"
+      ],
+      "notes": "Claudius & Laertes plot: the poisoned unblunted sword + the poisoned wine as backup; Hamlet, fatalistic, accepts the duel."
+    },
+    {
+      "id": "d-bloodbath",
+      "template": "parallax-still",
+      "narration": "And it all goes wrong, for everyone. Hamlet scores the first hits; Claudius offers the poisoned cup, which Hamlet sets aside — and then Gertrude, his mother, cheerfully picks it up and drinks to her son before the king can stop her. In a scuffle the two fencers wound each other with the poisoned blade — so both Hamlet and Laertes now carry their deaths. The queen collapses, crying out that the drink was poisoned, and dies. The dying Laertes, remorseful, confesses the whole plot and names Claudius as the architect of it all. And at last — with his mother dead before his eyes, his own death minutes away, and the proof finally undeniable in front of the whole court — Hamlet does the thing he could not do for four acts: he runs Claudius through with the poisoned sword, and forces the poisoned wine down his throat. The murderer is dead. But so, now, is everyone. The ending is a masterpiece of tragic machinery, in which every poison Claudius laid turns back on his own household. He cannot stop Gertrude drinking the cup meant for Hamlet; the poisoned blade meant for Hamlet cuts Laertes too; and the plot, confessed by the dying Laertes, finally puts the undeniable proof and the perfect provocation into Hamlet's hand at the one instant he has nothing left to lose. And so the deed that could not be done in cold blood for four acts is done in hot blood in a few seconds — Hamlet kills Claudius only when he is himself already dying, his mother dead at his feet, the whole court watching. The revenge, when it finally comes, is almost an afterthought to the general slaughter. Everyone pays.",
+      "on_screen": {
+        "plate": "plate-duel",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-duel"
+      ],
+      "notes": "The duel: Gertrude drinks the poison; both fencers cut by the poisoned blade; Laertes confesses; Hamlet finally kills Claudius."
+    },
+    {
+      "id": "d-silence",
+      "template": "parallax-still",
+      "narration": "Hamlet has only moments left. The poison is in him. He forgives Laertes, who dies; he stops his loyal friend Horatio from drinking the last of the poison, begging him instead to live, and to tell Hamlet's story truly to a world that will otherwise misremember it. He gives his dying voice to the Norwegian prince Fortinbras to take the empty Danish throne. And then, with his last breath, he lets go of the thought that has tormented him for the whole play, into the one thing beyond all thinking: the rest, he says, is silence. He dies in Horatio's arms. Fortinbras arrives to find the entire royal family of Denmark dead on the floor — king, queen, prince, courtier — a whole dynasty wiped out, and orders Hamlet borne off like a soldier, with honour. Hamlet's death is quiet and strangely gentle after all the noise. His last real concern is not vengeance, which is accomplished, but his story — he is desperate that the truth be told, that he not be remembered as a mere murderer, and he spends his final strength keeping the loyal Horatio alive to 'tell my story'. It is a deeply human last wish: to be understood. His dying words — the rest is silence — close down the most restless, verbal, thinking mind in all of literature into the one state it could never examine. And the arrival of Fortinbras, the uncomplicated man of action who simply takes the throne while the thinker lies dead, is Shakespeare's final quiet irony: the world goes to those who act without agonising, and the most extraordinary consciousness ever put on a stage is borne off in silence.",
+      "on_screen": {
+        "plate": "plate-hamlet",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-hamlet"
+      ],
+      "notes": "Hamlet dying: forgives Laertes, spares Horatio to tell his story, names Fortinbras heir; 'the rest is silence'; Fortinbras arrives."
+    },
+    {
+      "id": "q-silence",
+      "template": "quote-card",
+      "narration": "Hamlet's last words — four words that end the most restless mind in literature.",
+      "on_screen": {
+        "quote": "The rest is silence.",
+        "source": "Hamlet, Act 5"
+      },
+      "notes": "Verbatim, Gutenberg #1524, line 6648."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why has this one play generated more words, more performances, more obsession than anything else ever written? Partly because of Hamlet himself — the first truly modern character in literature, a person we seem to know from the inside, with a mind that will not stop questioning, doubting, joking, despairing, turning everything over. When he speaks his soliloquies he is not really talking to Denmark; he is talking to us, thinking our own secret thoughts about death and meaning and the sheer difficulty of acting rightly in a corrupt world. And the famous delay is not a flaw but the whole point: Hamlet is what happens when an infinitely thoughtful person is handed a brutally simple task — kill the king — and finds that thought itself, consciousness itself, gets in the way of action, that to see every side of a thing is to be unable to do any of them. He is paralysed by the very intelligence that makes him magnificent. And so the play asks a question that never stops being ours: in a world where we can never be fully certain of anything, how do we ever act at all? Hamlet dies without an answer — and hands us, in Horatio, the only thing he is sure of: that the story must be told. And consider the strange shape of the tragedy's ending. The revenge Hamlet agonised over for the entire play is finally accomplished almost by accident, in a chaos of poison not of his making, when he himself is already a dead man — as if Shakespeare is telling us that the great deliberate act Hamlet could never quite will into being was never really in his control at all. Eight people lie dead by the end, a whole royal line extinguished, and the throne of Denmark passes to a foreign prince who simply walked in. If there is consolation, it is Horatio, left alive to tell the story truly — the play insisting, at the last, that even a life that ended in paralysis and bloodshed and unanswered questions is worth telling, worth understanding, worth remembering rightly. Which is, in the end, exactly what this video, and every performance for four hundred years, has tried to do.",
+      "on_screen": {
+        "plate": "plate-skull",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-skull"
+      ],
+      "notes": "Close: why it endures — Hamlet the first modern consciousness; the delay as the theme; thought vs action; how to act amid uncertainty."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of Hamlet — a ghost, a murder, a mind too vast to act, and a court that destroys itself waiting for a prince to make up his mind. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. No summary can hold it; the real play is in the language, so find a great performance and listen to how much of how we think was first thought aloud here. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}

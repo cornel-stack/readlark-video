@@ -1,0 +1,67 @@
+{
+  "book_code": "CL-03",
+  "book": "Hamlet",
+  "note": "Art queries for Shakespeare's Hamlet. Wikimedia Commons, PD/CC0 only. Richly illustrated: Delacroix's Hamlet lithographs and graveyard scene, Fuseli's Hamlet and the Ghost, Millais's Ophelia, Daniel Maclise's Play Scene, plus a Gothic castle and a dark portrait of the prince. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-elsinore",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight house painting",
+      "want": "A brooding building by night — Elsinore (PD)"
+    },
+    {
+      "id": "plate-ghost",
+      "count": 1,
+      "query": "Henry Fuseli Hamlet and the Ghost painting",
+      "want": "Fuseli, Hamlet confronts his father's ghost (PD)"
+    },
+    {
+      "id": "plate-hamlet",
+      "count": 1,
+      "query": "Eugene Delacroix Hamlet painting",
+      "want": "Delacroix, the brooding prince (PD)"
+    },
+    {
+      "id": "plate-gertrude",
+      "count": 1,
+      "query": "Anthony van Dyck portrait of a queen painting",
+      "want": "A richly-dressed queen — Gertrude (PD)"
+    },
+    {
+      "id": "plate-ophelia",
+      "count": 1,
+      "query": "John William Waterhouse Ophelia painting",
+      "want": "Ophelia — Hamlet's love (PD)"
+    },
+    {
+      "id": "plate-play",
+      "count": 1,
+      "query": "Daniel Maclise The Play Scene in Hamlet painting",
+      "want": "Maclise, the Mousetrap play scene (PD)"
+    },
+    {
+      "id": "plate-claudius",
+      "count": 1,
+      "query": "Rembrandt King David in prayer painting",
+      "want": "Rembrandt, a king kneeling in guilty prayer — Claudius (PD)"
+    },
+    {
+      "id": "plate-ophelia-death",
+      "count": 1,
+      "query": "John Everett Millais Ophelia drowning painting",
+      "want": "Millais, Ophelia's drowning (PD)"
+    },
+    {
+      "id": "plate-skull",
+      "count": 1,
+      "query": "Philippe de Champaigne Vanitas skull painting",
+      "want": "A memento-mori skull — Yorick, the graveyard (PD)"
+    },
+    {
+      "id": "plate-duel",
+      "count": 1,
+      "query": "Jean-Leon Gerome duel after the masquerade painting",
+      "want": "Gerome, a duel — the fatal fencing match (PD)"
+    }
+  ]
+}
