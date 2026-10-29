@@ -1,0 +1,55 @@
+{
+  "book_code": "CL-19",
+  "book": "The Picture of Dorian Gray",
+  "note": "Art queries for Wilde's The Picture of Dorian Gray. Wikimedia Commons, PD/CC0 only. Sargent/Tissot portraits for the beautiful young man and the dandy Lord Henry, a painter's studio for Basil, Grimshaw's London, a lavish interior for the decadence, a dark attic, and Doré's London for the opium-den menace. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-portrait",
+      "count": 1,
+      "query": "John Singer Sargent portrait of a young man painting",
+      "want": "A beautiful young man — Dorian / the portrait (PD)"
+    },
+    {
+      "id": "plate-london",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight painting",
+      "want": "Grimshaw, gaslit London (PD)"
+    },
+    {
+      "id": "plate-basil",
+      "count": 1,
+      "query": "Rembrandt artist painter in his studio painting",
+      "want": "A painter at his easel — Basil (PD)"
+    },
+    {
+      "id": "plate-henry",
+      "count": 1,
+      "query": "John Singer Sargent portrait of a gentleman painting",
+      "want": "An elegant dandy — Lord Henry (PD)"
+    },
+    {
+      "id": "plate-sibyl",
+      "count": 1,
+      "query": "John William Waterhouse young woman painting",
+      "want": "A young woman / actress — Sibyl Vane (PD)"
+    },
+    {
+      "id": "plate-decadence",
+      "count": 1,
+      "query": "Lawrence Alma-Tadema Roses of Heliogabalus painting",
+      "want": "Alma-Tadema, decadent luxury (PD)"
+    },
+    {
+      "id": "plate-attic",
+      "count": 1,
+      "query": "Joseph Wright of Derby candlelit interior painting",
+      "want": "A dark candlelit room — the hidden portrait (PD)"
+    },
+    {
+      "id": "plate-vane",
+      "count": 1,
+      "query": "Gustave Dore London slum engraving",
+      "want": "Doré, a seedy London street — the underworld (PD)"
+    }
+  ]
+}

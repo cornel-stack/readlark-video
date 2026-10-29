@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "code": "CL-19B",
+    "book": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "year": "1890",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "The Picture of Dorian Gray: The Full Story Explained (Oscar Wilde)",
+    "search_phrase": "The Picture of Dorian Gray explained"
+  },
+  "chapters": [
+    {
+      "title": "The portrait in the attic",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Portrait",
+      "first_scene": "ch-portrait"
+    },
+    {
+      "title": "Sibyl Vane",
+      "first_scene": "ch-sibyl"
+    },
+    {
+      "title": "The Double Life",
+      "first_scene": "ch-double"
+    },
+    {
+      "title": "Murder",
+      "first_scene": "ch-murder"
+    },
+    {
+      "title": "The Knife",
+      "first_scene": "ch-knife"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In The Picture of Dorian Gray, a young man stays flawlessly beautiful while his portrait, hidden in the attic, ages and rots with every sin he commits.",
+      "on_screen": {
+        "question": "The portrait in the attic",
+        "plate": "plate-portrait"
+      },
+      "assets": [
+        "plate-portrait"
+      ],
+      "notes": "Hook before any title. ~26 words, minimal pauses. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Picture of Dorian Gray, by Oscar Wilde, published in eighteen ninety.",
+      "on_screen": {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "year": "1890",
+        "subtitle": "A Novel"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. This was Oscar Wilde's only novel, and it caused a scandal — Victorian critics called it poisonous and immoral, and it would later be used against Wilde himself at the trials that destroyed him. Second: it is the great fable of aestheticism, the movement Wilde led, which prized beauty and art and sensation above all else — 'art for art's sake'. The book is stuffed with Wilde's glittering, paradoxical wit, most of it in the mouth of the wicked Lord Henry, who can make any sin sound delicious. And third: hold on to the bargain at its heart — a Faustian pact dressed in silk. A beautiful young man wishes that a painting would grow old and bear the marks of his sins, while he himself stays forever young and unblemished. The wish comes true. And the novel becomes a dark moral tale about exactly the philosophy it seems to celebrate: what happens to a soul that pursues pleasure and beauty with no conscience and no consequences — until the bill, hidden in the attic, finally comes due. It helps to know how personal and how dangerous this book was for Wilde. He poured himself into all three main characters — he once said Basil was what he thought he was, Lord Henry what the world thought him, and Dorian what he would like to have been. Published in 1890 and then expanded in 1891, it was attacked as decadent and corrupting; and five years later, at Wilde's trial for 'gross indecency', the prosecution read passages aloud as evidence of his immorality, helping to send him to prison and ruin. So the novel is shadowed, in hindsight, by its author's own tragedy — a man destroyed, like Dorian, by a society obsessed with beautiful surfaces and savage about what it imagined lay beneath them.",
+      "on_screen": {
+        "plate": "plate-london",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-london"
+      ],
+      "notes": "Context: Wilde's only novel, scandalous; aestheticism / art for art's sake; the Faustian bargain; a moral tale under the decadence."
+    },
+    {
+      "id": "ch-portrait",
+      "template": "chapter-card",
+      "narration": "A painter, his masterpiece, and the clever devil who whispers in the model's ear.",
+      "on_screen": {
+        "chapter_title": "The Portrait",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Portrait",
+            "Sibyl",
+            "Double Life",
+            "Murder",
+            "The Knife"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "p-basil",
+      "template": "parallax-still",
+      "narration": "In a sunlit London studio, the painter Basil Hallward is finishing the finest work of his life — a full-length portrait of an astonishingly beautiful young man named Dorian Gray. Basil is a little in love with Dorian, or at least with his beauty, which he believes has transformed his whole art. Into the studio comes Basil's friend, Lord Henry Wotton — witty, idle, cynical, a brilliant talker who treats every conventional moral as a joke to be inverted. Basil begs Lord Henry not to meet Dorian, sensing that Henry's influence will spoil something pure. But it is too late: Dorian is there, and Lord Henry, charmed by the boy's loveliness, begins, almost playfully, to pour his seductive philosophy into Dorian's innocent ear. The three men form a kind of moral triangle that structures the whole book. Basil is conscience and devotion — he loves Dorian sincerely, sees the best in him, and wants to protect him; his art is an act of love. Lord Henry is temptation — brilliant, idle, utterly without principle, who treats human beings as fascinating experiments and ideas as toys, and who wants to see what his philosophy will do when poured into a beautiful empty vessel. And Dorian is the soul fought over between them, the innocent who will become whatever he is shaped into. Wilde stages their first meeting as the moment the battle for Dorian begins — and Basil, sensing exactly what Lord Henry is, tries and fails to keep them apart, knowing that Henry's glittering words will undo something in the boy that cannot be mended.",
+      "on_screen": {
+        "plate": "plate-basil",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-basil"
+      ],
+      "notes": "Basil's studio; the portrait; Basil half in love with Dorian's beauty; Lord Henry arrives and begins to influence Dorian."
+    },
+    {
+      "id": "p-henry",
+      "template": "parallax-still",
+      "narration": "Lord Henry's sermon to Dorian is the hinge of the whole book. Youth and beauty, he tells the boy, are the only things worth having, and they fade terribly fast; so Dorian must live fully, chase every sensation, yield to every temptation, and waste not a day of his brief golden time, because when the beauty is gone, nothing is left. Resist a temptation, Henry says, and the soul grows sick with longing for what it forbade itself; the only way to get rid of a temptation is to yield to it. It is dazzling, corrupting nonsense, and it lands on Dorian like a revelation — for the first time he becomes conscious of his own beauty, and terrified of losing it. What makes Lord Henry so dangerous, and so delicious, is that he never argues crudely for sin; he makes virtue sound dull and vice sound like the highest form of living. His paradoxes invert every Victorian pity: conscience is cowardice, self-denial is a kind of slow self-murder, the only sins are stupidity and ugliness. He claims he never means anything he says, that it is all just talk, play, performance — but the words do real work, and he knows it. He is conducting an experiment on a living soul for his own amusement, curious to watch what beauty plus his philosophy will produce, and indifferent to the cost. Wilde gives Henry the best lines in the book precisely so that we feel their seduction — so that we, too, are half-charmed, and must notice ourselves being charmed, and ask where such charm leads. It is worth dwelling on the idea of 'influence', because Wilde makes it the book's hidden engine. Lord Henry believes all influence is immoral — that to influence a person is to give him your own soul, your own secondhand thoughts, instead of letting him find his own. And then he proceeds to do exactly that to Dorian, delightedly, as an experiment. The tragedy is that Dorian is a blank, beautiful page, with no settled self of his own to resist with, so Henry's words do not merely persuade him; they create him. By the end of their first afternoon together, the innocent boy is gone and a new Dorian has begun to form, built out of another man's cynicism. Wilde is making a sharp point about how ideas, especially charming ones, actually shape lives — and about the carelessness of those who scatter such ideas for sport.",
+      "on_screen": {
+        "plate": "plate-henry",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-henry"
+      ],
+      "notes": "Lord Henry's philosophy of youth/beauty/pleasure; 'yield to temptation'; Dorian made conscious of his beauty and its loss."
+    },
+    {
+      "id": "q-temptation",
+      "template": "quote-card",
+      "narration": "Lord Henry's most seductive and most poisonous paradox.",
+      "on_screen": {
+        "quote": "The only way to get rid of a temptation is to yield to it.",
+        "source": "Lord Henry, Ch. 2"
+      },
+      "notes": "Verbatim, Gutenberg #174, line 760."
+    },
+    {
+      "id": "p-wish",
+      "template": "parallax-still",
+      "narration": "Then Dorian sees the finished portrait — sees, fully, for the first time, how beautiful he is — and Lord Henry's words turn to poison in his veins. He realises that the painted Dorian will stay young and perfect forever, while the real Dorian will grow old, wrinkled, and ugly; he grows jealous of his own picture. And in a fit of passionate despair he cries out the fatal wish: that it could be the other way round — that the portrait would age and he would stay young; that he would give his very soul to keep his beauty and let the picture bear the burden instead. He does not know it, but at that moment the wish is granted. The painting is now bound to his fate — or rather, it will take his fate upon itself, recording everything the beautiful face is spared. The wish is Wilde's version of the Faust legend — the soul sold for an earthly prize — but with a brilliant modern twist: Dorian does not bargain with a devil, he simply speaks a careless, passionate wish in a moment of vanity, and the universe takes him at his word. There is no contract, no fanfare; the horror is quiet and immediate. And notice what Dorian actually wants: not knowledge or power, as Faust wanted, but to keep his beautiful surface forever while someone — something — else carries the consequences. It is the specifically modern temptation: to have the pleasures without the price, the image without the reality, the face without the soul. The portrait becomes the mechanism by which Wilde can literalise an invisible truth — that our deeds write themselves somewhere, even if not on our faces. And note the exquisite cruelty of the mechanism Wilde invents. Most Faust figures know they have made a bargain and can dread the reckoning. Dorian makes his in a careless instant and then, for a while, does not even believe it has worked; the portrait becomes his private secret, his magic mirror, something he can consult and then cover up. This lets Wilde explore his real subject, which is not the supernatural at all but self-deception — the way a person can watch their own soul coarsening, can have the evidence literally hanging in a locked room, and still go on, telling themselves it does not count, that the beautiful face in the glass is the real truth of them. The portrait is a device for making conscience visible to a man determined not to look at it.",
+      "on_screen": {
+        "plate": "plate-portrait",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-portrait"
+      ],
+      "notes": "Dorian sees his beauty; grows jealous of the portrait; the fatal wish — he'd give his soul to stay young and let the picture age."
+    },
+    {
+      "id": "q-soul",
+      "template": "quote-card",
+      "narration": "Dorian's fatal wish, before the portrait — the bargain that dooms him.",
+      "on_screen": {
+        "quote": "I would give my soul for that!",
+        "source": "Dorian, Ch. 2"
+      },
+      "notes": "Verbatim, Gutenberg #174, line 1047."
+    },
+    {
+      "id": "ch-sibyl",
+      "template": "chapter-card",
+      "narration": "His first love, and his first cruelty — and the first change in the painted face.",
+      "on_screen": {
+        "chapter_title": "Sibyl Vane",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Portrait",
+            "Sibyl",
+            "Double Life",
+            "Murder",
+            "The Knife"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "s-love",
+      "template": "parallax-still",
+      "narration": "Dorian, now living by Lord Henry's creed, falls in love — or thinks he does — with Sibyl Vane, a poor but radiantly gifted young actress he discovers in a shabby theatre, playing Shakespeare's heroines with genuine genius. He is enchanted, not really by Sibyl herself but by her art, by the many beautiful women she becomes on stage; he calls her Juliet, Rosalind, Imogen. They become engaged. But Sibyl, having now known real love, finds she can no longer pretend at love on the stage; the make-believe feels hollow next to the real thing. So on the night Dorian proudly brings Basil and Lord Henry to watch her, she acts, for the first time, badly — because she has outgrown the illusion. And Dorian is not moved by this; he is disgusted. He loved the actress, not the woman; without her art, she is nothing to him. The Sibyl Vane episode is Dorian's one chance at real human feeling, and the way he fails it tells us everything. He never really loved Sibyl; he loved her art, the beautiful illusions she created on stage, the parade of Shakespeare's heroines. When she gives up those illusions for the deeper reality of loving him, he is repelled — because Dorian, already a creature of surfaces under Lord Henry's tutelage, values the beautiful performance over the real, imperfect human being. Sibyl's tragedy is that she grew from art into life at the exact moment Dorian needed her to stay a work of art; she offered him something true and he wanted only the lovely fake. It is the first clear sign of the soul-sickness Henry has planted: the inability to love a person as opposed to an image. Wilde laces even this doomed romance with his critique of his own aesthetic creed. Dorian's love is really a connoisseur's love — he prizes Sibyl as he would a perfect poem or a flawless jewel, for the exquisite sensations she gives him, not as a living woman with a heart. It is 'art for art's sake' applied to a human being, and the result is monstrous: the instant she stops being a beautiful object and becomes a real, loving, ordinary person, his feeling curdles into contempt. Wilde, the great apostle of beauty, is quietly showing the cruelty hidden inside his own philosophy — that to value only the beautiful surface of people is to be unable to love them at all.",
+      "on_screen": {
+        "plate": "plate-sibyl",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-sibyl"
+      ],
+      "notes": "Dorian loves the actress Sibyl Vane (really her art); she loses her acting when she finds real love; acts badly; Dorian disgusted."
+    },
+    {
+      "id": "s-cruelty",
+      "template": "parallax-still",
+      "narration": "Dorian turns on Sibyl with astonishing cruelty. He tells her she has killed his love, that without her art she is shallow and stupid, nothing, and he casts her off brutally and walks out, leaving her weeping. He goes home — and notices something impossible. The portrait has changed. A faint line of cruelty has appeared around the painted mouth, a touch of hardness that was not there that morning. The wish has come true: the picture is beginning to bear the record of his sins, while his own face remains perfectly, innocently beautiful. At first he is horrified, then fascinated. He resolves, half-sincerely, to go back and be kind to Sibyl, to marry her after all — but in the morning Lord Henry brings the news. Sibyl, in her despair, has killed herself the night before. The appearance of that first cruel line on the painted mouth is one of the great eerie moments in fiction, and Wilde uses it precisely. The portrait does not change for Dorian's secret thoughts or his vanity; it changes the instant he commits a genuine act of cruelty to another person. That is the rule of the magic throughout: the picture is a record of what he does, of harm done to others, a perfect externalised conscience. And the timing is merciless — the change appears before Dorian learns Sibyl is dead, so that when the news comes, he already half-knows he is responsible, and already has the proof hanging in his own house. He stands at a genuine moral fork: horror and repentance on one side, or the decision to look away and go on. Everything that follows depends on which he chooses.",
+      "on_screen": {
+        "plate": "plate-portrait",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-portrait"
+      ],
+      "notes": "Dorian's cruel rejection of Sibyl; the portrait gains a cruel line; Sibyl kills herself; the wish confirmed."
+    },
+    {
+      "id": "s-choice",
+      "template": "parallax-still",
+      "narration": "This is the crossroads of Dorian's life, and he takes the wrong turn, guided by Lord Henry. A decent man would be destroyed by guilt at having driven a girl to her death. But Lord Henry, with his glittering amorality, reframes the whole thing as something beautiful and artistic — Sibyl's death, he suggests, was her last and finest role, a wonderful tragic ending to a love affair, something to be savoured rather than mourned. And Dorian, to his own faint unease, finds he agrees; he feels the horror slide off him. He decides to treat the portrait not as a warning but as a magic mirror — a way to watch his own soul while his face stays clean. He will keep it hidden, pursue every pleasure Lord Henry preached, and let the picture pay. The bargain is sealed in earnest. From here, Dorian's long corruption begins. Everything in the novel turns on this moment, because it is the last point at which Dorian might still have been saved. Sibyl's death is a genuine tragedy for which he is genuinely responsible, and a flicker of real remorse does stir in him — if he had let it grow, confessed, changed, the whole horror might have ended here. Instead Lord Henry arrives with his honeyed, poisonous consolation, teaching Dorian to aestheticise even a dead girl: to see her suicide as a beautiful artistic gesture, the perfect end to a romance, something that happened to a character rather than to a person he destroyed. And Dorian chooses to believe it, because it is easier and more flattering than guilt. In that choice he commits himself, finally and deliberately, to Henry's creed and to the portrait's bargain — and seals the direction of the next eighteen years.",
+      "on_screen": {
+        "plate": "plate-henry",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-henry"
+      ],
+      "notes": "Lord Henry reframes Sibyl's death as 'art'; Dorian feels no guilt; decides to use the portrait as a mirror and pursue pleasure; corruption begins."
+    },
+    {
+      "id": "ch-double",
+      "template": "chapter-card",
+      "narration": "Eighteen years pass. The man stays young and lovely. The picture becomes a monster.",
+      "on_screen": {
+        "chapter_title": "The Double Life",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Portrait",
+            "Sibyl",
+            "Double Life",
+            "Murder",
+            "The Knife"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "d-hide",
+      "template": "parallax-still",
+      "narration": "Dorian hides the portrait. He has it carried up to the locked schoolroom at the top of his house, draped and shut away where no one can see it, and he keeps the only key. It has become his conscience made visible, and he cannot bear to be watched by it — but he also cannot stop looking. Over the years he develops a secret, compulsive habit: he creeps up to the attic to compare his own unchanging, youthful face with the ever-more-hideous thing on the canvas, reading each new line of cruelty and corruption like entries in a diary of his soul. The split is complete — the beautiful public Dorian, and the rotting secret one locked upstairs. The locked attic room is one of literature's great images, and Wilde loads it with meaning. Dorian hides the portrait in the schoolroom of his childhood — the room of his lost innocence — which is exactly right: the ruined soul is stored in the ruins of the boy he used to be. He double-locks it, tells no one, keeps the only key, and yet cannot stay away, creeping up again and again to gloat and to shudder. The portrait becomes the one true relationship of his life, the only place he is honest, the only thing that knows him — a grotesque parody of a conscience he consults in private and defies in public. That compulsive, secret visiting is Wilde's picture of a divided self: the charming man downstairs, the truth locked overhead, and the stairs between them worn with guilty trips he can neither make nor stop making. It is worth adding how Wilde turns the passing of time into dread. For most of us the mirror is the honest witness and a portrait the flattering lie; Wilde reverses it, so that Dorian's mirror flatters endlessly while the hidden portrait keeps the brutal accounts. Each year that should have marked his face with experience and regret instead marks only the canvas, so that Dorian drifts further from any normal reckoning with his own life. He never has to watch himself grow older or harder; he is denied the ordinary, humbling feedback that keeps the rest of us honest. His agelessness is not a gift but a kind of deprivation of the soul, cutting him off from the natural consequences that might have taught him something.",
+      "on_screen": {
+        "plate": "plate-attic",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-attic"
+      ],
+      "notes": "Dorian hides the portrait in the locked attic schoolroom; secretly visits to watch his soul decay on the canvas; the split self."
+    },
+    {
+      "id": "d-corruption",
+      "template": "parallax-still",
+      "narration": "And Dorian sinks into a long double life of secret vice. Wilde is deliberately vague about the specifics — he lets the reader imagine the worst — but we are told Dorian becomes a byword for corruption: there are whispered scandals, ruined reputations, friends who leave a room when he enters, young men and women whose lives he has somehow blighted, rumours of opium dens and worse. He grows obsessed with sensation — collecting jewels, perfumes, embroideries, drowning himself in exquisite things — spurred on by a strange, decadent 'yellow book' Lord Henry gives him, about a man who pursues every pleasure of the senses. Through it all, Dorian's face stays the untouched face of a beautiful boy, so that no one can quite believe the stories; how could anyone so lovely be so vile? Only the portrait knows, growing more loathsome with every passing year. Wilde's decision to leave Dorian's specific sins vague is deliberate and clever. By never quite naming what Dorian does — hinting at drugs, ruined friends, unspeakable scandals, 'monstrous' pleasures — he lets each reader supply their own notion of corruption, and he keeps the book from dating; the sins are whatever the age finds most shameful. It also keeps the focus where Wilde wants it: not on any particular vice but on the principle, the life organised entirely around sensation and self with no thought for anyone harmed along the way. The 'yellow book' Lord Henry gives Dorian — a thinly disguised version of a real French decadent novel — becomes his bible, a handbook for a life of pure aesthetic experience; Dorian reads it dozens of times and all but lives inside it. The surface stays golden; the soul in the attic curdles. Wilde also uses these years to satirise his own society, and it is one of the book's sharpest ironies. London society continues to adore Dorian, to seek him out, to seat him at its best tables — because he is beautiful, rich, and charming, and because it cannot believe that someone so lovely could be so corrupt. The ugliness is all safely out of sight, in the attic and in the private lives he ruins; the surface is impeccable, so the world asks no questions. Wilde is skewering a culture that judges entirely by appearances, that will forgive anything in a beautiful, well-dressed person and suspect everything in a plain one. Dorian gets away with it for so long precisely because his society, like Dorian himself, cares only for the surface — a vanity the author knew intimately, and which would soon help to destroy him.",
+      "on_screen": {
+        "plate": "plate-decadence",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-decadence"
+      ],
+      "notes": "Dorian's secret double life of vice (left vague); scandals, ruined lives, the 'yellow book'; his face stays innocent, the portrait rots."
+    },
+    {
+      "id": "ch-murder",
+      "template": "chapter-card",
+      "narration": "Then the one man who might have saved him asks to see his soul.",
+      "on_screen": {
+        "chapter_title": "Murder",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Portrait",
+            "Sibyl",
+            "Double Life",
+            "Murder",
+            "The Knife"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "m-basil",
+      "template": "parallax-still",
+      "narration": "One foggy night, the painter Basil Hallward comes to Dorian, troubled by the terrible rumours, and begs him, as an old friend, to deny them — he cannot believe the sins people whisper of, because Dorian's face is still so pure. He pleads with Dorian to reform, to pray. And Dorian, in a sudden, reckless impulse, decides to show him the truth. He takes Basil up to the locked attic and unveils the portrait. Basil is horrified beyond words — the thing on the canvas is a leering, aged, corrupt monster, the very face of a ruined soul, and yet unmistakably his own painting of the beautiful boy; he recognises his signature. He realises what Dorian has become, and begs him, in anguish, to kneel and pray for mercy. And in that moment, something in Dorian — rage, shame, hatred of the man who painted the thing and the man who sees his soul — boils over. Basil's return is the book's last offer of grace, and Dorian's rejection of it is the murder of his own conscience made literal. Basil is the one person who still loves Dorian for something other than his beauty, the one who urges him to pray and reform — he is, in the moral scheme of the book, Dorian's good angel making a final plea. And Dorian answers that plea by showing Basil the ruined soul he helped create, and then killing him for seeing it. It is deeply symbolic: in murdering the loving painter who made the portrait and begs him to repent, Dorian destroys the last voice calling him back to goodness, and crosses from a man who harms others carelessly into one who kills deliberately to protect his secret. After Basil, there is no one left to save him but himself.",
+      "on_screen": {
+        "plate": "plate-attic",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-attic"
+      ],
+      "notes": "Basil begs Dorian to reform; Dorian shows him the hideous portrait; Basil horrified, begs him to pray; Dorian's rage boils over."
+    },
+    {
+      "id": "m-kill",
+      "template": "parallax-still",
+      "narration": "Dorian seizes a knife and stabs Basil to death, there in the attic, beside the portrait that damns them both. It is the novel's point of no return — not a sin of weakness or appetite now, but cold murder. And Dorian handles it with a chilling, practised detachment: he blackmails an old friend, a chemist named Alan Campbell whom he has some dark hold over, into coming and destroying the body with chemicals, erasing Basil entirely. Campbell, having done this unspeakable thing under Dorian's coercion, is himself ruined and will later kill himself. Dorian, meanwhile, goes out to a dinner party the same evening, charming as ever, his beautiful face betraying nothing. But when he next looks at the portrait, there is a new horror: the painted hand is spattered with fresh, loathsome blood. The murder of Basil is the book's moral Rubicon, and Wilde stages it with deliberate symbolic weight. Basil made the portrait; Basil loved Dorian truly; Basil is the one man urging repentance — and Dorian kills him in the very room where the portrait hangs, beside the evidence of the soul Basil is begging him to save. It is almost as if Dorian murders his conscience and his best self in one stroke. And the chilling aftermath — the cold-blooded blackmail of Alan Campbell to dissolve the body in acid, the serene dinner party the same night — shows how far gone Dorian is: capable now not just of cruelty or vice but of calculated murder and the methodical destruction of a man and a friend to cover it, all without a visible tremor. The beautiful face lies more smoothly than ever; only the painted hand, newly bloodied, tells the truth.",
+      "on_screen": {
+        "plate": "plate-attic",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-attic"
+      ],
+      "notes": "Dorian murders Basil; blackmails Alan Campbell to destroy the body; the portrait's hand gains blood; Dorian unmoved outwardly."
+    },
+    {
+      "id": "m-vane",
+      "template": "parallax-still",
+      "narration": "The past, however, is closing in. Sibyl Vane's brother, James, a rough sailor, swore years ago to kill the gentleman who destroyed his sister — and he has never forgotten the name: Dorian Gray. He tracks Dorian down at last in a seedy opium den, and nearly murders him — but Dorian saves himself with a horrible trick. He steps into the light and shows James his face, which is still that of a boy of twenty; this cannot be the man who ruined Sibyl eighteen years ago, James reasons, because that man would be middle-aged now. So James lets him go. Dorian's unnatural youth has saved his life. But James soon learns the truth, and begins to stalk him — and the terror of being hunted finally cracks Dorian's glittering composure, until, by a grim accident during a shooting party on Dorian's estate, James Vane is shot dead. The last avenger is gone. Dorian seems, horribly, to have gotten away with everything. The James Vane subplot tightens the book into something like a thriller in its final act, and it carries a grim poetry. For eighteen years Dorian has escaped all consequence, protected by the very beauty he sold his soul for — and here that beauty literally saves his life, when his unlined young face convinces Sibyl's avenging brother that he cannot possibly be the man who ruined her so long ago. The thing that damns his soul keeps rescuing his body. But the reprieve only deepens his terror; for the first time Dorian is genuinely afraid, hunted, looking over his shoulder, the smooth surface of his life finally disturbed. And James's death, by a stray shot in a hunting accident, feels less like luck than like the universe toying with him — removing the last external threat so that Dorian is left to be destroyed by the only enemy left: himself, and the thing upstairs. Wilde also uses James Vane to let the dead reach back for Dorian across eighteen years. Sibyl, the one person who loved him truly and whom he destroyed first, sends her avenging brother out of the past like a returning debt — and it is a measure of how far Dorian has fled from consequence that his victim's family cannot even recognise him, so impossibly young does he look. The hunt that follows strips away, for the first time, Dorian's glittering composure; he starts at shadows, sees James's watching face at a window, lives in animal fear. The beautiful mask that protected him for so long is finally cracking from the inside, and even when the accident in the woods removes James for good, the fear does not lift — because the real pursuer was never the sailor with the pistol. It was always the thing in the attic, and himself.",
+      "on_screen": {
+        "plate": "plate-vane",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-vane"
+      ],
+      "notes": "James Vane hunts Dorian for Sibyl; Dorian's youth saves him in the opium den; James accidentally shot dead; Dorian escapes all consequence."
+    },
+    {
+      "id": "ch-knife",
+      "template": "chapter-card",
+      "narration": "He has escaped everything but the thing in the attic — and himself.",
+      "on_screen": {
+        "chapter_title": "The Knife",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Portrait",
+            "Sibyl",
+            "Double Life",
+            "Murder",
+            "The Knife"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "k-conscience",
+      "template": "parallax-still",
+      "narration": "But Dorian is beginning to crack under the weight of it all. The soul he thought he had successfully hidden away will not stay silent. Haunted and weary, he has a sudden impulse to be good — to change, to start again — and he performs what he tells himself is a genuinely kind act, sparing a country girl he might have ruined. He hurries to the attic, hoping the portrait will have improved, that his one good deed will have wiped away a little of the horror. But when he unveils it, the painted face is worse than ever — and now it wears a new expression: hypocrisy, cunning. He realises his 'good deed' was itself a fraud, done out of vanity and curiosity, a hunger to feel virtuous and to see the picture mend, not out of any real goodness. His conscience, far from being satisfied, is merely more disgusted. There is no way to buy back a soul with a cheap gesture. This late, failed attempt at goodness is one of the most psychologically acute strokes in the novel. Dorian, exhausted and frightened, wants to be good — but Wilde will not let it be easy or cheap. Dorian's 'good deed' (sparing a girl) turns out, when he examines it in the portrait's merciless mirror, to have been done from the wrong motives entirely: vanity, novelty, curiosity about whether the picture would improve, a hunger to feel virtuous. And so the portrait records not virtue but hypocrisy, and grows worse. Wilde's point is bracing: you cannot perform goodness as one more aesthetic experience, cannot buy back a soul with a single calculated gesture done for the effect it will have on your conscience. Real repentance would require exactly the thing Dorian long ago traded away — the capacity to care about someone other than himself.",
+      "on_screen": {
+        "plate": "plate-portrait",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-portrait"
+      ],
+      "notes": "Dorian's impulse to reform; a 'good deed' done from vanity; the portrait grows worse (hypocrisy); no cheap redemption."
+    },
+    {
+      "id": "k-reality",
+      "template": "parallax-still",
+      "narration": "And here, late and bitter, comes Dorian's true realisation — that the soul is not the convenient abstraction Lord Henry's philosophy made it out to be, but a terrible reality, something that can be bought and sold and bartered away, and poisoned, and that his has been. The portrait is the proof of it, the hideous ledger of every cruelty and crime, and it will not let him rest; it hangs over him, accusing, unkillable. He cannot confess — who would believe it? He cannot repent — he has tried, and it only made the thing worse. He cannot destroy the evidence, because the evidence is his own soul. The beautiful, youthful face he wished for has become a prison, and the real Dorian, the true record of him, festers upstairs where he must look at it and can never escape it. This is the novel's hard moral core, stated at last. Lord Henry's whole philosophy treated the soul as a fiction, a superstition, something only fools worried about while the wise pursued sensation. Dorian built his life on that idea. And now, too late, he understands that it was a lie — that the soul is the most real thing of all, that it keeps an exact account, that it can indeed be bought and sold and poisoned, but never escaped. The portrait is simply the soul made visible, the invisible ledger forced into paint, and it has been telling the truth for eighteen years while Dorian's face told a beautiful lie. Everything he did to others is written there, undeniable and unkillable, and there is nowhere left to hide it and no way left to wash it clean. There is a quiet terror in how Wilde frames this, because it comes with no possibility of relief. Dorian cannot take the ordinary routes back: confession is absurd, since no one would believe a tale of a magic portrait; repentance he has just tried, and the picture exposed it as a fraud. He cannot even die out of it cleanly, because the record of his guilt is not inside him, where death would end it, but outside, on a canvas that would outlast him and testify forever. He is trapped between a face that cannot age and a soul that cannot be cleansed, hunted by nothing but the truth about himself — which is, Wilde suggests, the most inescapable pursuer of all.",
+      "on_screen": {
+        "plate": "plate-portrait",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-portrait"
+      ],
+      "notes": "Dorian's realisation: the soul is a terrible reality, bought and bartered away; the portrait is his unkillable, accusing conscience."
+    },
+    {
+      "id": "q-reality",
+      "template": "quote-card",
+      "narration": "Dorian, at last, on the soul he tried to pretend did not matter.",
+      "on_screen": {
+        "quote": "The soul is a terrible reality. It can be bought, and sold, and bartered away.",
+        "source": "Dorian, Ch. 19"
+      },
+      "notes": "Verbatim, Gutenberg #174, line 8248."
+    },
+    {
+      "id": "k-end",
+      "template": "parallax-still",
+      "narration": "In a final desperate fury, Dorian decides the portrait must be destroyed. It is his conscience, his past, the one witness to all his crimes and the one thing keeping him from peace — so he will kill it, as he killed Basil, with the same knife. He seizes the blade and plunges it into the canvas, into the hideous painted heart, meaning to be free at last. There is a dreadful cry, and a crash. The servants, hearing it, come up and break into the locked room. And there they find the splendid portrait, restored to all its original beauty, showing Dorian Gray as the exquisite young man he was eighteen years before. And on the floor, in evening dress, with a knife in his heart, lies a withered, wrinkled, loathsome old man — so hideous and corrupt that they only know him by the rings on his fingers. In destroying the picture of his soul, Dorian has at last received, all at once, the ruin it had been storing up; the bargain is paid in full, and the reckoning he dodged for a lifetime arrives in a single instant. Wilde gives the ending a terrible, perfect symmetry, and it rewards a moment's thought. Throughout the book, the knife, the portrait, and Dorian's crimes have been bound together — it is the same knife that killed Basil that Dorian now turns on the painting. He imagines he is destroying the evidence, the witness, the thing that will not let him rest; he thinks killing the picture will set him free. But the picture is not a thing apart from him; it is him, the true him, and so to stab it is to stab himself. The instant the blade goes in, the magic reverses: the eighteen years of deferred consequence come due all at once, flooding back into his body, while the canvas is cleansed. Beauty and corruption trade places. The servants find a withered, knife-struck monster they can identify only by his rings, beneath a portrait of a flawless young man — the lie made lovely, the truth made flesh, the bill paid in a single second.",
+      "on_screen": {
+        "plate": "plate-portrait",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-portrait"
+      ],
+      "notes": "Dorian stabs the portrait to kill his conscience; he dies withered and hideous, the portrait restored to beauty; the bill paid at last."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why has this strange, decadent fable lasted? Partly for the sheer glitter of it — Wilde's wit is everywhere, especially in Lord Henry's poisonous paradoxes, which are so delicious that readers quote them approvingly even though the book itself shows exactly where that philosophy leads. And partly because the central image is so perfect and so modern: the split between the beautiful, curated surface we show the world and the true self, the record of what we have actually done, that we hide away and hope no one will ever see. In an age of edited images and public faces, of lives performed on bright screens while something else accumulates in private, Dorian Gray feels less like a Victorian ghost story and more like a prophecy. Wilde, who preached beauty and pleasure and 'art for art's sake', wrote, almost in spite of himself, one of literature's sternest moral tales: that there is no bargain by which you can keep the pleasures of sin and escape its cost; that the soul is real; that the bill always, always comes due; and that the only portrait that cannot lie is the one that shows us exactly what we have made of ourselves. And it is worth noticing the final, savage irony that Wilde builds into the ending. Dorian dies not while sinning but while trying, in his twisted way, to be free of his sin — raising the knife against the portrait because he wants peace. But the portrait was never the problem; it was only the mirror. In striking at the image of his corrupted soul, he strikes at the soul itself, and takes into his own body, in one instant, the eighteen years of ruin he had farmed out to the canvas. The beautiful surface and the hideous reality change places at the moment of death: the picture becomes lovely again, the man becomes the monster. It is Wilde's last word on the whole glittering fantasy of consequence-free beauty — that the reckoning is not escaped, only deferred, and that it returns, all at once, with interest. And there is a reason the book reads as more than a period curiosity. Strip away the Victorian trappings and Dorian's predicament is uncannily ours: a world where the image is everything, where people curate a flawless, ageless surface for others to admire while the truer, messier record of who they are and what they have done is kept somewhere out of sight. Wilde built, in 1890, the perfect metaphor for a culture of beautiful public faces and hidden private selves — and then told the hard truth that the division cannot hold forever, that the hidden self is the real one, and that it keeps a perfect account. For all his love of surfaces and sensation, Wilde wrote a book that insists, finally, on depth: that there is a soul, that it matters more than the face, and that the reckoning it keeps, however long deferred, is the one appointment no beauty, wealth, or charm will let you miss.",
+      "on_screen": {
+        "plate": "plate-portrait",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-portrait"
+      ],
+      "notes": "Close: Wilde's wit vs the moral; the surface self vs the hidden true self; modern resonance (edited images); the soul and the reckoning."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of The Picture of Dorian Gray — a beautiful face, a hidden picture, and a soul sold for eternal youth that comes due all at once. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It's a quick, dazzling, sinister read, Wilde at his most quotable and most serious at once — enjoy Lord Henry's wit, but watch where it leads. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}
