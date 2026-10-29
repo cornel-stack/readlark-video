@@ -1,0 +1,79 @@
+{
+  "book_code": "CL-07",
+  "book": "A Midsummer Night's Dream",
+  "note": "Art queries for Shakespeare's A Midsummer Night's Dream. Wikimedia Commons, PD/CC0 only. Rich in public-domain fairy painting that depicts the play directly: Henry Fuseli and Edwin Landseer (Titania and Bottom), Joseph Noel Paton (Oberon and Titania), William Blake (Oberon, Titania and Puck), Joshua Reynolds (Puck), plus moonlit woods and Neoclassical Athens. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-wood",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight wood painting",
+      "want": "A moonlit enchanted wood (PD)"
+    },
+    {
+      "id": "plate-oberon-titania",
+      "count": 1,
+      "query": "Joseph Noel Paton Quarrel of Oberon and Titania painting",
+      "want": "Paton, Oberon and Titania and the fairy host (PD)"
+    },
+    {
+      "id": "plate-athens",
+      "count": 1,
+      "query": "Lawrence Alma-Tadema Roses of Heliogabalus painting",
+      "want": "Alma-Tadema, an opulent classical court — Theseus's Athens (PD)"
+    },
+    {
+      "id": "plate-lovers",
+      "count": 1,
+      "query": "Francesco Hayez The Kiss painting",
+      "want": "A pair of young lovers (PD)"
+    },
+    {
+      "id": "plate-mechanicals",
+      "count": 1,
+      "query": "Adriaen van Ostade peasants tavern painting",
+      "want": "Rustic workmen — the mechanicals (PD)"
+    },
+    {
+      "id": "plate-puck",
+      "count": 1,
+      "query": "Joshua Reynolds Puck Robin Goodfellow painting",
+      "want": "Reynolds, Puck (PD)"
+    },
+    {
+      "id": "plate-chaos",
+      "count": 1,
+      "query": "Henry Fuseli Midsummer Night's Dream fairies painting",
+      "want": "Fuseli, a tangle of enchanted figures — the lovers' chaos (PD)"
+    },
+    {
+      "id": "plate-titania-bottom",
+      "count": 1,
+      "query": "Edwin Landseer Titania and Bottom A Midsummer Night's Dream painting",
+      "want": "Landseer, Titania and the ass-headed Bottom (PD)"
+    },
+    {
+      "id": "plate-fairies",
+      "count": 1,
+      "query": "William Blake Oberon Titania Puck fairies dancing painting",
+      "want": "Blake, the fairy host dancing (PD)"
+    },
+    {
+      "id": "plate-play",
+      "count": 1,
+      "query": "William Hogarth theatre players painting",
+      "want": "A stage performance — the play-within (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "count": 1,
+      "query": "Caspar David Friedrich Morning in the Riesengebirge painting",
+      "want": "Friedrich, dawn over the land — morning in the wood (PD)"
+    },
+    {
+      "id": "plate-epilogue",
+      "count": 1,
+      "query": "Joseph Noel Paton Reconciliation of Oberon and Titania painting",
+      "want": "Paton, fairies by moonlight — Puck's epilogue (PD)"
+    }
+  ]
+}

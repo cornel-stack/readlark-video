@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "code": "CL-07B",
+    "book": "A Midsummer Night's Dream",
+    "author": "William Shakespeare",
+    "year": "c. 1595",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "A Midsummer Night's Dream: The Full Story Explained (Shakespeare)",
+    "search_phrase": "A Midsummer Night's Dream explained"
+  },
+  "chapters": [
+    {
+      "title": "One mad night in the wood",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Lovers' Knot",
+      "first_scene": "ch-lovers"
+    },
+    {
+      "title": "Into the Wood",
+      "first_scene": "ch-wood"
+    },
+    {
+      "title": "Love-in-Idleness",
+      "first_scene": "ch-juice"
+    },
+    {
+      "title": "Titania and the Ass",
+      "first_scene": "ch-bottom"
+    },
+    {
+      "title": "Morning, and the Play",
+      "first_scene": "ch-morning"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "Four young lovers, a feuding king and queen of the fairies, and a troupe of hopeless amateur actors all blunder into the same enchanted wood on the same night — and by dawn, nobody loves the right person.",
+      "on_screen": {
+        "question": "One mad night in the wood",
+        "plate": "plate-wood"
+      },
+      "assets": [
+        "plate-wood"
+      ],
+      "notes": "Hook before any title. ~38 words, ≤15s."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "A Midsummer Night's Dream, by William Shakespeare, written around fifteen ninety-five.",
+      "on_screen": {
+        "title": "A Midsummer Night's Dream",
+        "author": "William Shakespeare",
+        "year": "c. 1595",
+        "subtitle": "A Comedy"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. This is Shakespeare's most beloved comedy — light, fast, and magical, a play about love and dreams and the foolishness of both, probably written to be performed at a noble wedding. Second: it braids together three separate worlds that collide in one forest on one midsummer night. There are four young Athenian lovers, tangled up in the wrong pairings. There are the fairies, led by their quarrelling king and queen, Oberon and Titania, and the mischievous sprite Puck. And there is a band of bumbling Athenian workmen — the 'mechanicals' — trying to rehearse a play. Keep those three groups clear, and the chaos never loses you. And third: hold on to the play's gentle, mischievous idea — that love is not rational, that it is a kind of enchantment that falls on us as blindly as a spell, and makes magnificent fools of us all. The magic flower in the wood only does, visibly, what love does to everyone, invisibly, all the time. A note on its reputation: for all its lightness, this is one of the most performed plays in the world, staged everywhere from grand opera houses to school halls and open-air woods, because it works on every level at once — slapstick for children, aching comedy for lovers, and something genuinely strange and dreamlike for anyone who looks closely. Shakespeare also does something daring with its structure: he runs three completely different kinds of comedy side by side — romantic confusion, supernatural fantasy, and broad clowning — and then braids them together so tightly that by the end each has transformed the others. Hold on, too, to the setting: midsummer night was traditionally a time when the ordinary rules were suspended, when spirits walked and the boundary between the real and the magical wore thin. Everything that happens is licensed by that one enchanted, rule-free night.",
+      "on_screen": {
+        "plate": "plate-oberon-titania",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-oberon-titania"
+      ],
+      "notes": "Context: Shakespeare's best-loved comedy; three worlds (lovers / fairies / mechanicals); love as irrational enchantment."
+    },
+    {
+      "id": "ch-lovers",
+      "template": "chapter-card",
+      "narration": "It starts with a cruel law and a young woman who refuses to obey it.",
+      "on_screen": {
+        "chapter_title": "The Lovers' Knot",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Lovers",
+            "The Wood",
+            "The Juice",
+            "Titania",
+            "Morning"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "l-law",
+      "template": "parallax-still",
+      "narration": "We open in Athens, at the court of Duke Theseus, who is himself about to be married. But the celebrations are interrupted by an angry father, Egeus, dragging in his daughter, Hermia, with a complaint. Hermia is in love with a young man named Lysander — but her father has decided she must marry a different young man, Demetrius. And by the harsh law of Athens, a daughter who refuses her father's choice of husband can be put to death, or forced to become a nun for life. Theseus confirms the grim law and gives Hermia until his own wedding day to decide: obey her father, or die, or take the veil. It is a startlingly dark opening for a comedy — a young woman facing death simply for loving the wrong man — and it sets everything in motion. It is worth pausing on how genuinely harsh this opening is, because the sunny reputation of the play can hide it. A young woman stands in open court and is told, by the highest authority in the land and by her own father, that she will die or be locked away for life unless she marries a man she does not love. Shakespeare deliberately starts his comedy in the territory of tragedy — the same raw material, a forced marriage and a defiant daughter, that could just as easily end in a bloodbath. The whole play is, in a sense, the story of how that tragic situation gets dissolved, by magic and moonlight and luck, into a happy one — which is exactly the difference, Shakespeare hints, between tragedy and comedy: not the ingredients, but which way the night happens to turn.",
+      "on_screen": {
+        "plate": "plate-athens",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-athens"
+      ],
+      "notes": "Athens, Theseus; Egeus demands Hermia marry Demetrius; the law — obey, die, or a nunnery."
+    },
+    {
+      "id": "l-truelove",
+      "template": "parallax-still",
+      "narration": "Left alone, Hermia and Lysander console each other, and Lysander says the line that has become proverbial — that true love is always obstructed, that the path of real love never runs smooth. So they hatch a plan: they will run away together, slipping out of Athens by night, through the great wood outside the city, to the house of Lysander's aunt beyond the reach of Athenian law, and marry there. And in a fateful, kindly mistake, Hermia confides the whole secret plan to her dearest childhood friend — Helena. It is a small, telling irony that Lysander, comforting himself that true love is always crossed by obstacles, is about to spend the night being the biggest obstacle to his own true love — for the magic will turn him, within hours, into Hermia's cruelest rejecter. Shakespeare plants these little ironies everywhere: the characters keep making grand pronouncements about love that the very next scene will cheerfully explode.",
+      "on_screen": {
+        "plate": "plate-lovers",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-lovers"
+      ],
+      "notes": "Hermia & Lysander plan to elope through the wood; 'true love never did run smooth'; Hermia tells Helena."
+    },
+    {
+      "id": "q-truelove",
+      "template": "quote-card",
+      "narration": "Lysander's famous consolation.",
+      "on_screen": {
+        "quote": "The course of true love never did run smooth.",
+        "source": "Lysander, Act 1"
+      },
+      "notes": "Verbatim, Gutenberg #1514, line 306."
+    },
+    {
+      "id": "l-helena",
+      "template": "parallax-still",
+      "narration": "And here is the knot that drives the whole comedy. There are four young people, not two. Helena is desperately, hopelessly in love with Demetrius — the very man Hermia is being forced to marry. But Demetrius has thrown Helena over and wants Hermia instead. So the arithmetic is cruel: Hermia loves Lysander; Lysander loves Hermia back; Demetrius loves Hermia; and poor Helena loves Demetrius, who cannot stand her. It is Helena who reflects that love sees nothing as it really is — that love looks not with the eyes but with the mind, which is why it is so often blind and foolish. And then she makes her own fateful blunder. Hoping to win a scrap of Demetrius's gratitude, she betrays her friend's secret, and tells Demetrius that Hermia is eloping into the wood that very night. So Demetrius chases Hermia into the trees — and Helena chases Demetrius. All four lovers are now loose in the wood after dark. Shakespeare draws the four lovers so that they are almost deliberately interchangeable — the audience is barely meant to tell the two men apart, and that is the joke. These are not deep, distinct characters like Hamlet or Lear; they are young people in the grip of a feeling that flattens individuality, all equally certain, equally changeable, equally absurd. That is why the love-juice can shuffle their affections like a deck of cards without anything essential being lost: in the fever of young love, the play suggests, the particular person often matters far less than the overwhelming state of being in love itself.",
+      "on_screen": {
+        "plate": "plate-lovers",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-lovers"
+      ],
+      "notes": "The love-quadrangle (Hermia/Lysander/Demetrius/Helena); 'love looks not with the eyes'; Helena betrays the secret; all four into the wood."
+    },
+    {
+      "id": "q-eyes",
+      "template": "quote-card",
+      "narration": "Helena's verdict on love itself.",
+      "on_screen": {
+        "quote": "Love looks not with the eyes, but with the mind.",
+        "source": "Helena, Act 1"
+      },
+      "notes": "Verbatim, Gutenberg #1514, line 465."
+    },
+    {
+      "id": "l-mechanicals",
+      "template": "parallax-still",
+      "narration": "Meanwhile, in a workshop across Athens, we meet the third group — a band of working men, tradesmen with no acting talent whatsoever, who have decided to put on a play to celebrate the Duke's wedding. They are led by the earnest carpenter Peter Quince, and dominated by Nick Bottom, a weaver of colossal and delightful self-confidence who is sure he could play every part at once, and better than anyone. Their chosen play is a clumsy tragedy of two doomed lovers, Pyramus and Thisbe. These 'mechanicals' are some of the funniest characters Shakespeare ever wrote — utterly sincere, utterly terrible — and they agree to rehearse in secret, that night, in the very same wood the lovers have just fled into. The mechanicals are Shakespeare's affectionate joke about theatre itself, and about his own profession. These are ordinary tradesmen — a weaver, a bellows-mender, a tinker, a carpenter — with no talent and boundless enthusiasm, terrified that their pretend violence might upset the ladies, earnestly debating how to bring moonlight and a wall onto a stage. Through them Shakespeare gently teases the whole business of make-believe, of grown adults standing up and pretending to be other people — the very thing his own actors were doing at that moment, and the very thing the enchanted lovers are about to do without knowing it. Bottom, in particular, is one of his great comic creations: gloriously confident, endlessly willing, completely without self-doubt, and about to be handed the strangest night of anyone's life.",
+      "on_screen": {
+        "plate": "plate-mechanicals",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-mechanicals"
+      ],
+      "notes": "The mechanicals (Quince, Bottom) plan to rehearse Pyramus and Thisbe in the wood that night."
+    },
+    {
+      "id": "ch-wood",
+      "template": "chapter-card",
+      "narration": "And the wood, it turns out, already belongs to someone — and they are in the middle of a furious marital row.",
+      "on_screen": {
+        "chapter_title": "Into the Wood",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Lovers",
+            "The Wood",
+            "The Juice",
+            "Titania",
+            "Morning"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "w-fairies",
+      "template": "parallax-still",
+      "narration": "For the wood outside Athens is the kingdom of the fairies, and they are at war with each other. Oberon, the fairy king, and Titania, the fairy queen, are locked in a bitter quarrel — over a little changeling boy, a human child Titania has adopted and dotes on, and whom Oberon wants for himself as a servant. Their argument is no small thing: because the king and queen of nature are fighting, the natural world itself has gone wrong — the seasons are confused, the crops rot, the rivers flood, the weather is in chaos. When they cross paths in the moonlit wood they trade insults and part in fury, Titania refusing to give up the boy. And Oberon, stung, resolves to punish and humiliate his queen. Shakespeare's fairies are not the tiny, harmless flower-sprites of later children's books — that sentimental image partly comes from this very play, but it misreads it. These are old, powerful nature-spirits, embodiments of the woods and the weather and the dark, and their moods have real consequences: because the king and queen are quarrelling, Titania says, the whole natural order has broken down — fogs and floods, rotted corn, a confusion of the seasons so complete that no one can tell summer from winter. It is a striking idea tucked inside the comedy: that the private marital squabble of two powerful beings can throw the entire world out of joint, and that harmony in nature depends on harmony in love.",
+      "on_screen": {
+        "plate": "plate-oberon-titania",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-oberon-titania"
+      ],
+      "notes": "Oberon & Titania quarrel over the changeling boy; nature disordered by their feud; Oberon vows revenge."
+    },
+    {
+      "id": "w-puck",
+      "template": "parallax-still",
+      "narration": "Oberon's instrument is his jester, Puck — also called Robin Goodfellow — a quick, gleeful, mischievous sprite who loves nothing more than making mortals look ridiculous. Oberon sends him to fetch a particular magic flower, called love-in-idleness, whose juice, squeezed onto the eyelids of a sleeper, makes them fall madly in love with the very first living creature they see on waking. Oberon's plan is spiteful and simple: wait until Titania is asleep, anoint her eyes, and let her wake to adore some ridiculous animal — and in her distracted embarrassment, trick the changeling boy away from her. But while he waits for Puck, Oberon happens to overhear something in the wood that gives the flower a second use. Puck is one of Shakespeare's most purely delightful inventions — not wicked, exactly, but amoral, a spirit of pure mischief who finds the blunders and panics of human beings genuinely hilarious and feels no particular obligation to tidy up after himself. He is the play's engine of chaos and also, in a sense, its stage-manager, the one figure who moves freely between the mortal and fairy worlds and sees the whole comic machine from above. When he boasts of the pranks he plays on ordinary village folk — spoiling the butter, misleading night travellers, whipping a stool out from under a gossiping old woman — we understand exactly the spirit in which he is about to treat the four earnest young lovers: as excellent entertainment. And love-in-idleness, the flower he fetches, has its own neat backstory — it was struck by one of Cupid's arrows that missed its mortal target, so it is quite literally stray love, the overflow of desire, bottled in a blossom.",
+      "on_screen": {
+        "plate": "plate-puck",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-puck"
+      ],
+      "notes": "Puck; the love-flower love-in-idleness (love the first creature seen on waking); Oberon's plan against Titania."
+    },
+    {
+      "id": "w-overhear",
+      "template": "parallax-still",
+      "narration": "What Oberon overhears is Demetrius, blundering through the wood in search of Hermia, being followed by the lovesick Helena — and treating her with contempt, telling her he is sick at the very sight of her, that he will leave her to the mercy of wild beasts, while she abjectly pleads that she only wants to be allowed to follow him like a dog. Oberon, who is not cruel to mortals, is moved to pity. So he gives Puck a second task with the flower: find this disdainful young Athenian man in the wood, and anoint his eyes, so that when he wakes he will love the lady who is chasing him. A kindly plan. The only trouble is that there is more than one Athenian man asleep in that wood tonight — and Oberon forgets to mention which. The vagueness of Oberon's instruction is the hinge the whole farce swings on, and it is beautifully careless — he tells Puck only to look for 'a sweet Athenian lady' being scorned by a youth 'in Athenian garments', never dreaming there could be two young men in Athenian dress asleep in his wood on the same night. It is the kind of small, plausible slip that turns a kind plan into chaos, and it is very characteristic of the play: the magic is powerful but imprecise, wielded by beings who do not much understand or care about the mortals they are rearranging, so that even their good intentions land like banana skins.",
+      "on_screen": {
+        "plate": "plate-wood",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-wood"
+      ],
+      "notes": "Oberon overhears Demetrius spurning Helena; pities her; sends Puck to anoint 'the Athenian' — fatally vague."
+    },
+    {
+      "id": "ch-juice",
+      "template": "chapter-card",
+      "narration": "One drop of flower-juice on the wrong eyelids, and love itself goes haywire.",
+      "on_screen": {
+        "chapter_title": "Love-in-Idleness",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Lovers",
+            "The Wood",
+            "The Juice",
+            "Titania",
+            "Morning"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "j-mistake",
+      "template": "parallax-still",
+      "narration": "Here the comedy of errors takes off. Puck, searching for the Athenian man, comes upon Lysander and Hermia, who have lost their way and lain down to sleep a chaste distance apart. Puck sees Athenian clothes, a man and a woman sleeping separately, and assumes this must be the disdainful fellow and the lady he spurns. So he anoints the wrong man — Lysander — and slips away pleased with himself. And then chance springs the trap: Helena, wandering by, exhausted and alone, stumbles on the sleeping Lysander and wakes him. His enchanted eyes open — and the first person he sees is Helena. Instantly, violently, Lysander is head over heels in love with Helena, abandoning Hermia on the spot, pouring out passionate vows to a bewildered woman who is certain he must be mocking her cruelly. This is farce engineering at its finest, and worth admiring as craft. Everything proceeds from one honest, reasonable mistake — Puck finding the wrong sleeping couple and drawing the obvious wrong conclusion — and then rolls downhill gathering speed, each new accident perfectly logical given the last. Shakespeare is careful that no one behaves stupidly; they all behave exactly as they would, given what they know, which is why the confusion feels both inevitable and hilarious. And notice the cruelty folded into the comedy: for Helena, being suddenly, ardently wooed by a man who despised her an hour ago is not a delight but a torment, because she is certain it must be mockery — the play never quite lets us forget that enchantment, from the inside, can feel exactly like being laughed at. The engine of all this, remember, is a single misread detail — Puck finding the wrong couple asleep. Shakespeare loves this kind of tiny hinge, the small accident that topples a whole row of consequences, because it mirrors how love itself works in the play: enormous outcomes turning on the merest chance of who happens to wake and see whom first. There is no villain here, no scheme that deserves punishment — only an honest mistake and a magic flower, spinning four decent young people into a night of torment and farce they did nothing to earn.",
+      "on_screen": {
+        "plate": "plate-chaos",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-chaos"
+      ],
+      "notes": "Puck anoints the wrong man (Lysander); Lysander wakes, sees Helena, falls for her, abandons Hermia; Helena thinks she's mocked."
+    },
+    {
+      "id": "j-both",
+      "template": "parallax-still",
+      "narration": "Oberon, discovering Puck's blunder, is furious, and tries to fix it — he anoints the right man, Demetrius, this time, so that Demetrius too wakes and sees Helena and falls instantly in love with her. But this only doubles the disaster. Now both young men are passionately, magically in love with Helena — the woman neither of them wanted an hour ago — and both have completely forgotten Hermia. And Helena, who has spent the whole play being scorned, cannot believe any of it is real; she is convinced that all three of her friends have cooked up a cruel joke to humiliate her. The four of them collide in the dark in a glorious, escalating four-way quarrel: the men ready to duel over Helena, Helena sure she's being mocked, and Hermia — abandoned, baffled, and enraged — convinced that Helena has somehow stolen her Lysander. The four-way quarrel that follows is one of the most purely enjoyable scenes Shakespeare ever wrote, and also one of the most revealing. Watch how fast devotion curdles into spite once the enchantment scrambles things: the two women, lifelong friends who 'grew together like a double cherry', are suddenly tearing at each other; the men who were rivals for Hermia are now rivals for Helena and ready to kill; and old loyalties count for nothing against the new chemical certainty in each enchanted head. It is farce, but it is also a slightly alarming x-ray of how shallow the lovers' vows turn out to be — how quickly 'forever' can be overwritten — and the comedy keeps its edge precisely because it is a little bit true.",
+      "on_screen": {
+        "plate": "plate-chaos",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-chaos"
+      ],
+      "notes": "Oberon anoints Demetrius too; now both men love Helena, both scorn Hermia; the four-way quarrel in the dark."
+    },
+    {
+      "id": "j-fools",
+      "template": "parallax-still",
+      "narration": "Puck watches the whole glorious mess he has made with absolute delight — the lovers shouting, the men squaring up to fight, the women at each other's throats, all of it over enchantments none of them know about — and delivers the line that is, in a way, the motto of the entire play: Lord, what fools these mortals be. And he is not wrong, which is the sly joke underneath the comedy. The lovers were behaving almost exactly this way before any magic touched them — switching affections, blind to reason, sure they were right. Puck's flower has not made them foolish. It has only made their ordinary foolishness in love visible, and very funny. It is worth dwelling on this line, because it is the closest the play comes to stating its philosophy out loud, and it cuts two ways. On the surface Puck means the lovers specifically — look at these ridiculous humans, swapping hearts and coming to blows over a spell they can't even perceive. But the deeper joke is that the enchantment has changed remarkably little about how they behave. Demetrius had already abandoned Helena for Hermia before any magic; the lovers were already fickle, already blind, already swearing eternal devotion on a few days' acquaintance. Puck's flower has not corrupted sensible people — it has merely sped up and made visible the giddy, irrational, slightly ridiculous thing that desire already is. We laugh at the lovers, and the play quietly asks whether we are laughing at ourselves.",
+      "on_screen": {
+        "plate": "plate-puck",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-puck"
+      ],
+      "notes": "Puck's delight; 'Lord, what fools these mortals be'; the theme — the magic only exposes love's ordinary folly."
+    },
+    {
+      "id": "q-fools",
+      "template": "quote-card",
+      "narration": "Puck's famous verdict on the human heart.",
+      "on_screen": {
+        "quote": "Lord, what fools these mortals be!",
+        "source": "Puck, Act 3"
+      },
+      "notes": "Verbatim, Gutenberg #1514, line 1814."
+    },
+    {
+      "id": "j-resolve",
+      "template": "parallax-still",
+      "narration": "Oberon, seeing the chaos gone too far, decides to set it right before dawn. He has Puck lead the two exhausted, furious young men astray in the fog — imitating each one's voice to send the other blundering in circles — until all four lovers, worn out, lie down and fall asleep again in the same clearing, not knowing how near they are to one another. Then Puck, on Oberon's orders, squeezes an antidote herb onto Lysander's eyes, to undo the spell. The plan is that when they all wake at daybreak, Lysander will love Hermia again, as he truly did — while Demetrius will go on loving Helena, which, after all, matches the way things ought to have been all along. The knot is about to be gently untied. But first, elsewhere in the wood, Oberon's revenge on his queen has been producing a spectacle all its own. Watch how carefully Shakespeare manages the untangling, because he has a delicate problem to solve. He wants to end with two happy couples — but he has used real magic to get there, and he cannot simply wave it all away or the happy ending feels cheap. His clever compromise: he lifts the spell entirely from Lysander, so that Lysander loves Hermia again by his own true nature, cured — but he leaves Demetrius permanently enchanted, still under the flower's influence, loving Helena for good. It is a faintly unsettling solution if you poke at it: one of the four marriages that the play calls happy rests, forever, on a love potion. Shakespeare knows it, and lets it sit there quietly under the comedy, one more hint that the line between real love and enchantment is blurrier than we would like.",
+      "on_screen": {
+        "plate": "plate-wood",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-wood"
+      ],
+      "notes": "Oberon has Puck fog the men apart, reunite the four asleep, and cure Lysander; the lovers' knot set to resolve."
+    },
+    {
+      "id": "ch-bottom",
+      "template": "chapter-card",
+      "narration": "Meanwhile, the fairy queen has woken up — and fallen in love with a man wearing a donkey's head.",
+      "on_screen": {
+        "chapter_title": "Titania and the Ass",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Lovers",
+            "The Wood",
+            "The Juice",
+            "Titania",
+            "Morning"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "b-ass",
+      "template": "parallax-still",
+      "narration": "Remember the amateur actors? While they bumble through their rehearsal of Pyramus and Thisbe in a clearing — mangling the verse, worrying that the ladies will be frightened by their pretend lion — Puck comes upon them and cannot resist. As Bottom the weaver steps offstage for a moment, Puck claps a donkey's head onto his shoulders. When Bottom strolls back, braying, his terrified friends flee the wood screaming that he is a monster. Bottom, who has no idea anything is wrong with him, assumes they are playing a trick to frighten him, and to show he is not afraid, he begins to sing — loudly. And his awful braying song wakes the sleeper on the mossy bank nearby: Titania, the fairy queen, whose eyes Oberon has just anointed with the love-flower. The timing of this is a small miracle of plotting — three storylines, the lovers, the fairies, and the actors, all converging on the same patch of moonlit wood at the same hour, so that the enchantment meant for the fairy queen and the prank played on the weaver can collide into the single most famous image in the play. And notice that Bottom, alone of all the mortals in the wood, is completely unflustered by the supernatural. Transformed, adored by a goddess, waited on by fairies, he takes all of it with the same amiable, unshakeable self-assurance he brings to everything. There is something almost wise in his cheerful acceptance — where the lovers agonise and the fairies scheme, Bottom simply enjoys whatever strange thing is happening to him, and asks for a bit of hay.",
+      "on_screen": {
+        "plate": "plate-mechanicals",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-mechanicals"
+      ],
+      "notes": "The mechanicals rehearse; Puck gives Bottom an ass's head; the others flee; Bottom's braying wakes the enchanted Titania."
+    },
+    {
+      "id": "b-titania",
+      "template": "parallax-still",
+      "narration": "Titania opens her eyes, and the first creature she sees is Bottom — a loud, dim weaver with the head of a donkey — and she falls instantly, rapturously, head-over-heels in love with him. It is the comic jewel of the whole play: the exquisite, ethereal fairy queen, draping this bewildered tradesman in flowers, calling him beautiful and wise, summoning her fairies — Peaseblossom, Cobweb, Mustardseed — to feed him apricots and fan him and scratch his hairy donkey ears, while Bottom, taking it all completely in his stride, enjoys the service enormously and asks mostly for some hay. Shakespeare is making the gentlest possible fun of love here: if even the queen of the fairies can be enchanted into adoring an ass, what hope do the rest of us have of loving wisely? There is real tenderness mixed into the farce here, which is why the scene has enchanted audiences for centuries rather than merely amusing them. Titania is not cruel to Bottom; she is besotted, generous, delighted, lavishing beauty and care on a creature who cannot possibly appreciate or return it — and Bottom, for his part, is perfectly, cheerfully at home being adored by a goddess, as though it were only his due. Shakespeare lets the image carry a surprising amount of feeling: the sublime and the ridiculous wrapped in each other's arms, the highest being in the wood doting on the lowest, and somehow neither of them embarrassed. It is love at its most absurd and, strangely, its most open-hearted, all at once.",
+      "on_screen": {
+        "plate": "plate-titania-bottom",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-titania-bottom"
+      ],
+      "notes": "Titania wakes, loves Bottom (donkey-headed); dotes on him with her fairies; the play's comic centrepiece."
+    },
+    {
+      "id": "b-release",
+      "template": "parallax-still",
+      "narration": "While Titania is thus distracted and besotted, Oberon easily gets what he wanted all along — he coaxes the little changeling boy away from her without a fight. And having won, his anger melts into something like pity. He looks at his queen fawning over a donkey and no longer finds it funny; he finds it sad. So he releases her: he squeezes the antidote on her eyes, and Titania wakes as if from a nightmare, horrified and bewildered to find herself embracing the monster. Oberon and Titania are reconciled, their quarrel over, and with it the disorder in nature begins to heal. Puck removes the ass's head from the sleeping Bottom, and the fairy king and queen, friends again, dance away together as dawn approaches. The night of madness is nearly over. There is a surprising depth to this reconciliation, under the farce. Oberon gets the changeling boy he was fighting for — and the instant he has won, the victory stops mattering, and he finds he cannot bear to see his wife degraded any longer. His pity undoes his spite. And when Titania wakes and recoils in horror from the donkey she has been caressing, Shakespeare could have played it for pure mockery, but instead the mood turns gentle: the royal couple, their long quarrel spent, join hands and dance, and the rift in nature itself closes with their embrace. The restoration of their love restores the world — the seasons will right themselves, the floods recede — a quiet reassertion of the play's idea that private harmony and the health of the whole world are somehow the same thing.",
+      "on_screen": {
+        "plate": "plate-fairies",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-fairies"
+      ],
+      "notes": "Oberon takes the changeling boy; pities and releases Titania; they reconcile; nature heals; Bottom un-assed."
+    },
+    {
+      "id": "ch-morning",
+      "template": "chapter-card",
+      "narration": "Everyone wakes at dawn convinced the whole thing was a dream — and in a way it was.",
+      "on_screen": {
+        "chapter_title": "Morning, and the Play",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Lovers",
+            "The Wood",
+            "The Juice",
+            "Titania",
+            "Morning"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "m-wake",
+      "template": "parallax-still",
+      "narration": "At daybreak, Duke Theseus and his hunting party come crashing into the wood, and find the four young lovers asleep on the ground. They wake, dazed, half-remembering the night as a strange dream — and the magic has quietly sorted them out. Lysander, cured, loves Hermia once more; and Demetrius, still gently under the flower's spell, now loves Helena with his whole heart and wants nothing else. So the pairs are finally right: Hermia with Lysander, Helena with Demetrius, two couples instead of a hopeless tangle. Theseus, seeing that Demetrius no longer even wants Hermia, overrules the furious father Egeus and the cruel old law, and declares that the young couples shall simply be married alongside his own wedding that very day. The death sentence that opened the play has evaporated like the dew. There is a lovely, dreamy quality to this waking. The four lovers come up out of sleep still half inside the night's enchantment, unsure what was real, describing the whole ordeal in the hazy, slipping language of someone trying to hold a dream that is already dissolving. They do not understand what happened to them — they never will — and yet they wake sorted, calmed, rightly matched, as though the madness had been a necessary fever they had to pass through to come out clear on the other side. And Theseus, the voice of daylight reason, gently overrules the whole harsh apparatus of law and fatherhood that opened the play, not with a grand gesture but almost with a shrug: the obstacle has simply dissolved, so let the young people marry and be glad. Comedy's logic has won.",
+      "on_screen": {
+        "plate": "plate-dawn",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-dawn"
+      ],
+      "notes": "Theseus finds the lovers; magic has paired them correctly; he overrules Egeus; triple wedding declared."
+    },
+    {
+      "id": "m-bottom",
+      "template": "parallax-still",
+      "narration": "Bottom wakes alone on the forest floor, the donkey's head gone, and is left groping after the most extraordinary experience of his life — a dim, dazzling memory of having been loved by a fairy queen. He decides it was a vision too wonderful and strange for any ordinary man to explain, a dream past the wit of man to say what dream it was. He resolves, gloriously, to have Peter Quince write it up as a ballad to be called 'Bottom's Dream' — because, he says, it hath no bottom. And then he hurries back to rejoin his friends, who are mourning that their star has vanished and their play must be cancelled, in time to lead them triumphantly off to perform at the Duke's palace after all. Bottom's attempt to describe his night is one of the most quietly beautiful moments in the play, and easy to rush past as mere clowning. This simple, ridiculous man has brushed up against genuine wonder — he has been loved by the queen of the fairies — and he knows it was something vast and strange, even though he has no words for it and gets the words he does reach for comically muddled. His instinct, touchingly, is to turn it into art, to have it made into a song, because he senses, dimly, that some experiences are too deep to explain and can only be sung. Shakespeare gives his most foolish character a real, if garbled, encounter with the sublime — and lets him keep it, as a dream that has no bottom.",
+      "on_screen": {
+        "plate": "plate-wood",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-wood"
+      ],
+      "notes": "Bottom wakes, half-remembers Titania's love; 'Bottom's Dream'; rejoins the mechanicals in time for the play."
+    },
+    {
+      "id": "q-vision",
+      "template": "quote-card",
+      "narration": "Bottom, waking, groping for what happened to him.",
+      "on_screen": {
+        "quote": "I have had a most rare vision. I have had a dream, past the wit of man to say what dream it was.",
+        "source": "Bottom, Act 4"
+      },
+      "notes": "Verbatim, Gutenberg #1514, line 2743."
+    },
+    {
+      "id": "m-play",
+      "template": "parallax-still",
+      "narration": "That evening, the three couples married and merry, the mechanicals finally perform their play — and it is a masterpiece of unintentional comedy. Their tragic tale of Pyramus and Thisbe, two lovers who kill themselves over a misunderstanding, is performed so badly, with such earnest ineptitude, that it becomes hilarious: a man plays a Wall and holds up his fingers as the chink the lovers whisper through; another plays Moonshine and keeps being heckled; the actors break off to reassure the audience that the lion is not a real lion and the sword is not real either; and Pyramus dies at enormous, overacted length. The noble audience watches and gently mocks it throughout. And there is a sweet irony buried in it — this absurd little tragedy of lovers divided and dead is the dark mirror of the comedy we have just watched, the way the lovers' own night could have ended, played for laughs instead of tears. Shakespeare is having tremendous fun here at his own expense, staging a terrible play inside a wonderful one. Every mistake the mechanicals make is a mistake real theatre companies feared — the worry that an audience might take pretend violence for real, the awkwardness of representing a wall or the moon, the actor who cannot stop explaining himself — and the aristocratic audience onstage heckles it much as a Globe audience might have heckled. But there is warmth underneath the mockery. The workmen pour their whole earnest hearts into their ridiculous show, and something about that sincerity wins through; by the end their very ineptitude has become its own kind of triumph, and the laughter is with them as much as at them. Watch, too, how Shakespeare uses the bad play to flatter the good one. By showing us, inside his comedy, what clumsy theatre looks like — the wall explained, the lion apologised for, the moon argued over — he quietly reminds his own audience of everything his play is doing effortlessly well, and invites them to be the gracious, amused noble spectators rather than the hecklers. It is confident, generous showmanship: the greatest dramatist alive staging the worst play imaginable, and making the disaster not a cringe but a gift.",
+      "on_screen": {
+        "plate": "plate-play",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-play"
+      ],
+      "notes": "The weddings; the mechanicals' gloriously bad Pyramus and Thisbe; its ironic mirror of the lovers' story."
+    },
+    {
+      "id": "m-epilogue",
+      "template": "parallax-still",
+      "narration": "The mortals go happily to bed, and the fairies steal back into the palace in the small hours to bless the three marriages and the children to come, flitting through the sleeping house to leave peace behind them. And then, alone on the empty stage, Puck steps forward to send the audience home. If the whole play has offended, he says gently, think of it merely as a dream — as though you, like the lovers, had only slumbered here a while and dreamed these visions. It is a perfect final touch: the mischief-maker himself inviting us to fold the whole enchanted night up into the safe word 'dream', while quietly leaving open the question of whether any of it was really so unreal after all. It is the perfect close for this particular play, because the whole comedy has been teasing at the border between dreaming and waking, illusion and reality, theatre and life — and Puck's epilogue simply hands that question, smiling, to the audience. If you didn't like it, he says, just pretend you were asleep and dreamed the lot. But of course we were awake; we did see it; and the lovers, too, insisted it was 'only a dream' and yet walked out of the wood genuinely, permanently changed by it. Shakespeare leaves us holding the lovely paradox: that the things we dismiss as mere dreams — love, theatre, a night of moonlit nonsense — can reshape our waking lives completely, and that maybe the wise thing is not to decide which was real, but simply, as Puck suggests, to give him your hands, and be friends, and let the dream stand.",
+      "on_screen": {
+        "plate": "plate-epilogue",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-epilogue"
+      ],
+      "notes": "The fairies bless the house; Puck's epilogue — call it all a dream."
+    },
+    {
+      "id": "q-shadows",
+      "template": "quote-card",
+      "narration": "Puck's epilogue, to the audience.",
+      "on_screen": {
+        "quote": "If we shadows have offended, / Think but this, and all is mended— / That you have but slumber'd here / While these visions did appear.",
+        "source": "Puck, Epilogue"
+      },
+      "notes": "Verbatim, Gutenberg #1514, lines 3497 onward."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why has this midsummer fantasy stayed everyone's favourite for four hundred years? Partly for the sheer pleasure of it — the moonlit wood, the fairies, the farce, the most purely delightful machinery Shakespeare ever built. But underneath the fun there is something wise and a little unsettling. The play keeps asking how different, really, is falling in love from being bewitched. The lovers swap their passions in a night, swear undying devotion to whoever they happen to see first, and remember it all afterward as a dream — and the only magic involved was a flower that does openly what desire does to all of us in secret. It is a comedy that smiles at the irrationality of the heart rather than weeping over it, and sends everyone to bed married and happy. But it leaves the sly suggestion hanging in the warm night air: that we are all, always, a little enchanted — that love was never the clear-eyed thing we like to think — and that the wisest response, as Puck says, is simply to call it a dream, and smile. And there is one last quiet grace note worth keeping. For all its teasing about love's foolishness, the play is fundamentally kind to its lovers and to us. Nobody is punished; nobody dies; the harsh law of the first scene simply melts; the quarrels of the night are forgiven and half-forgotten by morning. Shakespeare looks at the whole giddy, irrational business of desire — the swapping and the swearing and the blindness — and instead of condemning it, he blesses it, and sends everyone off to bed happy under a houseful of fairies. It is, in the end, the most generous thing the play does: it tells us we are fools in love, and then tells us that is perfectly all right.",
+      "on_screen": {
+        "plate": "plate-oberon-titania",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-oberon-titania"
+      ],
+      "notes": "Close: why it endures — love as benign enchantment; the flower only reveals ordinary desire; call it a dream."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of A Midsummer Night's Dream — one chaotic, enchanted night that scrambles four lovers, a fairy marriage, and a donkey-headed weaver, and sorts them all out by morning. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It's Shakespeare at his most joyful, and it was made to be heard aloud and laughed at — so find a good performance, and let the wood work its magic. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}
