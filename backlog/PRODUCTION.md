@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 23/138 rendered**  `███░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  113 planned
+**Progress: 24/138 rendered**  `███░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  112 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -32,7 +32,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-14A | Jane Eyre | Revision video | Curriculum classics | ⬜ planned |
 | CL-14B | Jane Eyre | Full retelling | Curriculum classics | ✅ rendered |
 | CL-30A | The Canterbury Tales | Revision video | Curriculum classics | ⬜ planned |
-| CL-30B | The Canterbury Tales | Full retelling | Curriculum classics | 📝 scripted |
+| CL-30B | The Canterbury Tales | Full retelling | Curriculum classics | ✅ rendered |
 | CL-29A | Beowulf | Revision video | Curriculum classics | ⬜ planned |
 | CL-29B | Beowulf | Full retelling | Curriculum classics | ✅ rendered |
 | CL-02A | Romeo and Juliet | Revision video | Curriculum classics | ⬜ planned |
@@ -58,7 +58,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-24A | The Great Gatsby | Revision video | Curriculum classics | ⬜ planned |
 | CL-24B | The Great Gatsby | Full retelling | Curriculum classics | 📝 scripted |
 | CL-18A | Oliver Twist | Revision video | Curriculum classics | ⬜ planned |
-| CL-18B | Oliver Twist | Full retelling | Curriculum classics | ⬜ planned |
+| CL-18B | Oliver Twist | Full retelling | Curriculum classics | 📝 scripted |
 
 ## Phase 2  (36 uploads)
 
