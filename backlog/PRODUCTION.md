@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 17/138 rendered**  `██░░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  119 planned
+**Progress: 18/138 rendered**  `███░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  118 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -38,7 +38,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-02A | Romeo and Juliet | Revision video | Curriculum classics | ⬜ planned |
 | CL-02B | Romeo and Juliet | Full retelling | Curriculum classics | ✅ rendered |
 | CL-10A | The Tempest | Revision video | Curriculum classics | ⬜ planned |
-| CL-10B | The Tempest | Full retelling | Curriculum classics | 📝 scripted |
+| CL-10B | The Tempest | Full retelling | Curriculum classics | ✅ rendered |
 | CL-05A | The Merchant of Venice | Revision video | Curriculum classics | ⬜ planned |
 | CL-05B | The Merchant of Venice | Full retelling | Curriculum classics | 📝 scripted |
 | CL-03A | Hamlet | Revision video | Curriculum classics | ⬜ planned |
@@ -48,7 +48,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-48A | A Doll's House | Revision video | Curriculum classics | ⬜ planned |
 | CL-48B | A Doll's House | Full retelling | Curriculum classics | ⬜ planned |
 | CL-04A | Othello | Revision video | Curriculum classics | ⬜ planned |
-| CL-04B | Othello | Full retelling | Curriculum classics | ⬜ planned |
+| CL-04B | Othello | Full retelling | Curriculum classics | 📝 scripted |
 | CL-23A | Heart of Darkness | Revision video | Curriculum classics | ⬜ planned |
 | CL-23B | Heart of Darkness | Full retelling | Curriculum classics | ⬜ planned |
 | CL-15A | Pride and Prejudice | Revision video | Curriculum classics | ⬜ planned |
