@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "code": "CL-05B",
+    "book": "The Merchant of Venice",
+    "author": "William Shakespeare",
+    "year": "c. 1597",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "The Merchant of Venice: The Full Story Explained (Shakespeare)",
+    "search_phrase": "The Merchant of Venice explained"
+  },
+  "chapters": [
+    {
+      "title": "A pound of flesh",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Bond",
+      "first_scene": "ch-bond"
+    },
+    {
+      "title": "The Caskets",
+      "first_scene": "ch-caskets"
+    },
+    {
+      "title": "The Forfeit",
+      "first_scene": "ch-forfeit"
+    },
+    {
+      "title": "The Trial",
+      "first_scene": "ch-trial"
+    },
+    {
+      "title": "The Rings",
+      "first_scene": "ch-rings"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In The Merchant of Venice, a man guarantees a loan with a pound of his own flesh, and the lender comes to court to collect it.",
+      "on_screen": {
+        "question": "A pound of flesh",
+        "plate": "plate-venice"
+      },
+      "assets": [
+        "plate-venice"
+      ],
+      "notes": "Hook before any title. ~27 words, minimal pauses. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Merchant of Venice, by William Shakespeare, written around fifteen ninety-seven.",
+      "on_screen": {
+        "title": "The Merchant of Venice",
+        "author": "William Shakespeare",
+        "year": "c. 1597",
+        "subtitle": "A Comedy"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. The Merchant of Venice was written as a comedy, and it has the shape of one — a romance, disguises, a happy ending with weddings — but it contains one of the most disturbing and debated figures in all of literature, the Jewish moneylender Shylock, and it has become almost impossible to watch simply as a comedy. Second: you cannot understand this play without facing its antisemitism head-on. It was written in a time of open, casual hatred of Jews, for an audience that would have laughed at Shylock as a villain — and yet Shakespeare, maybe without quite meaning to, gave that villain such a powerful voice, such real grievance and pain, that Shylock has long since broken out of the comic-villain box and become the tragic heart of his own play. And third: hold on to the collision at the centre — justice against mercy, the strict letter of the law against human compassion, and a Christian society that preaches mercy while showing a hated outsider almost none. It helps to know the play was wildly popular in its own time and for centuries after, precisely as a crowd-pleasing comedy with a villain the audience loved to hate — which is part of what makes reckoning with it now so uncomfortable. Shakespeare was working from old stories (a cruel creditor, a flesh-bond, a casket-riddle, a clever heroine in disguise) and stitching them into a single Venice — a city his audience pictured as glamorous, cosmopolitan, money-mad, and full of exotic outsiders. And notice the structure he builds: two worlds in constant contrast. Venice is the masculine world of law, commerce, contracts, and hatred; Belmont, Portia's estate, is the feminine world of love, music, wealth, and mercy. The play keeps cutting between them, and its whole question is whether the mercy of Belmont can ever reach into the courtroom of Venice.",
+      "on_screen": {
+        "plate": "plate-venice",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-venice"
+      ],
+      "notes": "Context: a 'comedy' containing Shylock; the antisemitism must be faced; justice vs mercy; Christian hypocrisy."
+    },
+    {
+      "id": "ch-bond",
+      "template": "chapter-card",
+      "narration": "A merchant borrows money for a friend — and signs a contract no sane man should sign.",
+      "on_screen": {
+        "chapter_title": "The Bond",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Bond",
+            "The Caskets",
+            "The Forfeit",
+            "The Trial",
+            "The Rings"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "b-antonio",
+      "template": "parallax-still",
+      "narration": "In Venice, the great trading city, lives Antonio — the merchant of the title — a wealthy, respected, and strangely melancholy man. His dearest friend, the young nobleman Bassanio, has run through his own fortune and come to Antonio with a plan: he is in love with Portia, a beautiful and immensely rich heiress in nearby Belmont, and he needs money to present himself as a worthy suitor. Antonio loves Bassanio deeply and would give him anything — but all his wealth is currently tied up at sea, in merchant ships not yet returned to port. He has no cash to lend. So, to help his friend, Antonio agrees to do something he would never normally do: borrow the money himself, from a moneylender, on his own credit, using his ships as security. Antonio's melancholy, which opens the play, is one of its small mysteries — he says himself he does not know why he is sad — and readers have long wondered at the depth of his devotion to Bassanio, a love so total that he will pledge his own body to fund another man's marriage. Whatever its nature, that love is the engine of the plot: everything flows from Antonio's willingness to risk everything for his friend. And note the cruel irony already forming. Antonio, who prides himself on his generosity and his Christian virtue, is about to put himself in the power of the one man in Venice he has treated with no generosity and no Christian charity at all — the moneylender he has spat upon. It is worth picturing the Venice Shakespeare's audience imagined: the richest, most cosmopolitan city they knew, where fortunes rode on ships that might sink in a storm off anywhere, where men of every nation and faith met in the markets to trade. Antonio is the very image of that world's confidence — a merchant prince whose wealth is scattered across the seas, so sure of his argosies that he will stake his own body on their safe return. That hubris, the certainty that nothing can go wrong, is exactly what the sea, and the plot, are about to punish, turning a careless signature into a death sentence.",
+      "on_screen": {
+        "plate": "plate-bond",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-bond"
+      ],
+      "notes": "Venice; melancholy merchant Antonio; his friend Bassanio needs money to woo the heiress Portia; Antonio's wealth tied up in ships."
+    },
+    {
+      "id": "b-shylock",
+      "template": "parallax-still",
+      "narration": "The moneylender they go to is Shylock — a Jew, and a man Antonio has openly despised and abused for years. Here the play's dark undercurrent surfaces. Antonio has publicly insulted Shylock, called him a dog, spat on him in the street, and condemned the lending of money at interest — which was one of the only trades Jews in Venice were legally permitted to practise, barred as they were from most honest professions. Shylock hates Antonio in return, with good reason, and sees a chance. He agrees to lend the three thousand ducats — and, with what he calls 'a merry sport', proposes a strange condition instead of normal interest: if the loan is not repaid on the day, the forfeit shall be a pound of Antonio's own flesh, to be cut from wherever Shylock pleases. Antonio, certain his ships will come home with a fortune long before the debt falls due, laughs and signs. This scene is where the play's moral complexity announces itself, and it is worth slowing down on. Shylock agrees to the loan, but first he reminds Antonio, to his face, of exactly how Antonio has treated him — the insults, the spitting, the kicking, the public contempt — and asks, with devastating logic, why he should now lend money to a man who has abused him like a dog; do dogs have money to lend? The 'merry bond' of a pound of flesh is offered, on the surface, as a joke to seal a new friendship — but we can feel the trap in it, and so, probably, can Shylock. Shakespeare leaves it deliberately unclear how much Shylock intends from the start: is this cold premeditation, or a bitter man seizing a chance that only later hardens into deadly purpose? The ambiguity is part of what makes him so much more than a stock villain. It is worth naming plainly the trap Jews were kept in, because the play half-sees it. Barred from owning land, from the guilds, from most trades, Jews in Christian Europe were often pushed into moneylending — and then despised for doing the very thing they were confined to. Antonio lends money freely and without interest, and is praised as a good Christian for it; Shylock charges interest because it is one of the only livelihoods left to him, and is condemned as a bloodsucker for it. The same act is virtue in a Christian and vice in a Jew. Shakespeare does not spell this out as a protest — but he dramatises it so clearly that a modern audience cannot miss the rigged game underneath the 'merry bond'.",
+      "on_screen": {
+        "plate": "plate-shylock",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-shylock"
+      ],
+      "notes": "Shylock the Jewish moneylender, long abused by Antonio; the history of hatred; the bond — a pound of flesh for forfeit; Antonio signs."
+    },
+    {
+      "id": "ch-caskets",
+      "template": "chapter-card",
+      "narration": "Meanwhile, in Belmont, a rich heiress is married off by a riddle her dead father left behind.",
+      "on_screen": {
+        "chapter_title": "The Caskets",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Bond",
+            "The Caskets",
+            "The Forfeit",
+            "The Trial",
+            "The Rings"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "c-test",
+      "template": "parallax-still",
+      "narration": "Portia, the heiress Bassanio loves, is clever, witty, and wealthy — and also trapped. Her late father, distrusting her judgement in love, bound her by his will to a strange test: she may not choose her own husband. Instead, every suitor must choose among three caskets — one of gold, one of silver, one of lead — each bearing a cryptic inscription. The man who picks the casket containing Portia's portrait wins her hand and her fortune; the man who picks wrong must leave at once and swear never to marry. So Portia, for all her wealth and brains, has no say in the most important choice of her life; she can only wait, and hope the right man picks correctly. She has already watched a string of unwanted suitors come and go, and dreads the ones she dislikes choosing well. The casket plot is a fairy-tale device — the riddle, the three chances, the hidden portrait — but Shakespeare uses it to say something real about Portia's world. For all her brilliance and wealth, she is a woman in a man's society, her future dictated by a dead father's will, unable even to choose her own husband; she is, in her own gilded way, as constrained as anyone in the play. And the test itself is a moral lesson in miniature about not trusting surfaces — the showy gold and silver versus the humble lead — which rhymes with the play's larger concern about appearances: the 'good' Christians who look virtuous, the 'villain' Jew who turns out most human. Belmont's casket game is a gentle version of the harder judgement the courtroom will demand. There is a neat thematic rhyme worth noticing between Belmont and Venice. Both plots turn on a binding agreement that must be honoured to the letter — Portia's father's will, which she cannot evade, and Shylock's bond, which the court cannot void. The play is fascinated by bonds of every kind: legal contracts, marriage vows, the ties of friendship and blood, the promises we make and the ones made for us. And it keeps asking when a bond should be kept absolutely and when human feeling should be allowed to break it. The casket test and the flesh-bond are the same question in two keys — one gentle, one deadly — and the clever Portia is the one who, in both, finds the way through.",
+      "on_screen": {
+        "plate": "plate-belmont",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-belmont"
+      ],
+      "notes": "Belmont; Portia bound by her dead father's casket test (gold/silver/lead); she cannot choose her own husband."
+    },
+    {
+      "id": "c-choose",
+      "template": "parallax-still",
+      "narration": "Two proud suitors try and fail. The Prince of Morocco chooses the gold casket — all glitter and show — and finds inside a skull and a scroll mocking him: all that glisters is not gold. The Prince of Aragon chooses silver, confident he deserves the best, and gets a portrait of a blinking fool, his reward for vanity. Each casket is a moral test, punishing those drawn to surface and self-regard. Then Bassanio comes to choose, and Portia — who loves him — can hardly bear to watch, forbidden to help. But Bassanio reasons past the trap: he rejects the showy gold and silver, distrusting outward glamour, and chooses the plain, unpromising lead casket, which asks a man to give and risk all he has. Inside is Portia's portrait. He has won her, and they fall joyfully into each other's arms, their love freely returned at last. Watch how the failed suitors reveal themselves through their choices. Morocco wants the gold because he judges by show and status, and is punished with a death's-head; Aragon takes the silver because he thinks he 'deserves' the best, and gets a portrait of a fool — vanity and entitlement exposed. Bassanio, by contrast, explicitly distrusts ornament, reasoning that the world is forever deceived by appearances, that gaudy surfaces hide rot — and so he chooses the plain lead, which demands that a man give and hazard everything he has. The right choice, the play insists, is the one that looks least promising and asks the most of you — a lesson about love, and, the courtroom will suggest, about mercy and judgement too. Portia, who could not lift a finger to help him, is overjoyed; her fate and his are sealed by his wisdom, not her choice. And it is lovely, and pointed, that Portia is forbidden to help the man she loves — she can only stand by, aching, while Bassanio reasons his way through the test on his own. Having longed for exactly this suitor, she must leave the most important outcome of her life entirely to his wisdom and to chance. When he chooses right, her relief and joy pour out in one of the play's warmest speeches, as she gives herself, her house, and all her wealth into his hands. Hold that generous, trusting Portia in mind — because the woman who hands everything to her husband here is the same one who will, a few scenes later, out-think an entire courtroom of men and save his best friend's life while every man present stands helpless.",
+      "on_screen": {
+        "plate": "plate-belmont",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-belmont"
+      ],
+      "notes": "Morocco (gold) & Aragon (silver) fail; 'all that glisters is not gold'; Bassanio chooses lead and wins Portia."
+    },
+    {
+      "id": "q-glisters",
+      "template": "quote-card",
+      "narration": "The scroll inside the golden casket — the play's warning about surfaces.",
+      "on_screen": {
+        "quote": "All that glisters is not gold.",
+        "source": "The gold casket, Act 2"
+      },
+      "notes": "Verbatim, Gutenberg #1515, line 1641."
+    },
+    {
+      "id": "c-news",
+      "template": "parallax-still",
+      "narration": "But the joy in Belmont is broken almost at once by terrible news from Venice. Bassanio learns that Antonio — the friend who signed the deadly bond to fund this very courtship — is ruined. Every one of Antonio's ships has reportedly been wrecked or lost at sea; he cannot repay the loan; the day of forfeit has passed; and Shylock is demanding, in full and in earnest, his pound of flesh. The 'merry sport' has become a death sentence. Portia, now Bassanio's wife and mistress of a vast fortune, immediately gives him the money to go and save his friend — many times the debt — and sends him racing back to Venice. But she also, quietly, has a plan of her own.",
+      "on_screen": {
+        "plate": "plate-antonio",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-antonio"
+      ],
+      "notes": "News: Antonio's ships lost, he defaults, Shylock demands the flesh; Portia gives Bassanio money and a secret plan."
+    },
+    {
+      "id": "ch-forfeit",
+      "template": "chapter-card",
+      "narration": "And Shylock, pushed past breaking by a lifetime of contempt, will not take the money. He wants the flesh.",
+      "on_screen": {
+        "chapter_title": "The Forfeit",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Bond",
+            "The Caskets",
+            "The Forfeit",
+            "The Trial",
+            "The Rings"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "f-jessica",
+      "template": "parallax-still",
+      "narration": "To understand why Shylock refuses to relent, you have to know what has just happened to him. His own daughter, Jessica, has run away — eloped with a young Christian named Lorenzo, abandoning her father's faith and his house, and stealing with her a hoard of his money and jewels, including a ring that had belonged to Shylock's dead wife. Shylock is left humiliated and heartbroken, mocked in the streets by boys crying out about his lost daughter and his lost ducats, robbed by the very Christian world that despises him, with the help of its young men. Whatever cruelty is in him now, the play shows us it did not come from nowhere. By the time Antonio's bond falls due, Shylock is a man with nothing left but his hatred — and in Antonio, the smug Christian merchant who spat on him, he sees everything that has wronged him, delivered at last into his hands. Jessica's elopement is one of the play's most morally tangled threads, and it is essential to understanding Shylock. Yes, she escapes a controlling father for love — but she also robs him, converts away from her people, and trades a ring he treasured for its memory of her dead mother, a wound the play lets Shylock feel aloud. The Christians treat her theft and flight as a merry triumph; we are clearly meant to cheer. And yet Shakespeare plants, inside that cheer, the image of an old man returning to an emptied house, mocked in the streets, his child and his wife's ring both gone. By the time of the trial, Shylock has lost nearly everything, much of it to the Christians and their world — and the play, almost against its own comic grain, has quietly built the case for his rage. Shakespeare also complicates our easy sympathies here in a way that unsettles the comedy. We are plainly meant to root for the young lovers, Jessica and Lorenzo, escaping into happiness — yet the play lets us glimpse the cost: a father robbed not only of gold but of the one keepsake of his dead wife, and a daughter who seems to feel little for the home she loots on her way out. Later, in moonlit Belmont, Jessica sits among the Christians who destroyed her father, enjoying the wealth that will come to her from his ruin. Shakespeare never forces us to dwell on it — but he puts it there, a small cold draught running through the warm comic ending, for anyone willing to feel it.",
+      "on_screen": {
+        "plate": "plate-jessica",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-jessica"
+      ],
+      "notes": "Jessica elopes with Lorenzo, steals Shylock's money and his dead wife's ring; Shylock humiliated, hardened; the roots of his vengeance."
+    },
+    {
+      "id": "f-speech",
+      "template": "parallax-still",
+      "narration": "And here Shakespeare gives his villain the speech that has echoed down four centuries and changed how the play can ever be seen. When the Christians ask what good a pound of human flesh can possibly do him, Shylock answers with a torrent of pain and logic that indicts the whole society tormenting him. Antonio has scorned him, he says, cost him money, laughed at his losses — and for what reason? For one reason only: I am a Jew. And then the great questions pour out. Hath not a Jew eyes? Hath not a Jew hands, organs, senses, affections, passions — fed with the same food, hurt with the same weapons, warmed and cooled by the same winter and summer as a Christian? If you prick us, do we not bleed? If you tickle us, do we not laugh? And if you wrong us, shall we not revenge? He has learned cruelty, he says, from the Christians who taught it to him — and he will better the instruction. It is a defence of common humanity so powerful that it nearly breaks the comedy in half. It is hard to overstate what this speech does to the play. Shakespeare could have left Shylock a simple ogre; instead he hands him an argument that his enemies, and the audience, cannot answer — that a Jew is made of the same flesh, feels the same pain, bleeds the same blood as any Christian, and that the cruelty Shylock now intends is nothing he invented but something he was taught, every day, by the Christians who despised him. He will, he says, 'better the instruction' — out-cruel his teachers. It is a terrible, logical, human speech, and once you have heard it you can never again watch Shylock sharpen his knife as a mere comic villain. Whatever Shakespeare intended, he gave the hated outsider the moral high ground, and the play has never recovered its comic innocence since. And consider the terrible argument folded inside the speech: Shylock claims he learned his cruelty from his persecutors. 'The villainy you teach me I will execute,' he says in effect, 'and it shall go hard but I will better the instruction.' It is an accusation aimed straight at the Christian audience — that the hatred they are about to see in him is their own hatred, reflected back and perfected. Whether or not Shakespeare fully intended it, he wrote a scene in which the oppressed turns his oppressors' logic against them, and makes it unanswerable. From this point the knife Shylock sharpens is not just a villain's prop; it is the cruelty of Venice itself, handed back to Venice point-first.",
+      "on_screen": {
+        "plate": "plate-shylock",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-shylock"
+      ],
+      "notes": "Shylock's 'Hath not a Jew eyes?' speech — the assertion of shared humanity and the justification of his revenge as learned from Christians."
+    },
+    {
+      "id": "q-eyes",
+      "template": "quote-card",
+      "narration": "Shylock's great cry of shared humanity — the line that broke the play out of comedy forever.",
+      "on_screen": {
+        "quote": "I am a Jew. Hath not a Jew eyes?… If you prick us, do we not bleed?",
+        "source": "Shylock, Act 3"
+      },
+      "notes": "Verbatim (condensed with ellipsis), Gutenberg #1515, lines 1993-1997."
+    },
+    {
+      "id": "ch-trial",
+      "template": "chapter-card",
+      "narration": "The whole play comes down to a courtroom, a knife, and a disguised woman nobody recognises.",
+      "on_screen": {
+        "chapter_title": "The Trial",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Bond",
+            "The Caskets",
+            "The Forfeit",
+            "The Trial",
+            "The Rings"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "t-court",
+      "template": "parallax-still",
+      "narration": "The climax is the trial, in the Duke of Venice's court. Antonio is brought in, resigned to death; Shylock stands ready with his knife and his scales, legally entitled to his pound of flesh, and refuses every plea for mercy and every offer of money — even three times the debt — insisting coldly on the letter of his bond. The law is on his side: a contract is a contract, and Venice, a city built on trade, cannot break its own bonds without ruining its credit with the world. The Duke is helpless. And then a young doctor of law arrives, sent with a recommendation, to judge the case — a sharp, confident youth named Balthazar. No one realises that 'Balthazar' is Portia, disguised as a man, come secretly to save her husband's friend. The trial is a magnificent piece of dramatic tension, and its legal logic is the heart of the play's argument. Venice is a commercial republic whose entire prosperity rests on the sanctity of contracts; if the Duke simply voids Shylock's lawful bond because the debtor is a Christian and the creditor a hated Jew, the city's word — and its credit with the trading world — is worthless. So the law genuinely binds the Duke's hands: the bond is valid, and must be honoured. Everyone pleads with Shylock to show mercy and take the money instead; he refuses them all, standing on his legal right, savouring it. And into this deadlock walks the disguised Portia — a woman, barred from the law, now wielding it more cleverly than any man in the room — the real hero of the play arriving in secret to do what none of the powerful men can. Dramatically, Shakespeare wrings every ounce of suspense from the scene. Antonio has made his peace with death, asking only that Bassanio watch him die and remember he was loved; Bassanio, frantic, offers Shylock twice, thrice the money, offers his own flesh instead; the Duke begs; and Shylock, methodical and calm, whets his knife on the sole of his shoe in open court and will hear none of it. The horror builds and builds with no visible way out — the law is genuinely on Shylock's side, and everyone knows it. That is what makes Portia's entrance, and the long rope she pays out before she pulls it tight, so electrifying: salvation walks in disguised as a boy, and takes its time.",
+      "on_screen": {
+        "plate": "plate-trial",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-trial"
+      ],
+      "notes": "The trial; Antonio resigned; Shylock insists on the bond, refuses mercy and money; Portia arrives disguised as the lawyer Balthazar."
+    },
+    {
+      "id": "t-mercy",
+      "template": "parallax-still",
+      "narration": "Portia, as the lawyer, first appeals to Shylock to be merciful, in the play's most famous speech. Mercy, she says, cannot be forced — it is not strained, but falls like gentle rain from heaven, blessing both the one who gives it and the one who receives it; it is an attribute of God himself, and earthly power is never more godlike than when it tempers justice with mercy. It is beautiful, and it is also, coming from her, pointed: in the course of pleading for a merciful exception to the law, she is asking the hated outsider to show the very quality his persecutors have never shown him. Shylock is unmoved. He stands on the law; he demands his bond. So Portia, having offered mercy and seen it refused, agrees: very well — the law shall be followed exactly. And she sets her trap inside that word, exactly. Portia's speech on mercy is justly immortal — mercy as a free gift, unforced, falling like rain, blessing giver and receiver alike, the quality that makes earthly power most resemble God's. But notice the sharp double edge Shakespeare puts on it. In context, this gorgeous Christian sermon on mercy is being delivered to a Jew, by the very society that has shown him none — that spat on him, robbed him, stole his daughter, and will, within minutes, strip him of everything. The Christians preach mercy beautifully and practise it selectively. So when Shylock rejects the plea and demands strict justice, there is a grim appropriateness: he is only asking the law-obsessed, bond-bound society of Venice to live by its own rules. He wants justice, not mercy — and Portia is about to give him an overdose of exactly the strict justice he insisted on. Hold on to the brilliant, bitter double meaning of the whole trial. Portia does not win by being more merciful than Shylock — she wins by being more ruthless with the letter of the law than he is. Having preached that mercy should season justice, she then delivers pure, unseasoned justice of a severity that destroys him. The play seems to praise mercy with one hand and, with the other, show its Christian heroes declining to extend any to the one man who needed it. Modern productions often let Portia's great speech hang in the air as an irony she herself does not notice — a sermon on mercy delivered by someone about to show none — and that reading is right there in Shakespeare's text for anyone who looks.",
+      "on_screen": {
+        "plate": "plate-portia",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-portia"
+      ],
+      "notes": "Portia's 'quality of mercy' speech; Shylock refuses; Portia agrees to apply the law to the letter — and springs the trap."
+    },
+    {
+      "id": "q-mercy",
+      "template": "quote-card",
+      "narration": "Portia, disguised, pleading with Shylock — the most famous lines in the play.",
+      "on_screen": {
+        "quote": "The quality of mercy is not strain'd, / It droppeth as the gentle rain from heaven.",
+        "source": "Portia, Act 4"
+      },
+      "notes": "Verbatim, Gutenberg #1515, line 3168."
+    },
+    {
+      "id": "t-trap",
+      "template": "parallax-still",
+      "narration": "Shylock is granted his bond — and the moment he lifts his knife, Portia springs it shut. The bond, she says, awards him a pound of flesh. It says nothing whatsoever about blood. So he may cut his pound — but if, in doing so, he spills one drop of Antonio's Christian blood, which the contract does not grant him, his own lands and life are forfeit under Venetian law. And more: he must cut exactly one pound, neither a hair more nor less, on pain of death. It is impossible, and Shylock knows it instantly. Beaten at his own game of the letter of the law, he backs down and asks, now, merely for the money. Too late, says Portia; he refused the money in open court and demanded the bond, and the bond is all he shall have. Then let him take nothing and go, he says. Too late for that, too. The hunter has become the prey, and Portia closes the jaws completely. The 'no blood' trick is dazzling and, if you think about it, slightly outrageous — a piece of lawyerly hair-splitting rather than real justice, beating Shylock not on the merits but on a technicality buried in his own obsession with the letter of the law. And that is precisely Shakespeare's irony: Shylock lived by the letter, demanding the exact words of his bond, so Portia destroys him with the exact words of his bond. He asked for justice to the last syllable, and he gets it — flesh but not one drop of blood, one pound neither more nor less — which is of course impossible, so his 'justice' evaporates. The man who would show no mercy is now shown none; the predator is caught in his own legal net, and the whole mood of the scene tips, in an instant, from his triumph to his ruin. There is a deep irony worth savouring: Shylock is destroyed not by mercy or by force but by language — by a woman reading his own contract more precisely than he did. He built his whole case on the sacredness of the exact written word, and Portia simply holds him to it with a rigour he never imagined, finding in the silence of the bond about 'blood' the one gap that swallows him whole. It is a victory of wit over will, of the quick mind over the fixed one. And it quietly crowns Portia as the most formidable intelligence in the play — a woman who had to disguise herself as a man even to be allowed to speak, outthinking every powerful male in Venice on their own ground.",
+      "on_screen": {
+        "plate": "plate-trial",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-trial"
+      ],
+      "notes": "Portia's trick: flesh but no blood, and exactly a pound; Shylock trapped; he tries to take the money, then to leave — too late."
+    },
+    {
+      "id": "t-crush",
+      "template": "parallax-still",
+      "narration": "And now the play delivers the punishment that modern audiences find hardest to stomach. Because Shylock, an alien, sought the life of a Venetian citizen, the law strips him of everything: half his wealth goes to Antonio, half to the state, and his very life hangs on the Duke's mercy. The Duke spares his life. And Antonio — the 'merciful' Christian — adds his own condition for returning his half: that Shylock must immediately convert to Christianity, and leave everything at his death to the daughter who robbed and abandoned him. Shylock, utterly broken, his wealth, his revenge, his faith, and his child all taken from him, can only say that he is not well, and ask to leave the court. He exits, destroyed, and the play — a comedy — simply moves on without him, back to Belmont and the lovers, as if nothing terrible had happened at all. And here the modern audience's sympathy, which the play has been quietly building for Shylock all along, collides head-on with the 'comic' resolution the Elizabethans would have applauded. Having failed to take Antonio's life, Shylock is now at the law's mercy as an 'alien' who conspired against a citizen — and the law takes everything. His money is divided away; his life is granted as a grudging favour; and then Antonio, the supposedly merciful Christian, demands the final cruelty — that Shylock renounce his religion and become a Christian, the very identity for which he was tormented. To an Elizabethan this was a mercy, even a salvation. To us it is the annihilation of a human being: robbed, forcibly converted, childless, alone. Shylock's broken exit — 'I am not well' — is four small words that carry the whole weight of the play's uneasy conscience out of the room with him. It is worth sitting with how completely the tables turn in a few lines. One moment Shylock holds the knife and the law and a man's life; the next he is begging merely to be allowed to leave with nothing, and is refused even that. The savagery he meant for Antonio recoils onto him with interest. And the forced conversion is the cruelest stroke of all — for an Elizabethan Christian, saving Shylock's soul by making him a Christian was a generous act, perhaps the play's intended 'mercy'; for us, stripping a man of the faith that is his very identity, as the final humiliation on top of robbing him, is simply the destruction of a person. The gap between those two readings is the gap between Shakespeare's age and ours, and the whole modern difficulty of the play lives inside it.",
+      "on_screen": {
+        "plate": "plate-shylock",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-shylock"
+      ],
+      "notes": "Shylock crushed: wealth confiscated, forced to convert, must will his estate to Jessica; he leaves broken; the 'comedy' moves on."
+    },
+    {
+      "id": "ch-rings",
+      "template": "chapter-card",
+      "narration": "The play ends in moonlight and love games — with one dark figure conspicuously missing.",
+      "on_screen": {
+        "chapter_title": "The Rings",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Bond",
+            "The Caskets",
+            "The Forfeit",
+            "The Trial",
+            "The Rings"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "r-rings",
+      "template": "parallax-still",
+      "narration": "There is a final comic twist to lighten the ending. Before the trial, Portia and her maid Nerissa had each given their new husbands, Bassanio and Gratiano, a ring, with a solemn vow never to part with it. At the trial, the disguised Portia-as-lawyer, having saved Antonio's life, slyly asks Bassanio for his ring as her only payment. Torn between his vow and his debt to the 'lawyer' who saved his friend, Bassanio gives it up. So back in Belmont, the wives — now out of disguise — pretend to discover that their husbands have given away their precious rings, and tease and torment them with mock-accusations of faithlessness, before finally revealing that they themselves were the lawyer and the clerk all along. It is a light, teasing game about marriage and trust — and it also quietly makes the point that in this play it was the women, especially the brilliant Portia, who held all the real power and did all the saving, while the men floundered. The ring plot is pure romantic comedy, a deliberate lightening of the mood after the darkness of the courtroom — and Shakespeare clearly wants to send the audience home smiling. But it also drives home something the whole play has quietly insisted: that the women are the clever ones. It was Portia, not any of the men, who out-argued the finest legal minds of Venice and saved Antonio's life, doing it in disguise because as a woman she would never have been allowed to speak in that court at all. The ring game lets her and Nerissa gently expose their husbands' divided loyalties and then forgive them, reasserting control of their marriages on their own terms. In a play obsessed with bonds — financial, legal, marital — the women turn out to be the ones who truly understand how bonds work, and how to bend them.",
+      "on_screen": {
+        "plate": "plate-belmont",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-belmont"
+      ],
+      "notes": "The ring trick: Portia/Nerissa (as lawyer/clerk) get the rings, then tease their husbands; the women held the real power."
+    },
+    {
+      "id": "r-end",
+      "template": "parallax-still",
+      "narration": "And so the comedy reaches its happy ending. Word comes that Antonio's ships were not lost after all — they have come safely into harbour, richly laden, and his fortune is restored. The three couples are united; Jessica and Lorenzo are promised Shylock's wealth; the night in Belmont is full of music and moonlight and reconciliation. Everyone, it seems, is happy. Everyone, that is, except the one man whose suffering the play cannot quite paint over. Shylock is not there. He has been stripped of his money, his faith, and his daughter, and sent away alone — and the lovers in the moonlight do not spare him a thought. It is the most troubling 'happy ending' Shakespeare ever wrote, and the discomfort it leaves is, for modern audiences, the whole point. And so Shakespeare brings down the curtain on moonlit Belmont, music playing, every romantic knot untied, Antonio's wealth miraculously restored by the safe return of his ships. By the conventions of comedy, all is well. But the play has given us too much to let us leave entirely happy. The lovers' joy is built, in part, on a man's destruction, and on an inheritance stolen from him and handed to the daughter who abandoned him. Shakespeare does not comment; he simply ends, leaving the absence of Shylock hanging over the festivities like a shadow no one on stage will look at. Whether that silence is the playwright's blind spot or his deliberate, disquieting point has been argued ever since — and the argument is the clearest proof of how far this 'comedy' outgrew its own genre. There is one last quiet grace note in the moonlit garden: Lorenzo and Jessica speak some of the most beautiful lines in all of Shakespeare about music and the harmony of the heavens, about how the man who has no music in him is fit for treason and spoils. It is lovely — and it floats, serene, directly above the wreckage of Jessica's own father, whose destruction has helped pay for this peace. Shakespeare leaves that dissonance unresolved on purpose: exquisite harmony in the foreground, a silenced and ruined man in the dark just offstage. It is the whole play in a single image, and the reason The Merchant of Venice can never quite be the simple comedy it pretends to be.",
+      "on_screen": {
+        "plate": "plate-ships",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-ships"
+      ],
+      "notes": "Antonio's ships safe; the couples happy in Belmont; Shylock absent and destroyed; the troubling 'happy ending'."
+    },
+    {
+      "id": "q-pound",
+      "template": "quote-card",
+      "narration": "The bargain that drives the whole play.",
+      "on_screen": {
+        "quote": "I shall hardly spare a pound of flesh.",
+        "source": "Antonio, Act 1"
+      },
+      "notes": "Verbatim, Gutenberg #1515, line 2596."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "So how do we hold this play now? For centuries it was staged as a straightforward comedy, with Shylock as a hook-nosed villain to be hissed and humiliated. We cannot do that any more — not after the twentieth century, not knowing where such hatred leads, and not, frankly, once we have really listened to what Shakespeare actually wrote. Because the strange thing is that Shakespeare, writing for an antisemitic audience and surely sharing some of their prejudice, could not help making Shylock human. He gave him the best speech in the play, a daughter's betrayal to grieve, a dead wife to mourn, and a grievance — a lifetime of being spat on and excluded — that we cannot honestly dismiss. The result is a play at war with itself: a comedy whose villain is its most sympathetic character, a story about mercy in which the Christians, having preached it so beautifully, show their enemy none at all. That contradiction is exactly why it still matters. The Merchant of Venice forces us to watch a society congratulate itself on its virtue while destroying an outsider — and to ask, uncomfortably, whether we are watching Shakespeare's prejudice, or his unintended, devastating critique of it. The play gives no comfortable answer, and that is its terrible, lasting power. And it is worth being clear-eyed about what we are doing when we stage it today. We cannot un-write the antisemitism; it is in the plot's very bones — a bloodthirsty Jew defeated and forcibly converted by triumphant Christians. But we can notice that Shakespeare, almost uniquely among the writers of his violently prejudiced age, could not draw his villain without also drawing his humanity — the grief, the logic, the wound, the terrible dignity of 'Hath not a Jew eyes?'. The result is a play that indicts the very prejudice it seems to serve, that lets its scapegoat speak the truest lines in it. That is why it survives on the modern stage not as a comedy but as a kind of trial of the audience itself — daring us to laugh, and then making us ashamed that we nearly did.",
+      "on_screen": {
+        "plate": "plate-venice",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-venice"
+      ],
+      "notes": "Close: the Shylock problem; can't be played as simple comedy now; Shakespeare humanised his villain; the play at war with itself."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of The Merchant of Venice — a pound of flesh, a casket riddle, a courtroom trick, and a comedy that can no longer quite laugh at its own ending. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It's a play worth wrestling with rather than simply enjoying — read it, and listen hardest to the man the happy ending leaves behind. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}

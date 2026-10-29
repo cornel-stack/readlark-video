@@ -1,0 +1,61 @@
+{
+  "book_code": "CL-05",
+  "book": "The Merchant of Venice",
+  "note": "Art queries for Shakespeare's The Merchant of Venice. Wikimedia Commons, PD/CC0 only. Canaletto's Venice; Rembrandt's dignified portraits of Jewish sitters for Shylock; a courtroom; a casket-choosing scene; an Italian villa for Belmont. Handled so Shylock reads as human, not caricature. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-venice",
+      "count": 1,
+      "query": "Canaletto Grand Canal Venice painting",
+      "want": "Canaletto, the Grand Canal — Venice (PD)"
+    },
+    {
+      "id": "plate-antonio",
+      "count": 1,
+      "query": "Titian portrait of a Venetian merchant man painting",
+      "want": "A grave Venetian merchant — Antonio (PD)"
+    },
+    {
+      "id": "plate-bond",
+      "count": 1,
+      "query": "Quentin Matsys The Moneylender and His Wife painting",
+      "want": "Matsys, a moneylender counting coins — the bond (PD)"
+    },
+    {
+      "id": "plate-shylock",
+      "count": 1,
+      "query": "Rembrandt portrait of an old Jewish man painting",
+      "want": "Rembrandt, a dignified elderly Jewish man — Shylock (PD)"
+    },
+    {
+      "id": "plate-jessica",
+      "count": 1,
+      "query": "Rembrandt Jewish Bride young woman painting",
+      "want": "A young Jewish woman — Jessica (PD)"
+    },
+    {
+      "id": "plate-portia",
+      "count": 1,
+      "query": "Frederic Leighton portrait of a lady painting",
+      "want": "A noble lady — Portia (PD)"
+    },
+    {
+      "id": "plate-trial",
+      "count": 1,
+      "query": "Honore Daumier lawyers painting",
+      "want": "Daumier, lawyers in court — the trial (PD)"
+    },
+    {
+      "id": "plate-belmont",
+      "count": 1,
+      "query": "Claude Lorrain Italian villa landscape painting",
+      "want": "A moonlit Italian estate — Belmont (PD)"
+    },
+    {
+      "id": "plate-ships",
+      "count": 1,
+      "query": "Canaletto Venice harbour ships painting",
+      "want": "Merchant ships in harbour — Antonio's argosies safe (PD)"
+    }
+  ]
+}
