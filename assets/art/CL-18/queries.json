@@ -1,0 +1,37 @@
+{
+  "book_code": "CL-18",
+  "book": "Oliver Twist",
+  "note": "Art queries for Dickens's Oliver Twist. Wikimedia Commons, PD/CC0 only. Leans heavily on George Cruikshank's original 1838 illustrations for the novel (PD — Oliver asking for more, Fagin in the den, Nancy, Sikes), plus Gustave Doré's London for the slums and a Victorian gentleman portrait for Mr Brownlow. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-oliver",
+      "count": 1,
+      "query": "George Cruikshank Oliver asking for more illustration",
+      "want": "Oliver with his bowl — 'I want some more' (PD 1838)"
+    },
+    {
+      "id": "plate-london",
+      "count": 1,
+      "query": "Gustave Dore London slum engraving",
+      "want": "A squalid London slum — the underworld (PD)"
+    },
+    {
+      "id": "plate-fagin",
+      "count": 1,
+      "query": "George Cruikshank Fagin Oliver Twist illustration",
+      "want": "Fagin in his den of boy thieves (PD 1838)"
+    },
+    {
+      "id": "plate-brownlow",
+      "count": 1,
+      "query": "Rembrandt portrait of an old man painting",
+      "want": "A benevolent old gentleman — Mr Brownlow (PD)"
+    },
+    {
+      "id": "plate-nancy",
+      "count": 1,
+      "query": "George Cruikshank Nancy Oliver Twist illustration",
+      "want": "Nancy — the doomed, good-hearted girl (PD 1838)"
+    }
+  ]
+}
