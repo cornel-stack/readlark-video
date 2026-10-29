@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "code": "CL-14B",
+    "book": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "year": "1847",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Jane Eyre: The Full Story Explained (Charlotte Brontë)",
+    "search_phrase": "Jane Eyre full story explained"
+  },
+  "chapters": [
+    {
+      "title": "A poor, plain, invisible girl",
+      "first_scene": "hook"
+    },
+    {
+      "title": "Gateshead and Lowood",
+      "first_scene": "ch-child"
+    },
+    {
+      "title": "Thornfield",
+      "first_scene": "ch-thornfield"
+    },
+    {
+      "title": "The Madwoman",
+      "first_scene": "ch-madwoman"
+    },
+    {
+      "title": "The Moor and the Return",
+      "first_scene": "ch-moor"
+    },
+    {
+      "title": "Reader, I Married Him",
+      "first_scene": "ch-end"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "A plain, poor, orphaned governess refuses to be anyone's possession — not her cruel relatives', not a cold suitor's, not even the man she loves. She will have love, but only as an equal, or not at all.",
+      "on_screen": {
+        "question": "A poor, plain, invisible girl",
+        "plate": "plate-jane"
+      },
+      "assets": [
+        "plate-jane"
+      ],
+      "notes": "Hook before any title. ~38 words, ≤15s."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Jane Eyre, by Charlotte Brontë, published in eighteen forty-seven.",
+      "on_screen": {
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "year": "1847",
+        "subtitle": "An Autobiography"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. Like her sister Emily's Wuthering Heights, Charlotte Brontë published this under a male pen-name — Currer Bell — and it was a sensation, partly because its heroine was so unlike anything readers expected: not a beauty, not an heiress, but a small, plain, poor young woman who insists, fiercely, on her own worth and her own freedom. Second: it is told in the first person, as Jane's own autobiography, and that intimate voice — passionate, principled, speaking directly to us — is the engine of the whole book; Jane famously turns and addresses you, the reader, at the key moments. And third: hold on to the one thing Jane will never surrender, through poverty, cruelty, temptation, and love — her integrity, her refusal to be owned or to betray her own conscience, even when keeping faith with herself costs her the thing she wants most in the world. It is, under the Gothic romance, one of the great stories of a person insisting on being treated as a full and equal soul. A little background deepens it. Charlotte Brontë drew on her own life — the grim charity school where two of her sisters caught the illness that killed them became Lowood; her years as a governess, that strange limbo of being an educated woman treated as a servant, became Jane's world. And she was reacting, consciously, against the fiction of her day, which gave readers beautiful, passive, docile heroines. Charlotte reportedly told her sisters she would show them a heroine as plain and small as herself who would be every bit as interesting as any beauty — and she did. The result scandalised some Victorian critics, who found Jane 'unfeminine', rebellious, even dangerous, precisely because she wanted and demanded so much, and apologised for none of it.",
+      "on_screen": {
+        "plate": "plate-moors",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-moors"
+      ],
+      "notes": "Context: published as Currer Bell; a plain poor heroine insisting on her worth; first-person 'Reader' voice; integrity."
+    },
+    {
+      "id": "ch-child",
+      "template": "chapter-card",
+      "narration": "She begins with nothing — an unwanted orphan in a house that hates her, and a school that starves her.",
+      "on_screen": {
+        "chapter_title": "Gateshead and Lowood",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Childhood",
+            "Thornfield",
+            "The Madwoman",
+            "The Moor",
+            "The Return"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "c-redroom",
+      "template": "parallax-still",
+      "narration": "Jane is an orphan, taken in grudgingly by her wealthy aunt by marriage, Mrs Reed, at a grand house called Gateshead. She is treated not as family but as a burden and an inferior — bullied mercilessly by her older cousin John Reed, despised by her aunt, excluded from every warmth of the household. The book opens with John throwing a book at her and Jane, for once, fighting back — and being punished for it with a terror that marks her for life. She is locked, alone, in the red-room: the cold, grand, disused chamber where her kind uncle died, and which the servants say is haunted. There, in the dark, the imaginative, friendless child works herself into such a frenzy of fear that she has a fit and collapses. It is the perfect opening image for the whole novel: a small powerless person, shut in a room by those with power over her, screaming to be let out. The red-room is one of the most analysed scenes in English fiction, and for good reason — it sets the pattern for everything that follows. Again and again Jane will be confined by people with power over her — shut in rooms, hemmed in by rules, pressed to submit — and again and again her fierce spirit will refuse. As a grown woman she will remember this terror and draw strength from having survived it. Notice, too, that her sin at Gateshead is simply having a self: she feels injustice keenly and says so, and in a world that wanted children, and especially poor female children, to be meek and grateful, having a will of her own is treated as a kind of wickedness. The whole novel is her long argument that it is not.",
+      "on_screen": {
+        "plate": "plate-redroom",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-redroom"
+      ],
+      "notes": "Gateshead: orphan Jane, cruel Mrs Reed & cousin John; the red-room terror; the opening image of powerlessness."
+    },
+    {
+      "id": "c-lowood",
+      "template": "parallax-still",
+      "narration": "To be rid of her, Mrs Reed sends Jane away to Lowood, a charity school for poor and orphaned girls — and it is a place of institutional cruelty. It is run by Mr Brocklehurst, a hard, hypocritical clergyman who preaches humility and privation to the starving girls while his own family lives in luxury; the children are cold, underfed, and publicly humiliated. But at Lowood Jane also finds, for the first time, people who treat her with kindness: the gentle, fair superintendent Miss Temple, and above all a older girl named Helen Burns. Helen is Jane's opposite — serene, patient, deeply Christian, able to bear injustice without resentment because she lives for the next world rather than this one. The two girls love each other, and Helen's quiet faith both moves and frustrates the fierce, justice-hungry Jane. The friendship between Jane and Helen Burns is the moral seed of the book, because the two girls embody two different answers to injustice. Helen endures cruelty with saintly patience, turning the other cheek, trusting that wrongs will be righted in heaven; she tells Jane it is weak and silly to hate those who punish you unjustly. Jane cannot accept this — every fibre of her wants to fight back, to be loved and treated fairly here, now, in this life. Brontë does not simply take sides: she clearly admires Helen's serene goodness, and yet the novel's whole energy is Jane's refusal to be a doormat. The tension between those two impulses — Christian submission and passionate self-assertion — runs through everything Jane does for the rest of her life.",
+      "on_screen": {
+        "plate": "plate-school",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-school"
+      ],
+      "notes": "Lowood charity school; hypocrite Brocklehurst; kind Miss Temple; the beloved, saintly Helen Burns."
+    },
+    {
+      "id": "c-helen",
+      "template": "parallax-still",
+      "narration": "Then a typhus epidemic sweeps the overcrowded, undernourished school, and many of the girls die. Helen Burns, already weakened by consumption, is dying too. In one of the most tender scenes in the book, Jane creeps into Helen's bed on the last night to hold her, and they talk quietly about death and heaven, Helen unafraid, certain she is going home to God. Jane falls asleep in her friend's arms, and wakes to find Helen has died in the night, holding her. The scandal of the epidemic forces reforms at Lowood; conditions improve; and Jane stays on for eight years, first as a pupil and then as a teacher, growing into a clever, self-possessed, disciplined young woman. But when her beloved Miss Temple marries and leaves, Jane feels the walls close in, and longs, suddenly and intensely, for a wider life. She advertises for a post as a governess — and is answered. Helen's death scene is one of the great set-pieces of Victorian fiction, and it marks the first of the terrible losses that shape Jane. But it also hardens something in her. She has now seen the one person who loved her unconditionally taken away, and she learns, young, that she can rely on no one but herself — that whatever she wants from life, she will have to earn and hold through her own strength. The eight years that pass at Lowood are summarised quickly, but they do crucial work: the raging, powerless child of the red-room grows into a disciplined, educated, self-governing young woman, still passionate underneath but now in control of herself. When she longs, on the threshold of adulthood, for 'liberty' and 'a new servitude', we feel the whole coiled force of a life that has never yet been allowed to begin. It is worth adding that the losses of these early chapters do something permanent to Jane's character: they give her an unusual, hard-won self-sufficiency. Having been loved and then bereaved so young, she never again expects the world to be kind by default; she builds her security inside herself, in her principles and her work and her fierce private sense of her own worth. That inner fortress is what will let her, years later, walk out of Thornfield with nothing — because she has always, at bottom, known how to survive on her own resources, and known that her self is the one thing she can never afford to lose.",
+      "on_screen": {
+        "plate": "plate-school",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-school"
+      ],
+      "notes": "Typhus; Helen Burns dies in Jane's arms; Lowood reformed; Jane stays 8 years, grows up, then seeks a governess post."
+    },
+    {
+      "id": "ch-thornfield",
+      "template": "chapter-card",
+      "narration": "A new house, a strange master, and a love that meets her, for the first time, as an equal.",
+      "on_screen": {
+        "chapter_title": "Thornfield",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Childhood",
+            "Thornfield",
+            "The Madwoman",
+            "The Moor",
+            "The Return"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "t-arrival",
+      "template": "parallax-still",
+      "narration": "Jane's new post is at Thornfield Hall, a large, old, half-empty country house, where she is to be governess to a lively little French girl, Adèle, the ward of the master. The household is run by the kindly housekeeper Mrs Fairfax, and the master himself is away. Jane settles in — but she notices, from the start, something strange: a locked wing on the third floor, and, now and then, a weird, low laugh echoing through the house, which the servants blame on a dour seamstress named Grace Poole. Jane is content, but restless; standing on the roof, she famously longs for more experience, more life, more of the world than a quiet woman's lot allows. And then, one frosty evening, walking a country lane, she helps a rider whose horse has slipped on the ice — a dark, brooding, not-handsome man who is curt with her and does not say who he is. He is Mr Rochester, the master of Thornfield, come home. Thornfield is the Gothic heart of the book, and Brontë loads it with the classic machinery — the brooding manor, the locked wing, the uncanny laughter, the secret no one will explain — but she roots it all in a very real, very modern loneliness. Jane's position as a governess is a peculiar kind of isolation: too educated and refined to mix with the servants, too poor and dependent to be a guest, she exists in a social no-man's-land, belonging nowhere. That is why her first real conversation with Rochester hits her like weather: for the first time in her adult life, someone meets her as a person, an equal intelligence, rather than looking through her. The romance grows not out of his looks or his wealth but out of that — out of being, at last, seen. The little French girl, Adèle, is worth a word too: she is the daughter of a dancer Rochester once kept, a child he took in out of a rough sense of duty though she is almost certainly not his. Her presence quietly tells us the kind of man Rochester has been — worldly, cynical, scarred by a wasted youth — and also that there is, buried under the cynicism, a vein of decency, a man who will shoulder a castoff child nobody else wants. Jane, herself an unwanted child taken in on sufferance, feels an instinctive kinship with Adèle, and treats her with exactly the fairness and attention she herself was so cruelly denied at Gateshead.",
+      "on_screen": {
+        "plate": "plate-thornfield",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-thornfield"
+      ],
+      "notes": "Thornfield; governess to Adèle; Mrs Fairfax; the locked third floor and the strange laugh (blamed on Grace Poole); meeting Rochester on the lane."
+    },
+    {
+      "id": "t-rochester",
+      "template": "parallax-still",
+      "narration": "Mr Rochester is nothing like a conventional romantic hero: he is middle-aged, abrupt, moody, sardonic, with a dark past he hints at but will not explain. But he is also brilliant, and — crucially — he talks to Jane. Where everyone else has looked straight past the plain little governess, Rochester finds her strange, direct honesty fascinating; he draws her out, argues with her, treats her mind as the equal of his own. And Jane, who has never been truly seen by anyone, slowly, warily, falls in love with him — while telling herself it is absurd, that a plain, poor, dependent governess could never be anything to a wealthy gentleman. Then, one night, she is woken by that eerie laugh outside her door, and finds Rochester's bed curtains ablaze, the master nearly burned alive in his sleep. She douses the fire and saves his life. He is strangely shaken, grips her hand, and will not let her go — and neither of them can quite name what is happening between them. It is worth being clear about how unusual this courtship is. Rochester does not flatter Jane or treat her as a delicate ornament; he spars with her, challenges her, demands her honest opinion and gets it. And Jane gives as good as she gets — she is never cowed by his rank or his moods, and he loves her for exactly that fearless candour. Brontë is quietly rewriting what love between a man and a woman can look like: not worship of a beauty, not rescue of a helpless girl, but two sharp, lonely, honest minds recognising each other across every barrier of age, wealth, and class. The fire in his bedroom — the first of Bertha's attacks, though we don't yet know it — also sets the book's pattern: it is Jane who acts, Jane who saves him, the small governess cool and decisive while the great man sleeps. There is also a frank, almost shocking emotional and physical charge to their scenes that Victorian readers felt keenly — these are two adults with real desire and real tempers, not a decorous courting couple. Brontë refuses to make Jane either a cool intellect or a swooning innocent; she is a woman of strong passions who has deliberately disciplined them, and Rochester reaches the banked fire in her as no one else ever has. That is the private drama under the Gothic one: Jane's lifelong struggle to honour both halves of herself, the passionate heart and the principled conscience, without letting either destroy her — a struggle that will come to its crisis the morning the wedding fails.",
+      "on_screen": {
+        "plate": "plate-fire",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-fire"
+      ],
+      "notes": "Rochester — unhandsome but treats Jane as an equal mind; Jane falls for him; the mysterious fire in his bed; she saves him."
+    },
+    {
+      "id": "t-test",
+      "template": "parallax-still",
+      "narration": "Rochester seems to test Jane, and torment them both. He fills the house with glittering guests, including the beautiful, haughty, aristocratic Blanche Ingram, and lets it be understood that he means to marry her — while watching Jane's face. Jane, in agony, forces herself to accept it: of course he will marry a beauty of his own class; she is nobody. She resolves to leave. And then, in the garden on a midsummer evening, Rochester does the thing that breaks the whole book open. He provokes Jane into a confession of her pain at leaving — and she, stripped of all pretence, pours out the truth: that she has as much heart and soul as he does, that she is not a machine without feelings, and that she will not be treated as beneath him. She insists they meet as equals. The game Rochester plays with Blanche Ingram is cruel, and Brontë lets us feel Jane's suffering under it fully — the jealousy, the self-abnegation, the grim resolve to expect nothing. But it also forces Jane to articulate, out loud, the thing the whole book has been driving toward. Pushed past endurance, she stops performing the humble governess and speaks as a soul: she will not be treated as a lesser being, a thing without feelings, simply because she is poor and plain and small. It is a genuinely radical speech for its time — a dependent woman telling a wealthy man, to his face, that in every way that ultimately matters they are equals — and it is the moment Jane fully becomes herself.",
+      "on_screen": {
+        "plate": "plate-garden",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-garden"
+      ],
+      "notes": "Rochester feigns courting Blanche Ingram to test Jane; the garden scene; Jane's great speech asserting her equal soul."
+    },
+    {
+      "id": "q-plain",
+      "template": "quote-card",
+      "narration": "Her great declaration — that a plain, poor woman has a soul and heart as full as anyone's.",
+      "on_screen": {
+        "quote": "Do you think, because I am poor, obscure, plain, and little, I am soulless and heartless?",
+        "source": "Jane, to Rochester"
+      },
+      "notes": "Verbatim, Gutenberg #1260, line 11665."
+    },
+    {
+      "id": "q-equal",
+      "template": "quote-card",
+      "narration": "And the heart of it — that before God they stand level.",
+      "on_screen": {
+        "quote": "It is my spirit that addresses your spirit… we stood at God's feet, equal,—as we are!",
+        "source": "Jane, to Rochester"
+      },
+      "notes": "Verbatim (condensed with ellipsis), Gutenberg #1260, lines 11669-11672."
+    },
+    {
+      "id": "t-proposal",
+      "template": "parallax-still",
+      "narration": "And Rochester, moved beyond his games, tells her the truth: that Blanche was only a ruse to make Jane jealous, that it is Jane he loves, Jane he wants to marry — his equal, his likeness, the only woman he has ever truly met. Jane, overwhelmed, accepts. For a few weeks she is radiantly, disbelievingly happy. But small shadows gather. A great chestnut tree is split in two by lightning the night of their engagement. And a few nights before the wedding, a terrible figure comes into Jane's room in the dark — a savage, purple-faced woman who tears Jane's wedding veil in two and vanishes, something Rochester hastily explains away as a dream, or as Grace Poole. Jane, uneasy but trusting, lets herself be led to the altar. Even in her happiness, Jane never quite loses her footing, and Brontë fills the engagement with warning signs that something is wrong. The lightning-split chestnut tree is an omen of a union about to be torn apart; Rochester's lavish gifts make Jane uneasy, because she does not want to be dressed up and owned like a doll or a kept woman; and the nightmare figure that rends the wedding veil in two is, though Jane cannot know it, the living wife come to mark the illegitimacy of the marriage. Jane's instinct, keeping her own name and her own governess's wages even as a bride-to-be, to stay herself and not be absorbed, turns out to be exactly right — the one thing standing between her and catastrophe.",
+      "on_screen": {
+        "plate": "plate-thornfield",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-thornfield"
+      ],
+      "notes": "Rochester's real proposal; Jane accepts; the omens — the split chestnut tree, the figure that tears the veil."
+    },
+    {
+      "id": "ch-madwoman",
+      "template": "chapter-card",
+      "narration": "At the altar itself, the secret in the attic finally comes down the stairs.",
+      "on_screen": {
+        "chapter_title": "The Madwoman",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Childhood",
+            "Thornfield",
+            "The Madwoman",
+            "The Moor",
+            "The Return"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "m-wedding",
+      "template": "parallax-still",
+      "narration": "The wedding is stopped in the church, mid-vow, by a lawyer who declares that Rochester already has a wife, living. The secret of Thornfield is out. On the third floor, behind the locked door, kept for fifteen years, is Bertha Mason — Rochester's legal wife, a woman long since descended into violent, raving madness, tended in secret by the very Grace Poole blamed for the strange laughter. Rochester, defiant, takes the whole wedding party up to see her: a creature who paces on all fours, snarling and grappling, no longer recognisably sane, no longer the woman he was tricked into marrying in the Caribbean as a young man for her family's money. The laugh in the night, the fire in his bed, the torn veil — all of it was Bertha, escaping from her keeper. Rochester is not free to marry. And Jane's wedding, and her whole imagined future, collapses in an instant. The revelation of Bertha is the hinge of the whole novel, and it is more than a Gothic shock. Rochester tells his story: as a young man he was married off, for money and family convenience, to a beautiful Creole heiress in the Caribbean, only to find her — by his account — descending into a hereditary, violent madness, and he has kept her locked and tended at Thornfield ever since. Bertha is one of the most haunting and debated figures in English literature — later readers have seen in her the first wife shut away so a man can pursue a second, the woman destroyed and silenced by the very marriage-market Jane is fighting against, the dark double of Jane's own passionate nature that must be caged. Whatever she represents, her existence is absolute: Rochester has a living wife, and the altar Jane stood at was a lie. Pause on the horror of the scene from Jane's side. In the space of a few minutes she goes from the happiest moment of her life — standing in church beside the man she loves — to utter ruin, discovering that her bridegroom is married, that she has nearly become an unwitting bigamist's wife, that the strange dread she sensed in the house was real and had a name. And Brontë makes us feel, too, the awful ambiguity of Rochester: he is not simply a villain. He was genuinely trapped, young and deceived, chained for life to a woman who could not be a wife to him; and his love for Jane is real. The tragedy is that his solution — to bury one wife alive upstairs and quietly acquire another — asks Jane to build her happiness on a lie and another woman's living grave, and that she cannot do.",
+      "on_screen": {
+        "plate": "plate-attic",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-attic"
+      ],
+      "notes": "The wedding stopped; Bertha Mason, Rochester's mad wife, revealed in the attic; the mystery explained."
+    },
+    {
+      "id": "m-choice",
+      "template": "parallax-still",
+      "narration": "Now comes the great moral crisis of Jane's life. Rochester, desperate, begs her to stay anyway — to go abroad with him and live as his wife in all but law, since the real marriage is a dead thing, a trap, no fault of his. And Jane loves him, utterly; every feeling she has screams at her to say yes. But to do it would be to become his mistress, to betray her own conscience and her own self-respect, to let herself be owned on unequal terms. And so she makes the hardest choice in the book: she refuses. Not because she loves him less, but because she will not abandon herself. She tells him she must respect herself, that laws and principles are worth most exactly when they are hardest to keep. And in the dead of night, with almost no money and nowhere to go, heartbroken, she flees Thornfield rather than stay and be less than she is. This is the novel's moral summit, and everything Brontë has built points to it. Jane is offered, essentially, happiness at the price of her integrity — a loving life with Rochester, if she will only agree to be his mistress, his possession on unequal and unlawful terms. And she loves him enough that refusing nearly destroys her. But she understands something fierce and clear: that if she abandons her own principles the moment they become painful, then they were never principles at all, and she would cease to be the person Rochester actually loves. To stay would be to be owned; to keep herself, she must go. Her flight into the night, with nothing, is the costliest thing she ever does — and the truest. She chooses herself over love, trusting, without any evidence, that a self worth keeping is worth more than a love that requires its surrender. It is worth underlining how modern and how radical Jane's reasoning is. She does not refuse Rochester because society forbids it, or because she fears disgrace, or out of cold piety — she refuses because she will not betray herself. 'I care for myself,' she says in effect; the more friendless and tempted and alone she is, the more tightly she will hold to the law she has given herself, because her self-respect is the one possession no one can take and she will not give away. In an age that told women their whole value lay in devotion to a man, a heroine who loves utterly and still walks away rather than be degraded was close to revolutionary — and it is the moment that has made generations of readers love Jane fiercely.",
+      "on_screen": {
+        "plate": "plate-flight",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-flight"
+      ],
+      "notes": "The crisis: Rochester begs her to be his mistress; Jane refuses to betray herself; flees Thornfield penniless."
+    },
+    {
+      "id": "q-bird",
+      "template": "quote-card",
+      "narration": "Jane's creed, spoken to Rochester — she belongs to no one but herself.",
+      "on_screen": {
+        "quote": "I am no bird; and no net ensnares me; I am a free human being with an independent will.",
+        "source": "Jane, to Rochester"
+      },
+      "notes": "Verbatim, Gutenberg #1260, line 11691."
+    },
+    {
+      "id": "ch-moor",
+      "template": "chapter-card",
+      "narration": "She loses everything — and finds, out on the moors, both a family and a second kind of trap.",
+      "on_screen": {
+        "chapter_title": "The Moor and the Return",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Childhood",
+            "Thornfield",
+            "The Madwoman",
+            "The Moor",
+            "The Return"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "r-destitute",
+      "template": "parallax-still",
+      "narration": "Jane's flight nearly kills her. Penniless, she wanders the moors for days, sleeping in the open, begging for scraps, brought to the very edge of starvation and death — stripped down to nothing, as she was at the very start, but now by her own free choice. At last, half-dead, she is taken in at a remote house called Moor House by a clergyman, St John Rivers, and his two kind sisters, Diana and Mary. They nurse her back to life, and Jane — giving a false name — builds a modest new existence among them as a village schoolteacher. And then two extraordinary strokes of fortune land at once: she learns that an unknown uncle has died and left her a large fortune, making her suddenly independent and rich — and that the Rivers siblings are, astonishingly, her own cousins. The orphan who began with no money and no family now has both. Characteristically, her first act is to divide her inheritance equally with her new cousins; she wants kin far more than she wants wealth. Brontë strips Jane all the way back to nothing here — starving, nameless, begging on the moors — and it is deliberate: Jane must be reduced to her barest self, having given up everything for her principles, before the book can begin to give it back. The sudden double gift of a fortune and a family is almost fairy-tale, and some readers find it too neat; but it does something precise. For the first time in her life Jane becomes independent — no longer a poor relation or a hired governess but a woman of her own means — and the very first thing she does with her new money is split it four ways to give her new-found cousins an equal share, because what the lifelong orphan has truly starved for is not wealth but belonging. She is assembling, piece by piece, the equality she was denied.",
+      "on_screen": {
+        "plate": "plate-moors",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-moors"
+      ],
+      "notes": "Destitute on the moors; saved by St John Rivers & sisters; inherits a fortune; discovers they are her cousins; shares the money."
+    },
+    {
+      "id": "r-stjohn",
+      "template": "parallax-still",
+      "narration": "But St John Rivers is his own kind of danger. He is a cold, severe, intensely ambitious clergyman, planning to go to India as a missionary — and he decides that Jane, hardworking and dutiful, would make a useful missionary's wife. So he proposes. But it is a proposal with no love in it at all; he does not pretend otherwise. He wants a co-worker, a tool for God's service, and he presses her relentlessly, framing her refusal as a refusal of God Himself. And here is the novel's clever symmetry: Jane is offered a second way to give herself away. Rochester offered her love without marriage; St John offers her marriage without love. Both would mean the surrender of her true self — one to passion, one to duty. And Jane, who very nearly yields to St John's iron will out of sheer exhaustion and conscience, is saved at the last second by something stranger. St John Rivers is one of Brontë's subtlest creations, because he is genuinely good and genuinely dangerous at once. He is everything disciplined and high-minded, a man who has mastered his own passions in the service of God — and he would, with the kindest intentions, grind Jane to dust. His loveless proposal is the exact mirror image of Rochester's sinful one: Rochester wanted her body and feeling without the law; St John wants her duty and labour without love. Both ask Jane to annihilate some essential part of herself — her conscience, or her heart. And St John is in some ways the harder to resist, because he cloaks his demand in religion, so that refusing him feels like refusing God. Jane comes within a breath of submitting out of sheer worn-down conscience — which is what makes her rescue so dramatic. And notice the geography Brontë uses to tell the moral story. Thornfield, with Rochester, is all warmth and firelight and dangerous feeling; Moor House, with St John, is all cold moorland and icy self-denial. Jane is pulled between two climates of the soul — the fire that would consume her and the frost that would freeze her — and the whole art of her life is to find the temperate place between, where she can love without being enslaved and be good without being erased. Neither Rochester-as-he-is nor St John can offer her that middle ground; the novel has to transform the world itself before such a place can exist for her.",
+      "on_screen": {
+        "plate": "plate-stjohn",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-stjohn"
+      ],
+      "notes": "St John's loveless missionary proposal; the symmetry — love without marriage vs marriage without love; both deny Jane's self."
+    },
+    {
+      "id": "r-call",
+      "template": "parallax-still",
+      "narration": "On the very night she is about to give in and accept St John, Jane hears — across all the miles of England, impossibly, unmistakably — Rochester's voice, calling her name aloud in anguish: Jane, Jane, Jane. It is the novel's one frank touch of the supernatural, a cry of soul to soul, and it breaks St John's spell over her completely. Jane knows, in that instant, where she belongs. She refuses St John for good, and sets out at once to find out what has become of the man she still loves. She travels back across the country to Thornfield — and finds it a blackened, roofless ruin. Brontë takes a real risk here, and she knew it — a frankly supernatural event in an otherwise realistic novel. But she earns it, because the telepathic cry is the externalisation of something the whole book has insisted on: that Jane and Rochester are joined soul to soul, in a bond deeper than law or distance or even reason. And note the exquisite timing. The call comes at the precise instant Jane is about to surrender her will to St John, about to make the second great mistake and marry without love 'for duty's sake' — and it is her own deepest self, in the voice of the man she truly loves, calling her back to the life that is really hers. She does not run to Rochester out of weakness; she chooses him, freely, the moment she is strong and independent enough to choose anything. That distinction is the whole moral architecture of the book.",
+      "on_screen": {
+        "plate": "plate-fire",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-fire"
+      ],
+      "notes": "The telepathic call across England ('Jane, Jane, Jane'); she refuses St John and returns to find Thornfield burned."
+    },
+    {
+      "id": "ch-end",
+      "template": "chapter-card",
+      "narration": "What the fire left of Rochester is exactly what lets Jane come to him, at last, as his equal.",
+      "on_screen": {
+        "chapter_title": "Reader, I Married Him",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Childhood",
+            "Thornfield",
+            "The Madwoman",
+            "The Moor",
+            "The Return"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "e-fire",
+      "template": "parallax-still",
+      "narration": "Jane learns what happened. Some months after she fled, Bertha set the house ablaze one night and climbed to the roof. Rochester got all the servants out safely, and then tried to save even Bertha — but she threw herself from the battlements to her death. In the burning house Rochester was maimed: he lost a hand, and the fire left him blind. Thornfield is gone, and he lives now, broken and secluded, in a remote house called Ferndean, cared for by two servants, believing he has lost Jane forever. The great, dominating master of Thornfield has been brought as low as Jane herself once was. The symmetry of the ending is deliberate and, once you see it, deeply satisfying. All through the book the inequality between Jane and Rochester has been the obstacle — his wealth, his rank, his power as her employer and her social better. The fire erases every bit of that. Bertha's death frees him in law; but his blinding and maiming also level him, strip away his mastery, and make him, for the first time, the dependent one. Some readers find it a harsh price, even a kind of punishment, for his earlier attempt to trick Jane into a false marriage. But its real narrative work is to make possible the only union Jane could ever accept — one in which neither partner owns or towers over the other.",
+      "on_screen": {
+        "plate": "plate-ferndean",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ferndean"
+      ],
+      "notes": "Bertha burns Thornfield and dies; Rochester, trying to save her, is blinded and maimed; now secluded at Ferndean, free (a widower)."
+    },
+    {
+      "id": "e-reunion",
+      "template": "parallax-still",
+      "narration": "And this is why the novel had to break Rochester before it could let them marry. When Jane finds him — blind, scarred, dependent — the great inequality between them is gone. He is no longer the rich master and she the poor servant; she comes to him now independent and wealthy in her own right, his equal at last in fortune as she always was in soul, free to choose him not out of need but out of love. She stays. She becomes, as she puts it, his eyes and his right hand, and he, humbled and grateful, is at last the partner she always demanded. The marriage can finally happen on the only terms Jane would ever accept: as two free and equal people. And Jane turns, one final time, to tell us how it ended, in the most famous opening to a last chapter in English fiction. Watch how carefully Brontë stages the balance of power at Ferndean. Jane arrives in secret and plays a small game, letting the blind Rochester slowly realise, by her voice and her touch, that she has truly come back — and the once-commanding master is now utterly at her mercy, afraid she is a dream, terrified she will leave again. Every external advantage has reversed: she is independent and wealthy, he is poor in spirit and dependent; she can see, he cannot; she is free to come and go, he cannot stir without her. And it is precisely because the inequality has flipped and then dissolved that their love can finally be clean. Jane does not marry a master; she marries a man who needs her as much as she wants him, and she comes to him not as a rescued dependant but as a free woman bestowing herself. She even tells us, with quiet pride, that she is now her husband's eyes and right hand — not his servant, but his indispensable equal. The marriage the altar scene could not give them, this humbled, levelled reunion can.",
+      "on_screen": {
+        "plate": "plate-ferndean",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-ferndean"
+      ],
+      "notes": "Jane returns to the humbled Rochester; now his equal in fortune and free; they marry on equal terms; she his 'eyes and right hand'."
+    },
+    {
+      "id": "q-reader",
+      "template": "quote-card",
+      "narration": "The quiet, triumphant line everyone remembers.",
+      "on_screen": {
+        "quote": "Reader, I married him.",
+        "source": "Jane, final chapter"
+      },
+      "notes": "Verbatim, Gutenberg #1260, line 20856."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why has Jane Eyre held its place among the best-loved novels ever written? Partly it is the sheer satisfaction of the story — the orphan who rises, the Gothic secret in the attic, the great thwarted love finally fulfilled. But its real power is Jane herself. In 1847, a heroine who was poor, plain, low-born, and female, and who nonetheless insisted — passionately, articulately, again and again — on her absolute right to be treated as an equal human soul, was something genuinely new and a little dangerous. Jane will not be a victim, will not be a mistress, will not be a tool; she will not be owned on anyone's terms but her own. She holds to her integrity through every temptation, and the novel rewards her for it, which is why it has spoken so directly to readers, and especially to women, for nearly two centuries. It is a love story, yes — but its deepest romance is between Jane and her own unbreakable sense of self. She gets the man only once she can meet him, as she always promised, as a free and equal being — and then, having told her own whole story in her own voice, she simply turns to us and says: Reader, I married him. And there is a reason it still reads as startlingly contemporary. Strip away the Gothic trappings — the madwoman, the burning house, the voice on the wind — and what remains is the story of a woman refusing, again and again, to be defined by the men and institutions that hold power over her, and demanding instead to be met as a full equal with a mind and a will and a soul of her own. That demand was close to scandalous in 1847; it is the air we breathe now, and Jane Eyre is one of the books that helped change it. Brontë gave the world a new kind of heroine — plain, poor, furious, principled, and utterly unforgettable — and then let her win, on her own terms, everything she ever wanted. No wonder readers have never let her go.",
+      "on_screen": {
+        "plate": "plate-moors",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-moors"
+      ],
+      "notes": "Close: why it endures — a plain, poor, female heroine insisting on equality and integrity; the self-respect at the book's core."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of Charlotte Brontë's Jane Eyre — the invisible orphan who refused to be anything less than an equal, and won, on her own terms, both herself and the man she loved. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It's a long novel but a swift one, carried by one of the great voices in fiction — read it and let Jane speak to you directly, the way she always meant to. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}

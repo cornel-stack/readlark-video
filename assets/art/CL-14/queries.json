@@ -1,0 +1,73 @@
+{
+  "book_code": "CL-14",
+  "book": "Jane Eyre",
+  "note": "Art queries for Charlotte Brontë's Jane Eyre. Wikimedia Commons, PD/CC0 only. Victorian Gothic and the Yorkshire moors: John Atkinson Grimshaw's moonlit houses and roads, Turner's fire, Goya's madhouse, a pensive governess, a severe cleric. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-jane",
+      "count": 1,
+      "query": "Jean-Baptiste-Camille Corot young woman reading painting",
+      "want": "A plain, pensive young woman — Jane (PD)"
+    },
+    {
+      "id": "plate-moors",
+      "count": 1,
+      "query": "Caspar David Friedrich The Monk by the Sea painting",
+      "want": "A desolate moor-like expanse (PD)"
+    },
+    {
+      "id": "plate-redroom",
+      "count": 1,
+      "query": "Joseph Wright of Derby candlelit interior painting",
+      "want": "A dark grand chamber — the red-room (PD)"
+    },
+    {
+      "id": "plate-school",
+      "count": 1,
+      "query": "Thomas Webster A Dame's School painting",
+      "want": "A grim schoolroom — Lowood (PD)"
+    },
+    {
+      "id": "plate-thornfield",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight house painting",
+      "want": "Grimshaw, a great house by night — Thornfield (PD)"
+    },
+    {
+      "id": "plate-fire",
+      "count": 1,
+      "query": "J M W Turner Burning of the Houses of Parliament painting",
+      "want": "Turner, a great fire — Thornfield burns (PD)"
+    },
+    {
+      "id": "plate-garden",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight painting",
+      "want": "Grimshaw, a moonlit garden — the proposal (PD)"
+    },
+    {
+      "id": "plate-attic",
+      "count": 1,
+      "query": "Francisco Goya Madhouse Casa de locos painting",
+      "want": "Goya, raving figures — Bertha in the attic (PD)"
+    },
+    {
+      "id": "plate-flight",
+      "count": 1,
+      "query": "Caspar David Friedrich Woman before the Rising Sun painting",
+      "want": "Friedrich, a lone woman in open country — Jane's flight (PD)"
+    },
+    {
+      "id": "plate-stjohn",
+      "count": 1,
+      "query": "El Greco portrait of a cardinal painting",
+      "want": "A severe cleric — St John Rivers (PD)"
+    },
+    {
+      "id": "plate-ferndean",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight wood painting",
+      "want": "Grimshaw, a house among dark woods — Ferndean (PD)"
+    }
+  ]
+}
