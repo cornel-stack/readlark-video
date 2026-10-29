@@ -1,0 +1,55 @@
+{
+  "book_code": "CL-30",
+  "book": "The Canterbury Tales",
+  "note": "Art queries for Chaucer's Canterbury Tales. Wikimedia Commons, PD/CC0 only. Leans on William Blake's 'Canterbury Pilgrims' engraving, a Chaucer portrait, Teniers/Bruegel for the tavern and bawdy peasant world, Uccello knights for the Knight's Tale, Holbein's Dance of Death for the Pardoner, and a Canterbury Cathedral view. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-pilgrims",
+      "count": 1,
+      "query": "William Blake Canterbury Pilgrims engraving",
+      "want": "The pilgrim company riding out (PD)"
+    },
+    {
+      "id": "plate-chaucer",
+      "count": 1,
+      "query": "Geoffrey Chaucer portrait painting",
+      "want": "A portrait of Chaucer (PD)"
+    },
+    {
+      "id": "plate-tabard",
+      "count": 1,
+      "query": "David Teniers tavern interior painting",
+      "want": "A crowded inn / the Tabard (PD)"
+    },
+    {
+      "id": "plate-knight",
+      "count": 1,
+      "query": "Paolo Uccello battle knights painting",
+      "want": "Armoured knights — the Knight's Tale (PD)"
+    },
+    {
+      "id": "plate-miller",
+      "count": 1,
+      "query": "Pieter Bruegel peasant wedding feast painting",
+      "want": "Rowdy peasant revelry — the Miller's world (PD)"
+    },
+    {
+      "id": "plate-wife",
+      "count": 1,
+      "query": "Rogier van der Weyden portrait of a lady painting",
+      "want": "A confident medieval woman — the Wife of Bath (PD)"
+    },
+    {
+      "id": "plate-pardoner",
+      "count": 1,
+      "query": "Hans Holbein Dance of Death woodcut",
+      "want": "Death comes for all — the Pardoner's Tale (PD)"
+    },
+    {
+      "id": "plate-cathedral",
+      "count": 1,
+      "query": "Canterbury Cathedral painting",
+      "want": "Canterbury Cathedral — the pilgrimage's end (PD)"
+    }
+  ]
+}
