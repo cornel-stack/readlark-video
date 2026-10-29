@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 16/138 rendered**  `██░░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  120 planned
+**Progress: 17/138 rendered**  `██░░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  119 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -40,9 +40,9 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-10A | The Tempest | Revision video | Curriculum classics | ⬜ planned |
 | CL-10B | The Tempest | Full retelling | Curriculum classics | 📝 scripted |
 | CL-05A | The Merchant of Venice | Revision video | Curriculum classics | ⬜ planned |
-| CL-05B | The Merchant of Venice | Full retelling | Curriculum classics | ⬜ planned |
+| CL-05B | The Merchant of Venice | Full retelling | Curriculum classics | 📝 scripted |
 | CL-03A | Hamlet | Revision video | Curriculum classics | ⬜ planned |
-| CL-03B | Hamlet | Full retelling | Curriculum classics | 📝 scripted |
+| CL-03B | Hamlet | Full retelling | Curriculum classics | ✅ rendered |
 | CL-19A | The Picture of Dorian Gray | Revision video | Curriculum classics | ⬜ planned |
 | CL-19B | The Picture of Dorian Gray | Full retelling | Curriculum classics | ⬜ planned |
 | CL-48A | A Doll's House | Revision video | Curriculum classics | ⬜ planned |
