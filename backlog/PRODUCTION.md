@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 15/138 rendered**  `██░░░░░░░░░░░░░░░░░░`  ·  3 scripted, awaiting render  ·  120 planned
+**Progress: 16/138 rendered**  `██░░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  120 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -34,7 +34,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-30A | The Canterbury Tales | Revision video | Curriculum classics | ⬜ planned |
 | CL-30B | The Canterbury Tales | Full retelling | Curriculum classics | ⬜ planned |
 | CL-29A | Beowulf | Revision video | Curriculum classics | ⬜ planned |
-| CL-29B | Beowulf | Full retelling | Curriculum classics | 📝 scripted |
+| CL-29B | Beowulf | Full retelling | Curriculum classics | ✅ rendered |
 | CL-02A | Romeo and Juliet | Revision video | Curriculum classics | ⬜ planned |
 | CL-02B | Romeo and Juliet | Full retelling | Curriculum classics | ✅ rendered |
 | CL-10A | The Tempest | Revision video | Curriculum classics | ⬜ planned |
