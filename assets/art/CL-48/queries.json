@@ -1,0 +1,43 @@
+{
+  "book_code": "CL-48",
+  "book": "A Doll's House",
+  "note": "Art queries for Ibsen's A Doll's House (1879 bourgeois Scandinavian home). Wikimedia Commons, PD/CC0 only. Carl Larsson's warm Swedish domestic interiors for Nora and the home, a somber portrait for Krogstad, Sargent's 'El Jaleo' for the frenzied tarantella, a Vermeer letter-reader for the fateful letter, and a spare, melancholy Hammershøi interior with a door for the ending. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-nora",
+      "count": 1,
+      "query": "Pierre-Auguste Renoir portrait of a woman painting",
+      "want": "A warm domestic woman — Nora (PD)"
+    },
+    {
+      "id": "plate-home",
+      "count": 1,
+      "query": "Pieter de Hooch Dutch interior room painting",
+      "want": "A cosy bourgeois home — the dollhouse (PD)"
+    },
+    {
+      "id": "plate-krogstad",
+      "count": 1,
+      "query": "Rembrandt portrait of a man painting",
+      "want": "A troubled, desperate man — Krogstad (PD)"
+    },
+    {
+      "id": "plate-tarantella",
+      "count": 1,
+      "query": "John Singer Sargent El Jaleo dancer painting",
+      "want": "A wild, dramatic dance — the tarantella (PD)"
+    },
+    {
+      "id": "plate-letter",
+      "count": 1,
+      "query": "Johannes Vermeer woman reading a letter painting",
+      "want": "The fateful letter (PD)"
+    },
+    {
+      "id": "plate-door",
+      "count": 1,
+      "query": "Vilhelm Hammershoi interior room painting",
+      "want": "A spare, melancholy interior with a door — the departure (PD)"
+    }
+  ]
+}
