@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 18/138 rendered**  `███░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  118 planned
+**Progress: 19/138 rendered**  `███░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  117 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -48,13 +48,13 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-48A | A Doll's House | Revision video | Curriculum classics | ⬜ planned |
 | CL-48B | A Doll's House | Full retelling | Curriculum classics | ⬜ planned |
 | CL-04A | Othello | Revision video | Curriculum classics | ⬜ planned |
-| CL-04B | Othello | Full retelling | Curriculum classics | 📝 scripted |
+| CL-04B | Othello | Full retelling | Curriculum classics | ✅ rendered |
 | CL-23A | Heart of Darkness | Revision video | Curriculum classics | ⬜ planned |
 | CL-23B | Heart of Darkness | Full retelling | Curriculum classics | ⬜ planned |
 | CL-15A | Pride and Prejudice | Revision video | Curriculum classics | ⬜ planned |
 | CL-15B | Pride and Prejudice | Full retelling | Curriculum classics | ⬜ planned |
 | CL-16A | A Christmas Carol | Revision video | Curriculum classics | ⬜ planned |
-| CL-16B | A Christmas Carol | Full retelling | Curriculum classics | ⬜ planned |
+| CL-16B | A Christmas Carol | Full retelling | Curriculum classics | 📝 scripted |
 | CL-24A | The Great Gatsby | Revision video | Curriculum classics | ⬜ planned |
 | CL-24B | The Great Gatsby | Full retelling | Curriculum classics | ⬜ planned |
 | CL-18A | Oliver Twist | Revision video | Curriculum classics | ⬜ planned |
