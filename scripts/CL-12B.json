@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "code": "CL-12B",
+    "book": "The Strange Case of Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "year": "1886",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Dr Jekyll and Mr Hyde: The Full Story Explained (Robert Louis Stevenson)",
+    "search_phrase": "Jekyll and Hyde full story explained"
+  },
+  "chapters": [
+    {
+      "title": "The man with two names",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Door and the Trampled Child",
+      "first_scene": "ch-door"
+    },
+    {
+      "title": "The Search for Mr Hyde",
+      "first_scene": "ch-search"
+    },
+    {
+      "title": "The Carew Murder",
+      "first_scene": "ch-murder"
+    },
+    {
+      "title": "The Last Night",
+      "first_scene": "ch-night"
+    },
+    {
+      "title": "Jekyll's Confession",
+      "first_scene": "ch-confession"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "A respected doctor invents a drug that splits off the worst part of himself into a second, separate man — so he can sin freely and stay innocent. It works. That is exactly the problem.",
+      "on_screen": {
+        "question": "The man with two names",
+        "plate": "plate-hyde"
+      },
+      "assets": [
+        "plate-hyde"
+      ],
+      "notes": "Hook before any title. ~34 words, ≤15s."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Strange Case of Dr Jekyll and Mr Hyde, by Robert Louis Stevenson, published in eighteen eighty-six.",
+      "on_screen": {
+        "title": "Jekyll and Mr Hyde",
+        "author": "Robert Louis Stevenson",
+        "year": "1886",
+        "subtitle": "The Strange Case"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. Stevenson wrote this short, feverish 'shilling shocker' in a matter of days, reportedly after a nightmare — and it was an instant sensation, so famous so fast that the phrase 'Jekyll and Hyde' entered the language within a year and is still with us. Second: it was written as a mystery, and nearly everyone today has the ending spoiled in advance — so try, as we go, to recover the original shock. For most of the book, the Victorian reader did not know that Jekyll and Hyde were the same man; they followed a baffled lawyer trying to work out what monstrous hold this brute Hyde had over a respectable doctor. We will follow that mystery, and then the confession that explains it. And third: hold on to the idea at its core — that every one of us is not one person but two, a decent public self and a hidden appetite underneath, and that the thing we lock away does not weaken for being caged. It grows stronger in the dark. It is worth knowing where the idea came from. Stevenson was a Scot, raised in respectable, strict, church-going Edinburgh — a city with an elegant New Town and a dark, crowded Old Town pressed right up against it, a built-in image of a double life. He was fascinated by a local legend, Deacon Brodie, a pillar of the community by day and a burglar by night, and had worried at the theme for years before the dream that gave him the book. And he wrote it a decade before Freud began publishing — yet it reads now like a parable of the unconscious: the respectable ego up in the daylight, and underneath it the id, the mass of raw appetite we keep out of sight and hope no one, including ourselves, will ever meet.",
+      "on_screen": {
+        "plate": "plate-fog",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-fog"
+      ],
+      "notes": "Context: written fast after a nightmare; the phrase entered the language; originally a mystery; the divided self."
+    },
+    {
+      "id": "ch-door",
+      "template": "chapter-card",
+      "narration": "It begins with a quiet lawyer, a strange door, and a small act of casual cruelty.",
+      "on_screen": {
+        "chapter_title": "The Door and the Trampled Child",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Door",
+            "The Search",
+            "The Murder",
+            "The Last Night",
+            "Confession"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "d-utterson",
+      "template": "parallax-still",
+      "narration": "Our guide through the mystery is Mr Utterson, a London lawyer — dry, reserved, undemonstrative, the last man you would expect in a horror story, and that is precisely why Stevenson chose him. He is decency and rationality personified, and watching this sensible man slowly forced toward an impossible conclusion is far more unnerving than any screaming narrator would be. One Sunday, out walking with his cousin Enfield, they pass a sinister, blank, windowless door set into the wall of an otherwise handsome street. And Enfield, prompted by the door, tells a disturbing little story about it. It is worth noticing how deliberately Stevenson keeps us at arm's length from the horror. We never get inside Jekyll's head until the very end; instead we watch through Utterson — cautious, loyal, a little dull, a man who distrusts imagination — and we are made to piece the mystery together as slowly and reluctantly as he does. The effect is that the supernatural, when it finally arrives, has to force its way past the most sensible witness imaginable, and so we believe it. A lurid narrator would have let us relax; this careful lawyer never lets us off the hook.",
+      "on_screen": {
+        "plate": "plate-door",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-door"
+      ],
+      "notes": "Introduces the lawyer Utterson (rational, reserved); the walk with Enfield; the sinister door."
+    },
+    {
+      "id": "d-trample",
+      "template": "parallax-still",
+      "narration": "Late one black winter night, Enfield says, he saw two figures approaching an empty street corner from different directions: a small man, walking fast, and a little girl of perhaps eight, running for a doctor. They collided at the corner — an ordinary accident. But what the man did next was not ordinary. He calmly, deliberately trampled straight over the child's body and left her screaming on the ground, and walked on as if nothing had happened. It was, Enfield says, not like a man at all — it was something hellish. He collared the brute and dragged him back; a furious crowd gathered; and to buy them off and avoid a scandal, the man coldly produced a cheque for a hundred pounds — signed, astonishingly, with the name of a highly respected and well-known gentleman. The small, repellent man had let himself in through that very door to fetch it. Stevenson chose the victim and the act with great care. Not a brawl, not a robbery — a small child, knocked down by accident, then deliberately trodden underfoot by a grown man who simply walks on through her screams. It is motiveless, gratuitous cruelty, violence for its own sake, and that is the signature of Hyde throughout: he does not hurt people to gain anything, he hurts them because hurting is what he is for. Enfield gropes for words and can only say it was like something not human, something Satanic. Already, in this first small scene, Stevenson has shown us the whole nature of the thing before we even know its name.",
+      "on_screen": {
+        "plate": "plate-trample",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-trample"
+      ],
+      "notes": "Enfield's story: Hyde tramples a child, pays off the crowd with a cheque signed by a respectable man; uses the door."
+    },
+    {
+      "id": "d-deform",
+      "template": "parallax-still",
+      "narration": "The name of the trampling man is Hyde. And everyone who meets him reports the same baffling thing — the detail that runs like a cold thread through the whole book. Hyde is somehow deformed, hateful, wrong, and yet no one can say how. He is not visibly disfigured; he has no scar, no limp, nothing you could point to. He simply radiates a feeling of deformity, a wrongness that makes decent people loathe him on sight without knowing why. Stevenson is doing something brilliant here: he never fully describes Hyde, because the horror is meant to be moral, not physical — an evil that the body can sense even when the eye cannot name it. This withholding is one of the great strokes of the book. By refusing to tell us what is wrong with Hyde's appearance, Stevenson makes every reader supply their own worst idea, and locates the horror where it belongs — not in a monstrous body but in a monstrous soul that the body can only hint at. Witness after witness circles the same impression: detestable, displeasing, deformed, and yet no feature they can name. What they are registering, though they cannot know it, is a human being made entirely of appetite and cruelty, with none of the ordinary good that softens the rest of us — and the animal in them recoils from it.",
+      "on_screen": {
+        "plate": "plate-hyde",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-hyde"
+      ],
+      "notes": "Hyde's indescribable 'deformity' — a moral wrongness sensed but not seen; Stevenson withholds description."
+    },
+    {
+      "id": "q-deform",
+      "template": "quote-card",
+      "narration": "Everyone who meets him says the same uncanny thing.",
+      "on_screen": {
+        "quote": "He gives a strong feeling of deformity, although I couldn't specify the point.",
+        "source": "Enfield, of Hyde"
+      },
+      "notes": "Verbatim, Gutenberg #43, line 255."
+    },
+    {
+      "id": "ch-search",
+      "template": "chapter-card",
+      "narration": "The lawyer recognises the name on the cheque — and cannot leave it alone.",
+      "on_screen": {
+        "chapter_title": "The Search for Mr Hyde",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Door",
+            "The Search",
+            "The Murder",
+            "The Last Night",
+            "Confession"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "s-will",
+      "template": "parallax-still",
+      "narration": "Utterson is troubled, because he already knows the name of Hyde — from a document locked in his own safe. He is the lawyer for his old friend Dr Henry Jekyll: a large, handsome, distinguished man of fifty, wealthy, respected, the very model of a Victorian gentleman. And Jekyll has made a strange and disturbing will. It instructs that in the event of his death — or, more oddly, his 'disappearance or unexplained absence' for more than three months — his entire fortune should pass to this same Edward Hyde. Utterson has always hated the will. Now, having heard what kind of creature Hyde is, he becomes convinced of the obvious respectable explanation: that Hyde is a blackmailer, that the good doctor did something shameful in his youth, and that this monster is bleeding him for it, and has wormed his way into the will by threat. The will is the hinge of the mystery, and notice how neatly Stevenson makes its true meaning hide in plain sight. To Utterson, a rational Victorian lawyer, a respectable man leaving everything to a sinister younger stranger can only mean one sordid thing: blackmail, some buried disgrace being paid off. He even coins a grim little joke to himself — if his friend is Dr Jekyll, this fellow is Mr Hyde, something hidden. He is closer to the truth than he knows, and completely wrong about its nature. The clause that unsettles him most — that the fortune passes to Hyde not only on Jekyll's death but on his 'disappearance' — is in fact the one honest line in the document, written by a man planning, quite literally, to disappear into someone else.",
+      "on_screen": {
+        "plate": "plate-will",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-will"
+      ],
+      "notes": "Utterson is Jekyll's lawyer; the sinister will leaving everything to Hyde; Utterson suspects blackmail."
+    },
+    {
+      "id": "s-meet",
+      "template": "parallax-still",
+      "narration": "Determined to get to the bottom of it, Utterson takes to haunting the street by the door at odd hours, waiting to catch a look at this Hyde. At last, one night, he does. He sees the small man hurry to the door with a key, and accosts him. The encounter is brief and deeply unsettling. Hyde is cold, snarling, and strangely composed; he gives Utterson his address almost mockingly; and when the lawyer finally sees his face, he feels the same wave of unreasoning disgust and hatred everyone else describes — a loathing he cannot explain or justify. Utterson goes away shaken, more certain than ever that his friend Jekyll is in the grip of something terrible. But when he tries to raise it with Jekyll, the doctor grows uneasy, goes pale, and firmly shuts the conversation down — begging Utterson only to promise that, whatever happens, he will see that Hyde's rights under the will are protected. It makes no sense, and it frightens the lawyer more than anything yet. The meeting is a masterclass in dread built from almost nothing. Nothing violent happens; Hyde simply gives his address and lets himself in. And yet Utterson comes away physically shaken, gripped by a hatred and fear he is ashamed of because he cannot justify it on any reasonable ground. He finds himself, for the first time in his sensible life, believing in something like the mark of Satan on a man's face. And Jekyll's response, when pressed, only deepens the fog: the easy, genial doctor turns white and rigid, refuses all explanation, and makes the one request that makes no sense to a blackmail theory — that Hyde be protected, cared for, his rights honoured, when Jekyll is gone. Utterson leaves convinced his friend is doomed, and unable to imagine why.",
+      "on_screen": {
+        "plate": "plate-street",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-street"
+      ],
+      "notes": "Utterson stakes out the door, meets Hyde (the wave of loathing); Jekyll evasive, insists Hyde's will-rights be honoured."
+    },
+    {
+      "id": "ch-murder",
+      "template": "chapter-card",
+      "narration": "Then Hyde does something that can no longer be hushed up with a cheque.",
+      "on_screen": {
+        "chapter_title": "The Carew Murder",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Door",
+            "The Search",
+            "The Murder",
+            "The Last Night",
+            "Confession"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "m-carew",
+      "template": "parallax-still",
+      "narration": "Nearly a year later, a maidservant, idling at her window in the moonlight, witnesses a murder. An aged, white-haired, beautiful old gentleman stops a small man in the street to ask the way, with perfect courtesy. And the small man — whom the maid recognises as Hyde — suddenly, for no reason at all, breaks into a mad fury, clubs the old man to the ground with his heavy cane, and then tramples and beats the body with an ape-like, insane savagery, splintering the bones, long after the victim is plainly dead. The old gentleman turns out to be Sir Danvers Carew, a Member of Parliament — and one of Utterson's own clients. The broken half of the murder weapon is a walking stick that Utterson himself once gave to Henry Jekyll. Stevenson stages this second crime as the mirror and escalation of the first. Again a small, courteous encounter in a lamplit street; again Hyde's sudden, volcanic, motiveless violence; but where the child was merely trampled, the old man is beaten to literal pulp, clubbed with such ape-like frenzy that the heavy cane snaps in two. And this time there is a witness, and the victim is a Member of Parliament, and the weapon traces straight back to Henry Jekyll. The thing that could be hushed with a cheque has become a capital crime splashed across every newspaper. Hyde has broken the careful container Jekyll built for him, and dragged the respectable doctor's name to the very edge of the gallows.",
+      "on_screen": {
+        "plate": "plate-murder",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-murder"
+      ],
+      "notes": "Hyde beats Sir Danvers Carew to death in a motiveless frenzy; the cane links back to Jekyll."
+    },
+    {
+      "id": "m-hunt",
+      "template": "parallax-still",
+      "narration": "Now the whole weight of the law comes down. There is a sensational manhunt for Hyde across a London suddenly made sinister — Stevenson's famous gaslit, fog-choked city, where the brown mist rolls through the streets like something out of a nightmare and every shadow seems to hide the killer. But Hyde has simply vanished off the face of the earth. Utterson, fearing for his friend, goes to Jekyll — and finds the doctor transformed, but with relief: Jekyll is pale and shaken but swears, with enormous feeling, that he is done with Hyde forever, that he will never set eyes on him again. And to prove it he produces a letter, supposedly from Hyde, saying the villain has fled abroad for good. For a while, it seems the nightmare is over. Jekyll becomes his old self again — warm, sociable, charitable, throwing dinner parties, at peace. The danger, everyone believes, has passed. This is where Stevenson's London becomes a character in its own right. The hunt for Hyde unfolds through a city drowned in fog — the famous rolling brown pall that turns the gaslit streets into something out of a bad dream, swallowing figures, muffling sound, making the whole metropolis feel like one vast house with a murderer somewhere inside it. The fog is not just scenery; it is the book's atmosphere made visible — concealment, the hidden thing, the respectable surface with something dreadful moving underneath. And through it, Hyde simply evaporates, because of course he can: the police are hunting a man who ceased to exist the moment Henry Jekyll drank a glass of bitter liquid and smoothed his own face back on.",
+      "on_screen": {
+        "plate": "plate-manhunt",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-manhunt"
+      ],
+      "notes": "The manhunt; foggy gaslit London; Hyde vanishes; Jekyll relieved, swears he's done with Hyde, produces a letter; recovers."
+    },
+    {
+      "id": "m-relapse",
+      "template": "parallax-still",
+      "narration": "And then, without warning, it all falls apart again. One day Jekyll abruptly refuses to see anyone. He shuts himself up in his laboratory — the old dissecting-rooms behind his house, with that sinister door onto the side street — and will not come out. His other great friend, the eminent Dr Lanyon, who had long ago quarrelled with Jekyll over his 'unscientific' research, suddenly falls ill — struck down, it seems, by some terrible shock — and within weeks Lanyon is dead, after telling Utterson, with a look of horror, that he can never speak of what passed between him and Jekyll, and giving the lawyer a sealed envelope not to be opened until Jekyll too is dead or vanished. Jekyll, behind his locked door, is sinking into some private hell that no one around him can understand. The rhythm of relapse here is quietly devastating, and it is the rhythm of every addiction. A terrible episode; a horrified resolution to stop forever; a period of genuine reform, warmth, good works, in which it really does seem the danger has passed; and then, without obvious cause, the sudden collapse back into the thing he swore off. Lanyon's fate is the eerie counterpoint — a decent, sceptical man of science, the embodiment of sensible materialism, who dismissed Jekyll's researches as unscientific balderdash, and who is now dying of pure shock at something he has seen and cannot bear to have seen. The sealed letter he leaves behind is a time bomb, set to go off only when Jekyll is beyond all help. Stevenson is careful never to let us see, in these middle chapters, what Jekyll is actually suffering behind that locked door — and the blankness is its own kind of horror. We get only the outside: the shut-up house, the desperate errands to the chemists, the master who was warm and sociable one month and will not show his face the next, the old friend dead of a fright he would not name. Utterson, loyal and baffled, circles it all like a man who can feel the shape of something monstrous in the dark but cannot make his rational mind close its hand around it. It is the slow, dread-filled middle movement of a nightmare — the part where you know something is terribly wrong long before you are allowed to know what.",
+      "on_screen": {
+        "plate": "plate-lab",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-lab"
+      ],
+      "notes": "Jekyll relapses, locks himself in the lab; Dr Lanyon dies of shock, leaving Utterson a sealed letter; mystery deepens."
+    },
+    {
+      "id": "ch-night",
+      "template": "chapter-card",
+      "narration": "The faithful butler comes to the lawyer in terror: something is in the doctor's room, and it is not the doctor.",
+      "on_screen": {
+        "chapter_title": "The Last Night",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Door",
+            "The Search",
+            "The Murder",
+            "The Last Night",
+            "Confession"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "n-poole",
+      "template": "parallax-still",
+      "narration": "One foggy night, Jekyll's old butler, Poole, arrives at Utterson's house white with fear, and begs him to come. For a week, Poole says, the thing locked in the laboratory has not been his master. It has been crying out in a strange voice; it sends the servants running all over London to chemists, desperate for some drug that is never quite right; and Poole has glimpsed it once — a thing that cried out like a rat and fled, a small creature wearing the doctor's clothes, that was not Dr Jekyll. Poole is now certain of the unthinkable: that his master has been murdered, and that the murderer is still shut in that room. Utterson goes with him through the wild night, and the two men take an axe to the laboratory door. This chapter is the book's set-piece of terror, and again Stevenson works through an ordinary, unimaginative witness — the loyal old servant Poole, who deals in facts, not fancies, and is therefore all the more frightening when he is frightened. He does not understand what is in the laboratory; he only knows, with a servant's certainty, that the voice is wrong, the movements are wrong, that whatever has been weeping and pacing and begging for chemicals behind that door for a week is not the master he has served for twenty years. The detail that chills hardest is the simplest: the thing cries out like a rat and scurries, wearing Dr Jekyll's clothes. Reason says murder. The truth, as always in this book, is stranger and worse.",
+      "on_screen": {
+        "plate": "plate-lab",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-lab"
+      ],
+      "notes": "Poole fetches Utterson in terror; the voice in the lab isn't Jekyll's; the desperate hunt for a drug; they break in."
+    },
+    {
+      "id": "n-body",
+      "template": "parallax-still",
+      "narration": "They break the door down — and find no murderer, and no Jekyll. On the floor, still twitching, lies the body of Edward Hyde, dressed in clothes far too large for him — Jekyll's clothes — with a crushed vial in his hand. He has taken his own life with poison as the door gave way. Of Henry Jekyll there is no sign, living or dead; he has simply vanished from a locked room that has only one occupant, and that occupant is Hyde. On the desk Utterson finds a new will — leaving everything now to Utterson himself, not Hyde — and a note, in Jekyll's hand, dated that very day, telling him to go home and read first the letter from the dead Lanyon, and then Jekyll's own full confession, which is enclosed. The mystery is about to be solved — in the voice of the man at the centre of it. The scene is built to deliver the maximum mystery before the explanation. The door gives way; the men expect to find a killer, or their murdered friend. Instead they find an impossible fact: Hyde alone, dead by his own poison, in clothes made for a far larger man — and Jekyll gone from a room with no other exit. For Utterson, the rational mind is now at the absolute end of its rope; there is no sane account of what he is looking at. And so Stevenson withholds the solution for one more beat, sending Utterson home with two sealed documents, and letting the reader feel, with the lawyer, that we are about to be told something that will overturn the ordinary laws of the world.",
+      "on_screen": {
+        "plate": "plate-end",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-end"
+      ],
+      "notes": "They find Hyde's suicided body in Jekyll's clothes; Jekyll vanished; the documents — Lanyon's letter and Jekyll's confession."
+    },
+    {
+      "id": "ch-confession",
+      "template": "chapter-card",
+      "narration": "And now, at last, in his own words, Henry Jekyll explains what he did.",
+      "on_screen": {
+        "chapter_title": "Jekyll's Confession",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Door",
+            "The Search",
+            "The Murder",
+            "The Last Night",
+            "Confession"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "c-duality",
+      "template": "parallax-still",
+      "narration": "Jekyll's statement reveals the secret the whole book has withheld: Jekyll and Hyde are one man. From his youth, Jekyll writes, he had led a double life. Outwardly he was all respectability — distinguished, charitable, grave. But he had strong appetites and a taste for pleasures he was ashamed of, and, terrified of damaging his good name, he had hidden them completely, growing more and more divided between his dignified public face and a secret, guilty, indulged private self. And brooding on this, as a scientist, he arrived at the great, dangerous idea of his life: that the human being is not truly one person at all, but two — a good self and a bad self, bound together, forever at war inside a single body. With the confession, the whole book turns inside out, and every earlier scene reorganises itself around a single fact we were never given. Jekyll's account of his youth is the moral root of it all: he was not a wicked man but a divided one, ambitious for respect and dignity, and so ashamed of his ordinary appetites that he hid them utterly, until the gap between his grave public self and his secret pleasures became a kind of chronic disease. He is, in other words, a hypocrite — not a monster but a man who could not bear to be seen wanting what he wanted. And out of that very ordinary shame grows his monstrous idea: that if the two halves of a person could be separated, each could go its own way in peace.",
+      "on_screen": {
+        "plate": "plate-jekyll",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-jekyll"
+      ],
+      "notes": "The reveal: Jekyll and Hyde are one; Jekyll's lifelong double life; the theory that man is two selves in one body."
+    },
+    {
+      "id": "q-two",
+      "template": "quote-card",
+      "narration": "The idea that drives the whole book.",
+      "on_screen": {
+        "quote": "Man is not truly one, but truly two.",
+        "source": "Jekyll's statement"
+      },
+      "notes": "Verbatim, Gutenberg #43, line 2026."
+    },
+    {
+      "id": "c-potion",
+      "template": "parallax-still",
+      "narration": "And Jekyll thought he could use that idea to solve his problem. If the two selves could be separated — each housed, for a time, in its own body — then the good Jekyll could be free of the gnawing shame of his desires, and the dark self could go and indulge them with no guilt attaching to the respectable man at all. So he laboured in secret and brewed a drug. And one night he drank it. He felt a grinding agony, a horror in his bones — and then a wave of freedom. He had become a new, separate person: younger, smaller, more wicked, with a body that was the pure expression of the evil in him. In the mirror he met, for the first time, the face of Edward Hyde — and he was not revolted. He felt, he says, a leap of welcome. This, too, was himself. Stevenson is careful to make the science vague and the morality precise. We never learn what is in the drug, because that was never the point; the potion is a device, a way of literalising a spiritual fact. What matters is the moment of transformation — the tearing agony, and then the rush of something Jekyll can only call a heady recklessness, a freedom, a sense of being unbound from conscience. And the detail that tells you everything is his reaction to Hyde's face in the glass. He has just looked, for the first time, on the pure distilled evil of his own nature — and he feels no horror at all, but a leap of welcome, because he recognises it as himself, and because it is, at last, entirely free. And there is a grim theological undertone Stevenson plays on throughout. What Jekyll has really attempted is a kind of blasphemy — to separate good from evil in a creature God or nature made inseparably mixed, to have the pleasures of sin with none of its weight. In the old morality, the soul is one and must answer for the whole of itself. Jekyll's whole project is a scheme to cheat that accounting, to set up a second self to take the blame — and the novel is, at bottom, the long demonstration that the accounting cannot be cheated. The bill always arrives, and it is always addressed to you.",
+      "on_screen": {
+        "plate": "plate-potion",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-potion"
+      ],
+      "notes": "Jekyll's theory into practice: the potion; the agony then freedom; becoming Hyde; welcoming the evil self in the mirror."
+    },
+    {
+      "id": "c-why-hyde",
+      "template": "parallax-still",
+      "narration": "Here Jekyll explains the thing readers always ask: why is Hyde so much smaller, younger, and more purely dreadful than the grand Dr Jekyll? Because, he says, in all his long life the good in him had been exercised and the evil kept caged — so that his evil self, when finally let out, was undersized and underdeveloped, a stunted thing, but also undiluted. Everyone else, Jekyll writes, is a mixture of good and bad commingled together. Hyde alone, of all humankind, was pure evil — nothing else mixed in. That is the wrongness people sense in him: they are looking, for the only time in their lives, at a human being with no good in him whatsoever. This is the book's deepest psychological stroke, and worth sitting with. Hyde is small and young and stunted because Jekyll had spent fifty years feeding his good side and starving his bad one — so the evil self, when finally embodied, was like a limb that had never been used, shrunken and juvenile. But it was also, for that same reason, pure — never diluted by the ordinary decencies that temper everyone else. We are all, Jekyll realises, mixtures; our worst impulses come bundled with affection and shame and restraint. Hyde is the one exception in the history of the species: a piece of a human being with the mixture removed, evil served neat. That, and not any scar, is the deformity the whole world flinched from.",
+      "on_screen": {
+        "plate": "plate-hyde",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-hyde"
+      ],
+      "notes": "Why Hyde is smaller/younger/pure evil — the long-caged evil self, undeveloped but undiluted."
+    },
+    {
+      "id": "q-evil",
+      "template": "quote-card",
+      "narration": "What makes Hyde unique, and unbearable.",
+      "on_screen": {
+        "quote": "Edward Hyde, alone in the ranks of mankind, was pure evil.",
+        "source": "Jekyll's statement"
+      },
+      "notes": "Verbatim, Gutenberg #43, lines 2133-2135."
+    },
+    {
+      "id": "c-freedom",
+      "template": "parallax-still",
+      "narration": "For a while it is everything Jekyll hoped. He can slip into the skin of Hyde, go out into the night, and do whatever his appetites crave — and the pleasures, through Hyde, quickly turn monstrous and cruel — and then drink the potion again, become the respectable doctor by morning, and feel none of the guilt, because, he tells himself, it was Hyde who did it, not Jekyll. He has what every hypocrite secretly longs for: sin without a conscience, vice with no bill to pay. He rents the rooms, opens the bank account, writes the will, builds Hyde a whole separate life. But Stevenson is writing a moral fable, and the trap is already closing. You cannot, it turns out, cut off a part of yourself and keep it a servant. The thing you feed in the dark grows. For a while Jekyll believes he has pulled off the perfect arrangement — the dream of every respectable sinner. As Hyde he can indulge appetites that quickly curdle from mere pleasure into real cruelty, and then, by morning, dissolve back into the grave and charitable Dr Jekyll, washing his hands of it all, telling himself that the guilt belongs to Hyde and not to him. It is vice with the bill sent to someone else. But Stevenson has built a moral universe with iron rules, and the central one is already tightening: the self is not so easily divided, and the part you indulge is the part that grows. Every night out as Hyde makes Hyde a little stronger, a little more real, a little more the true tenant of the body they share.",
+      "on_screen": {
+        "plate": "plate-street",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-street"
+      ],
+      "notes": "The double life works; Hyde's pleasures turn cruel; sin without guilt — but the trap closes: the dark self grows."
+    },
+    {
+      "id": "c-loss",
+      "template": "parallax-still",
+      "narration": "The balance begins to shift, and it is the most frightening part of the book. One morning Jekyll wakes in his own bed and realises, from the hairy hand on the coverlet, that he has turned into Hyde in his sleep, without the drug. The transformations start happening on their own, unbidden; it takes larger and larger doses to change back; and Hyde, grown strong on indulgence, begins to fight for permanent control of the body they share. After Hyde beats Sir Danvers Carew to death — a murder of such pointless savagery that it horrifies even Jekyll — the doctor swears off him entirely, and for a couple of months lives clean and does good. But the craving is too strong; one afternoon in the park, letting himself merely think with relish about his old freedom, he transforms into Hyde on the spot, in broad daylight, with no drug at all. The addict has lost the power to choose. This long decline is the truest and most modern thing in the book, because it is addiction described to the life, decades before the word was used that way. The high stops being a choice. Jekyll wakes as Hyde without the drug; the doses have to climb; the dark self starts seizing control at will, even in sleep, even in daylight; and the brief, horrified sobrieties get shorter and harder to hold. The park scene is the point of no return — Jekyll, merely savouring a wicked thought, feels his body buckle and change under him in the open air, with no potion at all. From here he is not a man who sometimes becomes Hyde; he is a man fighting, and losing, to remain himself for a few hours a day. Notice, too, how Stevenson tracks the way the indulged self starts to leak into the respectable one. Even as Jekyll, he begins to feel Hyde's malice stirring in him; the two are no longer cleanly separate compartments but a single contaminated vessel. This is the real terror the book leaves you with — not the melodrama of a man turning into a monster, but the quieter, truer idea that whatever you habitually do in secret is slowly becoming what you are, that there is in the end no sealed-off private self whose sins don't count. The mask does not protect the face. Worn long enough, it replaces it.",
+      "on_screen": {
+        "plate": "plate-transform",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-transform"
+      ],
+      "notes": "Involuntary transformations; larger doses needed; Hyde fighting for control; the Carew murder; the park relapse — loss of control."
+    },
+    {
+      "id": "c-lanyon",
+      "template": "parallax-still",
+      "narration": "Trapped as Hyde, a wanted murderer unable to show his face, Jekyll is desperate — and this is the horror that killed Dr Lanyon. From a hotel, as Hyde, he writes begging Lanyon to fetch a specific drawer of chemicals from his laboratory and wait with it. Then Hyde comes to Lanyon's house at midnight, mixes the potion in front of the sceptical old doctor, and — to prove the unprovable, or simply because he can no longer help it — drinks it and transforms, before Lanyon's eyes, from the wanted brute Hyde back into Lanyon's respectable old friend Henry Jekyll. It is a sight so impossible, so shattering to everything Lanyon believed about the world, that it quite literally destroys him; within weeks the shock has killed him. Lanyon's letter supplies the piece the reader has been missing, and it is deliberately the book's one on-stage transformation — saved for maximum impact. Picture it from Lanyon's side: he has fetched the chemicals as a strange favour to an old friend; at midnight a repulsive little stranger arrives, feverish, mixes a draught, taunts him with a choice to watch or not — and then drinks, and swells and changes, his features boiling, until the wanted murderer Hyde is gone and Henry Jekyll stands there in his place. For a rational man of medicine it is not a marvel but an abomination, a collapse of everything he knew to be possible, and it kills him as surely as a poison. He simply cannot go on living in a world where he has seen that.",
+      "on_screen": {
+        "plate": "plate-lanyon",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-lanyon"
+      ],
+      "notes": "Lanyon's letter revealed: Hyde transforms into Jekyll before Lanyon's eyes; the shock kills him."
+    },
+    {
+      "id": "c-end",
+      "template": "parallax-still",
+      "narration": "The end is a slow strangulation. Jekyll is now almost always Hyde; the drug barely holds; and worst of all, the original salt he used to make it turns out to have contained some unknown impurity, and the supply is running out — and no fresh batch will work, because the impurity can never be reproduced. So Jekyll knows that very soon he will change into Hyde for the last time, with no way back — and that Hyde will then either be dragged to the gallows for Carew's murder, or, in terror of the rope, destroy himself. Henry Jekyll writes his confession in his own hand, in the last hour he still has a hand that is his own, and lays down the pen for the final time. What Utterson and Poole found twitching on the laboratory floor was the end of the story: Hyde, cornered at last, swallowing the poison as the axe broke through — and taking the vanished Jekyll with him. The ending is engineered with a cruel neatness. The drug depended on one particular batch of salt that, it turns out, was impure — and it was the unknown impurity, not the recipe, that made it work. When the old stock runs out, no replacement, however pure, will do; the door back to Jekyll is closing and can never be reopened. So Jekyll spends his last strength writing — racing to finish his confession while the hand that holds the pen is still his own — knowing that within hours he will slip into Hyde for good, and that Hyde, hunted and cornered and terrified of the hangman, will almost certainly kill them both. Which is exactly what Utterson and Poole interrupt: not a murder, but a suicide, the last act of a man who had become a prison for the monster he made.",
+      "on_screen": {
+        "plate": "plate-end",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-end"
+      ],
+      "notes": "The impurity in the salt runs out; the final irreversible change looms; Jekyll writes the confession and ends; Hyde's suicide."
+    },
+    {
+      "id": "q-suffer",
+      "template": "quote-card",
+      "narration": "Jekyll's own verdict on himself, near the end.",
+      "on_screen": {
+        "quote": "If I am the chief of sinners, I am the chief of sufferers also.",
+        "source": "Jekyll's statement"
+      },
+      "notes": "Verbatim, Gutenberg #43, line 1112."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why does this little shocker still grip us, when the twist is so famous it can't even surprise? Because what it describes is so true. Stevenson caught something permanent about being human: that we are divided — a presentable self and a hidden one — and that hiding the dark half does not kill it. It reads, uncannily, as the clearest story ever told about addiction: the first liberating taste, the double life, the escalating need, the loss of control, the thing that was a servant becoming the master, the respectable life quietly eaten from within. It is also a merciless x-ray of Victorian hypocrisy — a whole society built, like Jekyll, on a flawless surface with an unspeakable private life beneath it. But it is bigger than any one age. Jekyll's real sin was not that he had a dark side; everyone does. It was that he refused to own it — tried to enjoy it while keeping his hands clean, to split off the part of himself he was ashamed of rather than master it. And the lesson the book leaves, as cold and clear as its London fog, is that the self you disown is still you, and it will have its due. Stevenson gives the book one last, humane turn, too, in that line about being the chief of sufferers as well as the chief of sinners. For all the horror, Jekyll is not finally a villain to be hissed at but a tragic figure to be pitied — a man destroyed by a very ordinary failing, the refusal to look honestly at his own worst self, taken to an extraordinary extreme. He wanted, like most of us, to be thought wholly good while being secretly otherwise, and he paid for it with everything. That is why the story has never dated, and never will. Each of us carries a Hyde; the only real question the book asks is whether we will know him, and own him, or spend our lives pretending he is someone else.",
+      "on_screen": {
+        "plate": "plate-mirror",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-mirror"
+      ],
+      "notes": "Close: why it endures — the divided self; the addiction parable; Victorian hypocrisy; the disowned self returns."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of The Strange Case of Dr Jekyll and Mr Hyde — the good man who tried to cut away his own evil and found he had only set it free. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It's a short, sharp read, and knowing the secret changes it — this time you watch the respectable Dr Jekyll, and you know. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B); no 10-min companion."
+    }
+  ]
+}

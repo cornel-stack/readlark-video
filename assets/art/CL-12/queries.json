@@ -1,0 +1,97 @@
+{
+  "book_code": "CL-12",
+  "book": "The Strange Case of Dr Jekyll and Mr Hyde",
+  "note": "Art queries for Stevenson's Jekyll and Hyde. Wikimedia Commons, PD/CC0 only. The look is gaslit Victorian London and Gothic dread: John Atkinson Grimshaw's foggy streets, Gustave Doré's London engravings, Whistler's Thames nocturnes, Joseph Wright of Derby's candlelit laboratory, Fuseli's nightmare, and apt PD portraits. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-fog",
+      "count": 1,
+      "query": "James McNeill Whistler Nocturne painting",
+      "want": "Whistler, foggy Thames nocturne (PD)"
+    },
+    {
+      "id": "plate-door",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight painting",
+      "want": "Grimshaw, a moonlit street/door (PD)"
+    },
+    {
+      "id": "plate-street",
+      "count": 1,
+      "query": "Gustave Dore London street engraving",
+      "want": "Doré, a crowded dark London street (PD)"
+    },
+    {
+      "id": "plate-trample",
+      "count": 1,
+      "query": "Gustave Dore London slum engraving",
+      "want": "Doré, a dark London slum — the trampling (PD)"
+    },
+    {
+      "id": "plate-hyde",
+      "count": 1,
+      "query": "Francisco Goya Saturn Devouring His Son painting",
+      "want": "Goya, monstrous appetite — Hyde's pure evil (PD)"
+    },
+    {
+      "id": "plate-jekyll",
+      "count": 1,
+      "query": "Thomas Eakins The Gross Clinic painting",
+      "want": "Eakins, a distinguished surgeon — Jekyll (PD)"
+    },
+    {
+      "id": "plate-will",
+      "count": 1,
+      "query": "Honore Daumier lawyers painting",
+      "want": "Daumier, lawyers / legal documents — the will (PD)"
+    },
+    {
+      "id": "plate-murder",
+      "count": 1,
+      "query": "Gustave Dore Dante Inferno engraving",
+      "want": "Doré, dark violence — the Carew murder (PD)"
+    },
+    {
+      "id": "plate-manhunt",
+      "count": 1,
+      "query": "Gustave Dore Over London by Rail engraving",
+      "want": "Doré, the vast dark city — the manhunt (PD)"
+    },
+    {
+      "id": "plate-lab",
+      "count": 1,
+      "query": "Joseph Wright of Derby The Alchemist painting",
+      "want": "Wright, a candlelit laboratory — the cabinet (PD)"
+    },
+    {
+      "id": "plate-potion",
+      "count": 1,
+      "query": "Joseph Wright of Derby experiment candlelight painting",
+      "want": "Wright, chemistry by candlelight — the potion (PD)"
+    },
+    {
+      "id": "plate-transform",
+      "count": 1,
+      "query": "Henry Fuseli The Nightmare painting",
+      "want": "Fuseli, horror and transformation (PD)"
+    },
+    {
+      "id": "plate-lanyon",
+      "count": 1,
+      "query": "Rembrandt portrait of an old man painting",
+      "want": "Rembrandt, a grave aged face — Lanyon (PD)"
+    },
+    {
+      "id": "plate-mirror",
+      "count": 1,
+      "query": "Caravaggio Narcissus reflection painting",
+      "want": "Caravaggio, a figure gazing at his own reflection — the divided self (PD)"
+    },
+    {
+      "id": "plate-end",
+      "count": 1,
+      "query": "Henry Wallis Chatterton death painting",
+      "want": "A body on the floor — Hyde's suicide (PD)"
+    }
+  ]
+}
