@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 14/138 rendered**  `██░░░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  122 planned
+**Progress: 15/138 rendered**  `██░░░░░░░░░░░░░░░░░░`  ·  3 scripted, awaiting render  ·  120 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -36,13 +36,13 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-29A | Beowulf | Revision video | Curriculum classics | ⬜ planned |
 | CL-29B | Beowulf | Full retelling | Curriculum classics | 📝 scripted |
 | CL-02A | Romeo and Juliet | Revision video | Curriculum classics | ⬜ planned |
-| CL-02B | Romeo and Juliet | Full retelling | Curriculum classics | 📝 scripted |
+| CL-02B | Romeo and Juliet | Full retelling | Curriculum classics | ✅ rendered |
 | CL-10A | The Tempest | Revision video | Curriculum classics | ⬜ planned |
-| CL-10B | The Tempest | Full retelling | Curriculum classics | ⬜ planned |
+| CL-10B | The Tempest | Full retelling | Curriculum classics | 📝 scripted |
 | CL-05A | The Merchant of Venice | Revision video | Curriculum classics | ⬜ planned |
 | CL-05B | The Merchant of Venice | Full retelling | Curriculum classics | ⬜ planned |
 | CL-03A | Hamlet | Revision video | Curriculum classics | ⬜ planned |
-| CL-03B | Hamlet | Full retelling | Curriculum classics | ⬜ planned |
+| CL-03B | Hamlet | Full retelling | Curriculum classics | 📝 scripted |
 | CL-19A | The Picture of Dorian Gray | Revision video | Curriculum classics | ⬜ planned |
 | CL-19B | The Picture of Dorian Gray | Full retelling | Curriculum classics | ⬜ planned |
 | CL-48A | A Doll's House | Revision video | Curriculum classics | ⬜ planned |
