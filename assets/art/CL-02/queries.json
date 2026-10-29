@@ -1,0 +1,85 @@
+{
+  "book_code": "CL-02",
+  "book": "Romeo and Juliet",
+  "note": "Art queries for Shakespeare's Romeo and Juliet. Wikimedia Commons, PD/CC0 only. Richly depicted by Romantic and Victorian painters: Frank Dicksee's balcony, Ford Madox Brown's dawn parting, Francesco Hayez's Last Kiss, Delacroix's tomb, plus a Veronese feast, a Canaletto Italian city, and a Goya/Rosa brawl. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-verona",
+      "count": 1,
+      "query": "Canaletto Italian city view painting",
+      "want": "A sunlit Italian city — Verona (PD)"
+    },
+    {
+      "id": "plate-brawl",
+      "count": 1,
+      "query": "Salvator Rosa battle painting",
+      "want": "Rosa, a chaotic brawl — the feud (PD)"
+    },
+    {
+      "id": "plate-ball",
+      "count": 1,
+      "query": "Paolo Veronese feast banquet painting",
+      "want": "Veronese, a grand Renaissance feast — the Capulet ball (PD)"
+    },
+    {
+      "id": "plate-meet",
+      "count": 1,
+      "query": "Frank Dicksee Romeo and Juliet painting",
+      "want": "Dicksee, the lovers meet (PD)"
+    },
+    {
+      "id": "plate-balcony",
+      "count": 1,
+      "query": "Frank Dicksee Romeo and Juliet balcony painting",
+      "want": "Dicksee, the balcony scene (PD)"
+    },
+    {
+      "id": "plate-friar",
+      "count": 1,
+      "query": "El Greco Saint Francis in meditation painting",
+      "want": "El Greco, a monk — Friar Laurence (PD)"
+    },
+    {
+      "id": "plate-duel",
+      "count": 1,
+      "query": "Jean-Leon Gerome duel after the masquerade painting",
+      "want": "A sword duel — Mercutio/Tybalt (PD)"
+    },
+    {
+      "id": "plate-banish",
+      "count": 1,
+      "query": "Caspar David Friedrich Wanderer above the Sea of Fog painting",
+      "want": "A solitary exile — Romeo banished (PD)"
+    },
+    {
+      "id": "plate-parting",
+      "count": 1,
+      "query": "Frederic Leighton Wedded painting",
+      "want": "Leighton, a tender embracing couple — the dawn parting (PD)"
+    },
+    {
+      "id": "plate-potion",
+      "count": 1,
+      "query": "John William Waterhouse Circe Offering the Cup painting",
+      "want": "Waterhouse, a woman offering a cup — the potion (PD)"
+    },
+    {
+      "id": "plate-tomb",
+      "count": 1,
+      "query": "Eugene Delacroix Romeo Juliet tomb painting",
+      "want": "Delacroix, the tomb (PD)"
+    },
+    {
+      "id": "plate-death",
+      "count": 1,
+      "query": "Francesco Hayez The Last Kiss of Romeo and Juliet painting",
+      "want": "Hayez, the lovers' last embrace (PD)"
+    },
+    {
+      "id": "plate-reconcile",
+      "count": 1,
+      "query": "Frederic Leighton reconciliation Montagues Capulets painting",
+      "want": "Leighton, the families reconciled over the dead (PD)"
+    }
+  ]
+}

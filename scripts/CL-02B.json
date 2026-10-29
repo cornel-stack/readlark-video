@@ -1,0 +1,450 @@
+{
+  "meta": {
+    "code": "CL-02B",
+    "book": "Romeo and Juliet",
+    "author": "William Shakespeare",
+    "year": "c. 1595",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Romeo and Juliet: The Full Story Explained (Shakespeare)",
+    "search_phrase": "Romeo and Juliet full story explained"
+  },
+  "chapters": [
+    {
+      "title": "Two households, both alike in dignity",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Feud and the Ball",
+      "first_scene": "ch-feud"
+    },
+    {
+      "title": "The Balcony",
+      "first_scene": "ch-balcony"
+    },
+    {
+      "title": "Blood and Banishment",
+      "first_scene": "ch-blood"
+    },
+    {
+      "title": "The Potion",
+      "first_scene": "ch-potion"
+    },
+    {
+      "title": "The Tomb",
+      "first_scene": "ch-tomb"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In Romeo and Juliet, two teenagers from feuding families fall in love, marry in secret, and die — all within about four days. The tragedy isn't bad luck. It's the hatred around them.",
+      "on_screen": {
+        "question": "Two households, both alike in dignity",
+        "plate": "plate-verona"
+      },
+      "assets": [
+        "plate-verona"
+      ],
+      "notes": "Hook before any title. ~31 words, ≤12s. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Romeo and Juliet, by William Shakespeare, written around fifteen ninety-five.",
+      "on_screen": {
+        "title": "Romeo and Juliet",
+        "author": "William Shakespeare",
+        "year": "c. 1595",
+        "subtitle": "A Tragedy"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. This is the most famous love story in the world — so famous that its balcony, its poison, its doomed teenagers have become shorthand for romance itself — and yet it is, strictly, a tragedy, and a very fast and brutal one. Second: Shakespeare gives away the ending before it starts. A prologue tells the audience, in the very first lines, that these two 'star-crossed lovers' will take their lives; so the whole play is watched under a kind of countdown, every happy moment shadowed by the doom we have been promised. And third: hold on to one idea that the sentimental reputation tends to hide — this is not really a play about love conquering all. It is a play about hate. The love is real and beautiful, but it is crushed, with terrible speed, by an old pointless feud between two families and a world of adults too proud and too hot-blooded to stop it. The lovers die of their parents' quarrel. A little more background sharpens it. Shakespeare did not invent the plot; he took a well-known tale and a long English poem and compressed its events — which unfold over months in the source — into about four frantic days, so that the lovers' relationship moves at the speed of a fever. That compression is deliberate and crucial: the breathless haste, the no-time-to-think, is part of what kills them. And the famous prologue, delivered by a Chorus, is extraordinary for a love story — it tells you the ending in fourteen lines, that the lovers are doomed and will die, before a single scene has played. Shakespeare is not interested in the suspense of what happens; he wants you watching how, and why, and feeling the whole glittering romance darken under the shadow of a death you already know is coming.",
+      "on_screen": {
+        "plate": "plate-verona",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-verona"
+      ],
+      "notes": "Context: the famous love story is a fast tragedy; the prologue spoils the end; the real subject is the feud/hate."
+    },
+    {
+      "id": "ch-feud",
+      "template": "chapter-card",
+      "narration": "An ancient grudge, a street brawl, and a party where the wrong two people meet.",
+      "on_screen": {
+        "chapter_title": "The Feud and the Ball",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Feud",
+            "The Balcony",
+            "Banishment",
+            "The Potion",
+            "The Tomb"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "f-brawl",
+      "template": "parallax-still",
+      "narration": "The setting is Verona, a hot Italian city split by a long, bitter feud between two great families — the Montagues and the Capulets. The hatred is so old that nobody even remembers what started it; it simply goes on, passed down like an inheritance, poisoning the whole city. The play opens with servants of the two houses insulting each other in the street, and within moments a full brawl has broken out, swords drawn, citizens dragged in. The Prince of Verona himself has to come and stop it, and he is furious: this is the third such riot, he says, and he declares, on pain of death, that the next person to disturb the peace with this feud will be executed. Remember that sentence. It will matter enormously later. The whole tragedy happens in a city one brawl away from the gallows. Shakespeare opens not with the lovers but with the hate, and that choice is the key to the whole play. Before we ever meet Romeo or Juliet, we see what they are up against: a feud so ingrained that even the servants brawl in the street, a hatred with no cause anyone can name, dragging in the whole city. The Prince's furious decree — death to anyone who breaks the peace again — hangs over everything that follows like a loaded gun; it is why Romeo's later killing of Tybalt cannot simply be forgiven, why banishment is the mildest possible mercy. Shakespeare builds the trap first, carefully, and only then drops his two young people into the middle of it.",
+      "on_screen": {
+        "plate": "plate-brawl",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-brawl"
+      ],
+      "notes": "Verona; the ancient Montague/Capulet feud; the street brawl; the Prince's death-penalty decree against further violence."
+    },
+    {
+      "id": "f-romeo",
+      "template": "parallax-still",
+      "narration": "We meet Romeo, the teenage son of the Montagues — and, to our surprise, he is already lovesick, but not for Juliet. He is mooning hopelessly over a girl named Rosaline, who has sworn off men and does not love him back; he mopes and sighs and talks in overwrought clichés about his broken heart. This matters, because Shakespeare is quietly telling us something about Romeo: he is young, impulsive, and in love with being in love, prone to huge, instant, total passions. His friends, the witty Mercutio and his cousin Benvolio, tease him and drag him, to cheer him up, to crash a masked party that very night at the house of Capulet — the enemy. Romeo goes, still sighing over Rosaline, with absolutely no idea that he is walking toward the person who will replace her in a single glance. Shakespeare is doing something sly and important with the Rosaline business, and it is easy to miss. By showing us Romeo in the throes of a passionate, poetic, utterly sincere love for a girl he will forget within hours, he gently undercuts the very romance he is about to make immortal. Is Romeo's love for Juliet 'true love', or just the next, bigger wave of the same adolescent intensity that had him sighing over Rosaline yesterday? The play never quite answers. It lets the love be genuinely transcendent and genuinely reckless at once — and that doubleness, romance and warning held together, is the whole secret of why the play survives every age's attempt to pin it down. Mercutio deserves a word of his own, because he is one of Shakespeare's most electric creations and his presence shapes the whole first half. Quick, bawdy, cynical, brilliant, forever puncturing Romeo's lovesick sighing with filthy jokes and dazzling flights of fancy like his famous speech about Queen Mab, Mercutio is the voice of worldly wit against which the lovers' sincerity is measured. He does not believe in the kind of swooning love Romeo keeps falling into, and his energy is the comic motor of the early acts — which is exactly why his sudden, pointless death is the shock that capsizes the play from comedy into tragedy.",
+      "on_screen": {
+        "plate": "plate-ball",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-ball"
+      ],
+      "notes": "Romeo lovesick for Rosaline (establishing his impulsive nature); Mercutio & Benvolio; they crash the Capulet ball."
+    },
+    {
+      "id": "f-meet",
+      "template": "parallax-still",
+      "narration": "Also at that party is Juliet, the daughter of the Capulets — just thirteen, on the very edge of womanhood, whose parents are already arranging to marry her off to a wealthy young nobleman named Paris. And across the crowded, candlelit hall, Romeo sees her, and forgets Rosaline instantly and completely. The two of them meet, and their first conversation together is so charged that Shakespeare shapes it, secretly, into a perfect little shared sonnet — the two strangers finishing each other's rhymes, building a single love poem between them, ending in a first kiss. It is one of the most beautiful meetings in all of drama. And then the sweetness curdles: each discovers, separately, who the other is. Romeo learns Juliet is a Capulet; Juliet learns her new love is a Montague — the one family she is forbidden, above all others, to love. It is worth lingering on Juliet's age and situation, because modern audiences often forget it. She is thirteen; her mother was a mother by that age; and her parents are already negotiating her marriage to Paris as a social and financial match, with Juliet's own feelings barely consulted. Into that airless, arranged, grown-up-managed future, Romeo arrives like a window flung open. The shared sonnet they speak at their first meeting — a complete, perfect little poem built by two people finishing each other's lines — is Shakespeare showing us, in pure form, two souls clicking instantly into place. And the gut-punch that follows, each learning the other's forbidden name, converts that joy into dread in a single stroke, the romance and the doom fused from the very first moment.",
+      "on_screen": {
+        "plate": "plate-meet",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-meet"
+      ],
+      "notes": "Juliet (13, promised to Paris); Romeo forgets Rosaline; the shared-sonnet meeting and first kiss; they learn they are enemies."
+    },
+    {
+      "id": "ch-balcony",
+      "template": "chapter-card",
+      "narration": "That same night, unable to leave, Romeo climbs the wall into the enemy's garden.",
+      "on_screen": {
+        "chapter_title": "The Balcony",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Feud",
+            "The Balcony",
+            "Banishment",
+            "The Potion",
+            "The Tomb"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "b-balcony",
+      "template": "parallax-still",
+      "narration": "Romeo cannot bring himself to go home. He slips away from his friends and climbs the wall into the Capulets' orchard, under Juliet's window — and overhears her, alone on her balcony, speaking her heart aloud to the night, not knowing he is below. She wishes, achingly, that he were not a Montague — that a name, a mere word, did not stand between them. Why, she asks the darkness, must he be Romeo? What is a name, after all? A rose would smell as sweet by any other word. It is the most famous scene in the play, and the heart of its idea: that the labels the world fights over — Montague, Capulet, enemy — are empty words, and that the two young people can see straight through them to the person underneath, even as those same words are quietly preparing to destroy them. Everyone thinks they know the balcony scene, but its real substance is an argument about names. Juliet's whole soliloquy is a kind of philosophy: that a name — Montague, Capulet — is not the person, that the word is an empty label stuck onto a human being, and that if Romeo would just shed the arbitrary syllable that makes him her enemy, nothing real would change. It is a genuinely radical thought in a play obsessed with family names and inherited identity: the young lovers can see straight through the labels that the whole adult world is killing each other over. The tragedy is that the labels turn out to have terrible power anyway — that you cannot, in Verona, simply opt out of your own name, however empty it is. It is worth noticing, too, how Shakespeare floods the lovers' language with light and dark, and with speed. Romeo calls Juliet the sun, the brightness that kills the envious moon; their love is lightning, a spark, a flash in the dark — beautiful and instantaneous and gone in a moment. The imagery itself tells us this cannot last: nothing that burns that bright burns long. Against the slow, grinding permanence of the feud, the lovers are something sudden and incandescent, and the play aligns them with everything brief and brilliant — night, stars, flashes, flowers — precisely because they are not built to survive the daylight world of names and swords.",
+      "on_screen": {
+        "plate": "plate-balcony",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-balcony"
+      ],
+      "notes": "The balcony/orchard scene; Juliet's soliloquy on names; 'wherefore art thou Romeo'; the theme of names/labels vs the person."
+    },
+    {
+      "id": "q-wherefore",
+      "template": "quote-card",
+      "narration": "Juliet, alone, wishing away the one thing that divides them — his name.",
+      "on_screen": {
+        "quote": "O Romeo, Romeo, wherefore art thou Romeo?",
+        "source": "Juliet, Act 2 ('wherefore' = why)"
+      },
+      "notes": "Verbatim, Gutenberg #1513, line 1571. Note the gloss: 'wherefore' means 'why', not 'where'."
+    },
+    {
+      "id": "b-vow",
+      "template": "parallax-still",
+      "narration": "Romeo cannot keep silent; he answers from the shadows, and the two of them, giddy and frightened and overjoyed, pour out their love to each other in the dark. Juliet is, strikingly, the more practical and clear-headed of the two: where Romeo wants to swear grand oaths by the moon, it is Juliet who worries that this is all too rash, too sudden, too much like lightning — and yet it is also Juliet who, within minutes, proposes marriage. If his love is honourable, she tells him, let him arrange a wedding, and she will give herself to him entirely. They part at dawn with a plan, reluctant to leave, trading the lines that have defined young love for four centuries. And notice the speed. They met hours ago. They are already engaged. Shakespeare is careful to make Juliet, the thirteen-year-old, the wiser and steadier of the two. It is she who notices how dangerously fast this is going, she who calls their contract 'too rash, too unadvised, too sudden', even as her heart runs ahead of her caution. Romeo is all swooning oaths; Juliet is the one who turns the feeling into a concrete plan — marriage, tomorrow, with arrangements. That balance matters, because it means Juliet is never a passive object of romance; she is the practical engine of the relationship, clear-eyed even in rapture. And it deepens the tragedy, because the one person in the play with the instinct to slow down is also the one most swept away.",
+      "on_screen": {
+        "plate": "plate-balcony",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-balcony"
+      ],
+      "notes": "The lovers vow; Juliet the more practical, yet she proposes marriage; the breathless speed of it all."
+    },
+    {
+      "id": "q-window",
+      "template": "quote-card",
+      "narration": "Romeo, looking up and seeing her at the window.",
+      "on_screen": {
+        "quote": "But soft, what light through yonder window breaks? It is the east, and Juliet is the sun.",
+        "source": "Romeo, Act 2"
+      },
+      "notes": "Verbatim, Gutenberg #1513, line 1532 (two lines joined)."
+    },
+    {
+      "id": "b-friar",
+      "template": "parallax-still",
+      "narration": "The next morning Romeo goes to his friend and confessor, Friar Laurence, a kindly monk and herbalist, and begs him to perform the marriage that very day. The Friar is startled — only yesterday Romeo was weeping over Rosaline — and he gently mocks how fast young men's hearts change. But he agrees to marry them, and for a deeper reason: he hopes that a secret union between a Montague and a Capulet might, in time, force the two families to reconcile, and turn their old hatred to love. It is a good, wise hope. It is also the first link in the chain that kills them. With the help of Juliet's bawdy, doting old Nurse carrying messages back and forth, the lovers meet that afternoon at the Friar's cell and are secretly married. For a few hours, everything is radiant. It is the last happiness in the play. Friar Laurence is one of the play's most important and most quietly culpable figures. He is kind, wise, and genuinely fond of Romeo, and his motive for the secret marriage is good — he dreams of healing Verona's feud through the lovers' union. But he is also the first of several well-meaning adults whose clever interventions make everything worse. He marries two children in secret, in haste, against every prudent instinct he himself voices — his own warning, that violent delights have violent ends, could be aimed at his own decision. Shakespeare keeps showing us grown-ups who ought to be the safe harbour for these young people, and who instead, through pride or haste or cleverness, hand them from one danger to the next. There is a pattern worth tracking across the whole play: time, and the lack of it. Everyone is in a hurry. Romeo rushes from Rosaline to Juliet to the altar; Capulet, mid-play, suddenly moves the Paris wedding earlier, from Thursday to Wednesday, tightening the noose; the Friar's plan depends on split-second timing. Shakespeare keeps accelerating events so that no one ever has the hour or two of calm reflection that would save them. The tragedy is engineered out of haste — the feud supplies the danger, but it is speed that springs every trap, and the Friar's grave warning about things that are 'too swift' goes unheeded by every single character, himself included.",
+      "on_screen": {
+        "plate": "plate-friar",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-friar"
+      ],
+      "notes": "Friar Laurence agrees to marry them hoping to end the feud; the Nurse as go-between; the secret wedding."
+    },
+    {
+      "id": "q-violent",
+      "template": "quote-card",
+      "narration": "Friar Laurence's warning, which the whole play proves true.",
+      "on_screen": {
+        "quote": "These violent delights have violent ends.",
+        "source": "Friar Laurence, Act 2"
+      },
+      "notes": "Verbatim, Gutenberg #1513, line 2515."
+    },
+    {
+      "id": "ch-blood",
+      "template": "chapter-card",
+      "narration": "And then, that same hot afternoon, the feud comes back with a sword.",
+      "on_screen": {
+        "chapter_title": "Blood and Banishment",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Feud",
+            "The Balcony",
+            "Banishment",
+            "The Potion",
+            "The Tomb"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "d-mercutio",
+      "template": "parallax-still",
+      "narration": "Out in the sweltering streets, Juliet's hot-tempered cousin Tybalt — who spotted Romeo at the ball and is burning to avenge the insult — comes looking for a fight. He finds Romeo, newly and secretly married to Tybalt's cousin, and tries to provoke him. But Romeo, now secretly Tybalt's kinsman by marriage and glowing with love, refuses to fight; he answers the insults with strange, gentle affection that no one else understands. And that refusal is a catastrophe. Romeo's friend Mercutio, disgusted by what looks like cowardice, draws his own sword and fights Tybalt in Romeo's place. Romeo lunges between them to stop it — and under his arm, Tybalt stabs Mercutio, and runs. The wound is mortal. And Mercutio dies cursing the pointless feud that has killed him, flinging his famous curse at both the great houses. Mercutio's death is the hinge of the whole play — the exact point where comedy tips into tragedy and can never tip back. Up to here, the story has the shape and energy of a romantic comedy: witty friends, a masked ball, a secret wedding, bawdy jokes. Mercutio, brilliant and dazzling and alive, is the spirit of that comedy. And when he dies — killed under Romeo's arm, in Romeo's place, cursing both houses for a quarrel that was never his — the laughter dies with him, and the back half of the play darkens into unbroken tragedy. His death also springs the trap perfectly: Romeo's loving refusal to fight, born of his secret marriage, is precisely what gets his best friend killed. Even Romeo's goodness turns lethal in this poisoned city.",
+      "on_screen": {
+        "plate": "plate-duel",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-duel"
+      ],
+      "notes": "Tybalt provokes Romeo; Romeo refuses (secretly kin); Mercutio fights in his place and is killed under Romeo's arm."
+    },
+    {
+      "id": "q-plague",
+      "template": "quote-card",
+      "narration": "Mercutio, dying, cursing the feud that killed him for nothing.",
+      "on_screen": {
+        "quote": "A plague o' both your houses!",
+        "source": "Mercutio, Act 3"
+      },
+      "notes": "Verbatim, Gutenberg #1513, line 2723."
+    },
+    {
+      "id": "d-tybalt",
+      "template": "parallax-still",
+      "narration": "Mercutio's death breaks something in Romeo. All his gentleness burns away in an instant, replaced by grief and fury; when Tybalt returns, Romeo attacks him in a blind rage and kills him. And the moment the blade goes in, Romeo understands what he has done — he cries out that he is 'fortune's fool', the plaything of fate — because he has just murdered his new wife's cousin, and triggered the Prince's death sentence, on his own wedding day. The Prince arrives to the bodies, and — showing mercy, because Tybalt did kill Mercutio first — does not execute Romeo, but banishes him from Verona forever, on pain of death if he returns. To Romeo, this is almost worse than dying: to be torn from Juliet, the day they married, and never allowed back. Romeo's cry that he is 'fortune's fool' is one of the play's key notes — the sense, growing now, that the lovers are caught in a machine larger than themselves, batted about by chance and fate. But Shakespeare is careful to make it his choice, too: no one forces Romeo to hunt down Tybalt; his own ungoverned grief and rage do that, the same headlong intensity that made him fall in love in a glance. The play keeps this balance to the end — are the lovers destroyed by fate, by the feud, or by their own impulsiveness? The honest answer is all three at once, which is why no single villain can be blamed, and why the tragedy feels less like a plot and more like a trap with many triggers.",
+      "on_screen": {
+        "plate": "plate-duel",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-duel"
+      ],
+      "notes": "Romeo kills Tybalt in revenge; 'fortune's fool'; the Prince banishes Romeo rather than executing him."
+    },
+    {
+      "id": "d-parting",
+      "template": "parallax-still",
+      "narration": "So the marriage is consummated and broken in a single night. Romeo secretly climbs to Juliet's room, and the two of them have one brief wedding night together — and must part at the first light of dawn, in the play's second great balcony scene, arguing tenderly about whether the bird they hear is the nightingale or the lark, trying to pretend the morning that will separate them has not yet come. Then Romeo slips away to exile in Mantua, and the lovers are divided. And now a new disaster falls on Juliet, alone. Her father, knowing nothing of her marriage and thinking grief for Tybalt has unhinged her, suddenly decides the cure is a wedding — and announces that she will marry the nobleman Paris in just a few days. When Juliet refuses, her father erupts in a terrifying rage, threatening to throw her out to starve. Even her Nurse advises her to give up Romeo and marry Paris. Juliet is utterly alone, a thirteen-year-old facing bigamy or ruin, with only one person left to turn to. The dawn parting is the lovers' last scene together alive, and Shakespeare makes it unbearably tender — the two of them bargaining with the morning, insisting the lark is the nightingale, that there is still a little darkness left, a little more time. There never is. And the scene that follows shows how completely the adult world has closed around Juliet: her father, who earlier seemed almost indulgent, turns in an instant into a domestic tyrant, raging that she will marry Paris or be thrown into the streets to starve; her mother offers no help; and even the Nurse, her lifelong ally and confidante, betrays her, advising her to forget the banished Romeo and simply marry Paris. In the space of a scene, every adult Juliet could lean on has failed her. She is thirteen, secretly married, and completely alone. It is worth marking how completely Juliet is abandoned in these middle scenes, because her isolation is the engine of the final tragedy. The Nurse — earthy, loving, the one adult who has been on her side since infancy — counsels her, kindly and practically, to simply forget the banished Romeo and marry Paris: a sensible betrayal that severs the last ordinary human tie Juliet has. From this moment Juliet can trust no one in her own house, and must take the most desperate risks entirely alone. Shakespeare strips away her every support — father, mother, nurse — one by one, so that when she drinks the Friar's potion she does it with no one in the world who truly knows what she is facing.",
+      "on_screen": {
+        "plate": "plate-parting",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-parting"
+      ],
+      "notes": "The wedding night and dawn parting (nightingale/lark); Romeo to Mantua; Capulet forces the Paris marriage; Juliet isolated."
+    },
+    {
+      "id": "ch-potion",
+      "template": "chapter-card",
+      "narration": "The Friar has one desperate, clever, terrible idea.",
+      "on_screen": {
+        "chapter_title": "The Potion",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Feud",
+            "The Balcony",
+            "Banishment",
+            "The Potion",
+            "The Tomb"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "p-plan",
+      "template": "parallax-still",
+      "narration": "Juliet runs to Friar Laurence, threatening to kill herself rather than betray Romeo — and the Friar, desperate to avert disaster, hatches an elaborate scheme. He gives Juliet a potion: a drug that will make her appear completely dead for forty-two hours — no pulse, no warmth, no breath — so lifelike that her family will mourn her and lay her in the ancient Capulet tomb. Meanwhile the Friar will send a letter to Romeo in Mantua explaining everything, so that Romeo can secretly return, be waiting in the tomb when Juliet wakes, and carry her off to live with him in exile. It is a wild, risky plan that depends on perfect timing and a single letter arriving safely. Juliet, terrified but brave, takes the vial home. And in a chilling scene alone in her bedroom at night, she imagines every horror that could go wrong — waking too early, suffocating, surrounded by the bones of her ancestors — and then, for love, drinks it anyway. The Friar's potion scheme is the play's final, fatal piece of well-meaning adult cleverness — a wildly elaborate plan, depending on perfect timing, a faked death, and a single letter, offered to a desperate child as an alternative to suicide. And Shakespeare gives Juliet, before she drinks, one of the great speeches of courage in all of drama: alone in the dark, she imagines in vivid detail everything that could go wrong — waking too soon in the airless vault, suffocating, going mad among the rotting bones and bloody sheet of her ancestors, her dead cousin Tybalt festering nearby — and then, steadying herself, she drinks anyway, for love. It is an astonishing thing to give a thirteen-year-old, and it is Juliet, not Romeo, who carries the play's deepest nerve.",
+      "on_screen": {
+        "plate": "plate-potion",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-potion"
+      ],
+      "notes": "Friar's plan: the 42-hour death-sleep potion; a letter to summon Romeo; Juliet's terror, then she drinks it."
+    },
+    {
+      "id": "p-fail",
+      "template": "parallax-still",
+      "narration": "The next morning Juliet is found cold in her bed, and the house of joy becomes a house of mourning; the wedding to Paris becomes a funeral; and Juliet, deep in her drugged sleep, is carried to the Capulet tomb and laid among the dead. And now the single thread the whole plan hangs on snaps. The Friar's crucial letter to Romeo, explaining that Juliet is only sleeping, never arrives — the messenger-friar is quarantined in a house suspected of plague and cannot get through. So the only news that reaches Romeo in Mantua is the other news, carried by his servant: that Juliet is dead, and lies in the Capulet tomb. The Friar's careful rescue has become a death-trap, and no one can stop it now. Everything from here happens because of a letter that did not arrive in time. Everything now turns on the plan's single point of failure, and Shakespeare makes the irony merciless. The whole rescue depends on one letter reaching Romeo — and it is stopped by something utterly random and utterly mundane: the friar carrying it is shut up in a house under plague quarantine and simply cannot deliver it. No villain intervenes; no one makes a wicked choice; a brilliant plan is undone by sheer bad luck and bad timing. Meanwhile the other news — the false news, that Juliet is dead — travels fast and freely. It is the cruellest kind of tragedy: not caused by evil, but by accident, haste, and the margin of a few unlucky hours, so that the audience, who know the truth, can only watch the misunderstanding roll toward the tomb.",
+      "on_screen": {
+        "plate": "plate-banish",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-banish"
+      ],
+      "notes": "Juliet 'dead', entombed; the Friar's letter fails (plague quarantine); Romeo hears only that Juliet is dead."
+    },
+    {
+      "id": "p-poison",
+      "template": "parallax-still",
+      "narration": "Romeo's response is immediate and absolute, exactly in character for the boy who fell in love in a glance. He will not live in a world without Juliet. He finds a poor apothecary and bullies him, with a fistful of gold, into selling a vial of deadly poison — illegal, but the starving man is desperate. And then Romeo sets out, riding through the night back to Verona, back to the tomb, to lie down beside Juliet and die with her. He defies the banishment, the death sentence, everything. He is going home to be with her in the only way left to him — and he is racing, though he does not know it, against a clock: Juliet is due to wake within hours. Romeo's reaction tells you everything about him, and about the play's view of young love. He does not pause, does not doubt, does not send to confirm the news or consult the Friar — he hears 'Juliet is dead' and, in the same breath, resolves to die. 'Then I defy you, stars,' he cries, trying to wrench control back from the fate the prologue promised. The same headlong totality that made him fall in love at a glance now drives him to the apothecary and the poison without a moment's hesitation. It is magnificent and it is catastrophic, and Shakespeare refuses to let us separate the two: the very intensity that makes their love immortal is the intensity that kills them. A more cautious Romeo would have lived — and would not have been Romeo.",
+      "on_screen": {
+        "plate": "plate-potion",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-potion"
+      ],
+      "notes": "Romeo buys poison from the apothecary; races back to Verona to die beside Juliet; the race against her waking."
+    },
+    {
+      "id": "ch-tomb",
+      "template": "chapter-card",
+      "narration": "The two of them finally lie in the same place — minutes apart, and a lifetime too late.",
+      "on_screen": {
+        "chapter_title": "The Tomb",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Feud",
+            "The Balcony",
+            "Banishment",
+            "The Potion",
+            "The Tomb"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "t-paris",
+      "template": "parallax-still",
+      "narration": "At the Capulet tomb that night, Romeo finds someone already there: Paris, Juliet's intended husband, come to grieve and scatter flowers for the girl he believed was his. Paris recognises Romeo as the banished Montague who, as far as anyone knows, caused Juliet's death with Tybalt's killing, and tries to arrest him. They fight. Romeo, half-mad with grief and begging not to be provoked, kills Paris — one more young man dead for this feud — and, as he dies, Paris asks to be laid in the tomb beside Juliet. Romeo, pitying, carries him in. Then at last Romeo comes to Juliet herself, lying in the tomb, and marvels, in his grief, at how she still looks so alive, so warm, so beautiful — not understanding that he is seeing the potion beginning to wear off. The killing of Paris is often cut from performances, but Shakespeare put it there for a reason: to show how the violence has spread and how far Romeo has fallen from the gentle boy who refused to fight Tybalt. Paris is not a villain; he is a decent young man who genuinely mourned Juliet and came to lay flowers, and he dies for it, one more casualty heaped on the feud's account. And there is an unbearable dramatic irony as Romeo gazes at Juliet in the tomb: he remarks that death has had no power over her beauty, that her lips and cheeks are still red, still warm, that she does not look dead at all — and he is right, because she is not; the potion is wearing off exactly as planned, and if he could only read the signs, or wait one more scene, all would be saved. Instead he reads her living warmth as the cruelty of death preserving her beauty, and reaches for the poison. Shakespeare also gives us, in the Friar's late arrival at the tomb, one more twist of the knife: the man whose clever plan set all this in motion reaches the vault just moments too late to stop it, in time only to witness the ruin and to flee in terror at the approaching watch. His plan was meant to save two lives through a feigned death; it has produced three real corpses — Paris, Romeo, and, in a moment, Juliet. Every good intention in the play has curdled into catastrophe, and the Friar, stumbling into the tomb with his lantern, is the image of well-meaning human wisdom arriving always a few seconds after it could have done any good.",
+      "on_screen": {
+        "plate": "plate-tomb",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-tomb"
+      ],
+      "notes": "At the tomb Romeo kills Paris; carries him in; comes to Juliet, who looks 'alive' — the potion is wearing off, but he doesn't know."
+    },
+    {
+      "id": "t-death",
+      "template": "parallax-still",
+      "narration": "And here is the cruellest timing in all of Shakespeare. Romeo gazes at his sleeping wife, believes her dead, kisses her one last time, drinks the apothecary's poison, and dies on her breast — moments before she opens her eyes. The Friar hurries in, too late, just as Juliet wakes to find Romeo dead beside her, still warm, the empty poison vial in his hand. The Friar begs her to flee; she refuses. Alone in the tomb with her husband's body, she kisses his lips, hoping some poison still clings there to kill her too; and when it does not, she takes his dagger and stabs herself, and falls dead across him. The whole catastrophe has turned on a matter of minutes — if Romeo had arrived a little later, or the letter a little sooner, or Juliet woken a little earlier, both would have lived. That is the engine of the tragedy: not fate exactly, but terrible, needless mistiming, in a world where there was never any room for error. This is the passage that has broken audiences' hearts for four centuries, and its power is in the timing: everything misses by minutes. Had Romeo paused, had the Friar come a little faster, had Juliet stirred a moment sooner, the whole catastrophe evaporates and the lovers live. Instead Romeo dies believing Juliet dead, seconds before she opens her eyes; and Juliet wakes into the one scene more unbearable than her own death — finding her husband's body still warm beside her, having arrived just too late to be saved by her waking. Her suicide is swift and absolute, with Romeo's own dagger, and it rhymes with his: two children who could not live in the world that was given them, choosing each other in the only place that world finally left them, the grave.",
+      "on_screen": {
+        "plate": "plate-death",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-death"
+      ],
+      "notes": "Romeo drinks poison moments before Juliet wakes; she wakes, finds him dead, refuses to flee, stabs herself; the fatal mistiming."
+    },
+    {
+      "id": "t-reconcile",
+      "template": "parallax-still",
+      "narration": "The whole city converges on the tomb — the Prince, the grieving Montagues, the Capulets — to find their children dead among the bones. The Friar tells the entire story: the secret marriage, the potion, the letter that failed. And standing over the bodies of their children, the two old enemies finally understand what their hatred has cost. Capulet and Montague clasp hands at last and swear to end the feud, each promising to raise a gold statue of the other's dead child — the reconciliation the Friar hoped the marriage would bring, bought now at the only price that could ever buy it: the death of the very children it was meant to save. The Prince speaks the last, famous lines, and the lesson is bitter: the lovers' love did not fail. The world around it did. Peace comes to Verona at dawn, over two fresh graves. Shakespeare ends not on the lovers but on the living they leave behind, because the final meaning of the play is public, not private. The two old patriarchs, Montague and Capulet, look down at the bodies of their only children and at last see the feud for what it is — and clasp hands over the corpses, too late, promising golden monuments to each other's dead child. It is reconciliation at the maximum possible price: the hatred ends only because it has finally consumed the very thing each family loved most. The Prince's closing words lay the blame squarely — 'all are punished' — on the whole poisoned world of Verona, himself included. The lovers' deaths are not a private misfortune but a civic indictment: this is what your hatred costs, paid in the only currency that could ever make you stop.",
+      "on_screen": {
+        "plate": "plate-reconcile",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-reconcile"
+      ],
+      "notes": "The Friar explains; Montague & Capulet reconcile over the bodies; the feud ends at the cost of the children."
+    },
+    {
+      "id": "q-woe",
+      "template": "quote-card",
+      "narration": "The Prince's closing couplet — the most famous last line of any love story.",
+      "on_screen": {
+        "quote": "For never was a story of more woe / Than this of Juliet and her Romeo.",
+        "source": "Prince, final lines"
+      },
+      "notes": "Verbatim, Gutenberg #1513, lines 5293-5294."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why has this story, of all love stories, never loosened its grip on us? Partly it is the language — the balcony, the sun, the rose, the star-crossed lovers; Shakespeare poured some of his most gorgeous poetry into these two teenagers, and it has never been bettered. But the deeper reason is that the play holds two things together at once, and refuses to choose. It is the most romantic story ever written — young, pure, headlong, total love — and it is a devastating warning about that same love's recklessness, and about the world that destroys it. You can watch it as a celebration of a passion worth dying for, or as a sober tragedy about children killed by their parents' hatred and their own impatience, and the play supports both readings completely. And notice who is to blame: not really the lovers, and not really fate, but the adults — the feuding fathers, the hot-headed kinsmen, the well-meaning Friar with his too-clever plan, a whole grown-up world of pride and haste and old grudges that leaves no safe space for two young people simply to love each other. The lovers reach, across the wall between their families, for a person instead of a label — and the world of names and feuds and swords closes over them and drowns them. And then, only then, when it is far too late, the hatred finally stops. One last thing worth carrying away. For all that the play is quoted at weddings and printed on valentines, its clearest message is a warning, and it is aimed squarely at the adults in the audience — the parents, the authorities, the elders who make and keep the hatreds that the young inherit and die for. Shakespeare gives the feud no cause on purpose: there is nothing to it, no wrong to avenge, no principle at stake, just an old habit of loathing passed down the generations until it kills the future. The lovers are its victims, not its authors. And so the most romantic play ever written turns out to carry, at its centre, a hard and unromantic plea — that we look at the hatreds we have inherited and hand on without thinking, and stop, before they cost us everything, the way they cost Verona two children and a Prince his peace.",
+      "on_screen": {
+        "plate": "plate-verona",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-verona"
+      ],
+      "notes": "Close: why it endures — both the great romance and its critique; blame lies with the feuding adult world, not the lovers."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of Romeo and Juliet — four days, two families, one unstoppable love, and a peace that comes only over the graves of the children who died for it. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It's Shakespeare at his most quotable and most heartbreaking — see it performed if you can, and listen for how much of your own language was first written here. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}
