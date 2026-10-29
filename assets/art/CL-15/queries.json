@@ -1,0 +1,61 @@
+{
+  "book_code": "CL-15",
+  "book": "Pride and Prejudice",
+  "note": "Art queries for Austen's Pride and Prejudice. Wikimedia Commons, PD/CC0 only. Leans on Hugh Thomson's 1894 illustrations for the book (PD), Regency/Georgian portraiture (Thomas Lawrence, Joshua Reynolds, Gainsborough), Rowlandson's Regency social scenes, and Constable/Gainsborough English landscapes for the estates. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-elizabeth",
+      "count": 1,
+      "query": "Thomas Lawrence portrait of a young woman painting",
+      "want": "A lively, spirited young Regency woman — Elizabeth Bennet (PD)"
+    },
+    {
+      "id": "plate-estate",
+      "count": 1,
+      "query": "John Constable English countryside landscape painting",
+      "want": "Green English countryside / a modest country estate — Longbourn (PD)"
+    },
+    {
+      "id": "plate-ball",
+      "count": 1,
+      "query": "William Hogarth country dance painting",
+      "want": "A ball / country dance (PD)"
+    },
+    {
+      "id": "plate-darcy",
+      "count": 1,
+      "query": "Thomas Lawrence portrait of a gentleman painting",
+      "want": "A proud, handsome Regency gentleman — Mr Darcy (PD)"
+    },
+    {
+      "id": "plate-collins",
+      "count": 1,
+      "query": "portrait of a clergyman eighteenth century painting",
+      "want": "A pompous clergyman — Mr Collins (PD)"
+    },
+    {
+      "id": "plate-wickham",
+      "count": 1,
+      "query": "Henry Raeburn portrait of an officer painting",
+      "want": "A charming young officer in uniform — Wickham (PD)"
+    },
+    {
+      "id": "plate-letter",
+      "count": 1,
+      "query": "Johannes Vermeer woman reading a letter painting",
+      "want": "A young woman reading a letter — the turning point (PD)"
+    },
+    {
+      "id": "plate-pemberley",
+      "count": 1,
+      "query": "Chatsworth House country mansion painting",
+      "want": "A grand English country house — Pemberley (PD)"
+    },
+    {
+      "id": "plate-catherine",
+      "count": 1,
+      "query": "Joshua Reynolds portrait of a noblewoman painting",
+      "want": "An imperious aristocratic lady — Lady Catherine de Bourgh (PD)"
+    }
+  ]
+}

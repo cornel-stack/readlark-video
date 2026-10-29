@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "code": "CL-15B",
+    "book": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": "1813",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [35, 45],
+    "target_words": [5250, 6750],
+    "voice": "en-GB-RyanNeural",
+    "title": "Pride and Prejudice: The Full Story Explained (Jane Austen)",
+    "search_phrase": "Pride and Prejudice full story explained"
+  },
+  "chapters": [
+    {"title": "A proud man and a sharp wit", "first_scene": "hook"},
+    {"title": "Netherfield", "first_scene": "ch-netherfield"},
+    {"title": "Pride", "first_scene": "ch-pride"},
+    {"title": "The Letter", "first_scene": "ch-letter"},
+    {"title": "Pemberley", "first_scene": "ch-pemberley"},
+    {"title": "The Second Proposal", "first_scene": "ch-resolution"}
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In Pride and Prejudice, a sharp-witted woman and a proud rich man can hardly stand each other — which is exactly why they belong together.",
+      "on_screen": {"question": "A proud man and a sharp wit", "plate": "plate-elizabeth"},
+      "assets": ["plate-elizabeth"],
+      "notes": "Hook before any title. ~26 words, minimal pauses. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Pride and Prejudice, by Jane Austen, published in eighteen thirteen.",
+      "on_screen": {"title": "Pride and Prejudice", "author": "Jane Austen", "year": "1813", "subtitle": "A Novel"},
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing before we begin. First: Pride and Prejudice is, for a great many readers, simply the most beloved novel in the English language — the great comic romance, witty and warm and perfectly plotted, and the template for a thousand love stories since, every one in which two people who seem all wrong for each other turn out to be exactly right. If you have ever enjoyed a story where the couple start by sparring and end in love, you have enjoyed a descendant of this book. Jane Austen wrote an early version of it in her twenties, in the seventeen-nineties, and revised it for years before it finally appeared in 1813 under the teasing title we know — she had first called it, simply, First Impressions, which is in many ways the truer name for what the story is about. And one thing to listen for throughout is the narrator's voice itself: dry, amused, forever one step ahead of the characters, puncturing their vanities with a single perfectly placed word. Half the pleasure of the book is Austen quietly raising an eyebrow at everyone in it, ourselves included. Second: for all its sparkle, it is also a sharp, clear-eyed social comedy about the one thing that ruled a genteel Englishwoman's life two centuries ago — marriage, and the money and class that came tangled up with it. In Austen's world a woman of the gentry could not really earn a living or inherit an estate; her entire future, her security, her very roof, depended on marrying, and marrying well. That fact gives the romance a hard financial edge beneath all the dancing and the flirtation, and it is why mothers in this book hunt husbands for their daughters like generals planning a campaign. And third, the key to the whole thing: hold on to the two flaws named in the title. The pride is mostly his — Mr Darcy, immensely rich, immensely proud, and, at first, seemingly cold. The prejudice is mostly hers — Elizabeth Bennet, clever, lively, and far too quick to judge. The entire novel is the slow, delicious business of each of them learning to see past their first impressions of the other, and past their own worst fault, to the truth underneath. Keep those two words in mind — pride, prejudice — and watch which one belongs to whom.",
+      "on_screen": {"plate": "plate-estate", "camera": "drift"},
+      "assets": ["plate-estate"],
+      "notes": "Context: the great comic romance; marriage/money/class for Regency women; the two title flaws — his pride, her prejudice."
+    },
+
+    {
+      "id": "ch-netherfield",
+      "template": "chapter-card",
+      "narration": "A rich young bachelor rents the great house nearby — and a mother with five unmarried daughters springs into action.",
+      "on_screen": {"chapter_title": "Netherfield",
+        "timeline": {"kind": "timeline-strip", "segments": ["Netherfield", "Pride", "The Letter", "Pemberley", "The Proposal"], "marker": 0}}
+    },
+    {
+      "id": "n-bennets",
+      "template": "parallax-still",
+      "narration": "The Bennet family lives at Longbourn, a modest estate in the English countryside, and there are seven of them. Mr Bennet is a dry, bookish gentleman who long ago gave up on his marriage and retreated into irony and his library, amusing himself at the expense of a household he can no longer take seriously. Mrs Bennet, by contrast, is loud, silly, and entirely without self-awareness, and she has exactly one purpose in life: to get her five daughters married, the sooner and the richer the better. The daughters span the whole range. There is beautiful, gentle Jane, the eldest, so sweet-natured she can think ill of no one. There is Elizabeth — Lizzy — the second sister and the heart of the book: clever, playful, sharp-tongued, with a mind quick enough to laugh at the absurdities around her, and she is our heroine and our guide. There is Mary, plain and bookish and prone to dull moralising; and the two youngest, Kitty and Lydia, giddy, boy-mad, and perpetually chasing officers. And hanging over the whole family is a quiet catastrophe-in-waiting: the Longbourn estate is 'entailed', meaning by law it must pass to the nearest male relative — a distant cousin — rather than to any of the daughters. When Mr Bennet dies, his wife and five girls will be turned out with very little. The daughters must marry, and marry money, or face genteel poverty. So when word arrives that a wealthy and amiable young bachelor named Mr Bingley has taken the nearby great house of Netherfield, Mrs Bennet is thrown into raptures — a single rich man in the neighbourhood is, to her, a providential gift — and the novel announces its own grand theme in its famous opening line.",
+      "on_screen": {"plate": "plate-estate", "camera": "push-in"},
+      "assets": ["plate-estate"],
+      "notes": "The Bennets, 5 daughters, the entail / financial danger; wealthy Bingley rents Netherfield; Mrs Bennet's marriage mania."
+    },
+    {
+      "id": "q-truth",
+      "template": "quote-card",
+      "narration": "The most famous opening line in English fiction — and listen for the irony buried inside it.",
+      "on_screen": {"quote": "It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.", "source": "opening line"},
+      "notes": "Verbatim, Gutenberg #1342, lines 704-705."
+    },
+    {
+      "id": "n-ball",
+      "template": "parallax-still",
+      "narration": "At the first local ball, Mr Bingley turns out to be everything his reputation promised — warm, cheerful, open, instantly liked — and he is, from the first dance, visibly taken with the eldest and loveliest Bennet sister, Jane. So far, so promising. But Bingley has brought a friend, and the friend is another matter entirely. Mr Darcy is even richer than Bingley, taller, handsomer, grander — and he appears to be insufferably, immovably proud. He looks down his nose at the whole country assembly, declines to dance with anyone outside his own party, and carries himself as though the entire evening is beneath him. The neighbourhood, dazzled at first by his ten thousand a year, turns against him within the hour. And then comes the moment that sets the whole plot in motion. Bingley urges Darcy to dance with Elizabeth, who is sitting out for want of a partner — and Darcy, not troubling to lower his voice, glances at her and declines, pronouncing her merely 'tolerable, but not handsome enough to tempt me.' Elizabeth overhears every word. She is not the sort to be crushed by it; instead she is coolly amused, and tells the story afterwards with great spirit, laughing at the proud man who found her only tolerable. But the insult has done its quiet work. Her prejudice against Mr Darcy is born in that single careless sentence, and it will colour everything she thinks of him for most of the book.",
+      "on_screen": {"plate": "plate-ball", "camera": "reveal"},
+      "assets": ["plate-ball"],
+      "notes": "The ball; warm Bingley falls for Jane; proud Darcy snubs Elizabeth ('tolerable, but not handsome enough'); her prejudice born."
+    },
+    {
+      "id": "n-netherfield",
+      "template": "parallax-still",
+      "narration": "Mrs Bennet, scenting a conquest, promptly sets about pushing Jane and Bingley together, and before long Jane is invited to dine at Netherfield with Bingley's sisters. In a stroke of maternal scheming that backfires almost poetically, Mrs Bennet sends her on horseback rather than by carriage, hoping a shower will force her to stay the night — and Jane, caught in the rain, duly arrives soaked and promptly falls ill, confined to Netherfield with a feverish cold. When the news reaches Longbourn, Elizabeth, worried for her sister and caring nothing for appearances, sets off at once to nurse her — on foot, three muddy miles across sodden fields, arriving at the great house with glowing cheeks, windblown hair, and petticoats six inches deep in mud. Bingley's elegant sisters are scandalised, and gleefully mock her the moment she leaves the room — a country girl, tramping about the fields like a wild thing. But the mockery misfires. Mr Darcy, who says little, finds himself quietly struck by exactly the opposite: by the brightness the exercise has brought to her eyes, by her warmth and devotion to her sister, by a spirit so unlike the polished, calculating women he is used to. Over the days that follow, as Elizabeth stays to tend Jane, he watches her more and more — and the attraction he will spend so long fighting takes root here, under his own roof, even as she spends her evenings sparring with him and finding him more disagreeable than ever. Jane recovers; the sisters return home; and Bingley's infatuation with Jane, and Darcy's with Elizabeth, both quietly deepen.",
+      "on_screen": {"plate": "plate-estate", "camera": "reveal"},
+      "assets": ["plate-estate"],
+      "notes": "Jane invited to Netherfield, sent on horseback, caught in rain, falls ill; Elizabeth walks 3 muddy miles to nurse her; Miss Bingley mocks, but Darcy is struck by her; attraction takes root."
+    },
+
+    {
+      "id": "ch-pride",
+      "template": "chapter-card",
+      "narration": "Against his own will, he begins to fall for her — and then makes a complete disaster of telling her so.",
+      "on_screen": {"chapter_title": "Pride",
+        "timeline": {"kind": "timeline-strip", "segments": ["Netherfield", "Pride", "The Letter", "Pemberley", "The Proposal"], "marker": 1}}
+    },
+    {
+      "id": "p-darcy",
+      "template": "parallax-still",
+      "narration": "Now something begins to happen that Elizabeth does not notice at all. The more Mr Darcy is around her, the more he finds himself drawn to her against every instinct of his pride. It is not her beauty that catches him so much as her mind — her wit, her liveliness, her fine dark eyes, and above all her complete refusal to flatter him or to be impressed by his wealth, which is a novelty to a man accustomed to being fawned over. He fights the attraction, because her family is beneath his, her connections are embarrassing, and her mother and younger sisters are, frankly, mortifying in company. But fight it as he will, he keeps watching her. Elizabeth, meanwhile, notices none of this. She is far too busy disliking him to imagine he might admire her, and reads his long silent stares as fresh proof of his contempt. There is comedy in it too: Bingley's sister Caroline, who has set her own cap firmly at Darcy and his fortune, flatters and fusses over him endlessly, praising his handwriting, his sister, his library, his every opinion — and is quietly maddened to see his eyes drift again and again toward the one woman in the room paying him no attention at all. The more Caroline fawns, the more Elizabeth's cool indifference fascinates him; it is the oldest joke in the world, and Austen plays it perfectly. Between the two couples, meanwhile, two obstacles now rise. Jane and Bingley are plainly falling in love — but Bingley's two snobbish sisters, who have their own designs and look down on the Bennets as vulgar country nobodies, disapprove entirely. And because the modest, reserved Jane keeps her deep feelings so carefully hidden, they are able to make a case that she does not truly care for Bingley at all. They, with Darcy's help, persuade the easily-led Bingley to leave for London and not return — breaking Jane's heart quietly, while she bears it without a word of complaint. Elizabeth, watching her beloved sister suffer in silence, rightly guesses that Darcy had a hand in the separation, and hates him the more for it.",
+      "on_screen": {"plate": "plate-darcy", "camera": "push-in"},
+      "assets": ["plate-darcy"],
+      "notes": "Darcy drawn to Elizabeth against his pride; Elizabeth oblivious; Bingley's sisters & Darcy separate Bingley from Jane."
+    },
+    {
+      "id": "p-collins",
+      "template": "parallax-still",
+      "narration": "Meanwhile the comedy sharpens, and Austen gives us one of her great comic monsters. The very cousin who stands to inherit Longbourn — the pompous, grovelling clergyman Mr Collins — writes to announce a visit, and arrives looking for a wife among the Bennet daughters, partly, he explains with maddening complacency, to make generous amends for the entail that will one day dispossess them. He fixes first on Jane, is gently redirected, and settles on Elizabeth. His proposal to her is a small masterpiece of self-regard: he lists his reasons for marrying as though reading out a shopping list, assumes her acceptance is a foregone conclusion, and when she refuses him plainly, he simply refuses to believe her, certain she is merely being coy, as he imagines elegant young ladies always are. Elizabeth has to turn him down several times before it finally takes. Her mother is beside herself with fury — a respectable match, thrown away! — but her father, with dry delight, backs his favourite daughter. And then comes the sting that shows us the real world behind the comedy. Mr Collins, barely pausing for breath, proposes instead to Elizabeth's sensible, plain friend Charlotte Lucas — and Charlotte, twenty-seven years old, without beauty or fortune and with no wish to be a burden on her family, accepts him. Not for love; she has no illusions whatever about him. She accepts because marriage is the only career open to a woman like her, and a comfortable home with a foolish husband is better than spinsterhood and dependence. Elizabeth is privately appalled, but Austen's point is quietly devastating: Elizabeth can afford to refuse a loveless match for the sake of her dignity; Charlotte, poorer and plainer, simply cannot. And it is just here, into the middle of all this, that a charming young militia officer named Wickham walks into the story.",
+      "on_screen": {"plate": "plate-collins", "camera": "reveal"},
+      "assets": ["plate-collins"],
+      "notes": "Mr Collins's absurd proposal refused; Charlotte Lucas marries him for security (the economic reality); Wickham arrives."
+    },
+    {
+      "id": "p-wickham",
+      "template": "parallax-still",
+      "narration": "Mr Wickham is handsome, easy, warm, and wonderfully good company, and Elizabeth — like half the neighbourhood — is thoroughly charmed by him. And then he tells her a story, in confidence, that seems to explain everything. He claims he grew up almost as a son to old Mr Darcy, the present Darcy's late father, who loved him and promised to provide for him with a comfortable living in the church. But when the old man died, Wickham says, young Mr Darcy — out of pure jealousy and spite — cheated him of his inheritance and left him to make his own way in the world with nothing. Elizabeth drinks it all in. Of course Darcy did it; a man that cold and proud is surely capable of anything, and here at last is the proof. The story confirms every suspicion she has nursed since the ball, and her prejudice now hardens from mere dislike into settled, righteous conviction. She prides herself, after all, on being an excellent judge of character — she saw through the arrogant Darcy at a single glance, and now the agreeable, open Wickham is obviously the wronged and worthy man. She could not possibly be more wrong about either of them. And this is Austen's quiet thesis, laid like a trap in the middle of the book: that our first impressions, and the vanity we take in our own powers of judgement, are precisely the things that blind us most completely. The reader, swept along, is tempted to believe every word Wickham says, exactly as Elizabeth does.",
+      "on_screen": {"plate": "plate-wickham", "camera": "push-in"},
+      "assets": ["plate-wickham"],
+      "notes": "Charming Wickham tells Elizabeth that Darcy cheated him; she believes it, prejudice hardened; she is wrong about both men."
+    },
+    {
+      "id": "p-proposal",
+      "template": "parallax-still",
+      "narration": "Then comes the great set-piece that caps the first half of the book. Months later, Elizabeth goes to stay with the newly married Charlotte, whose husband Mr Collins now serves as clergyman to a grand patroness — the imperious, overbearing Lady Catherine de Bourgh, who happens to be Mr Darcy's aunt. And so Darcy turns up there too, visiting his aunt, and Elizabeth is thrown into his company again. She notices him watching her, calling on her, lingering awkwardly in conversation, and cannot for the life of her imagine why. Then one evening he arrives, visibly agitated, and abruptly, astonishingly, proposes marriage. But he does it in the worst way imaginable. He has clearly wrestled with himself for months and lost, and he tells her exactly that — declaring his ardent love in the very same breath as he dwells, at length and with wounded honesty, on everything that makes her beneath him: the inferiority of her birth, the vulgarity of her relations, the degradation he feels in stooping to want her at all. He proposes, in short, as though he fully expects to be thanked for having overcome his own better judgement. His opening words lay the whole struggle bare — that in vain he has struggled, that it will not do, that his feelings will not be repressed, and that she must allow him to tell her how ardently he admires and loves her. And Elizabeth, first astonished and then blazing with anger, refuses him utterly — not merely refuses, but tells him he is the last man in the world she could ever be prevailed upon to marry. She throws in his face his arrogance, his insults, his cruel hand in wrecking Jane's happiness, and his supposed villainy toward poor Wickham. Most of all, she tells him, from the very beginning his manners had impressed her with the fullest belief of his arrogance, his conceit, and his selfish disdain for the feelings of others — and that he was the last man in the world whom she could ever be prevailed on to marry. Darcy, white and shaken, hears her out, makes a stiff, wounded reply, and leaves. They part in mutual fury, each having wounded the other to the quick, and each, for the moment, entirely convinced of being wholly in the right. Neither of them yet understands that this furious collision is not the end of anything — it is the moment the real story begins, the shock that will force them both, slowly, to change.",
+      "on_screen": {"plate": "plate-darcy", "camera": "reveal"},
+      "assets": ["plate-darcy"],
+      "notes": "Hunsford; Darcy's insulting first proposal; Elizabeth furiously refuses (Jane + Wickham + the insults); they part in anger."
+    },
+    {
+      "id": "q-ardently",
+      "template": "quote-card",
+      "narration": "Darcy's disastrous first proposal — love and insult tangled together in a single breath.",
+      "on_screen": {"quote": "In vain have I struggled. It will not do… You must allow me to tell you how ardently I admire and love you.", "source": "Mr Darcy, first proposal"},
+      "notes": "Verbatim (condensed with ellipsis), Gutenberg #1342, lines 7536-7537."
+    },
+
+    {
+      "id": "ch-letter",
+      "template": "chapter-card",
+      "narration": "The next morning he hands her a letter — and it quietly detonates everything she thought she knew.",
+      "on_screen": {"chapter_title": "The Letter",
+        "timeline": {"kind": "timeline-strip", "segments": ["Netherfield", "Pride", "The Letter", "Pemberley", "The Proposal"], "marker": 2}}
+    },
+    {
+      "id": "l-letter",
+      "template": "parallax-still",
+      "narration": "The next day Darcy finds Elizabeth walking alone, hands her a thick letter, bows, and leaves. That letter is the hinge on which the entire novel turns. In it, calmly and without a trace of the old arrogance, he answers both of her accusations. On the matter of Jane and Bingley, he admits freely that he helped separate them — but he explains his reason: he had watched Jane closely and genuinely believed, wrongly, that she felt no particular attachment to his friend, because her serene composure hid her true feelings so completely. It was a real misjudgement, but an honest one, made in what he thought was Bingley's interest, not out of malice. And then, on the subject of Wickham, he tells the truth at last, and it is the reverse of everything Elizabeth has been told. Far from being cheated, Wickham was generously provided for; he was offered the very living he claimed to have been denied, chose instead to take a large sum of money in its place, squandered the lot in idleness and dissipation, and then came back demanding still more. And then — the thing Darcy can barely bring himself to commit to paper — the charming Wickham attempted to seduce and elope with Darcy's own sister, Georgiana, a shy girl of just fifteen, in order to lay his hands on her fortune of thirty thousand pounds. Darcy stopped it only just in time, and has kept silent ever since to protect his sister's good name. Wickham, in short, is not the wronged innocent at all; he is a practised liar and a fortune-hunter, and the warmth and openness that so charmed her were simply the polished tools of his trade. Elizabeth reads the letter once in disbelief, then again, and then a third time, growing hot and cold by turns. Her first instinct is to reject every word of it as more of Darcy's arrogance — but the harder she looks, the more it holds together. She begins to recall small things she had brushed aside: how freely Wickham spread his grievances to a stranger, how conveniently his story flattered her own dislike of Darcy, how he had quietly avoided Darcy rather than confront him. Point by point, the account she wants to disbelieve proves itself true, and the solid ground of her certainty gives way beneath her feet.",
+      "on_screen": {"plate": "plate-letter", "camera": "push-in"},
+      "assets": ["plate-letter"],
+      "notes": "Darcy's letter: his honest misreading of Jane; the truth about Wickham (squandered the money, tried to elope with Darcy's 15-year-old sister)."
+    },
+    {
+      "id": "l-reckoning",
+      "template": "parallax-still",
+      "narration": "This is Elizabeth's great moment of self-knowledge, and the true emotional climax of the whole book — not a kiss, not a wedding, but a woman standing alone with a letter, realising she has been a fool. Forced to weigh the evidence honestly, she sees that she has been utterly, humiliatingly wrong. She let a handsome face and a flattering, confiding manner take her in completely; she believed Wickham's every word because it chimed so neatly with what she already wanted to believe; she built her whole towering contempt for Darcy on a single overheard insult and a bruised vanity, and then dressed that bruised vanity up as clear-eyed judgement. She, who prided herself above all things on her discernment, on her gift for reading people, has had the two most important men in her story exactly backwards — despising the honourable one, adoring the scoundrel. In the novel's most quoted moment of reckoning she admits that until this moment she never knew herself. It is a painful, almost physical humiliation, and Austen makes us feel every ounce of it. But it is also the great turning point of the book: the prejudice named in the title begins, right here, on a country lane with a letter trembling in her hand, to dissolve. And as it clears away, Elizabeth finds herself able, for the very first time, to wonder what Mr Darcy might truly be.",
+      "on_screen": {"plate": "plate-elizabeth", "camera": "reveal"},
+      "assets": ["plate-elizabeth"],
+      "notes": "Elizabeth's reckoning — she was wrong about both men; 'till this moment I never knew myself'; her prejudice dissolves."
+    },
+    {
+      "id": "l-aftermath",
+      "template": "parallax-still",
+      "narration": "Elizabeth returns home to Longbourn changed, carrying a secret she cannot share. She now knows the truth about Wickham, but she cannot expose him without betraying the confidence Darcy placed in her about his young sister, so she must watch the charming officer go on deceiving the neighbourhood while she holds her tongue. She sees her own family, too, with newly opened eyes — her mother's silliness, her father's idle detachment, and above all the headlong recklessness of her youngest sister Lydia, who thinks of nothing but officers and flirtation and has not a scrap of sense or caution in her. So when the militia regiment prepares to leave Meryton for a summer camp at the seaside resort of Brighton, and the sixteen-year-old Lydia is invited along as the special guest of an officer's young wife, Elizabeth is seriously alarmed. She goes to her father and begs him to forbid it — Lydia, unchecked and surrounded by soldiers far from home, is an accident waiting to happen, and her wildness threatens the good name of the whole family. But Mr Bennet, weary and amused and unwilling to bestir himself, waves the worry away; Lydia, he says, is too poor and too silly to be worth any man's serious pursuit, and the trip will at least get her out from underfoot. It is exactly the kind of lazy misjudgement that will cost them dearly. Lydia goes to Brighton, delighted — and Wickham's regiment, of course, is stationed there too. It is one of Austen's quietest and sharpest strokes: the disaster that nearly destroys the family is not the work of some melodramatic villain swooping in from nowhere, but the perfectly predictable result of ordinary human weakness — a silly girl, a careless father, a smooth deceiver, and no one willing to take trouble until it is far too late. The seeds of the catastrophe to come are sown not in wickedness alone, but in laziness and vanity and the refusal to see what is plainly there.",
+      "on_screen": {"plate": "plate-estate", "camera": "push-in"},
+      "assets": ["plate-estate"],
+      "notes": "Elizabeth home, keeping Darcy's secret; sees her family clearly; warns her father against letting reckless Lydia go to Brighton; he refuses; sets up the elopement (Wickham's regiment is there)."
+    },
+
+    {
+      "id": "ch-pemberley",
+      "template": "chapter-card",
+      "narration": "She visits his great house never dreaming she will meet him there — and meets a wholly different man.",
+      "on_screen": {"chapter_title": "Pemberley",
+        "timeline": {"kind": "timeline-strip", "segments": ["Netherfield", "Pride", "The Letter", "Pemberley", "The Proposal"], "marker": 3}}
+    },
+    {
+      "id": "pe-house",
+      "template": "parallax-still",
+      "narration": "Some months later, travelling through Derbyshire with her sensible aunt and uncle, Elizabeth finds herself near Pemberley, Darcy's magnificent estate, and is persuaded to tour the house on the firm understanding that the master is safely away from home. She is struck at once by its beauty — not showy, but tasteful, dignified, full of quiet good sense, a place that somehow seems to reproach her idea of the man who owns it. And then the housekeeper, an old servant who has known Darcy since he was a boy, speaks of him — and what she says stops Elizabeth cold. The master, says the woman, is the kindest, most generous, most even-tempered man alive; the best of landlords and the best of brothers; never a cross word from him in all her years of service; adored by every servant and tenant on the estate. This is a Darcy Elizabeth has never so much as glimpsed — the private man behind the cold public mask, seen plainly by the people who know him best. And then, to the acute mortification of both of them, Darcy himself comes striding round the corner of his own house, home a full day early. But he is transformed. Gone is the icy hauteur; he is gracious, almost shy, eager to please, warm to Elizabeth and — most tellingly of all — courteous and genuinely welcoming to her tradesman uncle and his wife, exactly the sort of middle-class relations he would once have openly disdained. He has plainly taken her furious words at the proposal deeply to heart and set about becoming a better man. He asks, with real feeling, to introduce his beloved sister to her — the very sister Wickham tried to ruin — and the shy, sweet girl he presents is nothing like the proud creature Wickham had painted. Elizabeth, watching Darcy on his own ground, generous and humbled and kind, feels her whole heart turn over. She thinks, half-laughing and half-aghast at herself, that she might have been mistress of all this beauty, that she refused the best man she has ever met out of wounded pride and borrowed lies — and she realises, with something close to panic, that she has begun to love the very man she so recently swore she could never marry. The irony is almost too neat: just as she is ready to want him, she has every reason to fear it is too late.",
+      "on_screen": {"plate": "plate-pemberley", "camera": "push-in"},
+      "assets": ["plate-pemberley"],
+      "notes": "Elizabeth visits Pemberley; the housekeeper's praise; Darcy appears, transformed, gracious; her feelings turn to love."
+    },
+    {
+      "id": "pe-lydia",
+      "template": "parallax-still",
+      "narration": "And at precisely that moment, when happiness at last seems possible, catastrophe strikes. Letters arrive from home bearing terrible news: Elizabeth's youngest sister, the reckless, silly, sixteen-year-old Lydia, has run off from the seaside town of Brighton — and the man she has run off with is none other than Wickham. They are unmarried, somewhere in the vastness of London, and there is no sign whatever that he intends to marry her at all. In the rigid moral world of the time, this is not a scandal that touches Lydia alone. An unmarried girl 'ruined' in this way disgraces her entire family, and the shame would fall on every one of the Bennet sisters, poisoning the marriage prospects of them all — Jane and Elizabeth included. Elizabeth is devastated; and on top of her grief and her fear, she is bitterly certain that this public ruin has just slammed shut the door that was so lately opening with Darcy. He stands there as she sobs out the news, now fully aware of the depths of her family's folly, and then he leaves abruptly and gravely — and she believes she has lost him forever, at the exact moment she finally understood that she wanted him. She hurries home to a household in chaos and a mother in hysterics. But Darcy, far from recoiling in disgust as she fears he has, does something else entirely. Quietly, telling absolutely no one, he acts.",
+      "on_screen": {"plate": "plate-letter", "camera": "reveal"},
+      "assets": ["plate-letter"],
+      "notes": "Lydia elopes with Wickham — scandal threatening to ruin all the Bennet sisters; Elizabeth thinks she's lost Darcy; he acts in secret."
+    },
+
+    {
+      "id": "ch-resolution",
+      "template": "chapter-card",
+      "narration": "Both of them have changed now. So the proposal can be made a second time — and this time, answered.",
+      "on_screen": {"chapter_title": "The Second Proposal",
+        "timeline": {"kind": "timeline-strip", "segments": ["Netherfield", "Pride", "The Letter", "Pemberley", "The Proposal"], "marker": 4}}
+    },
+    {
+      "id": "r-rescue",
+      "template": "parallax-still",
+      "narration": "In time, and against Darcy's own careful efforts to keep it secret, the truth comes out: it was he who saved the Bennet family. While everyone else merely wrung their hands, Darcy went quietly to London, used his knowledge of Wickham's old haunts and habits to track the runaways down, and then spent a small fortune and a great deal of his own pride to force the thing right. He paid off Wickham's considerable debts, bought him a commission in the army, and settled money on the couple — bribing the scoundrel, in effect, to actually marry Lydia and so turn a family-destroying disgrace into a merely foolish and hasty marriage. He did it all, we slowly come to understand, for Elizabeth — out of love, and out of a genuine sense that his own earlier silence about Wickham's true character had helped make the whole disaster possible in the first place. It is the completest possible proof of his transformation. The proud man who, not so long before, could barely bring himself to be civil to Elizabeth's vulgar relations now quietly rescues those very same relations from ruin, spends lavishly to do it, swears everyone to secrecy, and asks for not one word of thanks or credit in return. It is also, quietly, an act of atonement: Darcy knows that if he had only swallowed his pride and warned the world about Wickham's character long ago, Lydia would never have been taken in. In saving her, he is making right his own earlier silence. When Elizabeth finally learns what he has done — discovering it almost by accident, since he meant her never to know — and at what cost to his pride and his purse, whatever was left of her resistance simply falls away. The man she once dismissed as the proudest, most disagreeable person of her acquaintance has turned out to be the most generous, and he has done it all for her and asked for nothing. Her heart is entirely, and gratefully, his.",
+      "on_screen": {"plate": "plate-darcy", "camera": "push-in"},
+      "assets": ["plate-darcy"],
+      "notes": "Darcy secretly saves the family — forces Wickham to marry Lydia, pays his debts; does it for love, seeks no credit."
+    },
+    {
+      "id": "r-catherine",
+      "template": "parallax-still",
+      "narration": "Now the knots begin, one by one, to untie. Darcy, repentant over his earlier meddling, confesses to Bingley that he had been quite wrong about Jane's feelings, and all but sends his friend back to Netherfield. Bingley returns, and within days joyfully proposes to a radiant Jane, who accepts him at once — and so one couple is safely, happily home. And then Darcy's formidable aunt, the great Lady Catherine de Bourgh, unwittingly does Elizabeth the single greatest favour of the entire book. Having caught wind of a rumour that her nephew means to marry this nobody of a Bennet girl, Lady Catherine descends upon Longbourn in a towering fury, corners Elizabeth alone, and haughtily commands her to promise that she will never, under any circumstances, accept a proposal from Mr Darcy — such a match, she declares, would be a pollution of the family's noble line. But she has picked entirely the wrong young woman to try to bully. Elizabeth, magnificent and immovable, calmly declines to be dictated to and will promise no such thing. Lady Catherine storms off in outrage to report this shocking defiance to her nephew — and in doing so, without the faintest idea that she is doing it, hands Darcy the one piece of information he needs above all others. For if Elizabeth had truly meant to refuse him, she would simply have said so outright. Her flat refusal to promise means that there is, after everything, still hope. The proud aunt, meaning to crush the match forever, has instead carried the one message that could revive it. And it gives Darcy the courage to come to Longbourn and try, one final time — the same man, the same woman, the same question, but everything else between them utterly changed.",
+      "on_screen": {"plate": "plate-catherine", "camera": "reveal"},
+      "assets": ["plate-catherine"],
+      "notes": "Bingley & Jane engaged; Lady Catherine tries to forbid the match, Elizabeth defies her; this accidentally gives Darcy hope."
+    },
+    {
+      "id": "r-bridge",
+      "template": "parallax-still",
+      "narration": "There is a lovely symmetry to how Austen brings them back together. Elizabeth, bursting with a gratitude she is sworn not to reveal, cannot openly thank Darcy for saving Lydia — and so, when they next walk out together, she thanks him anyway, unable to hold it in, telling him that she has long known what he did for her undeserving youngest sister. It is the opening they both needed. By now every barrier that stood between them at that first disastrous proposal has quietly fallen, one by one: her prejudice is gone, his pride is gone, Wickham is exposed, Jane and Bingley are happily engaged, and even the formidable Lady Catherine has, against her own furious will, cleared the last obstacle from the path. All that remains is for two proud people to be honest with each other at last.",
+      "on_screen": {"plate": "plate-elizabeth", "camera": "push-in"},
+      "assets": ["plate-elizabeth"],
+      "notes": "Elizabeth thanks Darcy for saving Lydia (breaking the secret); every barrier has fallen; bridge to the second proposal."
+    },
+    {
+      "id": "r-second",
+      "template": "parallax-still",
+      "narration": "And so, on a quiet country walk, Mr Darcy proposes to Elizabeth Bennet a second time — and it could not be more different from the first. There is no condescension now, no cataloguing of her inferiority, no expectation of gratitude. He speaks humbly, almost fearfully, telling her that his feelings for her are unchanged from that terrible evening months ago, but that one word from her will silence him on the subject forever. And this time Elizabeth — transformed just as thoroughly as he has been — tells him, with all her heart, that her own feelings have changed so completely that she now receives his words with gratitude and with pleasure. There is no grand speech, no swelling music; just two proud people, at last able to be honest, walking and talking until the afternoon is gone, each confessing how far they have come and how nearly they lost one another. He tells her that her reproofs at that first dreadful proposal, cruel as they felt at the time, were the making of him — that she taught him a lesson in humility he badly needed to learn. She tells him how completely his letter, and then Pemberley, overturned everything she thought she knew. The two of them, who began in mutual contempt at a country ball, have each been remade by the other: his pride humbled, her prejudice cured, each of them forced to see their own worst fault clearly and to admit, painfully, that they had been wrong, before either of them could possibly deserve the other. They walk on together, able at last to laugh about how thoroughly, how comically, they had misjudged one another at the very start. Jane marries Bingley; Elizabeth marries Darcy and becomes, of all things in the world, the mistress of Pemberley; and the two sisters, the two best of the Bennet girls, settle into a happiness as deep as it is well-earned. Even dry, detached Mr Bennet, parting with his favourite daughter, can only tell her that he could never have given her up to anyone the least bit less worthy of her.",
+      "on_screen": {"plate": "plate-pemberley", "camera": "push-in"},
+      "assets": ["plate-pemberley"],
+      "notes": "Darcy's humble second proposal; Elizabeth accepts; both remade; the weddings; happiness at Pemberley."
+    },
+    {
+      "id": "q-opinion",
+      "template": "quote-card",
+      "narration": "Darcy, early on, on his own unbending pride — the very flaw the novel will make him unlearn.",
+      "on_screen": {"quote": "My good opinion once lost is lost for ever.", "source": "Mr Darcy"},
+      "notes": "Verbatim, Gutenberg #1342, line 2860."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "So why has this novel, now more than two centuries old, remained the best-loved love story in the English language? Part of the answer is simply the pleasure of Austen's voice — the wit, the irony, the dialogue that still crackles with life on the page, and above all Elizabeth Bennet herself, whose quick, laughing, independent mind makes her feel less like a character in an old book than like a friend you would happily sit and talk with for hours. Part of it is the sheer craftsmanship. Pride and Prejudice is built like a fine clock: every scene turns the mechanism, every misunderstanding is planted early and pays off late, and the slow, warming thaw between two proud and clever people is one of the great sustained pleasures in all of fiction. Part of it, too, is the talk — the verbal fencing between Elizabeth and Darcy, two sharp minds circling each other, is some of the wittiest dialogue in the language, and it is no accident that so many love stories since have reached for the same formula of a couple who argue their way into each other's hearts. But mostly it endures because of what it understands about love, and about us. Austen saw, more clearly than almost any writer before her, that the real obstacle between two people in love is usually not some villain or some stroke of outside misfortune, but their own pride and their own prejudice — that we fall eagerly for flattering lies and bristle at inconvenient truths, that we are always far quicker to judge other people than to truly know ourselves. Her lovers do not earn each other through grand romantic gestures. They earn each other through the hardest thing of all: each one learning to see clearly, to admit they were wrong, and genuinely to change. It is a romance, yes — arguably the most perfectly satisfying one ever written — but underneath all the dances and the drawing rooms it is really a story about growing up. And its quiet, lasting lesson is this: that we are never more completely mistaken than in the very moments when we are most certain that we are right.",
+      "on_screen": {"plate": "plate-estate", "camera": "drift"},
+      "assets": ["plate-estate"],
+      "notes": "Close: why it endures — Austen's wit; perfect plotting; the real obstacle is our own pride/prejudice; earning love through self-knowledge."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "And that is the whole of Pride and Prejudice — two proud, clever people who misjudge each other completely, and have to be humbled, each in turn, into happiness. If this is the kind of story you want more of, there are full retellings of the other great books waiting on the channel, with more arriving all the time. It is as sharp and funny and satisfying today as it was in 1813 — read it for Elizabeth's wit alone, and then watch how neatly Austen springs every single trap she has laid. Thanks for watching.",
+      "on_screen": {"message": "More full retellings on the channel", "points_to": "CL-01B"},
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}
