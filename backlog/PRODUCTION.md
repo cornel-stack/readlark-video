@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 8/138 rendered**  `█░░░░░░░░░░░░░░░░░░░`  ·  0 scripted, awaiting render  ·  130 planned
+**Progress: 9/138 rendered**  `█░░░░░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  128 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -16,13 +16,13 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-28A | The Iliad | Revision video | Curriculum classics | ✅ rendered |
 | CL-28B | The Iliad | Full retelling | Curriculum classics | ✅ rendered |
 | CL-25A | Antigone | Revision video | Curriculum classics | ⬜ planned |
-| CL-25B | Antigone | Full retelling | Curriculum classics | ⬜ planned |
+| CL-25B | Antigone | Full retelling | Curriculum classics | ✅ rendered |
 | CL-01A | Macbeth | Revision video | Curriculum classics | ✅ rendered |
 | CL-01B | Macbeth | Full retelling | Curriculum classics | ✅ rendered |
 | CL-49A | The Metamorphosis | Revision video | Curriculum classics | ✅ rendered |
 | CL-49B | The Metamorphosis | Full retelling | Curriculum classics | ✅ rendered |
 | CL-13A | Wuthering Heights | Revision video | Curriculum classics | ⬜ planned |
-| CL-13B | Wuthering Heights | Full retelling | Curriculum classics | ⬜ planned |
+| CL-13B | Wuthering Heights | Full retelling | Curriculum classics | 📝 scripted |
 | CL-50A | Siddhartha | Revision video | Curriculum classics | ⬜ planned |
 | CL-50B | Siddhartha | Full retelling | Curriculum classics | ⬜ planned |
 | CL-12A | Dr Jekyll and Mr Hyde | Revision video | Curriculum classics | ⬜ planned |
