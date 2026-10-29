@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "code": "CL-10B",
+    "book": "The Tempest",
+    "author": "William Shakespeare",
+    "year": "c. 1611",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "The Tempest: The Full Story Explained (Shakespeare)",
+    "search_phrase": "The Tempest full story explained"
+  },
+  "chapters": [
+    {
+      "title": "A storm raised by magic",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Storm",
+      "first_scene": "ch-storm"
+    },
+    {
+      "title": "The Exile's Story",
+      "first_scene": "ch-story"
+    },
+    {
+      "title": "Spirit and Monster",
+      "first_scene": "ch-island"
+    },
+    {
+      "title": "The Reckoning",
+      "first_scene": "ch-reckoning"
+    },
+    {
+      "title": "The Broken Staff",
+      "first_scene": "ch-staff"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In The Tempest, an exiled sorcerer raises a storm to wreck his enemies on his island, and then must choose between revenge and forgiveness.",
+      "on_screen": {
+        "question": "A storm raised by magic",
+        "plate": "plate-storm"
+      },
+      "assets": [
+        "plate-storm"
+      ],
+      "notes": "Hook before any title. ~24 words, minimal pauses. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Tempest, by William Shakespeare, written around sixteen eleven.",
+      "on_screen": {
+        "title": "The Tempest",
+        "author": "William Shakespeare",
+        "year": "c. 1611",
+        "subtitle": "A Romance"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. The Tempest is almost certainly the last play Shakespeare wrote alone, and readers have always heard in it a kind of farewell — a great magician who stages illusions, enchants an audience, and then, at the end, gives up his powers and asks to be set free, as if Shakespeare himself were laying down his art and leaving the stage. Second: unlike most of his plays, this one obeys the old classical rules almost exactly, unfolding in a single place and in roughly the span of its own performance — about four hours, on one enchanted island, in real time. And third: hold on to the question at its heart. Prospero, the sorcerer, has spent twelve years preparing for the moment when the men who wronged him would be delivered, helpless, into his hands. He has the power to destroy them utterly. The whole play builds to the instant he gets his revenge — and then asks whether he will take it, or do the far harder and rarer thing, and forgive. It helps to know the play was written at the very end of Shakespeare's career, around 1611, as one of his late 'romances' — strange, dreamlike plays about loss and reconciliation, about families torn apart and improbably restored, about forgiveness and second chances. After the towering tragedies — Hamlet, Lear, Macbeth, Othello — Shakespeare turned, in these last works, to something gentler and more magical, stories that pass through grief but end in wonder rather than slaughter. The Tempest is the purest and most beautiful of them, and the most personal: a play by an ageing artist about an ageing artist, full of a late autumn light, that seems to know it is the last of its kind.",
+      "on_screen": {
+        "plate": "plate-island",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-island"
+      ],
+      "notes": "Context: Shakespeare's last solo play / farewell to art; the classical unities; the central question — revenge or forgiveness."
+    },
+    {
+      "id": "ch-storm",
+      "template": "chapter-card",
+      "narration": "A ship full of noblemen is torn apart in a storm that is not natural at all.",
+      "on_screen": {
+        "chapter_title": "The Storm",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Storm",
+            "The Story",
+            "The Island",
+            "The Reckoning",
+            "The Staff"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "s-wreck",
+      "template": "parallax-still",
+      "narration": "The play opens in chaos: a ship caught in a terrifying tempest, the sailors screaming over the wind, the noble passengers panicking and getting in the way, the vessel apparently splitting apart and going down with all aboard. Among the passengers are a king and his court. And then, abruptly, we cut to a quiet island shore, where a young woman named Miranda has watched the whole wreck in horror and begs her father to calm the raging sea if, as she suspects, it is his doing. For her father is Prospero, a powerful magician — and he reassures her that no one on that ship has been harmed. The storm was his, raised by his art, and every soul aboard has been brought safely, if separately, to the shores of his island. It was all, from the first thunderclap, an illusion with a purpose. Shakespeare opens with the storm for a reason — it is the most spectacular scene-setting he ever wrote, pure sound and fury and terror — and then immediately pulls the rug out, revealing it was never real, an illusion staged by Prospero in which no one was ever in danger. That reversal is the key to the whole play: nothing here is quite what it seems, the whole island is a theatre, and Prospero is its playwright-director, scripting events, assigning roles, controlling the weather itself. From the very first scene we are watching a play about a man putting on a play, and that layering — illusion within illusion — never stops until the magician steps forward at the end and dissolves it all.",
+      "on_screen": {
+        "plate": "plate-storm",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-storm"
+      ],
+      "notes": "The opening tempest and apparent wreck; cut to Miranda and Prospero; the storm was his magic, no one harmed."
+    },
+    {
+      "id": "s-ariel-song",
+      "template": "parallax-still",
+      "narration": "The passengers have been scattered across the island in groups, each believing the others drowned. The king's son, Prince Ferdinand, washed up alone and grieving, is led through the island by eerie, invisible music — the singing of Prospero's spirit-servant, Ariel, who sings him a strange and beautiful song telling him that his father lies drowned fathoms deep, his bones turned to coral, his eyes to pearls, transformed by the sea into something rich and strange. It is one of the loveliest lyrics Shakespeare ever wrote, and it is also a lie with a kindness in it, for Ferdinand's father is not dead at all — he is elsewhere on the same island. The song is luring the grieving prince exactly where Prospero wants him: toward Miranda. The song also introduces one of the play's most beautiful ideas — the 'sea-change', the notion that the drowned body is not simply destroyed but transformed into 'something rich and strange', coral and pearl. That image reaches far beyond the song: the whole island works a sea-change on everyone who lands on it. Grief is turned toward reunion, hatred toward forgiveness, the lost toward the found. The storm that looked like destruction is really the start of a transformation, and Shakespeare plants the idea here, in a haunting lyric sung to a boy who thinks he has lost everything, that on this island nothing is lost — only changed.",
+      "on_screen": {
+        "plate": "plate-ariel",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-ariel"
+      ],
+      "notes": "Passengers scattered; Ferdinand led by Ariel's song ('Full fathom five'); the song lures him toward Miranda."
+    },
+    {
+      "id": "q-fathom",
+      "template": "quote-card",
+      "narration": "Ariel's song to the grieving prince — the sea-change of his supposedly drowned father.",
+      "on_screen": {
+        "quote": "Full fathom five thy father lies; / Of his bones are coral made.",
+        "source": "Ariel, Act 1"
+      },
+      "notes": "Verbatim, Gutenberg #23042, line 879 ff."
+    },
+    {
+      "id": "ch-story",
+      "template": "chapter-card",
+      "narration": "Before any of this makes sense, Prospero finally tells his daughter how they came to be here.",
+      "on_screen": {
+        "chapter_title": "The Exile's Story",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Storm",
+            "The Story",
+            "The Island",
+            "The Reckoning",
+            "The Staff"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "st-backstory",
+      "template": "parallax-still",
+      "narration": "Twelve years ago, Prospero tells Miranda, he was the Duke of Milan — but a duke who loved his books and his studies more than the business of ruling, and who handed the day-to-day running of the state to his ambitious younger brother, Antonio. That was his mistake. Antonio, hungry for the title itself, conspired with Alonso, the King of Naples, Milan's old rival, to seize the dukedom. One night they took Prospero and the infant Miranda, bundled them onto a rotten, barely-seaworthy boat, and cast them out to sea to die. They survived only because a kind old councillor, Gonzalo, had secretly stocked the boat with food, water, clothes — and, crucially, Prospero's beloved books of magic. The two of them drifted to this island, and here, over twelve years, Prospero mastered the magic that now, at last, has delivered his enemies to his shore. The storm was no accident. It was twelve years in the making. Notice the flaw that cost Prospero his dukedom, because the play is quietly pointed about it: he lost Milan precisely because he retreated from the world into his books and his magic, neglecting the practical business of ruling until his brother simply took it. His scholarship, his love of the 'liberal arts', was both his glory and his undoing. And now, on the island, he has turned that same bookish power into something formidable — but the whole arc of the play is about him learning, finally, to use his art not to escape the human world or dominate it, but to re-enter it, repair it, and then set it aside. The magic that once isolated him will, this time, be the thing that brings him home. There is a poignancy, too, in how Prospero tells the story — to a daughter who was barely three when it happened and remembers none of it, so that for her the whole tale of betrayal and exile is being heard for the first time. He has carried this grievance alone for twelve years, nursing it in silence on a lonely island, and only now, with the hour of reckoning at hand, does he finally speak it aloud. The long speech is heavy with an old man's accumulated bitterness — and it is that twelve-year weight of remembered wrong that makes his coming choice to set it down, at the very last, so hard and so remarkable.",
+      "on_screen": {
+        "plate": "plate-prospero",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-prospero"
+      ],
+      "notes": "Prospero's backstory: Duke of Milan, usurped by brother Antonio + King Alonso, set adrift with baby Miranda; saved by Gonzalo's provisioning; 12 years on the island."
+    },
+    {
+      "id": "st-lovers",
+      "template": "parallax-still",
+      "narration": "And here is the deeper design beneath the revenge. Prospero brings the shipwrecked Ferdinand before Miranda — who, raised alone on the island since infancy, has never in her memory seen a young man, or indeed any human being but her father and the monster Caliban. The two young people fall in love at first sight, instantly and completely, exactly as Prospero intends. But he hides his delight and pretends to be harsh: he accuses Ferdinand of being a spy, and sets him to heavy labour, hauling logs. This is a test — Prospero wants to be sure the love is real and not too easily won — and Ferdinand bears the drudgery gladly for Miranda's sake, while she, pitying him, offers to carry the logs herself. Their love is the hinge of Prospero's whole plan: a marriage between his daughter and the son of his enemy, the King of Naples, that could heal the old wound and restore Prospero's line to power. The romance of Ferdinand and Miranda is deliberately quick and idealised — love at first sight, pure and total — and Shakespeare sets it against the darker loves and lusts around it: Caliban's attempted assault, the brothers' murderous ambition. Miranda's innocence is the point; she is a kind of blank, wondering goodness, having grown up knowing no cruelty, no society, no men but her father. Through her fresh eyes the play keeps asking what human beings really are — are they the 'brave new world' of beauty she sees, or the schemers and drunkards and would-be murderers the island is actually full of? Her wonder is genuine and lovely, and also, the play gently reminds us, a little naive — she is, after all, marvelling at a boatload of the very men who tried to kill her father.",
+      "on_screen": {
+        "plate": "plate-miranda",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-miranda"
+      ],
+      "notes": "Ferdinand & Miranda fall in love at first sight; Prospero feigns harshness, tests Ferdinand with labour; the marriage as part of his plan."
+    },
+    {
+      "id": "ch-island",
+      "template": "chapter-card",
+      "narration": "The island has two other inhabitants — a spirit of the air, and a creature of the earth — and Prospero rules them both.",
+      "on_screen": {
+        "chapter_title": "Spirit and Monster",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Storm",
+            "The Story",
+            "The Island",
+            "The Reckoning",
+            "The Staff"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "i-ariel",
+      "template": "parallax-still",
+      "narration": "Prospero's power on the island runs through two servants, and they are opposites. The first is Ariel, a spirit of the air — quick, graceful, and all but omnipotent, able to raise storms, fly, turn invisible, and appear as fire or a harpy or a sea-nymph. Ariel does all the real magic of the play; Prospero merely directs it. But Ariel serves unwillingly: before Prospero came, the spirit had been imprisoned in a cloven pine for twelve years by a witch, Sycorax, and Prospero freed it — and now holds that debt over Ariel, promising freedom, again and again, soon, soon, if the spirit will serve a little longer. Ariel longs, achingly, for liberty, and that longing — the servant who wants only to be free — quietly shadows the whole play and points toward its ending. The relationship between Prospero and Ariel is one of the tenderest and most interesting in the play, and it quietly drives the ending. Ariel is not evil and not resentful like Caliban; the spirit serves well and even affectionately, but always with one question — when will I be free? Prospero is a demanding master, sometimes sharp, dangling liberty like a reward always just out of reach. But there is real warmth between them too, and it is Ariel, in the end, who will teach Prospero his final lesson in mercy. Keep the promised freedom in mind; the whole play is, among other things, a countdown to the moment Prospero keeps his word and lets the spirit go — his last and perhaps greatest act of magic being an act of release.",
+      "on_screen": {
+        "plate": "plate-ariel",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ariel"
+      ],
+      "notes": "Ariel the air-spirit: does all the magic; freed from Sycorax's pine by Prospero; serves unwillingly, longing for freedom."
+    },
+    {
+      "id": "i-caliban",
+      "template": "parallax-still",
+      "narration": "The other servant is Caliban — the island's only native inhabitant, the deformed son of the dead witch Sycorax, a creature of the earth: resentful, sullen, and enslaved. And Caliban is one of Shakespeare's most troubling and debated figures. When Prospero first arrived, he and Caliban were kind to each other — Caliban showed him all the secrets of the island, its fresh springs and fertile places — and Prospero taught Caliban language. But after Caliban attempted to assault Miranda, Prospero enslaved him, and now rules him by pain and curses. Caliban's great grievance is bitter and hard to dismiss: this island, he insists, was his, inherited from his mother, and Prospero has taken it from him and made him a slave in his own home. For centuries readers have heard in Caliban the voice of every colonised and dispossessed people — the native taught the coloniser's language, and using it mainly, as Caliban says, to curse. It is worth being careful and fair about Caliban, because he is neither simply a villain nor simply a victim, and Shakespeare holds both truths at once. He did attempt to rape Miranda, and shows no remorse — he is genuinely dangerous. And yet his central grievance is real and even just: he was the island's only inhabitant, he welcomed Prospero and showed him everything, and in return he was dispossessed and enslaved. His most famous speeches are full of a wounded eloquence and a surprising feeling for the island's beauty — its sounds and sweet airs that give delight and hurt not. Later ages, especially in the colonial and post-colonial era, seized on him as a symbol: the native, generous at first, robbed of his land, enslaved, taught the master's tongue, and left with language enough only to curse. Shakespeare could not have meant all that we read into Caliban — but he wrote a figure rich and troubling enough to hold it. His line about the island — that it was his, and was taken from him — lands with real force precisely because the play refuses to make him simply hateful; it lets his grievance stand alongside his menace. And his famous speech about the island's music, the 'sounds and sweet airs that give delight and hurt not', shows a soul capable of wonder and even poetry, which makes his enslavement harder to wave away. Shakespeare gives the 'monster' some of the most affecting lines in the play, so that we can never quite settle into despising him. That unresolved discomfort — our sympathy fighting our judgement — is exactly what has kept Caliban at the centre of four centuries of argument about the play.",
+      "on_screen": {
+        "plate": "plate-caliban",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-caliban"
+      ],
+      "notes": "Caliban, the island's native, son of Sycorax; once befriended, then enslaved after assaulting Miranda; the colonial reading — 'the island's mine'."
+    },
+    {
+      "id": "i-plot",
+      "template": "parallax-still",
+      "narration": "Two of the shipwrecked men have washed up near Caliban: Stephano, the king's drunken butler, and Trinculo, his jester. Caliban, finding these fools with their bottle of wine, mistakes the drink for a heavenly nectar and Stephano for a god, and in a drunken, grovelling fit swears to serve him — anything to be rid of Prospero. And he hatches a plot: he will lead Stephano to murder Prospero in his sleep, smash his books of magic, and make Stephano king of the island, with Miranda as his queen. It is a ridiculous, drunken conspiracy, played broadly for laughs — three fools staggering through the island — and yet it darkly mirrors the real betrayal in Prospero's past, and the other, deadlier plot unfolding elsewhere. The comedy and the menace are the same shape: men scheming to murder their way to a crown. The comic subplot of Caliban, Stephano, and Trinculo is broad, drunken farce — and also something sharper. These three ridiculous conspirators, plotting to murder a sleeping ruler and seize power, are a deliberate parody of the serious plotters elsewhere on the island, and of Antonio's original crime against Prospero. Shakespeare keeps rhyming his plots: everyone on this island, high and low, noble and base, seems to dream of killing someone to take what is theirs. The drunks are funny; Antonio is deadly; but the impulse is identical, and the play quietly suggests that the thirst for power that cost Prospero his dukedom is not a rare evil but something near-universal, surfacing even among fools with a bottle of wine. Shakespeare also uses these three to give the play its broad, groundling-pleasing comedy — the drunken songs, the stealing of Stephano's bottle, Caliban's grovelling worship of a tipsy butler he takes for a god who came down with 'liquor not made of the moon'. But even the laughter carries the play's themes. Caliban's instant readiness to swap one master for another — to worship Stephano simply because he has wine and seems powerful — is its own sad comment on servitude, on how the enslaved can come to seek a master rather than freedom. The comedy and the colonial tragedy sit inside the same scene, and Shakespeare lets us laugh without ever quite letting us forget.",
+      "on_screen": {
+        "plate": "plate-caliban",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-caliban"
+      ],
+      "notes": "Caliban meets the drunken Stephano & Trinculo; worships Stephano; plots to kill Prospero and take the island — comic mirror of the usurpation."
+    },
+    {
+      "id": "q-bedfellows",
+      "template": "quote-card",
+      "narration": "Trinculo, sheltering from the storm under Caliban's cloak — a line that became a proverb.",
+      "on_screen": {
+        "quote": "Misery acquaints a man with strange bed-fellows.",
+        "source": "Trinculo, Act 2"
+      },
+      "notes": "Verbatim, Gutenberg #23042, line 1906."
+    },
+    {
+      "id": "i-sebastian",
+      "template": "parallax-still",
+      "narration": "Meanwhile, the serious half of the plot plays out among the stranded noblemen. The King of Naples, Alonso, wanders the island in despair, certain his son Ferdinand has drowned. And as the exhausted king sleeps, his own brother, Sebastian, is tempted by the villainous Antonio — the same Antonio who stole Prospero's dukedom — to murder the sleeping king and seize the crown of Naples for himself, just as Antonio once seized Milan. The usurper is making a second usurper in his own image; the old crime is about to repeat itself. Their swords are actually drawn over the sleeping men — when Ariel, invisible, wakes the king just in time. Prospero, through his spirit, is watching everything, and controlling everything. Every plot on the island, comic and deadly alike, is unfolding inside the palm of his hand. This scene is the dark twin of the comic plot, and the parallel is exact and deliberate. Antonio, who twelve years ago murdered his way to his brother's throne, now coaches another younger brother, Sebastian, to do precisely the same thing — kill the sleeping king and take the crown. It shows us that Antonio has not changed at all, that the usurpation of Milan was no one-off crime of opportunity but the expression of a cold, permanent ambition that would do it again in a heartbeat. And it raises the stakes of Prospero's coming choice: these are not men who have repented and grown. Antonio, in particular, is exactly as dangerous as he ever was — which makes Prospero's eventual decision to forgive him not sentimental but genuinely difficult, an act of mercy toward a man who arguably deserves none.",
+      "on_screen": {
+        "plate": "plate-plot",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-plot"
+      ],
+      "notes": "Antonio tempts Sebastian to murder the sleeping King Alonso (repeating the Milan usurpation); Ariel foils it; Prospero watching all."
+    },
+    {
+      "id": "ch-reckoning",
+      "template": "chapter-card",
+      "narration": "Prospero lets his enemies wander and starve and despair — and then springs his trap.",
+      "on_screen": {
+        "chapter_title": "The Reckoning",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Storm",
+            "The Story",
+            "The Island",
+            "The Reckoning",
+            "The Staff"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "r-banquet",
+      "template": "parallax-still",
+      "narration": "Prospero now tightens his grip on the guilty men — Alonso, Antonio, and Sebastian. He has Ariel set before the weary, starving nobles a magical banquet, a feast appearing from nowhere; and just as they reach for it, ravenous, Ariel descends upon them in the terrifying form of a harpy, a monstrous winged creature, and the food vanishes. And the harpy speaks, naming their crime aloud: they are 'three men of sin', and this whole shipwreck, this island, this torment, is the sea and the powers of nature exacting justice for what they did, long ago, to Prospero and his innocent child. The three are struck with horror and guilt. Alonso, in particular, is overwhelmed — he believes the loss of his son is heaven's punishment for his part in the old crime, and is driven to the edge of despair. Prospero's revenge, for the moment, is working perfectly: his enemies are in his power, maddened by guilt and grief. The vanishing banquet is Prospero's masterstroke of psychological warfare, and it shows how his magic really works: not by force, but by staging, by illusion, by playing on the guilty conscience. He does not strike his enemies down; he makes them confront what they did. Ariel's speech as the harpy is the moral centre of the revenge — it names the crime, insists that nature itself has risen to avenge Prospero and his innocent child, and leaves the three men crushed under their own guilt. And it works differently on each: Alonso, who has a conscience, is driven to genuine repentance and despair; Antonio and Sebastian, who do not, merely draw their swords and rave. Prospero has, in effect, put his enemies on trial and found them out — and now, with them helpless and condemned, he holds the power of life and death, and the play holds its breath to see what he will do with it. And notice how the play aligns Prospero's 'justice' with the whole order of nature and the heavens — the harpy tells the men that the seas, the shores, the very creatures of the world have been enlisted against them for their crime. This gives Prospero's revenge a cosmic, almost divine authority, which makes his eventual decision to abandon it all the more striking. He is not a weak man giving up a revenge he cannot enforce; he is a man who holds, quite literally, the powers of nature and justice in his hand, who could crush his enemies with heaven's own sanction — and who chooses, instead, to lay that terrible power down. The greatness of the mercy is measured by the greatness of the power renounced.",
+      "on_screen": {
+        "plate": "plate-banquet",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-banquet"
+      ],
+      "notes": "The vanishing magic banquet; Ariel as a harpy accuses the 'three men of sin'; Alonso crushed by guilt; Prospero's revenge working."
+    },
+    {
+      "id": "r-masque",
+      "template": "parallax-still",
+      "narration": "Satisfied for now, Prospero turns back to the lovers. Having approved their match, he conjures a wedding entertainment for Ferdinand and Miranda — a masque, a spectacle of singing spirits playing goddesses who bless the young couple with visions of harvest and plenty. It is beautiful, and then, suddenly, Prospero breaks it off, remembering with a start the murder-plot of Caliban and the drunkards creeping toward him. The interrupted vision prompts the most famous speech in the play: Prospero tells the frightened lovers not to be dismayed, that the spirits have simply melted into air — and that one day, in just the same way, the whole world itself, the towers, the palaces, the globe, all of it, will dissolve and leave not a trace behind. We are such stuff as dreams are made on, he says; and our little life is rounded with a sleep. It is a magician musing on the illusion of his own art, and a dying man's meditation on the impermanence of everything. The wedding masque is a play-within-the-play, a piece of pure theatrical magic Prospero conjures to bless the lovers — and the moment he abruptly dismisses it, recalling Caliban's plot, gives us the great speech about dreams. It is worth hearing what Prospero is really saying: that the spirits and the vision have 'melted into air, into thin air', and that one day the whole solid world — the 'cloud-capped towers', the 'gorgeous palaces', the 'great globe itself' (a sly nod to Shakespeare's own Globe theatre) — will dissolve just as completely, leaving not a wisp behind. Human life, he says, is a brief dream bracketed by the sleep before birth and the sleep of death. Coming from an ageing playwright near the end of his life and his career, it is almost unbearably moving — a man watching his own magnificent illusions fade, and making peace with the fact that everything does. The masque itself is worth a moment, because it is Prospero at his most purely creative — conjuring goddesses, Iris and Ceres and Juno, to sing of harvest, marriage, and natural plenty, a vision of the world in blessing rather than in storm. For a few minutes the stern magician becomes simply an artist making something beautiful for the two young people he loves. That is why its sudden collapse cuts so deep: the vision is perfect, and it cannot last, interrupted by the ugly business of a murder-plot and the hard facts of the world. The masque melting into air is the play in miniature — beauty conjured, beauty dissolved — and it sends Prospero straight into his meditation on the dream-like impermanence of all things.",
+      "on_screen": {
+        "plate": "plate-masque",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-masque"
+      ],
+      "notes": "The wedding masque for Ferdinand & Miranda; Prospero breaks it off (Caliban's plot); 'we are such stuff as dreams are made on'."
+    },
+    {
+      "id": "q-dreams",
+      "template": "quote-card",
+      "narration": "Prospero on the illusion of the world — perhaps Shakespeare's own farewell.",
+      "on_screen": {
+        "quote": "We are such stuff as dreams are made on; and our little life is rounded with a sleep.",
+        "source": "Prospero, Act 4"
+      },
+      "notes": "Verbatim, Gutenberg #23042, lines 3015-3017."
+    },
+    {
+      "id": "ch-staff",
+      "template": "chapter-card",
+      "narration": "Now Prospero has everything he wanted. And he discovers what he actually wants is not revenge.",
+      "on_screen": {
+        "chapter_title": "The Broken Staff",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "The Storm",
+            "The Story",
+            "The Island",
+            "The Reckoning",
+            "The Staff"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "t-mercy",
+      "template": "parallax-still",
+      "narration": "Prospero disposes easily of the comic plot — Ariel leads the drunken Caliban, Stephano, and Trinculo through filthy ponds and sets spirit-hounds to chase them, yelping, away. And then comes the true climax of the play, and it is not a battle but a decision. Ariel describes the pitiful state of the three guilty noblemen, so distracted with grief and terror that even a spirit feels sorry for them — and says that if Prospero saw them now, his own feelings would soften. Prospero asks: do you, a mere spirit, feel pity for them? And Ariel says, if I were human, I would. And that answer stops the magician in his tracks. If even an airy spirit would pity them, he reasons, then how much more should he, a fellow human being, who shares their nature? The rarer, nobler action, he decides, lies not in vengeance but in virtue; and since the men are penitent, he will not harm a hair of them further. His sole aim now is not punishment, but to bring them back to themselves. This is the quiet hinge on which the entire play turns, and it is extraordinary that Shakespeare makes the climax not an action but a change of heart — prompted, of all things, by a spirit. When Ariel says that if he were human he would feel pity for the suffering men, Prospero is shamed and awakened by it: a being without a human soul can imagine mercy, so how can he, who shares their very nature, choose cruelty? And so he reasons his way to the play's great moral: that the nobler, rarer action lies in virtue rather than vengeance, that to forgive is harder and higher than to punish. It would have been so easy, and so human, to destroy them. Instead the wronged magician chooses the one thing that can actually end the cycle of usurpation and revenge the play has traced from Milan to this island: he lets it go. It is worth pausing on how radical this is in Shakespeare's own work. He had spent a career on revenge — Titus, Hamlet, the histories, Macbeth — showing again and again how the appetite for vengeance consumes the avenger and everyone around him, leaving stages strewn with bodies. The Tempest is the great counter-statement, the road not taken in all those tragedies: here, at last, is a wronged man with every justification and every means to destroy his enemies, who stops, and reasons, and forgives, and so the play that was clearly built as a revenge tragedy quietly becomes a comedy of reconciliation instead. Shakespeare seems to be answering his own life's work, suggesting that the exhausting machinery of revenge was always, in the end, a choice — and that mercy could have stopped it at any point.",
+      "on_screen": {
+        "plate": "plate-prospero",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-prospero"
+      ],
+      "notes": "Prospero routs the comic plotters; Ariel's pity moves him; 'the rarer action is in virtue than in vengeance'; he chooses forgiveness."
+    },
+    {
+      "id": "t-abjure",
+      "template": "parallax-still",
+      "narration": "Having made his choice, Prospero does something extraordinary: he decides to give up magic altogether. In a great speech, he thanks the spirits and elements that have served his art — and then renounces it. He will break his magic staff, bury it deep in the earth, and drown his book of spells deeper than any plummet ever sounded. This 'rough magic', as he calls it, however potent, he here abjures. It is a staggering renunciation at the very height of his power — the moment he could rule the island and his enemies forever, he chooses instead to lay the power down. And it is impossible, in Shakespeare's last solo play, not to hear the playwright himself in it: the great maker of illusions, at the end of his career, preparing to break his staff, drown his book, and walk away from the stage for good. The renunciation speech is one of the most beautiful and poignant in Shakespeare, precisely because the power being given up is so immense. Prospero recounts what his magic has done — he has dimmed the sun, called up storms, split the oak with lightning, even, he says, raised the dead — and then, at the height of that catalogue of near-divine power, he lays it all down. Why give up such strength voluntarily? Partly because its purpose is now served; partly because this 'rough magic' has always had something coercive and isolating in it, a power over others that kept him apart from them. To rejoin the human world — to be a father, a duke, a man among men again — he must become ordinary, and mortal, and limited. The breaking of the staff is the price of coming home.",
+      "on_screen": {
+        "plate": "plate-staff",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-staff"
+      ],
+      "notes": "Prospero renounces magic — break the staff, drown the book; 'this rough magic I here abjure'; Shakespeare's own farewell to his art."
+    },
+    {
+      "id": "q-magic",
+      "template": "quote-card",
+      "narration": "Prospero giving up his power — and, perhaps, Shakespeare giving up his.",
+      "on_screen": {
+        "quote": "But this rough magic I here abjure.",
+        "source": "Prospero, Act 5"
+      },
+      "notes": "Verbatim, Gutenberg #23042, line 3330."
+    },
+    {
+      "id": "t-reveal",
+      "template": "parallax-still",
+      "narration": "Prospero draws the three guilty men into a circle, and as the spell holding them lifts, he reveals himself — no longer a magician in his robes but Prospero, the wronged Duke of Milan, alive, standing before the brother and the king who cast him out to die. He forgives them. To Antonio, the brother who betrayed him and shows no remorse even now, he grants pardon and reclaims his dukedom, though the words are hard and cold. To the broken Alonso, he gives back something greater than pardon — for he reveals Ferdinand, alive, playing chess with Miranda, and the grief-stricken king is reunited with the son he thought drowned. The marriage of Ferdinand and Miranda will join the two houses of Milan and Naples; the old wound is healed not by blood but by a wedding. And Miranda, seeing all these strangers, all these people, for the first time in her life, cries out in wonder. The reunions come in a rush of wonder, as they do in all Shakespeare's late romances: the dead restored, the lost found, the families made whole. But Shakespeare is careful not to make it saccharine. Antonio, the guiltiest, says nothing — he never repents, never thanks Prospero, never speaks another word in the play; his silence sits there, unresolved, a dark spot in the bright ending, a reminder that forgiveness is something the forgiver chooses, not something the forgiven always earns or wants. Prospero forgives him anyway, which is the whole point: mercy that depends on the other person deserving it is not really mercy at all. And over it all floats Miranda's cry of wonder at the human race she is seeing for the first time — hopeful, radiant, and, the play lets us feel, touchingly, forgivably naive. There is a lovely detail in how Prospero reveals the lovers: he draws back a curtain to discover Ferdinand and Miranda playing chess — a quiet game of kings and queens and strategy, the very thing the adults have been playing for real and lethally all around them. The young couple play at power harmlessly, lovingly, and that small image holds the play's hope: that the next generation might take the deadly games of their fathers and turn them into something gentle. Alonso's reunion with the son he believed drowned is the emotional peak of the ending — grief turned inside-out into joy — and it is Prospero's true gift to his old enemy, worth more than any pardon: not just his own dukedom restored, but the king's dead child given back alive.",
+      "on_screen": {
+        "plate": "plate-miranda",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-miranda"
+      ],
+      "notes": "Prospero reveals himself, forgives Antonio & Alonso, reclaims Milan; Ferdinand revealed alive; the marriage heals the feud; Miranda's wonder."
+    },
+    {
+      "id": "q-newworld",
+      "template": "quote-card",
+      "narration": "Miranda, seeing humanity for the first time — hopeful, and gently ironic given who she's looking at.",
+      "on_screen": {
+        "quote": "O brave new world, that has such people in't!",
+        "source": "Miranda, Act 5"
+      },
+      "notes": "Verbatim, Gutenberg #23042, line 3519."
+    },
+    {
+      "id": "t-freedom",
+      "template": "parallax-still",
+      "narration": "And then Prospero sets everyone free. He frees Caliban — giving the island back, in effect, to the creature he enslaved, who is left alone on his own land once more. And he frees Ariel, at last, releasing the spirit to the winds and the elements it has longed for throughout the play — his final act of magic a letting-go. The ship is restored, the sailors woken; they will all sail home to Italy at dawn, Prospero to resume his dukedom and, he says, to retire and think about death. And then, alone on the bare stage, stripped of his magic, Prospero turns to us, the audience, and speaks a quiet epilogue: his powers are gone now, he says, and whether he goes free depends on us — on our applause, our indulgence, our forgiveness. The all-powerful magician ends the play as a mortal man, powerless, asking the audience to release him, exactly as he released Ariel. The freeings at the end are the emotional heart of the play's farewell. Prospero releases Ariel to the elements, and we feel the real tenderness and loss in the parting of master and spirit. He frees Caliban and leaves the island to him — an ambiguous, much-debated ending; is Caliban liberated, or simply abandoned, alone again on the land that was always his? And then the strangest release of all: in the epilogue, Prospero, stripped of magic, steps out of the story entirely and addresses the audience directly, saying his charms are gone, his strength is his own and most faint, and that we must free him now — with our applause, our forgiveness, our indulgence. The play that has been about one man's power ends with him powerless, a mortal asking for mercy exactly as he has just granted it, placing himself in our hands as his enemies were in his. It is impossible to overstate how much Shakespeare seems to be present in this ending. A great maker of illusions, who for years has commanded storms and spirits and raised the dead upon a stage, stands at the close of his final solo work and gives it all up — breaks the staff, drowns the book, frees his spirits, and steps forward as a plain mortal to ask the audience's pardon and release. Prospero's farewell to magic is Shakespeare's farewell to the theatre, and generations of readers and playgoers have found it almost unbearably moving for that reason: the greatest writer in the language, saying goodbye to his own powers while he still held them, and trusting the rest, as the epilogue says, to our mercy and our prayers.",
+      "on_screen": {
+        "plate": "plate-staff",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-staff"
+      ],
+      "notes": "Prospero frees Caliban and Ariel; all sail home; the epilogue — the powerless Prospero asks the audience to set him free."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why does this strange, late, quiet play hold such a special place? Partly because of its magic and beauty — the storm, the spirit-music, the vanishing banquet, the masque, a whole enchanted island shimmering between the real and the dreamed. But mostly because of what it chooses. Shakespeare spent a career writing revenge tragedies in which the wronged destroy themselves and everyone else in the act of getting even. Here, at the end, he writes the opposite: a man with absolute power over those who ruined his life, who looks at his helpless enemies and decides that the rarer, harder, nobler thing is to forgive. The Tempest is about laying things down — laying down vengeance, laying down power, laying down even art itself — and the strange peace that comes from letting go. And in its magician who breaks his staff and asks to be set free, readers have always felt Shakespeare saying goodbye: to his audiences, to the theatre, to the thirty-odd years of spells he cast on the London stage, dissolving at last, like all his pageants, into air, into thin air. And there is a reason the forgiveness at its centre feels earned rather than easy. Shakespeare does not pretend it is simple or complete: Antonio stays silent and unrepentant; Caliban's fate is left unresolved; Prospero admits that this thing of darkness, Caliban, he acknowledges his — half a claim of ownership, half a confession of kinship, of responsibility for the creature he ruled. The play knows that forgiveness does not tidy everything up, that some wounds stay open, that letting go of power is a loss as much as a liberation. But it insists, against the whole grain of tragedy, that the attempt is worth making — that mercy, even imperfect, even toward those who do not deserve it, is the rarer and the braver action, and the only one that lets anyone, finally, go home.",
+      "on_screen": {
+        "plate": "plate-island",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-island"
+      ],
+      "notes": "Close: why it endures — magic/beauty; the choice of forgiveness over revenge; laying down power and art; Shakespeare's farewell."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of The Tempest — a storm, an enchanted island, a sorcerer's long-awaited revenge, and the mercy he chooses instead. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It's widely thought to be Shakespeare's farewell to the stage, and it reads like one — so seek out a performance, and listen for the goodbye hidden inside the magic. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}

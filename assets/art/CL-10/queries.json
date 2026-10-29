@@ -1,0 +1,67 @@
+{
+  "book_code": "CL-10",
+  "book": "The Tempest",
+  "note": "Art queries for Shakespeare's The Tempest. Wikimedia Commons, PD/CC0 only. Storm and enchantment: Aivazovsky's shipwrecks, Böcklin's dreamlike isle, Fuseli's and Waterhouse's spirits and Miranda, a sorcerer with staff and book, a Veronese feast for the magic banquet. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-storm",
+      "count": 1,
+      "query": "Ivan Aivazovsky shipwreck storm painting",
+      "want": "Aivazovsky, a ship in a tempest — the opening storm (PD)"
+    },
+    {
+      "id": "plate-island",
+      "count": 1,
+      "query": "Arnold Bocklin Isle of the Dead painting",
+      "want": "Böcklin, a dreamlike lonely island (PD)"
+    },
+    {
+      "id": "plate-ariel",
+      "count": 1,
+      "query": "Joshua Reynolds Puck Robin Goodfellow painting",
+      "want": "A sprite of the air — Ariel (PD)"
+    },
+    {
+      "id": "plate-prospero",
+      "count": 1,
+      "query": "Rembrandt old man with beard robe painting",
+      "want": "A robed elder magician — Prospero (PD)"
+    },
+    {
+      "id": "plate-miranda",
+      "count": 1,
+      "query": "John William Waterhouse Miranda The Tempest painting",
+      "want": "Waterhouse, Miranda watching the wreck (PD)"
+    },
+    {
+      "id": "plate-caliban",
+      "count": 1,
+      "query": "Theodor Kittelsen troll monster painting",
+      "want": "A deformed earth-creature — Caliban (PD)"
+    },
+    {
+      "id": "plate-plot",
+      "count": 1,
+      "query": "Jean-Leon Gerome The Death of Caesar painting",
+      "want": "Gerome, conspirators after an assassination — the murder-plots (PD)"
+    },
+    {
+      "id": "plate-banquet",
+      "count": 1,
+      "query": "Paolo Veronese feast banquet painting",
+      "want": "A sumptuous feast — the magic banquet (PD)"
+    },
+    {
+      "id": "plate-masque",
+      "count": 1,
+      "query": "Sandro Botticelli Primavera goddesses painting",
+      "want": "Allegorical goddesses dancing — the wedding masque (PD)"
+    },
+    {
+      "id": "plate-staff",
+      "count": 1,
+      "query": "Rembrandt scholar in his study candlelight painting",
+      "want": "A scholar-magician among his books — Prospero's art (PD)"
+    }
+  ]
+}
