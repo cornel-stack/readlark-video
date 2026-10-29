@@ -1,0 +1,43 @@
+{
+  "book_code": "CL-23",
+  "book": "Heart of Darkness",
+  "note": "Art queries for Conrad's Heart of Darkness. Wikimedia Commons, PD/CC0 only. Turner for the Thames frame and ships, Henri Rousseau's jungles and Frederic Church's tropical rivers for the Congo interior, Church's ominous 'Twilight in the Wilderness' for the grim stations, Böcklin's 'Isle of the Dead' for Kurtz's station of dread, and a Whistler woman in grey for the Intended. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-thames",
+      "count": 1,
+      "query": "J.M.W. Turner The Fighting Temeraire painting",
+      "want": "A ship at dusk on the water — the Thames frame (PD)"
+    },
+    {
+      "id": "plate-river",
+      "count": 1,
+      "query": "Frederic Edwin Church tropical river landscape painting",
+      "want": "A great river winding into wilderness — the Congo (PD)"
+    },
+    {
+      "id": "plate-jungle",
+      "count": 1,
+      "query": "Henri Rousseau jungle forest painting",
+      "want": "Dense, brooding tropical jungle (PD)"
+    },
+    {
+      "id": "plate-station",
+      "count": 1,
+      "query": "Frederic Edwin Church Twilight in the Wilderness painting",
+      "want": "An ominous red-sky wilderness — the grim stations (PD)"
+    },
+    {
+      "id": "plate-kurtz",
+      "count": 1,
+      "query": "Arnold Bocklin Isle of the Dead painting",
+      "want": "A place of dread at the river's end — Kurtz's station (PD)"
+    },
+    {
+      "id": "plate-intended",
+      "count": 1,
+      "query": "James McNeill Whistler portrait woman in grey painting",
+      "want": "A pale woman in mourning — the Intended (PD)"
+    }
+  ]
+}
