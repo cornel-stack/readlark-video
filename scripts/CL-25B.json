@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "code": "CL-25B",
+    "book": "Antigone",
+    "author": "Sophocles",
+    "year": "c. 441 BC",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Antigone: The Full Story Explained (Sophocles)",
+    "search_phrase": "Antigone full story explained"
+  },
+  "chapters": [
+    {
+      "title": "One law against another",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Decree",
+      "first_scene": "ch-decree"
+    },
+    {
+      "title": "The Deed",
+      "first_scene": "ch-deed"
+    },
+    {
+      "title": "The Trial of Wills",
+      "first_scene": "ch-trial"
+    },
+    {
+      "title": "The Son and the Prophet",
+      "first_scene": "ch-haemon"
+    },
+    {
+      "title": "The Reckoning",
+      "first_scene": "ch-end"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "A young woman defies a king's direct order to bury her brother, knowing it means her death. She believes she obeys a higher law; he calls her a traitor. Both will lose everything.",
+      "on_screen": {
+        "question": "One law against another",
+        "plate": "plate-antigone"
+      },
+      "assets": [
+        "plate-antigone"
+      ],
+      "notes": "Hook before any title. ~38 words, ≤15s."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Antigone, by Sophocles, first staged around four forty-one BC.",
+      "on_screen": {
+        "title": "Antigone",
+        "author": "Sophocles",
+        "year": "c. 441 BC",
+        "subtitle": "A Theban Tragedy"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Before we begin, three things worth carrying with you. First: this is Greek tragedy — written to be performed at a religious festival in Athens nearly two and a half thousand years ago, with masked actors, a chanting chorus, and all the violence kept offstage. Second: it is the last chapter of a famous cursed family, the house of Oedipus. Antigone is the daughter of Oedipus — the king who unknowingly killed his father and married his mother — and the whole play unfolds in the wreckage that doomed family leaves behind. And third: do not come to this expecting a hero and a villain. The agony of Antigone, and the reason people have argued about it for two thousand years, is that it sets two goods against each other — loyalty to the gods and family on one side, loyalty to the state and the law on the other — and then shows how both, pushed too far, end in ruin. A word on how it first felt. The play premiered at the Great Dionysia, a civic-religious festival, performed in daylight on a stone hillside before perhaps fifteen thousand Athenian citizens. The actors — all men — wore masks and robes; a chorus of elders sang and danced the odes between the scenes. Everyone already knew the myth, so the suspense was never what happens but how, and what it means. And Athens was then a young, fierce democracy, intensely preoccupied with the very question this play puts on trial: where the authority of the state has to stop.",
+      "on_screen": {
+        "plate": "plate-thebes",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-thebes"
+      ],
+      "notes": "Context: Greek tragedy / festival / masks / offstage violence; house of Oedipus; two goods in collision."
+    },
+    {
+      "id": "ch-decree",
+      "template": "chapter-card",
+      "narration": "It begins the morning after a civil war, with a new law and a forbidden grave.",
+      "on_screen": {
+        "chapter_title": "The Decree",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Decree",
+            "Deed",
+            "Trial",
+            "Haemon",
+            "Reckoning"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "d-backstory",
+      "template": "parallax-still",
+      "narration": "Here is the wreckage the play opens on. When Oedipus fell, his two sons, Eteocles and Polynices, agreed to share the throne of Thebes by ruling in alternate years. But Eteocles, once in power, refused to give it up, and Polynices raised a foreign army and attacked his own city to take it by force. In the battle the two brothers met and killed each other, each by the other's hand — the curse of their family running true to the last. The attack was beaten off; Thebes is saved; and the throne now passes to their uncle, Creon, the brother of Oedipus's mother. Two sisters are left of the old royal line: Antigone, and the gentler Ismene. It is worth dwelling on how thoroughly cursed this family is, because the first audience felt every ounce of it. Oedipus, Antigone's father, had killed his own father and married his own mother without knowing it; when the truth surfaced he put out his own eyes and was driven from Thebes. Which means Antigone's brothers are also her nephews, and her father is also her half-brother — the bloodline folded back on itself in horror. The brothers' mutual slaughter is simply the curse grinding to the end of the male line. Antigone stands almost at the bottom of that pit of inherited doom, and part of her strange fearlessness is that she has already watched her entire family destroyed, and expects nothing gentler for herself.",
+      "on_screen": {
+        "plate": "plate-brothers",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-brothers"
+      ],
+      "notes": "Backstory: Eteocles vs Polynices; they kill each other; Creon takes the throne; Antigone & Ismene remain."
+    },
+    {
+      "id": "d-edict",
+      "template": "parallax-still",
+      "narration": "Creon's very first act as king is a decree, and it is meant to send a message. Eteocles, who died defending Thebes, will be buried with full honours. But Polynices, who attacked it, is branded a traitor: his body is to be left where it fell, outside the walls, unburied — to rot in the open and be torn by dogs and carrion birds. And Creon makes the penalty absolute. Anyone who tries to bury Polynices, who so much as scatters a handful of dust over him, will be put to death. To a Greek audience this is genuinely shocking, because leaving a body unburied was not just cruel — it was an offence against the gods themselves, who demanded that the dead be laid to rest. Creon has set the law of the city directly against the law of heaven. Sophocles is careful to give the decree a real political logic, because a straw man would ruin the play. A city that has just survived a traitor's assault does need to show that treason has consequences; a ruler does need his laws obeyed. Had Creon merely punished Polynices' living allies, no Greek in that theatre would have blinked. His fatal overreach is to push his power past the boundary of the living world — to keep punishing a man after death, in a realm that belongs to the gods and not to kings. That invisible line, between the authority of the state and the domain of heaven, is the one Creon cannot see he has just stepped across.",
+      "on_screen": {
+        "plate": "plate-decree",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-decree"
+      ],
+      "notes": "Creon's edict: Eteocles honoured, Polynices left unburied on pain of death; the religious horror of it."
+    },
+    {
+      "id": "d-sisters",
+      "template": "parallax-still",
+      "narration": "Before dawn, Antigone draws her sister Ismene aside, outside the palace gates, and tells her what she means to do: she will bury Polynices herself, decree or no decree, and she asks Ismene to help. Ismene is horrified. They are only women, she pleads, with no power against men; they have already seen their whole family destroyed; to defy the king openly is simply to throw their lives away for nothing. Antigone's answer is immovable. Polynices is her brother; the gods command that he be buried; and she would rather die doing what is right than live having abandoned him. If Ismene will not help, she will do it alone — and she half-despises her sister for her caution. The two of them part in anger. The battle lines of the play are already drawn, and not only between Antigone and the king. The contrast between the sisters is one of the play's quiet engines. Ismene is not exactly a coward; she is ordinary — loving, frightened, sensible, the sort of person who survives by keeping her head down. Most of us, if we are honest, are Ismene. Antigone is the rarer and more unsettling thing: someone so certain of what is right that she simply cannot be deflected — not by death, not by reason, not even by love. The play needs them both, because Ismene is the yardstick by which we measure the sheer size of what Antigone is prepared to do. And watch Ismene go: after this she all but disappears from the play, her fate left hanging, as though the story itself loses interest in those who choose safety.",
+      "on_screen": {
+        "plate": "plate-ismene",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ismene"
+      ],
+      "notes": "Antigone & Ismene: Antigone resolves to bury him; Ismene refuses out of fear; they part estranged."
+    },
+    {
+      "id": "ch-deed",
+      "template": "chapter-card",
+      "narration": "The forbidden thing is done — and a terrified guard has to report it.",
+      "on_screen": {
+        "chapter_title": "The Deed",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Decree",
+            "Deed",
+            "Trial",
+            "Haemon",
+            "Reckoning"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "deed-ode",
+      "template": "parallax-still",
+      "narration": "The Chorus — a group of Theban elders, the city's old men, who comment on the action throughout — now sing one of the most famous passages in all of Greek literature. It is a hymn to the sheer astonishing power of humankind. Man, they marvel, crosses the grey sea in storms, ploughs the earth, tames the wild beasts and the horse, has taught himself speech and thought and the building of cities; there is almost nothing he cannot master. Almost. For against death alone he has found no cure, and his very cleverness, the song warns, can carry him to good or to evil, depending on whether he honours the laws of the land and the justice of the gods. It is the play's great theme, set out in advance: human brilliance is magnificent, and it is dangerous. The elders are not singing about Antigone yet — they do not even know who buried the body. But Sophocles sets this hymn to human power here on purpose. We, the audience, do know, and so every line rings twice: man can tame the sea and the beasts and raise up cities, and the one who buried Polynices has used that very boldness to defy a king — and we cannot yet tell whether that daring belongs to the song's 'good' or its 'evil'. The ode hangs the play's central question over the action like a held breath, waiting to see which way this particular act of human will is going to fall.",
+      "on_screen": {
+        "plate": "plate-ode-man",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-ode-man"
+      ],
+      "notes": "The Ode to Man (first stasimon). Human power and its double edge; foreshadows the theme."
+    },
+    {
+      "id": "deed-q-man",
+      "template": "quote-card",
+      "narration": "The line that opens that great ode.",
+      "on_screen": {
+        "quote": "Many wonders there be, but naught more wondrous than man;",
+        "source": "Ode to Man (trans. Storr)"
+      },
+      "notes": "Verbatim, Gutenberg #31, F. Storr translation, line 7191."
+    },
+    {
+      "id": "deed-sentry",
+      "template": "parallax-still",
+      "narration": "Then a sentry arrives — one of the guards set to watch the body — and he is terrified, because he has bad news for a king, and everyone knows what happens to the bearer of bad news. Stammering and stalling, he finally gets it out: someone, in the night, has sprinkled dust over the corpse of Polynices and performed the funeral rites. No one saw who; there are no tracks, no tools, nothing. It is as if a ghost did it. Creon is instantly, coldly furious. He is certain it is the work of men bribed to defy him — he cannot imagine anyone acting from conscience — and he sends the sentry back with a brutal order: find the culprit, or you yourself will hang in his place. The sentry is one of Sophocles' small masterstrokes: an ordinary, self-interested little man, half-comic in his terror, trapped between a corpse he failed to guard and a king notorious for killing messengers. His nervous, stalling chatter drops us for a moment out of the high tragic register into something recognisably, awkwardly human — which only sharpens the horror waiting on either side of it. And look at what his report reveals about Creon. The king's instant, automatic assumption is that someone was bribed. He literally cannot conceive of an act of pure conscience; the possibility does not occur to him. That single failure of imagination is the seed from which his whole destruction grows.",
+      "on_screen": {
+        "plate": "plate-sentry",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-sentry"
+      ],
+      "notes": "The sentry reports the body has been symbolically buried; Creon assumes bribery; threatens the guard."
+    },
+    {
+      "id": "deed-caught",
+      "template": "parallax-still",
+      "narration": "The guards uncover the body again and wait, hidden, to see who returns. And at noon, in a sudden whirlwind of dust, she comes back — Antigone — to find the body stripped bare once more, and she cries out in grief like a bird that finds its nest empty, and pours out the ritual offerings again over her brother, in broad daylight, making no attempt to hide. The guards seize her. She does not deny a thing. She is marched before Creon, caught red-handed, entirely unafraid — and the king finds, to his astonishment, that the traitor who has defied the whole power of the state is his own niece, a girl, and the bride-to-be of his own son. The image is unforgettable, and Greek audiences would have felt its force at once: the girl in the noon heat, in a whirlwind of dust, crying out over the stripped body like a mother bird that finds its nest empty, then calmly pouring the burial offerings again in full daylight, as if daring the guards to stop her. She has not been caught sneaking. She has been caught insisting. When they bring her in she shows no fear and offers no excuse — she is almost glad to be seen. For Antigone a secret burial was never the point; the point was to bear public witness, out loud, before the whole city, to a law she believes outranks the king's. And here the play springs a trap on Creon that he never sees coming. He has spent the morning certain that his enemy is a conspiracy of bribed men plotting against his rule. Instead the whole defiance of the state turns out to be a single unarmed girl, acting entirely alone, out of nothing but love and piety — and not merely his subject, but his niece, and the promised bride of his own son. Everything he thought he was fighting dissolves, and he is left face to face with something his politics has no category for.",
+      "on_screen": {
+        "plate": "plate-burial",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-burial"
+      ],
+      "notes": "Antigone returns, re-buries Polynices in daylight, is caught and brought before Creon."
+    },
+    {
+      "id": "ch-trial",
+      "template": "chapter-card",
+      "narration": "Now the heart of the play: the king and the girl, face to face, each certain they are right.",
+      "on_screen": {
+        "chapter_title": "The Trial of Wills",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Decree",
+            "Deed",
+            "Trial",
+            "Haemon",
+            "Reckoning"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "t-defiance",
+      "template": "parallax-still",
+      "narration": "Creon demands to know whether she knew of his decree. Of course she knew, Antigone says — everyone did. Then how dared she break it? And here she makes the speech that has echoed for two and a half thousand years. Your edict, she tells him, was made by a man. But it did not come from Zeus, nor from the eternal, unwritten laws of the gods — the laws that command the dead be buried, that are not of today or yesterday but live forever, and that no mortal ruler has the power to overrule. She would face the gods' punishment in the next world, she says, not his in this one. She already lives surrounded by so much grief that death holds no fear for her; if anything, it is a release. She is not defiant out of pride. She is defiant out of a conviction so deep it has burned the fear of death right out of her. Pause on what she is actually claiming, because it is one of the foundational ideas in all of Western thought. She is saying that above any law a ruler can write there stands a higher, permanent law — rooted in the gods, in justice, in simple humanity — and that when a human command collides with that higher law, conscience must obey the greater one and accept the punishment. Every later appeal to a 'higher law' against unjust authority leans on the ground this speech first marked out: the conscientious objector, the civil-rights marcher, the dissident who breaks an unjust statute and willingly goes to prison. Antigone is the distant ancestor of all of them — and she is barely more than a girl, and entirely ready to die for it.",
+      "on_screen": {
+        "plate": "plate-confront",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-confront"
+      ],
+      "notes": "Antigone's great speech: human edict vs the unwritten, eternal laws of heaven; death holds no fear."
+    },
+    {
+      "id": "t-q-laws",
+      "template": "quote-card",
+      "narration": "Her challenge to the king, in the old translation.",
+      "on_screen": {
+        "quote": "Scorn, if thou wilt, the eternal laws of Heaven.",
+        "source": "Antigone to Creon (trans. Storr)"
+      },
+      "notes": "Verbatim, Gutenberg #31, F. Storr, line 6792."
+    },
+    {
+      "id": "t-creon",
+      "template": "parallax-still",
+      "narration": "Creon hears all this not as conscience but as insolence — and, tellingly, as an insult to his authority as a man, bested in public by a woman. To him the matter is simple and absolute: Polynices attacked the city; a traitor and a patriot cannot be honoured alike; and a ruler who lets himself be defied, who puts family feeling above the law of the state, is no ruler at all and will watch his city fall into chaos. There is real force in what he says — a city does need order, and laws do need obeying. But notice what is happening to him as he says it: his reasonable concern for the state is curdling, line by line, into something harder — wounded pride, and a refusal to be seen to bend. He condemns Antigone to death. Sophocles is scrupulously fair to Creon, and that fairness is exactly what makes this a tragedy and not a fable. Creon is no sadist. He is a man who has just watched his city nearly fall, who believes that order is the one thing standing between Thebes and chaos, and who has a point most rulers would recognise: you cannot govern a state if every citizen may choose which laws to obey. The trouble is that a genuine principle, gripped without any flexibility and fused to a wounded ego, becomes impossible to tell apart from tyranny. We watch it happen almost in real time — the moment Creon stops defending the city and starts defending his own need to win, and can no longer feel the difference between the two.",
+      "on_screen": {
+        "plate": "plate-decree",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-decree"
+      ],
+      "notes": "Creon's case for the state and law; his genuine point curdling into pride and male ego; he condemns her."
+    },
+    {
+      "id": "t-gender",
+      "template": "parallax-still",
+      "narration": "There is a charge running under this confrontation that an Athenian audience felt far more sharply than we do, and it is worth naming. Antigone is a woman — and in classical Athens women had no public voice, no vote, no standing in the law; their place was inside the house, silent, obedient to fathers and husbands. For such a person to stand in the open and tell the ruler of the city that his law is wrong was not just disobedience; it overturned the entire order of things. Creon says as much, again and again: part of what enrages him is simply that he is being bested by a woman, and he declares flatly that while he lives, no woman shall rule him. Twenty-five centuries later, that is a large part of why Antigone has become a permanent symbol — of conscience against power, yes, but also of the silenced refusing, at last, to stay silent.",
+      "on_screen": {
+        "plate": "plate-antigone",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-antigone"
+      ],
+      "notes": "The gender dimension: a woman defying male civic authority in 5th-c Athens; why Antigone became a symbol."
+    },
+    {
+      "id": "t-ismene",
+      "template": "parallax-still",
+      "narration": "Now Ismene is dragged in, and in her terror and love she does something brave and too late: she tries to claim a share in the crime, so that she can die beside her sister. But Antigone will not allow it — fiercely, almost cruelly, she refuses to let Ismene take credit for a courage she did not have when it counted. You chose to live, Antigone tells her; I chose to die; we cannot share this now. It is a hard, painful moment, and it shows us an Antigone who is not simply a saint — she is rigid, lonely, unbending even toward the sister who loves her. And it is Ismene who thinks to say aloud what Creon has been ignoring: that he is about to kill the girl his own son, Haemon, is going to marry. This is the moment Antigone is hardest to love, and Sophocles knows it. She is right that Ismene did not earn a share in the deed — but she is cold, close to cruel, in how she says it, shoving away the one living person who still loves her. It reveals something important: the very quality that makes Antigone heroic, her absolute unbending certainty, is also what leaves her isolated, and in its own way exactly as rigid as Creon. The play quietly rhymes its two antagonists — two people who physically cannot bend — and sets them on a collision course. That symmetry is the key to the whole tragedy: this is not good versus evil, but one unyielding will against another.",
+      "on_screen": {
+        "plate": "plate-ismene",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ismene"
+      ],
+      "notes": "Ismene tries to share the blame; Antigone refuses; raises that Antigone is Haemon's betrothed."
+    },
+    {
+      "id": "t-q-love",
+      "template": "quote-card",
+      "narration": "Earlier, to Creon, Antigone had defined herself in a single line.",
+      "on_screen": {
+        "quote": "My nature is for mutual love, not hate.",
+        "source": "Antigone (trans. Storr)"
+      },
+      "notes": "Verbatim, Gutenberg #31, F. Storr, line 7475. Her creed — she was born to share in love, not hatred."
+    },
+    {
+      "id": "t-ode-doom",
+      "template": "parallax-still",
+      "narration": "As Antigone is condemned, the Chorus turns to her family's long nightmare and sings of inherited doom — how, when a house has once been shaken by the gods, the ruin never stops at one generation but rolls on, like a swell driven over a dark sea, from father to child to child. No wealth, no power, no cleverness can buy a family out of it. They sing, too, of the blindness of mortals: how hope flatters men and leads them on, until they walk straight into the fire, and how a man's ruin can arrive looking exactly like good sense. It is the Greek idea the whole play rests on — that human beings are smaller than the forces around them than they ever want to admit, and that the gods' justice, slow and strange, catches up with pride in the end.",
+      "on_screen": {
+        "plate": "plate-thebes",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-thebes"
+      ],
+      "notes": "Second stasimon — the ode on the doom of the house of Labdacus and the blindness of mortals (ate)."
+    },
+    {
+      "id": "ch-haemon",
+      "template": "chapter-card",
+      "narration": "His own son and his own prophet both come to warn him. He will not listen to either.",
+      "on_screen": {
+        "chapter_title": "The Son and the Prophet",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Decree",
+            "Deed",
+            "Trial",
+            "Haemon",
+            "Reckoning"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "h-haemon",
+      "template": "parallax-still",
+      "narration": "Creon's son Haemon comes to his father — and at first, carefully, respectfully, as a loyal son. He has not come to take sides against his father, he says; he has come to tell him something a king surrounded by frightened subjects never hears: that the whole city, quietly, is on Antigone's side. The people are murmuring that no woman ever less deserved to die, that she should be honoured, not hanged, for burying her brother. He begs his father, gently, to bend — for even the strongest tree in a flood survives only if it bends, and the one that stays rigid is torn up by the roots. There is no shame, he pleads, in a wise man learning and giving way. Watch how skilfully Haemon opens. He does not contradict his father; he flatters him, calls himself his father's loyal son, and only then slips in the dangerous news — that the whole city privately pities Antigone and thinks her act was holy. His argument is wisdom itself: the sailor who will not slacken his sheet in a gale capsizes the boat; the tree that refuses to bend in the flood is torn up by the roots; only what yields survives the storm. He is handing his father a dignified way to climb down. A wiser Creon would have seized it. But the sheer reasonableness of it — and the unbearable fact that it comes from his own young son — is precisely what Creon cannot stomach.",
+      "on_screen": {
+        "plate": "plate-haemon",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-haemon"
+      ],
+      "notes": "Haemon's careful plea: the city sides with Antigone; the image of the tree that bends; begs Creon to relent."
+    },
+    {
+      "id": "h-quarrel",
+      "template": "parallax-still",
+      "narration": "But Creon cannot hear it. To be advised by his own young son enrages him; to be told the city disagrees only hardens him further — the city, he snaps, does not tell the king what to do; the king tells the city. The conversation collapses into a terrible quarrel between father and son. Haemon, seeing that his father is deaf to reason and will kill the woman he loves, tells him he will never see his face again, and storms out. And Creon, now purely vindictive, makes an even crueller decision about how Antigone will die. He will not stone her in public. He will wall her up alive in a remote cave with a few days' food, and leave her there — so that the city's hands are technically clean, and she is left to the gods she loves so much, to save her if they will. The quarrel lays bare the real sickness in Creon's position. When Haemon says the people of Thebes do not approve, Creon retorts that the city belongs to its ruler — that Thebes is his to command as he pleases. And there, nakedly, is the tyrant's creed the whole play has been circling: not 'the law must be obeyed', which is defensible, but 'the state is me', which is not. Haemon realises his father is beyond the reach of reason, and that the woman he loves will die for that blindness, and he leaves on a line that drops like a stone — his father will never look upon his face again. Creon hears it as a threat to be punished. It is really a farewell.",
+      "on_screen": {
+        "plate": "plate-confront",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-confront"
+      ],
+      "notes": "The father-son quarrel; Haemon storms out; Creon decrees Antigone be walled up alive in a cave."
+    },
+    {
+      "id": "h-eros",
+      "template": "parallax-still",
+      "narration": "After the father and son tear each other apart, the Chorus does something that at first seems strange: it stops and sings a hymn to love. Love unconquered in battle, they sing, love that falls upon a man's possessions and keeps watch in the soft cheek of a girl, love that even the immortal gods cannot escape — it is love that has driven this quarrel, twisted a son against his own father, and set all this ruin in motion. It is a famous, beautiful ode, and it quietly widens the play. Because the collision we are watching is not only law against conscience, or state against family. It is also the irrational, overwhelming force of love and desire crashing into Creon's cold machinery of order — and the ode warns us that love, too, is a law no ruler can legislate away.",
+      "on_screen": {
+        "plate": "plate-haemon",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-haemon"
+      ],
+      "notes": "Third stasimon — the Ode to Love (Eros). Widens the theme: desire as another ungovernable law."
+    },
+    {
+      "id": "h-tomb",
+      "template": "parallax-still",
+      "narration": "And now the play lets us feel what this costs. As Antigone is led away to her living grave, her defiance finally cracks, and we see the frightened young woman underneath. She mourns, heartbreakingly, for everything she will never have: she will die unwed, with no marriage, no children, no one to mourn her properly; she is going to a tomb as if to a bridal chamber. She is not sorry for what she did — she would do it again — but she grieves, openly, for the ordinary human life being taken from her. The Chorus can only tell her that she dies gloriously, of her own free choice; it is cold comfort. She calls on the city to witness what is being done to her, for keeping faith with the gods, and the cave is sealed. This long lament is Sophocles' gift to the character and to us. For the entire play Antigone has been iron — certain, fearless, almost superhuman. Now, at the very end, the armour slips, and we see a young woman grieving for the plain human things being taken from her: she will never be a bride except to death, never hold a child, never grow old among people who love her. She does not recant; she insists, still, that what she did was right. But she lets us feel the cost, and in doing so she becomes fully, achingly human at the exact moment she is led away. A saint we might admire from a safe distance. This Antigone we feel in the gut.",
+      "on_screen": {
+        "plate": "plate-tomb",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-tomb"
+      ],
+      "notes": "Antigone's lament on the way to the tomb: the young life and marriage she loses; sealed in the cave."
+    },
+    {
+      "id": "h-teiresias",
+      "template": "parallax-still",
+      "narration": "Then comes the figure who turns the whole play: Teiresias, the ancient blind prophet, led in by a boy. He brings a dreadful warning. The gods are no longer accepting Thebes' sacrifices; the altars are fouled; the birds will not sing clearly — because the whole city has been polluted by Creon's double crime against the divine order: leaving a dead man unburied above the earth, and burying a living woman below it. Creon has got everything exactly backwards. And Teiresias, when the king insults him as a bribe-taking fraud, delivers the prophecy plainly: for these crimes, Creon will pay with a child of his own body, a corpse for the corpses he has made, and his house will be filled with mourning. Then the old prophet is led away, leaving the words hanging in the air. Teiresias is the same blind seer who once forced the truth on Oedipus, and his entrance in these plays always means one thing: the moment the truth can no longer be put off. Creon does to him precisely what he has done to everyone else — accuses the old prophet of being bought, corrupt, a mouthpiece for hire — the same inability to imagine honest opposition that has steered him onto the rocks from the start. But Teiresias cannot be bullied or bribed, and the prophecy he leaves hanging in the air is exact and without mercy: Creon has sealed a living soul in a tomb and left a dead one lying in the sunlight, and for scrambling the realms of the living and the dead he will repay the gods out of his own flesh and blood.",
+      "on_screen": {
+        "plate": "plate-teiresias",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-teiresias"
+      ],
+      "notes": "Teiresias: the gods reject Thebes for Creon's double offence; prophesies Creon will lose his own child."
+    },
+    {
+      "id": "ch-end",
+      "template": "chapter-card",
+      "narration": "He changes his mind at last. He is too late by minutes.",
+      "on_screen": {
+        "chapter_title": "The Reckoning",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Decree",
+            "Deed",
+            "Trial",
+            "Haemon",
+            "Reckoning"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "e-relent",
+      "template": "parallax-still",
+      "narration": "For the first time, Creon is shaken. Teiresias has never been wrong, and the king feels the ground move under him. The Chorus urges him, urgently, to act — free Antigone from the cave, and give Polynices his burial, now, before it is too late. And Creon breaks. His pride, so immovable for the whole play, collapses all at once, and he rushes out himself with his men to undo it all — to bury the body and tear open the tomb and let the girl live. It is the moment we have been longing for: the stubborn man has finally bent. But the play has been quietly teaching us a bitter lesson about timing. Wisdom that comes too late is not wisdom enough. Creon has spent his one chance. It is a genuinely startling reversal — the most rigid man in Greek tragedy crumbling inside a few lines, the instant real fear finally reaches him. And it would make a happy ending, if this play believed in such things. But Sophocles has built the entire drama as a lesson about timing: the proud do, often, come to their senses — just one fatal beat too late, after the irreversible thing has already been set rolling. Creon rushes from the stage to save Antigone with, for the first time in the play, humility in his heart. And we already know, in the pit of the stomach, exactly what he is running toward. The machinery he started cannot now be stopped by the change of heart that started too slow.",
+      "on_screen": {
+        "plate": "plate-thebes",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-thebes"
+      ],
+      "notes": "Creon breaks and rushes to free Antigone and bury Polynices — but too late. The theme of late wisdom."
+    },
+    {
+      "id": "e-messenger",
+      "template": "parallax-still",
+      "narration": "The rest reaches us the way the worst things in Greek tragedy always do — through a messenger, describing what happened offstage. They buried Polynices first. Then they hurried to the cave. And from inside it they heard a voice wailing — Haemon's. They broke through the sealed mouth of the tomb, and in the dim light they saw Antigone hanging, dead: she had not waited for the slow death Creon planned, but made a noose of her own linen veil and ended it herself. And clinging to her body was Haemon, who had slipped in ahead of them, out of his mind with grief. The Greeks kept their violence offstage and delivered it through a messenger's speech — and it is far more harrowing than any staging could manage, because it detonates in the listener's own imagination. We receive it as Creon receives it, always a step behind the truth, the dread tightening with each new detail: the voice heard wailing inside the sealed cave, the stones wrenched away, and then the thing at the centre of the darkness that no father should ever have to look upon.",
+      "on_screen": {
+        "plate": "plate-tomb",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-tomb"
+      ],
+      "notes": "Messenger: Polynices buried; the cave opened; Antigone has hanged herself; Haemon found clinging to her."
+    },
+    {
+      "id": "e-deaths",
+      "template": "parallax-still",
+      "narration": "What follows is the prophecy coming true in front of Creon's own eyes. He steps into the tomb and calls to his son to come out. Haemon stares at him with pure hatred, says not a word, and draws his sword on his own father. Creon flinches back — and Haemon, missing him, turns the blade on himself and drives it into his own side, and dies there with his arms around Antigone, their marriage, as the messenger says, consummated at last only in the house of death. Creon carries his son's body home, broken, understanding finally what his stubbornness has cost. And there a last blow is waiting: his wife, Eurydice, hearing how her son died, has quietly gone inside and killed herself too — cursing her husband with her final breath as the murderer of their child. Here the prophecy pays out to the letter. Teiresias said Creon would give up a corpse of his own blood in return for the corpses he had made, and he does — his son, dead by his own hand, locked in a final embrace with the girl Creon condemned. And the blow falls twice, because in this family grief travels like a contagion: Eurydice, the mother, needs only to hear how her boy died before she walks silently into the house and drives a blade into her own heart, leaving her husband one last curse to carry to the grave.",
+      "on_screen": {
+        "plate": "plate-catastrophe",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-catastrophe"
+      ],
+      "notes": "Haemon's suicide clinging to Antigone; Creon's wife Eurydice kills herself, cursing him."
+    },
+    {
+      "id": "e-creon",
+      "template": "parallax-still",
+      "narration": "And so the man who began the play as a strong new king, confident he could set the city's law above everything, ends it utterly destroyed — not by an enemy, not by the gods striking him down, but by the slow, inevitable consequences of his own rigidity. His niece, his son, and his wife are all dead because he would not bend in time. He is left alive on purpose, which is the cruellest fate of all: left to carry the weight of it, begging to be led away, calling himself nothing, a mere shadow of a man. The throne he defended so fiercely is worth nothing to him now. Everyone he had is gone. This is the specifically Greek shape of the tragedy, and it is the cruellest possible ending. Creon is not killed. The gods do not strike him down — that would be a kind of mercy. He is left standing, alive and unharmed, in the smoking ruin of his own household, to grasp precisely what he has done and then to go on living inside it. He finally gets his wisdom: he sees, with total and unbearable clarity, that his own stubbornness murdered everyone he loved. And the wisdom is now worth absolutely nothing, which is the hard truth at the centre of the play — understanding that arrives only through suffering, and only once it is far too late to be of any use.",
+      "on_screen": {
+        "plate": "plate-creon-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-creon-grief"
+      ],
+      "notes": "Creon's total ruin: left alive to bear the loss of niece, son and wife; a broken shadow."
+    },
+    {
+      "id": "e-q-wisdom",
+      "template": "quote-card",
+      "narration": "And the Chorus closes the play with its hard-won moral.",
+      "on_screen": {
+        "quote": "Of happiness the chiefest part / Is a wise heart… Chastisement for errors past / Wisdom brings to age at last.",
+        "source": "Closing Chorus (trans. Storr)"
+      },
+      "notes": "Verbatim (condensed with ellipsis), Gutenberg #31, F. Storr, lines 8844-8851."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "That final warning — that wisdom comes, if it comes at all, through suffering, and often too late to help — is the whole play in miniature. But Antigone has never stopped being argued about, and here is why. It would be easy if Creon were simply a tyrant and Antigone simply a saint. But the play is far cleverer and far crueller than that. Creon is right that a state needs law and order. Antigone is right that there are higher laws no government can cancel. The tragedy is that neither of them can bend, neither can admit the other has a point, and so two kinds of rightness smash into each other and destroy a whole family. For two and a half thousand years, every age that has faced the question — when is it right to break the law for conscience? — has found itself somewhere in this play. Antigone, going to her death certain she served the gods; Creon, defending his city into the ground; and the quiet, terrible verdict of the chorus, that the proud learn wisdom only when they have nothing left to be wise about. And notice that the play refuses to resolve it for us. Antigone dies convinced she served the gods; Creon survives convinced, too late, that he destroyed himself. Sophocles never steps forward to announce who was right. He simply shows us two people who could not bend, and the wreckage they made, and then hands the question to the audience — which is why you can watch this play a dozen times across a lifetime and find your sympathy sitting in a different place each time.",
+      "on_screen": {
+        "plate": "plate-ode-man",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-ode-man"
+      ],
+      "notes": "Close: why it endures — two kinds of rightness in collision; conscience vs the state; late wisdom."
+    },
+    {
+      "id": "close-legacy",
+      "template": "parallax-still",
+      "narration": "That open wound at the centre of the play is exactly why it will not die. The philosopher Hegel famously called Antigone the perfect tragedy, precisely because it is not a clash of right against wrong but of right against right — family and the gods on one side, the state and the law on the other, each a genuine good, each blind to the other, grinding one another to pieces. And so the play has been picked up again and again, in age after age, by people living through the same collision: staged under tyrannies as a coded cry against them, invoked by resisters and dissidents, rewritten in times of war and occupation whenever an individual conscience has had to decide whether to obey an unjust command. Every generation that has faced the question — when must I break the law to do what is right? — has found its own face somewhere in this twenty-five-hundred-year-old play.",
+      "on_screen": {
+        "plate": "plate-ode-man",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ode-man"
+      ],
+      "notes": "Close/reception: Hegel's 'right against right'; the play's long afterlife under tyranny and in protest."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of Sophocles' Antigone — the girl who defied a king to bury her brother, and the king whose pride buried his whole family with her. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, and more arriving all the time. The play itself is short and shattering, and reads in a single sitting. Thanks for watching — and ask yourself, before you go, whose side you were really on.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End screen — points to the channel generally (no 10-min companion for this one)."
+    }
+  ]
+}

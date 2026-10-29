@@ -1,0 +1,91 @@
+{
+  "book_code": "CL-25",
+  "book": "Antigone",
+  "note": "Art queries for Sophocles' Antigone. Wikimedia Commons, PD/CC0 only. Leans on Neoclassical and 19th-c history painting that depicts the myth directly (Nikiforos Lytras's 'Antigone before the dead Polynices', Frederic Leighton, Jacques-Louis David) plus thematically apt PD works for the civic/tragic beats. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-antigone",
+      "count": 1,
+      "query": "Frederic Leighton Antigone painting",
+      "want": "Leighton, Antigone (PD)"
+    },
+    {
+      "id": "plate-thebes",
+      "count": 1,
+      "query": "John Martin ancient city painting",
+      "want": "A great ancient city — Thebes (PD)"
+    },
+    {
+      "id": "plate-brothers",
+      "count": 1,
+      "query": "Jacques-Louis David Leonidas at Thermopylae painting",
+      "want": "Greek warriors / death in battle — the brothers (PD)"
+    },
+    {
+      "id": "plate-decree",
+      "count": 1,
+      "query": "Ingres Napoleon I on his Imperial Throne painting",
+      "want": "A rigid enthroned ruler — Creon (PD)"
+    },
+    {
+      "id": "plate-ismene",
+      "count": 1,
+      "query": "Albert Joseph Moore classical women painting",
+      "want": "Two classical women — the sisters (PD)"
+    },
+    {
+      "id": "plate-ode-man",
+      "count": 1,
+      "query": "William Blake Albion Rose Glad Day",
+      "want": "Blake, a radiant human figure — the Ode to Man (PD)"
+    },
+    {
+      "id": "plate-sentry",
+      "count": 1,
+      "query": "Rembrandt Man with the Golden Helmet painting",
+      "want": "A helmeted soldier/guard — the sentry (PD)"
+    },
+    {
+      "id": "plate-burial",
+      "count": 1,
+      "query": "Nikiforos Lytras Antigone Polynices painting",
+      "want": "Lytras, Antigone before the dead Polynices (PD)"
+    },
+    {
+      "id": "plate-confront",
+      "count": 1,
+      "query": "Jean-Leon Gerome Phryne before the Areopagus painting",
+      "want": "Gerome, a woman on trial before authority — Antigone before Creon (PD)"
+    },
+    {
+      "id": "plate-haemon",
+      "count": 1,
+      "query": "Frederic Leighton The Painter's Honeymoon painting",
+      "want": "Leighton, young lovers — Haemon & Antigone (PD)"
+    },
+    {
+      "id": "plate-tomb",
+      "count": 1,
+      "query": "Joseph Wright of Derby grotto cave painting",
+      "want": "A dark rocky cave — the living tomb (PD)"
+    },
+    {
+      "id": "plate-teiresias",
+      "count": 1,
+      "query": "Henry Fuseli Tiresias painting",
+      "want": "Fuseli, the blind prophet Teiresias (PD)"
+    },
+    {
+      "id": "plate-catastrophe",
+      "count": 1,
+      "query": "Jacques-Louis David Lictors Bring to Brutus the Bodies of his Sons painting",
+      "want": "David, bodies brought home to a ruler undone by his own decree (PD)"
+    },
+    {
+      "id": "plate-creon-grief",
+      "count": 1,
+      "query": "Benjamin West King Lear storm painting",
+      "want": "A broken, grieving king — Creon's ruin (PD)"
+    }
+  ]
+}
