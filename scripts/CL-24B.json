@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "code": "CL-24B",
+    "book": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": "1925",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [35, 45],
+    "target_words": [5250, 6750],
+    "voice": "en-GB-RyanNeural",
+    "title": "The Great Gatsby: The Full Story Explained (F. Scott Fitzgerald)",
+    "search_phrase": "Great Gatsby full story explained"
+  },
+  "chapters": [
+    {"title": "West Egg", "first_scene": "hook"},
+    {"title": "Gatsby's Parties", "first_scene": "ch-parties"},
+    {"title": "The Reunion", "first_scene": "ch-reunion"},
+    {"title": "The Confrontation", "first_scene": "ch-confront"},
+    {"title": "The Reckoning", "first_scene": "ch-reckoning"}
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "A mysterious millionaire throws the wildest parties on Long Island — all to win back the one woman he lost. This is The Great Gatsby.",
+      "on_screen": {"question": "A millionaire, a green light, one lost love", "plate": "plate-gatsby"},
+      "assets": ["plate-gatsby"],
+      "notes": "Hook before any title. ~24 words, minimal pauses. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "The Great Gatsby, by F. Scott Fitzgerald, published in nineteen twenty-five.",
+      "on_screen": {"title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "year": "1925", "subtitle": "A Novel"},
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing before we begin. First: The Great Gatsby is widely considered the great American novel — a short, perfect, heartbreaking book that somehow holds the whole promise and whole tragedy of America inside a single summer's love story. It is the novel people mean when they talk about the American Dream, and about how that dream can curdle. Second: it is set in nineteen twenty-two, in the hectic, glittering years that Fitzgerald himself named the Jazz Age — the roaring twenties, when the First World War was over, the stock market was climbing, alcohol was illegal under Prohibition but flowed everywhere through bootleggers, and a newly rich generation threw itself into pleasure as though the party could never end. Fitzgerald captured that world at its dazzling height, just a few years before it all came crashing down. And third: a key to the whole book is who is telling it. The story is narrated by Nick Carraway, a decent, observant young man from the Midwest who moves to New York, becomes Gatsby's neighbour, and gets pulled into his orbit. Nick is both inside the story and standing a little apart from it, by turns enchanted and appalled — and everything we learn about the glamorous, mysterious Jay Gatsby comes filtered through Nick's fascinated, judging eyes. Hold on to that. Because this is, in the end, the story of a man who built an entire glittering empire for one purpose only: to turn back time, and win back a single lost love. One more thing to know going in: Fitzgerald himself lived this world and this longing. He was a Midwesterner dazzled by the East and by old money, who fell in love with a glamorous, wealthy young woman, Zelda, and had to make himself rich and famous to win her — and who then watched the glittering Jazz Age he had helped define collapse, along with much of his own life, into disappointment. He poured all of that — the yearning, the dazzle, and the disillusion — into this book, and the result is a novel that is at once a love story, a social portrait of a reckless decade, and a profound meditation on hope, money, and the gap between who we are and who we dream of being.",
+      "on_screen": {"plate": "plate-city", "camera": "drift"},
+      "assets": ["plate-city"],
+      "notes": "Context: the great American novel / the American Dream; the Jazz Age 1922 (Prohibition, new money); Nick Carraway as the filtering narrator; Gatsby's single purpose."
+    },
+    {
+      "id": "q-opening",
+      "template": "quote-card",
+      "narration": "The novel's famous first lines — Nick's father's advice, and the key to Nick as our narrator.",
+      "on_screen": {"quote": "In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.", "source": "Nick Carraway, opening lines"},
+      "notes": "Verbatim, Gutenberg #64317, lines 65-66."
+    },
+
+    {
+      "id": "w-nick",
+      "template": "parallax-still",
+      "narration": "Nick Carraway, fresh from the war and the Midwest, comes east in the summer of nineteen twenty-two to learn the bond business, and rents a small, weather-beaten cottage in West Egg, a wealthy district on Long Island just outside New York. West Egg is where the new money lives — the self-made, the flashy, the recently rich — and Nick's little house is dwarfed, squeezed right beside an enormous, gaudy imitation-French mansion that belongs to a man he has not yet met: a Mr Gatsby, who throws spectacular parties all summer long. Directly across the bay lies East Egg, where the old money lives — the established, inherited wealth of families who have always been rich. And there, in a graceful mansion, live Nick's cousin Daisy and her husband Tom Buchanan. Nick goes over to dinner, and in that one evening Fitzgerald lays out the whole glittering, rotten world. Daisy is beautiful, charming, and carelessly sad, with a voice Nick can never quite describe — a voice, Gatsby will later say, that is full of money. Her husband Tom is a hulking, arrogant former football star, immensely rich, casually racist, and already restless and unfaithful. At dinner the telephone keeps ringing; it is Tom's mistress in New York, and everyone at the table knows it. Also there is Daisy's friend Jordan Baker, a cool, bored, faintly dishonest young golf champion whom Nick finds himself slowly drawn to over the course of the summer. The talk at dinner is brittle and glittering and faintly desperate; Daisy says, half-joking and wholly sad, that she hopes her little daughter will grow up to be a beautiful little fool, because that is the best thing a girl can be in this world — a line that tells us everything about the gilded cage she lives in. Beneath all the wealth and the wit and the fine linen, Nick senses something hollow, restless, and faintly rotten, a boredom so deep it is almost violent. And as he walks home that night across his dark lawn, he sees his mysterious neighbour Gatsby for the very first time, out alone in the moonlight, standing at the edge of the water and doing something strange and oddly moving.",
+      "on_screen": {"plate": "plate-mansion", "camera": "push-in"},
+      "assets": ["plate-mansion"],
+      "notes": "Nick rents in West Egg (new money) next to Gatsby's mansion; across the bay East Egg (old money) — cousin Daisy & her husband Tom; the dinner; Tom's mistress phones; Jordan Baker; the hollowness; Nick first glimpses Gatsby."
+    },
+    {
+      "id": "w-greenlight",
+      "template": "parallax-still",
+      "narration": "Gatsby is standing at the end of his own dock, and he has stretched his arms out toward the dark water, trembling, reaching for something far across the bay — a single small green light, burning at the end of a dock on the opposite shore. Nick does not understand it yet, but that green light is the most famous symbol in American literature. It burns at the end of Daisy Buchanan's dock, in East Egg. For Gatsby it is the green light of everything he wants — his whole future, his whole hope, the woman and the life he has reached toward for five long years — close enough to see, far enough to be forever out of his grasp. Between the two Eggs and the city, meanwhile, lies a third landscape, and it is the opposite of all that wealth: the valley of ashes, a grey, desolate industrial wasteland of dumped refuse and ash-grey men, where the poor live in the shadow of the rich. Over it all broods a faded old advertising billboard — the enormous, bespectacled eyes of a forgotten oculist, Doctor T. J. Eckleburg, staring down blankly over the ashes like the empty eyes of a God who has stopped watching. In that valley, at a run-down garage, lives a mechanic named George Wilson and his wife Myrtle — and it is Myrtle who is Tom Buchanan's mistress. Early in the book Tom even drags Nick along to meet her, and sweeps Myrtle off to a little New York apartment he keeps for the purpose, where she throws a vulgar, drunken little party and plays at being grand — until, when she dares to chant Daisy's name at him, Tom casually breaks her nose with the back of his hand, and the party ends in blood and screaming. It is an ugly scene, and a deliberate one: Fitzgerald wants us to see, early and clearly, exactly what lies beneath the Buchanans' beautiful manners — casual cruelty, casual power, and a careless willingness to use up other people and throw them away. Keep that valley, those watching eyes, and the Wilsons in mind; they will return at the very end, and bring the whole glittering tower crashing down.",
+      "on_screen": {"plate": "plate-greenlight", "camera": "reveal"},
+      "assets": ["plate-greenlight"],
+      "notes": "Gatsby reaching toward the green light at the end of Daisy's dock (the central symbol); the valley of ashes; the eyes of Doctor T.J. Eckleburg; George & Myrtle Wilson (Tom's mistress); Tom's NY apartment party & breaking Myrtle's nose — the cruelty beneath the Buchanans."
+    },
+
+    {
+      "id": "ch-parties",
+      "template": "chapter-card",
+      "narration": "Hundreds flock to his parties, and nobody knows who he really is — so the rumours do the talking.",
+      "on_screen": {"chapter_title": "Gatsby's Parties",
+        "timeline": {"kind": "timeline-strip", "segments": ["West Egg", "The Parties", "The Reunion", "The Confrontation", "The Reckoning"], "marker": 1}}
+    },
+    {
+      "id": "p-parties",
+      "template": "parallax-still",
+      "narration": "All that summer, on weekend nights, Gatsby's mansion blazes with light and music. Hundreds of people pour in — famous, fashionable, and mostly uninvited — to drink his bootleg champagne, dance to his orchestra, and swim in his pool, feasting on his endless food, almost none of them having ever met or even seen their host. And around the absent Gatsby swirl the wildest rumours: that he is a German spy, that he once killed a man, that he is a bootlegger, that he is secretly royalty. He has become a kind of blank screen onto which the whole careless, gossiping crowd projects its fantasies. Nick, unusually, actually receives a formal invitation, and goes. He wanders the party not knowing which of the guests is Gatsby — until he falls into conversation with a calm, smiling young man his own age, who turns out, astonishingly, to be Gatsby himself. And Fitzgerald gives him one of the great entrances in fiction: Gatsby's smile, Nick says, is one of those rare smiles that seems to understand you and believe in you exactly as you long to be understood and believed in. He calls everyone 'old sport', is impeccably polite, drinks almost nothing, and watches his own roaring party from a strange, lonely distance, as though none of it is really for the people enjoying it. Later Nick glimpses the other side of him: he is introduced to Gatsby's business associate, a shady gambler named Meyer Wolfsheim — the man, it is said, who fixed the nineteen nineteen World Series — a hint that Gatsby's fabulous fortune has come from somewhere very dark indeed. What strikes Nick most, through all the noise and spectacle, is how fundamentally alone Gatsby is in the middle of his own glittering crowd. He does not drink; he does not dance; he stands apart, watching, as though searching the faces for someone who never comes. The hundreds of guests gorge themselves on his hospitality and gossip viciously about him behind his back, and he moves among them a stranger in his own house — a host who seems to want, from all of them, nothing at all. Nick cannot yet make sense of it: the enormous wealth with no visible source, the lavish generosity to people who plainly do not matter to him, the watchful loneliness, the way Gatsby's eyes keep drifting across the water. It is only later that every piece will fall into place, and Nick will understand that this entire extravagant machine — the mansion, the orchestra, the champagne, the crowds — was built and run for one person only, who has never once walked through the door.",
+      "on_screen": {"plate": "plate-party", "camera": "push-in"},
+      "assets": ["plate-party"],
+      "notes": "The lavish uninvited parties; wild rumours about the absent host; Nick is invited, meets Gatsby (the famous smile, 'old sport', distant/sober); Wolfsheim hints at criminal money."
+    },
+    {
+      "id": "p-mystery",
+      "template": "parallax-still",
+      "narration": "Slowly, the mystery of Gatsby begins to come clear — and it turns out to be, at heart, a love story. Through his growing friendship with Jordan Baker, Nick learns the secret behind everything. Five years earlier, before the war, when he was a poor young army officer with nothing, Jay Gatsby had met and fallen desperately in love with Daisy — then a dazzling, sought-after young beauty in Louisville. They loved each other completely, but he was sent overseas to fight, and Daisy, young and impatient and pressed by her family, did not wait. She married the enormously rich Tom Buchanan instead. Gatsby came back from the war with one obsession burning in him: to become rich enough, grand enough, and glittering enough to win Daisy back. Everything since — the mysterious fortune, however he got it, the vast mansion, the endless extravagant parties — has been built toward that single purpose. He chose the house in West Egg specifically because it sits directly across the bay from Daisy's, so that he could look each night at the green light on her dock. The parties were a vast, desperate net, thrown out summer after summer, in the faint hope that Daisy might one night simply wander in. And now Gatsby has a request to make of Nick, through Jordan — a small thing, and an enormous one: he wants Nick to invite Daisy to tea at his little cottage, so that Gatsby can, at long last, 'happen' to come over and see her again. It is a strange and touching detail of just how carefully, how obsessively, Gatsby has planned this: he has thought it through for years, down to the smallest particular, too proud and too nervous to simply knock on her door, needing it all to seem like the most natural accident in the world. And suddenly the whole mystery of the man reassembles itself in front of Nick. The parties were never really parties; they were lures. The fortune was never really the point; it was bait. The enormous mansion was never a home; it was a signal flare lit across the bay, night after night, in the desperate hope that one evening Daisy might see it and come. Everything the dazzling, mysterious Jay Gatsby has done for five relentless years has been, at bottom, the act of a boy still in love, trying to build himself tall enough to be seen from the other shore.",
+      "on_screen": {"plate": "plate-gatsby", "camera": "reveal"},
+      "assets": ["plate-gatsby"],
+      "notes": "Jordan reveals Gatsby's secret: he loved Daisy 5 years ago as a poor officer; she married rich Tom while he was at war; his whole fortune/mansion/parties built to win her back; chose the house across from her green light; asks Nick to arrange a reunion."
+    },
+
+    {
+      "id": "p-gatz",
+      "template": "parallax-still",
+      "narration": "And there is one more secret, the deepest of all, that Nick pieces together only slowly, and that Fitzgerald saves for the end — the truth of where Jay Gatsby actually came from. For there is no such person as Jay Gatsby, not really. He was born James Gatz, the son of poor, unsuccessful farmers in North Dakota, and he was ashamed of them and of his whole hard-scrabble beginning from the time he was a boy. At seventeen, restless and dreaming, he quite literally invented a new self: he changed his name to Jay Gatsby, and created in his own mind a dazzling ideal of the man he intended to become — and then he spent his whole life relentlessly becoming it. His big break came when he rescued a wealthy old yachtsman named Dan Cody from a storm and became his companion, learning the manners and the tastes of the rich. And when, as a poor young officer, he met and loved Daisy, she became the final piece of the dream — the beautiful, golden girl who embodied the whole shining world of wealth and grace he had reinvented himself to join. This is the astonishing, very American heart of Gatsby: he is a self-made man in the most literal sense imaginable, a boy who willed an entire glamorous identity into existence out of nothing but hope and imagination. His fortune, it is strongly implied, came from bootlegging and other crime — the only fast road to wealth open to a nobody in that era. But the hope behind it was real, and total, and almost holy. Gatsby believed, with everything in him, that you really can remake yourself, and your life, into whatever you can dream.",
+      "on_screen": {"plate": "plate-gatsby", "camera": "push-in"},
+      "assets": ["plate-gatsby"],
+      "notes": "Gatsby's true origin: born James Gatz, poor North Dakota farm boy; reinvented himself at 17 into 'Jay Gatsby'; Dan Cody the yachtsman; Daisy as the final piece of the dream; the literal self-made man; fortune from crime but the hope is real."
+    },
+    {
+      "id": "ch-reunion",
+      "template": "chapter-card",
+      "narration": "Nick brings them together again — and for a moment Gatsby holds everything he ever wanted.",
+      "on_screen": {"chapter_title": "The Reunion",
+        "timeline": {"kind": "timeline-strip", "segments": ["West Egg", "The Parties", "The Reunion", "The Confrontation", "The Reckoning"], "marker": 2}}
+    },
+    {
+      "id": "r-tea",
+      "template": "parallax-still",
+      "narration": "Nick agrees, and arranges the tea. On the appointed rainy afternoon Gatsby is a wreck of nerves — he has his lawn mowed and sends over flowers, and is so terrified of this meeting he has waited five years for that he almost flees before Daisy arrives. The first moments, when the two former lovers are at last face to face in Nick's little parlour, are agonisingly awkward, stiff, and silent. But then Nick tactfully leaves them alone for half an hour, and when he returns everything has changed: the rain outside has stopped, and Gatsby is positively glowing, lit up from within, while Daisy's face is wet with happy tears. The old love has rekindled in an instant. Gatsby then takes them both across to his mansion to show it off to Daisy — room after marble room, his gardens, his possessions, the sheer scale of everything he has built for her. In the novel's most famous small moment, he opens his vast wardrobes and begins pulling out dozens and dozens of beautiful, expensive imported shirts, tossing them in a soft bright heap, and Daisy suddenly bends her head into them and begins to cry, saying she has never seen such beautiful shirts. For Gatsby it is a moment of pure triumph — the poor boy made good, the lost love recovered, the dream come true at last. He has, it seems, done the impossible. He has repeated the past. Watching them together that afternoon, Nick notices something poignant and troubling in Gatsby's face — a flicker of doubt behind the joy. For five years Gatsby has lived with a Daisy of his own making, a dream polished to impossible perfection in his imagination; and no living woman, not even the real Daisy standing right in front of him with tears on her cheeks, could ever quite measure up to a vision he has spent half a decade building. There is a moment, Nick senses, when Gatsby almost realises this — when the real Daisy, lovely but ordinary and human, falls just slightly short of the green light he has worshipped across the water. But he pushes the doubt down and lets himself believe. The colossal vitality of his illusion, Nick reflects, had gone beyond Daisy, beyond everything; he had thrown himself into it with a creative passion, adding to it all the time, decking it out with every bright feather that drifted his way. No amount of fire or freshness in the real world could challenge what a man will store up in his ghostly heart. For now, though, the dream and the woman stand together in the same room, and Gatsby is, briefly, completely happy.",
+      "on_screen": {"plate": "plate-mansion", "camera": "push-in"},
+      "assets": ["plate-mansion"],
+      "notes": "Nick arranges the tea; Gatsby's terror; the awkward first meeting then the rekindling (rain stops, Gatsby glowing, Daisy weeping); the tour of the mansion; the shirts scene; Gatsby's moment of triumph."
+    },
+    {
+      "id": "r-past",
+      "template": "parallax-still",
+      "narration": "But here is the flaw at the very heart of Gatsby, the thing that dooms him, and it is this: the Daisy he has loved and worshipped and built an empire for across five long years is not the real, living Daisy at all. She is an idea, a perfect golden dream, polished and enlarged in his imagination until no real woman on earth could ever match her. Gatsby does not simply want Daisy back; he wants to erase the last five years entirely — to have Daisy go to Tom and say she never loved him, so that the two of them can start again exactly where they left off, as though her marriage, her child, all of it, had simply never happened. When Nick gently warns him that you can't ask so much, that you cannot repeat the past, Gatsby cries out in genuine astonishment that of course you can. It is the most revealing line in the book. Gatsby's magnificent, impossible faith — the same faith that lifted him out of poverty and built all of this — is also a kind of blindness. He has staked everything on turning back time, on a dream too perfect for the real world to hold. And the real, flawed, frightened Daisy, however much she is moved, can never be the flawless vision he has made of her. The crack is already there, running quietly beneath all the summer happiness. And there is a deeper poison in it still. Even if Daisy could somehow give him everything he asked, it would not be enough, because what Gatsby truly longs for is not really a person at all — it is a feeling, a moment, a vanished version of himself at twenty-one when the whole future still lay open and golden before him. He wants to be the boy he was on the night he first kissed Daisy, when, Fitzgerald tells us, he wed his unutterable visions to her perishable breath, and his mind would never romp again like the mind of God. He is not chasing a woman across that bay; he is chasing his own lost beginning, the instant before the dream met the world and started, inevitably, to spoil. That is why it can never be caught, and why the reaching is at once so magnificent and so doomed.",
+      "on_screen": {"plate": "plate-greenlight", "camera": "reveal"},
+      "assets": ["plate-greenlight"],
+      "notes": "Gatsby's fatal flaw: he loves an idealized dream-Daisy, not the real one; wants to erase 5 years and have Daisy unsay her marriage; 'can't repeat the past — why of course you can'; the dream is too perfect to survive reality."
+    },
+    {
+      "id": "q-past",
+      "template": "quote-card",
+      "narration": "Gatsby's whole tragedy, in four words of pure, doomed faith.",
+      "on_screen": {"quote": "\"Can't repeat the past?… Why of course you can!\"", "source": "Jay Gatsby"},
+      "notes": "Verbatim, Gutenberg #64317, line 3828 ('“Can’t repeat the past?” he cried incredulously. “Why of course you can!”')."
+    },
+
+    {
+      "id": "ch-confront",
+      "template": "chapter-card",
+      "narration": "On the hottest day of the summer, everything the dream was built on comes crashing down in one room.",
+      "on_screen": {"chapter_title": "The Confrontation",
+        "timeline": {"kind": "timeline-strip", "segments": ["West Egg", "The Parties", "The Reunion", "The Confrontation", "The Reckoning"], "marker": 3}}
+    },
+    {
+      "id": "c-tom",
+      "template": "parallax-still",
+      "narration": "For a few weeks Gatsby and Daisy carry on their affair, and Gatsby even stops throwing his parties, since their only purpose — to attract Daisy — has been served. But Tom Buchanan, for all his own blatant unfaithfulness, begins to notice the way Gatsby looks at his wife, and grows suspicious and jealous. He does some digging into where exactly this flashy neighbour's money came from. Then, on the hottest, most stifling day of the summer, the tension finally snaps. The whole uneasy group — Nick, Jordan, Gatsby, Daisy, and Tom — gathers at the Buchanans' house, the air thick and unbearable, and Daisy, reckless, lets her feelings for Gatsby show a little too plainly in front of her husband. Tom, now certain, coldly insists they all drive into New York City. They take two cars, and on the way they stop for petrol at George Wilson's run-down garage in the valley of ashes — the garage of Tom's own mistress, Myrtle. There Tom learns a second blow: Wilson, who has no idea who his wife's lover is, has finally discovered that Myrtle has been unfaithful, and plans to take her away out west. In a single afternoon Tom senses he is about to lose both his wife and his mistress at once. He drives on into the city in a cold fury, and the whole party ends up, absurdly and fatefully, in a stifling suite at the Plaza Hotel, having rented a room simply because no one could think of anything else to do with the terrible heat and the terrible tension. Fitzgerald orchestrates the whole thing like a slow tightening of a vice: the unbearable temperature, the warm sour champagne, somebody's wedding music drifting up from a ballroom below, everyone's nerves scraped raw. It is one of the great set-pieces in American fiction precisely because nothing in it is dramatic on the surface — it is just five overheated, unhappy people in a hotel room — and yet you can feel the entire story bending toward the breaking point. Gatsby thinks this is the hour of his triumph, the moment Daisy will finally and publicly become his. Tom knows it is the hour he takes everything back. And Daisy, trapped between the man she married and the man she dreamed of, can feel the walls closing in.",
+      "on_screen": {"plate": "plate-valley", "camera": "push-in"},
+      "assets": ["plate-valley"],
+      "notes": "Gatsby & Daisy's affair; Gatsby stops the parties; Tom grows suspicious & investigates Gatsby's money; the hot day; Daisy too open; drive to the city; stop at Wilson's garage (Wilson has discovered Myrtle's affair, plans to leave); Tom fears losing both women; the Plaza."
+    },
+    {
+      "id": "c-plaza",
+      "template": "parallax-still",
+      "narration": "In that sweltering hotel room, the confrontation finally explodes. Gatsby, sure of his dream, pushes for everything at once — he tells Tom that Daisy never loved him, that she is going to leave him. And Tom, fighting back hard, does two things. First, he forces the question of Gatsby's fortune into the open, exposing him as a bootlegger and a criminal, in business with gangsters like Wolfsheim — tearing away the glittering respectable surface to reveal the shady new-money reality beneath, and shaming Gatsby in front of Daisy. And second, and more fatally, he turns to Daisy and demands the truth: did she ever really love him, Tom? And this is the moment Gatsby's entire five-year dream dies. Because Daisy cannot do it. She cannot say she never loved Tom. Pressed and panicking, she admits that she did love Tom, once — that she loved them both. It is not the absolute, past-erasing, all-or-nothing devotion Gatsby demanded; it is the ordinary, compromised truth of a real human heart. And it is not enough. The perfect dream shatters in that instant. Tom, sensing he has won, contemptuously tells Gatsby that whatever there was between him and Daisy is finished, and — the final humiliation — orders Daisy to drive home with Gatsby, so sure now that Gatsby is no longer any threat at all. The dream is already dead; the rest is only wreckage. What makes the scene so devastating is that Gatsby never sees it coming. Right up to the last second he believes that the sheer force of his love and his will can simply override the facts — that if he insists hard enough, Daisy will unsay her whole marriage and the past five years will dissolve. He has staked his entire reinvented self on this one golden idea, and he watches it die in real time, in a hotel room smelling of whisky and heat, as the woman he rebuilt the world for quietly chooses comfort and safety and her own kind over his impossible dream. And Tom, the brutal, careless aristocrat, wins not because he is better — he is plainly worse — but simply because he and Daisy belong to the same solid, moneyed world, and when it comes to the crisis they instinctively close ranks against the dazzling outsider who was never quite one of them. The old money keeps its own. Gatsby, for all his mansions and shirts, remains to the end James Gatz of North Dakota, the boy who was never allowed in.",
+      "on_screen": {"plate": "plate-city", "camera": "reveal"},
+      "assets": ["plate-city"],
+      "notes": "The Plaza showdown: Gatsby demands Daisy renounce Tom; Tom exposes Gatsby's bootlegging/criminal money; Tom forces Daisy — she admits she loved Tom too (can't give the absolute Gatsby needs); the dream dies; Tom contemptuously sends Daisy home with Gatsby."
+    },
+    {
+      "id": "c-death",
+      "template": "parallax-still",
+      "narration": "They drive back out toward Long Island in the dusk, Daisy at the wheel of Gatsby's great yellow car, trying to calm her shattered nerves. And as they pass through the valley of ashes, catastrophe strikes. Myrtle Wilson, Tom's mistress, locked in the garage by her suspicious husband and seeing the yellow car she thinks belongs to Tom, breaks loose and runs out into the road toward it — and the car, driven by Daisy, strikes her at full speed and kills her instantly, without even stopping. There is a bitter irony stacked on irony here. Myrtle ran toward that car because she thought Tom was driving it — she was trying to reach her lover, to escape her husband and the ash-grey life she hated. Instead she was killed by Tom's wife, driving Tom's rival's car, carrying Tom's rival away from the wreck of Tom's marriage. The valley of ashes claims the one person desperate to escape it, crushed by the careless machine of the rich as it roars back toward safety. Nick, Tom, and Jordan, driving behind, arrive to the horror of Myrtle's torn body and the gathering, wailing crowd, and the blind billboard eyes of Doctor Eckleburg looking down on all of it. And now Gatsby makes the choice that defines him. He tells Nick, quietly, that Daisy was driving — but that he will say he was driving himself, and take the blame entirely, to protect her. He then stations himself outside the Buchanans' house in the dark, keeping a hopeless vigil, watching Daisy's lighted window for hours, ready to protect her from Tom's anger — not knowing that inside, at that very moment, Daisy and Tom are sitting together over cold chicken, reconciling, quietly closing ranks, already withdrawing back into their money and each other. Gatsby stands guard all night over a love that has already abandoned him. It is one of the most quietly heartbreaking images in all of literature: the great Gatsby, master of the summer, keeping his lonely watch in the moonlight outside a dark house, convinced he is still the hero of a love story that ended hours ago without his knowing. Nick, slipping away, looks back at him standing there in the garden, guarding nothing, and the phrase that comes to him is that Gatsby is watching over nothing. The dream is over, but the dreamer has not yet been told. And Myrtle Wilson, meanwhile, lies dead in the valley of ashes beneath the great blind eyes of Doctor Eckleburg — killed by the careless rich, who will drive away from her body exactly as they drive away from everything they break.",
+      "on_screen": {"plate": "plate-valley", "camera": "push-in"},
+      "assets": ["plate-valley"],
+      "notes": "Driving home, Daisy (at the wheel of Gatsby's yellow car) hits & kills Myrtle, who ran out thinking it was Tom; doesn't stop; Gatsby takes the blame to protect Daisy; keeps vigil outside her house while she & Tom quietly reconcile inside."
+    },
+
+    {
+      "id": "ch-reckoning",
+      "template": "chapter-card",
+      "narration": "The man everyone came to — in the end, almost no one came for.",
+      "on_screen": {"chapter_title": "The Reckoning",
+        "timeline": {"kind": "timeline-strip", "segments": ["West Egg", "The Parties", "The Reunion", "The Confrontation", "The Reckoning"], "marker": 4}}
+    },
+    {
+      "id": "e-murder",
+      "template": "parallax-still",
+      "narration": "The ending comes swiftly and terribly. George Wilson, half-mad with grief over his dead wife, sets out to find the driver of the yellow car that killed her. And Tom Buchanan, when Wilson comes to him, tells him the car belonged to Gatsby — letting Wilson believe that Gatsby was both Myrtle's lover and her killer, and quietly steering a murderer toward the man who threatened his marriage. Through that long, terrible night Wilson sits with his dead wife and slowly comes apart, muttering to a neighbour, and staring out at the giant faded eyes of Doctor Eckleburg on the billboard until, in his shattered mind, they become the eyes of God Himself, who sees everything and will not let the guilty escape. By morning he has fixed on his purpose, and he sets out on foot across the ash-grey country, a ruined man with a pistol, carrying Tom's lie inside him like a loaded fuse. Wilson makes his way, mile after weary mile, to Gatsby's mansion. And there, the next afternoon, Gatsby — still waiting, impossibly, for a telephone call from Daisy that will never come, still clinging to the dream even now — decides to use his swimming pool for the first time all summer. As he floats on an air-mattress on the bright water, George Wilson finds him, shoots him dead, and then turns the gun on himself. So Gatsby dies, in the pool of the palace he built for Daisy, for a crime he did not commit, protecting a woman who has already gone back to her husband and who will not even send word. The green light goes out. And the terrible, quiet irony is that the call he was waiting for was never going to come: Daisy and Tom have already packed and left, without a forwarding address, without a note. There is a terrible, perfect symmetry to the ending. Gatsby took the blame to protect Daisy; Daisy let him; Tom used a grieving madman as his weapon and never got his own hands dirty; and the poor, broken Wilson, the one truly innocent sufferer in the whole story, destroyed the wrong man and then himself. Four lives shattered in the valley of ashes and the swimming pool — and the two people most responsible, Tom and Daisy, walk away without a scratch, as they always do. Gatsby's great reinvention, his years of hope, his monstrous and beautiful dream, all end with him floating face-up and alone on the water he never had time to enjoy, in the stillness of a house that was never really a home.",
+      "on_screen": {"plate": "plate-mansion", "camera": "reveal"},
+      "assets": ["plate-mansion"],
+      "notes": "Grief-mad George Wilson hunts the yellow car's driver; Tom points him to Gatsby (letting him think Gatsby was the lover/killer); Wilson shoots Gatsby in his pool, then himself; Gatsby dies for Daisy's crime, still waiting for a call; Daisy & Tom have fled."
+    },
+    {
+      "id": "e-funeral",
+      "template": "parallax-still",
+      "narration": "And then comes the most damning stroke of all. Gatsby, who filled his house every single weekend with hundreds upon hundreds of laughing, drinking guests, is buried before almost no one. Nick, sickened and loyal, tries desperately to gather people for the funeral — and discovers the appalling emptiness behind all that glittering popularity. Daisy does not come; she does not even send flowers. Tom does not come. The hundreds of party guests who drank his champagne vanish, inventing excuses or simply not answering. Even the gangster Wolfsheim, Gatsby's own business partner, who owed him everything, sends a cold little note saying he cannot possibly get mixed up in it. In the end only three people stand at the grave in the rain: Nick; Gatsby's old father, a poor, proud man from Minnesota who has travelled a long way and still believes his boy would have been a great man; and one bewildered party guest, a man Nick remembers only as 'Owl Eyes', who turns up at the last moment and murmurs, looking at the empty crowd, the poor son-of-a-bitch. It is the final verdict on the careless, glittering world Gatsby gave everything to join. They took everything he had to offer, and when he was gone, not one of them troubled to come and say goodbye. Gatsby's father shows Nick a tattered old boyhood schedule the young James Gatz once wrote in the back of a book — a strict daily plan of self-improvement, hours for study and exercise and 'practising elocution', resolutions to be better, to rise, to make something of himself. It is almost unbearably poignant: the proof that behind the bootlegger and the showman was a boy who genuinely believed, in the great American way, that by sheer discipline and hope he could lift himself into a shining life. And it is here that Nick turns, with real and lasting anger, on the people who used that boy's dream and then let him die alone — on the whole careless, glittering class of them, and on Tom and Daisy above all. Nick, who began the book withholding judgement as his father taught him, finds at last that there are some things he cannot help but judge.",
+      "on_screen": {"plate": "plate-funeral", "camera": "push-in"},
+      "assets": ["plate-funeral"],
+      "notes": "The empty funeral — none of the hundreds of guests come; Daisy sends nothing; only Nick, Gatsby's father, and 'Owl Eyes' at the grave in the rain ('the poor son-of-a-bitch'); the verdict on the careless rich; Nick's anger at Tom & Daisy."
+    },
+    {
+      "id": "q-careless",
+      "template": "quote-card",
+      "narration": "Nick's final verdict on Tom and Daisy — and on a whole careless class.",
+      "on_screen": {"quote": "They were careless people, Tom and Daisy — they smashed up things and creatures and then retreated back into their money…", "source": "Nick Carraway"},
+      "notes": "Verbatim (trimmed with ellipsis), Gutenberg #64317, lines 6370-6373."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why has this slim little novel become, for so many, the great American story? Partly it is Fitzgerald's prose, which is simply some of the most beautiful ever written in English — lyrical, precise, shimmering with longing — so that the book reads almost like a poem and can be finished in a single sitting, yet haunts you for years. People return to it again and again, often reading it two or three times across a lifetime, and find it means something different each time — a dazzling romance when you are young, a tragedy of class and money when you are older, and finally a quiet, devastating study of how we spend our lives reaching for things that recede as we approach them. Scarcely a page goes by without a sentence worth stopping over. But mostly it is what the story means. Gatsby is the ultimate figure of the American Dream — the poor boy who reinvents himself completely, who believes with his whole heart that through sheer will and hope he can become anything, have anything, even turn back time itself. And Fitzgerald loves him for that boundless hope even as he shows us, unflinchingly, how it destroys him. For the dream Gatsby chases is hollow at the centre. Daisy and Tom and their whole golden world are careless, empty, and cruel; the fortune is built on crime; and the perfect past he reaches for can never be recovered, because it never really existed outside his own longing. The green light he strains toward across the water is always just out of reach — and the moment he finally grasps the dream, it dissolves. In Gatsby's doomed, magnificent reaching, Fitzgerald saw something he believed was true of all of us, and of America itself: that we are forever straining toward a bright future that keeps receding before us, and forever borne backward, against our will, into the past. There is a reason Nick, for all he comes to see, cannot quite condemn Gatsby himself. On the contrary, he tells him near the end that he is worth the whole rotten crowd of them put together — the one honest compliment Nick ever pays anyone in the book. Because Gatsby, criminal and deluded as he is, possesses the one thing all the careless, comfortable people around him entirely lack: a capacity for wonder, an extravagant readiness to hope, a heart that could commit itself wholly to something and believe. That is what Fitzgerald mourns. Not the wealth, not the parties, not even the love affair — but the terrible waste of so much pure, misdirected faith, poured out on a golden girl and a golden world that were never worthy of it. It is a love story, a tragedy, and a warning all at once — and the last lines, once you have read them, you will never quite forget.",
+      "on_screen": {"plate": "plate-greenlight", "camera": "drift"},
+      "assets": ["plate-greenlight"],
+      "notes": "Close: why it endures — Fitzgerald's prose; Gatsby as the American Dream (boundless hope) and its hollowness (careless rich, criminal money, the unrecoverable past); the green light always receding; love story + tragedy + warning."
+    },
+    {
+      "id": "q-closing",
+      "template": "quote-card",
+      "narration": "The most famous closing line in American fiction — the whole book in a single image.",
+      "on_screen": {"quote": "So we beat on, boats against the current, borne back ceaselessly into the past.", "source": "closing line"},
+      "notes": "Verbatim, Gutenberg #64317, lines 6431-6432."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's The Great Gatsby — a man who built a kingdom to win back the past, and lost everything reaching for a green light across the water. If you want more, there are full retellings of the other great books waiting on the channel, with more arriving all the time. It is short, perfect, and devastating — read it for the prose alone, and let that last line stay with you. Thanks for watching.",
+      "on_screen": {"message": "More full retellings on the channel", "points_to": "CL-01B"},
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}

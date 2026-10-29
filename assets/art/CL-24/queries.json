@@ -1,0 +1,49 @@
+{
+  "book_code": "CL-24",
+  "book": "The Great Gatsby",
+  "note": "Art queries for Fitzgerald's The Great Gatsby. Wikimedia Commons, PD/CC0 only. The novel is 1920s but PD Jazz-Age art is scarce, so we evoke its moneyed world with Gilded-Age painters whose work is firmly PD: Sargent portraits/villas for Gatsby and his mansion, Whistler nocturnes for the dark bay and the green light, Tissot society scenes for the parties, Hassam for the city, an industrial scene for the valley of ashes, and a Friedrich cemetery for the funeral. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-gatsby",
+      "count": 1,
+      "query": "John Singer Sargent portrait of a gentleman painting",
+      "want": "An elegant, self-made man — Gatsby (PD)"
+    },
+    {
+      "id": "plate-city",
+      "count": 1,
+      "query": "Childe Hassam New York city street painting",
+      "want": "New York, the Jazz Age city (PD)"
+    },
+    {
+      "id": "plate-mansion",
+      "count": 1,
+      "query": "John Singer Sargent villa garden painting",
+      "want": "A grand mansion and grounds — Gatsby's house (PD)"
+    },
+    {
+      "id": "plate-greenlight",
+      "count": 1,
+      "query": "James McNeill Whistler nocturne river night painting",
+      "want": "A dark bay at night with a distant light — the green light (PD)"
+    },
+    {
+      "id": "plate-party",
+      "count": 1,
+      "query": "Pierre-Auguste Renoir Dance at Moulin de la Galette painting",
+      "want": "A lively crowd dancing — Gatsby's parties (PD)"
+    },
+    {
+      "id": "plate-valley",
+      "count": 1,
+      "query": "industrial smoke factory landscape painting",
+      "want": "A grey industrial wasteland — the valley of ashes (PD)"
+    },
+    {
+      "id": "plate-funeral",
+      "count": 1,
+      "query": "Caspar David Friedrich cemetery snow graveyard painting",
+      "want": "A bleak graveyard — Gatsby's empty funeral (PD)"
+    }
+  ]
+}
