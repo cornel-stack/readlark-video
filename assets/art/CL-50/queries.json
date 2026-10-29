@@ -1,0 +1,79 @@
+{
+  "book_code": "CL-50",
+  "book": "Siddhartha",
+  "note": "Art queries for Hermann Hesse's Siddhartha. Wikimedia Commons, PD/CC0 only. Set in the Buddha's India, so the look draws on public-domain Indian and Buddhist art — Raja Ravi Varma's paintings (d.1906), Gandhara and Ajanta Buddhist sculpture and murals, Mughal/Rajput miniatures — plus serene river and water imagery from Japanese woodblock masters (Hiroshige, Hokusai). The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-brahmin",
+      "count": 1,
+      "query": "Raja Ravi Varma Shakuntala painting",
+      "want": "Ravi Varma, refined ancient-Indian figures — Siddhartha's world (PD)"
+    },
+    {
+      "id": "plate-samanas",
+      "count": 1,
+      "query": "Gandhara fasting Buddha emaciated sculpture",
+      "want": "The emaciated ascetic — the Samanas (PD)"
+    },
+    {
+      "id": "plate-buddha",
+      "count": 1,
+      "query": "Gandhara seated Buddha sculpture",
+      "want": "A seated Buddha — Gotama (PD Gandhara sculpture)"
+    },
+    {
+      "id": "plate-river",
+      "count": 1,
+      "query": "Hokusai waterfall woodblock print",
+      "want": "Hokusai, falling water — the river (PD)"
+    },
+    {
+      "id": "plate-ferry",
+      "count": 1,
+      "query": "Hiroshige ferry boat river woodblock print",
+      "want": "A ferry on the river — Vasudeva (PD)"
+    },
+    {
+      "id": "plate-kamala",
+      "count": 1,
+      "query": "Raja Ravi Varma beautiful woman painting",
+      "want": "Ravi Varma, a beautiful woman — Kamala (PD)"
+    },
+    {
+      "id": "plate-wealth",
+      "count": 1,
+      "query": "Mughal miniature painting prince court",
+      "want": "A rich court — Siddhartha's merchant life (PD miniature)"
+    },
+    {
+      "id": "plate-sansara",
+      "count": 1,
+      "query": "Mughal miniature feast wine painting",
+      "want": "Worldly pleasure and excess — Sansara (PD miniature)"
+    },
+    {
+      "id": "plate-son",
+      "count": 1,
+      "query": "Raja Ravi Varma mother and child painting",
+      "want": "Ravi Varma, a child / family — the son (PD)"
+    },
+    {
+      "id": "plate-om",
+      "count": 1,
+      "query": "lotus mandala painting Buddhist",
+      "want": "A lotus / mandala — Om, the unity (PD)"
+    },
+    {
+      "id": "plate-enlighten",
+      "count": 1,
+      "query": "Hokusai Great Wave off Kanagawa print",
+      "want": "Hokusai, the Great Wave — water/enlightenment (PD)"
+    },
+    {
+      "id": "plate-smile",
+      "count": 1,
+      "query": "Gandhara Buddha statue head sculpture",
+      "want": "A serene Buddha face — the final smile (PD)"
+    }
+  ]
+}

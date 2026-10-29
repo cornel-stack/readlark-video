@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "code": "CL-50B",
+    "book": "Siddhartha",
+    "author": "Hermann Hesse",
+    "year": "1922",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Siddhartha: The Full Story Explained (Hermann Hesse)",
+    "search_phrase": "Siddhartha Hesse full story explained"
+  },
+  "chapters": [
+    {
+      "title": "The boy who had everything",
+      "first_scene": "hook"
+    },
+    {
+      "title": "The Brahmin's Son",
+      "first_scene": "ch-brahmin"
+    },
+    {
+      "title": "The Buddha",
+      "first_scene": "ch-buddha"
+    },
+    {
+      "title": "Kamala and the World",
+      "first_scene": "ch-world"
+    },
+    {
+      "title": "By the River",
+      "first_scene": "ch-river"
+    },
+    {
+      "title": "Om",
+      "first_scene": "ch-om"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "A young man has everything — brilliance, status, a holy future handed to him. And he walks away from all of it, certain that wisdom is the one thing nobody can ever teach you.",
+      "on_screen": {
+        "question": "The boy who had everything",
+        "plate": "plate-brahmin"
+      },
+      "assets": [
+        "plate-brahmin"
+      ],
+      "notes": "Hook before any title. ~33 words, ≤15s."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Siddhartha, by Hermann Hesse, published in nineteen twenty-two.",
+      "on_screen": {
+        "title": "Siddhartha",
+        "author": "Hermann Hesse",
+        "year": "1922",
+        "subtitle": "An Indian Tale"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. Hermann Hesse was a German writer, the son of missionaries, who became fascinated by Indian and Chinese thought, and wrote this short, luminous novel in the aftermath of the First World War, when the old European certainties lay in ruins and a whole generation was looking East for something to believe in. Second: it is set in ancient India, in the time of the Buddha — and this is the clever heart of the book. The hero is not the Buddha; he is a seeker named Siddhartha who actually meets the Buddha, admires him, and then decides not to follow him. And third: hold on to one idea the whole way through, because it is the novel's spine — that wisdom, unlike knowledge, cannot be taught or handed over in words. It can only be lived, found by each person for themselves, usually the hard way. Siddhartha spends a lifetime proving it. It became, decades later, one of the key books of the nineteen-sixties counterculture — a whole generation of young Westerners read it as a kind of permission slip to go looking for meaning outside the churches and institutions they had inherited. And it is worth knowing that Hesse was in deep psychological distress when he wrote it, undergoing analysis influenced by Carl Jung; so beneath the Indian robes, this is also a very modern book about a man trying to become whole, to integrate every part of himself, rather than amputate the parts that frighten him.",
+      "on_screen": {
+        "plate": "plate-buddha",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-buddha"
+      ],
+      "notes": "Context: Hesse, post-WWI turn East; set in the Buddha's India; the hero is NOT the Buddha; wisdom can't be taught."
+    },
+    {
+      "id": "ch-brahmin",
+      "template": "chapter-card",
+      "narration": "He is given a perfect life — and finds, to everyone's bewilderment, that it is not enough.",
+      "on_screen": {
+        "chapter_title": "The Brahmin's Son",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Brahmin's Son",
+            "The Buddha",
+            "The World",
+            "The River",
+            "Om"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "b-son",
+      "template": "parallax-still",
+      "narration": "Siddhartha is the handsome, gifted son of a Brahmin — a member of the highest priestly caste in ancient India. He has everything a young man could want: he is beloved, brilliant, destined to become a great priest like his father; everyone who meets him is sure he is bound for greatness. His devoted friend Govinda follows him like a shadow, certain Siddhartha will become something extraordinary. And yet, quietly, Siddhartha is not happy. He has learned all the prayers, performed all the rituals, absorbed all the wisdom his elders can give — and he senses that none of it has actually brought him what it promised. His teachers have poured knowledge into him, but the thing he is really thirsty for — some direct experience of the divine, of the Self, of the unity at the root of everything — they cannot give him, because, he suspects, they have never truly found it themselves. To feel the force of his discontent, you have to understand what he is giving up. As a Brahmin's son he sits at the very top of a rigid religious world; the path to holiness is laid out for him, approved, guaranteed. The goal of all that Hindu practice is to realise the Atman — the deepest Self — and know it to be one with Brahman, the divine ground of everything. Siddhartha can recite all of this flawlessly. That is exactly the problem. He sees that his elders can say the words and perform the rites and still, visibly, not have arrived — that they are passing down a map to a country none of them has ever actually visited. And a map, he decides, is not the journey.",
+      "on_screen": {
+        "plate": "plate-brahmin",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-brahmin"
+      ],
+      "notes": "Siddhartha the Brahmin's son; gifted, beloved, Govinda his follower; yet unsatisfied — ritual knowledge isn't enough."
+    },
+    {
+      "id": "b-samanas",
+      "template": "parallax-still",
+      "narration": "So Siddhartha makes his first great renunciation. When a group of Samanas — wandering ascetics, naked, emaciated, holy wanderers who own nothing and mortify their bodies — pass through the town, he announces that he will join them. His father forbids it, and Siddhartha simply stands in the room, motionless, all night, until his father understands that the boy has already gone. He leaves, with the faithful Govinda beside him, and for years he learns the ascetic's arts: to fast, to endure pain and heat and hunger, to still his desires, to empty himself out. He learns to leave his own body behind, to become a heron, a dead jackal, to lose the self. But each time, he returns to himself — thirsty, ageing, no nearer the goal. He has learned only, he decides, new ways of running away from himself, the same escape a drunkard finds in wine. Asceticism offers a clear logic: if the self and its endless cravings are the source of all suffering, then kill the cravings, starve the self, and you will be free. So Siddhartha becomes a virtuoso of self-denial. He fasts until his ribs show; he learns to feel nothing, want nothing, almost be nothing. But he keeps noticing the flaw. Each practised trance is only a temporary holiday from himself, exactly like the ox-driver who gets drunk in a tavern to forget his life for a few hours. He always comes back. You cannot, he realises, reach the Self by running away from it — and running away is all that fasting and trance really are. The ascetics, like the Brahmins before them, have not found it either.",
+      "on_screen": {
+        "plate": "plate-samanas",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-samanas"
+      ],
+      "notes": "Joins the Samanas (ascetics) with Govinda; years of fasting/self-denial; concludes it is only another escape from the self."
+    },
+    {
+      "id": "b-credo",
+      "template": "parallax-still",
+      "narration": "Still, those hard years leave Siddhartha with three plain skills he will carry for the rest of his life — and which he states, again and again, with a quiet pride, as the whole of what he can do. He can think. He can wait. He can fast. It sounds like very little. But in it is the patience that lets him outlast other people, the inner discipline that frees him from need, and the clear mind that sees through illusions. Keep these three in mind: they are the tools he takes from asceticism into a very different life, and the novel will test, much later, whether they were wisdom or just another kind of pride. Think about why these three are powerful. To be able to wait is to be free of impatience and fear, never forced into a bad bargain by need. To be able to fast is to be free of hunger's panic, able to go without and so never desperate. And to be able to think is to see clearly through other people's illusions and your own. Together they add up to a kind of sovereignty — a man who needs nothing has power over everyone who needs something. But notice the shadow in it, too: there is pride in that list, a faint contempt for ordinary people drowning in their wants, and the novel will eventually make Siddhartha pay for that pride in full.",
+      "on_screen": {
+        "plate": "plate-samanas",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-samanas"
+      ],
+      "notes": "Siddhartha's credo from the Samana years: think / wait / fast. Flagged as both strength and possible pride."
+    },
+    {
+      "id": "q-credo",
+      "template": "quote-card",
+      "narration": "His answer, whenever the world asks what he is good for.",
+      "on_screen": {
+        "quote": "I can think. I can wait. I can fast.",
+        "source": "Siddhartha"
+      },
+      "notes": "Verbatim, Gutenberg #2500, line 1495."
+    },
+    {
+      "id": "ch-buddha",
+      "template": "chapter-card",
+      "narration": "He meets the most enlightened man alive — and decides not to become his pupil.",
+      "on_screen": {
+        "chapter_title": "The Buddha",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Brahmin's Son",
+            "The Buddha",
+            "The World",
+            "The River",
+            "Om"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "bu-gotama",
+      "template": "parallax-still",
+      "narration": "Word spreads of a man who has reached the thing Siddhartha is seeking: Gotama, the Buddha, the Enlightened One, who is said to have overcome all suffering and stopped the wheel of rebirth. Siddhartha and Govinda leave the Samanas to find him. And when they do, Siddhartha is deeply moved — not by the teaching, exactly, but by the man himself: the perfect peace of his walk, his downcast eyes, his still hand, a serenity that radiates from him like light. Here, plainly, is someone who has actually arrived. Govinda is overwhelmed, and on the spot takes his vows and joins the Buddha's order of monks. The two friends, for the first time in their lives, are about to part. This is the Buddha of history — Gotama, Siddhartha's near-namesake, who taught that life is suffering, that suffering comes from craving, and that there is a path beyond it. And in the two friends Hesse draws two eternal human types. Govinda is the natural disciple: good, earnest, devoted, happiest when he has a teacher to follow and a doctrine to obey — and he will spend his whole life following, and seeking, and never quite arriving. Siddhartha cannot do it. Something in him simply cannot hand the keys of his soul to anyone else, however holy. It will cost him decades of wandering. It is also the only thing that will, in the end, save him.",
+      "on_screen": {
+        "plate": "plate-buddha",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-buddha"
+      ],
+      "notes": "They seek out Gotama the Buddha; Siddhartha moved by his serenity; Govinda becomes a monk; the friends part."
+    },
+    {
+      "id": "bu-refusal",
+      "template": "parallax-still",
+      "narration": "But Siddhartha does not join. In a respectful, extraordinary conversation, he tells the Buddha himself why. Your teaching is flawless, he says — the doctrine of the unity of the world, of cause and effect, is perfect and complete. But a teaching, however perfect, contains one thing it can never pass on: the actual experience of enlightenment, the thing that happened to you, Gotama, in your own moment of awakening. That cannot be put into words and taught; it can only be lived. And so, Siddhartha says, no teaching can ever save him — he must go and find it for himself, in his own life, or not at all. It is a breathtaking moment: the seeker turns down the one teacher who has what he wants, because he has grasped that wanting it from a teacher is precisely the mistake. Sit with how audacious this is. A young nobody tells the most enlightened being of the age, to his face, that his teaching — while perfect — cannot help him. And the Buddha, far from being angry, warns him gently only to beware of being too clever. Siddhartha's point is piercingly simple. The Buddha did not reach enlightenment by following someone else's teaching; he reached it through his own lived experience under the bodhi tree. So the one essential thing — the awakening itself — is precisely the thing the teaching, by its nature, leaves out, because experience cannot be packed into doctrine and handed over. To truly follow the Buddha, Siddhartha realises, he would have to do what the Buddha did: stop following, and go and live it himself.",
+      "on_screen": {
+        "plate": "plate-buddha",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-buddha"
+      ],
+      "notes": "Siddhartha declines to follow the Buddha; the insight that enlightenment is experience, not transferable doctrine."
+    },
+    {
+      "id": "bu-awakening",
+      "template": "parallax-still",
+      "narration": "Walking away alone, Siddhartha has a kind of first awakening — and it turns everything he has done so far upside down. All these years, he realises, he has been trying to escape the self, to deny the world, to flee his own senses toward some abstract spirit. And it has failed. So now he makes the opposite resolution. He will stop running from the world and turn toward it. He will learn from himself, be his own pupil, and plunge into life — its colours, its pleasures, its pains — instead of fleeing them. He looks around, and the world that the ascetic had despised as mere illusion suddenly seems beautiful: the river, the sky, the trees, all of it worth looking at for its own sake. He feels newly born. And, significantly, he feels completely alone — no father, no teachers, no Govinda, no doctrine. Just himself, and a whole life to walk into. This is the hinge of the whole book, so it is worth stating plainly what flips. Up to now, every path Siddhartha has tried — Brahmin, Samana, the Buddha's order — has pointed the same direction: away from the world, away from the senses, away from the self, toward some pure abstract spirit. And all of it has failed him. So he turns a hundred and eighty degrees. The world he was taught to dismiss as Maya, as mere illusion, he now resolves to take seriously, to enter, to taste. Meaning is not hiding behind the world, he decides; it is in the world, in the river and the woman and the gold and the grief. He will find the divine not by escaping his life but by living it all the way down. It is a stunningly modern, almost Western idea, dressed in Indian robes — and it is about to lead him straight into disaster, because he has to learn its limits too. And there is a quiet structural beauty to it: the novel will put Siddhartha through the two great one-sided answers humanity keeps reaching for — pure spirit, pure flesh — and let him exhaust them both before it shows him the third thing, the reconciliation, that lies beyond either. The ascetic denied the body and failed. Now the sensualist will indulge it, and fail too. Only much later, by the river, will the two halves finally be allowed to meet.",
+      "on_screen": {
+        "plate": "plate-river",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-river"
+      ],
+      "notes": "The 'Awakening': rejects escape/asceticism, resolves to embrace the world and learn from himself; reborn, alone."
+    },
+    {
+      "id": "ch-world",
+      "template": "chapter-card",
+      "narration": "He throws himself into everything he once renounced — and it very nearly destroys him.",
+      "on_screen": {
+        "chapter_title": "Kamala and the World",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Brahmin's Son",
+            "The Buddha",
+            "The World",
+            "The River",
+            "Om"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "w-river1",
+      "template": "parallax-still",
+      "narration": "Siddhartha comes to a wide river, and a kindly ferryman rows him across. Watch this ferryman — his name is Vasudeva, and though Siddhartha barely notices him now, this quiet man and this river will turn out to be the most important things in his whole life. The ferryman tells him, almost offhandedly, that the river is a wonderful teacher, that one can learn everything from it. Siddhartha thanks him and walks on, not understanding. He is young still, and in a hurry, and headed for the city, and the river's lesson is decades away. He will have to lose everything first, and come back. Hesse is quietly laying his structure here, and it rewards noticing. The river will be the great symbol of the novel — the boundary between the world of the spirit and the world of the senses, and, in the end, the teacher that unites them. Each time Siddhartha crosses or returns to it marks a turn in his life. Right now he crosses it outward-bound, young and hungry, barely hearing the ferryman's quiet words. Decades later he will come back to this exact spot, broken, to learn everything the river has been patiently waiting to tell him.",
+      "on_screen": {
+        "plate": "plate-ferry",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-ferry"
+      ],
+      "notes": "First river crossing; meets the ferryman Vasudeva, who says the river can teach everything; Siddhartha passes on."
+    },
+    {
+      "id": "w-kamala",
+      "template": "parallax-still",
+      "narration": "In the city, Siddhartha sees Kamala — a beautiful, clever courtesan carried in a sedan chair — and decides she will be his teacher in the one art the forest never taught him: love. He is still a ragged ascetic, with nothing to offer. But when she asks what he can do, he gives his famous answer — I can think, I can wait, I can fast — and adds that he can also write poetry. Charmed, Kamala agrees to teach him love, but on one condition: he must come back rich, in fine clothes, with gifts. So Siddhartha, who owns nothing, sets out to get them — and finds that his three monkish skills are, strangely, the perfect equipment for success in business. There is a lovely symmetry in his choice of teacher. Having mastered the life of the spirit and found it wanting, he now apprentices himself to the life of the body, and picks the finest instructor he can find. Kamala is not a mere seductress; she is intelligent, self-possessed, an artist of love and pleasure, and she becomes the great relationship of his worldly years. And she recognises something in him immediately — that he is, like her, a person who can play the game of the world beautifully while remaining secretly apart from it, unable ever fully to belong. The two of them are a matched pair of elegant outsiders, and that shared detachment is both what draws them together and what keeps either from truly loving.",
+      "on_screen": {
+        "plate": "plate-kamala",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-kamala"
+      ],
+      "notes": "The city; Kamala the courtesan agrees to teach him love if he returns rich; his skills suit him for commerce."
+    },
+    {
+      "id": "w-merchant",
+      "template": "parallax-still",
+      "narration": "Kamala sends him to Kamaswami, a wealthy merchant, and Siddhartha becomes a trader. At first he is brilliant precisely because he does not care. He can wait, so he is never anxious; he can fast, so he never acts from need; he can think, so he sees through everyone. He treats business as a game, is generous when he loses, laughs at the merchant's worries, and because he is detached, he prospers. He becomes rich. Kamala becomes his lover and his friend, the one person who understands him, because she too is secretly detached, playing the game of the world without quite believing in it. For a while Siddhartha has it all — money, pleasure, a beautiful lover, the richness of life the ascetic denied himself. He is, at last, fully in the world. The irony is delicious and deliberate. The very discipline Siddhartha learned in order to escape the world turns out to be the perfect toolkit for conquering it. Because he can wait, he never panics in a deal; because he can fast, he never needs the money and so bargains from a position of total freedom; because he can think, he reads every merchant across the table. He plays at business the way a grown man plays a children's game — amused, generous, faintly bored — and precisely because he does not care, he wins. For a while this detachment protects him, and he moves through wealth and pleasure like a guest who will leave in the morning. The tragedy is that the guest forgets to leave.",
+      "on_screen": {
+        "plate": "plate-wealth",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-wealth"
+      ],
+      "notes": "Siddhartha becomes a rich merchant under Kamaswami; his detachment makes him succeed; Kamala his lover and equal."
+    },
+    {
+      "id": "w-sansara",
+      "template": "parallax-still",
+      "narration": "But the world is a trap that closes slowly. Year by year, almost without noticing, Siddhartha stops playing the game and starts belonging to it. He begins to care about money, to feel real anxiety over losses, to eat and drink too much, to gamble recklessly, to be short-tempered and greedy. The detachment that once made him free rots away. The Hindus call this whole churning world of desire and striving Sansara — the endless wheel — and Siddhartha, who set out to transcend it, is now caught in it up to the neck, grown soft and sick and spiritually asleep. The clear-eyed young seeker has become exactly the kind of grasping, frightened ordinary man he once gently pitied. And one night he realises, with horror, that the sacred inner voice that used to guide him has gone completely silent. Sansara is the Hindu and Buddhist name for the whole turning wheel of worldly existence — birth, craving, striving, death, rebirth — the restless realm of illusion that the spiritual path is meant to escape. Siddhartha set out to transcend it and instead sinks into its very centre. Hesse traces the corruption with painful patience: it happens by degrees, over years, so gradually that Siddhartha never catches the moment he stops playing the game and starts being owned by it. He begins to feel real dread at a loss, real greed at a gain; he drinks, overeats, gambles with a self-punishing recklessness. He calls the ordinary people around him 'child-people' — and comes to envy them their passionate, unreflective immersion in life, even as he despises it, even as he becomes one of them.",
+      "on_screen": {
+        "plate": "plate-sansara",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-sansara"
+      ],
+      "notes": "Sansara: Siddhartha slowly corrupted by wealth, gambling, greed; loses his detachment; the inner voice falls silent."
+    },
+    {
+      "id": "w-disgust",
+      "template": "parallax-still",
+      "narration": "The crash, when it comes, is total. Siddhartha has a dream that Kamala's rare songbird, kept in a golden cage, has died — and he understands at once that the bird is his own soul, and that he has let it die. He is overcome with a disgust for his whole life so violent that he simply walks out of it: leaves the house, the money, the business, Kamala, all of it, in the middle of the night, and never goes back. What he does not know — what Kamala does not yet know — is that she is carrying his child. He wanders, emptied out, loathing himself, until he comes once more to a river. And there, staring into the water, this rich man who has lost the meaning of his life decides to end it. The dream of the little songbird, dead in its gilded cage, is one of Hesse's clearest images: the caged bird is Siddhartha's own soul, the inner voice, the capacity for the sacred — kept locked up in the golden cage of his rich life until it quietly died. Waking from it, he is seized by a nausea at his whole existence so total that there is no negotiating with it. He does not reform or cut back; he simply vanishes from his life between one night and the next, leaving everything, the way he once stood all night until his father let him leave. It is, in modern terms, a complete breakdown — a man at the exhausted bottom of middle age discovering that everything he built means nothing — and it drives him back to the one place that ever mattered: the river.",
+      "on_screen": {
+        "plate": "plate-river",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-river"
+      ],
+      "notes": "The dream of the dead songbird (his soul); Siddhartha abandons his wealthy life in disgust; comes to the river suicidal."
+    },
+    {
+      "id": "ch-river",
+      "template": "chapter-card",
+      "narration": "At the lowest point of his life, a single sound saves him — and the river becomes his teacher.",
+      "on_screen": {
+        "chapter_title": "By the River",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Brahmin's Son",
+            "The Buddha",
+            "The World",
+            "The River",
+            "Om"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "r-om",
+      "template": "parallax-still",
+      "narration": "He leans over the water, longing to let his ruined body sink and be done. And in that moment, from somewhere deep inside him, out of the forgotten depths of his old holy training, a single sound rises to his lips: Om. The sacred syllable — the sound Hindus use for the wholeness, the perfection, the oneness of all being. It is as if he has been struck. He recognises, in that one syllable, the thing he had let die; his despairing plan collapses; and, utterly exhausted, he sinks not into the river but into a deep, deep sleep on its bank. When he wakes, he is a new man — washed clean, emptied of the whole false life, and strangely at peace. And sitting beside him, having watched over his sleep, is a monk: it is Govinda, his old friend, passing by, who did not even recognise the sleeping rich man as Siddhartha. Om is the sacred syllable of Hindu tradition — the sound said to underlie and contain all of creation, the vibration of the oneness of being. That it surfaces in Siddhartha unbidden, at the very instant he means to destroy himself, is the point: the holiness he thought he had killed was never actually dead, only sleeping, buried under the years of Sansara, and it rises on its own to save him. The deep sleep that follows is a kind of death and rebirth — he wakes emptied, cleansed, a child again, ready to begin his real education at last. And the lovely detail that the passing monk keeping watch over him is Govinda, who does not recognise his transformed friend, quietly measures how far each of them has travelled: one still wandering and seeking, one about to stop.",
+      "on_screen": {
+        "plate": "plate-river",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-river"
+      ],
+      "notes": "At the brink of suicide, the syllable Om rises in him; he is saved, sleeps deeply, wakes renewed; Govinda watches over him."
+    },
+    {
+      "id": "r-vasudeva",
+      "template": "parallax-still",
+      "narration": "Siddhartha decides to stay by the river — and seeks out the ferryman who once rowed him across, all those years ago. Vasudeva is still there, older now, as calm and radiant as ever, and he takes Siddhartha in as his fellow ferryman. They live simply, rowing travellers back and forth, growing their food, listening. And Vasudeva, who speaks little, teaches Siddhartha the one thing he knows: how to listen to the river. Not to think about it — to listen. Day after day, year after year, Siddhartha bends his ear to the water, and slowly it begins to tell him everything. He hears in it all the voices of the world, all the striving and laughter and weeping of every living thing, and he hears how they all flow together into one. Vasudeva is one of the gentlest figures in modern literature — an almost wordless, luminous old man who has found perfect peace not through doctrine but through a lifetime of listening by the water. He is the anti-teacher: he does not instruct Siddhartha, he simply shares his life and his listening, and lets the river do the rest. This is the lesson of the whole book made flesh: wisdom is not transferred in words, it is absorbed through living alongside, and found by each person in themselves. Under Vasudeva's quiet example, Siddhartha slowly learns the art he had walked straight past as a young man — to stop talking, stop striving, stop seeking, and simply listen to what is already there.",
+      "on_screen": {
+        "plate": "plate-ferry",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-ferry"
+      ],
+      "notes": "Siddhartha becomes a ferryman with Vasudeva; learns to listen to the river; it carries all the voices of the world."
+    },
+    {
+      "id": "r-time",
+      "template": "parallax-still",
+      "narration": "The river's first great secret is about time. Watching the water, Siddhartha sees that the river is in all its places at once — at its source in the mountains, at the waterfall, at the ferry, at the sea — all simultaneously, and that for the river there is only the present, never past or future. And he understands that it is the same with a person, and with the world: that the Siddhartha who was a boy, and the sinner, and the old man he is becoming, are not really divided by time but exist together, that nothing is ever lost, that past and future are illusions and only the eternal present is real. It is one of the book's central visions — that beneath the endless flow of change, everything, always, already is. This vision of time is the deepest of the river's teachings, and Hesse means it to unsettle our ordinary sense of a life as a line from birth to death. If the river is wholly present at every point of its course at once, then perhaps a person is too — the boy, the ascetic, the sinner, the sage all co-existing, none cancelled, none lost. The griefs and sins are not behind him, done and regrettable; they are part of the standing whole of what he is, necessary notes in a single chord. And if past and future are illusions and only the eternal now is real, then there is nothing left to chase and nothing left to fear — a thought that dissolves, at a stroke, the anxious forward-leaning striving that has driven Siddhartha his whole life.",
+      "on_screen": {
+        "plate": "plate-om",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-om"
+      ],
+      "notes": "The river's lesson on time: everywhere at once; past/future illusory; the eternal present; nothing is lost."
+    },
+    {
+      "id": "q-river",
+      "template": "quote-card",
+      "narration": "What the river teaches him about time.",
+      "on_screen": {
+        "quote": "The river is everywhere at once, at the source and at the mouth, at the waterfall, at the ferry, at the rapids, in the sea, in the mountains, everywhere at once.",
+        "source": "Siddhartha"
+      },
+      "notes": "Verbatim, Gutenberg #2500, lines 2823-2825."
+    },
+    {
+      "id": "ch-om",
+      "template": "chapter-card",
+      "narration": "One last and hardest lesson remains — and it comes, as the deepest ones do, through love and loss.",
+      "on_screen": {
+        "chapter_title": "Om",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Brahmin's Son",
+            "The Buddha",
+            "The World",
+            "The River",
+            "Om"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "o-son",
+      "template": "parallax-still",
+      "narration": "Years pass in peace. Then the world comes back to find him. The Buddha is dying, and crowds of pilgrims are travelling to see him one last time — among them Kamala, who long ago gave up her old life, with the son she bore Siddhartha, now eleven years old. By the river, Kamala is bitten by a venomous snake, and she dies in Siddhartha's arms, the two of them recognising each other at the very end. And Siddhartha is left with the thing he never had: his son. He loves the boy with a sudden, overwhelming, painful love — and the boy, spoiled and city-bred, despises the quiet life of the ferry, despises his strange gentle father, and wants only to escape back to the world. Just when Siddhartha has found his peace, Hesse throws the one thing at him that peace cannot easily survive: a child to love. The timing is pointed. The dying Buddha draws the whole world onto the roads, and so the world — in the shape of Kamala and the son Siddhartha never knew he had — comes flowing back to the riverbank he thought he had left it on. Kamala's death in his arms, the two aged lovers knowing each other at the last, closes one long circle. But it opens a far more painful one. The boy is a stranger, grief-struck and resentful, a pampered city child dropped into a hermit's hut with a gentle father he cannot understand and does not want.",
+      "on_screen": {
+        "plate": "plate-son",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-son"
+      ],
+      "notes": "Kamala dies of a snakebite by the river, leaving their 11-year-old son; Siddhartha's sudden painful love; the boy rejects him."
+    },
+    {
+      "id": "o-wound",
+      "template": "parallax-still",
+      "narration": "And here, at last, the serene Siddhartha is given a wound he cannot think or wait or fast his way out of. He clings to his son; he indulges him, forgives him everything, aches over him — and the boy only grows crueller, until one day he steals money and runs away, back to the city, and is gone for good. Siddhartha is tormented, half-mad with the ordinary helpless love of a parent, and wants to chase after him — until Vasudeva, gently, stops him. Let him go, the old ferryman says. This is a wound you have to suffer, not cure. And Siddhartha slowly understands the final humbling: that he is no wiser, in his love for his son, than any foolish ordinary person; that this common, painful, human love is not beneath him after all; and that his son must go and live his own life, make his own mistakes, and find his own way — exactly as Siddhartha once left his own grieving father to do. And this is the masterstroke of the book: it refuses to let enlightenment be a trick that exempts you from being human. Siddhartha can think, wait, and fast his way through anything — except loving his son. Here his hard-won serenity is simply useless; the love pours out of him helplessly, foolishly, and the more he gives the more the boy despises it, until the child robs him and flees. Siddhartha, the near-saint, is reduced to exactly the blind aching love any ordinary parent feels, and he is almost grateful for the wound, because it finally joins him to the 'child-people' he once looked down on. And he sees, with a rueful shock, that he is living his own father's grief from the other side — that he once walked out on a father who loved him just like this, and that the boy, like him, must be let go to make his own mistakes.",
+      "on_screen": {
+        "plate": "plate-son",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-son"
+      ],
+      "notes": "The son runs away; Siddhartha's helpless parental grief; Vasudeva tells him to let go; the humbling — he's no wiser than anyone in love."
+    },
+    {
+      "id": "o-unity",
+      "template": "parallax-still",
+      "narration": "Carrying that fresh grief, Siddhartha bends again to the river — and now, with a heart finally cracked open by love and loss, he hears it fully for the first time. All the voices in the water, all the longing and suffering and joy, the laughing and the weeping, good and evil, every goal and every desire — he hears them flow together, and over them all he hears the one sound that contains them: Om, the great perfection, the unity of everything that is. His own old wounds, his father's grief, his son's flight, his own sins and strivings — all of it belongs, all of it is part of the single flowing whole, and none of it needed to be any different. In that instant the long wound heals, his self dissolves into the oneness, and Siddhartha, at the very end of a long and crooked road, is finally, quietly enlightened. Soon after, Vasudeva — his work done — rises and walks into the forest, radiant, leaving Siddhartha the ferryman of the river. This is the enlightenment the whole book has been walking toward, and notice how different it is from the escape the young Siddhartha chased. It is not a rising above the world but a total acceptance of it — every voice in the river, the laughter and the screaming, the holy and the vile, the striving and the letting go, all heard at once and all belonging, all flowing together into the single syllable Om. Nothing needed to be other than it was; his whole crooked life, every sin and sorrow, was necessary and is now complete. In that moment the wound closes, the hard knot of his separate self loosens and dissolves into the flowing whole, and he is at peace. And Vasudeva, who was perhaps never quite an ordinary man, sees his task is finished, and walks serenely into the forest to die, leaving the river to its new keeper.",
+      "on_screen": {
+        "plate": "plate-enlighten",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-enlighten"
+      ],
+      "notes": "Siddhartha's enlightenment: the river's Om, the unity of all voices; the self dissolves; Vasudeva departs into the forest."
+    },
+    {
+      "id": "o-govinda",
+      "template": "parallax-still",
+      "narration": "There is one last scene, and it is the whole book in miniature. Govinda — now an old monk, still seeking, still a little anxious after a whole lifetime of faithful discipline — passes the ferry again and, not recognising his friend, asks this serene old ferryman to teach him. And Siddhartha tells him the thing he has learned the long way round: that knowledge can be handed from person to person, but wisdom cannot — it can only be lived and found alone; that the opposite of every truth is just as true; that he has come to distrust words and teachers, and to love the world exactly as it is rather than long for some better one. Then he asks Govinda to kiss him on the forehead. And when Govinda does, he sees, flowing across his old friend's face, not one face but thousands — lovers, murderers, newborns, dying men, animals, gods, all flowing and merging endlessly like the faces in a river — the whole of life at once. And Govinda weeps, because for a moment he has seen what Siddhartha found: the thing no teacher, not even the Buddha, could ever have given him. Govinda is one of literature's great portraits of the lifelong seeker who never finds, because he is always looking — always following a teaching, always straining toward a goal, and so forever missing the thing that is right in front of him. When he begs the serene ferryman for a teaching, Siddhartha can only offer him the fruit of a whole life: that wisdom cannot be conveyed in words, that every truth's opposite is equally true, that one must stop seeking in order to find. Govinda, trained to want a doctrine, is baffled. So instead of words, Siddhartha gives him the kiss — and in that touch Govinda briefly sees past the surface of things to the unity beneath: thousands of faces, all of life, flowing and merging in one. For an instant the eternal seeker is granted the vision, not because it was taught to him, but because, just once, he stopped trying to grasp it.",
+      "on_screen": {
+        "plate": "plate-smile",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-smile"
+      ],
+      "notes": "Govinda returns; Siddhartha's teaching — wisdom can't be conveyed; loving the world as it is; the vision of all faces at the kiss."
+    },
+    {
+      "id": "q-knowledge",
+      "template": "quote-card",
+      "narration": "The line that is the key to the entire book.",
+      "on_screen": {
+        "quote": "Knowledge can be conveyed, but not wisdom.",
+        "source": "Siddhartha to Govinda"
+      },
+      "notes": "Verbatim, Gutenberg #2500, lines 3730-3731."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "So why has this slim novel meant so much to so many people, generation after generation? Partly because of its radical, consoling idea: that there is no shortcut, no teacher, no book — not even this one — that can hand you wisdom; that you have to walk the whole road yourself, including the wrong turns, the years wasted, the sins, the griefs, because those are not detours from the path, they are the path. Siddhartha only becomes wise because he was first a prig, then an ascetic, then a glutton, then a suicidal wreck, then a heartbroken father. Nothing was wasted. And partly it endures because of its deep final serenity — its sense that beneath all our striving and suffering the world is already whole, already perfect, already one, if we could only stop seeking long enough to listen. Searching, the book says, means having a goal; but finding means being free, and open, and having no goal at all. There is one more reason it lasts, and it is almost paradoxical. This is a book, a teaching, whose entire message is that books and teachings cannot give you wisdom — and Hesse knows it, and means it even about his own novel. He is not offering you a shortcut; he is telling you there isn't one. What Siddhartha can give the reader is not an answer but a kind of permission and a kind of patience: permission to stop frantically seeking, and the patience to trust that a life — even a messy, wrong-turning, ordinary life — can arrive, in its own time, at peace. Read young, it feels like a map for the journey ahead. Read older, it feels like a mirror. Either way, it leaves you, like Siddhartha by the water, a little more willing simply to listen.",
+      "on_screen": {
+        "plate": "plate-river",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-river"
+      ],
+      "notes": "Close: why it endures — wisdom must be lived not taught; the wrong turns ARE the path; the serene unity of all things."
+    },
+    {
+      "id": "q-finding",
+      "template": "quote-card",
+      "narration": "The difference, in the end, between the seeker and the one who has found.",
+      "on_screen": {
+        "quote": "Searching means: having a goal. But finding means: being free, being open, having no goal.",
+        "source": "Siddhartha"
+      },
+      "notes": "Verbatim, Gutenberg #2500, lines 3663-3664."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of Hermann Hesse's Siddhartha — a man who turned down the Buddha himself to walk his own long, winding road to the same peace. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. The novel is short and gentle and rewards slow reading; take it a chapter at a time, by a river if you can. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B); no 10-min companion."
+    }
+  ]
+}
