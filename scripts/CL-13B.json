@@ -1,0 +1,541 @@
+{
+  "meta": {
+    "code": "CL-13B",
+    "book": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "year": "1847",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "Wuthering Heights: The Full Story Explained (Emily Brontë)",
+    "search_phrase": "Wuthering Heights full story explained"
+  },
+  "chapters": [
+    {
+      "title": "A guest at Wuthering Heights",
+      "first_scene": "hook"
+    },
+    {
+      "title": "Two Children on the Moor",
+      "first_scene": "ch-children"
+    },
+    {
+      "title": "I Am Heathcliff",
+      "first_scene": "ch-iam"
+    },
+    {
+      "title": "The Return",
+      "first_scene": "ch-return"
+    },
+    {
+      "title": "The Long Revenge",
+      "first_scene": "ch-revenge"
+    },
+    {
+      "title": "The Quiet Earth",
+      "first_scene": "ch-end"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "Two children grow up wild on the moors, certain they are the same soul in two bodies. She marries someone else. And he spends the rest of his life taking a revenge that outlives them both.",
+      "on_screen": {
+        "question": "A guest at Wuthering Heights",
+        "plate": "plate-heights"
+      },
+      "assets": [
+        "plate-heights"
+      ],
+      "notes": "Hook before any title. ~34 words, ≤15s."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "Wuthering Heights, by Emily Brontë, published in eighteen forty-seven.",
+      "on_screen": {
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "year": "1847",
+        "subtitle": "A Tale of the Moors"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. Emily Brontë published this, her only novel, under a man's name — Ellis Bell — and it scandalised Victorian readers, who found it brutal, godless and strange; it took decades for the world to recognise it as a masterpiece. Second: the story is told at two removes, which can be confusing, so hold on to this. A tenant called Lockwood arrives, is unnerved by his grim landlord, and asks the housekeeper, Nelly Dean, to explain him — and almost the entire novel is Nelly's long memory, the story of two houses and two families across a whole generation. And third: do not expect a romance in the usual sense. The love at the centre of this book is less like affection and more like a force of nature — obsessive, destructive, and stronger than death. It wrecks nearly everyone it touches. This is a ghost story about what people do to each other, and keep doing, long after the chance of happiness is gone. One more thing to hold on to: the moors themselves are almost a character. Brontë grew up on them — a clergyman's daughter in an isolated Yorkshire parsonage, who walked the heath in every weather — and the wild, beautiful, pitiless landscape soaks every page. When the characters are free and most themselves, they are out on the moor; when they are trapped, miserable, or dying, they are shut up indoors, longing for it. Learn to read the weather and the windows in this book, and half its meaning opens up.",
+      "on_screen": {
+        "plate": "plate-moor",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-moor"
+      ],
+      "notes": "Context: published as Ellis Bell / scandalous; the frame narrative (Lockwood & Nelly); love as destructive force."
+    },
+    {
+      "id": "f-lockwood",
+      "template": "parallax-still",
+      "narration": "It is seventeen hundred and something, on the Yorkshire moors — a bleak, windswept upland where the weather batters everything, and where the word wuthering itself means the roar of wind around an exposed house. A gentleman named Lockwood has rented the comfortable manor of Thrushcross Grange, and pays a call on his landlord, Heathcliff, at the farmhouse up the hill: Wuthering Heights. He finds a snarling household of surly, half-savage people and a master who is magnificent and menacing in equal measure. Snowed in and forced to stay the night, Lockwood sleeps in a strange old bedroom — and has a nightmare. A child's ghost, cold as ice, claws at the window from outside, sobbing that she has been wandering the moors for twenty years, and begging to be let in. She gives her name: Catherine. Lockwood's terrified screams bring Heathcliff running — and the hardened man breaks down, throws open the window, and sobs into the storm for his Catherine to come back. It is a brilliant, disorienting way to open a novel: before we know a single thing about these people, we are handed the ending — a haunted house, a broken man, a dead girl clawing to get in — and only then sent back thirty years to learn how it came to this. Everything in the long story to come is shadowed by what we have already glimpsed here in the dark: that it ends in obsession, and ghosts, and a grief that has rotted a man from the inside out.",
+      "on_screen": {
+        "plate": "plate-ghost",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-ghost"
+      ],
+      "notes": "Lockwood's visit; the hostile Heights; the dream of the ghost child Catherine at the window; Heathcliff's grief."
+    },
+    {
+      "id": "f-nelly",
+      "template": "parallax-still",
+      "narration": "Back at the Grange, shaken, Lockwood asks his housekeeper who Catherine was, and why his landlord is the way he is. The housekeeper is Nelly Dean, a sensible woman who grew up as a servant in both houses and watched the whole story unfold with her own eyes. And so she begins to tell it — and her voice carries us back some thirty years, to when the people now dead or ruined were young, and it all began. Everything that follows is Nelly's memory. Keep her in mind: she is not a neutral witness. She loves some of these people, judges others, meddles more than she admits, and tells the tale with all the warmth and bias of someone who lived it. Her sensible, down-to-earth voice is exactly what the story needs. She is the ordinary world the two wild lovers crash against, and because she plainly finds much of their behaviour baffling and excessive, we half-trust her and half-suspect she is missing the point. That tension — a world-sized passion described by a practical housekeeper — is part of what gives the novel its strange, double-exposed power.",
+      "on_screen": {
+        "plate": "plate-heights",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-heights"
+      ],
+      "notes": "Nelly Dean begins her narration; the frame set; her partiality flagged."
+    },
+    {
+      "id": "f-houses",
+      "template": "parallax-still",
+      "narration": "Before the tale gets going, fix the two houses in your mind, because the whole novel is built on the contrast between them. Wuthering Heights, up on the exposed hilltop, is old, dark, hard and half-wild — battered by storms, full of growling dogs and rough tempers, standing open to the moor. Thrushcross Grange, down in the sheltered valley, is elegant, warm, ordered and tame — carpets and books and good manners behind a high park wall. The two houses are really two whole ways of being: storm and calm, nature and civilisation, passion and propriety. Every major character is pulled between them, and the tragedy of the first generation is essentially what happens when someone born to the storm tries to live her life in the calm — and cannot.",
+      "on_screen": {
+        "plate": "plate-grange",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-grange"
+      ],
+      "notes": "The two houses as symbols: Heights (storm/nature) vs Grange (calm/civilisation)."
+    },
+    {
+      "id": "ch-children",
+      "template": "chapter-card",
+      "narration": "A father brings home a strange dark child, and two lives fuse into one.",
+      "on_screen": {
+        "chapter_title": "Two Children on the Moor",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Children",
+            "I Am Heathcliff",
+            "Return",
+            "Revenge",
+            "Quiet Earth"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "c-foundling",
+      "template": "parallax-still",
+      "narration": "Years ago, old Mr Earnshaw, the master of Wuthering Heights, went on a journey to Liverpool and came back carrying a filthy, black-haired orphan he had found starving in the streets — a 'gipsy brat', the family calls him, of no known parents. He names the boy Heathcliff, and loves him, pointedly, better than his own two children. That favouritism poisons the household from the start. Earnshaw's daughter, the wild little Catherine, after an initial suspicion, becomes the orphan's inseparable companion. But his son, Hindley, hates Heathcliff with a child's pure jealousy — sees him as an intruder who stole his father's affection — and that hatred, nursed for years, will set almost the entire tragedy in motion. From the very beginning, Heathcliff is an outsider: no name, no past, no place, loved by one and loathed by another under the same roof. Brontë plants the book's great ambiguity right here. Where did Heathcliff come from? What was he? She never says — no surname, no parents, no origin, even his skin colour left pointedly uncertain. He arrives out of nowhere like something the storm blew in, and that namelessness is the point: he belongs to no class, no family, no category the orderly world can file him under, and so that world will spend the whole book trying either to tame him or to cast him back out.",
+      "on_screen": {
+        "plate": "plate-foundling",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-foundling"
+      ],
+      "notes": "Old Earnshaw brings Heathcliff from Liverpool; favours him; Catherine bonds, Hindley hates him."
+    },
+    {
+      "id": "c-childhood",
+      "template": "parallax-still",
+      "narration": "Catherine and Heathcliff grow up half-wild together, and these are the only truly happy passages in the book. They escape onto the moors at every chance, run free over the heather for whole days, scorn the rules of the house, and become so bound to each other that neither can imagine a self that is not partly the other. It is not quite childhood sweethearts and not quite brother and sister; it is something fiercer and stranger — two temperaments so alike that Catherine will later say they are made of the same stuff. The wild open moor becomes the symbol of that freedom, and of their love: boundless, lawless, belonging to no house and no owner. Everything that happens afterward is, in a sense, the loss of this — the pair of them trying and failing to get back onto that moor, together, for the rest of their lives. And notice what kind of love this is, because it is not romance as the Victorians understood it, or as we do. There is almost nothing soft in it. It is closer to a recognition — two people finding, in each other, their own wild nature, and refusing ever to be parted from it. When Catherine later says they are the same, she means it very nearly literally. That is why the bond can survive betrayal, marriage, and death itself: you cannot divorce your own soul. And it is why losing it will destroy them both.",
+      "on_screen": {
+        "plate": "plate-children",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-children"
+      ],
+      "notes": "Catherine & Heathcliff's wild childhood on the moors; the moor as freedom and their bond; the lost paradise."
+    },
+    {
+      "id": "c-hindley",
+      "template": "parallax-still",
+      "narration": "Then old Earnshaw dies, and everything curdles. Hindley, now the master, has waited years for this. He cannot openly harm Catherine, but he takes his revenge on Heathcliff — strips him of his education, throws him out of the family, and forces him to live and work as a common farm servant, beaten and humiliated, forbidden to better himself. Heathcliff endures it in grim silence, holding on to only one thing: Catherine, and their escapes to the moor. But the degradation is doing its slow work. The clever, proud boy is being ground down into something hard and bitter, taught by Hindley, lesson by lesson, exactly how to hate — and, one day, exactly how to pay it all back. Brontë is showing us something uncomfortable: that Heathcliff is not simply born a monster. He is partly made into one, by cruelty, in this house. This is one of the most important things to grasp about the book, and the easiest to forget once Heathcliff turns monstrous. He is not a devil who arrives fully formed. We watch, step by step, as an intelligent, loving child is systematically degraded, humiliated, and taught that the world runs on power and cruelty — and then grows up to apply that lesson with terrible thoroughness. Brontë is not excusing what he becomes. But she insists we see that it was done to him first, in this house, by people who called themselves his betters.",
+      "on_screen": {
+        "plate": "plate-hindley",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-hindley"
+      ],
+      "notes": "Earnshaw dies; Hindley degrades Heathcliff to a servant; Heathcliff hardened — monster partly made, not born."
+    },
+    {
+      "id": "ch-iam",
+      "template": "chapter-card",
+      "narration": "One night at a grand house changes Catherine — and one overheard sentence changes everything.",
+      "on_screen": {
+        "chapter_title": "I Am Heathcliff",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Children",
+            "I Am Heathcliff",
+            "Return",
+            "Revenge",
+            "Quiet Earth"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "h-grange",
+      "template": "parallax-still",
+      "narration": "One evening the two of them creep down the valley to spy, half-mocking, on the Lintons — the rich, refined family at Thrushcross Grange, with their carpets and chandeliers and well-behaved children, Edgar and Isabella. A guard dog seizes Catherine by the ankle. The genteel Lintons take the injured girl in to recover — but shoo the ragged, dark-skinned Heathcliff away from their door like a stray. Catherine stays five weeks. And she comes back transformed: no longer a wild moorland creature but a poised young lady in fine clothes, who has had a taste of comfort, status, and admiration. The change is subtle but fatal. A wedge has been driven between the two children of the moor — the wedge of class, of money, of what the respectable world offers a woman, and what it costs her. Everything turns on this five-week visit, and it is worth seeing how small the hinge is. No villain forces Catherine's choice. She simply gets a taste of the other life — warm rooms, soft hands, people who treat her as a lady rather than a wild thing — and part of her wants it, and is ashamed of wanting it. Brontë is painfully clear-eyed about class: the moor offered freedom but no future, while the Grange offers status, comfort, and respectability, and a young woman of that age had almost no way to refuse them. Catherine's tragedy is half her own vanity and half a trap the whole society set for every woman like her.",
+      "on_screen": {
+        "plate": "plate-grange",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-grange"
+      ],
+      "notes": "The Grange; the dog bite; Catherine civilised by the Lintons; the class wedge between her and Heathcliff."
+    },
+    {
+      "id": "h-confession",
+      "template": "parallax-still",
+      "narration": "In time the polished Edgar Linton proposes marriage, and Catherine accepts him — and then, troubled, confesses the whole tangle of her heart to Nelly by the fire. She knows she is doing wrong. She will marry Edgar, she admits, because he is handsome and rich and will make her the finest lady in the district — and because Heathcliff has been brought so low by Hindley that to marry him now would be to degrade herself. But her love for Edgar, she says, is like the leaves on the trees: it will change with the seasons. Her love for Heathcliff is the eternal rocks beneath — a necessary, permanent thing. She does not love him because he is pleasant, she tells Nelly, but because he is more herself than she is. Whatever their souls are made of, she says, his and hers are the same. It is one of the most quoted passages in English fiction, and also one of the most self-deceiving. Catherine genuinely believes she can marry Edgar and keep Heathcliff — that she can have the world's rewards and her own soul at once, and even use Edgar's money to lift Heathcliff up. She is too young and too certain to see that she is choosing, and that the choice will tear her in two. The leaves-and-rocks image is exactly right and exactly her undoing: she marries the changing leaves and tries to keep the eternal rock as well, and ends by losing both.",
+      "on_screen": {
+        "plate": "plate-catherine",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-catherine"
+      ],
+      "notes": "Catherine accepts Edgar; confesses to Nelly; the leaves/rocks image; 'more myself than I am'; souls the same."
+    },
+    {
+      "id": "q-same",
+      "template": "quote-card",
+      "narration": "The line at the heart of the whole book.",
+      "on_screen": {
+        "quote": "Whatever our souls are made of, his and mine are the same.",
+        "source": "Catherine, Ch. 9"
+      },
+      "notes": "Verbatim, Gutenberg #768, line 2929."
+    },
+    {
+      "id": "h-iam",
+      "template": "parallax-still",
+      "narration": "And then she says the most famous thing in the novel — that her great thought in living is Heathcliff himself; that if everything else perished and he remained, she would still exist, but if he were gone, the whole world would become a mighty stranger to her. She does not just love Heathcliff, she tells Nelly. She is Heathcliff. He is always, always in her mind — not as a pleasure, but as her own being. What she cannot see, blinded by her own certainty, is the catastrophe unfolding in the shadows of the room: Heathcliff has crept in and overheard the start of it — the part where she said it would degrade her to marry him — and has slipped out again into the night before he could hear the rest, the part where she called him her own soul. He has heard the wound, and not the love. And on that half-heard sentence the entire tragedy turns. Pause on how strange and absolute this is. Catherine does not say she loves Heathcliff; she says she is him. It is not a declaration of romance but of identity — the most extreme statement of the novel's central idea, that these two are really one being wrongly split into two bodies. And the staging is pure Brontë: the single most important truth in Heathcliff's life is spoken aloud, in his hearing, and he leaves at the exact wrong second, carrying away only the insult and none of the love. A whole life of revenge is built on a misunderstanding of three minutes.",
+      "on_screen": {
+        "plate": "plate-catherine",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-catherine"
+      ],
+      "notes": "'I am Heathcliff'; he overhears only the 'degrade' half and flees; the tragedy turns on the half-heard line."
+    },
+    {
+      "id": "q-iam",
+      "template": "quote-card",
+      "narration": "Not a metaphor, to her. A fact.",
+      "on_screen": {
+        "quote": "Nelly, I am Heathcliff!",
+        "source": "Catherine, Ch. 9"
+      },
+      "notes": "Verbatim, Gutenberg #768, line 2991 (italics in original)."
+    },
+    {
+      "id": "h-flight",
+      "template": "parallax-still",
+      "narration": "Heathcliff vanishes that very night, into a thunderstorm, and is gone without a word. Catherine, searching for him in the downpour, catches a fever that nearly kills her and marks her for the rest of her short life. When she recovers, Heathcliff has not returned — and so, after a time, she marries Edgar Linton and goes to live as the lady of Thrushcross Grange. For three years there is an uneasy calm. She is comfortable, even fond of her gentle husband. But something essential in her has been walled up and left behind on the moor. She has chosen the world's version of a good life, and quietly, invisibly, it is not enough, and never will be. The clock is simply waiting for Heathcliff to come back. And Brontë withholds, on purpose, where he went or how a penniless farm boy returned a wealthy gentleman. He simply disappears into the storm and comes back transformed, as if the moor itself swallowed him and spat out something harder. His absence is the pivot of the whole book: in the gap, Catherine commits herself to the wrong life, and the man who returns is no longer the boy she might have saved.",
+      "on_screen": {
+        "plate": "plate-storm",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-storm"
+      ],
+      "notes": "Heathcliff flees in the storm; Catherine's fever; she marries Edgar; three years of hollow calm."
+    },
+    {
+      "id": "ch-return",
+      "template": "chapter-card",
+      "narration": "He comes back — rich, hard, and patient. And nothing will ever be calm again.",
+      "on_screen": {
+        "chapter_title": "The Return",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Children",
+            "I Am Heathcliff",
+            "Return",
+            "Revenge",
+            "Quiet Earth"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "r-return",
+      "template": "parallax-still",
+      "narration": "Then Heathcliff returns. Where he went, and how, Brontë never tells us — only that the beaten farm boy has come back, after three years, transformed: upright, moneyed, educated, dressed as a gentleman, and colder and more controlled than ever, like a blade that has been honed. Catherine is wild with joy to see him — too wild; her husband Edgar watches his wife light up for another man and understands, with dread, exactly what has walked back into their lives. Heathcliff takes lodgings, pointedly, at Wuthering Heights — moving in with his old tormentor Hindley, who is now a hopeless drunkard and gambler since the death of his own young wife. And there the returned man begins, quietly and with endless patience, the first move of a revenge he has been planning for years. The cruelty of the timing is total. Had Heathcliff come back a year earlier, before the wedding, everything might have been different. Instead he returns to find Catherine already married, already Mrs Linton, already walled into the respectable life — and so there is nothing left for him to do with his love but turn it into a weapon. From here the novel stops being about whether these two can be together and becomes something darker: what an enormous, thwarted love does when it has nowhere left to go. It curdles, slowly, into the methodical destruction of everyone within reach.",
+      "on_screen": {
+        "plate": "plate-return",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-return"
+      ],
+      "notes": "Heathcliff returns transformed and rich; Catherine's joy, Edgar's dread; he lodges with the ruined Hindley."
+    },
+    {
+      "id": "r-isabella",
+      "template": "parallax-still",
+      "narration": "His first target is Edgar's sister, Isabella Linton — a sheltered young woman who foolishly becomes infatuated with the dark, romantic stranger. Heathcliff despises her. But he sees exactly how to use her: marrying her would strike at Edgar, scandalise the family, and put him in line to seize the Linton property. So he elopes with Isabella, purely out of calculation and spite, and then treats her with open, chilling cruelty, almost as an experiment in how much a person can be made to suffer. It is our first clear look at what Heathcliff has become — a man who will deliberately marry and destroy an innocent woman simply as a move against his enemies. Whatever sympathy we felt for the degraded boy, Brontë now makes us watch, unflinching, as he passes the cruelty on. It is important that Brontë does not soften this. A lesser writer would have kept Heathcliff romantic — a brooding, wronged hero. Instead she shows him coolly marrying a girl he openly despises, purely to injure her brother and get at the Linton estate, then grinding her down with a cruelty that shocks even the hardened Nelly. The great lover and the domestic monster are the same man. The novel refuses to let us keep one and throw away the other, and that refusal is a large part of what makes it feel so unsettling, and so modern.",
+      "on_screen": {
+        "plate": "plate-heathcliff",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-heathcliff"
+      ],
+      "notes": "Heathcliff marries Isabella out of spite/revenge and treats her cruelly; his transformation into tormentor."
+    },
+    {
+      "id": "r-torment",
+      "template": "parallax-still",
+      "narration": "All of this is tearing Catherine apart. She cannot have both men, and she cannot give up either — not the husband who represents the safe, respectable life she chose, nor Heathcliff, who is, by her own account, her very self. Caught between them, and pregnant, she works herself into a frenzy of grief and anger, refuses food, and collapses into a brain-fever. In her delirium she is not really in her sickroom at all; her mind flees back across the years to the moor, to the wild girl she was before any of this, before the Lintons and the fine clothes and the fatal choice. She pulls the feathers from her pillow and talks of the lapwings on the heath, and cries out to be let out of doors, onto the hills, to be herself again. What is killing Catherine is not really illness; it is contradiction. She wanted to be both the lady of the Grange and the wild girl of the moor — to keep Edgar's world and Heathcliff's soul — and the two cannot coexist inside one person. Her breakdown is that collision made physical, her mind literally fleeing the present for the past, for the heather and the freedom she sold. She is the first casualty of her own choice, and some part of her knows it.",
+      "on_screen": {
+        "plate": "plate-deathbed",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-deathbed"
+      ],
+      "notes": "Catherine torn between Edgar and Heathcliff; brain-fever; delirium longing for the moor and her girlhood."
+    },
+    {
+      "id": "q-savage",
+      "template": "quote-card",
+      "narration": "In her fever, the cry of everything she gave up.",
+      "on_screen": {
+        "quote": "I wish I were a girl again, half savage and hardy, and free.",
+        "source": "Catherine, Ch. 12"
+      },
+      "notes": "Verbatim, Gutenberg #768, line 4607."
+    },
+    {
+      "id": "r-deathbed",
+      "template": "parallax-still",
+      "narration": "Heathcliff forces his way in for one last meeting, and it is one of the most extraordinary scenes in English fiction — not tender, but savage, the two of them clinging and accusing in the same breath. He reproaches her for betraying her own heart, for killing herself and him by marrying Edgar; she reproaches him for leaving. They embrace with a violence close to hatred, two people who have destroyed each other and cannot let go. That night, Catherine gives birth to a daughter — little Cathy — and dies. The great love of the novel is only half over, because the person who is left cannot accept it. As she is dying, Heathcliff does not pray for her peace. He does the opposite: he begs her not to rest, but to haunt him — to drive him mad, to never leave him — because he cannot survive in a world that does not contain her. Victorian readers expected a deathbed to be holy and serene. Brontë gives them the opposite — a reunion that is all accusation and need, two people wounding each other with the truth even as they cling together, unable to forgive and unable to let go. There is no reconciliation, no gentle farewell. And in a final refusal of comfort, as Catherine slips away Heathcliff does not wish her the peace of heaven; he prays she will have no peace at all, that she will walk the earth and haunt him — because a haunting, to him, is better than an absence.",
+      "on_screen": {
+        "plate": "plate-deathbed",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-deathbed"
+      ],
+      "notes": "The violent final reunion; Catherine dies giving birth to young Cathy; Heathcliff begs to be haunted."
+    },
+    {
+      "id": "r-grief",
+      "template": "parallax-still",
+      "narration": "Heathcliff's grief is not like other people's grief. It is enormous, physical, and terrifying — he dashes his head against a tree until it bleeds, he howls like an animal, he curses God and the dead woman and himself. And he cries out the thing that defines him for the rest of the book: that he cannot live without his life, cannot live without his soul — because Catherine was both. From this moment Heathcliff is, in a sense, a dead man still walking, with twenty years of life left to get through and nothing in them but the ache of her absence and the long, cold business of revenge. The love has become a haunting, and the haunting will drive everything that remains. Brontë's language here breaks out of Victorian restraint entirely — Heathcliff weeps, roars, bloodies his head against a tree, blasphemes. It is grief as a kind of madness, and it sets the register the rest of the book will live in: these feelings are too big for drawing rooms, too big for the gentle Lintons, too big almost for the novel that holds them. From this point Heathcliff is less a character than a force, and Nelly narrates him the way one might describe a long, destroying storm.",
+      "on_screen": {
+        "plate": "plate-grief",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-grief"
+      ],
+      "notes": "Heathcliff's violent grief; 'cannot live without my soul'; the rest of his life as a haunting."
+    },
+    {
+      "id": "q-soul2",
+      "template": "quote-card",
+      "narration": "His cry over her body.",
+      "on_screen": {
+        "quote": "I cannot live without my life! I cannot live without my soul!",
+        "source": "Heathcliff, Ch. 16"
+      },
+      "notes": "Verbatim, Gutenberg #768, line 6129 (italics in original)."
+    },
+    {
+      "id": "ch-revenge",
+      "template": "chapter-card",
+      "narration": "Grief hardens into a plan — to ruin two families, slowly, through their children.",
+      "on_screen": {
+        "chapter_title": "The Long Revenge",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Children",
+            "I Am Heathcliff",
+            "Return",
+            "Revenge",
+            "Quiet Earth"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "rev-heights",
+      "template": "parallax-still",
+      "narration": "Here the novel does something daring: it leaps forward and lets Heathcliff spend nearly twenty years grinding out his revenge on everyone connected to the two families that wronged him. First he finishes off Hindley. He has lent the drunken, gambling master of Wuthering Heights money against the house, and when Hindley drinks himself to death, Heathcliff owns the Heights outright — and takes in Hindley's young son, Hareton, as his ward. And then he does to Hareton precisely what was once done to him: he keeps the boy ignorant, illiterate, and brutalised, degrading Earnshaw's grandson into a rough, shamed servant in his own ancestral home. It is revenge as a dark mirror — Heathcliff recreating his own childhood misery in the next generation, deliberately, as if to prove that cruelty is the only law the world obeys. Here Brontë's structure turns brilliant and strange. Rather than end with Catherine's death — where a conventional novel would stop — she lets the story run on for another whole generation, and makes us watch Heathcliff coldly reproduce his own ruined childhood in Hareton. The symmetry is deliberate and chilling: the degraded boy grows up to degrade a boy; the victim becomes the maker of victims. It is the novel's bleakest idea — that cruelty is hereditary, that the abused pass the abuse down the line — and the whole tense question of the final act is whether that cycle can ever be broken.",
+      "on_screen": {
+        "plate": "plate-revenge",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-revenge"
+      ],
+      "notes": "Heathcliff seizes the Heights from the drunken Hindley; degrades Hindley's son Hareton as he was degraded."
+    },
+    {
+      "id": "rev-children",
+      "template": "parallax-still",
+      "narration": "Now there are three young people in the next generation, and Heathcliff means to use them all. There is Hareton, Hindley's son, strong and good-hearted under the dirt and ignorance Heathcliff has heaped on him. There is young Cathy, Catherine and Edgar's daughter, growing up gently and a little spoiled at the Grange — she has her mother's spirit but a kinder heart. And there is Linton Heathcliff, the sickly, whining son Heathcliff had by poor Isabella, whom Heathcliff despises but keeps alive for one purpose. Because Heathcliff has worked out a cold, patient scheme: if he can force young Cathy to marry his own son Linton, then when both Edgar and the frail Linton die, Heathcliff will inherit Thrushcross Grange as well, and own everything — both houses, both families, the whole world that once shut him out. Notice the cruel geometry Brontë sets up. The three young people are the living remains of the three strands of the story — a Linton, an Earnshaw, and a Heathcliff — and the old man means to play them against each other like pieces on a board. What he does not reckon with is that the next generation might refuse the parts he has assigned them; that the children of his enemies might, against all his planning, choose kindness over the inheritance of hatred he has so carefully prepared for them.",
+      "on_screen": {
+        "plate": "plate-catherine",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-catherine"
+      ],
+      "notes": "The second generation — Hareton, young Cathy, sickly Linton; Heathcliff's plan to seize the Grange by marriage."
+    },
+    {
+      "id": "rev-trap",
+      "template": "parallax-still",
+      "narration": "And he carries it out, ruthlessly. He lures young Cathy to Wuthering Heights, and when she comes, he simply imprisons her — holds her captive and forces her to marry his dying son Linton before her own father can rescue her. Edgar Linton dies without seeing his daughter again, believing, at least, that she is cared for. The sickly Linton dies soon after the wedding, his use spent. And the trap closes exactly as Heathcliff designed: he now controls both estates, and young Cathy — widowed, orphaned, and dispossessed — is left trapped at the Heights as his unwilling dependent, treated with the same contempt he shows everyone. The revenge is complete. He has everything he set out to take. And it is the emptiest victory imaginable, because the one person it was ever really about has been twenty years in her grave. It is strikingly modern plotting — Heathcliff's revenge is not a duel or a murder but a patient, legal, financial campaign, waged through mortgages, marriages, and inheritance law, to strip two families of everything they own. He understands that in this society property is power, and that the surest way to annihilate the people who cast him out as a propertyless nobody is to seize their property and leave their children as powerless as he once was. He wins by mastering the very system that rejected him — and finds, at the end of it, that he has gained the whole world and feels nothing at all.",
+      "on_screen": {
+        "plate": "plate-heights",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-heights"
+      ],
+      "notes": "Heathcliff imprisons young Cathy, forces her marriage to Linton; Edgar and Linton die; he owns both houses."
+    },
+    {
+      "id": "ch-end",
+      "template": "chapter-card",
+      "narration": "He wins everything, and wants none of it. He only wants her.",
+      "on_screen": {
+        "chapter_title": "The Quiet Earth",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Children",
+            "I Am Heathcliff",
+            "Return",
+            "Revenge",
+            "Quiet Earth"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "e-haunted",
+      "template": "parallax-still",
+      "narration": "And this is where it all began — because the Lockwood we met at the start has rented the Grange in the last year of Heathcliff's life, and the ghost-child at the window was Catherine, trying to come home. In his final months Heathcliff changes. The revenge he schemed for twenty years suddenly bores him; he finds he has lost the will to destroy the last two young people, even with his hand at their throats. Because Catherine is everywhere now. He sees her face in every object, in the clouds, in young Cathy and Hareton, in the very floorstones. He stops eating. He stops sleeping. He roams the moors at night. He is not afraid of death — he is desperate for it, straining toward it, convinced that dying is the only way back to her. He has spent his whole life unable to live without his soul, and now, at last, he is going to stop trying. This is the turn that lifts Heathcliff, at the last, back toward the tragic. Having spent twenty years and an iron will to win, he reaches total victory — both houses his, both families crushed — and simply cannot be bothered to enjoy it. The revenge was never really the point; it was only something to do with the agony of being alive without her. Now, as the barrier between him and death grows thin, Catherine floods back into everything, and the terrifying man becomes almost unbearably moving: a soul straining, starving itself, half-mad with longing, toward the grave as toward an open door.",
+      "on_screen": {
+        "plate": "plate-window",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-window"
+      ],
+      "notes": "Lockwood's visit placed in Heathcliff's last year; Heathcliff haunted by Catherine; loses interest in revenge; longs for death."
+    },
+    {
+      "id": "e-death",
+      "template": "parallax-still",
+      "narration": "One rainy morning Nelly finds him dead in that same old box-bed, the window swinging open, the rain pouring in on his drenched face — and his eyes are open, and he is smiling. He is buried, by his own fierce instruction, not in the churchyard among respectable Christians, but out on the edge of the moor, right beside Catherine — and he has long since bribed the sexton to loosen the sides of their two coffins, so that in the earth there will be nothing left to tell which of them is which, and the two who were always one soul can finally, literally, mingle into the ground together. The country people, afterward, swear they have seen the pair of them walking the moors in the rain. Death did not end this love. It is the only thing that let it have what it always wanted. There is something almost tender in how Brontë ends him — no judgement, no hellfire, just an open window, the rain, and that unnerving smile, as though he has finally got what he wanted. And the detail of the loosened coffins is the whole novel in miniature: a love forbidden in life, insisting on itself in death, dissolving the boundary between two people until not even the earth can tell them apart. Whether the moor-walking ghosts are real or only country superstition, Brontë leaves open — but she plainly means us to feel that this love was too large to be held by anything, death included.",
+      "on_screen": {
+        "plate": "plate-graves",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-graves"
+      ],
+      "notes": "Heathcliff found dead at the open window, smiling; buried beside Catherine, coffins loosened; the moor hauntings."
+    },
+    {
+      "id": "e-cathy-hareton",
+      "template": "parallax-still",
+      "narration": "But Brontë does not leave us in the dark, and this is easy to miss. As Heathcliff fades, the two young people he had tried to ruin — young Cathy and Hareton — slowly, warily, fall in love. And it heals everything. The spoiled girl, humbled by loss, begins to soften; and instead of mocking Hareton's ignorance as Heathcliff taught her to, she starts to teach him to read, patiently, book by book. The grandson of the man Heathcliff hated and the daughter of the woman he loved come together and undo the whole cycle of cruelty — turning the degraded servant back into a man, and the two blighted houses back toward life. They plan to marry and move down to the Grange, leaving Wuthering Heights to the ghosts. Where the first generation's love burned everything down, the second generation's love quietly rebuilds. The storm finally passes into calm. It is easy, swept up in the storm of Heathcliff and Catherine, to undervalue this second love story — but Brontë plainly means it as the answer to the first. Where Catherine and Heathcliff's bond was a wild, ungovernable sameness that destroyed them, Cathy and Hareton's is gentler and more ordinary: it is built rather than fated, out of patience and teaching and small daily kindnesses, and it grows precisely by undoing cruelty instead of answering it. The book's quiet verdict is that this tamer love is the one that can actually be lived — that it heals where the great passion only burned.",
+      "on_screen": {
+        "plate": "plate-children",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-children"
+      ],
+      "notes": "Young Cathy & Hareton fall in love; she teaches him to read; the cycle of cruelty broken; renewal."
+    },
+    {
+      "id": "e-graves",
+      "template": "parallax-still",
+      "narration": "And so Lockwood, at the very end, walks out to that lonely spot on the moor where the dead lie — Edgar, and Catherine, and Heathcliff side by side under the open sky — and stands among the heather in the soft evening wind, watching the moths and listening to the grass, and finds he cannot believe the country gossip about restless ghosts. The book closes on his quiet wondering: how anyone could ever imagine troubled sleep for the ones who lie in that still, peaceful earth. After all the violence and obsession and revenge, the final note is strangely calm — as if the moor itself has absorbed the whole storm and gone quiet again. It is a deliberately muted ending for so violent a book, and the quietness is the point. The storm of the first generation has blown itself out; the surviving lovers will marry and go down to the Grange, leaving the Heights to the wind and the gossip; and the dead are, the narrator wants to believe, finally at rest. Brontë lets us choose what to make of it — peace, or a love still restlessly walking the moor — and gives the last word, perfectly, to the quiet earth.",
+      "on_screen": {
+        "plate": "plate-graves",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-graves"
+      ],
+      "notes": "Lockwood at the three graves; the famous closing image; calm after the storm."
+    },
+    {
+      "id": "q-end",
+      "template": "quote-card",
+      "narration": "The last line of the novel.",
+      "on_screen": {
+        "quote": "…wondered how any one could ever imagine unquiet slumbers for the sleepers in that quiet earth.",
+        "source": "Lockwood, Ch. 34"
+      },
+      "notes": "Verbatim, Gutenberg #768, lines 12372-12373."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why has this strange, violent book never let go of readers? Partly because nothing else in the language captures a certain kind of love quite like it — not gentle, not kind, but elemental, a bond so total that the two people genuinely cannot tell where one ends and the other begins, and that keeps its grip long past death. And partly because Brontë refuses to make it comfortable. Heathcliff is both a victim and a monster; Catherine both a great passionate soul and a self-destructive snob; their love is both the most beautiful and the most ruinous thing in the book, and we are never told how to weigh it. Around that furnace she builds a cool, careful structure — two narrators, two houses, two generations — so that the wildness is held, just barely, inside a frame, like a storm seen through a window. It is a first novel by a shy clergyman's daughter who had barely left the Yorkshire moors, and it remains one of the strangest and most powerful things anyone has ever written about what it means to love another person more than your own life.",
+      "on_screen": {
+        "plate": "plate-moor",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-moor"
+      ],
+      "notes": "Close: why it endures — elemental love; Heathcliff victim and monster; the frame holding the wildness."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of Wuthering Heights — two children of the moor, the choice that broke them, and a love that outlasted death and nearly everyone it touched. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. The novel itself is worth the climb; read it with a map of the two families beside you, and let the moor do the rest. Thanks for watching.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B); no 10-min companion."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "book_code": "CL-13",
+  "book": "Wuthering Heights",
+  "note": "Art queries for Emily Brontë's Wuthering Heights. Wikimedia Commons, PD/CC0 only. No literal illustrations needed: the look is built from mood — John Atkinson Grimshaw's moonlit houses, Caspar David Friedrich's moors, windows and graves, John Martin's storms, Fuseli's Nightmare, and apt PD portraits. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-heights",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight house painting",
+      "want": "Grimshaw, a lonely moonlit house — Wuthering Heights (PD)"
+    },
+    {
+      "id": "plate-moor",
+      "count": 1,
+      "query": "Caspar David Friedrich The Monk by the Sea painting",
+      "want": "Friedrich, a lone figure before a vast desolate expanse — the moor (PD)"
+    },
+    {
+      "id": "plate-ghost",
+      "count": 1,
+      "query": "Henry Fuseli The Nightmare painting",
+      "want": "Fuseli, spectral dread — the ghost at the window (PD)"
+    },
+    {
+      "id": "plate-foundling",
+      "count": 1,
+      "query": "Bartolome Esteban Murillo beggar boy painting",
+      "want": "Murillo, a ragged dark-haired boy — the foundling Heathcliff (PD)"
+    },
+    {
+      "id": "plate-children",
+      "count": 1,
+      "query": "Caspar David Friedrich Two Men Contemplating the Moon painting",
+      "want": "Friedrich, two figures before the wild — the inseparable pair (PD)"
+    },
+    {
+      "id": "plate-hindley",
+      "count": 1,
+      "query": "Edouard Manet The Absinthe Drinker painting",
+      "want": "Manet, a dissolute man — the drunkard Hindley (PD)"
+    },
+    {
+      "id": "plate-grange",
+      "count": 1,
+      "query": "John Constable Wivenhoe Park painting",
+      "want": "Constable, a genteel English estate — Thrushcross Grange (PD)"
+    },
+    {
+      "id": "plate-catherine",
+      "count": 1,
+      "query": "Dante Gabriel Rossetti Proserpine painting",
+      "want": "Rossetti, an intense woman — Catherine (PD)"
+    },
+    {
+      "id": "plate-heathcliff",
+      "count": 1,
+      "query": "Theodore Gericault portrait of a man painting",
+      "want": "Gericault, a brooding dark man — Heathcliff (PD)"
+    },
+    {
+      "id": "plate-storm",
+      "count": 1,
+      "query": "John Martin storm landscape painting",
+      "want": "Martin, a storm over wild country (PD)"
+    },
+    {
+      "id": "plate-return",
+      "count": 1,
+      "query": "Gustave Courbet The Desperate Man self portrait painting",
+      "want": "Courbet, an intense wild-eyed man — Heathcliff's return (PD)"
+    },
+    {
+      "id": "plate-deathbed",
+      "count": 1,
+      "query": "Henry Wallis Chatterton painting",
+      "want": "Wallis, a figure on a bed — the deathbed (PD)"
+    },
+    {
+      "id": "plate-grief",
+      "count": 1,
+      "query": "Vincent van Gogh Sorrowing Old Man At Eternity's Gate painting",
+      "want": "Van Gogh, a man bowed in grief (PD)"
+    },
+    {
+      "id": "plate-revenge",
+      "count": 1,
+      "query": "Caspar David Friedrich Wanderer above the Sea of Fog painting",
+      "want": "Friedrich, a lone figure commanding all he surveys — Heathcliff's dominion (PD)"
+    },
+    {
+      "id": "plate-window",
+      "count": 1,
+      "query": "Caspar David Friedrich Woman at the Window painting",
+      "want": "Friedrich, a figure at a window (PD)"
+    },
+    {
+      "id": "plate-graves",
+      "count": 1,
+      "query": "Caspar David Friedrich Abbey in the Oakwood painting",
+      "want": "Friedrich, graves under a vast sky — the moor burials (PD)"
+    }
+  ]
+}
