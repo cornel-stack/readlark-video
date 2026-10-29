@@ -1,0 +1,43 @@
+{
+  "book_code": "CL-22",
+  "book": "Dracula",
+  "note": "Art queries for Stoker's Dracula. Wikimedia Commons, PD/CC0 only. Friedrich for the mountain castle and the snowy abbey/tomb, Franz von Stuck's dark brooding figure for the Count, a Waterhouse pale enchantress for the brides, Turner's storm-wrecked sea for the Demeter, Grimshaw's moonlit Whitby, and a Rembrandt old scholar for Van Helsing. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-dracula",
+      "count": 1,
+      "query": "Mikhail Vrubel Demon seated painting",
+      "want": "A sinister dark nobleman — the Count (PD)"
+    },
+    {
+      "id": "plate-brides",
+      "count": 1,
+      "query": "John William Waterhouse La Belle Dame sans Merci painting",
+      "want": "A pale, alluring predatory woman — the brides (PD)"
+    },
+    {
+      "id": "plate-ship",
+      "count": 1,
+      "query": "J.M.W. Turner shipwreck storm sea painting",
+      "want": "A ship wrecked in a storm — the Demeter (PD)"
+    },
+    {
+      "id": "plate-whitby",
+      "count": 1,
+      "query": "John Atkinson Grimshaw harbour moonlight painting",
+      "want": "A moonlit coastal town — Whitby (PD)"
+    },
+    {
+      "id": "plate-tomb",
+      "count": 1,
+      "query": "Caspar David Friedrich Abbey in the Oakwood painting",
+      "want": "A gothic ruined abbey / graveyard — Lucy's tomb (PD)"
+    },
+    {
+      "id": "plate-vanhelsing",
+      "count": 1,
+      "query": "Rembrandt portrait of an old man scholar painting",
+      "want": "A learned old man — Professor Van Helsing (PD)"
+    }
+  ]
+}
