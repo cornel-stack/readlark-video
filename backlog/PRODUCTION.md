@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 9/138 rendered**  `█░░░░░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  128 planned
+**Progress: 10/138 rendered**  `█░░░░░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  127 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -22,9 +22,9 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-49A | The Metamorphosis | Revision video | Curriculum classics | ✅ rendered |
 | CL-49B | The Metamorphosis | Full retelling | Curriculum classics | ✅ rendered |
 | CL-13A | Wuthering Heights | Revision video | Curriculum classics | ⬜ planned |
-| CL-13B | Wuthering Heights | Full retelling | Curriculum classics | 📝 scripted |
+| CL-13B | Wuthering Heights | Full retelling | Curriculum classics | ✅ rendered |
 | CL-50A | Siddhartha | Revision video | Curriculum classics | ⬜ planned |
-| CL-50B | Siddhartha | Full retelling | Curriculum classics | ⬜ planned |
+| CL-50B | Siddhartha | Full retelling | Curriculum classics | 📝 scripted |
 | CL-12A | Dr Jekyll and Mr Hyde | Revision video | Curriculum classics | ⬜ planned |
 | CL-12B | Dr Jekyll and Mr Hyde | Full retelling | Curriculum classics | ⬜ planned |
 | CL-07A | A Midsummer Night's Dream | Revision video | Curriculum classics | ⬜ planned |
