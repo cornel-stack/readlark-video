@@ -1,0 +1,55 @@
+{
+  "book_code": "CL-16",
+  "book": "A Christmas Carol",
+  "note": "Art queries for Dickens's A Christmas Carol. Wikimedia Commons, PD/CC0 only. Leans on John Leech's original 1843 illustrations (Marley's Ghost, the Spirits, Fezziwig, the Cratchits — all PD), John Atkinson Grimshaw's snowy gaslit streets, and a Friedrich graveyard. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-scrooge",
+      "count": 1,
+      "query": "John Leech Scrooge A Christmas Carol illustration",
+      "want": "Leech, the miser Scrooge (PD 1843)"
+    },
+    {
+      "id": "plate-london",
+      "count": 1,
+      "query": "John Atkinson Grimshaw moonlight painting",
+      "want": "Grimshaw, a gaslit winter night — London (PD)"
+    },
+    {
+      "id": "plate-marley",
+      "count": 1,
+      "query": "John Leech Marley's Ghost A Christmas Carol illustration",
+      "want": "Leech, Marley's ghost in chains (PD 1843)"
+    },
+    {
+      "id": "plate-past",
+      "count": 1,
+      "query": "John Leech Fezziwig's Ball A Christmas Carol illustration",
+      "want": "Leech, Fezziwig's ball / Christmas Past (PD 1843)"
+    },
+    {
+      "id": "plate-present",
+      "count": 1,
+      "query": "John Leech Ghost of Christmas Present illustration",
+      "want": "Leech, the Ghost of Christmas Present (PD 1843)"
+    },
+    {
+      "id": "plate-cratchit",
+      "count": 1,
+      "query": "John Leech A Christmas Carol illustration",
+      "want": "Leech, a Christmas Carol scene — the Cratchits (PD 1843)"
+    },
+    {
+      "id": "plate-future",
+      "count": 1,
+      "query": "John Leech Ghost of Christmas Yet to Come illustration",
+      "want": "Leech, the silent phantom — Christmas Yet to Come (PD 1843)"
+    },
+    {
+      "id": "plate-grave",
+      "count": 1,
+      "query": "Caspar David Friedrich cemetery snow graveyard painting",
+      "want": "A snowy graveyard — Scrooge's grave (PD)"
+    }
+  ]
+}

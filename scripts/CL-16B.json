@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "code": "CL-16B",
+    "book": "A Christmas Carol",
+    "author": "Charles Dickens",
+    "year": "1843",
+    "text_status": "public_domain",
+    "format": "Full retelling",
+    "target_minutes": [
+      35,
+      45
+    ],
+    "target_words": [
+      5250,
+      6750
+    ],
+    "voice": "en-GB-RyanNeural",
+    "title": "A Christmas Carol: The Full Story Explained (Charles Dickens)",
+    "search_phrase": "A Christmas Carol full story explained"
+  },
+  "chapters": [
+    {
+      "title": "The miser and the ghost",
+      "first_scene": "hook"
+    },
+    {
+      "title": "Marley's Ghost",
+      "first_scene": "ch-marley"
+    },
+    {
+      "title": "Christmas Past",
+      "first_scene": "ch-past"
+    },
+    {
+      "title": "Christmas Present",
+      "first_scene": "ch-present"
+    },
+    {
+      "title": "Christmas Yet to Come",
+      "first_scene": "ch-future"
+    },
+    {
+      "title": "The End of It",
+      "first_scene": "ch-end"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "hook",
+      "narration": "In A Christmas Carol, a cold-hearted miser is visited one Christmas Eve by four ghosts who show him his past, his present, and his own lonely grave.",
+      "on_screen": {
+        "question": "The miser and the ghost",
+        "plate": "plate-scrooge"
+      },
+      "assets": [
+        "plate-scrooge"
+      ],
+      "notes": "Hook before any title. ~26 words, minimal pauses. Names the book."
+    },
+    {
+      "id": "title",
+      "template": "title-card",
+      "narration": "A Christmas Carol, by Charles Dickens, published in eighteen forty-three.",
+      "on_screen": {
+        "title": "A Christmas Carol",
+        "author": "Charles Dickens",
+        "year": "1843",
+        "subtitle": "A Ghost Story of Christmas"
+      },
+      "duration_hint": 5
+    },
+    {
+      "id": "context",
+      "template": "parallax-still",
+      "narration": "Three things worth knowing first. A Christmas Carol is probably the most influential story about Christmas ever written — Dickens published it in 1843, and it did more than almost any single work to shape the whole modern idea of Christmas as a time of warmth, generosity, family, and second chances. Second: it is, as Dickens subtitled it, a ghost story — short, vivid, almost cinematic, built in five sections he called 'staves', like the verses of a carol. And third: hold on to what it really is underneath the ghosts and the snow — a story about transformation, and a sharp piece of social protest. Dickens was furious about the poverty and child suffering he saw in industrial London, and he wrote this tale to melt hard hearts; its miser, Ebenezer Scrooge, is the coldest man in literature, and the whole story is the question of whether even he can be changed. It is, in the end, a story that believes no one is beyond redemption. It helps to know the urgency Dickens brought to it. He wrote A Christmas Carol in a white heat over about six weeks in the autumn of 1843, after visiting a 'ragged school' for destitute children and reading a government report on child labour in mines and factories that horrified him. He had meant to write a political pamphlet about the condition of the poor; instead he decided a story would strike 'a sledge-hammer blow' far harder than any pamphlet could — and he was right. The book sold out its first printing by Christmas and has never been out of print since. So beneath the ghosts and the goose and the good cheer, it is a deliberate act of social conscience, aimed at exactly the comfortable, prosperous readers who were, like Scrooge, looking away.",
+      "on_screen": {
+        "plate": "plate-london",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-london"
+      ],
+      "notes": "Context: shaped modern Christmas; a ghost story in five 'staves'; social protest; redemption/transformation."
+    },
+    {
+      "id": "ch-marley",
+      "template": "chapter-card",
+      "narration": "A dead partner, seven years in the grave, comes back dragging the chains he made in life.",
+      "on_screen": {
+        "chapter_title": "Marley's Ghost",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Marley",
+            "Past",
+            "Present",
+            "Yet to Come",
+            "The End"
+          ],
+          "marker": 0
+        }
+      }
+    },
+    {
+      "id": "m-scrooge",
+      "template": "parallax-still",
+      "narration": "We meet Ebenezer Scrooge, an old London moneylender, on a cold, foggy Christmas Eve — and Dickens piles up the adjectives with relish: Scrooge is a squeezing, wrenching, grasping, scraping, clutching, covetous old sinner, hard and sharp as flint, solitary as an oyster. He hates Christmas. His clerk, Bob Cratchit, shivers over the coldest, smallest fire because Scrooge rations the coal. His warm-hearted nephew, Fred, bursts in to invite him to Christmas dinner, and Scrooge dismisses the whole holiday as humbug. Two gentlemen come collecting for the poor, and Scrooge snarls that the poor can go to the prisons and the workhouses, and if they would rather die, they had better do it and decrease the surplus population. He is, in short, a man who has walled himself off completely from his fellow human beings — and that is exactly the wall the night is about to break down. Dickens is doing something careful here beneath the comedy of Scrooge's nastiness. Each of Scrooge's refusals in this opening — to his cheerful nephew, to the charity collectors, to his freezing clerk, to the very idea of Christmas — is a refusal of human connection, a slamming of a door. Scrooge has made himself rich and made himself utterly alone, and he mistakes the second for strength. His catchphrase that the poor should go to the prisons and workhouses, and if they would rather die should do it and decrease the 'surplus population', is Dickens quoting, almost verbatim, the hard economic theories of his day that treated the poor as a statistic to be managed rather than people to be helped. Scrooge is not just a grumpy old man; he is the cold logic of an entire unjust system, given a face and a name.",
+      "on_screen": {
+        "plate": "plate-scrooge",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-scrooge"
+      ],
+      "notes": "Scrooge the miser on Christmas Eve; Bob Cratchit; nephew Fred's invitation; the charity collectors; 'humbug'; 'surplus population'."
+    },
+    {
+      "id": "q-humbug",
+      "template": "quote-card",
+      "narration": "Scrooge's verdict on Christmas, and on human warmth in general.",
+      "on_screen": {
+        "quote": "\"Bah!\" said Scrooge, \"Humbug!\"",
+        "source": "Scrooge, Stave 1"
+      },
+      "notes": "Verbatim, Gutenberg #46, line 195."
+    },
+    {
+      "id": "m-ghost",
+      "template": "parallax-still",
+      "narration": "That night, alone in his gloomy chambers, Scrooge is visited. First the door-knocker turns into the face of his dead business partner, Jacob Marley — seven years dead that very night. Then Marley himself appears: a transparent ghost, bound and dragging an enormous, clanking chain made of cash-boxes, keys, padlocks, ledgers, and deeds. This chain, Marley moans, he forged link by link in life, by his own greed and hard-heartedness, and now he must drag it through eternity as his punishment — and Scrooge's own chain, he warns, is already far longer and heavier. Marley has come, out of what is left of his friendship, to give Scrooge one chance the dead are not usually granted: he will be haunted by three spirits, and only through them can he hope to escape Marley's fate. Then Marley drifts out the window into a night full of other wailing, chained spirits, all of them longing, too late, to help the living and unable to. Marley's ghost is one of the great entrances in literature, and Dickens plays it for both terror and meaning. The chain is the masterstroke: Marley is weighed down, for eternity, by a chain made of the very instruments of his greed — the cash-boxes and ledgers and padlocks he cared about in life — a perfect image of how the things we grasp for can become the things that imprison us. And the detail that he forged it himself, 'link by link, and yard by yard', of his own free will, is the whole theology of the book in a sentence: we make our own chains, by our own choices, a little at a time, usually without noticing. The wailing phantoms outside the window, all of them chained and all of them desperate now to help the suffering poor they ignored in life, drive the point home — this is the fate of every soul that treated its fellow creatures as no concern of theirs. It is worth savouring how Dickens blends the comic and the terrifying, because that mixture is the book's signature. Scrooge, even confronted with a chained ghost, keeps trying to rationalise it away — there is more of gravy than of grave about you, he quips, suggesting the apparition is just a bit of undigested cheese — and the comedy makes the horror land harder when it comes, when Marley unwinds the bandage round his head and his jaw drops ghastly to his chest, and lets out a cry that chills the marrow. Dickens wants us entertained and frightened at once, because a reader who is enjoying himself has his guard down, and the moral — your chain is already longer than mine — slips in past the laughter and lodges somewhere deeper.",
+      "on_screen": {
+        "plate": "plate-marley",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-marley"
+      ],
+      "notes": "Marley's ghost in chains; the chain forged in life; Scrooge's is heavier; warns of three spirits; the wailing phantoms outside."
+    },
+    {
+      "id": "q-chain",
+      "template": "quote-card",
+      "narration": "Marley, on the chain of greed he must drag forever — and the warning to Scrooge.",
+      "on_screen": {
+        "quote": "I wear the chain I forged in life.",
+        "source": "Marley's Ghost, Stave 1"
+      },
+      "notes": "Verbatim, Gutenberg #46, line 807."
+    },
+    {
+      "id": "m-business",
+      "template": "parallax-still",
+      "narration": "Before he goes, Marley says the thing that is the moral key to the whole book. In life he had always called his money-making his 'business', and ignored everything else. Now, in death, he understands his terrible mistake. Mankind was my business, he cries; the common welfare was my business; charity, mercy, forbearance, and benevolence were all my business — and the money-dealing was but a drop of water in the vast ocean of the business I neglected. This is Dickens speaking straight through the ghost: that our real business in life is not profit but kindness to one another, and that a life spent ignoring the suffering around us is a life wasted, no matter how rich. Scrooge, badly shaken, collapses into bed — and waits, in dread, for the first of the spirits. This speech is the thesis of the entire book, and worth dwelling on. Marley's tragedy is not that he was evil in any dramatic way; he was simply a businessman who minded his business and no one else's, who saw his ledgers as his whole duty and the suffering in the streets as somebody else's problem. And he has learned, too late and forever, that he had it exactly backwards — that a human being's true business is other human beings; that charity and mercy and kindness were the real work he was put on earth to do, and the money was a rounding error beside it. Dickens is aiming this directly at his comfortable Victorian readers, and at us: the question is not whether you are cruel, but whether you have, like Marley, mistaken your own narrow self-interest for the whole of your duty, and looked away from everyone else.",
+      "on_screen": {
+        "plate": "plate-marley",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-marley"
+      ],
+      "notes": "Marley's 'Mankind was my business' speech — the moral key; our true business is kindness, not profit."
+    },
+    {
+      "id": "q-mankind",
+      "template": "quote-card",
+      "narration": "Marley's great regret — the heart of the whole story.",
+      "on_screen": {
+        "quote": "Mankind was my business.",
+        "source": "Marley's Ghost, Stave 1"
+      },
+      "notes": "Verbatim, Gutenberg #46, line 885."
+    },
+    {
+      "id": "ch-past",
+      "template": "chapter-card",
+      "narration": "The first spirit shows Scrooge the boy he was — and where the man went wrong.",
+      "on_screen": {
+        "chapter_title": "Christmas Past",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Marley",
+            "Past",
+            "Present",
+            "Yet to Come",
+            "The End"
+          ],
+          "marker": 1
+        }
+      }
+    },
+    {
+      "id": "p-spirit",
+      "template": "parallax-still",
+      "narration": "The first spirit arrives: the Ghost of Christmas Past, a strange, flickering figure, part child and part old man, with a bright light streaming from its head — the light of memory. It takes Scrooge by the hand and carries him back through the years, to the Christmases of his own childhood. And immediately something in Scrooge begins to thaw. He sees himself as a small, lonely boy, left behind at a cold boarding school over the holidays while the other children went home — and he weeps for that forgotten child. He sees his beloved little sister Fan, who died young, coming to bring him home at last. The ghost is showing Scrooge that he was not always hard; he was once a child who could feel love and loneliness, and the memory of it stirs something long buried. The structure of the three spirits is beautifully designed as a kind of moral surgery. Each ghost opens Scrooge up a little more. The Ghost of Christmas Past works on his memory and his buried capacity to feel — and the first crack in the old miser is the sight of himself as a lonely, neglected little boy, a child who was once capable of grief and hope before life hardened him. Dickens is making a quietly radical argument: that Scrooge was not born a monster, that the cold man was made, out of a lonely child and a series of wrong turns, and that somewhere inside the flint the capable, feeling boy still exists. Redemption is possible precisely because the good is not gone, only buried — and memory is the spade that starts to dig it out. The choice to begin Scrooge's redemption with his own childhood is Dickens at his most psychologically acute. He understood, long before it was a commonplace, that the coldest adults are often frozen children — that cruelty is frequently armour grown over an early wound. By making the first thing the first spirit shows Scrooge the lonely, unloved boy he was, Dickens invites not just Scrooge but the reader to pity the miser before judging him, and plants the seed of the book's great hope: that the capacity for warmth is never truly destroyed, only buried, and can be dug back up at any age by anyone willing to look honestly at who they were and how they got hard.",
+      "on_screen": {
+        "plate": "plate-past",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-past"
+      ],
+      "notes": "Ghost of Christmas Past; young Scrooge, lonely boy at school; his sister Fan; the first thaw."
+    },
+    {
+      "id": "p-fezziwig",
+      "template": "parallax-still",
+      "narration": "Then the spirit shows him happier scenes. There is old Fezziwig, the kind master Scrooge was apprenticed to as a young man, throwing a joyous Christmas party for all his workers — and Scrooge, watching, realises how much a generous employer's small kindnesses meant, and thinks, with a pang, of how he himself treats poor Bob Cratchit. And then the painful one: Belle, the young woman Scrooge once loved and was engaged to. The ghost shows her releasing him from their engagement, in sorrow, because she can see that another idol has displaced her in his heart — a golden one; the love of money has slowly crowded out the love of her. And then, worse, Scrooge is forced to watch Belle years later, happy, married to another man, surrounded by a warm and loving family of children — the whole life Scrooge might have had, and traded away for his counting-house. He cannot bear it, and begs the spirit to take him home. These two visions make a pointed pair. Fezziwig, the kind old employer, spent a little money to throw a warm party and gave his workers a happiness out of all proportion to the cost — teaching Scrooge, who now grinds his own clerk, that the power to make others happy is cheap and immense, and that he has been hoarding it. And then Belle: the love Scrooge lost, not to another man at first but to his own growing greed, the 'golden idol' that crowded a living woman out of his heart. The vision of Belle happy with the family and the warmth Scrooge might have shared, had he chosen love over money, is almost unbearable to him — it is the single most personal wound in the book, the concrete human cost of the life he chose, and it is the moment the ghost's lesson stops being abstract and starts to hurt. Dickens uses the Fezziwig scene to make a precise economic point, too, one aimed straight at employers like Scrooge in his audience. Scrooge, watching, murmurs that Fezziwig spent only a few pounds on the party — a trifle — and yet the happiness he gave was worth a fortune. The lesson is that the power of those with money over those who depend on them is enormous, and costs almost nothing to use well: a kind word, a warm fire, a half-day's holiday, a living wage. Scrooge grinds Bob Cratchit; Fezziwig lifted everyone around him; the difference was not wealth but choice. It is Dickens quietly instructing every master and employer reading the book that decency is cheap and its absence is a kind of theft.",
+      "on_screen": {
+        "plate": "plate-past",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-past"
+      ],
+      "notes": "Fezziwig's generous party; Belle, the lost love, released him because money displaced her; the family he never had."
+    },
+    {
+      "id": "ch-present",
+      "template": "chapter-card",
+      "narration": "The second spirit shows him the Christmas happening all around him, that his cold heart has shut out.",
+      "on_screen": {
+        "chapter_title": "Christmas Present",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Marley",
+            "Past",
+            "Present",
+            "Yet to Come",
+            "The End"
+          ],
+          "marker": 2
+        }
+      }
+    },
+    {
+      "id": "pr-spirit",
+      "template": "parallax-still",
+      "narration": "The second spirit is the Ghost of Christmas Present — a huge, jolly, warm-hearted giant in a green robe, crowned with holly, seated on a throne of Christmas food, radiating generosity and good cheer. He carries Scrooge out into the snowy streets of London on Christmas morning, through markets and houses alive with warmth and celebration, sprinkling his blessing over the feasts of rich and poor alike. And he takes Scrooge where he has never thought to look: into the cramped little home of his own clerk, Bob Cratchit, to see how the family that lives on Scrooge's meagre wages keeps Christmas. The Ghost of Christmas Present is Dickens's embodiment of the Christmas spirit itself — abundance, warmth, generosity, the open door and the shared table. Where Scrooge hoards, this giant overflows; he sits on a throne piled with food and scatters blessings on everyone's feast, rich and poor alike, with a special care for the poor. His whole being is a rebuke to Scrooge's meanness, a demonstration that the point of plenty is to share it. And crucially, he does not lecture Scrooge; he simply takes him to look — at the warmth and love that exist all around Scrooge, in homes high and low, that Scrooge has spent his whole life refusing to see. The lesson of the present is simply: open your eyes. Look at the joy you have shut yourself out of, and the people you have refused to see.",
+      "on_screen": {
+        "plate": "plate-present",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-present"
+      ],
+      "notes": "Ghost of Christmas Present (the jolly green giant); snowy London; blesses the feasts; takes Scrooge to the Cratchits' home."
+    },
+    {
+      "id": "pr-cratchit",
+      "template": "parallax-still",
+      "narration": "And here Dickens delivers the emotional heart of the book: the Cratchits' Christmas dinner. They are poor — their goose is small, their pudding modest — but they are overflowing with love, gratitude, and joy, making a feast of almost nothing. And among them is the Cratchits' youngest son, Tiny Tim, a sweet, frail, disabled little boy who walks with a crutch and an iron frame on his leg. Scrooge, to his own surprise, finds himself caring desperately whether the child will live. He asks the spirit, and the ghost answers grimly: he sees an empty seat, and a crutch without an owner, carefully preserved — if these shadows remain unaltered, the child will die. And when Scrooge recoils, the spirit throws Scrooge's own cruel words back in his face: if he be like to die, he had better do it, and decrease the surplus population. Scrooge is overcome with shame and grief. The Cratchit dinner is the beating heart of the book, and Dickens calculates it precisely: a family with almost nothing, living on the pittance Scrooge pays, who are nonetheless rich in exactly the thing Scrooge lacks — love. Their small goose, their modest pudding carried in like a triumph, their gratitude and laughter, are a living argument that happiness has nothing to do with wealth. And at the centre is Tiny Tim, the frail, good little boy on his crutch, whose possible death the ghost dangles before Scrooge with deliberate, devastating force. It is a sentimental stroke, and Dickens knew it, and it works: by making Scrooge — and us — care whether this one small child lives, he turns the abstract problem of 'the poor' into a face, a name, a crutch by the fire, which is exactly how he means to move hearts that statistics never could. And notice the delicate thing Dickens does with the Cratchits: he refuses to make their poverty either romantic or degrading. They are not noble saints ennobled by suffering, nor are they brutalised by it; they are simply a loving ordinary family making the most of very little, with all the small vanities and squabbles and pride of any family, which is what makes them real and makes us love them. Bob's tender pride in Tiny Tim, Mrs Cratchit's flash of anger at Scrooge's name before she softens for the day's sake, the children's delight in the modest goose — it is observed with such warmth and precision that the family becomes the living, breathing answer to Scrooge's statistics. You cannot say 'decrease the surplus population' once you have sat at this table. That is precisely Dickens's design.",
+      "on_screen": {
+        "plate": "plate-cratchit",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-cratchit"
+      ],
+      "notes": "The Cratchits' loving poor Christmas; Tiny Tim; the spirit foretells his death unless things change; Scrooge's own words thrown back."
+    },
+    {
+      "id": "pr-tim",
+      "template": "parallax-still",
+      "narration": "And it is sickly little Tiny Tim, of all people, who is the most grateful and the most generous soul at that table — raising his small glass to bless the very family that has so little, and the world that has given him so hard a lot. The spirit also takes Scrooge to his nephew Fred's cheerful Christmas party, where the guests laugh warmly at Scrooge's expense, and Scrooge, unseen, finds himself longing to join in. And at the very end, the jolly giant shows Scrooge something terrible hidden beneath his robe: two wretched, starving children, a boy and a girl, clinging to him. Their names, the spirit says, are Ignorance and Want — and he warns Scrooge to beware them both, but most of all to beware the boy, Ignorance. It is Dickens's direct cry about the neglected, uneducated children of the poor, and the doom society is storing up by ignoring them. The two children under the spirit's robe, Ignorance and Want, are the darkest and most direct moment in the book — Dickens stepping almost out of the story to issue a warning. These are not sweet Victorian waifs; they are wretched, wolfish, frightening, the neglected children of the industrial poor, and the ghost's cry to 'beware them both, and most of all beware this boy', Ignorance, is Dickens's furious message to his readers: that a society which abandons its poorest children to ignorance and want is breeding its own doom, writing its ruin on their brows. It is the social-protest core of the book made unmistakable, and it sits deliberately right next to the warmth of the Cratchits' table, so that we cannot enjoy the cosy Christmas without also seeing the children society has thrown away.",
+      "on_screen": {
+        "plate": "plate-present",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-present"
+      ],
+      "notes": "Tiny Tim's blessing; Fred's party; the children Ignorance and Want under the spirit's robe — Dickens's social warning."
+    },
+    {
+      "id": "q-blessing",
+      "template": "quote-card",
+      "narration": "Tiny Tim — the frailest, poorest soul in the book, with the biggest heart.",
+      "on_screen": {
+        "quote": "God bless us every one!",
+        "source": "Tiny Tim, Stave 3"
+      },
+      "notes": "Verbatim, Gutenberg #46, line 2285."
+    },
+    {
+      "id": "ch-future",
+      "template": "chapter-card",
+      "narration": "The last and most terrifying spirit shows Scrooge a death that no one mourns.",
+      "on_screen": {
+        "chapter_title": "Christmas Yet to Come",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Marley",
+            "Past",
+            "Present",
+            "Yet to Come",
+            "The End"
+          ],
+          "marker": 3
+        }
+      }
+    },
+    {
+      "id": "f-phantom",
+      "template": "parallax-still",
+      "narration": "The third spirit is the most frightening: the Ghost of Christmas Yet to Come, a tall, silent, hooded phantom like the figure of Death itself, who never speaks a word and only points. It shows Scrooge a near future. Some unnamed man has died, and nobody cares. Businessmen in the street joke that they'll only go to the funeral if lunch is provided. Worse, a gang of scavengers — a charwoman, a laundress, an undertaker's man — gather to sell off the dead man's stolen belongings, even the shirt stripped from his corpse and the curtains torn from his deathbed, laughing that he frightened everyone away in life so there is no one to stop them now. Scrooge is horrified by this picture of a death so unloved that the man is robbed and mocked — and he does not yet understand, or will not let himself understand, whose death it is. Dickens saves his most frightening spirit for last, and makes it the opposite of the jolly giant — silent, hooded, pointing, indistinguishable from Death. And its method is cruel and brilliant: it does not tell Scrooge whose death he is witnessing, but lets him watch, with mounting dread, a world entirely unmoved by a man's dying. The businessmen who won't attend the funeral without lunch; the servants cheerfully selling the bed-curtains and the very shirt off the corpse; the relief and indifference everywhere — all of it builds a portrait of a death so unloved that it is treated as a windfall for thieves. Scrooge watches, pitying the poor unknown wretch, and some part of him already knows, and dares not know, that he is looking at his own future. There is a deep psychological truth in making this final spirit silent. The Ghosts of Past and Present explained, argued, showed and told; but the future cannot be narrated, only feared, and so its spirit only points, forcing Scrooge to read the meaning himself, to draw his own dreadful conclusions. It is also the spirit of pure consequence — it shows not what Scrooge has done or is doing, but what it will all come to, the sum of a life of coldness totted up at last. And Dickens withholds the single fact Scrooge most needs — whose corpse this is — with masterful cruelty, letting the old man pity and judge the unloved dead stranger right up until the moment the churchyard reveals that the stranger was himself, so that Scrooge passes judgement on his own life before he knows it is his own.",
+      "on_screen": {
+        "plate": "plate-future",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-future"
+      ],
+      "notes": "Ghost of Christmas Yet to Come (silent, Death-like); an unmourned dead man; the scavengers selling his stolen things."
+    },
+    {
+      "id": "f-graves",
+      "template": "parallax-still",
+      "narration": "The spirit shows him two deaths. One is the Cratchit home, plunged into quiet grief: the empty stool, the little crutch kept lovingly by the fire — Tiny Tim has died, and the gentle, broken family mourns the sweetest of them. And the other death is the lonely one. Scrooge, dreading it, begs to be shown some tenderness connected with the unmourned man — and is shown only people relieved by his passing. At last the phantom leads him into a neglected churchyard and points, without a word, to a gravestone. Scrooge, trembling, reads the name carved there: his own. EBENEZER SCROOGE. The despised, robbed, unmourned corpse was himself. He is looking at the end of the road he is on — to die rich, hated, and alone, with not one soul on earth to grieve him. Dickens twins the two deaths deliberately. Tiny Tim's death is mourned with aching tenderness — the quiet house, the father weeping, the little crutch kept by the fire — a death surrounded by love, the poor child rich in grief. And Scrooge's death is its exact opposite — a rich man rotting unmourned, robbed by his own servants, a windfall to be picked over. The contrast is the whole moral ledger of the book laid bare: what a life is really worth is measured not in money but in love, in whether anyone weeps when you are gone. And the name on the neglected gravestone — his own — lands with the force of a verdict. This is where the road ends. This is what all the hoarding comes to. Dickens drives the lesson home through a single, unbearable domestic image at the Cratchits': the father, Bob, climbing the stairs to the quiet little room where his dead son lies, and the empty chair, and the crutch that will never be needed again, and the family resolving never to quarrel among themselves, for Tiny Tim's sake, now that he is gone. It is unashamed sentiment, and it is meant to be — Dickens believed a tear was a legitimate weapon against a hard heart. Set against the scavengers cheerfully carving up the unmourned miser's belongings a few pages earlier, the contrast delivers the book's whole ethical argument without a word of preaching: one of these men was poor and is wept for; the other was rich and is robbed; choose which you would rather be.",
+      "on_screen": {
+        "plate": "plate-grave",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-grave"
+      ],
+      "notes": "Tiny Tim has died; the unmourned man is Scrooge himself; the gravestone with his own name; the end of his road."
+    },
+    {
+      "id": "f-plea",
+      "template": "parallax-still",
+      "narration": "And there, at his own grave, Scrooge breaks completely. Clutching the phantom's robe, weeping, he makes the great promise that the whole book has been driving toward: he is not the man he was; he will honour Christmas in his heart and keep it all the year; he will live in the Past, the Present, and the Future, and the lessons of all three spirits will work within him. He begs for the chance to sponge away the writing on that stone — to change the end that has been shown him. He pleads that the visions he has seen can still be altered by an amended life. And as he clings and prays and weeps, the dark phantom shrinks and dwindles away — and Scrooge finds himself clutching, of all things, his own bedpost. He is alive. It is morning. And he has been given exactly what Marley promised: a second chance. This is the climax of Scrooge's transformation, and Dickens stages it as a desperate bargain with fate. Clinging to the phantom at his own grave, Scrooge does not merely promise to be nicer; he grasps the book's whole philosophy in one cry — that he will carry the lessons of Past, Present, and Future together, live by them all year round, and so change the ending that has been shown him. The crucial word is 'amended life': Scrooge believes, and Dickens insists, that the future is not fixed, that these are the shadows of what 'may be' only, and that a changed heart can change the outcome. That is the hope the whole ghost story exists to deliver — that no verdict is final while you are still alive to act — and the instant Scrooge truly, wholeheartedly embraces it, the dark vision releases him back into life.",
+      "on_screen": {
+        "plate": "plate-future",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-future"
+      ],
+      "notes": "At his grave Scrooge breaks and vows to change; begs to alter the future; the phantom dwindles to his bedpost — he wakes alive."
+    },
+    {
+      "id": "ch-end",
+      "template": "chapter-card",
+      "narration": "And the coldest man in London wakes up the happiest — and sets out to prove it.",
+      "on_screen": {
+        "chapter_title": "The End of It",
+        "timeline": {
+          "kind": "timeline-strip",
+          "segments": [
+            "Marley",
+            "Past",
+            "Present",
+            "Yet to Come",
+            "The End"
+          ],
+          "marker": 4
+        }
+      }
+    },
+    {
+      "id": "e-wake",
+      "template": "parallax-still",
+      "narration": "Scrooge wakes on Christmas morning transformed, giddy with joy and relief, laughing like a schoolboy — he has not missed it; the spirits did it all in one night; there is still time to put everything right. He is light as a feather, happy as an angel, giddy as a drunken man. He throws open the window to the bright, cold, glorious morning and calls down to a passing boy, asking what day it is — Christmas Day, the boy says — and Scrooge, overjoyed, sends him to buy the enormous prize turkey in the poulterer's window, twice the size of Tiny Tim, to be sent anonymously to the Cratchits. He dresses in his best, and goes out into the streets he once despised, beaming at everyone, wishing strangers a merry Christmas, patting children on the head — a man discovering, for the first time in decades, the simple pleasure of being kind. Dickens lets the joy of the ending run completely free, and it is as infectious as the gloom of the opening was oppressive. Scrooge's giddy delight — laughing, capering, scarcely able to dress himself for happiness, not knowing what day it is because the spirits have compressed their work into one night — is the pure, childlike joy of a man given his life back. And notice that his very first act, before he has even left the house, is generosity: the enormous turkey, bought at his own expense and sent anonymously to the clerk he underpays, with no thanks sought. The transformation is not a vague resolution to be 'better'; it is immediate, concrete, and practical. Scrooge does not feel his way into kindness gradually — he leaps into it, because he has seen, with absolute clarity, both the grave at the end of the cold road and the warmth he has been refusing, and he knows exactly which he wants. Dickens also makes a quiet theological point in the timing. Scrooge is terrified, at first, that he has missed Christmas entirely, that his chance is gone — and the discovery that the spirits did their work in a single night, that it is still only Christmas morning and nothing is lost, is pure grace. He has been given back time itself, the one thing the dead Marley can never have. And that is the gift the whole book offers its readers too: not a rebuke that it is too late, but the glad news that it is not — that however cold and wasted the years behind you, if you are still alive to fling open the window on Christmas morning, there is still time to change the ending. Scrooge's laughter is the sound of a man who has looked into his own grave and been handed his life back.",
+      "on_screen": {
+        "plate": "plate-london",
+        "camera": "reveal"
+      },
+      "assets": [
+        "plate-london"
+      ],
+      "notes": "Scrooge wakes transformed and joyful; the prize turkey sent anonymously to the Cratchits; out into the streets spreading cheer."
+    },
+    {
+      "id": "e-amends",
+      "template": "parallax-still",
+      "narration": "He makes amends everywhere. He finds the charity collector he snarled at and whispers a huge donation in his ear. He goes, nervously, to his nephew Fred's party after all, and is welcomed with open arms into the warmth he had shut himself out of. And the next morning he plays a joke on Bob Cratchit — pretending to be his cold old self, scolding Bob for being late — before suddenly declaring that he is going to raise his salary, and help his struggling family, and discuss it all over a bowl of hot Christmas punch. And Dickens tells us what became of Scrooge's promise. He was as good as his word, and better. To Tiny Tim, who did not die, he became a second father. He became as good a friend, as good a master, and as good a man as the old city ever knew. Some laughed to see the change in him, and he let them laugh — for he knew that nothing good in this world ever happened that some did not laugh at in the beginning. Dickens is careful to make the amends specific and lasting, not just a Christmas-morning glow that fades. Scrooge repairs every relationship the opening showed him breaking: the charity he refused, now given generously; the nephew he spurned, now embraced; the clerk he underpaid and bullied, now to have his wages raised and his family helped. The restored Scrooge is measured not by his feelings but by his deeds — by what he does with his money and his power over others, which is exactly how Marley said a life should be measured. And the line Dickens gives him about letting people laugh at his sudden goodness is quietly wise: that the mockery of cynics is no reason to withhold kindness, and that the world's good changes have always been laughed at first by someone. There is real comedy and real tenderness braided together in these final scenes — Scrooge nervously lurking at the door of Fred's party like a shy boy, half-afraid he won't be welcome, and being swept instantly into the warmth; Scrooge staging his gruff old self one last time to startle Bob Cratchit before breaking into generosity. Dickens is showing that redemption is not solemn; it is joyful, even playful, a release into a happiness Scrooge had denied himself for decades. And the detail that he becomes 'a second father' to Tiny Tim closes the book's deepest circle: the man who said the poor child had better die and decrease the surplus population becomes the very person who ensures that child lives. The abstract statistic has become a boy Scrooge loves. That is the whole journey of the book, completed.",
+      "on_screen": {
+        "plate": "plate-cratchit",
+        "camera": "push-in"
+      },
+      "assets": [
+        "plate-cratchit"
+      ],
+      "notes": "Scrooge's amends: the donation, Fred's party, raising Bob's salary; Tiny Tim does not die; Scrooge becomes a second father to him."
+    },
+    {
+      "id": "e-tim",
+      "template": "parallax-still",
+      "narration": "And so the book ends not in a graveyard but in warmth and laughter, with the man who was hardest of all made kindest. Dickens gives the very last word to the frail little boy whose life Scrooge has saved — and whose simple blessing has rung through the whole story. As Tiny Tim observed, Dickens writes, God bless us, every one. It is the perfect ending: the grandest redemption in literature summed up in the smallest, gentlest voice, a blessing that now, thanks to one changed heart, includes everyone — the rich and the poor, the living and the dead, and even old Ebenezer Scrooge. It is worth noticing that Dickens gives the final blessing not to the reformed rich man but to the poor disabled child — that the moral authority of the whole book rests with Tiny Tim, the least powerful person in it. The grandest transformation in English literature is signed off by the smallest voice, and that is entirely deliberate: Dickens is insisting that the Tiny Tims of the world, the ones a society like Scrooge's writes off as surplus, are in fact its conscience and its heart. When Scrooge is finally folded into that blessing — 'God bless us, every one' now including even him — the book completes its quiet revolution, turning the hierarchy of worth upside down, so that the measure of the mighty becomes how they treat the frail.",
+      "on_screen": {
+        "plate": "plate-cratchit",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-cratchit"
+      ],
+      "notes": "The warm ending; Tiny Tim's blessing as the last word; Scrooge included in the grace at last."
+    },
+    {
+      "id": "close-why",
+      "template": "parallax-still",
+      "narration": "Why has this little ghost story become the most beloved Christmas tale in the world, read and performed and adapted every single year for nearly two centuries? Partly because it is simply a perfect piece of storytelling — tight, vivid, funny, frightening, and moving in turn, built like a carol. But mostly because of what it believes. In an age, like Dickens's and like ours, of great wealth beside great poverty, it insists that no one is beyond redemption, that it is never too late to change, that the measure of a life is not what you gather but what you give, and that our real business, as Marley learned too late, is simply one another. Scrooge is all of us at our coldest and most self-enclosed — and his transformation, from a man who saw other people as a cost to a man who saw them as the whole point, is the story we keep coming back to because we need to believe it is possible. Dickens wrote it to melt hard hearts, and almost two hundred years later, it still does. It is, finally, a story about waking up — in time — and choosing to be kind. And there is a reason it has outlived almost every other work of its century in the popular imagination. Dickens took the oldest and hardest question — can a person truly change? — and answered it with a resounding, generous yes, dramatised so vividly that we believe it every time. He also, almost single-handedly, fused that message of personal redemption with the idea of Christmas itself, so that the holiday became, in the English-speaking world, a yearly occasion to ask Scrooge's question of ourselves: have we, too, mistaken our business; have we looked away from the Cratchits and the Tiny Tims and the children called Ignorance and Want at our own doors? The story endures because the cold is always with us, in the world and in ourselves, and so is the hope — the stubborn, radical, Dickensian hope — that it is never, ever too late to wake up, throw open the window, and begin again.",
+      "on_screen": {
+        "plate": "plate-london",
+        "camera": "drift"
+      },
+      "assets": [
+        "plate-london"
+      ],
+      "notes": "Close: why it endures — redemption always possible; wealth vs worth; 'mankind was my business'; the story of waking up to kindness."
+    },
+    {
+      "id": "end",
+      "template": "end-screen",
+      "narration": "That's the whole of A Christmas Carol — one cold night, four ghosts, and the hardest heart in London remade into the warmest. If this is the kind of story you want more of, there are full retellings of the other great books on the channel, with more arriving all the time. It's a short, perfect read, best taken by a fire in December — and it still does exactly what Dickens built it to do. Thanks for watching, and God bless us, every one.",
+      "on_screen": {
+        "message": "More full retellings on the channel",
+        "points_to": "CL-01B"
+      },
+      "notes": "End-screen points to another retelling (CL-01B)."
+    }
+  ]
+}
