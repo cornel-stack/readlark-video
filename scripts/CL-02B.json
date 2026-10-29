@@ -48,7 +48,7 @@
     {
       "id": "hook",
       "template": "hook",
-      "narration": "In Romeo and Juliet, two teenagers from feuding families fall in love, marry in secret, and die — all within about four days. The tragedy isn't bad luck. It's the hatred around them.",
+      "narration": "In Romeo and Juliet, two teenagers from feuding families secretly fall in love and marry, and within four days both of them are dead.",
       "on_screen": {
         "question": "Two households, both alike in dignity",
         "plate": "plate-verona"
