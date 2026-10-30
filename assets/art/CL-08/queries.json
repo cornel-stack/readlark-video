@@ -1,0 +1,49 @@
+{
+  "book_code": "CL-08",
+  "book": "Twelfth Night",
+  "note": "Art queries for Shakespeare's Twelfth Night (romantic Illyria). Wikimedia Commons, PD/CC0 only. A Leighton young woman for Viola, a Claude Lorrain seaport for the Illyrian coast, a Turner shipwreck, Van Dyck portraits for Orsino and Olivia, a court-jester painting for Feste, and a Jan Steen merry company for the revels. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-viola",
+      "count": 1,
+      "query": "Frederic Leighton portrait of a young woman painting",
+      "want": "A spirited young woman — Viola (PD)"
+    },
+    {
+      "id": "plate-coast",
+      "count": 1,
+      "query": "Claude Lorrain seaport harbour painting",
+      "want": "An idealised romantic coast — Illyria (PD)"
+    },
+    {
+      "id": "plate-shipwreck",
+      "count": 1,
+      "query": "J.M.W. Turner shipwreck storm sea painting",
+      "want": "The storm and wreck (PD)"
+    },
+    {
+      "id": "plate-orsino",
+      "count": 1,
+      "query": "Anthony van Dyck portrait of a nobleman painting",
+      "want": "An elegant, melancholy duke — Orsino (PD)"
+    },
+    {
+      "id": "plate-olivia",
+      "count": 1,
+      "query": "Anthony van Dyck portrait of a lady painting",
+      "want": "A noble countess — Olivia (PD)"
+    },
+    {
+      "id": "plate-feste",
+      "count": 1,
+      "query": "court jester fool painting",
+      "want": "A jester / clown — Feste (PD)"
+    },
+    {
+      "id": "plate-revelry",
+      "count": 1,
+      "query": "Jan Steen merry company tavern painting",
+      "want": "A rowdy drinking party — Toby's revels (PD)"
+    }
+  ]
+}
