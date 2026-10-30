@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 32/138 rendered**  `█████░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  104 planned
+**Progress: 33/138 rendered**  `█████░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  104 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -158,7 +158,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-41B | Death of a Salesman | Full retelling | Curriculum classics | ⬜ planned |
 | FI-18 | Shadow and Bone | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-26A | Oedipus Rex | Revision video | Curriculum classics | ⬜ planned |
-| CL-26B | Oedipus Rex | Full retelling | Curriculum classics | 📝 scripted |
+| CL-26B | Oedipus Rex | Full retelling | Curriculum classics | ✅ rendered |
 | FI-16 | Crescent City | Fiction retelling | Modern fiction | ⬜ planned |
 | FI-29 | The Hunger Games | Fiction retelling | Modern fiction | ⬜ planned |
 | FI-30 | Percy Jackson: The Lightning Thief | Fiction retelling | Modern fiction | ⬜ planned |
