@@ -1,0 +1,49 @@
+{
+  "book_code": "CL-26",
+  "book": "Oedipus Rex",
+  "note": "Art queries for Sophocles' Oedipus the King (ancient Thebes). Wikimedia Commons, PD/CC0 only. Moreau's 'Oedipus and the Sphinx' for the hero/riddle, Alma-Tadema antiquity for the palace, Poussin's 'Plague of Ashdod' for the stricken city and a Poussin classical landscape for the crossroads, a Rembrandt blind old man for Tiresias, a Leighton classical woman for Jocasta, and a painting of the blind Oedipus for the end. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-oedipus",
+      "count": 1,
+      "query": "Gustave Moreau Oedipus and the Sphinx painting",
+      "want": "Oedipus and the Sphinx — the riddle-solver king (PD)"
+    },
+    {
+      "id": "plate-palace",
+      "count": 1,
+      "query": "Lawrence Alma-Tadema Roman interior painting",
+      "want": "A classical palace / antiquity — Thebes (PD)"
+    },
+    {
+      "id": "plate-thebes",
+      "count": 1,
+      "query": "Nicolas Poussin Plague of Ashdod painting",
+      "want": "A plague-stricken ancient city — Thebes (PD)"
+    },
+    {
+      "id": "plate-tiresias",
+      "count": 1,
+      "query": "Rembrandt blind old man painting",
+      "want": "A blind old seer — Tiresias (PD)"
+    },
+    {
+      "id": "plate-jocasta",
+      "count": 1,
+      "query": "Frederic Leighton portrait of a young woman painting",
+      "want": "A tragic classical queen — Jocasta (PD)"
+    },
+    {
+      "id": "plate-crossroads",
+      "count": 1,
+      "query": "Nicolas Poussin classical landscape painting",
+      "want": "A lonely classical landscape / road — the crossroads (PD)"
+    },
+    {
+      "id": "plate-blind",
+      "count": 1,
+      "query": "Benigne Gagneraux blind Oedipus painting",
+      "want": "The blinded Oedipus and his daughters — the end (PD)"
+    }
+  ]
+}
