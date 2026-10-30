@@ -1,0 +1,49 @@
+{
+  "book_code": "CL-20",
+  "book": "The Scarlet Letter",
+  "note": "Art queries for Hawthorne's The Scarlet Letter (Puritan Boston, 1640s). Wikimedia Commons, PD/CC0 only. A Puritan woman for Hester, Boughton's Puritan New England crowd for the scaffold/town, a dark Shishkin forest, El Greco's gaunt cleric for Dimmesdale, a Rembrandt old man for Chillingworth, a Reynolds girl for Pearl, and a Friedrich cemetery for the grave. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-hester",
+      "count": 1,
+      "query": "portrait of a woman dark dress seventeenth century painting",
+      "want": "A grave Puritan woman — Hester (PD)"
+    },
+    {
+      "id": "plate-scaffold",
+      "count": 1,
+      "query": "George Henry Boughton Puritans New England painting",
+      "want": "A Puritan crowd / colonial town — the scaffold (PD)"
+    },
+    {
+      "id": "plate-forest",
+      "count": 1,
+      "query": "Ivan Shishkin dark forest painting",
+      "want": "A deep dark forest — the forest meeting (PD)"
+    },
+    {
+      "id": "plate-minister",
+      "count": 1,
+      "query": "El Greco nobleman with hand on chest painting",
+      "want": "A gaunt, haunted clergyman — Dimmesdale (PD)"
+    },
+    {
+      "id": "plate-chillingworth",
+      "count": 1,
+      "query": "Rembrandt portrait of an old man painting",
+      "want": "A sinister aging scholar — Chillingworth (PD)"
+    },
+    {
+      "id": "plate-pearl",
+      "count": 1,
+      "query": "Joshua Reynolds portrait of a young girl painting",
+      "want": "A wild, bright young girl — Pearl (PD)"
+    },
+    {
+      "id": "plate-grave",
+      "count": 1,
+      "query": "Caspar David Friedrich cemetery graveyard painting",
+      "want": "A sombre graveyard — the shared tombstone (PD)"
+    }
+  ]
+}
