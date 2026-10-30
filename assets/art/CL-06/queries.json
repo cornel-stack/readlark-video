@@ -1,0 +1,43 @@
+{
+  "book_code": "CL-06",
+  "book": "Julius Caesar",
+  "note": "Art queries for Shakespeare's Julius Caesar (ancient Rome). Wikimedia Commons, PD/CC0 only. Gérôme's 'The Death of Caesar' for the assassination, Maccari's Roman-senate fresco, Alma-Tadema antiquity for Caesar, a classical portrait for Brutus, a Turner storm for the portents, a Roman forum/oration scene for the funeral, and a classical battle for Philippi. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-assassination",
+      "count": 1,
+      "query": "Jean-Leon Gerome The Death of Caesar painting",
+      "want": "The assassination — Death of Caesar (PD)"
+    },
+    {
+      "id": "plate-senate",
+      "count": 1,
+      "query": "Cesare Maccari Cicero Roman senate fresco painting",
+      "want": "The Roman Senate (PD)"
+    },
+    {
+      "id": "plate-caesar",
+      "count": 1,
+      "query": "Lawrence Alma-Tadema Roman interior painting",
+      "want": "Caesar / imperial Rome (PD)"
+    },
+    {
+      "id": "plate-brutus",
+      "count": 1,
+      "query": "ancient Roman marble bust portrait sculpture",
+      "want": "A noble Roman — Brutus (PD)"
+    },
+    {
+      "id": "plate-storm",
+      "count": 1,
+      "query": "J.M.W. Turner storm sky painting",
+      "want": "The night of portents (PD)"
+    },
+    {
+      "id": "plate-battle",
+      "count": 1,
+      "query": "ancient Roman battle army painting",
+      "want": "The battle of Philippi (PD)"
+    }
+  ]
+}
