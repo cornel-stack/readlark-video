@@ -1,0 +1,49 @@
+{
+  "book_code": "CL-27",
+  "book": "The Odyssey",
+  "note": "Art queries for Homer's Odyssey. Wikimedia Commons, PD/CC0 only. Turner's storm seas for the voyage, Alma-Tadema's classical antiquity for the palace, Redon's Cyclops for the cave, Waterhouse's 'Circe Offering the Cup to Ulysses' and his Penelope for those scenes, a Doré underworld, and a Flaxman/classical archer for the contest of the bow. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-sea",
+      "count": 1,
+      "query": "J.M.W. Turner storm sea shipwreck painting",
+      "want": "A storm-tossed sea — the voyage (PD)"
+    },
+    {
+      "id": "plate-palace",
+      "count": 1,
+      "query": "Lawrence Alma-Tadema Roman interior painting",
+      "want": "A classical palace / antiquity — Ithaca & the courts (PD)"
+    },
+    {
+      "id": "plate-cave",
+      "count": 1,
+      "query": "Odilon Redon Cyclops painting",
+      "want": "A looming one-eyed giant — the Cyclops (PD)"
+    },
+    {
+      "id": "plate-circe",
+      "count": 1,
+      "query": "John William Waterhouse Circe Offering the Cup to Ulysses painting",
+      "want": "The enchantress Circe (PD)"
+    },
+    {
+      "id": "plate-underworld",
+      "count": 1,
+      "query": "Gustave Dore Dante Inferno engraving",
+      "want": "The land of the dead (PD)"
+    },
+    {
+      "id": "plate-penelope",
+      "count": 1,
+      "query": "John William Waterhouse Penelope and the Suitors painting",
+      "want": "Penelope at her loom — faithful waiting (PD)"
+    },
+    {
+      "id": "plate-archer",
+      "count": 1,
+      "query": "John Flaxman Odyssey Ulysses engraving",
+      "want": "The archer and the great bow — the contest (PD)"
+    }
+  ]
+}
