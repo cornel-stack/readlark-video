@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 27/138 rendered**  `████░░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  110 planned
+**Progress: 29/138 rendered**  `████░░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  108 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -46,7 +46,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-19A | The Picture of Dorian Gray | Revision video | Curriculum classics | ⬜ planned |
 | CL-19B | The Picture of Dorian Gray | Full retelling | Curriculum classics | ✅ rendered |
 | CL-48A | A Doll's House | Revision video | Curriculum classics | ⬜ planned |
-| CL-48B | A Doll's House | Full retelling | Curriculum classics | 📝 scripted |
+| CL-48B | A Doll's House | Full retelling | Curriculum classics | ✅ rendered |
 | CL-04A | Othello | Revision video | Curriculum classics | ⬜ planned |
 | CL-04B | Othello | Full retelling | Curriculum classics | ✅ rendered |
 | CL-23A | Heart of Darkness | Revision video | Curriculum classics | ⬜ planned |
@@ -114,7 +114,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | KE-07 | Inheritance | Set-text revision video | KCSE set texts (Kenya) | ⬜ planned |
 | KE-08 | Betrayal in the City | Set-text revision video | KCSE set texts (Kenya) | ⬜ planned |
 | CL-22A | Dracula | Revision video | Curriculum classics | ⬜ planned |
-| CL-22B | Dracula | Full retelling | Curriculum classics | ⬜ planned |
+| CL-22B | Dracula | Full retelling | Curriculum classics | ✅ rendered |
 
 ## Phase 4  (44 uploads)
 
@@ -122,7 +122,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 |------|------|--------|------|--------|
 | FI-14 | The Cruel Prince | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-17A | Great Expectations | Revision video | Curriculum classics | ⬜ planned |
-| CL-17B | Great Expectations | Full retelling | Curriculum classics | ⬜ planned |
+| CL-17B | Great Expectations | Full retelling | Curriculum classics | 📝 scripted |
 | FI-22 | The Way of Kings | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-27A | The Odyssey | Revision video | Curriculum classics | ⬜ planned |
 | CL-27B | The Odyssey | Full retelling | Curriculum classics | ⬜ planned |
