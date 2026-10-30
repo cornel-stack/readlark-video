@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 29/138 rendered**  `████░░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  108 planned
+**Progress: 30/138 rendered**  `████░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  106 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -122,10 +122,10 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 |------|------|--------|------|--------|
 | FI-14 | The Cruel Prince | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-17A | Great Expectations | Revision video | Curriculum classics | ⬜ planned |
-| CL-17B | Great Expectations | Full retelling | Curriculum classics | 📝 scripted |
+| CL-17B | Great Expectations | Full retelling | Curriculum classics | ✅ rendered |
 | FI-22 | The Way of Kings | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-27A | The Odyssey | Revision video | Curriculum classics | ⬜ planned |
-| CL-27B | The Odyssey | Full retelling | Curriculum classics | ⬜ planned |
+| CL-27B | The Odyssey | Full retelling | Curriculum classics | 📝 scripted |
 | FI-12 | Powerless | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-34A | Of Mice and Men | Revision video | Curriculum classics | ⬜ planned |
 | CL-34B | Of Mice and Men | Full retelling | Curriculum classics | ⬜ planned |
@@ -146,7 +146,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-06B | Julius Caesar | Full retelling | Curriculum classics | ⬜ planned |
 | FI-26 | The Three-Body Problem | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-20A | The Scarlet Letter | Revision video | Curriculum classics | ⬜ planned |
-| CL-20B | The Scarlet Letter | Full retelling | Curriculum classics | ⬜ planned |
+| CL-20B | The Scarlet Letter | Full retelling | Curriculum classics | 📝 scripted |
 | FI-27 | The Song of Achilles | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-42A | A Streetcar Named Desire | Revision video | Curriculum classics | ⬜ planned |
 | CL-42B | A Streetcar Named Desire | Full retelling | Curriculum classics | ⬜ planned |
