@@ -1,0 +1,43 @@
+{
+  "book_code": "CL-09",
+  "book": "King Lear",
+  "note": "Art queries for Shakespeare's King Lear. Wikimedia Commons, PD/CC0 only. Benjamin West's storm-Lear (or a dramatic old-king image) for Lear, a historical throne-room for the division, a Van Dyck young man for Edmund, a Turner storm for the heath, Friedrich's chalk cliffs for Dover/Gloucester, and a Leighton young woman for Cordelia. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-lear",
+      "count": 1,
+      "query": "Benjamin West King Lear storm painting",
+      "want": "The raging old king in the storm — Lear (PD)"
+    },
+    {
+      "id": "plate-court",
+      "count": 1,
+      "query": "medieval king throne room palace painting",
+      "want": "A royal court / throne — the division (PD)"
+    },
+    {
+      "id": "plate-edmund",
+      "count": 1,
+      "query": "Anthony van Dyck portrait of a young man painting",
+      "want": "A handsome, scheming young man — Edmund (PD)"
+    },
+    {
+      "id": "plate-storm",
+      "count": 1,
+      "query": "J.M.W. Turner storm sea painting",
+      "want": "The tempest on the heath (PD)"
+    },
+    {
+      "id": "plate-cliff",
+      "count": 1,
+      "query": "Caspar David Friedrich chalk cliffs painting",
+      "want": "Dramatic sea-cliffs — Dover / Gloucester (PD)"
+    },
+    {
+      "id": "plate-cordelia",
+      "count": 1,
+      "query": "Frederic Leighton portrait of a young woman painting",
+      "want": "A gentle, loyal young woman — Cordelia (PD)"
+    }
+  ]
+}
