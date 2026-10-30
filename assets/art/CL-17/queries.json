@@ -1,0 +1,49 @@
+{
+  "book_code": "CL-17",
+  "book": "Great Expectations",
+  "note": "Art queries for Dickens's Great Expectations. Wikimedia Commons, PD/CC0 only. Constable estuary for the bleak marshes, a Doré prison for the convict, Wright of Derby's forge for Joe's smithy and his candlelit interior for decaying Satis House, a Rembrandt old woman for Miss Havisham, a Leighton beauty for Estella, and Doré's London. The fetcher adds 'filetype:bitmap', caps downloads to ~3000px, and retries throttled requests.",
+  "plates": [
+    {
+      "id": "plate-marshes",
+      "count": 1,
+      "query": "John Constable estuary landscape painting",
+      "want": "A bleak flat marsh/estuary — the Kent marshes (PD)"
+    },
+    {
+      "id": "plate-convict",
+      "count": 1,
+      "query": "Gustave Dore Newgate prison engraving",
+      "want": "A ragged convict / prison — Magwitch (PD)"
+    },
+    {
+      "id": "plate-forge",
+      "count": 1,
+      "query": "Joseph Wright of Derby blacksmith forge painting",
+      "want": "A glowing blacksmith's forge — Joe's smithy (PD)"
+    },
+    {
+      "id": "plate-havisham",
+      "count": 1,
+      "query": "Rembrandt portrait of an old woman painting",
+      "want": "An aged woman — Miss Havisham (PD)"
+    },
+    {
+      "id": "plate-estella",
+      "count": 1,
+      "query": "Frederic Leighton portrait of a young woman painting",
+      "want": "A cool, beautiful young woman — Estella (PD)"
+    },
+    {
+      "id": "plate-london",
+      "count": 1,
+      "query": "Gustave Dore London slum engraving",
+      "want": "Victorian London (PD)"
+    },
+    {
+      "id": "plate-satis",
+      "count": 1,
+      "query": "Joseph Wright of Derby candlelit interior painting",
+      "want": "A dim candlelit decaying room — Satis House (PD)"
+    }
+  ]
+}
