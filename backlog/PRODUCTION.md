@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 30/138 rendered**  `████░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  106 planned
+**Progress: 31/138 rendered**  `████░░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  105 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -125,7 +125,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-17B | Great Expectations | Full retelling | Curriculum classics | ✅ rendered |
 | FI-22 | The Way of Kings | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-27A | The Odyssey | Revision video | Curriculum classics | ⬜ planned |
-| CL-27B | The Odyssey | Full retelling | Curriculum classics | 📝 scripted |
+| CL-27B | The Odyssey | Full retelling | Curriculum classics | ✅ rendered |
 | FI-12 | Powerless | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-34A | Of Mice and Men | Revision video | Curriculum classics | ⬜ planned |
 | CL-34B | Of Mice and Men | Full retelling | Curriculum classics | ⬜ planned |
@@ -158,7 +158,7 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-41B | Death of a Salesman | Full retelling | Curriculum classics | ⬜ planned |
 | FI-18 | Shadow and Bone | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-26A | Oedipus Rex | Revision video | Curriculum classics | ⬜ planned |
-| CL-26B | Oedipus Rex | Full retelling | Curriculum classics | ⬜ planned |
+| CL-26B | Oedipus Rex | Full retelling | Curriculum classics | 📝 scripted |
 | FI-16 | Crescent City | Fiction retelling | Modern fiction | ⬜ planned |
 | FI-29 | The Hunger Games | Fiction retelling | Modern fiction | ⬜ planned |
 | FI-30 | Percy Jackson: The Lightning Thief | Fiction retelling | Modern fiction | ⬜ planned |
