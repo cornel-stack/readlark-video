@@ -3,7 +3,7 @@
 Derived from `backlog/videos.json` — regenerate with `python tools/gen_backlog_md.py`.
 Mark a video rendered by adding its code to `backlog/rendered.json`.
 
-**Progress: 33/138 rendered**  `█████░░░░░░░░░░░░░░░`  ·  1 scripted, awaiting render  ·  104 planned
+**Progress: 34/138 rendered**  `█████░░░░░░░░░░░░░░░`  ·  2 scripted, awaiting render  ·  102 planned
 
 Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 
@@ -134,16 +134,16 @@ Status: ⬜ planned (no script) · 📝 scripted · ✅ rendered
 | CL-37B | Brave New World | Full retelling | Curriculum classics | ⬜ planned |
 | FI-10 | It Ends with Us | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-08A | Twelfth Night | Revision video | Curriculum classics | ⬜ planned |
-| CL-08B | Twelfth Night | Full retelling | Curriculum classics | 📝 scripted |
+| CL-08B | Twelfth Night | Full retelling | Curriculum classics | ✅ rendered |
 | FI-11 | Verity | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-09A | King Lear | Revision video | Curriculum classics | ⬜ planned |
-| CL-09B | King Lear | Full retelling | Curriculum classics | ⬜ planned |
+| CL-09B | King Lear | Full retelling | Curriculum classics | 📝 scripted |
 | FI-15 | Throne of Glass | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-21A | The Adventures of Huckleberry Finn | Revision video | Curriculum classics | ⬜ planned |
 | CL-21B | The Adventures of Huckleberry Finn | Full retelling | Curriculum classics | ⬜ planned |
 | FI-25 | Project Hail Mary | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-06A | Julius Caesar | Revision video | Curriculum classics | ⬜ planned |
-| CL-06B | Julius Caesar | Full retelling | Curriculum classics | ⬜ planned |
+| CL-06B | Julius Caesar | Full retelling | Curriculum classics | 📝 scripted |
 | FI-26 | The Three-Body Problem | Fiction retelling | Modern fiction | ⬜ planned |
 | CL-20A | The Scarlet Letter | Revision video | Curriculum classics | ⬜ planned |
 | CL-20B | The Scarlet Letter | Full retelling | Curriculum classics | ✅ rendered |
