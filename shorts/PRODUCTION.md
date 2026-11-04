@@ -112,7 +112,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-13 | Applied Stoicism | 5 Stoic truths about failure | ✅ | run 41808458031 |
 | LB-13 | Books & reading | 5 books that explain human nature | ✅ | run 41808464150 |
 | LM-13 | Psychology | 5 things that make people respect you | ✅ | run 41808471587 |
-| LH-14 | Self-improvement | 6 things that age your mind | 📝 | round 14 |
-| LS-14 | Applied Stoicism | 5 Stoic lessons on gratitude | 📝 | round 14 |
-| LB-14 | Books & reading | 5 poems that stay with you | 📝 | round 14 |
-| LM-14 | Psychology | 6 signs you're an overthinker | 📝 | round 14 |
+| LH-14 | Self-improvement | 6 things that age your mind | ✅ | run 41809335697 |
+| LS-14 | Applied Stoicism | 5 Stoic lessons on gratitude | ✅ | run 41809346588 |
+| LB-14 | Books & reading | 5 poems that stay with you | ✅ | run 41809416903 |
+| LM-14 | Psychology | 6 signs you're an overthinker | ✅ | run 41809428314 |
+| LH-15 | Self-improvement | 6 habits for unshakeable discipline | 📝 | round 15 |
+| LS-15 | Applied Stoicism | 5 lessons for difficult people | 📝 | round 15 |
+| LB-15 | Books & reading | 5 books that sharpen thinking | 📝 | round 15 |
+| LM-15 | Psychology | 6 habits of likeable people | 📝 | round 15 |

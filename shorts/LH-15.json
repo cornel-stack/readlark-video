@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-15",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "habits that build unshakeable discipline",
+    "format": "list",
+    "title": "6 habits that build unshakeable discipline",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "how to build discipline habits",
+    "hashtags": [
+      "discipline",
+      "selfimprovement",
+      "habits",
+      "mindset",
+      "motivation"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-stone",
+      "query": "ancient Roman statue of a disciplined soldier marble",
+      "want": "Disciplined, unmoved resolve (PD)"
+    },
+    {
+      "id": "plate-forge",
+      "query": "Joseph Wright of Derby The Blacksmith's Shop forge painting",
+      "want": "Character forged by repetition (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "Caspar David Friedrich early morning disciplined dawn painting",
+      "want": "The quiet of an early start (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six habits that build discipline nothing can shake.",
+      "plate": "plate-stone"
+    },
+    {
+      "text": "One. Do the hardest thing first, before your willpower gets spent on everything else.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Two. Shrink the task until starting is almost laughably easy. Two minutes beats zero.",
+      "plate": "plate-forge"
+    },
+    {
+      "text": "Three. Remove the friction. Make the good choice the easy one, and the bad one a hassle.",
+      "plate": "plate-stone"
+    },
+    {
+      "text": "Four. Never miss twice. One slip is human; two in a row is the start of a new habit.",
+      "plate": "plate-forge"
+    },
+    {
+      "text": "Five. Keep promises to yourself, even tiny ones. That's where self-trust is built.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Six. Rely on systems, not moods. Motivation visits; a system shows up every day.",
+      "plate": "plate-forge"
+    },
+    {
+      "text": "Discipline isn't willpower. It's design — a life arranged so the right thing is the easy thing.",
+      "plate": "plate-stone",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which habit will you start with?",
+  "cta": "Follow for more"
+}

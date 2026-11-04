@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-15",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "habits of genuinely likeable people",
+    "format": "list",
+    "title": "6 habits of genuinely likeable people",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "habits of likeable people",
+    "hashtags": [
+      "psychology",
+      "charisma",
+      "relationships",
+      "communication",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-warm",
+      "query": "Frans Hals warm smiling friendly portrait painting",
+      "want": "Genuine warmth (PD)"
+    },
+    {
+      "id": "plate-listen",
+      "query": "Rembrandt two people in attentive conversation painting",
+      "want": "Someone who truly listens (PD)"
+    },
+    {
+      "id": "plate-group",
+      "query": "Dutch golden age friendly gathering painting",
+      "want": "At ease among people (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six habits of people everyone just seems to like.",
+      "plate": "plate-warm"
+    },
+    {
+      "text": "One. They remember the small details — your dog's name, the trip you mentioned once.",
+      "plate": "plate-listen"
+    },
+    {
+      "text": "Two. They listen to understand, not to wait for their turn to talk.",
+      "plate": "plate-listen"
+    },
+    {
+      "text": "Three. They make others feel smart and seen, instead of trying to look impressive.",
+      "plate": "plate-group"
+    },
+    {
+      "text": "Four. They're generous with credit and sparing with complaints.",
+      "plate": "plate-warm"
+    },
+    {
+      "text": "Five. They're warm before they're clever. People forget facts but remember how you made them feel.",
+      "plate": "plate-group"
+    },
+    {
+      "text": "Six. They're the same person to everyone — no switching masks by status.",
+      "plate": "plate-warm"
+    },
+    {
+      "text": "Likeability isn't charm or looks. It's mostly just making other people feel genuinely valued.",
+      "plate": "plate-listen",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one comes naturally to you?",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-15",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons for difficult people",
+    "format": "list",
+    "title": "5 Stoic lessons for dealing with difficult people",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism dealing with difficult people",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "relationships",
+      "patience",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The emperor who met difficult people daily (PD)"
+    },
+    {
+      "id": "plate-crowd",
+      "query": "Honoré Daumier crowd of difficult faces painting",
+      "want": "The people we can't avoid (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich calm figure amid landscape painting",
+      "want": "Staying centred among them (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons for dealing with difficult people.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "One. Marcus began each day expecting to meet the rude and ungrateful. Forewarned, he wasn't thrown.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "Two. They act from their own ignorance, not against you. It's rarely as personal as it feels.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Three. You can't control their behaviour — only your response. That's the only battle worth fighting.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. The best revenge is not to become like them. Don't let their chaos rewrite your character.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Five. We're all teeth and claws of the same body, Marcus said. To work against each other is unnatural.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "You'll never run out of difficult people. So make your calm the thing that doesn't depend on them.",
+      "plate": "plate-calm",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius, Meditations.",
+  "cta": "Follow for more"
+}

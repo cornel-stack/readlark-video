@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-15",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books that sharpen your thinking",
+    "format": "list",
+    "title": "5 books that will sharpen how you think",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books that make you think better",
+    "hashtags": [
+      "books",
+      "philosophy",
+      "thinking",
+      "booktok",
+      "classics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-think",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "A mind being sharpened (PD)"
+    },
+    {
+      "id": "plate-athens",
+      "query": "Raphael The School of Athens fresco",
+      "want": "The great reasoners (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life books and candle study painting",
+      "want": "Tools for clearer thought (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books that will quietly sharpen the way you think.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "One. Plato's Republic — watch Socrates take an idea apart until only the truth is left.",
+      "plate": "plate-athens"
+    },
+    {
+      "text": "Two. Meditations — Marcus Aurelius on seeing things as they are, stripped of your stories.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "Three. Montaigne's Essays — the art of questioning your own certainties, honestly.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Four. Bacon's essays — short, sharp lessons in judging evidence over habit.",
+      "plate": "plate-athens"
+    },
+    {
+      "text": "Five. Letters from a Stoic — Seneca turning philosophy into practical, everyday clear thinking.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Reading great minds is how you learn to argue with your own. Explainers are on the channel.",
+      "plate": "plate-think",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}
