@@ -6,7 +6,7 @@ Already-posted shorts are excluded (see `POSTED` in the generator). Add a code t
 
 > GitHub keeps workflow artifacts ~30 days for shorts. Download before they expire.
 
-**New shorts ready to post: 124**
+**New shorts ready to post: 128**
 
 | # | Thinker | Short | Code | Download (GitHub Actions run) |
 |---|---------|-------|------|-------------------------------|
@@ -51,86 +51,90 @@ Already-posted shorts are excluded (see `POSTED` in the generator). Add a code t
 | 39 |  | 5 unforgettable final lines in literature | `LB-20` | https://github.com/cornel-stack/readlark-video/actions/runs/41813765294 |
 | 40 |  | 5 of the greatest love stories in literature | `LB-21` | https://github.com/cornel-stack/readlark-video/actions/runs/41814438162 |
 | 41 |  | 5 classic books that are actually hilarious | `LB-22` | https://github.com/cornel-stack/readlark-video/actions/runs/41815096190 |
-| 42 |  | 6 habits of people with a genuinely high IQ | `LH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41800129526 |
-| 43 |  | 6 habits of people who can actually focus | `LH-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41800899991 |
-| 44 |  | 5 things mentally strong people never do | `LH-03` | https://github.com/cornel-stack/readlark-video/actions/runs/41801448824 |
-| 45 |  | 6 tiny habits with a huge long-term payoff | `LH-04` | https://github.com/cornel-stack/readlark-video/actions/runs/41802083325 |
-| 46 |  | 6 signs you're growing, even when it doesn't feel like it | `LH-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41802803019 |
-| 47 |  | 6 lies that are quietly keeping you stuck | `LH-06` | https://github.com/cornel-stack/readlark-video/actions/runs/41803437245 |
-| 48 |  | 6 things worth letting go of this year | `LH-07` | https://github.com/cornel-stack/readlark-video/actions/runs/41804128111 |
-| 49 |  | 6 hard truths that will set you free | `LH-08` | https://github.com/cornel-stack/readlark-video/actions/runs/41804827912 |
-| 50 |  | 5 things your future self will thank you for | `LH-09` | https://github.com/cornel-stack/readlark-video/actions/runs/41805431681 |
-| 51 |  | 6 skills worth more than a degree | `LH-10` | https://github.com/cornel-stack/readlark-video/actions/runs/41806224524 |
-| 52 |  | 6 small ways to romanticise your everyday life | `LH-11` | https://github.com/cornel-stack/readlark-video/actions/runs/41807021152 |
-| 53 |  | 6 signs you're finally healing | `LH-12` | https://github.com/cornel-stack/readlark-video/actions/runs/41807683194 |
-| 54 |  | 6 things confident people do differently | `LH-13` | https://github.com/cornel-stack/readlark-video/actions/runs/41808451561 |
-| 55 |  | 6 things that quietly age your mind | `LH-14` | https://github.com/cornel-stack/readlark-video/actions/runs/41809335697 |
-| 56 |  | 6 habits that build unshakeable discipline | `LH-15` | https://github.com/cornel-stack/readlark-video/actions/runs/41810018307 |
-| 57 |  | 6 things successful people do before 8am | `LH-16` | https://github.com/cornel-stack/readlark-video/actions/runs/41810734235 |
-| 58 |  | 6 tiny wins that build unstoppable momentum | `LH-17` | https://github.com/cornel-stack/readlark-video/actions/runs/41811498283 |
-| 59 |  | 5 questions that can change your entire life | `LH-18` | https://github.com/cornel-stack/readlark-video/actions/runs/41812335342 |
-| 60 |  | 5 habits that make your life feel longer | `LH-19` | https://github.com/cornel-stack/readlark-video/actions/runs/41812985479 |
-| 61 |  | 6 lessons people learn far too late in life | `LH-20` | https://github.com/cornel-stack/readlark-video/actions/runs/41813751842 |
-| 62 |  | 6 habits of people who never seem stressed | `LH-21` | https://github.com/cornel-stack/readlark-video/actions/runs/41814428458 |
-| 63 |  | 6 signs you're outgrowing your old life | `LH-22` | https://github.com/cornel-stack/readlark-video/actions/runs/41815081841 |
-| 64 |  | 6 signs you're more emotionally intelligent than you think | `LM-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41800148839 |
-| 65 |  | 6 cognitive biases fooling you every single day | `LM-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41800916888 |
-| 66 |  | 6 psychology facts that explain your everyday life | `LM-03` | https://github.com/cornel-stack/readlark-video/actions/runs/41801466006 |
-| 67 |  | 6 signs of quiet confidence | `LM-04` | https://github.com/cornel-stack/readlark-video/actions/runs/41802101327 |
-| 68 |  | 5 everyday habits quietly draining your energy | `LM-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41802820785 |
-| 69 |  | 5 things emotionally mature people do in an argument | `LM-06` | https://github.com/cornel-stack/readlark-video/actions/runs/41803455343 |
-| 70 |  | 6 subtle signs of high intelligence | `LM-07` | https://github.com/cornel-stack/readlark-video/actions/runs/41804147550 |
-| 71 |  | 5 habits of genuinely calm people | `LM-08` | https://github.com/cornel-stack/readlark-video/actions/runs/41804846494 |
-| 72 |  | 6 signs of genuine self-respect | `LM-09` | https://github.com/cornel-stack/readlark-video/actions/runs/41805450731 |
-| 73 |  | 5 things your body language reveals before you speak | `LM-10` | https://github.com/cornel-stack/readlark-video/actions/runs/41806244458 |
-| 74 |  | 5 phrases emotionally intelligent people use | `LM-11` | https://github.com/cornel-stack/readlark-video/actions/runs/41807040320 |
-| 75 |  | 6 quiet signs of a genuinely good person | `LM-12` | https://github.com/cornel-stack/readlark-video/actions/runs/41807700741 |
-| 76 |  | 5 subtle things that make people respect you | `LM-13` | https://github.com/cornel-stack/readlark-video/actions/runs/41808471587 |
-| 77 |  | 6 signs you're an overthinker (and how to stop) | `LM-14` | https://github.com/cornel-stack/readlark-video/actions/runs/41809428314 |
-| 78 |  | 6 habits of genuinely likeable people | `LM-15` | https://github.com/cornel-stack/readlark-video/actions/runs/41810063390 |
-| 79 |  | 5 psychological tricks to stay motivated | `LM-16` | https://github.com/cornel-stack/readlark-video/actions/runs/41810757446 |
-| 80 |  | 5 daily habits that rewire your brain for focus | `LM-17` | https://github.com/cornel-stack/readlark-video/actions/runs/41811516217 |
-| 81 |  | 6 signs you're mentally stronger than you realise | `LM-18` | https://github.com/cornel-stack/readlark-video/actions/runs/41812351996 |
-| 82 |  | 6 signs you're a deep thinker | `LM-19` | https://github.com/cornel-stack/readlark-video/actions/runs/41813003561 |
-| 83 |  | 6 habits that are secretly killing your confidence | `LM-20` | https://github.com/cornel-stack/readlark-video/actions/runs/41813770391 |
-| 84 |  | 6 signs you're emotionally exhausted (not lazy) | `LM-21` | https://github.com/cornel-stack/readlark-video/actions/runs/41814445015 |
-| 85 |  | 6 ways people reveal their true character | `LM-22` | https://github.com/cornel-stack/readlark-video/actions/runs/41815103211 |
-| 86 | John Locke | Locke: you were born a blank slate | `LO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798971080 |
-| 87 |  | 5 Stoic rules for when life falls apart | `LS-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41800136794 |
-| 88 |  | 5 things the Stoics did every single morning | `LS-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41800905661 |
-| 89 |  | 5 Stoic ways to stop caring what people think | `LS-03` | https://github.com/cornel-stack/readlark-video/actions/runs/41801454644 |
-| 90 |  | 5 Stoic lessons for controlling your anger | `LS-04` | https://github.com/cornel-stack/readlark-video/actions/runs/41802089131 |
-| 91 |  | 5 Stoic lessons for making peace with death | `LS-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41802808967 |
-| 92 |  | 5 Stoic truths about the time you're wasting | `LS-06` | https://github.com/cornel-stack/readlark-video/actions/runs/41803443522 |
-| 93 |  | 5 things Epictetus would tell you today | `LS-07` | https://github.com/cornel-stack/readlark-video/actions/runs/41804134655 |
-| 94 |  | 5 questions the Stoics asked themselves every night | `LS-08` | https://github.com/cornel-stack/readlark-video/actions/runs/41804833990 |
-| 95 |  | 5 Stoic ways to conquer your fear | `LS-09` | https://github.com/cornel-stack/readlark-video/actions/runs/41806218253 |
-| 96 |  | 5 Stoic keys to a genuinely happier life | `LS-10` | https://github.com/cornel-stack/readlark-video/actions/runs/41806231250 |
-| 97 |  | 5 Stoic lessons for taming your ego | `LS-11` | https://github.com/cornel-stack/readlark-video/actions/runs/41807028853 |
-| 98 |  | 5 Stoic lessons to stop comparing yourself to others | `LS-12` | https://github.com/cornel-stack/readlark-video/actions/runs/41807689081 |
-| 99 |  | 5 Stoic truths about failure | `LS-13` | https://github.com/cornel-stack/readlark-video/actions/runs/41808458031 |
-| 100 |  | 5 Stoic lessons on gratitude | `LS-14` | https://github.com/cornel-stack/readlark-video/actions/runs/41809346588 |
-| 101 |  | 5 Stoic lessons for dealing with difficult people | `LS-15` | https://github.com/cornel-stack/readlark-video/actions/runs/41810024494 |
-| 102 |  | 5 Stoic quotes worth memorising for life | `LS-16` | https://github.com/cornel-stack/readlark-video/actions/runs/41810743501 |
-| 103 |  | 5 Stoic lessons on mastering your desires | `LS-17` | https://github.com/cornel-stack/readlark-video/actions/runs/41811503392 |
-| 104 |  | 5 Stoic lessons on self-discipline | `LS-18` | https://github.com/cornel-stack/readlark-video/actions/runs/41812340694 |
-| 105 |  | 5 Stoic lessons on accepting what you can't change | `LS-19` | https://github.com/cornel-stack/readlark-video/actions/runs/41812990286 |
-| 106 |  | 5 Stoic lessons on living with purpose | `LS-20` | https://github.com/cornel-stack/readlark-video/actions/runs/41813757771 |
-| 107 |  | 5 Stoic lessons on money and wealth | `LS-21` | https://github.com/cornel-stack/readlark-video/actions/runs/41814433679 |
-| 108 |  | 5 Stoic lessons on being alone | `LS-22` | https://github.com/cornel-stack/readlark-video/actions/runs/41815088807 |
-| 109 | Niccolò Machiavelli | Machiavelli: is it better to be feared or loved? | `MA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798959535 |
-| 110 | John Stuart Mill | Mill: better to be Socrates dissatisfied than a fool satisfied | `MI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798926653 |
-| 111 | Michel de Montaigne | The man who got wise by admitting he knew nothing | `MO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798052743 |
-| 112 | Friedrich Nietzsche | Nietzsche's most terrifying thought experiment | `NI-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41796570921 |
-| 113 | Blaise Pascal | Why Pascal blamed all our misery on one thing | `PA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798045708 |
-| 114 | Plato | The prisoners who mistook shadows for the world | `PL-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796592552 |
-| 115 | Jean-Jacques Rousseau | Rousseau: you were born free — so why the chains? | `RO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798108543 |
-| 116 | Jean-Paul Sartre | Sartre says you are terrifyingly free | `SA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798065890 |
-| 117 | Arthur Schopenhauer | Why we hurt the people we need the most | `SC-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796587132 |
-| 118 | Socrates | Why Socrates died for a single sentence | `SO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796604462 |
-| 119 | Baruch Spinoza | Spinoza says free will is an illusion — and that frees you | `SP-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796626541 |
-| 120 | Marcus Aurelius | The mental trick a Roman emperor used to shrink his problems | `ST-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41798039781 |
-| 121 | Henry David Thoreau | Thoreau: why most people live lives of quiet desperation | `TH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798931544 |
-| 122 | Voltaire | Voltaire's answer to a broken world: tend your garden | `VO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798943809 |
-| 123 | Ludwig Wittgenstein | Wittgenstein: what you cannot speak of, pass over in silence | `WI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798921377 |
-| 124 | Zhuangzi | The dream that made a philosopher doubt he was awake | `ZH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798091101 |
+| 42 |  | 5 unforgettable characters in literature | `LB-23` | https://github.com/cornel-stack/readlark-video/actions/runs/41815781008 |
+| 43 |  | 6 habits of people with a genuinely high IQ | `LH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41800129526 |
+| 44 |  | 6 habits of people who can actually focus | `LH-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41800899991 |
+| 45 |  | 5 things mentally strong people never do | `LH-03` | https://github.com/cornel-stack/readlark-video/actions/runs/41801448824 |
+| 46 |  | 6 tiny habits with a huge long-term payoff | `LH-04` | https://github.com/cornel-stack/readlark-video/actions/runs/41802083325 |
+| 47 |  | 6 signs you're growing, even when it doesn't feel like it | `LH-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41802803019 |
+| 48 |  | 6 lies that are quietly keeping you stuck | `LH-06` | https://github.com/cornel-stack/readlark-video/actions/runs/41803437245 |
+| 49 |  | 6 things worth letting go of this year | `LH-07` | https://github.com/cornel-stack/readlark-video/actions/runs/41804128111 |
+| 50 |  | 6 hard truths that will set you free | `LH-08` | https://github.com/cornel-stack/readlark-video/actions/runs/41804827912 |
+| 51 |  | 5 things your future self will thank you for | `LH-09` | https://github.com/cornel-stack/readlark-video/actions/runs/41805431681 |
+| 52 |  | 6 skills worth more than a degree | `LH-10` | https://github.com/cornel-stack/readlark-video/actions/runs/41806224524 |
+| 53 |  | 6 small ways to romanticise your everyday life | `LH-11` | https://github.com/cornel-stack/readlark-video/actions/runs/41807021152 |
+| 54 |  | 6 signs you're finally healing | `LH-12` | https://github.com/cornel-stack/readlark-video/actions/runs/41807683194 |
+| 55 |  | 6 things confident people do differently | `LH-13` | https://github.com/cornel-stack/readlark-video/actions/runs/41808451561 |
+| 56 |  | 6 things that quietly age your mind | `LH-14` | https://github.com/cornel-stack/readlark-video/actions/runs/41809335697 |
+| 57 |  | 6 habits that build unshakeable discipline | `LH-15` | https://github.com/cornel-stack/readlark-video/actions/runs/41810018307 |
+| 58 |  | 6 things successful people do before 8am | `LH-16` | https://github.com/cornel-stack/readlark-video/actions/runs/41810734235 |
+| 59 |  | 6 tiny wins that build unstoppable momentum | `LH-17` | https://github.com/cornel-stack/readlark-video/actions/runs/41811498283 |
+| 60 |  | 5 questions that can change your entire life | `LH-18` | https://github.com/cornel-stack/readlark-video/actions/runs/41812335342 |
+| 61 |  | 5 habits that make your life feel longer | `LH-19` | https://github.com/cornel-stack/readlark-video/actions/runs/41812985479 |
+| 62 |  | 6 lessons people learn far too late in life | `LH-20` | https://github.com/cornel-stack/readlark-video/actions/runs/41813751842 |
+| 63 |  | 6 habits of people who never seem stressed | `LH-21` | https://github.com/cornel-stack/readlark-video/actions/runs/41814428458 |
+| 64 |  | 6 signs you're outgrowing your old life | `LH-22` | https://github.com/cornel-stack/readlark-video/actions/runs/41815081841 |
+| 65 |  | 5 things quietly wasting your potential | `LH-23` | https://github.com/cornel-stack/readlark-video/actions/runs/41815770637 |
+| 66 |  | 6 signs you're more emotionally intelligent than you think | `LM-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41800148839 |
+| 67 |  | 6 cognitive biases fooling you every single day | `LM-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41800916888 |
+| 68 |  | 6 psychology facts that explain your everyday life | `LM-03` | https://github.com/cornel-stack/readlark-video/actions/runs/41801466006 |
+| 69 |  | 6 signs of quiet confidence | `LM-04` | https://github.com/cornel-stack/readlark-video/actions/runs/41802101327 |
+| 70 |  | 5 everyday habits quietly draining your energy | `LM-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41802820785 |
+| 71 |  | 5 things emotionally mature people do in an argument | `LM-06` | https://github.com/cornel-stack/readlark-video/actions/runs/41803455343 |
+| 72 |  | 6 subtle signs of high intelligence | `LM-07` | https://github.com/cornel-stack/readlark-video/actions/runs/41804147550 |
+| 73 |  | 5 habits of genuinely calm people | `LM-08` | https://github.com/cornel-stack/readlark-video/actions/runs/41804846494 |
+| 74 |  | 6 signs of genuine self-respect | `LM-09` | https://github.com/cornel-stack/readlark-video/actions/runs/41805450731 |
+| 75 |  | 5 things your body language reveals before you speak | `LM-10` | https://github.com/cornel-stack/readlark-video/actions/runs/41806244458 |
+| 76 |  | 5 phrases emotionally intelligent people use | `LM-11` | https://github.com/cornel-stack/readlark-video/actions/runs/41807040320 |
+| 77 |  | 6 quiet signs of a genuinely good person | `LM-12` | https://github.com/cornel-stack/readlark-video/actions/runs/41807700741 |
+| 78 |  | 5 subtle things that make people respect you | `LM-13` | https://github.com/cornel-stack/readlark-video/actions/runs/41808471587 |
+| 79 |  | 6 signs you're an overthinker (and how to stop) | `LM-14` | https://github.com/cornel-stack/readlark-video/actions/runs/41809428314 |
+| 80 |  | 6 habits of genuinely likeable people | `LM-15` | https://github.com/cornel-stack/readlark-video/actions/runs/41810063390 |
+| 81 |  | 5 psychological tricks to stay motivated | `LM-16` | https://github.com/cornel-stack/readlark-video/actions/runs/41810757446 |
+| 82 |  | 5 daily habits that rewire your brain for focus | `LM-17` | https://github.com/cornel-stack/readlark-video/actions/runs/41811516217 |
+| 83 |  | 6 signs you're mentally stronger than you realise | `LM-18` | https://github.com/cornel-stack/readlark-video/actions/runs/41812351996 |
+| 84 |  | 6 signs you're a deep thinker | `LM-19` | https://github.com/cornel-stack/readlark-video/actions/runs/41813003561 |
+| 85 |  | 6 habits that are secretly killing your confidence | `LM-20` | https://github.com/cornel-stack/readlark-video/actions/runs/41813770391 |
+| 86 |  | 6 signs you're emotionally exhausted (not lazy) | `LM-21` | https://github.com/cornel-stack/readlark-video/actions/runs/41814445015 |
+| 87 |  | 6 ways people reveal their true character | `LM-22` | https://github.com/cornel-stack/readlark-video/actions/runs/41815103211 |
+| 88 |  | 5 ways your memory lies to you | `LM-23` | https://github.com/cornel-stack/readlark-video/actions/runs/41815787032 |
+| 89 | John Locke | Locke: you were born a blank slate | `LO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798971080 |
+| 90 |  | 5 Stoic rules for when life falls apart | `LS-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41800136794 |
+| 91 |  | 5 things the Stoics did every single morning | `LS-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41800905661 |
+| 92 |  | 5 Stoic ways to stop caring what people think | `LS-03` | https://github.com/cornel-stack/readlark-video/actions/runs/41801454644 |
+| 93 |  | 5 Stoic lessons for controlling your anger | `LS-04` | https://github.com/cornel-stack/readlark-video/actions/runs/41802089131 |
+| 94 |  | 5 Stoic lessons for making peace with death | `LS-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41802808967 |
+| 95 |  | 5 Stoic truths about the time you're wasting | `LS-06` | https://github.com/cornel-stack/readlark-video/actions/runs/41803443522 |
+| 96 |  | 5 things Epictetus would tell you today | `LS-07` | https://github.com/cornel-stack/readlark-video/actions/runs/41804134655 |
+| 97 |  | 5 questions the Stoics asked themselves every night | `LS-08` | https://github.com/cornel-stack/readlark-video/actions/runs/41804833990 |
+| 98 |  | 5 Stoic ways to conquer your fear | `LS-09` | https://github.com/cornel-stack/readlark-video/actions/runs/41806218253 |
+| 99 |  | 5 Stoic keys to a genuinely happier life | `LS-10` | https://github.com/cornel-stack/readlark-video/actions/runs/41806231250 |
+| 100 |  | 5 Stoic lessons for taming your ego | `LS-11` | https://github.com/cornel-stack/readlark-video/actions/runs/41807028853 |
+| 101 |  | 5 Stoic lessons to stop comparing yourself to others | `LS-12` | https://github.com/cornel-stack/readlark-video/actions/runs/41807689081 |
+| 102 |  | 5 Stoic truths about failure | `LS-13` | https://github.com/cornel-stack/readlark-video/actions/runs/41808458031 |
+| 103 |  | 5 Stoic lessons on gratitude | `LS-14` | https://github.com/cornel-stack/readlark-video/actions/runs/41809346588 |
+| 104 |  | 5 Stoic lessons for dealing with difficult people | `LS-15` | https://github.com/cornel-stack/readlark-video/actions/runs/41810024494 |
+| 105 |  | 5 Stoic quotes worth memorising for life | `LS-16` | https://github.com/cornel-stack/readlark-video/actions/runs/41810743501 |
+| 106 |  | 5 Stoic lessons on mastering your desires | `LS-17` | https://github.com/cornel-stack/readlark-video/actions/runs/41811503392 |
+| 107 |  | 5 Stoic lessons on self-discipline | `LS-18` | https://github.com/cornel-stack/readlark-video/actions/runs/41812340694 |
+| 108 |  | 5 Stoic lessons on accepting what you can't change | `LS-19` | https://github.com/cornel-stack/readlark-video/actions/runs/41812990286 |
+| 109 |  | 5 Stoic lessons on living with purpose | `LS-20` | https://github.com/cornel-stack/readlark-video/actions/runs/41813757771 |
+| 110 |  | 5 Stoic lessons on money and wealth | `LS-21` | https://github.com/cornel-stack/readlark-video/actions/runs/41814433679 |
+| 111 |  | 5 Stoic lessons on being alone | `LS-22` | https://github.com/cornel-stack/readlark-video/actions/runs/41815088807 |
+| 112 |  | 5 Stoic reminders for when you want to quit | `LS-23` | https://github.com/cornel-stack/readlark-video/actions/runs/41815775408 |
+| 113 | Niccolò Machiavelli | Machiavelli: is it better to be feared or loved? | `MA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798959535 |
+| 114 | John Stuart Mill | Mill: better to be Socrates dissatisfied than a fool satisfied | `MI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798926653 |
+| 115 | Michel de Montaigne | The man who got wise by admitting he knew nothing | `MO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798052743 |
+| 116 | Friedrich Nietzsche | Nietzsche's most terrifying thought experiment | `NI-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41796570921 |
+| 117 | Blaise Pascal | Why Pascal blamed all our misery on one thing | `PA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798045708 |
+| 118 | Plato | The prisoners who mistook shadows for the world | `PL-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796592552 |
+| 119 | Jean-Jacques Rousseau | Rousseau: you were born free — so why the chains? | `RO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798108543 |
+| 120 | Jean-Paul Sartre | Sartre says you are terrifyingly free | `SA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798065890 |
+| 121 | Arthur Schopenhauer | Why we hurt the people we need the most | `SC-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796587132 |
+| 122 | Socrates | Why Socrates died for a single sentence | `SO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796604462 |
+| 123 | Baruch Spinoza | Spinoza says free will is an illusion — and that frees you | `SP-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796626541 |
+| 124 | Marcus Aurelius | The mental trick a Roman emperor used to shrink his problems | `ST-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41798039781 |
+| 125 | Henry David Thoreau | Thoreau: why most people live lives of quiet desperation | `TH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798931544 |
+| 126 | Voltaire | Voltaire's answer to a broken world: tend your garden | `VO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798943809 |
+| 127 | Ludwig Wittgenstein | Wittgenstein: what you cannot speak of, pass over in silence | `WI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798921377 |
+| 128 | Zhuangzi | The dream that made a philosopher doubt he was awake | `ZH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798091101 |
