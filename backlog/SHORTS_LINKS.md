@@ -6,31 +6,43 @@ Already-posted shorts are excluded (see `POSTED` in the generator). Add a code t
 
 > GitHub keeps workflow artifacts ~30 days for shorts. Download before they expire.
 
-**New shorts ready to post: 24**
+**New shorts ready to post: 36**
 
 | # | Thinker | Short | Code | Download (GitHub Actions run) |
 |---|---------|-------|------|-------------------------------|
 | 1 | Aristotle | Aristotle's recipe for a good life | `AR-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798078297 |
-| 2 | Albert Camus | Camus: the one question that really matters | `CA-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41798072230 |
-| 3 | Confucius | Confucius on the trap of learning without thinking | `CO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798097325 |
-| 4 | René Descartes | The one thing Descartes could not doubt | `DE-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796615718 |
-| 5 | Diogenes | The philosopher who lived in a barrel and mocked a king | `DI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798084535 |
-| 6 | Fyodor Dostoevsky | The man who chose to suffer on purpose | `DO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796576444 |
-| 7 | Epicurus | Why Epicurus said death is nothing to fear | `EP-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796609996 |
-| 8 | Heraclitus | Why you can never step in the same river twice | `HE-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796599054 |
-| 9 | Thomas Hobbes | Why Hobbes says life without rules is nasty, brutish, and short | `HO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798102896 |
-| 10 | David Hume | Why David Hume says you can't prove the sun will rise | `HU-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798059813 |
-| 11 | Franz Kafka | Why Kafka says you were already found guilty | `KA-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41796564557 |
-| 12 | Søren Kierkegaard | Why Kierkegaard called anxiety the dizziness of freedom | `KI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796582162 |
-| 13 | Lao Tzu | Why the softest thing defeats the hardest | `LA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796621037 |
-| 14 | Michel de Montaigne | The man who got wise by admitting he knew nothing | `MO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798052743 |
-| 15 | Friedrich Nietzsche | Nietzsche's most terrifying thought experiment | `NI-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41796570921 |
-| 16 | Blaise Pascal | Why Pascal blamed all our misery on one thing | `PA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798045708 |
-| 17 | Plato | The prisoners who mistook shadows for the world | `PL-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796592552 |
-| 18 | Jean-Jacques Rousseau | Rousseau: you were born free — so why the chains? | `RO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798108543 |
-| 19 | Jean-Paul Sartre | Sartre says you are terrifyingly free | `SA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798065890 |
-| 20 | Arthur Schopenhauer | Why we hurt the people we need the most | `SC-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796587132 |
-| 21 | Socrates | Why Socrates died for a single sentence | `SO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796604462 |
-| 22 | Baruch Spinoza | Spinoza says free will is an illusion — and that frees you | `SP-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796626541 |
-| 23 | Marcus Aurelius | The mental trick a Roman emperor used to shrink his problems | `ST-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41798039781 |
-| 24 | Zhuangzi | The dream that made a philosopher doubt he was awake | `ZH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798091101 |
+| 2 | Augustine of Hippo | Augustine on the restlessness you can never quite shake | `AU-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798949295 |
+| 3 | Francis Bacon | Francis Bacon and the four illusions that fool your mind | `BA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798964800 |
+| 4 | George Berkeley | If a tree falls and no one hears it — Berkeley's answer | `BE-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798976960 |
+| 5 | Boethius | The prisoner who found peace on Fortune's wheel | `BO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798954023 |
+| 6 | Albert Camus | Camus: the one question that really matters | `CA-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41798072230 |
+| 7 | Confucius | Confucius on the trap of learning without thinking | `CO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798097325 |
+| 8 | René Descartes | The one thing Descartes could not doubt | `DE-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796615718 |
+| 9 | Diogenes | The philosopher who lived in a barrel and mocked a king | `DI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798084535 |
+| 10 | Fyodor Dostoevsky | The man who chose to suffer on purpose | `DO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796576444 |
+| 11 | Ralph Waldo Emerson | Emerson's cure for living someone else's life | `EM-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798937746 |
+| 12 | Epicurus | Why Epicurus said death is nothing to fear | `EP-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796609996 |
+| 13 | Heraclitus | Why you can never step in the same river twice | `HE-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796599054 |
+| 14 | Thomas Hobbes | Why Hobbes says life without rules is nasty, brutish, and short | `HO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798102896 |
+| 15 | David Hume | Why David Hume says you can't prove the sun will rise | `HU-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798059813 |
+| 16 | Franz Kafka | Why Kafka says you were already found guilty | `KA-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41796564557 |
+| 17 | Søren Kierkegaard | Why Kierkegaard called anxiety the dizziness of freedom | `KI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796582162 |
+| 18 | Immanuel Kant | Kant's one rule for knowing right from wrong | `KN-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798915985 |
+| 19 | Lao Tzu | Why the softest thing defeats the hardest | `LA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796621037 |
+| 20 | John Locke | Locke: you were born a blank slate | `LO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798971080 |
+| 21 | Niccolò Machiavelli | Machiavelli: is it better to be feared or loved? | `MA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798959535 |
+| 22 | John Stuart Mill | Mill: better to be Socrates dissatisfied than a fool satisfied | `MI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798926653 |
+| 23 | Michel de Montaigne | The man who got wise by admitting he knew nothing | `MO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798052743 |
+| 24 | Friedrich Nietzsche | Nietzsche's most terrifying thought experiment | `NI-02` | https://github.com/cornel-stack/readlark-video/actions/runs/41796570921 |
+| 25 | Blaise Pascal | Why Pascal blamed all our misery on one thing | `PA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798045708 |
+| 26 | Plato | The prisoners who mistook shadows for the world | `PL-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796592552 |
+| 27 | Jean-Jacques Rousseau | Rousseau: you were born free — so why the chains? | `RO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798108543 |
+| 28 | Jean-Paul Sartre | Sartre says you are terrifyingly free | `SA-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798065890 |
+| 29 | Arthur Schopenhauer | Why we hurt the people we need the most | `SC-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796587132 |
+| 30 | Socrates | Why Socrates died for a single sentence | `SO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796604462 |
+| 31 | Baruch Spinoza | Spinoza says free will is an illusion — and that frees you | `SP-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41796626541 |
+| 32 | Marcus Aurelius | The mental trick a Roman emperor used to shrink his problems | `ST-05` | https://github.com/cornel-stack/readlark-video/actions/runs/41798039781 |
+| 33 | Henry David Thoreau | Thoreau: why most people live lives of quiet desperation | `TH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798931544 |
+| 34 | Voltaire | Voltaire's answer to a broken world: tend your garden | `VO-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798943809 |
+| 35 | Ludwig Wittgenstein | Wittgenstein: what you cannot speak of, pass over in silence | `WI-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798921377 |
+| 36 | Zhuangzi | The dream that made a philosopher doubt he was awake | `ZH-01` | https://github.com/cornel-stack/readlark-video/actions/runs/41798091101 |

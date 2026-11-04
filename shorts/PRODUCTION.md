@@ -39,17 +39,17 @@ Status: ⬜ planned · 📝 scripted (JSON written) · ✅ rendered
 | CO-01 | Eastern | Confucius | learning without thought | ✅ | run 41798097325 |
 | HO-01 | Modern | Thomas Hobbes | the state of nature | ✅ | run 41798102896 |
 | RO-01 | Modern | Jean-Jacques Rousseau | born free, everywhere in chains | ✅ | run 41798108543 |
-| KN-01 | Modern | Immanuel Kant | the categorical imperative | 📝 | Abbott PD |
-| WI-01 | Modern | Ludwig Wittgenstein | the limits of language | 📝 | Tractatus, Ogden PD |
-| MI-01 | Modern | John Stuart Mill | higher & lower pleasures | 📝 | Utilitarianism PD |
-| TH-01 | American | Henry David Thoreau | quiet desperation | 📝 | Walden PD |
-| EM-01 | American | Ralph Waldo Emerson | self-reliance | 📝 | Self-Reliance PD |
-| VO-01 | Enlightenment | Voltaire | cultivate your garden | 📝 | Candide PD |
-| AU-01 | Medieval | Augustine | the restless heart | 📝 | Confessions, Pusey PD |
-| BO-01 | Medieval | Boethius | the wheel of fortune | 📝 | Consolation PD |
-| MA-01 | Renaissance | Machiavelli | feared or loved | 📝 | The Prince, Marriott PD |
-| BA-01 | Modern | Francis Bacon | the idols of the mind | 📝 | Novum Organum PD |
-| LO-01 | Modern | John Locke | the blank slate | 📝 | Essay PD |
-| BE-01 | Modern | George Berkeley | to be is to be perceived | 📝 | Principles PD |
+| KN-01 | Modern | Immanuel Kant | the categorical imperative | ✅ | run 41798915985 |
+| WI-01 | Modern | Ludwig Wittgenstein | the limits of language | ✅ | run 41798921377 |
+| MI-01 | Modern | John Stuart Mill | higher & lower pleasures | ✅ | run 41798926653 |
+| TH-01 | American | Henry David Thoreau | quiet desperation | ✅ | run 41798931544 |
+| EM-01 | American | Ralph Waldo Emerson | self-reliance | ✅ | run 41798937746 |
+| VO-01 | Enlightenment | Voltaire | cultivate your garden | ✅ | run 41798943809 |
+| AU-01 | Medieval | Augustine | the restless heart | ✅ | run 41798949295 |
+| BO-01 | Medieval | Boethius | the wheel of fortune | ✅ | run 41798954023 |
+| MA-01 | Renaissance | Machiavelli | feared or loved | ✅ | run 41798959535 |
+| BA-01 | Modern | Francis Bacon | the idols of the mind | ✅ | run 41798964800 |
+| LO-01 | Modern | John Locke | the blank slate | ✅ | run 41798971080 |
+| BE-01 | Modern | George Berkeley | to be is to be perceived | ✅ | run 41798976960 |
 
 _Add rows as ideas come. © = quote in copyright, paraphrase only; PD = public-domain translation may be quoted._
