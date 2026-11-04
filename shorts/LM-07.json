@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-07",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "subtle signs of high intelligence",
+    "format": "list",
+    "title": "6 subtle signs of high intelligence",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "subtle signs of high intelligence",
+    "hashtags": [
+      "intelligence",
+      "psychology",
+      "iq",
+      "mindset",
+      "selfawareness"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-think",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "A mind quietly turning (PD)"
+    },
+    {
+      "id": "plate-study",
+      "query": "Carl Spitzweg The Bookworm scholar painting",
+      "want": "Absorbed, losing track of time (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Joseph Wright of Derby candlelit thinker painting",
+      "want": "Reason by lamplight (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six subtle signs of high intelligence — the ones that don't show up on a test.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "One. You talk to yourself. Narrating your thinking actually sharpens it.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Two. You get so absorbed in things you lose all track of time.",
+      "plate": "plate-study"
+    },
+    {
+      "text": "Three. You're comfortable saying 'I don't know' — and genuinely curious to find out.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "Four. You distrust answers that are too simple, and look for the part that doesn't fit.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Five. You adapt quickly. Dropped into something new, you find the pattern fast.",
+      "plate": "plate-study"
+    },
+    {
+      "text": "Six. You're often your own harshest critic. Smart minds see their own gaps most clearly.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "Intelligence isn't only speed or memory. Often it's curiosity that simply never switched off.",
+      "plate": "plate-light",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "How many did you recognise?",
+  "cta": "Follow for more"
+}

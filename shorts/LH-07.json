@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-07",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "things worth letting go of",
+    "format": "list",
+    "title": "6 things worth letting go of this year",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "things to let go of",
+    "hashtags": [
+      "selfimprovement",
+      "lettinggo",
+      "mindset",
+      "growth",
+      "peace"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-release",
+      "query": "Caspar David Friedrich figure looking out to open sea painting",
+      "want": "Letting the horizon take it (PD)"
+    },
+    {
+      "id": "plate-autumn",
+      "query": "autumn trees shedding leaves landscape painting",
+      "want": "Nature letting go (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "J. M. W. Turner calm open water painting",
+      "want": "Lightness after release (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six things worth finally letting go of.",
+      "plate": "plate-release"
+    },
+    {
+      "text": "One. The need to be right. Being right rarely matters as much as being at peace.",
+      "plate": "plate-autumn"
+    },
+    {
+      "text": "Two. Grudges. They're a weight only you carry, for someone who isn't holding it with you.",
+      "plate": "plate-autumn"
+    },
+    {
+      "text": "Three. The opinions of people you will never see again.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. Comparing your chapter one to somebody else's chapter twenty.",
+      "plate": "plate-release"
+    },
+    {
+      "text": "Five. Waiting for permission. The people you're waiting on are busy waiting too.",
+      "plate": "plate-autumn"
+    },
+    {
+      "text": "Six. The version of your life that was never actually going to happen. Grieve it, then live this one.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "You don't rise by carrying more. Sometimes you rise by setting things down.",
+      "plate": "plate-release",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one are you ready to drop?",
+  "cta": "Follow for more"
+}

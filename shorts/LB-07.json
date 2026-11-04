@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-07",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "underrated classics that deserve more love",
+    "format": "list",
+    "title": "5 underrated classics that deserve way more love",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "underrated classic books",
+    "hashtags": [
+      "books",
+      "classics",
+      "booktok",
+      "reading",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-shelf",
+      "query": "dusty old bookshelf forgotten books painting",
+      "want": "Overlooked spines on a shelf (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Rembrandt reader absorbed by lamplight painting",
+      "want": "A reader rediscovering a gem (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life antique books candle painting",
+      "want": "Quiet classics waiting (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five underrated classics that deserve far more love than they get.",
+      "plate": "plate-shelf"
+    },
+    {
+      "text": "One. The Picture of Dorian Gray — Wilde's gorgeous, poisonous study of vanity.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Two. Heart of Darkness — Conrad's short, haunting voyage into human darkness.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Three. The Scarlet Letter — Hawthorne on shame, judgement, and quiet defiance.",
+      "plate": "plate-shelf"
+    },
+    {
+      "text": "Four. A Doll's House — Ibsen's play that slammed a door heard around the world.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Five. Siddhartha — Hesse's slim, luminous search for meaning by a river.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Not every great book is famous. Full retellings of these are on the channel.",
+      "plate": "plate-shelf",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}

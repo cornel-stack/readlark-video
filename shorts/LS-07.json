@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-07",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "what Epictetus would tell you",
+    "format": "list",
+    "title": "5 things Epictetus would tell you today",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "epictetus life lessons",
+    "hashtags": [
+      "stoicism",
+      "epictetus",
+      "stoic",
+      "philosophy",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-epictetus",
+      "query": "engraving portrait of Epictetus philosopher",
+      "want": "Epictetus, the freed slave who taught emperors (PD)"
+    },
+    {
+      "id": "plate-chain",
+      "query": "Piranesi Carceri prison chains etching",
+      "want": "The chains of what we can't control (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich calm mountain evening painting",
+      "want": "The freedom of acceptance (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five things Epictetus — born a slave, teacher of emperors — would tell you today.",
+      "plate": "plate-epictetus"
+    },
+    {
+      "text": "One. Some things are up to you; most are not. All your peace lives in knowing the line.",
+      "plate": "plate-chain"
+    },
+    {
+      "text": "Two. It isn't events that disturb you, but your judgements about them. Change the judgement.",
+      "plate": "plate-epictetus"
+    },
+    {
+      "text": "Three. Don't explain your philosophy. Embody it. Let your conduct do the arguing.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. No one can truly harm you without your own consent to be harmed.",
+      "plate": "plate-chain"
+    },
+    {
+      "text": "Five. Don't demand that life go as you wish. Wish it to go as it does — and be free.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "He owned almost nothing and feared no one. That, he said, is what philosophy is for.",
+      "plate": "plate-epictetus",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by the Enchiridion of Epictetus.",
+  "cta": "Follow for more"
+}

@@ -80,7 +80,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-05 | Applied Stoicism | 5 lessons on peace with death | ✅ | run 41802808967 |
 | LB-05 | Books & reading | 5 books that changed the world | ✅ | run 41802815191 |
 | LM-05 | Psychology | 5 habits draining your energy | ✅ | run 41802820785 |
-| LH-06 | Self-improvement | 6 lies keeping you stuck | 📝 | round 6 |
-| LS-06 | Applied Stoicism | 5 truths about wasted time | 📝 | round 6 |
-| LB-06 | Books & reading | 6 most powerful lines in literature | 📝 | round 6 |
-| LM-06 | Psychology | 5 things mature people do in arguments | 📝 | round 6 |
+| LH-06 | Self-improvement | 6 lies keeping you stuck | ✅ | run 41803437245 |
+| LS-06 | Applied Stoicism | 5 truths about wasted time | ✅ | run 41803443522 |
+| LB-06 | Books & reading | 6 most powerful lines in literature | ✅ | run 41803449253 |
+| LM-06 | Psychology | 5 things mature people do in arguments | ✅ | run 41803455343 |
+| LH-07 | Self-improvement | 6 things worth letting go of | 📝 | round 7 |
+| LS-07 | Applied Stoicism | 5 things Epictetus would tell you | 📝 | round 7 |
+| LB-07 | Books & reading | 5 underrated classics | 📝 | round 7 |
+| LM-07 | Psychology | 6 subtle signs of high intelligence | 📝 | round 7 |
