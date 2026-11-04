@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-14",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "poems that stay with you forever",
+    "format": "list",
+    "title": "5 poems that will stay with you forever",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "poems everyone should read",
+    "hashtags": [
+      "poetry",
+      "poems",
+      "books",
+      "literature",
+      "classics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-ink",
+      "query": "still life open book of poetry quill candlelight painting",
+      "want": "A page of verse (PD)"
+    },
+    {
+      "id": "plate-storm",
+      "query": "J. M. W. Turner storm and light at sea painting",
+      "want": "The unconquerable soul (PD)"
+    },
+    {
+      "id": "plate-ruins",
+      "query": "desert ruins broken statue sand painting",
+      "want": "Ozymandias in the sand (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five poems that lodge in your memory and never quite leave.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "One. 'If—' by Kipling. A father's quiet instructions for becoming unshakeable.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "Two. 'Invictus' by Henley. 'I am the master of my fate, I am the captain of my soul.'",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Three. 'Ozymandias' by Shelley. A shattered statue in the sand, mocking every empire's pride.",
+      "plate": "plate-ruins"
+    },
+    {
+      "text": "Four. 'The Road Not Taken' by Frost. The quiet weight of the choices that shape a life.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "Five. 'Death Be Not Proud' by Donne. A fearless, furious staring-down of death itself.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "A great poem says in ten lines what prose needs ten pages for. Read one aloud tonight.",
+      "plate": "plate-ink",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain poems.",
+  "cta": "Follow for more"
+}

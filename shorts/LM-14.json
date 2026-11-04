@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-14",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "signs you're an overthinker",
+    "format": "list",
+    "title": "6 signs you're an overthinker (and how to stop)",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs you are an overthinker",
+    "hashtags": [
+      "overthinking",
+      "psychology",
+      "anxiety",
+      "mentalhealth",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-spiral",
+      "query": "Rembrandt figure in a spiral stairwell shadow painting",
+      "want": "Thoughts going in circles (PD)"
+    },
+    {
+      "id": "plate-night",
+      "query": "Vilhelm Hammershøi figure awake in a dim room painting",
+      "want": "The 3am mind (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich calm still lake painting",
+      "want": "A mind finally quiet (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs you're an overthinker — and one way out.",
+      "plate": "plate-spiral"
+    },
+    {
+      "text": "One. You replay old conversations for hours, editing what you should have said.",
+      "plate": "plate-night"
+    },
+    {
+      "text": "Two. You read meaning into every text, pause, and change of tone.",
+      "plate": "plate-spiral"
+    },
+    {
+      "text": "Three. You rehearse disasters in detail that almost never actually happen.",
+      "plate": "plate-night"
+    },
+    {
+      "text": "Four. You agonise over a decision — then doubt it the moment it's made.",
+      "plate": "plate-spiral"
+    },
+    {
+      "text": "Five. Rest feels like guilt, because your mind refuses to clock off.",
+      "plate": "plate-night"
+    },
+    {
+      "text": "Six. You need total certainty before you'll take even a small step.",
+      "plate": "plate-spiral"
+    },
+    {
+      "text": "The way out: name the worry, give it a five-minute window, then take one small action. Action quiets the spiral.",
+      "plate": "plate-calm",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save this for 3am.",
+  "cta": "Follow for more"
+}

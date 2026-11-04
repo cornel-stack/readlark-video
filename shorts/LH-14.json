@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-14",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "things that quietly age your mind",
+    "format": "list",
+    "title": "6 things that quietly age your mind",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "things that age your brain",
+    "hashtags": [
+      "selfimprovement",
+      "mindset",
+      "growth",
+      "learning",
+      "brain"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-dim",
+      "query": "Vilhelm Hammershøi grey empty interior painting",
+      "want": "A mind going grey and still (PD)"
+    },
+    {
+      "id": "plate-spark",
+      "query": "Joseph Wright of Derby candlelit experiment wonder painting",
+      "want": "Curiosity, the opposite of ageing (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Caspar David Friedrich window opening to landscape painting",
+      "want": "A mind still open to the new (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six things that quietly age your mind — long before your body.",
+      "plate": "plate-dim"
+    },
+    {
+      "text": "One. Never learning anything new. An unused mind stiffens, exactly like an unused muscle.",
+      "plate": "plate-dim"
+    },
+    {
+      "text": "Two. Only ever consuming, never creating. Making something keeps the mind limber.",
+      "plate": "plate-spark"
+    },
+    {
+      "text": "Three. Avoiding all discomfort. Growth lives on the far side of a little difficulty.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Four. Same routine, same people, same thoughts, on a loop. Novelty is brain food.",
+      "plate": "plate-dim"
+    },
+    {
+      "text": "Five. Scrolling instead of thinking. Endless input quietly crowds out your own ideas.",
+      "plate": "plate-spark"
+    },
+    {
+      "text": "Six. Believing you're too old to change. That one belief ages you faster than any year.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "A mind stays young as long as it keeps letting itself be surprised. Stay curious.",
+      "plate": "plate-spark",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which habit will you drop?",
+  "cta": "Follow for more"
+}

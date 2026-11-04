@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-14",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on gratitude",
+    "format": "list",
+    "title": "5 Stoic lessons on gratitude",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism and gratitude",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "gratitude",
+      "contentment",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-warm",
+      "query": "J. M. W. Turner warm golden evening light painting",
+      "want": "The glow of enough (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The grateful Stoic (PD)"
+    },
+    {
+      "id": "plate-simple",
+      "query": "Jean-Baptiste-Siméon Chardin simple still life bread jug painting",
+      "want": "Gratitude for simple things (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons on gratitude — the quiet engine of a good life.",
+      "plate": "plate-warm"
+    },
+    {
+      "text": "One. Don't dwell on what you lack. Picture losing what you have, and watch it become precious again.",
+      "plate": "plate-simple"
+    },
+    {
+      "text": "Two. Everything you own was once something you only hoped for. You're living in an old wish.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Three. Gratitude is alchemy. It turns 'enough' into 'plenty' without changing a thing you have.",
+      "plate": "plate-warm"
+    },
+    {
+      "text": "Four. Enjoy things as if borrowed, not owed. Holding them loosely is what lets you truly savour them.",
+      "plate": "plate-simple"
+    },
+    {
+      "text": "Five. The richest person, said the Stoics, is the one content with the least.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "You will never feel wealthy by getting more. Only by noticing how much you already have.",
+      "plate": "plate-warm",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Seneca & Epictetus.",
+  "cta": "Follow for more"
+}
