@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-05",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books that changed the world",
+    "format": "list",
+    "title": "5 books that genuinely changed the world",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books that changed the world",
+    "hashtags": [
+      "books",
+      "history",
+      "philosophy",
+      "reading",
+      "classics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-library",
+      "query": "grand old library hall books painting",
+      "want": "The weight of recorded thought (PD)"
+    },
+    {
+      "id": "plate-scroll",
+      "query": "Rembrandt scholar with books and documents painting",
+      "want": "Ideas being set down (PD)"
+    },
+    {
+      "id": "plate-globe",
+      "query": "antique globe and books still life painting",
+      "want": "Books that reshaped the globe (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books that didn't just sell — they rewired how we see the world.",
+      "plate": "plate-library"
+    },
+    {
+      "text": "One. Plato's Republic — two thousand years later, we're still arguing with it.",
+      "plate": "plate-scroll"
+    },
+    {
+      "text": "Two. Darwin's On the Origin of Species — one quiet idea that redrew all of life.",
+      "plate": "plate-globe"
+    },
+    {
+      "text": "Three. Machiavelli's The Prince — the first brutally honest manual of real power.",
+      "plate": "plate-scroll"
+    },
+    {
+      "text": "Four. Wollstonecraft's A Vindication of the Rights of Woman — the spark under modern feminism.",
+      "plate": "plate-library"
+    },
+    {
+      "text": "Five. Thoreau's Civil Disobedience — a slim essay that armed Gandhi and King.",
+      "plate": "plate-globe"
+    },
+    {
+      "text": "Each began as one person, alone, writing. Never underestimate a book.",
+      "plate": "plate-library",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}

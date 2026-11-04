@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-05",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "habits quietly draining your energy",
+    "format": "list",
+    "title": "5 everyday habits quietly draining your energy",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "habits that drain your energy",
+    "hashtags": [
+      "psychology",
+      "energy",
+      "mentalhealth",
+      "selfimprovement",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-weary",
+      "query": "Vilhelm Hammershøi lone figure dim interior painting",
+      "want": "Quiet depletion (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Caspar David Friedrich woman at the window painting",
+      "want": "Looking out, drained (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "J. M. W. Turner soft morning light painting",
+      "want": "Energy returning (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five ordinary habits quietly draining your energy — without you noticing.",
+      "plate": "plate-weary"
+    },
+    {
+      "text": "One. Reaching for your phone the second you wake. You hand your focus away before the day begins.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Two. Saying yes when you mean no. Every false yes is a slow leak of your time and will.",
+      "plate": "plate-weary"
+    },
+    {
+      "text": "Three. Replaying old conversations on a loop. You're paying rent on a room you left long ago.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Four. Keeping too many loops open — tasks, tabs, promises. Unfinished things hum in the background.",
+      "plate": "plate-weary"
+    },
+    {
+      "text": "Five. Comparing your behind-the-scenes to everyone else's highlight reel. It's a race you can't win.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Energy isn't only about sleep. Often it's about what you quietly stop doing.",
+      "plate": "plate-dawn",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one is costing you most?",
+  "cta": "Follow for more"
+}

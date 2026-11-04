@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-05",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "signs you're growing as a person",
+    "format": "list",
+    "title": "6 signs you're growing, even when it doesn't feel like it",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs you are growing as a person",
+    "hashtags": [
+      "personalgrowth",
+      "selfimprovement",
+      "mindset",
+      "growth",
+      "selfawareness"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-dawn",
+      "query": "Caspar David Friedrich sunrise over mountains painting",
+      "want": "A slow, quiet dawn (PD)"
+    },
+    {
+      "id": "plate-tree",
+      "query": "Caspar David Friedrich lone tree changing seasons painting",
+      "want": "Growth you only see in time (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Hudson River School winding mountain path painting",
+      "want": "A long uphill road (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs you're growing — even when it doesn't feel like progress.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "One. Things that used to excite you now quietly bore you. Your taste is outgrowing your past.",
+      "plate": "plate-tree"
+    },
+    {
+      "text": "Two. You enjoy your own company more, and need the noise less.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Three. You apologise faster and defend less. Your ego's grip is loosening.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Four. You've become protective of your time, and pickier about who gets it.",
+      "plate": "plate-tree"
+    },
+    {
+      "text": "Five. What once enraged you now mostly just tires you. That's perspective arriving.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Six. You feel uncomfortable a lot. Growth always does — comfort is where you were, not where you're going.",
+      "plate": "plate-tree"
+    },
+    {
+      "text": "Growth is rarely loud. Usually it just feels like slowly becoming harder to knock over.",
+      "plate": "plate-dawn",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save this for a day you feel stuck.",
+  "cta": "Follow for more"
+}

@@ -72,7 +72,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-03 | Applied Stoicism | 5 ways to stop caring what people think | ✅ | run 41801454644 |
 | LB-03 | Books & reading | 6 short classics for a weekend | ✅ | run 41801460205 |
 | LM-03 | Psychology | 6 psychology facts of everyday life | ✅ | run 41801466006 |
-| LH-04 | Self-improvement | 6 tiny habits, huge payoff | 📝 | round 4 |
-| LS-04 | Applied Stoicism | 5 Stoic lessons for controlling anger | 📝 | round 4 |
-| LB-04 | Books & reading | 5 greatest opening lines | 📝 | round 4 |
-| LM-04 | Psychology | 6 signs of quiet confidence | 📝 | round 4 |
+| LH-04 | Self-improvement | 6 tiny habits, huge payoff | ✅ | run 41802083325 |
+| LS-04 | Applied Stoicism | 5 Stoic lessons for controlling anger | ✅ | run 41802089131 |
+| LB-04 | Books & reading | 5 greatest opening lines | ✅ | run 41802095802 |
+| LM-04 | Psychology | 6 signs of quiet confidence | ✅ | run 41802101327 |
+| LH-05 | Self-improvement | 6 signs you're growing | 📝 | round 5 |
+| LS-05 | Applied Stoicism | 5 lessons on peace with death | 📝 | round 5 |
+| LB-05 | Books & reading | 5 books that changed the world | 📝 | round 5 |
+| LM-05 | Psychology | 5 habits draining your energy | 📝 | round 5 |

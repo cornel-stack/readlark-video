@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-05",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on making peace with death",
+    "format": "list",
+    "title": "5 Stoic lessons for making peace with death",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism memento mori meaning",
+    "hashtags": [
+      "stoicism",
+      "mementomori",
+      "stoic",
+      "death",
+      "philosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-vanitas",
+      "query": "Philippe de Champaigne Vanitas skull hourglass painting",
+      "want": "A vanitas — skull and hourglass (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The emperor who wrote of death daily (PD)"
+    },
+    {
+      "id": "plate-dusk",
+      "query": "Caspar David Friedrich evening sunset sea painting",
+      "want": "A life's gentle dusk (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons for making peace with the one certainty we all avoid.",
+      "plate": "plate-vanitas"
+    },
+    {
+      "text": "One. Memento mori — remember you will die. Not to depress you, but to wake you up.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Two. You felt no fear in the endless time before your birth. The time after is no different.",
+      "plate": "plate-dusk"
+    },
+    {
+      "text": "Three. Treat every goodbye as practice. Love people as things briefly lent, never owned.",
+      "plate": "plate-dusk"
+    },
+    {
+      "text": "Four. A life isn't measured by its length, said Seneca, but by how fully it was lived.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Five. Live each day as if it could be the last — not in panic, but in care for what matters.",
+      "plate": "plate-vanitas"
+    },
+    {
+      "text": "Death is the teacher, said the Stoics, that makes every ordinary day suddenly worth something.",
+      "plate": "plate-dusk",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Seneca.",
+  "cta": "Follow for more"
+}
