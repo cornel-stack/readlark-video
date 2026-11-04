@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "DE-01",
+    "topic": "Modern philosophy",
+    "thinker": "René Descartes",
+    "thinker_dates": "1596–1650",
+    "theme": "radical doubt",
+    "title": "The one thing Descartes could not doubt",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "i think therefore i am meaning",
+    "hashtags": [
+      "descartes",
+      "philosophy",
+      "ithinkthereforeiam",
+      "consciousness",
+      "rationalism"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-descartes",
+      "query": "Frans Hals portrait of René Descartes",
+      "want": "Hals, Descartes himself (PD)"
+    },
+    {
+      "id": "plate-candle",
+      "query": "Georges de La Tour candle flame single figure painting",
+      "want": "La Tour, one face lit by a candle in the dark (PD)"
+    },
+    {
+      "id": "plate-meditation",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "Rembrandt, a thinker in a shadowed room (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Descartes tried an experiment: doubt everything that could possibly be false.",
+      "plate": "plate-candle"
+    },
+    {
+      "text": "The senses lie. Dreams feel real. Even maths, he imagined, could be a demon's trick.",
+      "plate": "plate-meditation"
+    },
+    {
+      "text": "He tore it all down, looking for one thing that could not be doubted away.",
+      "plate": "plate-meditation"
+    },
+    {
+      "text": "Then he saw it. To be deceived, to doubt at all, there must be someone doing the doubting.",
+      "plate": "plate-descartes"
+    },
+    {
+      "text": "\"I think, therefore I am.\" The very act of questioning proves a questioner exists.",
+      "plate": "plate-descartes",
+      "emphasis": true
+    },
+    {
+      "text": "On that single unshakeable point, he tried to rebuild all of human knowledge.",
+      "plate": "plate-candle"
+    },
+    {
+      "text": "Strip away everything you think you know, and one fact remains: you are here, thinking.",
+      "plate": "plate-candle",
+      "emphasis": true
+    }
+  ],
+  "attribution": "René Descartes · Discourse on the Method",
+  "source_note": "Quote: Discourse on the Method, trans. John Veitch (public domain).",
+  "cta": "Follow for more"
+}

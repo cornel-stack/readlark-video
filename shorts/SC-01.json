@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "SC-01",
+    "topic": "Pessimism",
+    "thinker": "Arthur Schopenhauer",
+    "thinker_dates": "1788–1860",
+    "theme": "the hedgehog's dilemma",
+    "title": "Why we hurt the people we need the most",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "hedgehog's dilemma meaning",
+    "hashtags": [
+      "schopenhauer",
+      "hedgehogsdilemma",
+      "philosophy",
+      "loneliness",
+      "relationships"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-winter",
+      "query": "Caspar David Friedrich winter landscape bare tree snow",
+      "want": "Friedrich, a frozen empty field (PD)"
+    },
+    {
+      "id": "plate-schopenhauer",
+      "query": "Arthur Schopenhauer 1859 portrait photograph",
+      "want": "Schopenhauer himself (PD photo)"
+    },
+    {
+      "id": "plate-fire",
+      "query": "Joseph Wright of Derby figures around firelight painting",
+      "want": "Wright of Derby, warmth and shadow (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "On a freezing night, a huddle of hedgehogs press together to keep warm.",
+      "plate": "plate-winter"
+    },
+    {
+      "text": "But the closer they move, the more their spines stab one another, and they spring apart.",
+      "plate": "plate-winter"
+    },
+    {
+      "text": "Cold drives them back together. Pain drives them back apart. Back and forth, all night.",
+      "plate": "plate-fire"
+    },
+    {
+      "text": "Schopenhauer said this is us. We need each other for warmth — and wound each other up close.",
+      "plate": "plate-schopenhauer"
+    },
+    {
+      "text": "So we learn a middle distance: close enough to feel the heat, far enough to spare the spines.",
+      "plate": "plate-fire"
+    },
+    {
+      "text": "He called that distance politeness and good manners — the compromise lonely creatures settle on.",
+      "plate": "plate-schopenhauer",
+      "emphasis": true
+    },
+    {
+      "text": "The one who carries the most inner warmth needs the huddle least — and hurts no one.",
+      "plate": "plate-winter",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Arthur Schopenhauer · Parerga and Paralipomena",
+  "source_note": "Parable from Parerga and Paralipomena (public-domain translation) — paraphrased.",
+  "cta": "Follow for more"
+}

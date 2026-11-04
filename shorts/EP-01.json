@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "EP-01",
+    "topic": "Ancient philosophy",
+    "thinker": "Epicurus",
+    "thinker_dates": "341–270 BC",
+    "theme": "the fear of death",
+    "title": "Why Epicurus said death is nothing to fear",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "epicurus on death meaning",
+    "hashtags": [
+      "epicurus",
+      "philosophy",
+      "death",
+      "stoicism",
+      "ancientphilosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-arcadia",
+      "query": "Nicolas Poussin Et in Arcadia Ego painting",
+      "want": "Poussin, shepherds at a tomb (PD)"
+    },
+    {
+      "id": "plate-vanitas",
+      "query": "Philippe de Champaigne Vanitas skull tulip hourglass",
+      "want": "A vanitas skull and hourglass (PD)"
+    },
+    {
+      "id": "plate-bust",
+      "query": "marble bust of Epicurus ancient sculpture",
+      "want": "Epicurus portrait bust (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Most of our quiet dread, Epicurus said, comes down to one thing: the fear of death.",
+      "plate": "plate-vanitas"
+    },
+    {
+      "text": "So he built an argument to dissolve it — not to comfort you, but to reason you free.",
+      "plate": "plate-bust"
+    },
+    {
+      "text": "\"Death is nothing to us,\" he wrote. And he meant it literally.",
+      "plate": "plate-bust",
+      "emphasis": true
+    },
+    {
+      "text": "While you exist, death is not here. When death comes, you no longer exist to meet it.",
+      "plate": "plate-arcadia"
+    },
+    {
+      "text": "The two never touch. So there is no moment in which death can actually harm you.",
+      "plate": "plate-arcadia"
+    },
+    {
+      "text": "You did not suffer in the eternity before your birth. The dark after is no different.",
+      "plate": "plate-vanitas"
+    },
+    {
+      "text": "Fear steals the life you do have. Spend it, he said, on simple joys and good friends.",
+      "plate": "plate-arcadia",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Epicurus · Letter to Menoeceus",
+  "source_note": "Quote: Letter to Menoeceus (public-domain translation).",
+  "cta": "Follow for more"
+}

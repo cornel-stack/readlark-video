@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "SP-01",
+    "topic": "Modern philosophy",
+    "thinker": "Baruch Spinoza",
+    "thinker_dates": "1632–1677",
+    "theme": "freedom through necessity",
+    "title": "Spinoza says free will is an illusion — and that frees you",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "spinoza free will meaning",
+    "hashtags": [
+      "spinoza",
+      "philosophy",
+      "freewill",
+      "determinism",
+      "stoicism"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-spinoza",
+      "query": "portrait of Baruch Spinoza 17th century",
+      "want": "Spinoza himself (PD)"
+    },
+    {
+      "id": "plate-nature",
+      "query": "Jacob van Ruisdael View of Haarlem landscape sky",
+      "want": "Ruisdael, vast nature under an immense sky (PD)"
+    },
+    {
+      "id": "plate-stars",
+      "query": "Vincent van Gogh Starry Night over the Rhone",
+      "want": "Van Gogh, the ordered cosmos (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "A stone thrown through the air, Spinoza said, would swear it chose to fly.",
+      "plate": "plate-nature"
+    },
+    {
+      "text": "It feels the motion, not the hand that threw it — so it calls the motion its own free will.",
+      "plate": "plate-nature"
+    },
+    {
+      "text": "We are that stone. We feel our wants, but not the long chain of causes behind them.",
+      "plate": "plate-spinoza"
+    },
+    {
+      "text": "For Spinoza there is no will floating free of nature. Everything follows by necessity, like geometry.",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "This sounds like a prison. He said it is the opposite — it is the only door out.",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "Freedom is not escaping the causes. It is understanding them clearly enough to stop raging against them.",
+      "plate": "plate-spinoza",
+      "emphasis": true
+    },
+    {
+      "text": "Stop fighting what had to be. See the whole, and a strange calm takes the place of blame.",
+      "plate": "plate-nature",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Baruch Spinoza · Ethics",
+  "source_note": "Ideas from the Ethics, trans. R. H. M. Elwes (1883, public domain) — paraphrased.",
+  "cta": "Follow for more"
+}

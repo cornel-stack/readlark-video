@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "DO-01",
+    "topic": "Russian literature",
+    "thinker": "Fyodor Dostoevsky",
+    "thinker_dates": "1821–1881",
+    "theme": "the Underground Man",
+    "title": "The man who chose to suffer on purpose",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "notes from underground meaning",
+    "hashtags": [
+      "dostoevsky",
+      "notesfromunderground",
+      "philosophy",
+      "existentialism",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-dark",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "Rembrandt, a man alone in a dim spiral room (PD)"
+    },
+    {
+      "id": "plate-dostoevsky",
+      "query": "Vasily Perov portrait of Fyodor Dostoevsky",
+      "want": "Perov, Dostoevsky brooding (PD)"
+    },
+    {
+      "id": "plate-street",
+      "query": "Fyodor Vasilyev wet St Petersburg street painting",
+      "want": "A cold grey Russian street (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "\"I am a sick man. I am a spiteful man. I am an unattractive man.\"",
+      "plate": "plate-dostoevsky",
+      "emphasis": true
+    },
+    {
+      "text": "So begins Dostoevsky's Notes from Underground — the diary of a man who hides from the world.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "For forty years he has stewed in a cramped room, despising everyone, himself most of all.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "He attacks a comforting idea: that if we only knew our own good, we would always choose it.",
+      "plate": "plate-street"
+    },
+    {
+      "text": "No, he says. A man will choose pain, ruin, and spite just to prove he is free — not a piano key.",
+      "plate": "plate-dostoevsky"
+    },
+    {
+      "text": "We would rather suffer as ourselves than be happy as a cog in someone else's reason.",
+      "plate": "plate-street",
+      "emphasis": true
+    },
+    {
+      "text": "It is ugly, and it is honest — which is exactly why we still read him.",
+      "plate": "plate-dark"
+    }
+  ],
+  "attribution": "Fyodor Dostoevsky · Notes from Underground",
+  "source_note": "Quote: Notes from Underground, trans. Constance Garnett (1918, public domain).",
+  "cta": "Follow for more"
+}

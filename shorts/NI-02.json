@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "NI-02",
+    "topic": "Nietzsche",
+    "thinker": "Friedrich Nietzsche",
+    "thinker_dates": "1844–1900",
+    "theme": "eternal recurrence",
+    "title": "Nietzsche's most terrifying thought experiment",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "eternal recurrence meaning",
+    "hashtags": [
+      "nietzsche",
+      "eternalrecurrence",
+      "philosophy",
+      "amorfati",
+      "existentialism"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-demon",
+      "query": "Caspar David Friedrich Wanderer above the Sea of Fog",
+      "want": "Friedrich, lone figure before the void (PD)"
+    },
+    {
+      "id": "plate-stars",
+      "query": "Vincent van Gogh The Starry Night",
+      "want": "Van Gogh, the turning cosmos (PD)"
+    },
+    {
+      "id": "plate-nietzsche",
+      "query": "Friedrich Nietzsche portrait photograph Gustav Schultze",
+      "want": "Nietzsche himself (PD photo)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Imagine a demon creeps into your loneliest hour with a single question.",
+      "plate": "plate-demon"
+    },
+    {
+      "text": "What if you had to live this life again — every joy, every pain, in the same order — forever?",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "Not a better life. Not a corrected one. This exact life, on endless repeat.",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "Nietzsche called it the eternal recurrence, and he meant it as a test.",
+      "plate": "plate-nietzsche"
+    },
+    {
+      "text": "Would you curse the demon and collapse? Or would you call it the greatest news you ever heard?",
+      "plate": "plate-demon"
+    },
+    {
+      "text": "To answer yes, you must build a life you would choose to relive without end.",
+      "plate": "plate-stars",
+      "emphasis": true
+    },
+    {
+      "text": "So live today as if you must live it, exactly like this, a thousand times over.",
+      "plate": "plate-demon",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Friedrich Nietzsche · The Gay Science",
+  "source_note": "Idea from The Gay Science §341 (Common translation, public domain) — paraphrased.",
+  "cta": "Follow for more"
+}

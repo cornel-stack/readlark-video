@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "SO-01",
+    "topic": "Ancient philosophy",
+    "thinker": "Socrates",
+    "thinker_dates": "470–399 BC",
+    "theme": "the examined life",
+    "title": "Why Socrates died for a single sentence",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "the unexamined life is not worth living meaning",
+    "hashtags": [
+      "socrates",
+      "philosophy",
+      "examinedlife",
+      "wisdom",
+      "ancientphilosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-death",
+      "query": "Jacques-Louis David The Death of Socrates painting",
+      "want": "David, Socrates reaching for the hemlock (PD)"
+    },
+    {
+      "id": "plate-bust",
+      "query": "marble bust of Socrates ancient sculpture",
+      "want": "The classic Socrates portrait bust (PD)"
+    },
+    {
+      "id": "plate-athens",
+      "query": "Raphael The School of Athens fresco",
+      "want": "Raphael, the philosophers of Athens (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "An old man stands on trial for his life, accused of corrupting the young with questions.",
+      "plate": "plate-athens"
+    },
+    {
+      "text": "The court offers Socrates a deal: stop philosophising, and live. He refuses.",
+      "plate": "plate-bust"
+    },
+    {
+      "text": "\"The unexamined life,\" he tells them, \"is not worth living.\"",
+      "plate": "plate-bust",
+      "emphasis": true
+    },
+    {
+      "text": "A life you never question — never tested, never understood — is barely your own, he says.",
+      "plate": "plate-athens"
+    },
+    {
+      "text": "He claimed to know nothing. His only wisdom was that he knew he did not know.",
+      "plate": "plate-bust"
+    },
+    {
+      "text": "They sentenced him to death. He drank the hemlock calmly, still arguing, unafraid.",
+      "plate": "plate-death"
+    },
+    {
+      "text": "So ask the dangerous question he died for: is the life you are living actually yours?",
+      "plate": "plate-death",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Socrates, in Plato's Apology",
+  "source_note": "Quote: Plato's Apology, trans. Benjamin Jowett (public domain).",
+  "cta": "Follow for more"
+}

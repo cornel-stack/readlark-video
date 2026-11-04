@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "KA-02",
+    "topic": "Kafka",
+    "thinker": "Franz Kafka",
+    "thinker_dates": "1883–1924",
+    "theme": "The Trial — guilt without a crime",
+    "title": "Why Kafka says you were already found guilty",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "copyright",
+    "search_phrase": "the trial kafka meaning",
+    "hashtags": [
+      "kafka",
+      "thetrial",
+      "philosophy",
+      "existentialism",
+      "absurd"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-prison",
+      "query": "Piranesi Carceri Imaginary Prisons etching",
+      "want": "Piranesi, vast impossible prison interior (PD)"
+    },
+    {
+      "id": "plate-court",
+      "query": "Honoré Daumier courtroom lawyers painting",
+      "want": "Daumier, faceless men of the law (PD)"
+    },
+    {
+      "id": "plate-kafka",
+      "query": "Franz Kafka 1906 portrait photograph",
+      "want": "Kafka himself (PD photo)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "One ordinary morning, a man is arrested. No one will tell him what he has done.",
+      "plate": "plate-kafka"
+    },
+    {
+      "text": "This is Josef K., and this is The Trial — Kafka's nightmare of a court you can never face.",
+      "plate": "plate-court"
+    },
+    {
+      "text": "He is allowed to keep his job. He is never shown a charge. Yet the case grinds on.",
+      "plate": "plate-court"
+    },
+    {
+      "text": "The deeper he searches for the law, the more corridors and waiting rooms open up.",
+      "plate": "plate-prison"
+    },
+    {
+      "text": "No one is in charge. Everyone shrugs. The system has no centre — only more system.",
+      "plate": "plate-prison"
+    },
+    {
+      "text": "Kafka's terror is simple: you may be guilty, condemned, and punished — for nothing you can name.",
+      "plate": "plate-court",
+      "emphasis": true
+    },
+    {
+      "text": "Ask yourself how much of your life is spent defending a case no one will explain.",
+      "plate": "plate-prison",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Franz Kafka · The Trial (1925)",
+  "source_note": "Ideas paraphrased (Kafka's translations are in copyright) — no verbatim quotes.",
+  "cta": "Follow for more"
+}

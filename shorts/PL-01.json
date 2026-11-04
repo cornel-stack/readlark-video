@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "PL-01",
+    "topic": "Ancient philosophy",
+    "thinker": "Plato",
+    "thinker_dates": "c. 428–348 BC",
+    "theme": "the allegory of the cave",
+    "title": "The prisoners who mistook shadows for the world",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "allegory of the cave explained",
+    "hashtags": [
+      "plato",
+      "allegoryofthecave",
+      "philosophy",
+      "truth",
+      "ancientphilosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-cave",
+      "query": "Jan Saenredam cave allegory engraving 1604",
+      "want": "Saenredam's engraving of Plato's cave (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Rembrandt interior light from a window painting",
+      "want": "Rembrandt, blinding light at a doorway (PD)"
+    },
+    {
+      "id": "plate-athens",
+      "query": "Raphael The School of Athens fresco",
+      "want": "Raphael, Plato pointing upward (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Picture prisoners chained in a cave since birth, facing a blank wall.",
+      "plate": "plate-cave"
+    },
+    {
+      "text": "Behind them a fire throws shadows on that wall. The shadows are the only world they have ever seen.",
+      "plate": "plate-cave"
+    },
+    {
+      "text": "To them, the shadows are not pictures of things. The shadows are the things. They are reality.",
+      "plate": "plate-cave"
+    },
+    {
+      "text": "Now drag one prisoner out into the sun. The light is agony. He begs to go back to the dark.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "But slowly his eyes adjust, and he sees the real world the shadows were only copying.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Plato's question: if he returned to free the others, would they believe him — or kill him?",
+      "plate": "plate-athens",
+      "emphasis": true
+    },
+    {
+      "text": "How much of what you call the world is just shadows you were raised to never doubt?",
+      "plate": "plate-cave",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Plato · The Republic, Book VII",
+  "source_note": "From The Republic, Book VII, trans. Benjamin Jowett (public domain).",
+  "cta": "Follow for more"
+}

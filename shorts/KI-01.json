@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "KI-01",
+    "topic": "Existentialism",
+    "thinker": "Søren Kierkegaard",
+    "thinker_dates": "1813–1855",
+    "theme": "anxiety and the leap of faith",
+    "title": "Why Kierkegaard called anxiety the dizziness of freedom",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "copyright",
+    "search_phrase": "kierkegaard anxiety meaning",
+    "hashtags": [
+      "kierkegaard",
+      "anxiety",
+      "philosophy",
+      "existentialism",
+      "leapoffaith"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-cliff",
+      "query": "Caspar David Friedrich Wanderer above the Sea of Fog",
+      "want": "Friedrich, a man at the edge of a drop (PD)"
+    },
+    {
+      "id": "plate-sea",
+      "query": "Caspar David Friedrich The Monk by the Sea",
+      "want": "Friedrich, a tiny figure before an immense void (PD)"
+    },
+    {
+      "id": "plate-kierkegaard",
+      "query": "Niels Christian Kierkegaard sketch of Søren Kierkegaard",
+      "want": "Kierkegaard himself (PD drawing)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Stand at the edge of a high cliff and you feel two fears, not one.",
+      "plate": "plate-cliff"
+    },
+    {
+      "text": "The fear of falling — and something stranger: the pull of the thought that you could simply jump.",
+      "plate": "plate-cliff"
+    },
+    {
+      "text": "Kierkegaard said that second feeling is the whole human condition in miniature.",
+      "plate": "plate-kierkegaard"
+    },
+    {
+      "text": "He called anxiety the dizziness of freedom — the vertigo of knowing you could choose anything.",
+      "plate": "plate-sea",
+      "emphasis": true
+    },
+    {
+      "text": "Animals have no such dread. Only a creature that is free can be terrified of its own possibility.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "You cannot reason your way across the gap. At some point you must leap — and commit before you are sure.",
+      "plate": "plate-cliff"
+    },
+    {
+      "text": "So the anxiety never fully leaves. It is the price of being free.",
+      "plate": "plate-sea",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Søren Kierkegaard · The Concept of Anxiety",
+  "source_note": "Ideas paraphrased (modern translations are in copyright) — no verbatim quotes.",
+  "cta": "Follow for more"
+}

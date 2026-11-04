@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "LA-01",
+    "topic": "Eastern philosophy",
+    "thinker": "Lao Tzu",
+    "thinker_dates": "6th century BC",
+    "theme": "wu wei — effortless action",
+    "title": "Why the softest thing defeats the hardest",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "wu wei meaning taoism",
+    "hashtags": [
+      "laotzu",
+      "taoism",
+      "wuwei",
+      "philosophy",
+      "taoteching"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-laozi",
+      "query": "Zhang Lu Laozi Riding an Ox painting",
+      "want": "Lao Tzu on his ox (PD Chinese painting)"
+    },
+    {
+      "id": "plate-water",
+      "query": "Ma Yuan Water Album Song dynasty ink painting",
+      "want": "Ma Yuan, studies of moving water (PD)"
+    },
+    {
+      "id": "plate-mountains",
+      "query": "Guo Xi Early Spring Chinese landscape painting",
+      "want": "A vast misted Chinese landscape (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "What is softer than water? You can scatter it with a hand, pour it, step through it.",
+      "plate": "plate-water"
+    },
+    {
+      "text": "Yet water carves canyons out of stone. Given time, nothing hard can resist it.",
+      "plate": "plate-water"
+    },
+    {
+      "text": "\"The softest thing in the world overcomes the hardest,\" Lao Tzu wrote in the Tao Te Ching.",
+      "plate": "plate-laozi",
+      "emphasis": true
+    },
+    {
+      "text": "He called the way of water wu wei — action without forcing, moving with the grain of things.",
+      "plate": "plate-mountains"
+    },
+    {
+      "text": "Not laziness. Not giving up. Water never stops — it simply never fights the shape of the land.",
+      "plate": "plate-water"
+    },
+    {
+      "text": "We exhaust ourselves pushing against walls. The Tao says: flow around them instead.",
+      "plate": "plate-mountains"
+    },
+    {
+      "text": "Be like water. Yield, persist, and in the end wear the mountain down.",
+      "plate": "plate-laozi",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Lao Tzu · Tao Te Ching",
+  "source_note": "Quote: Tao Te Ching, trans. James Legge (1891, public domain).",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "HE-01",
+    "topic": "Ancient philosophy",
+    "thinker": "Heraclitus",
+    "thinker_dates": "c. 535–475 BC",
+    "theme": "everything flows",
+    "title": "Why you can never step in the same river twice",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "heraclitus river quote meaning",
+    "hashtags": [
+      "heraclitus",
+      "philosophy",
+      "change",
+      "impermanence",
+      "ancientphilosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-heraclitus",
+      "query": "Johannes Moreelse Heraclitus painting",
+      "want": "Moreelse, Heraclitus the weeping philosopher (PD)"
+    },
+    {
+      "id": "plate-river",
+      "query": "J. M. W. Turner river landscape sunset painting",
+      "want": "Turner, a moving river of light (PD)"
+    },
+    {
+      "id": "plate-flux",
+      "query": "Hokusai Great Wave off Kanagawa",
+      "want": "Hokusai, water in constant motion (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "You step into a river. You step in again a moment later. Same river, surely?",
+      "plate": "plate-river"
+    },
+    {
+      "text": "Heraclitus said no. The water you first touched is already gone, carried downstream.",
+      "plate": "plate-river"
+    },
+    {
+      "text": "\"You cannot step twice into the same river,\" he wrote. The river is only its flowing.",
+      "plate": "plate-heraclitus",
+      "emphasis": true
+    },
+    {
+      "text": "And neither are you the same. Your cells, your moods, your mind — all of it is moving too.",
+      "plate": "plate-flux"
+    },
+    {
+      "text": "Nothing stands still. Everything flows. What looks solid is just change that is slow enough to miss.",
+      "plate": "plate-flux"
+    },
+    {
+      "text": "We suffer when we grip the water and demand it stay. It never will.",
+      "plate": "plate-river"
+    },
+    {
+      "text": "Stop clutching the river. Learn, instead, to swim.",
+      "plate": "plate-heraclitus",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Heraclitus · Fragments",
+  "source_note": "Fragment of Heraclitus (public-domain translation).",
+  "cta": "Follow for more"
+}
