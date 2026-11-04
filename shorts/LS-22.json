@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-22",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on being alone",
+    "format": "list",
+    "title": "5 Stoic lessons on being alone",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism on solitude and loneliness",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "solitude",
+      "loneliness",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-solitude",
+      "query": "Caspar David Friedrich solitary figure in vast landscape painting",
+      "want": "Solitude, not loneliness (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The emperor's inner retreat (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich quiet figure by moonlit water painting",
+      "want": "At peace in one's own company (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons on being alone — without being lonely.",
+      "plate": "plate-solitude"
+    },
+    {
+      "text": "One. Solitude is where you finally meet yourself. The Stoics sought it on purpose.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Two. If you can't enjoy your own company, no amount of other people will ever fill the gap.",
+      "plate": "plate-solitude"
+    },
+    {
+      "text": "Three. Marcus said: men seek retreats in the country — but none is calmer than retreating into yourself.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Four. A crowd is no cure for loneliness. Depth is. One real connection beats a hundred shallow ones.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Five. Become whole on your own, and company turns into a choice — never a desperate need.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "The Stoic is never truly alone. He always has the one companion he's worked hardest to respect: himself.",
+      "plate": "plate-solitude",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Seneca.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-22",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "classic books that are actually funny",
+    "format": "list",
+    "title": "5 classic books that are actually hilarious",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "funny classic books",
+    "hashtags": [
+      "books",
+      "classics",
+      "comedy",
+      "booktok",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-quixote",
+      "query": "Honoré Daumier Don Quixote painting",
+      "want": "Daumier's comic Don Quixote (PD)"
+    },
+    {
+      "id": "plate-tavern",
+      "query": "Jan Steen merry chaotic tavern scene painting",
+      "want": "Steen, comedy and chaos (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life old books with a feather quill painting",
+      "want": "Wit, bound in leather (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five classic books that are genuinely, laugh-out-loud funny.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "One. Don Quixote — Cervantes. A man so deep in novels he mistakes windmills for giants. The first great comic novel.",
+      "plate": "plate-quixote"
+    },
+    {
+      "text": "Two. Three Men in a Boat — Jerome. A lazy river holiday turns into pure Victorian farce.",
+      "plate": "plate-tavern"
+    },
+    {
+      "text": "Three. The Importance of Being Earnest — Wilde. The wittiest play in English, line after line.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Four. The Canterbury Tales — Chaucer. Medieval pilgrims telling rude, brilliant, very funny stories.",
+      "plate": "plate-tavern"
+    },
+    {
+      "text": "Five. Candide — Voltaire. A savage, gleeful comedy about how absurd the world really is.",
+      "plate": "plate-quixote"
+    },
+    {
+      "text": "The classics aren't all solemn. Some are centuries-old comedy gold. Full retellings on the channel.",
+      "plate": "plate-books",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}

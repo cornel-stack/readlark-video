@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-22",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "signs you're outgrowing your old life",
+    "format": "list",
+    "title": "6 signs you're outgrowing your old life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs you are outgrowing people",
+    "hashtags": [
+      "selfimprovement",
+      "growth",
+      "mindset",
+      "selfawareness",
+      "change"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-door",
+      "query": "Caspar David Friedrich figure leaving through a doorway to light painting",
+      "want": "Stepping out of an old life (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Caspar David Friedrich figure on a path leaving a village painting",
+      "want": "Moving on, looking ahead (PD)"
+    },
+    {
+      "id": "plate-vista",
+      "query": "Frederic Edwin Church wide new horizon painting",
+      "want": "A bigger life ahead (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs you're quietly outgrowing your old life.",
+      "plate": "plate-door"
+    },
+    {
+      "text": "One. Old conversations feel small now. You're hungry for something with more depth.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Two. You crave meaning over comfort. The safe option has stopped feeling like enough.",
+      "plate": "plate-vista"
+    },
+    {
+      "text": "Three. You've become far pickier about who gets access to your time and energy.",
+      "plate": "plate-door"
+    },
+    {
+      "text": "Four. Things that used to impress you now feel a little hollow.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Five. You'd genuinely rather be alone than badly accompanied.",
+      "plate": "plate-vista"
+    },
+    {
+      "text": "Six. You feel slightly out of place where you once fit perfectly. You've changed; the room hasn't.",
+      "plate": "plate-door"
+    },
+    {
+      "text": "Outgrowing a life isn't betrayal. It's the quiet, uncomfortable proof that you're growing.",
+      "plate": "plate-vista",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which sign feels most true?",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-22",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "ways people reveal their true character",
+    "format": "list",
+    "title": "6 ways people reveal their true character",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "how people reveal their true character",
+    "hashtags": [
+      "psychology",
+      "character",
+      "relationships",
+      "selfawareness",
+      "humanbehaviour"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-faces",
+      "query": "Rembrandt group of varied faces painting",
+      "want": "Character written in faces (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Caravaggio figure revealed by sudden light painting",
+      "want": "The truth, lit up (PD)"
+    },
+    {
+      "id": "plate-pair",
+      "query": "Rembrandt two figures one helping another painting",
+      "want": "Character in how we treat others (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six moments that reveal someone's true character.",
+      "plate": "plate-faces"
+    },
+    {
+      "text": "One. How they treat people who can do absolutely nothing for them.",
+      "plate": "plate-pair"
+    },
+    {
+      "text": "Two. How they handle losing — gracefully, or with bitterness.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Three. What they do when they're certain no one is watching.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Four. How they talk about people who aren't in the room.",
+      "plate": "plate-faces"
+    },
+    {
+      "text": "Five. How they react to someone else's good news — genuine joy, or a flicker of envy.",
+      "plate": "plate-pair"
+    },
+    {
+      "text": "Six. How they treat someone who just made an honest mistake.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Character isn't what people say about themselves. It's what they do when it's inconvenient to be good.",
+      "plate": "plate-faces",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one tells you the most?",
+  "cta": "Follow for more"
+}
