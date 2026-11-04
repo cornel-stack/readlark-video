@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-23",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "unforgettable characters in literature",
+    "format": "list",
+    "title": "5 unforgettable characters in literature",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "most memorable characters in literature",
+    "hashtags": [
+      "books",
+      "literature",
+      "classics",
+      "booktok",
+      "characters"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-portraits",
+      "query": "Rembrandt gallery of character portraits painting",
+      "want": "Faces that live beyond the page (PD)"
+    },
+    {
+      "id": "plate-sea",
+      "query": "J. M. W. Turner whaling ship stormy sea painting",
+      "want": "Ahab's obsessive ocean (PD)"
+    },
+    {
+      "id": "plate-moor",
+      "query": "Caspar David Friedrich wild windswept moor painting",
+      "want": "Heathcliff's wild heath (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five characters so vivid they feel like people you've actually met.",
+      "plate": "plate-portraits"
+    },
+    {
+      "text": "One. Elizabeth Bennet — Austen's sharp, proud, utterly modern heroine.",
+      "plate": "plate-portraits"
+    },
+    {
+      "text": "Two. Captain Ahab — Melville's monument to obsession, chasing a whale into the abyss.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "Three. Heathcliff — Brontë's dark, doomed storm of a man you can't look away from.",
+      "plate": "plate-moor"
+    },
+    {
+      "text": "Four. Jay Gatsby — Fitzgerald's dreamer, reinventing himself for a love already gone.",
+      "plate": "plate-portraits"
+    },
+    {
+      "text": "Five. Raskolnikov — Dostoevsky's tormented student, unravelling under his own guilt.",
+      "plate": "plate-portraits"
+    },
+    {
+      "text": "Great characters outlive their books, and their authors. Full retellings of each are on the channel.",
+      "plate": "plate-portraits",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}

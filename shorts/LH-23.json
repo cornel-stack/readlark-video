@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LH-23",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "things quietly wasting your potential",
+    "format": "list",
+    "title": "5 things quietly wasting your potential",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "things wasting your potential",
+    "hashtags": [
+      "selfimprovement",
+      "potential",
+      "discipline",
+      "mindset",
+      "motivation"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-seed",
+      "query": "Caspar David Friedrich single tree in a wide field painting",
+      "want": "Potential waiting to grow (PD)"
+    },
+    {
+      "id": "plate-fog",
+      "query": "Caspar David Friedrich figure stalled in fog painting",
+      "want": "Potential lost in the fog (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "Frederic Edwin Church bright dawn over landscape painting",
+      "want": "Potential finally used (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five things quietly wasting your potential — without you noticing.",
+      "plate": "plate-seed"
+    },
+    {
+      "text": "One. Waiting for the perfect moment. It never arrives. The people who win just start messy.",
+      "plate": "plate-fog"
+    },
+    {
+      "text": "Two. Consuming endlessly instead of creating. Watching others build is not building.",
+      "plate": "plate-fog"
+    },
+    {
+      "text": "Three. Keeping every option open forever. Potential needs a commitment to pour itself into.",
+      "plate": "plate-seed"
+    },
+    {
+      "text": "Four. Surrounding yourself with low expectations. You rise or sink to the room you're in.",
+      "plate": "plate-fog"
+    },
+    {
+      "text": "Five. Mistaking being busy for being productive. Motion feels like progress, but it isn't.",
+      "plate": "plate-seed"
+    },
+    {
+      "text": "Potential isn't lost in one big failure. It leaks away in small, comfortable habits. Plug the leaks.",
+      "plate": "plate-dawn",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which leak will you plug first?",
+  "cta": "Follow for more"
+}

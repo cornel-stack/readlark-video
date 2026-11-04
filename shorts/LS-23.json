@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-23",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic reminders for when you want to quit",
+    "format": "list",
+    "title": "5 Stoic reminders for when you want to quit",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoic quotes about not giving up",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "perseverance",
+      "resilience",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-storm",
+      "query": "J. M. W. Turner small boat in a towering storm painting",
+      "want": "The urge to give up, mid-storm (PD)"
+    },
+    {
+      "id": "plate-oak",
+      "query": "Caspar David Friedrich great oak battered by wind painting",
+      "want": "Strength grown in hard winds (PD)"
+    },
+    {
+      "id": "plate-summit",
+      "query": "Caspar David Friedrich figure near a mountain summit painting",
+      "want": "Almost there (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic reminders for the moment you want to quit.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "One. You have survived one hundred percent of your worst days so far. The record is perfect.",
+      "plate": "plate-oak"
+    },
+    {
+      "text": "Two. The obstacle is the path — not a detour from it. This hard part is the work.",
+      "plate": "plate-summit"
+    },
+    {
+      "text": "Three. You control the effort, never the outcome. So keep rowing, and leave the result alone.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Four. 'Hard' and 'impossible' are not the same word. Don't let the first pretend to be the second.",
+      "plate": "plate-summit"
+    },
+    {
+      "text": "Five. The oak grows strong in contrary winds. Resistance isn't ruining you; it's building you.",
+      "plate": "plate-oak"
+    },
+    {
+      "text": "The Stoic doesn't quit when it's hard. Hard was always the point. Take one more step.",
+      "plate": "plate-summit",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Seneca & Marcus Aurelius.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-23",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "ways your memory lies to you",
+    "format": "list",
+    "title": "5 ways your memory lies to you",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "how memory is unreliable psychology",
+    "hashtags": [
+      "psychology",
+      "memory",
+      "brain",
+      "mind",
+      "selfawareness"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-mist",
+      "query": "Caspar David Friedrich half-hidden landscape in mist painting",
+      "want": "Memory, half-obscured (PD)"
+    },
+    {
+      "id": "plate-mind",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "The mind reconstructing the past (PD)"
+    },
+    {
+      "id": "plate-faded",
+      "query": "faded old painting cracked surface time worn",
+      "want": "Memories worn and rewritten (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five unsettling ways your own memory lies to you.",
+      "plate": "plate-mist"
+    },
+    {
+      "text": "One. You don't replay memories — you rebuild them. And each rebuild quietly edits the original.",
+      "plate": "plate-faded"
+    },
+    {
+      "text": "Two. Confidence isn't accuracy. The memories you're surest about can be completely wrong.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "Three. You keep the peak and the ending, and quietly discard almost everything in between.",
+      "plate": "plate-mist"
+    },
+    {
+      "text": "Four. Your current mood recolours the past. Sad now, and even good memories turn grey.",
+      "plate": "plate-faded"
+    },
+    {
+      "text": "Five. With a few suggestions, the mind can build a vivid, detailed memory of something that never happened.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "Your past isn't a recording. It's a story you retell — so hold your certainty a little more loosely.",
+      "plate": "plate-mist",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one unsettles you most?",
+  "cta": "Follow for more"
+}

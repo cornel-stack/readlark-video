@@ -144,7 +144,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-21 | Applied Stoicism | 5 lessons on money and wealth | ✅ | run 41814433679 |
 | LB-21 | Books & reading | 5 greatest love stories | ✅ | run 41814438162 |
 | LM-21 | Psychology | 6 signs you're emotionally exhausted | ✅ | run 41814445015 |
-| LH-22 | Self-improvement | 6 signs you're outgrowing your old life | 📝 | round 22 |
-| LS-22 | Applied Stoicism | 5 lessons on being alone | 📝 | round 22 |
-| LB-22 | Books & reading | 5 classics that are actually funny | 📝 | round 22 |
-| LM-22 | Psychology | 6 ways people reveal their character | 📝 | round 22 |
+| LH-22 | Self-improvement | 6 signs you're outgrowing your old life | ✅ | run 41815081841 |
+| LS-22 | Applied Stoicism | 5 lessons on being alone | ✅ | run 41815088807 |
+| LB-22 | Books & reading | 5 classics that are actually funny | ✅ | run 41815096190 |
+| LM-22 | Psychology | 6 ways people reveal their character | ✅ | run 41815103211 |
+| LH-23 | Self-improvement | 5 things wasting your potential | 📝 | round 23 |
+| LS-23 | Applied Stoicism | 5 reminders for when you want to quit | 📝 | round 23 |
+| LB-23 | Books & reading | 5 unforgettable characters | 📝 | round 23 |
+| LM-23 | Psychology | 5 ways your memory lies to you | 📝 | round 23 |
