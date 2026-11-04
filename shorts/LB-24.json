@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-24",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "adventure classics that sweep you away",
+    "format": "list",
+    "title": "5 adventure classics that will sweep you away",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "best adventure classic books",
+    "hashtags": [
+      "books",
+      "adventure",
+      "classics",
+      "booktok",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-ship",
+      "query": "J. M. W. Turner sailing ship on the open sea painting",
+      "want": "The call of the voyage (PD)"
+    },
+    {
+      "id": "plate-island",
+      "query": "romantic painting of a tropical island coast",
+      "want": "Treasure and distant shores (PD)"
+    },
+    {
+      "id": "plate-map",
+      "query": "antique map globe and compass still life painting",
+      "want": "The world waiting to be crossed (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five adventure classics that will completely sweep you away.",
+      "plate": "plate-ship"
+    },
+    {
+      "text": "One. The Odyssey — Homer. Monsters, gods, and one man clawing his way home across ten years.",
+      "plate": "plate-ship"
+    },
+    {
+      "text": "Two. Treasure Island — Stevenson. Pirates, a map, and the villain who defined them all: Long John Silver.",
+      "plate": "plate-island"
+    },
+    {
+      "text": "Three. The Count of Monte Cristo — Dumas. The greatest revenge story ever told.",
+      "plate": "plate-map"
+    },
+    {
+      "text": "Four. Robinson Crusoe — Defoe. One man, one island, and the raw will to survive.",
+      "plate": "plate-island"
+    },
+    {
+      "text": "Five. Around the World in Eighty Days — Verne. A race against the clock across the whole globe.",
+      "plate": "plate-map"
+    },
+    {
+      "text": "The classics aren't all slow. Some are pure, breathless adventure. Full retellings on the channel.",
+      "plate": "plate-ship",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-24",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "signs you're ahead of most people",
+    "format": "list",
+    "title": "6 signs you're ahead of most people",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs you are ahead in life",
+    "hashtags": [
+      "selfimprovement",
+      "mindset",
+      "discipline",
+      "success",
+      "growth"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-peak",
+      "query": "Caspar David Friedrich figure on a high ridge above others painting",
+      "want": "Quietly further along (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Hudson River School traveller well along a mountain trail painting",
+      "want": "Ahead on the road (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "Frederic Edwin Church first light over a wide valley painting",
+      "want": "A head start on the day (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs you're already ahead of most people — even if it doesn't feel like it.",
+      "plate": "plate-peak"
+    },
+    {
+      "text": "One. You can delay gratification. You'll trade a small reward now for a bigger one later.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Two. You take responsibility instead of hunting for someone to blame.",
+      "plate": "plate-peak"
+    },
+    {
+      "text": "Three. You're still learning long after school ended. Curiosity never clocked off.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Four. You can sit alone with your own thoughts without reaching for a distraction.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Five. You manage your money — you don't just earn it and watch it vanish.",
+      "plate": "plate-peak"
+    },
+    {
+      "text": "Six. You do the right thing even when there's no applause for it.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Being ahead is rarely loud. It's a stack of quiet habits most people never bother to build.",
+      "plate": "plate-peak",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "How many did you recognise?",
+  "cta": "Follow for more"
+}

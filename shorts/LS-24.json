@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-24",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on handling criticism",
+    "format": "list",
+    "title": "5 Stoic lessons on handling criticism",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism dealing with criticism",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "criticism",
+      "confidence",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The Stoic, unmoved by opinion (PD)"
+    },
+    {
+      "id": "plate-crowd",
+      "query": "Honoré Daumier critics and spectators painting",
+      "want": "The voices of the crowd (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich steady figure in open landscape painting",
+      "want": "Rooted, unshaken (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons on handling criticism without it wrecking your day.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "One. If the criticism is true, thank them. A free lesson just saved you from staying wrong.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Two. If it's false, it says more about them than about you. Let it stay theirs.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "Three. You can't control opinions — only your character. Don't trade your peace for applause.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. Consider the source before the comment. Would you ask this person for directions?",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "Five. Be your own fair, honest judge first. Settle your own verdict, and others' words lose their grip.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "The Stoic weighs criticism; he doesn't drown in it. Take the lesson, and leave the sting behind.",
+      "plate": "plate-calm",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Epictetus.",
+  "cta": "Follow for more"
+}

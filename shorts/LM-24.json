@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-24",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "phrases that quietly reveal insecurity",
+    "format": "list",
+    "title": "6 phrases that quietly reveal insecurity",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "phrases that reveal insecurity",
+    "hashtags": [
+      "psychology",
+      "insecurity",
+      "communication",
+      "selfawareness",
+      "relationships"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-mask",
+      "query": "James Ensor masks hiding faces painting",
+      "want": "Insecurity behind a mask (PD)"
+    },
+    {
+      "id": "plate-mirror",
+      "query": "Gustave Courbet uneasy self portrait painting",
+      "want": "The anxious self (PD)"
+    },
+    {
+      "id": "plate-crowd",
+      "query": "Honoré Daumier self-conscious figures in a crowd painting",
+      "want": "Performing for the room (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six phrases that quietly give away insecurity.",
+      "plate": "plate-mask"
+    },
+    {
+      "text": "One. 'Not to brag, but...' — the brag always follows, because it needs you to notice.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "Two. 'I really don't care what anyone thinks' — said loudly, and often, to people who didn't ask.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "Three. 'I'm just being honest' — used as cover for something that was really just unkind.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "Four. 'Must be nice' — envy, wearing the thin disguise of a compliment.",
+      "plate": "plate-mask"
+    },
+    {
+      "text": "Five. 'I was only joking' — the standard retreat right after a quiet little dig lands.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "Six. Apologising for simply existing — 'sorry' before every request, every opinion, every need.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "We all do some of these. Noticing them in yourself, without shame, is where real confidence starts.",
+      "plate": "plate-mask",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one did you catch yourself in?",
+  "cta": "Follow for more"
+}

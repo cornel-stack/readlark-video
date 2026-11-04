@@ -152,3 +152,7 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-23 | Applied Stoicism | 5 reminders for when you want to quit | 📝 | round 23 |
 | LB-23 | Books & reading | 5 unforgettable characters | 📝 | round 23 |
 | LM-23 | Psychology | 5 ways your memory lies to you | 📝 | round 23 |
+| LH-24 | Self-improvement | 6 signs you're ahead of most people | ⏸️ | round 24 — scripted, held (not dispatched) |
+| LS-24 | Applied Stoicism | 5 lessons on handling criticism | ⏸️ | round 24 — scripted, held (not dispatched) |
+| LB-24 | Books & reading | 5 adventure classics | ⏸️ | round 24 — scripted, held (not dispatched) |
+| LM-24 | Psychology | 6 phrases that reveal insecurity | ⏸️ | round 24 — scripted, held (not dispatched) |
