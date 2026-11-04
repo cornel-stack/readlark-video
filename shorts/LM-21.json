@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-21",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "signs you're emotionally exhausted",
+    "format": "list",
+    "title": "6 signs you're emotionally exhausted (not lazy)",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs of emotional exhaustion burnout",
+    "hashtags": [
+      "psychology",
+      "burnout",
+      "mentalhealth",
+      "emotionalexhaustion",
+      "selfcare"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-weary",
+      "query": "Vilhelm Hammershøi figure slumped in a dim room painting",
+      "want": "Bone-deep tiredness (PD)"
+    },
+    {
+      "id": "plate-grey",
+      "query": "Caspar David Friedrich grey overcast empty shore painting",
+      "want": "Everything gone flat (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "J. M. W. Turner faint light returning over water painting",
+      "want": "The first hint of recovery (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs you're emotionally exhausted — not lazy, not weak.",
+      "plate": "plate-weary"
+    },
+    {
+      "text": "One. You sleep, you rest — and still wake up feeling like you never stopped.",
+      "plate": "plate-grey"
+    },
+    {
+      "text": "Two. Small tasks feel enormous. Answering one message can feel like climbing a hill.",
+      "plate": "plate-weary"
+    },
+    {
+      "text": "Three. You're irritable over tiny things. The tank is simply empty.",
+      "plate": "plate-grey"
+    },
+    {
+      "text": "Four. You've gone numb rather than sad — just flat, switched off, going through the motions.",
+      "plate": "plate-weary"
+    },
+    {
+      "text": "Five. You're pulling away from the people you actually love. Connection feels like effort.",
+      "plate": "plate-grey"
+    },
+    {
+      "text": "Six. You can't focus or remember simple things. A tired mind drops what it's carrying.",
+      "plate": "plate-weary"
+    },
+    {
+      "text": "This isn't a character flaw. It's a signal. Rest isn't a reward you earn — it's maintenance you need.",
+      "plate": "plate-dawn",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Send this to someone who needs the reminder.",
+  "cta": "Follow for more"
+}

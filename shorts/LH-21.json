@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-21",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "habits of people who never seem stressed",
+    "format": "list",
+    "title": "6 habits of people who never seem stressed",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "habits of calm unstressed people",
+    "hashtags": [
+      "selfimprovement",
+      "stress",
+      "calm",
+      "productivity",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich calm still lake morning painting",
+      "want": "Unhurried calm (PD)"
+    },
+    {
+      "id": "plate-order",
+      "query": "Vermeer orderly quiet interior painting",
+      "want": "Order that soothes the mind (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Hammershoi light through a calm room window painting",
+      "want": "Space to breathe (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six habits of people who somehow never seem stressed.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "One. They plan tomorrow the night before. They wake up aimed, not scrambling.",
+      "plate": "plate-order"
+    },
+    {
+      "text": "Two. They do the worst task first. Dread shrinks the moment the hard thing is done.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Three. They single-task. Juggling everything at once is how the mind frays.",
+      "plate": "plate-order"
+    },
+    {
+      "text": "Four. They leave margin. They don't schedule every minute, so surprises don't topple the day.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Five. They control their inputs — fewer alerts, less doom-scrolling, quieter mornings.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Six. They let go of what they can't control, fast. They don't rent out their mind to it.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Calm people aren't dodging stress. They've just built a life that generates less of it.",
+      "plate": "plate-order",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which habit will you borrow?",
+  "cta": "Follow for more"
+}

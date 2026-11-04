@@ -136,7 +136,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-19 | Applied Stoicism | 5 lessons on accepting what you can't change | ✅ | run 41812990286 |
 | LB-19 | Books & reading | 5 books that change your worldview | ✅ | run 41812996400 |
 | LM-19 | Psychology | 6 signs you're a deep thinker | ✅ | run 41813003561 |
-| LH-20 | Self-improvement | 6 lessons people learn too late | 📝 | round 20 |
-| LS-20 | Applied Stoicism | 5 lessons on living with purpose | 📝 | round 20 |
-| LB-20 | Books & reading | 5 unforgettable final lines | 📝 | round 20 |
-| LM-20 | Psychology | 6 habits killing your confidence | 📝 | round 20 |
+| LH-20 | Self-improvement | 6 lessons people learn too late | ✅ | run 41813751842 |
+| LS-20 | Applied Stoicism | 5 lessons on living with purpose | ✅ | run 41813757771 |
+| LB-20 | Books & reading | 5 unforgettable final lines | ✅ | run 41813765294 |
+| LM-20 | Psychology | 6 habits killing your confidence | ✅ | run 41813770391 |
+| LH-21 | Self-improvement | 6 habits of people who never seem stressed | 📝 | round 21 |
+| LS-21 | Applied Stoicism | 5 lessons on money and wealth | 📝 | round 21 |
+| LB-21 | Books & reading | 5 greatest love stories | 📝 | round 21 |
+| LM-21 | Psychology | 6 signs you're emotionally exhausted | 📝 | round 21 |

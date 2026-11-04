@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-21",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on money and wealth",
+    "format": "list",
+    "title": "5 Stoic lessons on money and wealth",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism on money and wealth",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "money",
+      "wealth",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-coins",
+      "query": "Dutch golden age still life coins and gold painting",
+      "want": "Wealth, in its true place (PD)"
+    },
+    {
+      "id": "plate-seneca",
+      "query": "ancient Roman bust of Seneca sculpture",
+      "want": "Seneca — rich, yet unattached (PD)"
+    },
+    {
+      "id": "plate-simple",
+      "query": "Chardin humble bread and jug still life painting",
+      "want": "The wealth of enough (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons on money and wealth.",
+      "plate": "plate-coins"
+    },
+    {
+      "text": "One. Wealth isn't having the most. It's having enough — and knowing that you do.",
+      "plate": "plate-simple"
+    },
+    {
+      "text": "Two. Money is a tool, not a scoreboard. It can buy comfort; it can't buy character or calm.",
+      "plate": "plate-coins"
+    },
+    {
+      "text": "Three. Seneca was rich, but held it loosely — ready, any day, to hand it all back without flinching.",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "Four. Use fortune; never trust it. What luck gives, luck can take back overnight.",
+      "plate": "plate-coins"
+    },
+    {
+      "text": "Five. The best things — time, peace, good people, a clear conscience — were never for sale.",
+      "plate": "plate-simple"
+    },
+    {
+      "text": "Chase enough, not endless. The richest person, the Stoics said, is the one who needs the least.",
+      "plate": "plate-seneca",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Seneca & Epictetus.",
+  "cta": "Follow for more"
+}

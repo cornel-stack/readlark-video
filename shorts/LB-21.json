@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-21",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "greatest love stories in literature",
+    "format": "list",
+    "title": "5 of the greatest love stories in literature",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "greatest love stories in books",
+    "hashtags": [
+      "books",
+      "romance",
+      "classics",
+      "booktok",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-romance",
+      "query": "Francesco Hayez The Kiss painting",
+      "want": "Hayez, romance made paint (PD)"
+    },
+    {
+      "id": "plate-moor",
+      "query": "Caspar David Friedrich windswept moorland painting",
+      "want": "The wild heath of Wuthering Heights (PD)"
+    },
+    {
+      "id": "plate-garden",
+      "query": "Fragonard lovers in a garden painting",
+      "want": "Courtship in a garden (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five of the greatest love stories ever written.",
+      "plate": "plate-romance"
+    },
+    {
+      "text": "One. Pride and Prejudice — Austen. Two proud hearts arguing their way into love.",
+      "plate": "plate-garden"
+    },
+    {
+      "text": "Two. Wuthering Heights — Brontë. A love so wild it refuses to end even at death.",
+      "plate": "plate-moor"
+    },
+    {
+      "text": "Three. Jane Eyre — Brontë. Love between equals, won only once both are truly free.",
+      "plate": "plate-romance"
+    },
+    {
+      "text": "Four. Anna Karenina — Tolstoy. Passion and its price, told without a single easy answer.",
+      "plate": "plate-garden"
+    },
+    {
+      "text": "Five. Romeo and Juliet — Shakespeare. Still the measure every doomed romance is held against.",
+      "plate": "plate-romance"
+    },
+    {
+      "text": "Love, loss, longing — the classics wrote it first, and best. Full retellings on the channel.",
+      "plate": "plate-moor",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}
