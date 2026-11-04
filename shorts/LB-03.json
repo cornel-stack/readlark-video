@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LB-03",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "short classics you can finish in a weekend",
+    "format": "list",
+    "title": "6 classic books you can actually finish in a weekend",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "short classic books to read",
+    "hashtags": [
+      "books",
+      "classics",
+      "booktok",
+      "reading",
+      "shortbooks"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-books",
+      "query": "still life stack of old books candle painting",
+      "want": "A short, inviting pile of classics (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Fragonard A Young Girl Reading painting",
+      "want": "A reader finishing in one sitting (PD)"
+    },
+    {
+      "id": "plate-lamp",
+      "query": "Rembrandt scholar by lamplight reading painting",
+      "want": "A weekend by lamplight (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six classic books short enough to finish in a single weekend.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "One. The Metamorphosis — Kafka. A man wakes up as an insect, and his family's love is tested.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Two. A Christmas Carol — Dickens. One night, three ghosts, and a soul worth saving.",
+      "plate": "plate-lamp"
+    },
+    {
+      "text": "Three. Dr Jekyll and Mr Hyde — Stevenson. The monster and the gentleman share one body.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Four. Heart of Darkness — Conrad. A river journey into the worst of what people can become.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Five. Antigone — Sophocles. One woman against the state, in under forty pages.",
+      "plate": "plate-lamp"
+    },
+    {
+      "text": "Six. The Great Gatsby — Fitzgerald. The beautiful, hollow heart of the American dream.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Six weekends, six classics. Full retellings of each are on the channel.",
+      "plate": "plate-reader",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}

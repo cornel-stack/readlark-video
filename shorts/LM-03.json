@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-03",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "psychology facts that explain everyday life",
+    "format": "list",
+    "title": "6 psychology facts that explain your everyday life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "psychology facts about daily life",
+    "hashtags": [
+      "psychology",
+      "psychologyfacts",
+      "mind",
+      "selfawareness",
+      "humanbehaviour"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-mind",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "The mind's quiet machinery (PD)"
+    },
+    {
+      "id": "plate-faces",
+      "query": "Honoré Daumier crowd of faces caricature painting",
+      "want": "People, and how they read each other (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Vermeer woman at a window soft daylight painting",
+      "want": "An everyday moment, closely seen (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six psychology facts that quietly explain your everyday life.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "One. The mere-exposure effect: we start to like things, and people, simply because they're familiar.",
+      "plate": "plate-faces"
+    },
+    {
+      "text": "Two. The spotlight effect: nobody notices your stumbles and flaws nearly as much as you do.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Three. Loss aversion: losing ten pounds stings more than finding ten pounds ever feels good.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "Four. The Zeigarnik effect: unfinished tasks keep nagging the mind until they're closed.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Five. Emotional contagion: you quietly catch the moods of the people you spend time with.",
+      "plate": "plate-faces"
+    },
+    {
+      "text": "Six. The peak-end rule: we judge an experience by its most intense moment and its ending — not its average.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "Your mind runs on shortcuts. See them clearly, and you get a little harder to fool.",
+      "plate": "plate-light",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one surprised you?",
+  "cta": "Follow for more"
+}

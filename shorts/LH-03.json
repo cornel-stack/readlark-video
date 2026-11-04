@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LH-03",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "things mentally strong people never do",
+    "format": "list",
+    "title": "5 things mentally strong people never do",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "things mentally strong people never do",
+    "hashtags": [
+      "mentalstrength",
+      "discipline",
+      "selfimprovement",
+      "mindset",
+      "resilience"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-figure",
+      "query": "Caspar David Friedrich Wanderer above the Sea of Fog painting",
+      "want": "A composed figure facing the storm (PD)"
+    },
+    {
+      "id": "plate-stone",
+      "query": "ancient Roman stoic statue marble figure",
+      "want": "Unmoved, steady resolve (PD)"
+    },
+    {
+      "id": "plate-sea",
+      "query": "J. M. W. Turner calm sea after storm painting",
+      "want": "Stillness holding under pressure (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five things mentally strong people simply never do.",
+      "plate": "plate-figure"
+    },
+    {
+      "text": "One. They never hand their peace of mind to people who haven't earned it.",
+      "plate": "plate-stone"
+    },
+    {
+      "text": "Two. They never let a temporary feeling make a permanent decision.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "Three. They never confuse being busy with being effective. Motion isn't progress.",
+      "plate": "plate-stone"
+    },
+    {
+      "text": "Four. They never wait to feel motivated. They act first, and let the feeling catch up.",
+      "plate": "plate-figure"
+    },
+    {
+      "text": "Five. They never rehearse, for hours, a conversation that will probably never happen.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "Mental strength isn't being unbreakable. It's refusing to break yourself on things that don't matter.",
+      "plate": "plate-figure",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save this for a hard day.",
+  "cta": "Follow for more"
+}

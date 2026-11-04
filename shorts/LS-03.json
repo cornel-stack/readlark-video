@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-03",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic ways to stop caring what people think",
+    "format": "list",
+    "title": "5 Stoic ways to stop caring what people think",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "how to stop caring what people think stoicism",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "confidence",
+      "mindset",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-crowd",
+      "query": "James Ensor crowd of masks painting",
+      "want": "A sea of judging faces (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The emperor, unbothered (PD)"
+    },
+    {
+      "id": "plate-alone",
+      "query": "Caspar David Friedrich lone figure mountain painting",
+      "want": "Self-possession, standing apart (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic ways to stop caring what other people think.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "One. Most people aren't judging you. They're too busy worrying what you think of them.",
+      "plate": "plate-crowd"
+    },
+    {
+      "text": "Two. You don't control opinions — only your character. Tend the part that's actually yours.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Three. Ask: would I take life advice from this person? If not, why take their judgement?",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Four. Everyone whose approval you crave will one day be forgotten — and so will you. Act freely.",
+      "plate": "plate-alone"
+    },
+    {
+      "text": "Five. The only audience that lasts is the person you're slowly becoming.",
+      "plate": "plate-alone"
+    },
+    {
+      "text": "Care less about being seen as good, said the Stoics, and more about simply being it.",
+      "plate": "plate-marcus",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Epictetus.",
+  "cta": "Follow for more"
+}

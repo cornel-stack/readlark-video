@@ -64,7 +64,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-01 | Applied Stoicism | 5 Stoic rules for hard times | ✅ | run 41800136794 |
 | LB-01 | Books & reading | 5 short books that change how you think | ✅ | run 41800143202 |
 | LM-01 | Psychology | 6 signs of high emotional intelligence | ✅ | run 41800148839 |
-| LH-02 | Self-improvement | 6 habits of people who can focus | 📝 | round 2 |
-| LS-02 | Applied Stoicism | 5 things the Stoics did every morning | 📝 | round 2 |
-| LB-02 | Books & reading | 5 classic novels worth the hype | 📝 | round 2 |
-| LM-02 | Psychology | 6 cognitive biases fooling you | 📝 | round 2 |
+| LH-02 | Self-improvement | 6 habits of people who can focus | ✅ | run 41800899991 |
+| LS-02 | Applied Stoicism | 5 things the Stoics did every morning | ✅ | run 41800905661 |
+| LB-02 | Books & reading | 5 classic novels worth the hype | ✅ | run 41800911389 |
+| LM-02 | Psychology | 6 cognitive biases fooling you | ✅ | run 41800916888 |
+| LH-03 | Self-improvement | 5 things mentally strong people never do | 📝 | round 3 |
+| LS-03 | Applied Stoicism | 5 ways to stop caring what people think | 📝 | round 3 |
+| LB-03 | Books & reading | 6 short classics for a weekend | 📝 | round 3 |
+| LM-03 | Psychology | 6 psychology facts of everyday life | 📝 | round 3 |
