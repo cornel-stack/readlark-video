@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-17",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "tiny wins that build momentum",
+    "format": "list",
+    "title": "6 tiny wins that build unstoppable momentum",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "small wins build momentum",
+    "hashtags": [
+      "selfimprovement",
+      "momentum",
+      "habits",
+      "productivity",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-spark",
+      "query": "Joseph Wright of Derby small flame lighting a room painting",
+      "want": "A small spark catching (PD)"
+    },
+    {
+      "id": "plate-stream",
+      "query": "J. M. W. Turner small stream growing into river painting",
+      "want": "Small things gathering force (PD)"
+    },
+    {
+      "id": "plate-climb",
+      "query": "Caspar David Friedrich figure part way up a slope painting",
+      "want": "Momentum carrying you up (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six tiny wins that quietly snowball into unstoppable momentum.",
+      "plate": "plate-spark"
+    },
+    {
+      "text": "One. Make your bed. The day's first completed task tells your brain you're someone who finishes.",
+      "plate": "plate-spark"
+    },
+    {
+      "text": "Two. Tidy one surface. Outer order has a strange way of creating inner calm.",
+      "plate": "plate-stream"
+    },
+    {
+      "text": "Three. Finish one thing you've been avoiding. The relief alone will power the next hour.",
+      "plate": "plate-climb"
+    },
+    {
+      "text": "Four. Move your body for five minutes. Energy isn't found — it's generated.",
+      "plate": "plate-stream"
+    },
+    {
+      "text": "Five. Send the message you've been putting off. Closing a loop frees up more mind than you'd think.",
+      "plate": "plate-spark"
+    },
+    {
+      "text": "Six. Write down tomorrow's single priority tonight. You'll wake up already aimed.",
+      "plate": "plate-climb"
+    },
+    {
+      "text": "Momentum isn't a mood you wait for. It's a snowball you start — one tiny win at a time.",
+      "plate": "plate-stream",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which win will you start with?",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-17",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on mastering desire",
+    "format": "list",
+    "title": "5 Stoic lessons on mastering your desires",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism on desire",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "desire",
+      "selfcontrol",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-epictetus",
+      "query": "engraving portrait of Epictetus philosopher",
+      "want": "Epictetus, master of desire (PD)"
+    },
+    {
+      "id": "plate-feast",
+      "query": "Dutch golden age lavish banquet still life painting",
+      "want": "Abundance that never satisfies (PD)"
+    },
+    {
+      "id": "plate-simple",
+      "query": "Chardin simple bread and water still life painting",
+      "want": "The freedom of wanting little (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons on mastering what you want — before it masters you.",
+      "plate": "plate-epictetus"
+    },
+    {
+      "text": "One. Every craving is a chance to be ruled. Freedom begins the moment you can say no to it.",
+      "plate": "plate-feast"
+    },
+    {
+      "text": "Two. Don't seek to have what you want. Learn to want what you already have.",
+      "plate": "plate-simple"
+    },
+    {
+      "text": "Three. Practise going without, on purpose. Choose the simpler meal, the colder shower — and fear loss less.",
+      "plate": "plate-simple"
+    },
+    {
+      "text": "Four. The craving always lies. It promises peace, delivers a brief high, then asks for more.",
+      "plate": "plate-feast"
+    },
+    {
+      "text": "Five. Wealth isn't having endless desires met. It's having few desires in the first place.",
+      "plate": "plate-epictetus"
+    },
+    {
+      "text": "Master your wants, said the Stoics, and no person and no circumstance can ever truly own you.",
+      "plate": "plate-simple",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Epictetus & Seneca.",
+  "cta": "Follow for more"
+}

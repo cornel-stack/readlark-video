@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-17",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "daily habits that rewire your brain",
+    "format": "list",
+    "title": "5 daily habits that rewire your brain for focus",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "habits to rewire your brain",
+    "hashtags": [
+      "psychology",
+      "neuroscience",
+      "focus",
+      "habits",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-mind",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "The brain being reshaped (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich still lake at dawn painting",
+      "want": "A quiet, trained mind (PD)"
+    },
+    {
+      "id": "plate-focus",
+      "query": "Georges de La Tour single candle concentration painting",
+      "want": "One pool of focused light (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five daily habits that slowly rewire your brain for sharper focus.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "One. Single-task. Every time you resist switching, you strengthen the circuit for deep attention.",
+      "plate": "plate-focus"
+    },
+    {
+      "text": "Two. Sit in boredom now and then. A mind that's always stimulated forgets how to concentrate.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Three. Move daily. Exercise literally grows new connections in the brain's memory centres.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "Four. Protect your sleep. It's when the brain clears waste and locks in what you learned.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Five. Learn something hard on purpose. Difficulty is the signal that tells the brain to adapt.",
+      "plate": "plate-focus"
+    },
+    {
+      "text": "Your brain changes shape around whatever you repeatedly do. Choose those repetitions on purpose.",
+      "plate": "plate-mind",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which habit starts tomorrow?",
+  "cta": "Follow for more"
+}

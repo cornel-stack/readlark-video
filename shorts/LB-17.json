@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-17",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books that will make you braver",
+    "format": "list",
+    "title": "5 books that will make you braver",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books about courage",
+    "hashtags": [
+      "books",
+      "courage",
+      "classics",
+      "booktok",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-hero",
+      "query": "Jacques-Louis David heroic classical figure painting",
+      "want": "Courage made visible (PD)"
+    },
+    {
+      "id": "plate-storm",
+      "query": "J. M. W. Turner ship braving a storm painting",
+      "want": "Facing the storm (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life books and sword candlelight painting",
+      "want": "Stories of nerve (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books that will quietly make you braver.",
+      "plate": "plate-hero"
+    },
+    {
+      "text": "One. The Odyssey — Homer. Ten years, a thousand terrors, and one man who simply refuses to quit.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Two. Meditations — Marcus Aurelius. A ruler teaching himself to act rightly despite fear.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Three. Jane Eyre — Brontë. Quiet, unglamorous courage: refusing to betray yourself for comfort.",
+      "plate": "plate-hero"
+    },
+    {
+      "text": "Four. The Call of the Wild — Jack London. Raw survival, and the nerve to meet a hard world head-on.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Five. Antigone — Sophocles. One woman defying a king, knowing exactly what it will cost her.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Courage is caught as much as taught. Borrow some from these. Full retellings on the channel.",
+      "plate": "plate-hero",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of the classics are on ReadLark.",
+  "cta": "Follow for more"
+}
