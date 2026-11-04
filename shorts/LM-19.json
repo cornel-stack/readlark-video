@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-19",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "signs you're a deep thinker",
+    "format": "list",
+    "title": "6 signs you're a deep thinker",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs you are a deep thinker",
+    "hashtags": [
+      "psychology",
+      "deepthinker",
+      "introvert",
+      "mindset",
+      "selfawareness"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-think",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "A mind that goes deep (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Caspar David Friedrich figure gazing out a window painting",
+      "want": "Lost in thought (PD)"
+    },
+    {
+      "id": "plate-night",
+      "query": "Caspar David Friedrich figure under a night sky painting",
+      "want": "The 2am questions (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs you're a deep thinker — for better and worse.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "One. Small talk drains you, but a real conversation can keep you up for hours.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Two. You need time alone to recharge and to actually hear yourself think.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Three. You notice patterns and details that most people walk straight past.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "Four. You ask 'why' long after everyone else has moved on to the next thing.",
+      "plate": "plate-night"
+    },
+    {
+      "text": "Five. You replay and analyse — sometimes to insight, sometimes straight into overthinking.",
+      "plate": "plate-night"
+    },
+    {
+      "text": "Six. The big questions — meaning, death, time — don't scare you off. They pull you in.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "Deep thinking is a gift and a weight. The skill is knowing when to think — and when to just live.",
+      "plate": "plate-window",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "How many sound like you?",
+  "cta": "Follow for more"
+}

@@ -128,7 +128,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-17 | Applied Stoicism | 5 lessons on mastering desire | ✅ | run 41811503392 |
 | LB-17 | Books & reading | 5 books that make you braver | ✅ | run 41811510955 |
 | LM-17 | Psychology | 5 habits that rewire your brain | ✅ | run 41811516217 |
-| LH-18 | Self-improvement | 5 questions that change your life | 📝 | round 18 |
-| LS-18 | Applied Stoicism | 5 Stoic lessons on self-discipline | 📝 | round 18 |
-| LB-18 | Books & reading | 5 books that will make you wiser | 📝 | round 18 |
-| LM-18 | Psychology | 6 signs you're mentally strong | 📝 | round 18 |
+| LH-18 | Self-improvement | 5 questions that change your life | ✅ | run 41812335342 |
+| LS-18 | Applied Stoicism | 5 Stoic lessons on self-discipline | ✅ | run 41812340694 |
+| LB-18 | Books & reading | 5 books that will make you wiser | ✅ | run 41812346477 |
+| LM-18 | Psychology | 6 signs you're mentally strong | ✅ | run 41812351996 |
+| LH-19 | Self-improvement | 5 habits that make life feel longer | 📝 | round 19 |
+| LS-19 | Applied Stoicism | 5 lessons on accepting what you can't change | 📝 | round 19 |
+| LB-19 | Books & reading | 5 books that change your worldview | 📝 | round 19 |
+| LM-19 | Psychology | 6 signs you're a deep thinker | 📝 | round 19 |

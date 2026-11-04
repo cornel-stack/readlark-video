@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-19",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books that change how you see the world",
+    "format": "list",
+    "title": "5 books that will change how you see the world",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books that change your worldview",
+    "hashtags": [
+      "books",
+      "philosophy",
+      "classics",
+      "booktok",
+      "perspective"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-vista",
+      "query": "Caspar David Friedrich figure overlooking vast landscape painting",
+      "want": "A wider view of the world (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life books globe candle painting",
+      "want": "Books that reshape your lens (PD)"
+    },
+    {
+      "id": "plate-cave",
+      "query": "Jan Saenredam Plato's cave allegory engraving",
+      "want": "Seeing past the shadows (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books that quietly change how you see the whole world.",
+      "plate": "plate-vista"
+    },
+    {
+      "text": "One. The Republic — Plato. The cave that makes you question everything you take for real.",
+      "plate": "plate-cave"
+    },
+    {
+      "text": "Two. Meditations — Marcus Aurelius. See events as they are, not as your fear paints them.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Three. Candide — Voltaire. A savage, funny demolition of easy optimism about the world.",
+      "plate": "plate-vista"
+    },
+    {
+      "text": "Four. The Metamorphosis — Kafka. How quickly the world withdraws its love when you can't perform.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Five. Siddhartha — Hesse. That wisdom is found by living, not by being told.",
+      "plate": "plate-vista"
+    },
+    {
+      "text": "Some books give you facts. These give you new eyes. Full explainers on the channel.",
+      "plate": "plate-cave",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}

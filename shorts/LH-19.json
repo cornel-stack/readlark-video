@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LH-19",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "habits that make life feel longer",
+    "format": "list",
+    "title": "5 habits that make your life feel longer",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "how to make life feel longer",
+    "hashtags": [
+      "selfimprovement",
+      "mindfulness",
+      "time",
+      "mindset",
+      "presence"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-still",
+      "query": "Vermeer quiet moment domestic interior painting",
+      "want": "A moment fully inhabited (PD)"
+    },
+    {
+      "id": "plate-new",
+      "query": "Caspar David Friedrich traveller discovering a new vista painting",
+      "want": "Novelty that stretches time (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "J. M. W. Turner golden evening light painting",
+      "want": "A day that felt full (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five habits that make your life actually feel longer — without adding a single year.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "One. Keep doing new things. The brain measures time by novelty — routine makes years vanish.",
+      "plate": "plate-new"
+    },
+    {
+      "text": "Two. Travel, even locally. New places lay down dense, vivid memories that stretch time in hindsight.",
+      "plate": "plate-new"
+    },
+    {
+      "text": "Three. Be fully present for the small things. Half-lived moments don't get stored at all.",
+      "plate": "plate-still"
+    },
+    {
+      "text": "Four. Learn hard skills. Difficulty makes the brain pay attention — and attention is where time lives.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Five. Put the phone down. Hours of scrolling leave no memory behind — they just quietly disappear.",
+      "plate": "plate-still"
+    },
+    {
+      "text": "You can't add years to life. But you can add life to your years — by refusing to live on autopilot.",
+      "plate": "plate-new",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save this as a reminder to wake up.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-19",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on accepting what you can't change",
+    "format": "list",
+    "title": "5 Stoic lessons on accepting what you can't change",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism acceptance amor fati",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "acceptance",
+      "amorfati",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-river",
+      "query": "J. M. W. Turner flowing river current painting",
+      "want": "Going with the current (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "Stoic acceptance (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich calm sea after storm painting",
+      "want": "Peace with what is (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons for accepting the things you cannot change.",
+      "plate": "plate-river"
+    },
+    {
+      "text": "One. Separate the situation from your opinion of it. The pain is often in the second part.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Two. You don't have to like it to accept it. Acceptance just means you stop fighting what already is.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Three. Fighting reality is a fight you always lose. Spend that energy on your response instead.",
+      "plate": "plate-river"
+    },
+    {
+      "text": "Four. Amor fati — love your fate. Don't just tolerate what happens; use it as material.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Five. Ask only: given that this is true, what's the wisest next move? Then take it.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Acceptance isn't giving up. It's putting your strength where it can actually change something.",
+      "plate": "plate-river",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Epictetus & Marcus Aurelius.",
+  "cta": "Follow for more"
+}
