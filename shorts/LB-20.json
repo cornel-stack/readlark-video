@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-20",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "unforgettable final lines in literature",
+    "format": "list",
+    "title": "5 unforgettable final lines in literature",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "best last lines in books",
+    "hashtags": [
+      "books",
+      "literature",
+      "quotes",
+      "booktok",
+      "classics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-ink",
+      "query": "still life closed book quill candle fading light painting",
+      "want": "The last page (PD)"
+    },
+    {
+      "id": "plate-sea",
+      "query": "J. M. W. Turner boats against the current sea painting",
+      "want": "Borne back into the past (PD)"
+    },
+    {
+      "id": "plate-ice",
+      "query": "Caspar David Friedrich sea of ice frozen distance painting",
+      "want": "Lost in darkness and distance (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five final lines that readers never forget.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "\"So we beat on, boats against the current, borne back ceaselessly into the past.\" — The Great Gatsby.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "\"It is a far, far better rest that I go to than I have ever known.\" — A Tale of Two Cities.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "\"...and was soon borne away by the waves and lost in darkness and distance.\" — Frankenstein.",
+      "plate": "plate-ice"
+    },
+    {
+      "text": "\"...her full nature spent itself in channels which had no great name on the earth.\" — Middlemarch.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "\"...and yes I said yes I will Yes.\" — the soaring final words of Joyce's Ulysses.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "A great last line echoes long after the book is shut. Which one stays with you?",
+      "plate": "plate-ink",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}

@@ -132,7 +132,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-18 | Applied Stoicism | 5 Stoic lessons on self-discipline | ✅ | run 41812340694 |
 | LB-18 | Books & reading | 5 books that will make you wiser | ✅ | run 41812346477 |
 | LM-18 | Psychology | 6 signs you're mentally strong | ✅ | run 41812351996 |
-| LH-19 | Self-improvement | 5 habits that make life feel longer | 📝 | round 19 |
-| LS-19 | Applied Stoicism | 5 lessons on accepting what you can't change | 📝 | round 19 |
-| LB-19 | Books & reading | 5 books that change your worldview | 📝 | round 19 |
-| LM-19 | Psychology | 6 signs you're a deep thinker | 📝 | round 19 |
+| LH-19 | Self-improvement | 5 habits that make life feel longer | ✅ | run 41812985479 |
+| LS-19 | Applied Stoicism | 5 lessons on accepting what you can't change | ✅ | run 41812990286 |
+| LB-19 | Books & reading | 5 books that change your worldview | ✅ | run 41812996400 |
+| LM-19 | Psychology | 6 signs you're a deep thinker | ✅ | run 41813003561 |
+| LH-20 | Self-improvement | 6 lessons people learn too late | 📝 | round 20 |
+| LS-20 | Applied Stoicism | 5 lessons on living with purpose | 📝 | round 20 |
+| LB-20 | Books & reading | 5 unforgettable final lines | 📝 | round 20 |
+| LM-20 | Psychology | 6 habits killing your confidence | 📝 | round 20 |

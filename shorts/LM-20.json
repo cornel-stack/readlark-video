@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-20",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "habits secretly killing your confidence",
+    "format": "list",
+    "title": "6 habits that are secretly killing your confidence",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "habits that lower your confidence",
+    "hashtags": [
+      "confidence",
+      "psychology",
+      "selfesteem",
+      "mindset",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-shadow",
+      "query": "Vilhelm Hammershøi figure turned away in dim room painting",
+      "want": "Confidence quietly draining (PD)"
+    },
+    {
+      "id": "plate-mirror",
+      "query": "Gustave Courbet troubled self portrait painting",
+      "want": "The inner critic (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Rembrandt figure stepping into light painting",
+      "want": "Confidence rebuilt (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six everyday habits that are quietly killing your confidence.",
+      "plate": "plate-shadow"
+    },
+    {
+      "text": "One. Talking to yourself in a way you'd never dare talk to a friend.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "Two. Breaking small promises to yourself. Each broken one chips away at your self-trust.",
+      "plate": "plate-shadow"
+    },
+    {
+      "text": "Three. Measuring your real life against everyone's highlight reel online.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "Four. Avoiding hard things. Confidence is built from evidence — and avoidance gives you none.",
+      "plate": "plate-shadow"
+    },
+    {
+      "text": "Five. Needing constant reassurance. Outsourcing your worth keeps it forever out of your hands.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "Six. Perfectionism — so afraid of visible effort and failure that you never fully try.",
+      "plate": "plate-shadow"
+    },
+    {
+      "text": "Confidence isn't a feeling you're waiting on. It's the quiet trust you earn by keeping your own word.",
+      "plate": "plate-light",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which habit will you break first?",
+  "cta": "Follow for more"
+}

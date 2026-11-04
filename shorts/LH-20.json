@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-20",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "lessons people learn too late",
+    "format": "list",
+    "title": "6 lessons people learn far too late in life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "life lessons learned too late",
+    "hashtags": [
+      "selfimprovement",
+      "lifelessons",
+      "wisdom",
+      "mindset",
+      "growth"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-dusk",
+      "query": "Caspar David Friedrich figure at evening looking back painting",
+      "want": "Looking back near the end (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Hudson River School long road behind a traveller painting",
+      "want": "The road already walked (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Rembrandt old wise face in warm light painting",
+      "want": "Hard-won understanding (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six lessons almost everyone learns too late.",
+      "plate": "plate-dusk"
+    },
+    {
+      "text": "One. Your health is the wealth everything else is built on. Spend it carefully.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Two. Most of what you worried about never actually happened. The dread was the only real cost.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Three. In the end it's the people, not the achievements, that you replay.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Four. Comparison quietly steals every joy it touches. Run your own race.",
+      "plate": "plate-dusk"
+    },
+    {
+      "text": "Five. Every 'yes' to the wrong thing is a 'no' to something that mattered more.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Six. You become what you repeatedly do — not what you keep meaning to do.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "You don't have to learn these the slow way. You just read them. Now live like you know.",
+      "plate": "plate-dusk",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one hit hardest?",
+  "cta": "Follow for more"
+}

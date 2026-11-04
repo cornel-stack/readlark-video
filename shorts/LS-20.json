@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-20",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on living with purpose",
+    "format": "list",
+    "title": "5 Stoic lessons on living with purpose",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism living with purpose",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "purpose",
+      "meaning",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The purposeful Stoic (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "Caspar David Friedrich sunrise over mountains painting",
+      "want": "A life aimed somewhere (PD)"
+    },
+    {
+      "id": "plate-work",
+      "query": "Jean-François Millet peasant working in a field painting",
+      "want": "Purpose in honest work (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons on building a life of purpose.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "One. Decide what kind of person you want to be — then act the part, today, not someday.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Two. Keep death in view. Nothing clears away the trivial like remembering your time is finite.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Three. Be useful. A life spent serving something beyond yourself rarely feels empty.",
+      "plate": "plate-work"
+    },
+    {
+      "text": "Four. Fall in love with the process, not the applause. Do the work for the work's own sake.",
+      "plate": "plate-work"
+    },
+    {
+      "text": "Five. Live in agreement with your nature — your reason, your role, your deepest values.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Purpose isn't something you find lying around. It's something you build, one aligned action at a time.",
+      "plate": "plate-marcus",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Epictetus.",
+  "cta": "Follow for more"
+}
