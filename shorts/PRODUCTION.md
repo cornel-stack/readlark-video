@@ -100,7 +100,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-10 | Applied Stoicism | 5 Stoic keys to a happier life | ✅ | run 41806231250 |
 | LB-10 | Books & reading | 5 books that break your heart | ✅ | run 41806238063 |
 | LM-10 | Psychology | 5 body-language tells | ✅ | run 41806244458 |
-| LH-11 | Self-improvement | 6 ways to romanticise your life | 📝 | round 11 |
-| LS-11 | Applied Stoicism | 5 lessons for taming the ego | 📝 | round 11 |
-| LB-11 | Books & reading | 5 book lines that shift perspective | 📝 | round 11 |
-| LM-11 | Psychology | 5 phrases emotionally intelligent people use | 📝 | round 11 |
+| LH-11 | Self-improvement | 6 ways to romanticise your life | ✅ | run 41807021152 |
+| LS-11 | Applied Stoicism | 5 lessons for taming the ego | ✅ | run 41807028853 |
+| LB-11 | Books & reading | 5 book lines that shift perspective | ✅ | run 41807034534 |
+| LM-11 | Psychology | 5 phrases emotionally intelligent people use | ✅ | run 41807040320 |
+| LH-12 | Self-improvement | 6 signs you're finally healing | 📝 | round 12 |
+| LS-12 | Applied Stoicism | 5 lessons to stop comparing yourself | 📝 | round 12 |
+| LB-12 | Books & reading | 5 books for non-readers | 📝 | round 12 |
+| LM-12 | Psychology | 6 signs of a genuinely good person | 📝 | round 12 |

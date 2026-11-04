@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-12",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "quiet signs of a genuinely good person",
+    "format": "list",
+    "title": "6 quiet signs of a genuinely good person",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs of a genuinely good person",
+    "hashtags": [
+      "psychology",
+      "character",
+      "kindness",
+      "relationships",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-kind",
+      "query": "Rembrandt figure showing compassion to another painting",
+      "want": "Quiet, unshowy kindness (PD)"
+    },
+    {
+      "id": "plate-warm",
+      "query": "Vermeer gentle domestic scene warm light painting",
+      "want": "Everyday decency (PD)"
+    },
+    {
+      "id": "plate-hands",
+      "query": "Rembrandt two hands reaching giving painting",
+      "want": "Help offered freely (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six quiet signs of a genuinely good person.",
+      "plate": "plate-kind"
+    },
+    {
+      "text": "One. They're kind to people who can do absolutely nothing for them.",
+      "plate": "plate-hands"
+    },
+    {
+      "text": "Two. They don't need credit for the good they do. The doing is the point.",
+      "plate": "plate-kind"
+    },
+    {
+      "text": "Three. They tell you the truth gently — even when a lie would be easier.",
+      "plate": "plate-warm"
+    },
+    {
+      "text": "Four. They keep secrets, and they keep their word. You feel safe with them.",
+      "plate": "plate-warm"
+    },
+    {
+      "text": "Five. They're genuinely happy when good things happen to other people.",
+      "plate": "plate-hands"
+    },
+    {
+      "text": "Six. Watch how they treat the waiter, not the boss. That's where the real character shows.",
+      "plate": "plate-kind"
+    },
+    {
+      "text": "Goodness is rarely loud. It's mostly what someone does when no one's keeping score.",
+      "plate": "plate-warm",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Tag someone who's all six.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-12",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on comparison",
+    "format": "list",
+    "title": "5 Stoic lessons to stop comparing yourself to others",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism stop comparing yourself",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "comparison",
+      "envy",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-race",
+      "query": "ancient Greek runners race vase painting",
+      "want": "Everyone running their own lane (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The Stoic who looked inward (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Caspar David Friedrich solitary mountain path painting",
+      "want": "Your own road, no one else's (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons for when you can't stop comparing yourself to everyone else.",
+      "plate": "plate-race"
+    },
+    {
+      "text": "One. You're running your own race. Envy is just watching the wrong lane and tripping.",
+      "plate": "plate-race"
+    },
+    {
+      "text": "Two. You compare your insides to their outsides. That's not a fair measurement — it's a trap.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Three. Someone will always have more. The comparison game has no finish line and no winner.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Four. Measure yourself only against yesterday's you. That's the one rival that actually matters.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Five. What is meant for you isn't taken by someone else also having good things.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "The Stoics competed with no one — because they'd already decided what a good life was for them.",
+      "plate": "plate-marcus",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Seneca.",
+  "cta": "Follow for more"
+}

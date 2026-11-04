@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-12",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books for people who don't like reading",
+    "format": "list",
+    "title": "5 books to read if you don't even like reading",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books for people who hate reading",
+    "hashtags": [
+      "books",
+      "booktok",
+      "reading",
+      "classics",
+      "shortbooks"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-books",
+      "query": "still life small stack of books candle painting",
+      "want": "Short, inviting books (PD)"
+    },
+    {
+      "id": "plate-spooky",
+      "query": "Gothic moonlit mansion eerie painting",
+      "want": "Gripping, page-turning atmosphere (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Rembrandt reader caught up in a book painting",
+      "want": "Even a reluctant reader, hooked (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books to read if you've never actually enjoyed reading.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "One. The Metamorphosis — Kafka. A man wakes as a giant insect. You won't put it down.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Two. A Christmas Carol — Dickens. Short, warm, and you already half-know the story.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Three. Dr Jekyll and Mr Hyde — Stevenson. A thriller about the monster inside a good man.",
+      "plate": "plate-spooky"
+    },
+    {
+      "text": "Four. The Time Machine — Wells. Pure adventure, and it basically invented science fiction.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Five. The War of the Worlds — Wells. Aliens invade Victorian England. Still terrifying.",
+      "plate": "plate-spooky"
+    },
+    {
+      "text": "Short, fast, impossible to put down. Start here — full retellings are on the channel.",
+      "plate": "plate-books",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of the classics are on ReadLark.",
+  "cta": "Follow for more"
+}
