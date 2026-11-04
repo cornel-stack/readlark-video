@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-16",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "banned books everyone should read",
+    "format": "list",
+    "title": "5 banned books everyone should read",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "banned books to read",
+    "hashtags": [
+      "books",
+      "bannedbooks",
+      "classics",
+      "booktok",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-fire",
+      "query": "candlelit forbidden books in shadow painting",
+      "want": "Books they tried to silence (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life old controversial books painting",
+      "want": "Dangerous ideas, bound (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Rembrandt reader hidden in lamplight painting",
+      "want": "Reading what others forbade (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books that were banned — and are absolutely worth reading.",
+      "plate": "plate-fire"
+    },
+    {
+      "text": "One. Huckleberry Finn — Twain. Banned again and again, yet one of the great American novels.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Two. Ulysses — Joyce. Put on trial for obscenity; now a pillar of modern literature.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Three. Leaves of Grass — Whitman. Called filthy in its day for simply celebrating the body and the self.",
+      "plate": "plate-fire"
+    },
+    {
+      "text": "Four. The Canterbury Tales — Chaucer. Censored for centuries for being far too rude and too honest.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Five. Frankenstein — Shelley. Banned as blasphemous for daring to ask who really plays God.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "The books people try hardest to silence are usually the ones most worth hearing.",
+      "plate": "plate-fire",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}

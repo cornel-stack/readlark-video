@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "LS-16",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic quotes to memorise",
+    "format": "list",
+    "title": "5 Stoic quotes worth memorising for life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "best stoic quotes",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "quotes",
+      "philosophy",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "Marcus Aurelius (PD)"
+    },
+    {
+      "id": "plate-seneca",
+      "query": "ancient Roman bust of Seneca sculpture",
+      "want": "Seneca (PD)"
+    },
+    {
+      "id": "plate-sky",
+      "query": "Caspar David Friedrich vast calm sky painting",
+      "want": "Words to steady the mind (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lines worth carrying with you for the rest of your life.",
+      "plate": "plate-sky"
+    },
+    {
+      "text": "\"You have power over your mind — not outside events. Realise this, and you will find strength.\" — Marcus Aurelius.",
+      "plate": "plate-marcus",
+      "emphasis": true
+    },
+    {
+      "text": "\"We suffer more often in imagination than in reality.\" — Seneca.",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "\"It is not what happens to you, but how you react to it that matters.\" — Epictetus.",
+      "plate": "plate-sky"
+    },
+    {
+      "text": "\"He who fears death will never do anything worthy of a living man.\" — Seneca.",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "\"Waste no more time arguing what a good man should be. Be one.\" — Marcus Aurelius.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Learn one by heart. On a hard day, it arrives before the panic does.",
+      "plate": "plate-sky",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Public-domain translations of Marcus, Seneca & Epictetus.",
+  "cta": "Follow for more"
+}

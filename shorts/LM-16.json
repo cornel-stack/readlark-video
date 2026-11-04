@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-16",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "psychological tricks to stay motivated",
+    "format": "list",
+    "title": "5 psychological tricks to stay motivated",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "psychological tricks for motivation",
+    "hashtags": [
+      "psychology",
+      "motivation",
+      "productivity",
+      "discipline",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-spark",
+      "query": "Joseph Wright of Derby candlelit figure focused painting",
+      "want": "A spark of drive (PD)"
+    },
+    {
+      "id": "plate-climb",
+      "query": "Caspar David Friedrich figure climbing toward a summit painting",
+      "want": "Momentum building (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Hudson River School path broken into stages painting",
+      "want": "A journey in small steps (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five psychological tricks that make motivation far easier to find.",
+      "plate": "plate-spark"
+    },
+    {
+      "text": "One. Shrink the first step until it's almost silly. 'Write one sentence.' Starting beats planning.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Two. Use the two-minute rule. If it takes under two minutes, do it now and build momentum.",
+      "plate": "plate-climb"
+    },
+    {
+      "text": "Three. Never break the chain. Mark each day you show up — the growing streak starts to pull you.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Four. Pair the dull task with a treat — a favourite playlist, good coffee. Reward the habit, not just the result.",
+      "plate": "plate-spark"
+    },
+    {
+      "text": "Five. Tell someone your goal. We hate letting down a person far more than letting down ourselves.",
+      "plate": "plate-climb"
+    },
+    {
+      "text": "Motivation isn't a feeling you wait for. It's a trap you set, so action happens almost on its own.",
+      "plate": "plate-spark",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which trick will you try first?",
+  "cta": "Follow for more"
+}

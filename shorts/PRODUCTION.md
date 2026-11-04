@@ -116,7 +116,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-14 | Applied Stoicism | 5 Stoic lessons on gratitude | ✅ | run 41809346588 |
 | LB-14 | Books & reading | 5 poems that stay with you | ✅ | run 41809416903 |
 | LM-14 | Psychology | 6 signs you're an overthinker | ✅ | run 41809428314 |
-| LH-15 | Self-improvement | 6 habits for unshakeable discipline | 📝 | round 15 |
-| LS-15 | Applied Stoicism | 5 lessons for difficult people | 📝 | round 15 |
-| LB-15 | Books & reading | 5 books that sharpen thinking | 📝 | round 15 |
-| LM-15 | Psychology | 6 habits of likeable people | 📝 | round 15 |
+| LH-15 | Self-improvement | 6 habits for unshakeable discipline | ✅ | run 41810018307 |
+| LS-15 | Applied Stoicism | 5 lessons for difficult people | ✅ | run 41810024494 |
+| LB-15 | Books & reading | 5 books that sharpen thinking | ✅ | run 41810055313 |
+| LM-15 | Psychology | 6 habits of likeable people | ✅ | run 41810063390 |
+| LH-16 | Self-improvement | 6 things successful people do before 8am | 📝 | round 16 |
+| LS-16 | Applied Stoicism | 5 Stoic quotes to memorise | 📝 | round 16 |
+| LB-16 | Books & reading | 5 banned books to read | 📝 | round 16 |
+| LM-16 | Psychology | 5 tricks to stay motivated | 📝 | round 16 |

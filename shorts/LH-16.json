@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-16",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "things successful people do before 8am",
+    "format": "list",
+    "title": "6 things successful people do before 8am",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "morning routine of successful people",
+    "hashtags": [
+      "morningroutine",
+      "productivity",
+      "selfimprovement",
+      "discipline",
+      "success"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-dawn",
+      "query": "Caspar David Friedrich sunrise over quiet landscape painting",
+      "want": "The stillness of early morning (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Vermeer figure by a window morning light painting",
+      "want": "A calm, deliberate start (PD)"
+    },
+    {
+      "id": "plate-walk",
+      "query": "Caspar David Friedrich figure walking at dawn painting",
+      "want": "Movement in the morning light (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six things successful people tend to do before 8am.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "One. They wake at a consistent time — the body rewards rhythm more than extra sleep-ins.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Two. They don't touch their phone first. They own the first hour before the world claims it.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Three. They move — a walk, a stretch, a workout. The body wakes the mind.",
+      "plate": "plate-walk"
+    },
+    {
+      "text": "Four. They do the most important task first, while focus is at its freshest.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Five. They take a few quiet minutes — to plan, to pray, to journal, to just think.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Six. They decide the day's one priority, so the hours don't get spent on everyone else's.",
+      "plate": "plate-walk"
+    },
+    {
+      "text": "Win the morning, the old saying goes, and you win the day. It's less about 5am than about intention.",
+      "plate": "plate-dawn",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which will you add tomorrow?",
+  "cta": "Follow for more"
+}
