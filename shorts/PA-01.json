@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "PA-01",
+    "topic": "Modern philosophy",
+    "thinker": "Blaise Pascal",
+    "thinker_dates": "1623–1662",
+    "theme": "the inability to sit still",
+    "title": "Why Pascal blamed all our misery on one thing",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "pascal sit quietly in a room meaning",
+    "hashtags": [
+      "pascal",
+      "philosophy",
+      "stillness",
+      "distraction",
+      "pensees"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-room",
+      "query": "Vilhelm Hammershøi interior empty room sunlight painting",
+      "want": "Hammershøi, a still, empty, light-filled room (PD)"
+    },
+    {
+      "id": "plate-pascal",
+      "query": "portrait of Blaise Pascal 17th century",
+      "want": "Pascal himself (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Rembrandt interior figure by a window painting",
+      "want": "A lone figure, quiet light (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Pascal thought he had found the root of nearly all our unhappiness.",
+      "plate": "plate-pascal"
+    },
+    {
+      "text": "\"All of humanity's problems,\" he wrote, \"stem from man's inability to sit quietly in a room alone.\"",
+      "plate": "plate-room",
+      "emphasis": true
+    },
+    {
+      "text": "Left alone with no distraction, we feel our smallness, our boredom, our mortality rise up.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "So we flee. Into noise, into busyness, into anything that keeps us from our own company.",
+      "plate": "plate-room"
+    },
+    {
+      "text": "We call it entertainment. Pascal called it diversion — a way of not thinking about ourselves.",
+      "plate": "plate-pascal"
+    },
+    {
+      "text": "It works, until it doesn't. The silence we run from is always waiting at the end of the noise.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Try it tonight. One room. No screen. Just you — and see what you have been running from.",
+      "plate": "plate-room",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Blaise Pascal · Pensées",
+  "source_note": "Quote: Pensées, trans. W. F. Trotter (public domain).",
+  "cta": "Follow for more"
+}

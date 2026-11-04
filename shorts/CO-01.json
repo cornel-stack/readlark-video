@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "CO-01",
+    "topic": "Eastern philosophy",
+    "thinker": "Confucius",
+    "thinker_dates": "551–479 BC",
+    "theme": "learning and thought",
+    "title": "Confucius on the trap of learning without thinking",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "confucius learning without thought meaning",
+    "hashtags": [
+      "confucius",
+      "philosophy",
+      "learning",
+      "wisdom",
+      "easternphilosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-confucius",
+      "query": "portrait of Confucius classical Chinese painting",
+      "want": "Confucius himself (PD)"
+    },
+    {
+      "id": "plate-scrolls",
+      "query": "Chinese painting scholar reading scroll study",
+      "want": "A scholar among scrolls (PD)"
+    },
+    {
+      "id": "plate-mountain",
+      "query": "Chinese landscape painting mountain path Song dynasty",
+      "want": "A path winding up a mountain (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Two students come to Confucius. One has read everything. One only sits and thinks.",
+      "plate": "plate-scrolls"
+    },
+    {
+      "text": "He warns them both, because each has fallen into a different trap.",
+      "plate": "plate-confucius"
+    },
+    {
+      "text": "\"Learning without thought is labour lost; thought without learning is perilous.\"",
+      "plate": "plate-confucius",
+      "emphasis": true
+    },
+    {
+      "text": "Pile up facts you never question, and you carry a library you cannot use.",
+      "plate": "plate-scrolls"
+    },
+    {
+      "text": "But spin ideas with nothing to test them against, and you drift into clever nonsense.",
+      "plate": "plate-mountain"
+    },
+    {
+      "text": "Wisdom lives in the loop between them — study, reflect, study again.",
+      "plate": "plate-mountain"
+    },
+    {
+      "text": "Don't just collect knowledge. Don't just daydream. Do both, in turn, for life.",
+      "plate": "plate-confucius",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Confucius · The Analects",
+  "source_note": "Quote: Analects II.15, trans. James Legge (public domain).",
+  "cta": "Follow for more"
+}

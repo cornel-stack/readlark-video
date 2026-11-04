@@ -27,5 +27,17 @@ Status: ⬜ planned · 📝 scripted (JSON written) · ✅ rendered
 | DE-01 | Modern | René Descartes | I think, therefore I am | ✅ | run 41796615718 |
 | LA-01 | Eastern | Lao Tzu | wu wei — the soft overcomes the hard | ✅ | run 41796621037 |
 | SP-01 | Modern | Baruch Spinoza | free will & necessity | ✅ | run 41796626541 |
+| ST-05 | Stoicism | Marcus Aurelius | the view from above | 📝 | Meditations PD |
+| PA-01 | Modern | Blaise Pascal | the inability to sit still | 📝 | Pensées, Trotter PD |
+| MO-01 | Renaissance | Michel de Montaigne | que sais-je? | 📝 | Essays, Cotton PD |
+| HU-01 | Modern | David Hume | the problem of induction | 📝 | Enquiry PD |
+| SA-01 | Existentialism | Jean-Paul Sartre | existence precedes essence | 📝 | © paraphrase |
+| CA-02 | Existentialism | Albert Camus | the absurd | 📝 | © paraphrase |
+| AR-01 | Ancient | Aristotle | the golden mean | 📝 | Nicomachean Ethics PD |
+| DI-01 | Ancient | Diogenes | the Cynic who owned nothing | 📝 | Laërtius PD |
+| ZH-01 | Eastern | Zhuangzi | the butterfly dream | 📝 | Legge PD |
+| CO-01 | Eastern | Confucius | learning without thought | 📝 | Analects II.15, Legge PD |
+| HO-01 | Modern | Thomas Hobbes | the state of nature | 📝 | Leviathan PD |
+| RO-01 | Modern | Jean-Jacques Rousseau | born free, everywhere in chains | 📝 | Social Contract, Cole PD |
 
 _Add rows as ideas come. © = quote in copyright, paraphrase only; PD = public-domain translation may be quoted._

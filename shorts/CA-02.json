@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "CA-02",
+    "topic": "Existentialism",
+    "thinker": "Albert Camus",
+    "thinker_dates": "1913–1960",
+    "theme": "the absurd",
+    "title": "Camus: the one question that really matters",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "copyright",
+    "search_phrase": "the absurd camus meaning",
+    "hashtags": [
+      "camus",
+      "absurdism",
+      "philosophy",
+      "existentialism",
+      "meaning"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-sea",
+      "query": "Caspar David Friedrich The Monk by the Sea painting",
+      "want": "A tiny figure before a silent, indifferent sea (PD)"
+    },
+    {
+      "id": "plate-sun",
+      "query": "J. M. W. Turner blazing sun over the sea painting",
+      "want": "Turner, a harsh Mediterranean sun (PD)"
+    },
+    {
+      "id": "plate-void",
+      "query": "John Martin vast desolate sublime landscape painting",
+      "want": "John Martin, an immense empty world (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "We long for the world to make sense. The world answers with silence.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "Camus called that collision the absurd — a mind demanding meaning from a universe that offers none.",
+      "plate": "plate-void"
+    },
+    {
+      "text": "He said it forces one real question: if life has no given meaning, why go on living at all?",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "His answer was defiance. Don't lie about the silence. Don't leap to false comfort. And don't quit.",
+      "plate": "plate-sun"
+    },
+    {
+      "text": "Live anyway — fully, lucidly, in revolt against the meaninglessness, without pretending it isn't there.",
+      "plate": "plate-sun"
+    },
+    {
+      "text": "The absurd hero doesn't win. He simply refuses to look away, and lives harder because of it.",
+      "plate": "plate-void",
+      "emphasis": true
+    },
+    {
+      "text": "The point is not to resolve the silence. It is to stay — awake, and alive, inside it.",
+      "plate": "plate-sea",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Albert Camus · The Myth of Sisyphus",
+  "source_note": "Ideas paraphrased (Camus is in copyright) — no verbatim quotes.",
+  "cta": "Follow for more"
+}

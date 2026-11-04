@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "AR-01",
+    "topic": "Ancient philosophy",
+    "thinker": "Aristotle",
+    "thinker_dates": "384–322 BC",
+    "theme": "the golden mean",
+    "title": "Aristotle's recipe for a good life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "aristotle golden mean meaning",
+    "hashtags": [
+      "aristotle",
+      "philosophy",
+      "goldenmean",
+      "virtue",
+      "ancientphilosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-aristotle",
+      "query": "Rembrandt Aristotle with a Bust of Homer painting",
+      "want": "Rembrandt, Aristotle in contemplation (PD)"
+    },
+    {
+      "id": "plate-athens",
+      "query": "Raphael The School of Athens fresco",
+      "want": "Raphael, Aristotle gesturing to the earth (PD)"
+    },
+    {
+      "id": "plate-scale",
+      "query": "Vermeer Woman Holding a Balance painting",
+      "want": "Vermeer, a hand weighing a balance (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "What makes a life good? Aristotle's answer wasn't pleasure, or money, or fame.",
+      "plate": "plate-aristotle"
+    },
+    {
+      "text": "It was eudaimonia — flourishing. Not a feeling you chase, but a life done well, over time.",
+      "plate": "plate-athens"
+    },
+    {
+      "text": "And you reach it, he said, through virtue — which always sits between two extremes.",
+      "plate": "plate-scale"
+    },
+    {
+      "text": "Courage is the mean between cowardice and recklessness. Generosity, between stinginess and waste.",
+      "plate": "plate-scale"
+    },
+    {
+      "text": "Too little and too much are both failures. The good life is a matter of the right amount.",
+      "plate": "plate-athens"
+    },
+    {
+      "text": "And virtue is a habit, not a mood. You become brave by doing brave things, again and again.",
+      "plate": "plate-aristotle",
+      "emphasis": true
+    },
+    {
+      "text": "We are what we repeatedly do. So excellence is not an act, but a habit.",
+      "plate": "plate-scale",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Aristotle · Nicomachean Ethics",
+  "source_note": "Ideas from the Nicomachean Ethics (public-domain translation) — paraphrased.",
+  "cta": "Follow for more"
+}

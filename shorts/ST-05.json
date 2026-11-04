@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "ST-05",
+    "topic": "Stoicism",
+    "thinker": "Marcus Aurelius",
+    "thinker_dates": "121–180 AD",
+    "theme": "the view from above",
+    "title": "The mental trick a Roman emperor used to shrink his problems",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "view from above stoic exercise",
+    "hashtags": [
+      "stoicism",
+      "marcusaurelius",
+      "philosophy",
+      "perspective",
+      "stoic"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-cosmos",
+      "query": "Étienne Léopold Trouvelot astronomical drawings star cluster",
+      "want": "Trouvelot, 19th-c. star field (PD)"
+    },
+    {
+      "id": "plate-vista",
+      "query": "Albert Bierstadt Among the Sierra Nevada Mountains",
+      "want": "Bierstadt, a vast landscape from on high (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "Marcus Aurelius portrait bust (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "When a worry grows too large, Marcus Aurelius did something strange. He flew.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "In his mind he rose above the city, until streets became lines and crowds became dust.",
+      "plate": "plate-vista"
+    },
+    {
+      "text": "Higher still — above the empire, above the sea, until the whole earth was a single point.",
+      "plate": "plate-cosmos"
+    },
+    {
+      "text": "He pictured the vastness of time, too: the billions who lived before, the billions still to come.",
+      "plate": "plate-cosmos"
+    },
+    {
+      "text": "From up there, the insult, the deadline, the quarrel — all of it shrinks to its true size.",
+      "plate": "plate-vista"
+    },
+    {
+      "text": "He called it looking at human things from above. It is not escape. It is scale.",
+      "plate": "plate-cosmos",
+      "emphasis": true
+    },
+    {
+      "text": "Next time your mind catastrophises, rise above it — and watch the problem grow small.",
+      "plate": "plate-marcus",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Marcus Aurelius · Meditations",
+  "source_note": "Idea from Meditations (public-domain translation) — paraphrased.",
+  "cta": "Follow for more"
+}

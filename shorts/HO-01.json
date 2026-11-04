@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "HO-01",
+    "topic": "Modern philosophy",
+    "thinker": "Thomas Hobbes",
+    "thinker_dates": "1588–1679",
+    "theme": "the state of nature",
+    "title": "Why Hobbes says life without rules is nasty, brutish, and short",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "hobbes state of nature meaning",
+    "hashtags": [
+      "hobbes",
+      "philosophy",
+      "leviathan",
+      "politics",
+      "socialcontract"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-leviathan",
+      "query": "Leviathan frontispiece engraving Abraham Bosse 1651",
+      "want": "The giant sovereign made of people (PD)"
+    },
+    {
+      "id": "plate-chaos",
+      "query": "Pieter Bruegel the Elder The Triumph of Death painting",
+      "want": "Bruegel, war of all against all (PD)"
+    },
+    {
+      "id": "plate-hobbes",
+      "query": "portrait of Thomas Hobbes 17th century",
+      "want": "Hobbes himself (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Imagine no government, no police, no law. Total freedom. Hobbes said it would be hell.",
+      "plate": "plate-chaos"
+    },
+    {
+      "text": "With no power to keep order, every person becomes a threat to every other person.",
+      "plate": "plate-chaos"
+    },
+    {
+      "text": "No trust, no trade, no building for a future that any rival might simply take.",
+      "plate": "plate-hobbes"
+    },
+    {
+      "text": "He called it the war of all against all, and life inside it: \"solitary, poor, nasty, brutish, and short.\"",
+      "plate": "plate-chaos",
+      "emphasis": true
+    },
+    {
+      "text": "So, he argued, we strike a bargain. We each surrender some freedom to a common power.",
+      "plate": "plate-leviathan"
+    },
+    {
+      "text": "That power is the Leviathan — a sovereign strong enough to frighten us all into peace.",
+      "plate": "plate-leviathan"
+    },
+    {
+      "text": "Every rule you resent, Hobbes would say, is the price of not living in that endless war.",
+      "plate": "plate-hobbes",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Thomas Hobbes · Leviathan",
+  "source_note": "Quote: Leviathan (1651, public domain).",
+  "cta": "Follow for more"
+}

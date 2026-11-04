@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "HU-01",
+    "topic": "Modern philosophy",
+    "thinker": "David Hume",
+    "thinker_dates": "1711–1776",
+    "theme": "the problem of induction",
+    "title": "Why David Hume says you can't prove the sun will rise",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "hume problem of induction meaning",
+    "hashtags": [
+      "hume",
+      "philosophy",
+      "induction",
+      "scepticism",
+      "empiricism"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-sunrise",
+      "query": "J. M. W. Turner Norham Castle Sunrise painting",
+      "want": "Turner, a sun rising through haze (PD)"
+    },
+    {
+      "id": "plate-hume",
+      "query": "Allan Ramsay portrait of David Hume",
+      "want": "Hume himself (PD)"
+    },
+    {
+      "id": "plate-dark",
+      "query": "Caspar David Friedrich night landscape moon",
+      "want": "A dark horizon awaiting dawn (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "The sun has risen every morning of your life. So it will rise tomorrow. Obvious, right?",
+      "plate": "plate-sunrise"
+    },
+    {
+      "text": "David Hume asked a dangerous question: how do you actually know that?",
+      "plate": "plate-hume"
+    },
+    {
+      "text": "You have seen the past. You have never once seen the future. Those are not the same thing.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "To say the future will resemble the past, you'd have to assume the very thing you're trying to prove.",
+      "plate": "plate-hume"
+    },
+    {
+      "text": "No experiment can escape it. Every prediction smuggles in a leap that reason cannot justify.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "So why do we trust tomorrow at all? Not logic, Hume said — habit. Custom. The mind's reflex.",
+      "plate": "plate-sunrise",
+      "emphasis": true
+    },
+    {
+      "text": "Almost everything you 'know' about the world rests on a faith reason can never fully earn.",
+      "plate": "plate-dark",
+      "emphasis": true
+    }
+  ],
+  "attribution": "David Hume · An Enquiry Concerning Human Understanding",
+  "source_note": "Idea from the Enquiry (public domain) — paraphrased.",
+  "cta": "Follow for more"
+}

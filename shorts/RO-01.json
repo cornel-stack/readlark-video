@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "RO-01",
+    "topic": "Modern philosophy",
+    "thinker": "Jean-Jacques Rousseau",
+    "thinker_dates": "1712–1778",
+    "theme": "freedom and the social contract",
+    "title": "Rousseau: you were born free — so why the chains?",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "man is born free rousseau meaning",
+    "hashtags": [
+      "rousseau",
+      "philosophy",
+      "freedom",
+      "socialcontract",
+      "politics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-rousseau",
+      "query": "portrait of Jean-Jacques Rousseau 18th century",
+      "want": "Rousseau himself (PD)"
+    },
+    {
+      "id": "plate-liberty",
+      "query": "Eugène Delacroix Liberty Leading the People painting",
+      "want": "Delacroix, the people rising (PD)"
+    },
+    {
+      "id": "plate-chains",
+      "query": "Piranesi Carceri Imaginary Prisons chains etching",
+      "want": "Piranesi, chains in a vast prison (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "\"Man is born free, and everywhere he is in chains.\"",
+      "plate": "plate-chains",
+      "emphasis": true
+    },
+    {
+      "text": "With that line, Rousseau opens his attack on the world we take for granted.",
+      "plate": "plate-rousseau"
+    },
+    {
+      "text": "We imagine humans began free and happy, then built societies that bound them in rank and law.",
+      "plate": "plate-chains"
+    },
+    {
+      "text": "But he doesn't tell us to smash every chain and return to the forest. That road is closed.",
+      "plate": "plate-rousseau"
+    },
+    {
+      "text": "Instead he asks: can a chain ever be legitimate? Can we be bound and still be free?",
+      "plate": "plate-liberty"
+    },
+    {
+      "text": "Only, he says, if we obey laws we gave ourselves — the true meaning of the social contract.",
+      "plate": "plate-liberty"
+    },
+    {
+      "text": "So the question for any society is simple: did you choose these chains, or were they placed on you?",
+      "plate": "plate-chains",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Jean-Jacques Rousseau · The Social Contract",
+  "source_note": "Quote: The Social Contract, trans. G. D. H. Cole (public domain).",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "SA-01",
+    "topic": "Existentialism",
+    "thinker": "Jean-Paul Sartre",
+    "thinker_dates": "1905–1980",
+    "theme": "existence precedes essence",
+    "title": "Sartre says you are terrifyingly free",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "copyright",
+    "search_phrase": "existence precedes essence meaning",
+    "hashtags": [
+      "sartre",
+      "existentialism",
+      "philosophy",
+      "freedom",
+      "badfaith"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-street",
+      "query": "Gustave Caillebotte Paris Street Rainy Day painting",
+      "want": "Caillebotte, lone modern figures in a grey city (PD)"
+    },
+    {
+      "id": "plate-cafe",
+      "query": "Vincent van Gogh The Night Café painting",
+      "want": "Van Gogh, an empty late-night café (PD)"
+    },
+    {
+      "id": "plate-mirror",
+      "query": "Gustave Courbet The Desperate Man self portrait",
+      "want": "Courbet, a man confronting himself (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "A knife is made for cutting. Its purpose exists before the knife does.",
+      "plate": "plate-cafe"
+    },
+    {
+      "text": "Sartre said humans are the opposite. We exist first — and only then invent what we are for.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "No fixed nature, no blueprint, no script. Existence precedes essence.",
+      "plate": "plate-mirror",
+      "emphasis": true
+    },
+    {
+      "text": "That sounds like freedom, and it is. It is also a weight. Every choice is yours to own.",
+      "plate": "plate-street"
+    },
+    {
+      "text": "So we hide. We say 'I had no choice,' 'that's just how I am.' Sartre called this bad faith.",
+      "plate": "plate-cafe"
+    },
+    {
+      "text": "Pretending you aren't free is the one lie that costs you your life while you're still living it.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "You are not a knife. You are the one deciding, right now, what you are for.",
+      "plate": "plate-street",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Jean-Paul Sartre · Existentialism Is a Humanism",
+  "source_note": "Ideas paraphrased (Sartre is in copyright) — no verbatim quotes.",
+  "cta": "Follow for more"
+}

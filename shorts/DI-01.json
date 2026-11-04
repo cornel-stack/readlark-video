@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "DI-01",
+    "topic": "Ancient philosophy",
+    "thinker": "Diogenes",
+    "thinker_dates": "c. 412–323 BC",
+    "theme": "the Cynic who owned nothing",
+    "title": "The philosopher who lived in a barrel and mocked a king",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "diogenes the cynic story",
+    "hashtags": [
+      "diogenes",
+      "cynicism",
+      "philosophy",
+      "minimalism",
+      "ancientphilosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-diogenes",
+      "query": "Jean-Léon Gérôme Diogenes painting lantern dogs",
+      "want": "Gérôme, Diogenes in his jar with his dogs (PD)"
+    },
+    {
+      "id": "plate-alexander",
+      "query": "Diogenes and Alexander the Great painting",
+      "want": "The meeting with Alexander (PD)"
+    },
+    {
+      "id": "plate-lantern",
+      "query": "John William Waterhouse Diogenes painting",
+      "want": "Waterhouse, Diogenes with his lamp (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Diogenes owned a cloak, a stick, and a cup — until he saw a boy drink from his hands.",
+      "plate": "plate-lantern"
+    },
+    {
+      "text": "He threw the cup away. Even that, he decided, was more than a man truly needs.",
+      "plate": "plate-lantern"
+    },
+    {
+      "text": "He slept in a large clay jar and begged for food, free of everything the city chased.",
+      "plate": "plate-diogenes"
+    },
+    {
+      "text": "Then Alexander the Great, master of the known world, came to meet him, and offered any gift.",
+      "plate": "plate-alexander"
+    },
+    {
+      "text": "Diogenes looked up and said only: \"Stand out of my light.\"",
+      "plate": "plate-alexander",
+      "emphasis": true
+    },
+    {
+      "text": "The most powerful man alive had nothing Diogenes wanted. That was the whole lesson.",
+      "plate": "plate-diogenes"
+    },
+    {
+      "text": "Wealth isn't having much. It's needing little — and he was free in a way kings never are.",
+      "plate": "plate-lantern",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Diogenes of Sinope",
+  "source_note": "Anecdotes from Diogenes Laërtius (public-domain translation).",
+  "cta": "Follow for more"
+}

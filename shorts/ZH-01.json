@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "ZH-01",
+    "topic": "Eastern philosophy",
+    "thinker": "Zhuangzi",
+    "thinker_dates": "c. 369–286 BC",
+    "theme": "the butterfly dream",
+    "title": "The dream that made a philosopher doubt he was awake",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "zhuangzi butterfly dream meaning",
+    "hashtags": [
+      "zhuangzi",
+      "taoism",
+      "philosophy",
+      "reality",
+      "easternphilosophy"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-butterfly",
+      "query": "Chinese ink painting butterfly album leaf",
+      "want": "A butterfly in classical Chinese ink (PD)"
+    },
+    {
+      "id": "plate-sleep",
+      "query": "Chinese painting scholar sleeping under a tree",
+      "want": "A man asleep in a garden (PD)"
+    },
+    {
+      "id": "plate-mist",
+      "query": "Chinese landscape painting misty mountains Song dynasty",
+      "want": "A dreamlike misted landscape (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Zhuangzi fell asleep one afternoon and dreamed he was a butterfly.",
+      "plate": "plate-sleep"
+    },
+    {
+      "text": "Not a man dreaming of a butterfly — but a butterfly, drifting, knowing nothing of any Zhuangzi.",
+      "plate": "plate-butterfly"
+    },
+    {
+      "text": "Then he woke, solid and human again, lying in the grass.",
+      "plate": "plate-sleep"
+    },
+    {
+      "text": "But a question stayed with him, and he could not shake it loose.",
+      "plate": "plate-mist"
+    },
+    {
+      "text": "Was he a man who had dreamed he was a butterfly — or a butterfly now dreaming it is a man?",
+      "plate": "plate-butterfly",
+      "emphasis": true
+    },
+    {
+      "text": "From inside the dream, it felt completely real. So how certain are you about this moment?",
+      "plate": "plate-mist"
+    },
+    {
+      "text": "Zhuangzi wasn't trying to scare you. He was loosening your grip on being so sure what you are.",
+      "plate": "plate-butterfly",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Zhuangzi · Inner Chapters",
+  "source_note": "From the Zhuangzi, trans. James Legge (public domain).",
+  "cta": "Follow for more"
+}

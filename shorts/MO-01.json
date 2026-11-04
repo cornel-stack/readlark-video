@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "MO-01",
+    "topic": "Renaissance philosophy",
+    "thinker": "Michel de Montaigne",
+    "thinker_dates": "1533–1592",
+    "theme": "what do I know?",
+    "title": "The man who got wise by admitting he knew nothing",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "montaigne que sais-je meaning",
+    "hashtags": [
+      "montaigne",
+      "philosophy",
+      "essays",
+      "wisdom",
+      "scepticism"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-montaigne",
+      "query": "portrait of Michel de Montaigne 16th century",
+      "want": "Montaigne himself (PD)"
+    },
+    {
+      "id": "plate-study",
+      "query": "Carl Spitzweg The Bookworm painting library",
+      "want": "A scholar among towers of books (PD)"
+    },
+    {
+      "id": "plate-tower",
+      "query": "Rembrandt scholar in a tower study candlelight",
+      "want": "A quiet study, one thinker (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "At thirty-eight, Montaigne locked himself in a tower to do something no one had tried.",
+      "plate": "plate-tower"
+    },
+    {
+      "text": "Not to argue a grand system — but simply to watch his own mind, honestly, on paper.",
+      "plate": "plate-study"
+    },
+    {
+      "text": "He contradicted himself, changed his mind, confessed his fears. He invented the personal essay.",
+      "plate": "plate-montaigne"
+    },
+    {
+      "text": "On his ceiling he carved a motto to keep him humble: \"Que sais-je?\" — What do I know?",
+      "plate": "plate-montaigne",
+      "emphasis": true
+    },
+    {
+      "text": "The more he examined any certainty, the more it dissolved into doubt and exception.",
+      "plate": "plate-study"
+    },
+    {
+      "text": "But for Montaigne that wasn't defeat. Doubt made him gentle, curious, hard to fool.",
+      "plate": "plate-tower"
+    },
+    {
+      "text": "Real wisdom, he decided, begins the moment you stop pretending to be sure.",
+      "plate": "plate-montaigne",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Michel de Montaigne · Essays",
+  "source_note": "From the Essays, trans. Charles Cotton (public domain) — paraphrased.",
+  "cta": "Follow for more"
+}
