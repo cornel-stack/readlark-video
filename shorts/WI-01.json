@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "WI-01",
+    "topic": "Modern philosophy",
+    "thinker": "Ludwig Wittgenstein",
+    "thinker_dates": "1889–1951",
+    "theme": "the limits of language",
+    "title": "Wittgenstein: what you cannot speak of, pass over in silence",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "whereof one cannot speak meaning",
+    "hashtags": [
+      "wittgenstein",
+      "philosophy",
+      "language",
+      "silence",
+      "tractatus"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-fog",
+      "query": "Caspar David Friedrich The Monk by the Sea painting",
+      "want": "A figure before the unsayable void (PD)"
+    },
+    {
+      "id": "plate-haze",
+      "query": "J. M. W. Turner indistinct seascape haze painting",
+      "want": "Turner, where form dissolves into mist (PD)"
+    },
+    {
+      "id": "plate-room",
+      "query": "Vilhelm Hammershøi empty interior quiet room painting",
+      "want": "A silent, wordless room (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Wittgenstein believed most philosophy was a tangle caused by misusing language.",
+      "plate": "plate-room"
+    },
+    {
+      "text": "Language, he said, works by picturing facts in the world — things that are or aren't the case.",
+      "plate": "plate-haze"
+    },
+    {
+      "text": "But the deepest things — meaning, value, God, the point of it all — aren't facts in the world.",
+      "plate": "plate-fog"
+    },
+    {
+      "text": "So when we try to state them, our sentences quietly break. They gesture at what cannot be said.",
+      "plate": "plate-haze"
+    },
+    {
+      "text": "That doesn't make them worthless. He thought they were the most important things of all.",
+      "plate": "plate-fog"
+    },
+    {
+      "text": "They must be shown, lived, felt — not spoken. His book ends with a single, famous instruction.",
+      "plate": "plate-room"
+    },
+    {
+      "text": "\"Whereof one cannot speak, thereof one must be silent.\"",
+      "plate": "plate-fog",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Ludwig Wittgenstein · Tractatus Logico-Philosophicus",
+  "source_note": "Quote: Tractatus, trans. C. K. Ogden (1922, public domain).",
+  "cta": "Follow for more"
+}

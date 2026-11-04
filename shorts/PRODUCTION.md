@@ -27,17 +27,29 @@ Status: ⬜ planned · 📝 scripted (JSON written) · ✅ rendered
 | DE-01 | Modern | René Descartes | I think, therefore I am | ✅ | run 41796615718 |
 | LA-01 | Eastern | Lao Tzu | wu wei — the soft overcomes the hard | ✅ | run 41796621037 |
 | SP-01 | Modern | Baruch Spinoza | free will & necessity | ✅ | run 41796626541 |
-| ST-05 | Stoicism | Marcus Aurelius | the view from above | 📝 | Meditations PD |
-| PA-01 | Modern | Blaise Pascal | the inability to sit still | 📝 | Pensées, Trotter PD |
-| MO-01 | Renaissance | Michel de Montaigne | que sais-je? | 📝 | Essays, Cotton PD |
-| HU-01 | Modern | David Hume | the problem of induction | 📝 | Enquiry PD |
-| SA-01 | Existentialism | Jean-Paul Sartre | existence precedes essence | 📝 | © paraphrase |
-| CA-02 | Existentialism | Albert Camus | the absurd | 📝 | © paraphrase |
-| AR-01 | Ancient | Aristotle | the golden mean | 📝 | Nicomachean Ethics PD |
-| DI-01 | Ancient | Diogenes | the Cynic who owned nothing | 📝 | Laërtius PD |
-| ZH-01 | Eastern | Zhuangzi | the butterfly dream | 📝 | Legge PD |
-| CO-01 | Eastern | Confucius | learning without thought | 📝 | Analects II.15, Legge PD |
-| HO-01 | Modern | Thomas Hobbes | the state of nature | 📝 | Leviathan PD |
-| RO-01 | Modern | Jean-Jacques Rousseau | born free, everywhere in chains | 📝 | Social Contract, Cole PD |
+| ST-05 | Stoicism | Marcus Aurelius | the view from above | ✅ | run 41798039781 |
+| PA-01 | Modern | Blaise Pascal | the inability to sit still | ✅ | run 41798045708 |
+| MO-01 | Renaissance | Michel de Montaigne | que sais-je? | ✅ | run 41798052743 |
+| HU-01 | Modern | David Hume | the problem of induction | ✅ | run 41798059813 |
+| SA-01 | Existentialism | Jean-Paul Sartre | existence precedes essence | ✅ | run 41798065890 |
+| CA-02 | Existentialism | Albert Camus | the absurd | ✅ | run 41798072230 |
+| AR-01 | Ancient | Aristotle | the golden mean | ✅ | run 41798078297 |
+| DI-01 | Ancient | Diogenes | the Cynic who owned nothing | ✅ | run 41798084535 |
+| ZH-01 | Eastern | Zhuangzi | the butterfly dream | ✅ | run 41798091101 |
+| CO-01 | Eastern | Confucius | learning without thought | ✅ | run 41798097325 |
+| HO-01 | Modern | Thomas Hobbes | the state of nature | ✅ | run 41798102896 |
+| RO-01 | Modern | Jean-Jacques Rousseau | born free, everywhere in chains | ✅ | run 41798108543 |
+| KN-01 | Modern | Immanuel Kant | the categorical imperative | 📝 | Abbott PD |
+| WI-01 | Modern | Ludwig Wittgenstein | the limits of language | 📝 | Tractatus, Ogden PD |
+| MI-01 | Modern | John Stuart Mill | higher & lower pleasures | 📝 | Utilitarianism PD |
+| TH-01 | American | Henry David Thoreau | quiet desperation | 📝 | Walden PD |
+| EM-01 | American | Ralph Waldo Emerson | self-reliance | 📝 | Self-Reliance PD |
+| VO-01 | Enlightenment | Voltaire | cultivate your garden | 📝 | Candide PD |
+| AU-01 | Medieval | Augustine | the restless heart | 📝 | Confessions, Pusey PD |
+| BO-01 | Medieval | Boethius | the wheel of fortune | 📝 | Consolation PD |
+| MA-01 | Renaissance | Machiavelli | feared or loved | 📝 | The Prince, Marriott PD |
+| BA-01 | Modern | Francis Bacon | the idols of the mind | 📝 | Novum Organum PD |
+| LO-01 | Modern | John Locke | the blank slate | 📝 | Essay PD |
+| BE-01 | Modern | George Berkeley | to be is to be perceived | 📝 | Principles PD |
 
 _Add rows as ideas come. © = quote in copyright, paraphrase only; PD = public-domain translation may be quoted._

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "MA-01",
+    "topic": "Renaissance philosophy",
+    "thinker": "Niccolò Machiavelli",
+    "thinker_dates": "1469–1527",
+    "theme": "feared or loved",
+    "title": "Machiavelli: is it better to be feared or loved?",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "better to be feared or loved machiavelli",
+    "hashtags": [
+      "machiavelli",
+      "philosophy",
+      "power",
+      "theprince",
+      "politics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-machiavelli",
+      "query": "Santi di Tito portrait of Niccolò Machiavelli",
+      "want": "Machiavelli himself (PD)"
+    },
+    {
+      "id": "plate-prince",
+      "query": "Renaissance portrait of a prince in armour painting",
+      "want": "A calculating ruler (PD)"
+    },
+    {
+      "id": "plate-city",
+      "query": "Renaissance Florence cityscape painting",
+      "want": "The treacherous politics of Florence (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Machiavelli asked rulers a cold question: is it better to be feared, or to be loved?",
+      "plate": "plate-machiavelli"
+    },
+    {
+      "text": "Ideally, both. But sooner or later the two collide, and you must choose one.",
+      "plate": "plate-prince"
+    },
+    {
+      "text": "Love, he warned, is a bond people break the moment it stops being convenient for them.",
+      "plate": "plate-city"
+    },
+    {
+      "text": "Fear holds, because it rests on something people never shake off — the dread of punishment.",
+      "plate": "plate-prince"
+    },
+    {
+      "text": "\"It is far safer to be feared than loved,\" he wrote, \"if one of the two must be wanting.\"",
+      "plate": "plate-machiavelli",
+      "emphasis": true
+    },
+    {
+      "text": "But one rule above all: never be hated. A feared ruler survives; a hated one is torn down.",
+      "plate": "plate-city"
+    },
+    {
+      "text": "Cynical? Perhaps. Or simply the first man honest enough to describe power as it actually works.",
+      "plate": "plate-machiavelli",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Niccolò Machiavelli · The Prince",
+  "source_note": "Quote: The Prince, trans. W. K. Marriott (public domain).",
+  "cta": "Follow for more"
+}

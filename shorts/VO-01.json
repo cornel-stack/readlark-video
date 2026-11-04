@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "VO-01",
+    "topic": "Enlightenment philosophy",
+    "thinker": "Voltaire",
+    "thinker_dates": "1694–1778",
+    "theme": "cultivate your garden",
+    "title": "Voltaire's answer to a broken world: tend your garden",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "we must cultivate our garden meaning",
+    "hashtags": [
+      "voltaire",
+      "philosophy",
+      "candide",
+      "optimism",
+      "enlightenment"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-quake",
+      "query": "1755 Lisbon earthquake disaster engraving",
+      "want": "The catastrophe that haunts Candide (PD)"
+    },
+    {
+      "id": "plate-garden",
+      "query": "Jean-Honoré Fragonard garden landscape painting",
+      "want": "A quiet, tended garden (PD)"
+    },
+    {
+      "id": "plate-voltaire",
+      "query": "portrait of Voltaire 18th century",
+      "want": "Voltaire himself (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "In Candide, Voltaire mocks a tutor who insists this is the best of all possible worlds.",
+      "plate": "plate-voltaire"
+    },
+    {
+      "text": "Then he buries that cheerful idea under war, earthquake, disease, and betrayal.",
+      "plate": "plate-quake"
+    },
+    {
+      "text": "Candide roams the earth chasing grand answers to why there is so much suffering.",
+      "plate": "plate-quake"
+    },
+    {
+      "text": "He finds none. The big questions stay unanswered. The cosmos offers no tidy reason.",
+      "plate": "plate-voltaire"
+    },
+    {
+      "text": "At the end he meets an old farmer who ignores all of it and simply works his small plot of land.",
+      "plate": "plate-garden"
+    },
+    {
+      "text": "And Candide finally understands. \"We must cultivate our garden.\"",
+      "plate": "plate-garden",
+      "emphasis": true
+    },
+    {
+      "text": "Stop waiting for the world to make sense. Tend what is in front of you, and do it well.",
+      "plate": "plate-garden",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Voltaire · Candide",
+  "source_note": "Quote: Candide (1759, public-domain translation).",
+  "cta": "Follow for more"
+}

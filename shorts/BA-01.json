@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "BA-01",
+    "topic": "Modern philosophy",
+    "thinker": "Francis Bacon",
+    "thinker_dates": "1561–1626",
+    "theme": "the idols of the mind",
+    "title": "Francis Bacon and the four illusions that fool your mind",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "bacon idols of the mind meaning",
+    "hashtags": [
+      "francisbacon",
+      "philosophy",
+      "science",
+      "bias",
+      "reason"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-bacon",
+      "query": "portrait of Francis Bacon philosopher 17th century",
+      "want": "Bacon himself (PD)"
+    },
+    {
+      "id": "plate-lab",
+      "query": "Joseph Wright of Derby The Alchemist candlelight painting",
+      "want": "Wright, the dawn of experiment (PD)"
+    },
+    {
+      "id": "plate-cave",
+      "query": "Rembrandt figure in a shadowed interior painting",
+      "want": "The mind's private cave of bias (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Before you can know the world, Bacon said, you must face how badly your own mind distorts it.",
+      "plate": "plate-bacon"
+    },
+    {
+      "text": "He named four illusions — idols — that quietly warp our thinking.",
+      "plate": "plate-cave"
+    },
+    {
+      "text": "Idols of the Tribe: human nature itself, seeing patterns and purpose where there are none.",
+      "plate": "plate-cave"
+    },
+    {
+      "text": "Idols of the Cave: your private quirks — upbringing, favourite ideas — the lens only you look through.",
+      "plate": "plate-cave"
+    },
+    {
+      "text": "Idols of the Marketplace: words themselves, sloppy language tricking us into muddled thought.",
+      "plate": "plate-lab"
+    },
+    {
+      "text": "Idols of the Theatre: inherited dogmas and grand systems we accept like actors reciting a script.",
+      "plate": "plate-lab"
+    },
+    {
+      "text": "Only by hunting these idols in yourself, he said, can you test the world instead of your own reflection.",
+      "plate": "plate-bacon",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Francis Bacon · Novum Organum",
+  "source_note": "From Novum Organum (1620, public-domain translation) — paraphrased.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "BO-01",
+    "topic": "Medieval philosophy",
+    "thinker": "Boethius",
+    "thinker_dates": "c. 477–524 AD",
+    "theme": "the wheel of fortune",
+    "title": "The prisoner who found peace on Fortune's wheel",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "wheel of fortune boethius meaning",
+    "hashtags": [
+      "boethius",
+      "philosophy",
+      "fortune",
+      "stoicism",
+      "medieval"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-wheel",
+      "query": "medieval Wheel of Fortune Rota Fortunae illumination manuscript",
+      "want": "The wheel lifting and dropping kings (PD)"
+    },
+    {
+      "id": "plate-cell",
+      "query": "Piranesi Carceri imaginary prison interior etching",
+      "want": "A vast prison — Boethius awaiting death (PD)"
+    },
+    {
+      "id": "plate-philosophy",
+      "query": "medieval illumination Lady Philosophy Boethius manuscript",
+      "want": "Lady Philosophy visiting the prisoner (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Boethius had it all — wealth, honour, the ear of an emperor. Then it collapsed overnight.",
+      "plate": "plate-philosophy"
+    },
+    {
+      "text": "Falsely accused, he sat in a cell awaiting execution, raging at how unfair it all was.",
+      "plate": "plate-cell"
+    },
+    {
+      "text": "There, he imagined Philosophy herself appearing to reason with him about Fortune.",
+      "plate": "plate-philosophy"
+    },
+    {
+      "text": "Fortune turns a wheel, she says. It lifts you high — but turning is the only thing it ever promised.",
+      "plate": "plate-wheel",
+      "emphasis": true
+    },
+    {
+      "text": "Everything she gave was a loan, never a gift. To weep when it's recalled is to misunderstand the deal.",
+      "plate": "plate-wheel"
+    },
+    {
+      "text": "So cling to nothing that the wheel can reach. Build your peace on what Fortune cannot touch.",
+      "plate": "plate-cell"
+    },
+    {
+      "text": "He wrote this consolation while awaiting death — and found, at the bottom of the wheel, a strange calm.",
+      "plate": "plate-philosophy",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Boethius · The Consolation of Philosophy",
+  "source_note": "From The Consolation of Philosophy (public-domain translation) — paraphrased.",
+  "cta": "Follow for more"
+}

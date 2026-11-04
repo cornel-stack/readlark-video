@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "TH-01",
+    "topic": "American philosophy",
+    "thinker": "Henry David Thoreau",
+    "thinker_dates": "1817–1862",
+    "theme": "quiet desperation and simple living",
+    "title": "Thoreau: why most people live lives of quiet desperation",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "quiet desperation thoreau meaning",
+    "hashtags": [
+      "thoreau",
+      "philosophy",
+      "walden",
+      "simplicity",
+      "nature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-woods",
+      "query": "Asher Durand Kindred Spirits Hudson River School painting",
+      "want": "A luminous American forest (PD)"
+    },
+    {
+      "id": "plate-pond",
+      "query": "Thomas Cole lake wilderness landscape painting",
+      "want": "A still woodland pond (PD)"
+    },
+    {
+      "id": "plate-thoreau",
+      "query": "Henry David Thoreau daguerreotype portrait",
+      "want": "Thoreau himself (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Thoreau looked at the busy, respectable people around him and saw something sad.",
+      "plate": "plate-thoreau"
+    },
+    {
+      "text": "\"The mass of men,\" he wrote, \"lead lives of quiet desperation.\"",
+      "plate": "plate-pond",
+      "emphasis": true
+    },
+    {
+      "text": "Working jobs they resent, to buy things they don't need, to impress people they don't like.",
+      "plate": "plate-thoreau"
+    },
+    {
+      "text": "So he left. He built a cabin by a pond and lived for two years on almost nothing.",
+      "plate": "plate-woods"
+    },
+    {
+      "text": "He wanted to live deliberately — to front only the essential facts of life, and not, when dying, discover he had never lived.",
+      "plate": "plate-pond"
+    },
+    {
+      "text": "Simplify, he urged. Most of what we call wealth is just a heavier load to carry.",
+      "plate": "plate-woods"
+    },
+    {
+      "text": "You don't need the pond. You need to ask what, in your one life, is actually essential.",
+      "plate": "plate-pond",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Henry David Thoreau · Walden",
+  "source_note": "Quote: Walden (1854, public domain).",
+  "cta": "Follow for more"
+}

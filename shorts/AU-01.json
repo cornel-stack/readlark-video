@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "AU-01",
+    "topic": "Medieval philosophy",
+    "thinker": "Augustine of Hippo",
+    "thinker_dates": "354–430 AD",
+    "theme": "the restless heart",
+    "title": "Augustine on the restlessness you can never quite shake",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "our hearts are restless augustine meaning",
+    "hashtags": [
+      "augustine",
+      "philosophy",
+      "confessions",
+      "meaning",
+      "restlessness"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-augustine",
+      "query": "Sandro Botticelli Saint Augustine in his study painting",
+      "want": "Botticelli, Augustine the seeker (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Caravaggio dramatic light conversion painting",
+      "want": "A sudden breaking of light (PD)"
+    },
+    {
+      "id": "plate-stars",
+      "query": "Vincent van Gogh Starry Night painting",
+      "want": "The vast night a restless heart gazes into (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Before he was a saint, Augustine chased everything: status, pleasure, clever arguments, love.",
+      "plate": "plate-augustine"
+    },
+    {
+      "text": "Each goal, once reached, left the same strange hollow. The hunger simply moved on to the next thing.",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "He began to suspect the restlessness itself was the clue — that it was pointing somewhere.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Maybe no finite thing could fill it, because it was shaped for something infinite.",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "\"You have made us for Yourself,\" he wrote, \"and our heart is restless until it rests in You.\"",
+      "plate": "plate-light",
+      "emphasis": true
+    },
+    {
+      "text": "You don't have to share his faith to feel the ache he named — that nothing you get is ever quite enough.",
+      "plate": "plate-augustine"
+    },
+    {
+      "text": "The restlessness isn't a flaw to fix. It's a question asking what you're really made for.",
+      "plate": "plate-stars",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Augustine · Confessions",
+  "source_note": "Quote: Confessions, trans. E. B. Pusey (public domain).",
+  "cta": "Follow for more"
+}

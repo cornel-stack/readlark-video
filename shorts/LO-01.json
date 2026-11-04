@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "LO-01",
+    "topic": "Modern philosophy",
+    "thinker": "John Locke",
+    "thinker_dates": "1632–1704",
+    "theme": "the blank slate",
+    "title": "Locke: you were born a blank slate",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "tabula rasa locke meaning",
+    "hashtags": [
+      "locke",
+      "philosophy",
+      "tabularasa",
+      "mind",
+      "empiricism"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-locke",
+      "query": "Godfrey Kneller portrait of John Locke",
+      "want": "Locke himself (PD)"
+    },
+    {
+      "id": "plate-child",
+      "query": "Jean-Baptiste-Siméon Chardin young student child painting",
+      "want": "Chardin, a child learning (PD)"
+    },
+    {
+      "id": "plate-paper",
+      "query": "still life quill ink blank paper candle painting",
+      "want": "White paper waiting to be written on (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Are we born already knowing things — or does the mind start empty? Locke chose empty.",
+      "plate": "plate-locke"
+    },
+    {
+      "text": "At birth, he said, the mind is like white paper, void of all characters, without any ideas.",
+      "plate": "plate-paper",
+      "emphasis": true
+    },
+    {
+      "text": "So where does everything you know come from? One source: experience. The senses write on the page.",
+      "plate": "plate-child"
+    },
+    {
+      "text": "Every concept, even the loftiest, is built from things you first saw, heard, or felt.",
+      "plate": "plate-paper"
+    },
+    {
+      "text": "It was a quietly radical idea. If we're shaped by experience, then we can be shaped better.",
+      "plate": "plate-child"
+    },
+    {
+      "text": "Change the schooling, the environment, the chances — and you change the human being.",
+      "plate": "plate-locke"
+    },
+    {
+      "text": "No one is born a servant or a king. We are written into what we become.",
+      "plate": "plate-paper",
+      "emphasis": true
+    }
+  ],
+  "attribution": "John Locke · An Essay Concerning Human Understanding",
+  "source_note": "Quote: An Essay Concerning Human Understanding (1689, public domain).",
+  "cta": "Follow for more"
+}

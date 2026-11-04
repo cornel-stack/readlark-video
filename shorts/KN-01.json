@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "KN-01",
+    "topic": "Modern philosophy",
+    "thinker": "Immanuel Kant",
+    "thinker_dates": "1724–1804",
+    "theme": "the categorical imperative",
+    "title": "Kant's one rule for knowing right from wrong",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "categorical imperative meaning",
+    "hashtags": [
+      "kant",
+      "philosophy",
+      "ethics",
+      "categoricalimperative",
+      "morality"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-stars",
+      "query": "Vincent van Gogh Starry Night over the Rhône painting",
+      "want": "Van Gogh, the starry heavens above (PD)"
+    },
+    {
+      "id": "plate-kant",
+      "query": "portrait of Immanuel Kant 18th century",
+      "want": "Kant himself (PD)"
+    },
+    {
+      "id": "plate-moon",
+      "query": "Caspar David Friedrich Two Men Contemplating the Moon",
+      "want": "Friedrich, the moral law within (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Kant wanted a test for right and wrong that needed no god, no reward, no exception.",
+      "plate": "plate-kant"
+    },
+    {
+      "text": "He found one rule. Before you act, look at the reason behind the act.",
+      "plate": "plate-moon"
+    },
+    {
+      "text": "Then ask: could I will that everyone, always, acted on this same reason?",
+      "plate": "plate-moon"
+    },
+    {
+      "text": "Lying fails instantly. If everyone lied when it suited them, no promise could mean anything.",
+      "plate": "plate-kant"
+    },
+    {
+      "text": "So never treat a person as a mere tool, he said. Treat them always as an end in themselves.",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "Two things filled him with awe: the starry heavens above him, and the moral law within.",
+      "plate": "plate-stars",
+      "emphasis": true
+    },
+    {
+      "text": "Morality isn't a feeling to Kant. It's a law you could hand to all of humanity without shame.",
+      "plate": "plate-moon",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Immanuel Kant · Critique of Practical Reason",
+  "source_note": "Quote: Critique of Practical Reason, trans. T. K. Abbott (public domain).",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "EM-01",
+    "topic": "American philosophy",
+    "thinker": "Ralph Waldo Emerson",
+    "thinker_dates": "1803–1882",
+    "theme": "self-reliance",
+    "title": "Emerson's cure for living someone else's life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "self reliance emerson meaning",
+    "hashtags": [
+      "emerson",
+      "philosophy",
+      "selfreliance",
+      "individualism",
+      "transcendentalism"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-emerson",
+      "query": "portrait of Ralph Waldo Emerson 19th century",
+      "want": "Emerson himself (PD)"
+    },
+    {
+      "id": "plate-peak",
+      "query": "Caspar David Friedrich lone figure on a mountain peak",
+      "want": "A single figure standing apart (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "Frederic Edwin Church sunrise wilderness landscape painting",
+      "want": "A vast American dawn (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Emerson noticed how quickly we hand our lives over to the opinions of the crowd.",
+      "plate": "plate-emerson"
+    },
+    {
+      "text": "We dress, speak, and even think to win a nod from people we barely respect.",
+      "plate": "plate-peak"
+    },
+    {
+      "text": "His remedy was two words: \"Trust thyself.\" Every heart, he said, vibrates to that iron string.",
+      "plate": "plate-emerson",
+      "emphasis": true
+    },
+    {
+      "text": "The thought you dismiss as merely your own is exactly the one the world is waiting to hear.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "\"Whoso would be a man,\" he wrote, \"must be a nonconformist.\"",
+      "plate": "plate-peak"
+    },
+    {
+      "text": "Yes, you'll be misunderstood. So were Socrates, Galileo, every mind that ever moved us forward.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Imitation is suicide. Envy is ignorance. The one life that is yours to live is your own.",
+      "plate": "plate-peak",
+      "emphasis": true
+    }
+  ],
+  "attribution": "Ralph Waldo Emerson · Self-Reliance",
+  "source_note": "Quotes: Self-Reliance (1841, public domain).",
+  "cta": "Follow for more"
+}

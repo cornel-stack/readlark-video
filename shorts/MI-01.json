@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "MI-01",
+    "topic": "Modern philosophy",
+    "thinker": "John Stuart Mill",
+    "thinker_dates": "1806–1873",
+    "theme": "higher and lower pleasures",
+    "title": "Mill: better to be Socrates dissatisfied than a fool satisfied",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "higher and lower pleasures mill",
+    "hashtags": [
+      "mill",
+      "philosophy",
+      "utilitarianism",
+      "happiness",
+      "ethics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-mill",
+      "query": "portrait of John Stuart Mill 19th century",
+      "want": "Mill himself (PD)"
+    },
+    {
+      "id": "plate-feast",
+      "query": "Jan Steen merry tavern feast painting",
+      "want": "Steen, easy contented pleasure (PD)"
+    },
+    {
+      "id": "plate-socrates",
+      "query": "marble bust of Socrates ancient sculpture",
+      "want": "Socrates, the thinking life (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "If happiness is the goal of life, here's a trap: a pig, well fed, seems perfectly happy.",
+      "plate": "plate-feast"
+    },
+    {
+      "text": "So is the good life just maximum pleasure? Mill, a utilitarian, said no — not all pleasure is equal.",
+      "plate": "plate-mill"
+    },
+    {
+      "text": "There are lower pleasures — food, comfort, ease — and higher ones: thought, art, love, meaning.",
+      "plate": "plate-socrates"
+    },
+    {
+      "text": "How do we know the higher ones are better? Ask anyone who has truly tasted both. They never trade down.",
+      "plate": "plate-mill"
+    },
+    {
+      "text": "The higher pleasures cost more. They can leave you restless, searching, dissatisfied.",
+      "plate": "plate-socrates"
+    },
+    {
+      "text": "\"Better to be Socrates dissatisfied,\" Mill wrote, \"than a fool satisfied.\"",
+      "plate": "plate-socrates",
+      "emphasis": true
+    },
+    {
+      "text": "A gnawing hunger for something greater may be worth more than an easy, comfortable contentment.",
+      "plate": "plate-feast",
+      "emphasis": true
+    }
+  ],
+  "attribution": "John Stuart Mill · Utilitarianism",
+  "source_note": "Quote: Utilitarianism (1863, public domain).",
+  "cta": "Follow for more"
+}

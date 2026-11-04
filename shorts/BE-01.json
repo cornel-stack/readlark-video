@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "id": "BE-01",
+    "topic": "Modern philosophy",
+    "thinker": "George Berkeley",
+    "thinker_dates": "1685–1753",
+    "theme": "to be is to be perceived",
+    "title": "If a tree falls and no one hears it — Berkeley's answer",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "to be is to be perceived berkeley meaning",
+    "hashtags": [
+      "berkeley",
+      "philosophy",
+      "idealism",
+      "perception",
+      "reality"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-berkeley",
+      "query": "portrait of George Berkeley bishop philosopher 18th century",
+      "want": "Berkeley himself (PD)"
+    },
+    {
+      "id": "plate-forest",
+      "query": "Caspar David Friedrich forest trees mist painting",
+      "want": "A silent forest, unwatched (PD)"
+    },
+    {
+      "id": "plate-eye",
+      "query": "Odilon Redon eye floating surreal lithograph",
+      "want": "Redon, perception itself (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Think of an apple. Its red, its weight, its sweetness — every quality is something sensed.",
+      "plate": "plate-eye"
+    },
+    {
+      "text": "Berkeley pushed this hard. Take away everything that could be perceived, he said. What's left?",
+      "plate": "plate-berkeley"
+    },
+    {
+      "text": "Nothing. For him there's no lump of 'matter' hiding behind the sensations. The sensations are the thing.",
+      "plate": "plate-eye"
+    },
+    {
+      "text": "His famous line: to be is to be perceived. A thing exists in being seen, heard, or felt.",
+      "plate": "plate-berkeley",
+      "emphasis": true
+    },
+    {
+      "text": "So does the tree vanish when you leave the forest? Here most people expect a trick answer.",
+      "plate": "plate-forest"
+    },
+    {
+      "text": "No, said Berkeley. It stays — because it is never truly unperceived. God perceives it always.",
+      "plate": "plate-forest"
+    },
+    {
+      "text": "You may reject his God. But try to point to any 'real world' that isn't, somewhere, being experienced.",
+      "plate": "plate-eye",
+      "emphasis": true
+    }
+  ],
+  "attribution": "George Berkeley · A Treatise Concerning the Principles of Human Knowledge",
+  "source_note": "From the Principles of Human Knowledge (1710, public domain) — paraphrased.",
+  "cta": "Follow for more"
+}
