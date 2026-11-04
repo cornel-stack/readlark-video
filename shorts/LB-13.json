@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-13",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books that explain human nature",
+    "format": "list",
+    "title": "5 books that explain human nature",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books about human nature",
+    "hashtags": [
+      "books",
+      "psychology",
+      "classics",
+      "booktok",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-faces",
+      "query": "Rembrandt group portrait many faces painting",
+      "want": "Human nature, in many faces (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Rembrandt reader studying by lamplight painting",
+      "want": "Reading people through books (PD)"
+    },
+    {
+      "id": "plate-dark",
+      "query": "Caravaggio chiaroscuro figures light and shadow painting",
+      "want": "The light and dark in everyone (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books that explain human nature better than any textbook.",
+      "plate": "plate-faces"
+    },
+    {
+      "text": "One. Crime and Punishment — Dostoevsky maps guilt, pride, and the stories we tell to excuse ourselves.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "Two. The Prince — Machiavelli, on how people really chase and keep power.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Three. Pride and Prejudice — Austen, a masterclass in how we misjudge each other.",
+      "plate": "plate-faces"
+    },
+    {
+      "text": "Four. Heart of Darkness — Conrad, on how thin the civilised veneer really is.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "Five. The Picture of Dorian Gray — Wilde, on vanity, conscience, and the masks we wear.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Fiction is a laboratory for people. Full retellings of each are on the channel.",
+      "plate": "plate-faces",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}

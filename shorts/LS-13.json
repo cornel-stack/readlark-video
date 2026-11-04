@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-13",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic truths about failure",
+    "format": "list",
+    "title": "5 Stoic truths about failure",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism on failure",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "failure",
+      "resilience",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-fall",
+      "query": "J. M. W. Turner ship in a storm struggling painting",
+      "want": "Setback as weather, not verdict (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The Stoic facing defeat (PD)"
+    },
+    {
+      "id": "plate-rise",
+      "query": "Caspar David Friedrich figure climbing toward summit painting",
+      "want": "Standing back up (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic truths about failure.",
+      "plate": "plate-fall"
+    },
+    {
+      "text": "One. Failure is information, not identity. It tells you what to adjust — not who you are.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Two. You never controlled the outcome, only the effort. Judge yourself on the part that was yours.",
+      "plate": "plate-fall"
+    },
+    {
+      "text": "Three. The obstacle is the way. What blocks the path becomes the material you build with.",
+      "plate": "plate-rise"
+    },
+    {
+      "text": "Four. Shame is optional. Only your own wrongdoing is truly shameful — a lost attempt isn't.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Five. Fall seven times, rise eight — and make sure you keep your principles on the way up.",
+      "plate": "plate-rise"
+    },
+    {
+      "text": "The Stoic doesn't fear failing. He fears only becoming someone who stopped trying to be good.",
+      "plate": "plate-marcus",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Epictetus.",
+  "cta": "Follow for more"
+}

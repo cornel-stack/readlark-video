@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-13",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "subtle things that make people respect you",
+    "format": "list",
+    "title": "5 subtle things that make people respect you",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "things that make people respect you",
+    "hashtags": [
+      "psychology",
+      "respect",
+      "confidence",
+      "selfimprovement",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-calm",
+      "query": "Rembrandt dignified steady portrait painting",
+      "want": "Quiet gravity (PD)"
+    },
+    {
+      "id": "plate-handshake",
+      "query": "Rembrandt two figures meeting formally painting",
+      "want": "Trust being built (PD)"
+    },
+    {
+      "id": "plate-stand",
+      "query": "Caspar David Friedrich figure standing composed painting",
+      "want": "Self-respect that earns respect (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five subtle things that quietly make people respect you.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "One. Being on time — every time. It tells people you value their life as much as your own.",
+      "plate": "plate-handshake"
+    },
+    {
+      "text": "Two. Doing exactly what you said you'd do. Reliability is rarer, and louder, than charm.",
+      "plate": "plate-handshake"
+    },
+    {
+      "text": "Three. Staying calm while everyone else loses their head. Steadiness reads as strength.",
+      "plate": "plate-stand"
+    },
+    {
+      "text": "Four. Saying 'I don't know' without flinching. Only secure people admit the gaps.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Five. Treating the junior and the senior with exactly the same courtesy.",
+      "plate": "plate-handshake"
+    },
+    {
+      "text": "Respect isn't demanded or performed. It's the quiet residue of how you consistently behave.",
+      "plate": "plate-stand",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one comes easiest to you?",
+  "cta": "Follow for more"
+}

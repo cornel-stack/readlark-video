@@ -104,7 +104,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-11 | Applied Stoicism | 5 lessons for taming the ego | ✅ | run 41807028853 |
 | LB-11 | Books & reading | 5 book lines that shift perspective | ✅ | run 41807034534 |
 | LM-11 | Psychology | 5 phrases emotionally intelligent people use | ✅ | run 41807040320 |
-| LH-12 | Self-improvement | 6 signs you're finally healing | 📝 | round 12 |
-| LS-12 | Applied Stoicism | 5 lessons to stop comparing yourself | 📝 | round 12 |
-| LB-12 | Books & reading | 5 books for non-readers | 📝 | round 12 |
-| LM-12 | Psychology | 6 signs of a genuinely good person | 📝 | round 12 |
+| LH-12 | Self-improvement | 6 signs you're finally healing | ✅ | run 41807683194 |
+| LS-12 | Applied Stoicism | 5 lessons to stop comparing yourself | ✅ | run 41807689081 |
+| LB-12 | Books & reading | 5 books for non-readers | ✅ | run 41807694915 |
+| LM-12 | Psychology | 6 signs of a genuinely good person | ✅ | run 41807700741 |
+| LH-13 | Self-improvement | 6 things confident people do | 📝 | round 13 |
+| LS-13 | Applied Stoicism | 5 Stoic truths about failure | 📝 | round 13 |
+| LB-13 | Books & reading | 5 books that explain human nature | 📝 | round 13 |
+| LM-13 | Psychology | 5 things that make people respect you | 📝 | round 13 |

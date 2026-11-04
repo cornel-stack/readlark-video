@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-13",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "things confident people do differently",
+    "format": "list",
+    "title": "6 things confident people do differently",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "things confident people do",
+    "hashtags": [
+      "confidence",
+      "selfimprovement",
+      "mindset",
+      "discipline",
+      "growth"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-stand",
+      "query": "Caspar David Friedrich figure standing tall on a peak painting",
+      "want": "Grounded, quiet confidence (PD)"
+    },
+    {
+      "id": "plate-portrait",
+      "query": "Frans Hals confident relaxed portrait painting",
+      "want": "An easy, self-assured presence (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Rembrandt steady dignified portrait painting",
+      "want": "Unhurried self-possession (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six things genuinely confident people do differently.",
+      "plate": "plate-portrait"
+    },
+    {
+      "text": "One. They make a decision and move on. They don't marinate in what-ifs for weeks.",
+      "plate": "plate-stand"
+    },
+    {
+      "text": "Two. They ask for what they want — directly, without three layers of apology.",
+      "plate": "plate-portrait"
+    },
+    {
+      "text": "Three. They're okay being disliked. They'd rather be real than universally approved of.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. They celebrate other people's wins without feeling one inch smaller.",
+      "plate": "plate-portrait"
+    },
+    {
+      "text": "Five. They speak slowly, and let silence sit. They don't rush to fill every gap.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Six. They keep the small promises they make to themselves. That's where the confidence came from.",
+      "plate": "plate-stand"
+    },
+    {
+      "text": "Confidence isn't believing you're the best. It's not needing to be, to feel okay.",
+      "plate": "plate-portrait",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one will you practise?",
+  "cta": "Follow for more"
+}
