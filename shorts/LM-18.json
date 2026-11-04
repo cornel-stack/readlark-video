@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-18",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "signs you're mentally strong",
+    "format": "list",
+    "title": "6 signs you're mentally stronger than you realise",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs of mental strength",
+    "hashtags": [
+      "psychology",
+      "mentalstrength",
+      "resilience",
+      "mindset",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-stand",
+      "query": "Caspar David Friedrich figure standing firm in wind painting",
+      "want": "Standing firm under strain (PD)"
+    },
+    {
+      "id": "plate-storm",
+      "query": "J. M. W. Turner ship holding steady in storm painting",
+      "want": "Steady through the storm (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Rembrandt composed steady portrait painting",
+      "want": "Inner steadiness (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs you're mentally stronger than you give yourself credit for.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "One. You can feel a hard emotion without letting it drive the car.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Two. You keep going when motivation is long gone. Discipline carries you the rest of the way.",
+      "plate": "plate-stand"
+    },
+    {
+      "text": "Three. You can be alone without feeling empty. Your own company is enough.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. You admit mistakes quickly. It takes strength to say 'I was wrong' and mean it.",
+      "plate": "plate-stand"
+    },
+    {
+      "text": "Five. You don't need everyone to like you. You'd rather be respected than popular.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Six. You've survived things you once thought would break you — and you're still here, still trying.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Mental strength isn't never struggling. It's refusing to let the struggle have the final word.",
+      "plate": "plate-stand",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "How many did you recognise?",
+  "cta": "Follow for more"
+}

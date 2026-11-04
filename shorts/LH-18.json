@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LH-18",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "questions that change your life",
+    "format": "list",
+    "title": "5 questions that can change your entire life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "questions that change your life",
+    "hashtags": [
+      "selfimprovement",
+      "mindset",
+      "selfawareness",
+      "growth",
+      "motivation"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-think",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "A mind turning a hard question over (PD)"
+    },
+    {
+      "id": "plate-mirror",
+      "query": "Gustave Courbet self portrait searching painting",
+      "want": "Facing yourself honestly (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Caspar David Friedrich fork in a path landscape painting",
+      "want": "A life at a crossroads (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five questions that, answered honestly, can change your whole life.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "One. If nothing changed in five years, could you live with that? Your answer is a decision.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Two. What would you do if you weren't afraid? That's usually the thing you already know you should.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "Three. Whose life are you actually living — your own, or the one you were handed?",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "Four. What are you tolerating that you've simply stopped noticing?",
+      "plate": "plate-think"
+    },
+    {
+      "text": "Five. If today were repeated for a year, where would it take you? You're already on that road.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "The quality of your life often comes down to the quality of the questions you dare to ask.",
+      "plate": "plate-mirror",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which question stung the most?",
+  "cta": "Follow for more"
+}

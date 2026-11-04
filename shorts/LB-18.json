@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-18",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books that will make you wiser",
+    "format": "list",
+    "title": "5 books that will genuinely make you wiser",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books that make you wiser",
+    "hashtags": [
+      "books",
+      "wisdom",
+      "philosophy",
+      "booktok",
+      "classics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-sage",
+      "query": "Rembrandt old wise man reading painting",
+      "want": "Wisdom gathered over a life (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life ancient books and candle painting",
+      "want": "The distilled wisdom of ages (PD)"
+    },
+    {
+      "id": "plate-mountains",
+      "query": "Chinese landscape painting misty mountains sage",
+      "want": "Eastern wisdom (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books that don't just inform you — they slowly make you wiser.",
+      "plate": "plate-sage"
+    },
+    {
+      "text": "One. Meditations — Marcus Aurelius. A powerful man reminding himself how to stay good and sane.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Two. Tao Te Ching — Lao Tzu. Eighty short verses on strength through softness and stillness.",
+      "plate": "plate-mountains"
+    },
+    {
+      "text": "Three. The Essays — Montaigne. The wisdom of doubting yourself honestly and often.",
+      "plate": "plate-sage"
+    },
+    {
+      "text": "Four. Letters from a Stoic — Seneca. A friend, across two thousand years, on how to actually live.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Five. The Analects — Confucius. Short, practical lines on character, duty, and how to treat people.",
+      "plate": "plate-mountains"
+    },
+    {
+      "text": "Wisdom can't be rushed — but it can be borrowed. Full explainers of each are on the channel.",
+      "plate": "plate-sage",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-18",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on self-discipline",
+    "format": "list",
+    "title": "5 Stoic lessons on self-discipline",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism self discipline",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "discipline",
+      "selfcontrol",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "Disciplined Stoic resolve (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "Caspar David Friedrich cold clear dawn landscape painting",
+      "want": "The discipline of the early hour (PD)"
+    },
+    {
+      "id": "plate-stone",
+      "query": "ancient Greek athlete statue marble",
+      "want": "Mastery built through training (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons on building real self-discipline.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "One. Do what must be done, not what you feel like. Feelings are weather; duty is the compass.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Two. Discipline is freedom. Every craving you can refuse is a chain you're choosing not to wear.",
+      "plate": "plate-stone"
+    },
+    {
+      "text": "Three. Train in good times for the hard ones. Comfort practised becomes weakness under pressure.",
+      "plate": "plate-stone"
+    },
+    {
+      "text": "Four. Master the small things — the snooze button, the extra scroll. Big discipline is many tiny ones.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Five. You will not always be motivated. You can always be committed. Commitment is what remains.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "The Stoic doesn't wait to feel ready. He acts on principle — and lets the feeling catch up.",
+      "plate": "plate-stone",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Epictetus.",
+  "cta": "Follow for more"
+}
