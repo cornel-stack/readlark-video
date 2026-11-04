@@ -68,7 +68,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-02 | Applied Stoicism | 5 things the Stoics did every morning | ✅ | run 41800905661 |
 | LB-02 | Books & reading | 5 classic novels worth the hype | ✅ | run 41800911389 |
 | LM-02 | Psychology | 6 cognitive biases fooling you | ✅ | run 41800916888 |
-| LH-03 | Self-improvement | 5 things mentally strong people never do | 📝 | round 3 |
-| LS-03 | Applied Stoicism | 5 ways to stop caring what people think | 📝 | round 3 |
-| LB-03 | Books & reading | 6 short classics for a weekend | 📝 | round 3 |
-| LM-03 | Psychology | 6 psychology facts of everyday life | 📝 | round 3 |
+| LH-03 | Self-improvement | 5 things mentally strong people never do | ✅ | run 41801448824 |
+| LS-03 | Applied Stoicism | 5 ways to stop caring what people think | ✅ | run 41801454644 |
+| LB-03 | Books & reading | 6 short classics for a weekend | ✅ | run 41801460205 |
+| LM-03 | Psychology | 6 psychology facts of everyday life | ✅ | run 41801466006 |
+| LH-04 | Self-improvement | 6 tiny habits, huge payoff | 📝 | round 4 |
+| LS-04 | Applied Stoicism | 5 Stoic lessons for controlling anger | 📝 | round 4 |
+| LB-04 | Books & reading | 5 greatest opening lines | 📝 | round 4 |
+| LM-04 | Psychology | 6 signs of quiet confidence | 📝 | round 4 |

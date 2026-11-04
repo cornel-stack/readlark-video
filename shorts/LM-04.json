@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-04",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "signs of quiet confidence",
+    "format": "list",
+    "title": "6 signs of quiet confidence",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs of quiet confidence",
+    "hashtags": [
+      "confidence",
+      "psychology",
+      "selfawareness",
+      "mindset",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-poise",
+      "query": "Vermeer woman reading a letter calm composure painting",
+      "want": "Vermeer, quiet self-possession (PD)"
+    },
+    {
+      "id": "plate-still",
+      "query": "Vilhelm Hammershøi interior figure quiet room painting",
+      "want": "Comfort in stillness (PD)"
+    },
+    {
+      "id": "plate-portrait",
+      "query": "Rembrandt self-portrait calm gaze painting",
+      "want": "An unhurried, steady gaze (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs of quiet confidence — the kind that never has to announce itself.",
+      "plate": "plate-portrait"
+    },
+    {
+      "text": "One. They don't need to win every argument. Being right quietly is enough.",
+      "plate": "plate-still"
+    },
+    {
+      "text": "Two. They're comfortable with silence, and don't rush to fill it.",
+      "plate": "plate-poise"
+    },
+    {
+      "text": "Three. They give credit easily. A secure person isn't threatened by praising others.",
+      "plate": "plate-portrait"
+    },
+    {
+      "text": "Four. They ask questions instead of performing answers. Curiosity, not display.",
+      "plate": "plate-still"
+    },
+    {
+      "text": "Five. Other people's success doesn't rattle them. There's room enough for everyone.",
+      "plate": "plate-poise"
+    },
+    {
+      "text": "Six. They can say 'I was wrong' without flinching — the surest sign of strength there is.",
+      "plate": "plate-portrait"
+    },
+    {
+      "text": "Loud is often insecurity in disguise. Real confidence rarely needs the volume.",
+      "plate": "plate-still",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one are you working on?",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-04",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "greatest opening lines in literature",
+    "format": "list",
+    "title": "5 opening lines in literature that hook you instantly",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "best opening lines in books",
+    "hashtags": [
+      "books",
+      "literature",
+      "booktok",
+      "classics",
+      "writing"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-ink",
+      "query": "still life quill ink and open book candlelight painting",
+      "want": "The first line, freshly written (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Rembrandt scholar reading by lamplight painting",
+      "want": "A reader caught by a first sentence (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life stacked antique leather books painting",
+      "want": "The great novels, spines out (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five opening lines that hook you from the very first breath.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "One. \"It was the best of times, it was the worst of times.\" — A Tale of Two Cities, Dickens.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "Two. \"Call me Ishmael.\" Three words, and Melville's Moby-Dick has you.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Three. \"It is a truth universally acknowledged...\" — Austen opens Pride and Prejudice with a smirk.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Four. \"Happy families are all alike; every unhappy family is unhappy in its own way.\" — Tolstoy.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "Five. \"I am a sick man. I am a spiteful man.\" — Dostoevsky's Notes from Underground.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "A great first line is a promise. These five keep it. Which hooked you hardest?",
+      "plate": "plate-books",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}

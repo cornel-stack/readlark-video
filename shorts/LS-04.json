@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-04",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons for controlling anger",
+    "format": "list",
+    "title": "5 Stoic lessons for controlling your anger",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism how to control anger",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "anger",
+      "selfcontrol",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-fire",
+      "query": "J. M. W. Turner The Burning of the Houses of Parliament painting",
+      "want": "Turner, anger as consuming fire (PD)"
+    },
+    {
+      "id": "plate-seneca",
+      "query": "ancient Roman bust of Seneca sculpture",
+      "want": "Seneca, who wrote On Anger (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich calm still lake evening painting",
+      "want": "Stillness reclaimed (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons for the moment anger takes hold.",
+      "plate": "plate-fire"
+    },
+    {
+      "text": "One. Seneca called anger a brief madness — and warned it harms the one who holds it most.",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "Two. The insult is the first arrow. Your fury is the second — and only that one is yours to stop.",
+      "plate": "plate-fire"
+    },
+    {
+      "text": "Three. Delay. Count to ten, then ten more. Anger rarely survives a little patience.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. Ask one question: is this really worth my peace of mind? The honest answer is almost never.",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "Five. The finest revenge, the Stoics said, is simply to be unlike the person who wronged you.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "You can't always stop the spark. You can refuse to hand it the whole forest.",
+      "plate": "plate-calm",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Seneca's On Anger & Marcus Aurelius.",
+  "cta": "Follow for more"
+}

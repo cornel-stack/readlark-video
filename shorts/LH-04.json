@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-04",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "tiny habits with huge long-term payoff",
+    "format": "list",
+    "title": "6 tiny habits with a huge long-term payoff",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "small habits that change your life",
+    "hashtags": [
+      "habits",
+      "selfimprovement",
+      "discipline",
+      "atomichabits",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-dawn",
+      "query": "Caspar David Friedrich morning light landscape painting",
+      "want": "The quiet promise of a new day (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Hudson River School winding path through landscape painting",
+      "want": "A long road, taken one step at a time (PD)"
+    },
+    {
+      "id": "plate-tree",
+      "query": "Caspar David Friedrich great oak tree painting",
+      "want": "Slow growth into something strong (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six tiny habits that look like nothing — and change everything over a year.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "One. Make your bed. You win the very first task of the day before it fights back.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Two. Walk twenty minutes. It's the closest thing we have to a wonder drug.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Three. Read ten pages a day. That's around fifteen books a year, almost by accident.",
+      "plate": "plate-tree"
+    },
+    {
+      "text": "Four. Write down three things you're grateful for. You train the eye to find them.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Five. Drink a glass of water before your coffee. Small, dull, and you'll feel it.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Six. Put the phone away an hour before sleep. Protect the night, and the day repays you.",
+      "plate": "plate-tree"
+    },
+    {
+      "text": "None of these impress anyone today. In a year, they quietly build a different person.",
+      "plate": "plate-tree",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Pick one. Start tomorrow.",
+  "cta": "Follow for more"
+}
