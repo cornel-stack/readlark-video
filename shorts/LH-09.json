@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LH-09",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "things your future self will thank you for",
+    "format": "list",
+    "title": "5 things your future self will thank you for",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "things your future self will thank you for",
+    "hashtags": [
+      "selfimprovement",
+      "discipline",
+      "habits",
+      "mindset",
+      "motivation"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-path",
+      "query": "Hudson River School long path toward distant mountains painting",
+      "want": "The road to a future self (PD)"
+    },
+    {
+      "id": "plate-tree",
+      "query": "Caspar David Friedrich strong oak tree seasons painting",
+      "want": "Patient, compounding growth (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "Frederic Edwin Church sunrise landscape painting",
+      "want": "A brighter morning earned (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five things your future self will quietly thank you for.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "One. Starting before you felt ready. The right time was always a myth.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Two. Saving a little, early. Small amounts and time do almost magical things together.",
+      "plate": "plate-tree"
+    },
+    {
+      "text": "Three. Keeping the promises you made to yourself. That's where self-trust is built.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Four. Treating your body like it has to carry you for eighty more years. It does.",
+      "plate": "plate-tree"
+    },
+    {
+      "text": "Five. Choosing boring consistency over exciting bursts. The tortoise really does win.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "You can't go back and start sooner. But in a year, today is the 'sooner' you'll wish you'd used.",
+      "plate": "plate-path",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Start one of these today.",
+  "cta": "Follow for more"
+}

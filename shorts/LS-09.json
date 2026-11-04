@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-09",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic ways to conquer fear",
+    "format": "list",
+    "title": "5 Stoic ways to conquer your fear",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism how to overcome fear",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "fear",
+      "courage",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-dark",
+      "query": "Caspar David Friedrich figure before a dark chasm painting",
+      "want": "Facing the edge of fear (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The Stoic steadiness (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "J. M. W. Turner light breaking through storm painting",
+      "want": "Light after the dread (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic ways to face down a fear that's running your life.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "One. Name it exactly. Vague dread shrinks the moment you force it into precise words.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Two. Run it to the end. What is the actual worst case — and could you survive it? Usually, yes.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "Three. The fear lives in your mind, not in the thing itself. Separate the event from the story.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Four. Act while still afraid. Courage isn't the absence of fear — it's moving with it anyway.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Five. Remember Seneca: we suffer more often in imagination than in reality.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "The fear of the thing is almost always heavier than the thing. Walk toward it.",
+      "plate": "plate-dawn",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Seneca & Marcus Aurelius.",
+  "cta": "Follow for more"
+}

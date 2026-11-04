@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-09",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books everyone should read in their 20s",
+    "format": "list",
+    "title": "5 books everyone should read in their 20s",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books to read in your 20s",
+    "hashtags": [
+      "books",
+      "reading",
+      "booktok",
+      "selfimprovement",
+      "classics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-reader",
+      "query": "Fragonard A Young Girl Reading painting",
+      "want": "A young reader, early in life (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life stack of books candle painting",
+      "want": "Books to grow into (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Vermeer young woman by a window painting",
+      "want": "Looking ahead (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books worth reading while you're still in your twenties.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "One. Meditations — Marcus Aurelius. How to keep your head when everything's uncertain.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Two. Man's Search for Meaning — Frankl. Where purpose comes from when life gets hard.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Three. The Great Gatsby — Fitzgerald. What chasing the wrong dream costs you.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Four. Pride and Prejudice — Austen. First impressions, pride, and learning to really see people.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Five. Siddhartha — Hesse. That wisdom is lived, not borrowed from anyone else.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Read these now and they shape the next decade. Full retellings are on the channel.",
+      "plate": "plate-reader",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}

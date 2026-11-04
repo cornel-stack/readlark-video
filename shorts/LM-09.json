@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-09",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "signs of genuine self-respect",
+    "format": "list",
+    "title": "6 signs of genuine self-respect",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs of self respect",
+    "hashtags": [
+      "selfrespect",
+      "psychology",
+      "boundaries",
+      "selfworth",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-poise",
+      "query": "Vermeer woman standing composed interior painting",
+      "want": "Quiet self-possession (PD)"
+    },
+    {
+      "id": "plate-stand",
+      "query": "Caspar David Friedrich lone figure standing upright painting",
+      "want": "Standing one's ground (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Rembrandt dignified portrait calm gaze painting",
+      "want": "Steady, unbothered dignity (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six quiet signs of genuine self-respect.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "One. You can say no without delivering a whole paragraph of apologies and excuses.",
+      "plate": "plate-stand"
+    },
+    {
+      "text": "Two. You stop chasing people who have made it clear they won't choose you.",
+      "plate": "plate-poise"
+    },
+    {
+      "text": "Three. You keep your own standards even when absolutely no one is watching.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. You walk away from disrespect — calmly, without needing a dramatic scene.",
+      "plate": "plate-stand"
+    },
+    {
+      "text": "Five. You stop shrinking yourself just to keep other people comfortable.",
+      "plate": "plate-poise"
+    },
+    {
+      "text": "Six. You can rest without guilt. You don't have to earn the right to exist.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Self-respect isn't loud or arrogant. It's just the quiet refusal to abandon yourself.",
+      "plate": "plate-stand",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one are you growing into?",
+  "cta": "Follow for more"
+}

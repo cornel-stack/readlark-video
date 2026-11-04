@@ -88,7 +88,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-07 | Applied Stoicism | 5 things Epictetus would tell you | ✅ | run 41804134655 |
 | LB-07 | Books & reading | 5 underrated classics | ✅ | run 41804141020 |
 | LM-07 | Psychology | 6 subtle signs of high intelligence | ✅ | run 41804147550 |
-| LH-08 | Self-improvement | 6 hard truths that set you free | 📝 | round 8 |
-| LS-08 | Applied Stoicism | 5 questions the Stoics asked nightly | 📝 | round 8 |
-| LB-08 | Books & reading | 5 novels that double as philosophy | 📝 | round 8 |
-| LM-08 | Psychology | 5 habits of genuinely calm people | 📝 | round 8 |
+| LH-08 | Self-improvement | 6 hard truths that set you free | ✅ | run 41804827912 |
+| LS-08 | Applied Stoicism | 5 questions the Stoics asked nightly | ✅ | run 41804833990 |
+| LB-08 | Books & reading | 5 novels that double as philosophy | ✅ | run 41804840329 |
+| LM-08 | Psychology | 5 habits of genuinely calm people | ✅ | run 41804846494 |
+| LH-09 | Self-improvement | 5 things your future self will thank you for | 📝 | round 9 |
+| LS-09 | Applied Stoicism | 5 Stoic ways to conquer fear | 📝 | round 9 |
+| LB-09 | Books & reading | 5 books to read in your 20s | 📝 | round 9 |
+| LM-09 | Psychology | 6 signs of genuine self-respect | 📝 | round 9 |
