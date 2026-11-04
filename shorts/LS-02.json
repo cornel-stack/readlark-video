@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-02",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic morning habits",
+    "format": "list",
+    "title": "5 things the Stoics did every single morning",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoic morning routine",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "morningroutine",
+      "discipline",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-dawn",
+      "query": "Caspar David Friedrich sunrise over the sea painting",
+      "want": "A Stoic dawn (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The emperor at daybreak (PD)"
+    },
+    {
+      "id": "plate-mountain",
+      "query": "Caspar David Friedrich mountains morning light painting",
+      "want": "Clear morning resolve (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five things the Stoics did every morning — before the world got to them.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "One. They pictured what might go wrong today — so nothing could ambush them.",
+      "plate": "plate-mountain"
+    },
+    {
+      "text": "Two. They named what was in their control, and quietly released the rest.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Three. They decided who they'd be today — before the day decided for them.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Four. They reminded themselves they'd meet difficult people — and chose patience in advance.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Five. They remembered the day was borrowed, not owed — and that made it matter.",
+      "plate": "plate-mountain"
+    },
+    {
+      "text": "Win the first hour, the Stoics knew, and you've already half-won the day.",
+      "plate": "plate-dawn",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius, Seneca & Epictetus.",
+  "cta": "Follow for more"
+}

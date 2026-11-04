@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-02",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "classic novels worth the hype",
+    "format": "list",
+    "title": "5 classic novels that are actually worth the hype",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "classic novels worth reading",
+    "hashtags": [
+      "books",
+      "classics",
+      "booktok",
+      "reading",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-library",
+      "query": "old library interior painting candlelight books",
+      "want": "A grand reading room (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Jean-Honoré Fragonard A Young Girl Reading painting",
+      "want": "Fragonard, a reader absorbed (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life stacked antique books painting",
+      "want": "A pile of classics (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five classic novels that genuinely earn the hype — and pair with our full videos.",
+      "plate": "plate-library"
+    },
+    {
+      "text": "One. Pride and Prejudice — Austen's razor wit, hiding one of literature's great love stories.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Two. Crime and Punishment — Dostoevsky locks you inside a murderer's unravelling mind.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Three. Jane Eyre — a small, plain, fierce heroine who refuses to be owned by anyone.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Four. Frankenstein — a teenager invented science fiction, and asked who the real monster is.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Five. The Great Gatsby — the American dream, gorgeous on the surface, hollow underneath.",
+      "plate": "plate-library"
+    },
+    {
+      "text": "Start with any one. Full retellings of all five are on the channel.",
+      "plate": "plate-reader",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}

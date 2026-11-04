@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-02",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "habits of highly focused people",
+    "format": "list",
+    "title": "6 habits of people who can actually focus",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "how to improve focus habits",
+    "hashtags": [
+      "focus",
+      "productivity",
+      "deepwork",
+      "selfimprovement",
+      "discipline"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-scholar",
+      "query": "Rembrandt scholar reading in a study candlelight painting",
+      "want": "Deep, undistracted work (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Johannes Vermeer woman reading by a window painting",
+      "want": "Quiet single-tasking (PD)"
+    },
+    {
+      "id": "plate-candle",
+      "query": "Georges de La Tour single candle figure painting",
+      "want": "One pool of light, one task (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six habits of people who can actually focus — while everyone else scrolls.",
+      "plate": "plate-scholar"
+    },
+    {
+      "text": "One. They work in long single blocks — one task, start to finish, no switching.",
+      "plate": "plate-candle"
+    },
+    {
+      "text": "Two. They don't just silence the phone. They put it in another room entirely.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Three. They start before they feel ready. Motivation follows action, not the other way round.",
+      "plate": "plate-scholar"
+    },
+    {
+      "text": "Four. They batch the shallow stuff — email, admin — and fiercely protect the deep stuff.",
+      "plate": "plate-candle"
+    },
+    {
+      "text": "Five. They take real breaks. Away from a screen. The mind sharpens in the gaps.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Six. They finish one thing before touching the next. Open loops drain you.",
+      "plate": "plate-scholar"
+    },
+    {
+      "text": "Focus isn't a talent you're born with. It's an environment you build on purpose.",
+      "plate": "plate-candle",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save this for your next work session.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-02",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "cognitive biases that fool you",
+    "format": "list",
+    "title": "6 cognitive biases fooling you every single day",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "cognitive biases explained",
+    "hashtags": [
+      "psychology",
+      "cognitivebias",
+      "thinking",
+      "mindset",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-mind",
+      "query": "Rembrandt Philosopher in Meditation spiral staircase painting",
+      "want": "The mind's hidden machinery (PD)"
+    },
+    {
+      "id": "plate-eye",
+      "query": "Odilon Redon eye balloon surreal lithograph",
+      "want": "Redon, distorted perception (PD)"
+    },
+    {
+      "id": "plate-lab",
+      "query": "Joseph Wright of Derby candlelit experiment painting",
+      "want": "Wright, reason under lamplight (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six cognitive biases quietly running your life right now.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "One. Confirmation bias — you only notice the evidence that proves you were already right.",
+      "plate": "plate-eye"
+    },
+    {
+      "text": "Two. The sunk cost trap — you keep going simply because you've already paid so much.",
+      "plate": "plate-lab"
+    },
+    {
+      "text": "Three. Availability — you fear the dramatic and rare, and ignore the boring and likely.",
+      "plate": "plate-eye"
+    },
+    {
+      "text": "Four. Dunning–Kruger — the less you understand, the more certain you tend to feel.",
+      "plate": "plate-mind"
+    },
+    {
+      "text": "Five. Negativity bias — one harsh comment can outweigh ten kind ones.",
+      "plate": "plate-lab"
+    },
+    {
+      "text": "Six. Hindsight — once you know how it ended, you swear you saw it coming all along.",
+      "plate": "plate-eye"
+    },
+    {
+      "text": "You can't delete them. But naming a bias is the first step to stealing its power.",
+      "plate": "plate-mind",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one catches you most?",
+  "cta": "Follow for more"
+}

@@ -60,7 +60,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 
 | ID | Niche | List | Status | Notes |
 |----|-------|------|--------|-------|
-| LH-01 | Self-improvement | 6 habits of high-IQ people | 📝 | round 1 |
-| LS-01 | Applied Stoicism | 5 Stoic rules for hard times | 📝 | round 1 |
-| LB-01 | Books & reading | 5 short books that change how you think | 📝 | round 1 |
-| LM-01 | Psychology | 6 signs of high emotional intelligence | 📝 | round 1 |
+| LH-01 | Self-improvement | 6 habits of high-IQ people | ✅ | run 41800129526 |
+| LS-01 | Applied Stoicism | 5 Stoic rules for hard times | ✅ | run 41800136794 |
+| LB-01 | Books & reading | 5 short books that change how you think | ✅ | run 41800143202 |
+| LM-01 | Psychology | 6 signs of high emotional intelligence | ✅ | run 41800148839 |
+| LH-02 | Self-improvement | 6 habits of people who can focus | 📝 | round 2 |
+| LS-02 | Applied Stoicism | 5 things the Stoics did every morning | 📝 | round 2 |
+| LB-02 | Books & reading | 5 classic novels worth the hype | 📝 | round 2 |
+| LM-02 | Psychology | 6 cognitive biases fooling you | 📝 | round 2 |
