@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-08",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "hard truths that set you free",
+    "format": "list",
+    "title": "6 hard truths that will set you free",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "hard truths about life",
+    "hashtags": [
+      "selfimprovement",
+      "hardtruths",
+      "discipline",
+      "mindset",
+      "motivation"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-peak",
+      "query": "Caspar David Friedrich lone figure on a cliff painting",
+      "want": "Standing alone, clear-eyed (PD)"
+    },
+    {
+      "id": "plate-storm",
+      "query": "J. M. W. Turner storm at sea painting",
+      "want": "Truth that stings before it frees (PD)"
+    },
+    {
+      "id": "plate-dawn",
+      "query": "Frederic Edwin Church sunrise over ocean painting",
+      "want": "Clarity breaking (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six hard truths that sting at first — then quietly set you free.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "One. No one is coming to save you. That's not despair. That's the beginning of your power.",
+      "plate": "plate-peak"
+    },
+    {
+      "text": "Two. Most people won't clap for you. Build the life anyway. Applause was never the point.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Three. Discipline will carry you to places motivation never even finds the door to.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "Four. You slowly become the five people you spend the most time with. Choose carefully.",
+      "plate": "plate-peak"
+    },
+    {
+      "text": "Five. Comfort is pleasant, and it's exactly where most dreams quietly go to sleep.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Six. Time is passing whether you use it or not. The only choice is whether it counts.",
+      "plate": "plate-dawn"
+    },
+    {
+      "text": "The truth is heavy — but it's lighter than the lies you've been carrying instead.",
+      "plate": "plate-peak",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save the one you needed to hear.",
+  "cta": "Follow for more"
+}

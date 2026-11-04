@@ -84,7 +84,11 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LS-06 | Applied Stoicism | 5 truths about wasted time | ✅ | run 41803443522 |
 | LB-06 | Books & reading | 6 most powerful lines in literature | ✅ | run 41803449253 |
 | LM-06 | Psychology | 5 things mature people do in arguments | ✅ | run 41803455343 |
-| LH-07 | Self-improvement | 6 things worth letting go of | 📝 | round 7 |
-| LS-07 | Applied Stoicism | 5 things Epictetus would tell you | 📝 | round 7 |
-| LB-07 | Books & reading | 5 underrated classics | 📝 | round 7 |
-| LM-07 | Psychology | 6 subtle signs of high intelligence | 📝 | round 7 |
+| LH-07 | Self-improvement | 6 things worth letting go of | ✅ | run 41804128111 |
+| LS-07 | Applied Stoicism | 5 things Epictetus would tell you | ✅ | run 41804134655 |
+| LB-07 | Books & reading | 5 underrated classics | ✅ | run 41804141020 |
+| LM-07 | Psychology | 6 subtle signs of high intelligence | ✅ | run 41804147550 |
+| LH-08 | Self-improvement | 6 hard truths that set you free | 📝 | round 8 |
+| LS-08 | Applied Stoicism | 5 questions the Stoics asked nightly | 📝 | round 8 |
+| LB-08 | Books & reading | 5 novels that double as philosophy | 📝 | round 8 |
+| LM-08 | Psychology | 5 habits of genuinely calm people | 📝 | round 8 |

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-08",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "questions the Stoics asked each night",
+    "format": "list",
+    "title": "5 questions the Stoics asked themselves every night",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoic evening journaling questions",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "journaling",
+      "selfreflection",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-lamp",
+      "query": "Georges de La Tour figure writing by candlelight painting",
+      "want": "A nightly reckoning by candle (PD)"
+    },
+    {
+      "id": "plate-seneca",
+      "query": "ancient Roman bust of Seneca sculpture",
+      "want": "Seneca, who reviewed each day (PD)"
+    },
+    {
+      "id": "plate-night",
+      "query": "Caspar David Friedrich night moon quiet landscape painting",
+      "want": "The calm of an examined day (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Every night, Seneca sat in judgement of his own day. Five questions he asked himself.",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "One. What did I do well today? Name it, so the good is deliberate, not accidental.",
+      "plate": "plate-lamp"
+    },
+    {
+      "text": "Two. What did I do badly? Face it plainly, as a friend would — not as an enemy.",
+      "plate": "plate-lamp"
+    },
+    {
+      "text": "Three. What did I leave undone that I should have done?",
+      "plate": "plate-night"
+    },
+    {
+      "text": "Four. Where did a feeling — anger, fear, envy — end up running me?",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "Five. How, precisely, will I be a little better tomorrow?",
+      "plate": "plate-night"
+    },
+    {
+      "text": "He slept well, he said, because each night he had already settled his accounts.",
+      "plate": "plate-lamp",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Seneca's nightly self-review.",
+  "cta": "Follow for more"
+}

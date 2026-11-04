@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-08",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "habits of genuinely calm people",
+    "format": "list",
+    "title": "5 habits of genuinely calm people",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "habits of calm people",
+    "hashtags": [
+      "psychology",
+      "calm",
+      "mindfulness",
+      "mentalhealth",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-still",
+      "query": "Vilhelm Hammershøi quiet sunlit interior painting",
+      "want": "Unhurried stillness (PD)"
+    },
+    {
+      "id": "plate-lake",
+      "query": "Caspar David Friedrich still lake reflection evening painting",
+      "want": "A calm, mirror-flat surface (PD)"
+    },
+    {
+      "id": "plate-window",
+      "query": "Vermeer woman by a window soft light painting",
+      "want": "Composure in daylight (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five habits of people who stay calm when everyone else is spiralling.",
+      "plate": "plate-lake"
+    },
+    {
+      "text": "One. They respond instead of react. There's a pause between the trigger and the reply.",
+      "plate": "plate-still"
+    },
+    {
+      "text": "Two. They don't argue with reality. They deal with what is, not what should have been.",
+      "plate": "plate-lake"
+    },
+    {
+      "text": "Three. They fiercely protect their sleep and their mornings. Calm is built before the day starts.",
+      "plate": "plate-window"
+    },
+    {
+      "text": "Four. They let small things stay small, and refuse to rehearse every minor annoyance.",
+      "plate": "plate-still"
+    },
+    {
+      "text": "Five. They know exactly what they can't control — and they put it down, on purpose.",
+      "plate": "plate-lake"
+    },
+    {
+      "text": "Calm isn't a personality you're born with. It's a set of small choices, repeated.",
+      "plate": "plate-window",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which habit will you borrow first?",
+  "cta": "Follow for more"
+}

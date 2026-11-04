@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-08",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "novels that double as philosophy",
+    "format": "list",
+    "title": "5 novels that secretly double as philosophy",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "philosophical novels to read",
+    "hashtags": [
+      "books",
+      "philosophy",
+      "classics",
+      "booktok",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-books",
+      "query": "still life old books and skull painting",
+      "want": "Stories that ask the big questions (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Rembrandt reader deep in thought lamplight painting",
+      "want": "A reader thinking, not just reading (PD)"
+    },
+    {
+      "id": "plate-dark",
+      "query": "Caspar David Friedrich figure before the abyss painting",
+      "want": "The edge of a moral question (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five novels that are really philosophy wearing a story.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "One. Crime and Punishment — can a 'good' end ever justify a monstrous act? Dostoevsky won't let you off easy.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "Two. Notes from Underground — Dostoevsky again, on freedom, spite, and the limits of reason.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Three. Frankenstein — Shelley asks what we owe to the things, and people, we create.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Four. Heart of Darkness — Conrad on how thin the line is between civilisation and savagery.",
+      "plate": "plate-dark"
+    },
+    {
+      "text": "Five. The Picture of Dorian Gray — Wilde on beauty, conscience, and the cost of wanting neither to age nor pay.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "A good novel makes you feel. These make you think for weeks. Full retellings on the channel.",
+      "plate": "plate-books",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}
