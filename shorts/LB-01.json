@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-01",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "short books that change how you think",
+    "format": "list",
+    "title": "5 short books that will change how you think",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "short books that change your life",
+    "hashtags": [
+      "books",
+      "booktok",
+      "reading",
+      "philosophy",
+      "booksummary"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-library",
+      "query": "Carl Spitzweg The Bookworm painting library",
+      "want": "A reader lost among books (PD)"
+    },
+    {
+      "id": "plate-books",
+      "query": "still life stack of old books candle painting",
+      "want": "A quiet pile of books (PD)"
+    },
+    {
+      "id": "plate-scholar",
+      "query": "Rembrandt scholar reading in a study painting",
+      "want": "A reader by lamplight (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five short books that quietly rearrange how you think.",
+      "plate": "plate-library"
+    },
+    {
+      "text": "One. Meditations by Marcus Aurelius — a Roman emperor's private notes on staying sane.",
+      "plate": "plate-scholar"
+    },
+    {
+      "text": "Two. Letters from a Stoic by Seneca — the wisest advice you'll ever get from two thousand years away.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Three. The Myth of Sisyphus by Camus — how to find meaning in a world that offers none.",
+      "plate": "plate-library"
+    },
+    {
+      "text": "Four. Man's Search for Meaning by Viktor Frankl — purpose, forged in the darkest place imaginable.",
+      "plate": "plate-scholar"
+    },
+    {
+      "text": "Five. The Tao Te Ching by Lao Tzu — eighty short verses on doing more by forcing less.",
+      "plate": "plate-books"
+    },
+    {
+      "text": "Five books. A single weekend each. And a different pair of eyes by the end.",
+      "plate": "plate-library",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one are you reading first?",
+  "cta": "Follow for more"
+}

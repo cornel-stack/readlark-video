@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-01",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic rules for hard times",
+    "format": "list",
+    "title": "5 Stoic rules for when life falls apart",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoic rules for hard times",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "resilience",
+      "mindset",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-storm",
+      "query": "J. M. W. Turner Snow Storm Steam-Boat off a Harbour's Mouth",
+      "want": "Turner, a violent storm (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The Stoic emperor (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich Two Men Contemplating the Moon",
+      "want": "Stillness after the storm (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic rules for when everything is falling apart.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "One. Divide the situation in two: what you control, and what you don't. Then drop the second half.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Two. The event isn't what hurts you. The story you wrap around it does. See it plainly first.",
+      "plate": "plate-storm"
+    },
+    {
+      "text": "Three. Act from your values, not your mood. Do the next right thing even when you don't feel like it.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Four. Remember that nothing is permanent — and that includes this. The storm is also passing.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Five. Ask one question: what would the best version of me do in the next ten minutes?",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "You can't choose the storm. You can always choose how you meet it.",
+      "plate": "plate-calm",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius, Seneca & Epictetus.",
+  "cta": "Follow for more"
+}

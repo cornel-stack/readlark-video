@@ -191,9 +191,15 @@ def main() -> int:
     pkg = ROOT / "out" / "shorts" / code
     pkg.mkdir(parents=True, exist_ok=True)
     tags = " ".join("#" + h for h in meta.get("hashtags", []))
-    title2 = f"{meta['thinker']}: {meta['theme']}"
-    desc = (f"{meta['title']}\n\n{meta['thinker']} on {meta['theme']}.\n\n"
-            f"{short.get('source_note', '')}\n\nFollow ReadLark for a book or an idea, every day.\n\n{tags}")
+    if meta.get("format") == "list":
+        # Listicle short: no single thinker — lead with the list, then the hook line.
+        title2 = meta.get("theme", meta["title"])
+        desc = (f"{meta['title']}\n\n{short.get('source_note', '')}\n\n"
+                f"Follow ReadLark for a book or an idea, every day.\n\n{tags}")
+    else:
+        title2 = f"{meta['thinker']}: {meta['theme']}"
+        desc = (f"{meta['title']}\n\n{meta['thinker']} on {meta['theme']}.\n\n"
+                f"{short.get('source_note', '')}\n\nFollow ReadLark for a book or an idea, every day.\n\n{tags}")
     (pkg / "title.txt").write_text(meta["title"] + "\n", encoding="utf-8")
     (pkg / "titles-alternatives.txt").write_text(f"{meta['title']}\n{title2}\n", encoding="utf-8")
     (pkg / "description.txt").write_text(desc.strip() + "\n", encoding="utf-8")

@@ -53,3 +53,14 @@ Status: ⬜ planned · 📝 scripted (JSON written) · ✅ rendered
 | BE-01 | Modern | George Berkeley | to be is to be perceived | ✅ | run 41798976960 |
 
 _Add rows as ideas come. © = quote in copyright, paraphrase only; PD = public-domain translation may be quoted._
+
+## Listicle shorts — same dark-cinematic engine, list format
+
+Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS` applied Stoicism · `LB` books/reading · `LM` psychology/mind.
+
+| ID | Niche | List | Status | Notes |
+|----|-------|------|--------|-------|
+| LH-01 | Self-improvement | 6 habits of high-IQ people | 📝 | round 1 |
+| LS-01 | Applied Stoicism | 5 Stoic rules for hard times | 📝 | round 1 |
+| LB-01 | Books & reading | 5 short books that change how you think | 📝 | round 1 |
+| LM-01 | Psychology | 6 signs of high emotional intelligence | 📝 | round 1 |

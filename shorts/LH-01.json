@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-01",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "habits of high-IQ people",
+    "format": "list",
+    "title": "6 habits of people with a genuinely high IQ",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "habits of high iq people",
+    "hashtags": [
+      "intelligence",
+      "highiq",
+      "selfimprovement",
+      "habits",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-think",
+      "query": "Rembrandt Philosopher in Meditation painting",
+      "want": "A mind at work in quiet light (PD)"
+    },
+    {
+      "id": "plate-minds",
+      "query": "Raphael The School of Athens fresco",
+      "want": "The great thinkers gathered (PD)"
+    },
+    {
+      "id": "plate-curiosity",
+      "query": "Joseph Wright of Derby An Experiment on a Bird in the Air Pump",
+      "want": "Wright, wonder and enquiry (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six habits that quietly give away a high IQ.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "One. They question things most people accept without a second thought.",
+      "plate": "plate-curiosity"
+    },
+    {
+      "text": "Two. They read far outside their own field — on purpose.",
+      "plate": "plate-minds"
+    },
+    {
+      "text": "Three. They're comfortable saying three hard words: I don't know.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "Four. They guard long, unbroken stretches of deep focus.",
+      "plate": "plate-curiosity"
+    },
+    {
+      "text": "Five. They change their mind the moment the evidence does.",
+      "plate": "plate-minds"
+    },
+    {
+      "text": "Six. They treat boredom as a signal to get curious, not to reach for a screen.",
+      "plate": "plate-think"
+    },
+    {
+      "text": "None of these is a gift you're born with. Every one is a habit you can start today.",
+      "plate": "plate-minds",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save this as a reminder.",
+  "cta": "Follow for more"
+}

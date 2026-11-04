@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LM-01",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "signs of high emotional intelligence",
+    "format": "list",
+    "title": "6 signs you're more emotionally intelligent than you think",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "signs of high emotional intelligence",
+    "hashtags": [
+      "emotionalintelligence",
+      "psychology",
+      "selfawareness",
+      "mindset",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-face",
+      "query": "Rembrandt self-portrait old age painting",
+      "want": "A face full of inner weather (PD)"
+    },
+    {
+      "id": "plate-quiet",
+      "query": "Vilhelm Hammershøi interior figure quiet room painting",
+      "want": "A composed, reflective stillness (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Johannes Vermeer woman at a window soft light painting",
+      "want": "Vermeer, quiet self-possession (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six signs your emotional intelligence is higher than you give yourself credit for.",
+      "plate": "plate-face"
+    },
+    {
+      "text": "One. You can name exactly what you're feeling — not just 'good' or 'bad'.",
+      "plate": "plate-quiet"
+    },
+    {
+      "text": "Two. You pause in the gap between what happens and how you react.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Three. You don't take other people's bad moods as a verdict on you.",
+      "plate": "plate-face"
+    },
+    {
+      "text": "Four. You can sit with discomfort without rushing to numb or fix it.",
+      "plate": "plate-quiet"
+    },
+    {
+      "text": "Five. You can apologise properly — without a single 'but' defending yourself.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Six. You set a boundary without drowning in guilt afterwards.",
+      "plate": "plate-quiet"
+    },
+    {
+      "text": "If you recognised even three of these, you're further along than you think.",
+      "plate": "plate-face",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "How many did you recognise?",
+  "cta": "Follow for more"
+}
