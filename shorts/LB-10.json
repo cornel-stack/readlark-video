@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-10",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "books that will break your heart",
+    "format": "list",
+    "title": "5 books that will break your heart in the best way",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "books that will make you cry",
+    "hashtags": [
+      "books",
+      "booktok",
+      "classics",
+      "reading",
+      "literature"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-moody",
+      "query": "Caspar David Friedrich melancholy landscape ruins painting",
+      "want": "A beautiful, aching mood (PD)"
+    },
+    {
+      "id": "plate-reader",
+      "query": "Rembrandt solitary reader lamplight painting",
+      "want": "A reader moved by a page (PD)"
+    },
+    {
+      "id": "plate-sea",
+      "query": "J. M. W. Turner melancholy sea sunset painting",
+      "want": "Grief, rendered gorgeous (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five books that will quietly break your heart — in the best possible way.",
+      "plate": "plate-moody"
+    },
+    {
+      "text": "One. Wuthering Heights — Brontë. A love so fierce it ruins everyone it touches.",
+      "plate": "plate-moody"
+    },
+    {
+      "text": "Two. The Great Gatsby — Fitzgerald. A man in love with a dream that was never real.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "Three. A Tale of Two Cities — Dickens. A sacrifice you'll be thinking about for days.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Four. Tess of the d'Urbervilles — Hardy. A good woman, crushed by everyone else's cruelty.",
+      "plate": "plate-moody"
+    },
+    {
+      "text": "Five. The Metamorphosis — Kafka. The quiet heartbreak of being slowly unloved.",
+      "plate": "plate-reader"
+    },
+    {
+      "text": "Some books entertain. These ones stay. Full retellings are on the channel.",
+      "plate": "plate-sea",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Full retellings of each are on ReadLark.",
+  "cta": "Follow for more"
+}

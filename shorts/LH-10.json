@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-10",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "skills worth more than a degree",
+    "format": "list",
+    "title": "6 skills worth more than a degree",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "skills more valuable than a degree",
+    "hashtags": [
+      "selfimprovement",
+      "skills",
+      "success",
+      "mindset",
+      "career"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-tools",
+      "query": "Rembrandt scholar with instruments and books painting",
+      "want": "The tools of a capable mind (PD)"
+    },
+    {
+      "id": "plate-speak",
+      "query": "Jacques-Louis David orator addressing a crowd painting",
+      "want": "Speaking so people listen (PD)"
+    },
+    {
+      "id": "plate-focus",
+      "query": "Georges de La Tour single candle concentration painting",
+      "want": "Attention, the rarest skill (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six skills that will take you further than any degree.",
+      "plate": "plate-tools"
+    },
+    {
+      "text": "One. Writing clearly. Clear writing is just clear thinking made visible.",
+      "plate": "plate-tools"
+    },
+    {
+      "text": "Two. Speaking so people actually listen. Ideas don't spread themselves.",
+      "plate": "plate-speak"
+    },
+    {
+      "text": "Three. Selling — a product, a vision, yourself. Every career runs on it.",
+      "plate": "plate-speak"
+    },
+    {
+      "text": "Four. Managing your own attention, in a world built to steal it.",
+      "plate": "plate-focus"
+    },
+    {
+      "text": "Five. Learning how to learn — so no new skill is ever out of reach.",
+      "plate": "plate-tools"
+    },
+    {
+      "text": "Six. Staying calm under pressure, when everyone around you is losing their head.",
+      "plate": "plate-focus"
+    },
+    {
+      "text": "No exam grades these. But master a few, and doors open that no diploma can.",
+      "plate": "plate-speak",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which will you build first?",
+  "cta": "Follow for more"
+}

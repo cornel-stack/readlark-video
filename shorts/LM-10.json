@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-10",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "what your body language reveals",
+    "format": "list",
+    "title": "5 things your body language reveals before you speak",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "body language psychology signs",
+    "hashtags": [
+      "psychology",
+      "bodylanguage",
+      "communication",
+      "confidence",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-portrait",
+      "query": "Frans Hals lively portrait gesture painting",
+      "want": "A posture that speaks (PD)"
+    },
+    {
+      "id": "plate-group",
+      "query": "Rembrandt group of figures conversation painting",
+      "want": "Bodies in a room, reading each other (PD)"
+    },
+    {
+      "id": "plate-face",
+      "query": "Frans Hals laughing figure genuine smile painting",
+      "want": "A smile that reaches the eyes (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five things your body says about you before you open your mouth.",
+      "plate": "plate-portrait"
+    },
+    {
+      "text": "One. Eye contact. Steady and warm reads as confidence; darting reads as fear.",
+      "plate": "plate-face"
+    },
+    {
+      "text": "Two. Posture. An open chest and squared shoulders say 'I belong here.' Hunching says the opposite.",
+      "plate": "plate-portrait"
+    },
+    {
+      "text": "Three. Hands. Visible, relaxed hands build trust. Hidden hands quietly read as hiding something.",
+      "plate": "plate-group"
+    },
+    {
+      "text": "Four. Feet. They tend to point toward whatever — or whoever — truly has your attention.",
+      "plate": "plate-group"
+    },
+    {
+      "text": "Five. The smile. A real one crinkles the eyes. A polite one stops at the mouth, and people feel it.",
+      "plate": "plate-face"
+    },
+    {
+      "text": "You're always communicating. The only question is whether your body agrees with your words.",
+      "plate": "plate-portrait",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one will you fix first?",
+  "cta": "Follow for more"
+}

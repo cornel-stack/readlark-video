@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-10",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic keys to a happier life",
+    "format": "list",
+    "title": "5 Stoic keys to a genuinely happier life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism and happiness",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "happiness",
+      "philosophy",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-calm",
+      "query": "Caspar David Friedrich peaceful morning valley painting",
+      "want": "The calm of contentment (PD)"
+    },
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "The Stoic smile (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "J. M. W. Turner warm golden light landscape painting",
+      "want": "A life lit from within (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic keys to a genuinely happier life.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "One. Want what you already have. Imagine losing it, and you'll fall in love with it again.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Two. Spend your energy only on what's actually yours to control. Drop the rest.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Three. Do your work fully — then release the outcome. You own the effort, never the result.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Four. Choose your judgements with care. Your world is coloured by the meaning you give it.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Five. Be useful. The Stoics knew happiness is a by-product of a life well spent, never the target.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Happiness, they taught, isn't out there to be chased. It's a way of meeting what's already here.",
+      "plate": "plate-calm",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Epictetus.",
+  "cta": "Follow for more"
+}
