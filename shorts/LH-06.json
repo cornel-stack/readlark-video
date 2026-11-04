@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-06",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "lies that keep you stuck",
+    "format": "list",
+    "title": "6 lies that are quietly keeping you stuck",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "lies that keep you stuck",
+    "hashtags": [
+      "selfimprovement",
+      "mindset",
+      "motivation",
+      "growth",
+      "discipline"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-fog",
+      "query": "Caspar David Friedrich figure in fog painting",
+      "want": "Stuck inside a fog of excuses (PD)"
+    },
+    {
+      "id": "plate-door",
+      "query": "Rembrandt figure in a doorway light painting",
+      "want": "A way out, just ahead (PD)"
+    },
+    {
+      "id": "plate-path",
+      "query": "Hudson River School open road through valley painting",
+      "want": "The road once the fog clears (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six lies you tell yourself that quietly keep you stuck.",
+      "plate": "plate-fog"
+    },
+    {
+      "text": "One. 'I'll start when I feel ready.' You won't. Readiness is something action creates.",
+      "plate": "plate-fog"
+    },
+    {
+      "text": "Two. 'I don't have time.' You have the same hours as everyone you admire. It's priorities.",
+      "plate": "plate-door"
+    },
+    {
+      "text": "Three. 'It's too late for me.' The best time was years ago. The second best is right now.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "Four. 'I'm just not that kind of person.' Identity follows action, not the other way round.",
+      "plate": "plate-door"
+    },
+    {
+      "text": "Five. 'If it's meant to be, it'll happen.' Nothing meaningful arrives without you moving first.",
+      "plate": "plate-fog"
+    },
+    {
+      "text": "Six. 'I'll be happy once I get there.' There always moves. Happiness is built on the way.",
+      "plate": "plate-path"
+    },
+    {
+      "text": "The fog isn't the world. It's the story. Change the story, and the road appears.",
+      "plate": "plate-path",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which lie do you tell yourself most?",
+  "cta": "Follow for more"
+}

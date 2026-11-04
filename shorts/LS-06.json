@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-06",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic truths about time",
+    "format": "list",
+    "title": "5 Stoic truths about the time you're wasting",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism on wasting time",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "time",
+      "seneca",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-hourglass",
+      "query": "still life hourglass skull vanitas painting",
+      "want": "Time running out, quietly (PD)"
+    },
+    {
+      "id": "plate-seneca",
+      "query": "ancient Roman bust of Seneca sculpture",
+      "want": "Seneca, On the Shortness of Life (PD)"
+    },
+    {
+      "id": "plate-dusk",
+      "query": "J. M. W. Turner sunset over water painting",
+      "want": "A day closing (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic truths about the time you keep letting slip away.",
+      "plate": "plate-hourglass"
+    },
+    {
+      "text": "One. Life isn't short, said Seneca. We just waste most of it, then complain it was brief.",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "Two. You guard your money and your door — yet give your hours away to anyone who asks.",
+      "plate": "plate-hourglass"
+    },
+    {
+      "text": "Three. Putting things off is the biggest waste of life. It robs you of today for a tomorrow that may not come.",
+      "plate": "plate-dusk"
+    },
+    {
+      "text": "Four. You act immortal. You plan decades ahead while squandering the single hour you actually hold.",
+      "plate": "plate-seneca"
+    },
+    {
+      "text": "Five. The time you've lost to distraction isn't coming back. But the next hour is still yours.",
+      "plate": "plate-dusk"
+    },
+    {
+      "text": "It is not that we have too little time, said Seneca. It is that we waste so much of it.",
+      "plate": "plate-hourglass",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Seneca, On the Shortness of Life.",
+  "cta": "Follow for more"
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-06",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "what emotionally mature people do in arguments",
+    "format": "list",
+    "title": "5 things emotionally mature people do in an argument",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "emotional maturity in arguments",
+    "hashtags": [
+      "emotionalintelligence",
+      "psychology",
+      "relationships",
+      "communication",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-two",
+      "query": "Rembrandt two figures in conversation dim light painting",
+      "want": "Two people, really talking (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Vermeer quiet domestic interior two figures painting",
+      "want": "Composure in tension (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Caravaggio two figures dramatic light painting",
+      "want": "Heat, and the choice to cool it (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five things emotionally mature people do in the middle of an argument.",
+      "plate": "plate-two"
+    },
+    {
+      "text": "One. They attack the problem, not the person. No name-calling, no dredging up old wounds.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Two. They try to understand before they try to win. Winning an argument can still lose the relationship.",
+      "plate": "plate-two"
+    },
+    {
+      "text": "Three. They can say 'you might be right' without it costing them anything.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Four. They take a break before they explode — and come back, instead of walking away for good.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Five. They repair afterwards. A real apology, not a tense silence pretending to be peace.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "The goal was never to defeat the other person. It was to understand, and still be close after.",
+      "plate": "plate-two",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save this for the next hard conversation.",
+  "cta": "Follow for more"
+}

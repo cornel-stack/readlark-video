@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-06",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "most powerful lines in literature",
+    "format": "list",
+    "title": "6 of the most powerful lines in all of literature",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "most powerful quotes in literature",
+    "hashtags": [
+      "books",
+      "literature",
+      "quotes",
+      "booktok",
+      "classics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-ink",
+      "query": "still life open book quill candlelight painting",
+      "want": "Words that outlived their authors (PD)"
+    },
+    {
+      "id": "plate-stars",
+      "query": "Vincent van Gogh Starry Night painting",
+      "want": "Looking up at the stars (PD)"
+    },
+    {
+      "id": "plate-sea",
+      "query": "J. M. W. Turner boats against the current sea painting",
+      "want": "Boats against the current (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six lines from literature that still stop readers in their tracks.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "\"It is a far, far better thing that I do, than I have ever done.\" — A Tale of Two Cities.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "\"So we beat on, boats against the current, borne back ceaselessly into the past.\" — The Great Gatsby.",
+      "plate": "plate-sea"
+    },
+    {
+      "text": "\"Whatever our souls are made of, his and mine are the same.\" — Wuthering Heights.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "\"We are all in the gutter, but some of us are looking at the stars.\" — Oscar Wilde.",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "\"To be, or not to be, that is the question.\" — Hamlet, still the loudest four centuries on.",
+      "plate": "plate-stars"
+    },
+    {
+      "text": "Great writers die. Their best sentences refuse to. Which one stays with you?",
+      "plate": "plate-ink",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}
