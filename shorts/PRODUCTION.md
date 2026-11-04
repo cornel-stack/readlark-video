@@ -93,10 +93,14 @@ Loop: one per niche per round, then repeat. `LH` habits/self-improvement · `LS`
 | LB-08 | Books & reading | 5 novels that double as philosophy | ✅ | run 41804840329 |
 | LM-08 | Psychology | 5 habits of genuinely calm people | ✅ | run 41804846494 |
 | LH-09 | Self-improvement | 5 things your future self will thank you for | ✅ | run 41805431681 |
-| LS-09 | Applied Stoicism | 5 Stoic ways to conquer fear | 🔁 | re-run (CI apt 403) |
+| LS-09 | Applied Stoicism | 5 Stoic ways to conquer fear | ✅ | run 41806218253 |
 | LB-09 | Books & reading | 5 books to read in your 20s | ✅ | run 41805444222 |
 | LM-09 | Psychology | 6 signs of genuine self-respect | ✅ | run 41805450731 |
-| LH-10 | Self-improvement | 6 skills worth more than a degree | 📝 | round 10 |
-| LS-10 | Applied Stoicism | 5 Stoic keys to a happier life | 📝 | round 10 |
-| LB-10 | Books & reading | 5 books that break your heart | 📝 | round 10 |
-| LM-10 | Psychology | 5 body-language tells | 📝 | round 10 |
+| LH-10 | Self-improvement | 6 skills worth more than a degree | ✅ | run 41806224524 |
+| LS-10 | Applied Stoicism | 5 Stoic keys to a happier life | ✅ | run 41806231250 |
+| LB-10 | Books & reading | 5 books that break your heart | ✅ | run 41806238063 |
+| LM-10 | Psychology | 5 body-language tells | ✅ | run 41806244458 |
+| LH-11 | Self-improvement | 6 ways to romanticise your life | 📝 | round 11 |
+| LS-11 | Applied Stoicism | 5 lessons for taming the ego | 📝 | round 11 |
+| LB-11 | Books & reading | 5 book lines that shift perspective | 📝 | round 11 |
+| LM-11 | Psychology | 5 phrases emotionally intelligent people use | 📝 | round 11 |

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LM-11",
+    "topic": "Psychology",
+    "thinker": "",
+    "theme": "phrases emotionally intelligent people use",
+    "format": "list",
+    "title": "5 phrases emotionally intelligent people use",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "phrases emotionally intelligent people use",
+    "hashtags": [
+      "emotionalintelligence",
+      "communication",
+      "psychology",
+      "relationships",
+      "selfimprovement"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-talk",
+      "query": "Rembrandt two people in warm conversation painting",
+      "want": "Real listening between two people (PD)"
+    },
+    {
+      "id": "plate-calm",
+      "query": "Vermeer quiet attentive figure interior painting",
+      "want": "Composed, present attention (PD)"
+    },
+    {
+      "id": "plate-pair",
+      "query": "Caravaggio two figures listening light painting",
+      "want": "The moment someone feels heard (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five phrases emotionally intelligent people use without even thinking.",
+      "plate": "plate-talk"
+    },
+    {
+      "text": "One. 'Help me understand.' It turns a clash into curiosity, instantly.",
+      "plate": "plate-pair"
+    },
+    {
+      "text": "Two. 'That's a fair point.' Conceding something small costs nothing and builds trust.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Three. 'I feel this, when that happens.' Owning the feeling instead of blaming the person.",
+      "plate": "plate-talk"
+    },
+    {
+      "text": "Four. 'I don't know — let's find out.' Comfortable not having every answer.",
+      "plate": "plate-pair"
+    },
+    {
+      "text": "Five. 'Let me think about that.' A pause, instead of a reaction they'll regret.",
+      "plate": "plate-calm"
+    },
+    {
+      "text": "Emotional intelligence isn't saying clever things. It's making the other person feel safe to be honest.",
+      "plate": "plate-talk",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Which one will you try today?",
+  "cta": "Follow for more"
+}

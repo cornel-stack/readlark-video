@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "id": "LH-11",
+    "topic": "Self-improvement",
+    "thinker": "",
+    "theme": "ways to romanticise your everyday life",
+    "format": "list",
+    "title": "6 small ways to romanticise your everyday life",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "how to romanticise your life",
+    "hashtags": [
+      "romanticizeyourlife",
+      "mindfulness",
+      "selfimprovement",
+      "gratitude",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-morning",
+      "query": "Vermeer woman pouring milk quiet morning painting",
+      "want": "An ordinary moment, made sacred (PD)"
+    },
+    {
+      "id": "plate-light",
+      "query": "Hammershøi sunlight falling across an interior painting",
+      "want": "Beauty in plain daylight (PD)"
+    },
+    {
+      "id": "plate-walk",
+      "query": "Caspar David Friedrich figure walking in nature painting",
+      "want": "A walk, truly noticed (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Six small ways to romanticise your ordinary, everyday life.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "One. Turn a routine into a ritual. The same coffee, made slowly, with full attention.",
+      "plate": "plate-morning"
+    },
+    {
+      "text": "Two. Put the phone down and actually notice — the light, the sound, the person in front of you.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Three. Give your day a soundtrack. Music turns a commute into a scene.",
+      "plate": "plate-walk"
+    },
+    {
+      "text": "Four. Keep one beautiful thing in sight. Fresh flowers, a good view, a line you love.",
+      "plate": "plate-morning"
+    },
+    {
+      "text": "Five. Do small tasks with care instead of rushing through them to get to 'real life'.",
+      "plate": "plate-light"
+    },
+    {
+      "text": "Six. Treat yourself as the main character. Decide, on purpose, that your day means something.",
+      "plate": "plate-walk"
+    },
+    {
+      "text": "You don't need a different life to feel wonder. Usually you just need to pay closer attention to this one.",
+      "plate": "plate-morning",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Save this for a dull Tuesday.",
+  "cta": "Follow for more"
+}

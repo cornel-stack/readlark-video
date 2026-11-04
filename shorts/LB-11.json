@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LB-11",
+    "topic": "Books & reading",
+    "thinker": "",
+    "theme": "book lines that change your perspective",
+    "format": "list",
+    "title": "5 lines from books that will shift your perspective",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "book quotes that change your perspective",
+    "hashtags": [
+      "books",
+      "quotes",
+      "literature",
+      "booktok",
+      "classics"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-ink",
+      "query": "still life open book and quill candlelight painting",
+      "want": "A line worth underlining (PD)"
+    },
+    {
+      "id": "plate-dream",
+      "query": "Caspar David Friedrich dreamlike misty landscape painting",
+      "want": "We are such stuff as dreams are made on (PD)"
+    },
+    {
+      "id": "plate-bird",
+      "query": "Caspar David Friedrich bird over open sky painting",
+      "want": "No net ensnares me (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five lines from books that quietly rearrange how you see things.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "\"We are such stuff as dreams are made on.\" — Shakespeare, The Tempest.",
+      "plate": "plate-dream"
+    },
+    {
+      "text": "\"There is nothing either good or bad, but thinking makes it so.\" — Hamlet.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "\"I am no bird; and no net ensnares me: I am a free human being.\" — Jane Eyre.",
+      "plate": "plate-bird"
+    },
+    {
+      "text": "\"Beware; for I am fearless, and therefore powerful.\" — Frankenstein.",
+      "plate": "plate-dream"
+    },
+    {
+      "text": "\"It is a truth universally acknowledged...\" — Austen, teaching us to read people, not just rooms.",
+      "plate": "plate-ink"
+    },
+    {
+      "text": "One sentence can outlast its author by centuries. Which of these stays with you?",
+      "plate": "plate-bird",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "All public-domain classics.",
+  "cta": "Follow for more"
+}

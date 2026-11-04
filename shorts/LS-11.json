@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "id": "LS-11",
+    "topic": "Applied Stoicism",
+    "thinker": "",
+    "theme": "Stoic lessons on taming the ego",
+    "format": "list",
+    "title": "5 Stoic lessons for taming your ego",
+    "voice": "en-GB-RyanNeural",
+    "text_status": "public_domain",
+    "search_phrase": "stoicism and ego",
+    "hashtags": [
+      "stoicism",
+      "stoic",
+      "ego",
+      "humility",
+      "mindset"
+    ]
+  },
+  "plates": [
+    {
+      "id": "plate-marcus",
+      "query": "marble bust of Marcus Aurelius sculpture",
+      "want": "An emperor who distrusted his own power (PD)"
+    },
+    {
+      "id": "plate-mirror",
+      "query": "Gustave Courbet self portrait painting",
+      "want": "Facing the self honestly (PD)"
+    },
+    {
+      "id": "plate-sky",
+      "query": "Caspar David Friedrich vast sky small figure painting",
+      "want": "The ego shrunk to its true size (PD)"
+    }
+  ],
+  "beats": [
+    {
+      "text": "Five Stoic lessons for keeping your ego in its place.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "One. You are not your opinions. Stop defending them as if they were your life.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "Two. Ego wants to be seen as good. Character just quietly tries to be good. Feed the second one.",
+      "plate": "plate-marcus"
+    },
+    {
+      "text": "Three. Praise and blame both live outside you. Don't move into either and call it home.",
+      "plate": "plate-sky"
+    },
+    {
+      "text": "Four. The need to look right is the very thing that stops you from becoming right.",
+      "plate": "plate-mirror"
+    },
+    {
+      "text": "Five. Stay a student. The moment you crown yourself a master, you quietly stop growing.",
+      "plate": "plate-sky"
+    },
+    {
+      "text": "Marcus ruled the world and still wrote to himself in secret. That is what a tamed ego looks like.",
+      "plate": "plate-marcus",
+      "emphasis": true
+    }
+  ],
+  "attribution": "",
+  "source_note": "Inspired by Marcus Aurelius & Epictetus.",
+  "cta": "Follow for more"
+}
